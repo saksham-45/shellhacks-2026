@@ -209,19 +209,21 @@ public final class VoiceOverFocusStopObserver: @unchecked Sendable {
             let info = note.userInfo ?? [:]
             let tech = info[UIAccessibility.assistiveTechnologyUserInfoKey]
             let techID = (tech as? UIAccessibility.AssistiveTechnologyIdentifier)?.rawValue ?? (tech as? String)
-            let voiceOverRunning = UIAccessibility.isVoiceOverRunning
-            let source: FocusSource
-            if techID == UIAccessibility.AssistiveTechnologyIdentifier.notificationSwitchControl.rawValue
-                || (UIAccessibility.isSwitchControlRunning && !voiceOverRunning) {
-                source = .switchControl
-            } else if voiceOverRunning, techID == nil || techID == UIAccessibility.AssistiveTechnologyIdentifier.notificationVoiceOver.rawValue {
-                source = .voiceOver
-            } else {
-                source = .other
-            }
             let focused = info[UIAccessibility.focusedElementUserInfoKey].map { PlaybackOrigin(object: $0 as AnyObject) }
             let time = ProcessInfo.processInfo.systemUptime   // stamped now: events may be handled out of order
-            Task { await stopper.handle(.focusChanged(source: source, element: focused), at: time) }
+            Task { @MainActor in
+                let voiceOverRunning = UIAccessibility.isVoiceOverRunning
+                let source: FocusSource
+                if techID == UIAccessibility.AssistiveTechnologyIdentifier.notificationSwitchControl.rawValue
+                    || (UIAccessibility.isSwitchControlRunning && !voiceOverRunning) {
+                    source = .switchControl
+                } else if voiceOverRunning, techID == nil || techID == UIAccessibility.AssistiveTechnologyIdentifier.notificationVoiceOver.rawValue {
+                    source = .voiceOver
+                } else {
+                    source = .other
+                }
+                await stopper.handle(.focusChanged(source: source, element: focused), at: time)
+            }
         }
     }
     deinit { if let token { NotificationCenter.default.removeObserver(token) } }
