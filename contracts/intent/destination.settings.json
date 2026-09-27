@@ -1,0 +1,7 @@
+{
+  "note": "Destination.settings. Example ids only.",
+  "type": "destination",
+  "value": {
+    "type": "settings"
+  }
+}

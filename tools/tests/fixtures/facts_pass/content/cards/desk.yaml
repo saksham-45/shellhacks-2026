@@ -1,0 +1,5 @@
+id: desk
+title: {es: "t", en: "t", ht: "t"}
+summary: {es: "{fact:xx-test.desk.phone}", en: "{fact:xx-test.desk.phone}", ht: "{fact:xx-test.desk.phone}"}
+body: {es: "b", en: "b", ht: "b"}
+fact_refs: [xx-test.desk.phone]

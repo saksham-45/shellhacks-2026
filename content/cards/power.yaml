@@ -1,0 +1,105 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: power
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > Money
+  item: Power range, labeled as neighbor reports from Kendall in August 2026, not this meter
+- plan: mymiami-plan.md
+  section: Every feature > Money
+  item: Power
+title:
+  es: Rango de la cuenta de luz
+  en: Power bill range
+  ht: Konbyen kouran ka koute
+summary:
+  es: 'Lo que vecinos de Kendall dijeron pagar, no tu medidor. Y lo que sí ayuda: el termostato y el sol en las ventanas.'
+  en: 'What neighbors in Kendall reported paying, not your meter. Plus the moves that matter: the thermostat and sun on the windows.'
+  ht: 'Sa vwazen Kendall yo di yo te peye, se pa kontè pa w. Plis sa ki fè diferans: tèmosta a ak solèy sou fenèt yo.'
+body:
+  es: |-
+    Los vecinos dijeron: {fact:us-fl-miamidade.power.neighbor-reports-kendall}. Son reportes de vecinos, con el mes que cubren, no este medidor.
+
+    Tu cuenta real está en tu propia cuenta de la compañía de luz. No es pública, así que no la podemos ver.
+
+    Sube un poco el termostato, y tapa el sol directo en las ventanas por la tarde.
+
+    Si FPL te pide un depósito, es de {fact:us-fl.fpl.deposit-months} de uso eléctrico esperado. Se devuelve después de {fact:us-fl.fpl.deposit-refund-months} de servicio consecutivo si cumples las condiciones de pago.
+
+    El programa LIHEAP del condado tiene reglas sobre quién en el hogar califica para la ayuda de la cuenta de luz. Pregunta al escritorio de Community Services; no adivines si calificas.
+  en: |-
+    Neighbors reported: {fact:us-fl-miamidade.power.neighbor-reports-kendall}. These are neighbor reports, with the month they cover, not this meter.
+
+    Your real bill is in your own utility account. It is not public, so we cannot see it.
+
+    Set the thermostat a little higher, and block direct sun on the windows in the afternoon.
+
+    If FPL asks for a deposit, it is {fact:us-fl.fpl.deposit-months} of expected electric use. It is refunded after {fact:us-fl.fpl.deposit-refund-months} of consecutive service if you meet the payment conditions.
+
+    The county LIHEAP program has rules on who in the household qualifies for light-bill help. Ask the Community Services desk; do not guess whether you qualify.
+  ht: |-
+    Vwazen yo di: {fact:us-fl-miamidade.power.neighbor-reports-kendall}. Se rapò vwazen, ak mwa yo kouvri a, se pa kontè sa a.
+
+    Vrè bòdwo ou nan pwòp kont ou nan konpayi kouran an. Li pa piblik, kidonk nou pa ka wè l.
+
+    Monte tèmosta a yon ti kras, epi bloke solèy dirèk sou fenèt yo nan apremidi.
+
+    Si FPL mande yon depo, se {fact:us-fl.fpl.deposit-months} itilizasyon kouran yo prevwa. Yo remèt li apre {fact:us-fl.fpl.deposit-refund-months} sèvis youn apre lòt si ou ranpli kondisyon peman yo.
+
+    Pwogram LIHEAP konte a gen règ sou kiyès nan kay la ki kalifye pou èd sou bòdwo kouran. Mande biwo Community Services la; pa devine si ou kalifye.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.power.neighbor-reports-kendall
+- []
+- - us.energy.cooling-tips
+- - us-fl.fpl.deposit-months
+  - us-fl.fpl.deposit-refund-months
+- - us-fl.liheap.household-status-requirement
+desk: us-fl.fpl
+actions:
+- type: call_desk
+  desk_id: us-fl.fpl
+- type: call_desk
+  desk_id: us-fl-miamidade.community-services
+utterances:
+  es:
+  - cuánto es la cuenta de luz
+  - por qué mi cuenta de luz está tan alta
+  - la luz en Kendall
+  - cómo bajo la cuenta de FPL
+  - my light bill está carísima
+  en:
+  - how much is the power bill
+  - why is my electric bill so high
+  - light bill in Kendall
+  - how do I lower my FPL bill
+  - la cuenta de FPL is crazy
+  ht:
+  - konbyen bòdwo kouran an ye
+  - poukisa bòdwo kouran m wo konsa
+  - kouran nan Kendall
+  - kijan pou m bese bòdwo FPL mwen
+  - light bill la twò chè
+privacy_scope: household
+stages:
+- 5
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+fact_refs:
+- us-fl-miamidade.power.neighbor-reports-kendall
+- us.energy.cooling-tips
+- us-fl.fpl.deposit-months
+- us-fl.fpl.deposit-refund-months
+- us-fl.liheap.household-status-requirement
+topics:
+- utilities
+editor_notes: 'The plan''s month label moved into the neighbor-report fact: copy holds no month names.'

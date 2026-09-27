@@ -1,0 +1,75 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: etiquette-how-are-you
+kind: etiquette
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Origin lens > Etiquette cards
+  item: “How are you?” is a greeting, not a request for the truth.
+title:
+  es: “How are you?” es un saludo
+  en: “How are you?” is a greeting
+  ht: “How are you?” se yon bonjou
+summary:
+  es: Quiere decir hola. Contesta “Good, and you?” y sigue.
+  en: It means hello. Answer “Good, and you?” and keep going.
+  ht: Li vle di bonjou. Reponn “Good, and you?” epi kontinye.
+body:
+  es: |-
+    En tu país, la pregunta puede ser una invitación a contar cómo estás de verdad.
+
+    Aquí, el cajero o el empleado solo está saludando. Una respuesta corta es lo educado.
+
+    Guarda la respuesta de verdad para tu médico o tus amigos.
+  en: |-
+    At home, the question may be an invitation to tell how you really are.
+
+    Here, a cashier or clerk is saying hello. A short answer is polite.
+
+    Save the real answer for your doctor or your friends.
+  ht: |-
+    Lakay, kesyon an ka yon envitasyon pou w rakonte kijan ou ye vre.
+
+    Isit la, kesye a oswa anplwaye a ap di w bonjou sèlman. Yon repons kout se politès.
+
+    Kenbe vrè repons lan pou doktè ou oswa zanmi ou.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- []
+- []
+desk: us.211
+utterances:
+  es:
+  - qué contesto a how are you
+  - por qué todos preguntan how are you
+  - qué significa how are you
+  - qué digo cuando me preguntan cómo estoy
+  en:
+  - what do I answer to how are you
+  - why does everyone ask how are you
+  - how are you meaning
+  - what to say when they ask how I am
+  ht:
+  - kisa pou m reponn lè yo di how are you
+  - poukisa tout moun mande how are you
+  - sa how are you vle di
+  - kisa pou m di lè yo mande m kijan m ye
+privacy_scope: person
+stages:
+- 1
+- 10
+modes:
+- resident
+- tourist
+region_pack: us
+is_immigration: false
+fact_refs: []
+topics:
+- etiquette

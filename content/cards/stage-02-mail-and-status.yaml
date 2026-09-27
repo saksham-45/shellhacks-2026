@@ -1,0 +1,74 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: stage-02-mail-and-status
+kind: stage
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Stages
+  item: 2. Mail and status
+title:
+  es: Correo y estatus
+  en: Mail and status
+  ht: Lapòs ak estati
+summary:
+  es: Sé la palabra para mis papeles, y las cartas me llegan.
+  en: I know the word for my papers, and letters reach me.
+  ht: Mwen konnen mo pou papye mwen, epi lèt yo rive jwenn mwen.
+body:
+  es: |-
+    Lo principal es la palabra de tu estatus y el buzón.
+
+    Lo principal es la primera tarjeta de esa lista que aún no terminas. Cada familiar puede estar en una etapa distinta en la misma casa.
+  en: |-
+    The hero is the status word and the mailbox.
+
+    The hero is the first card on that list you have not finished. Family members can be on different stages in the same house.
+  ht: |-
+    Premye bagay la se mo estati ou ak bwat lèt ou.
+
+    Premye bagay la se premye kat nan lis sa a ou poko fini. Chak moun nan fanmi an ka nan yon etap diferan nan menm kay la.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- []
+desk: us.accredited-legal-help
+utterances:
+  es:
+  - correo y estatus
+  - qué sigue con mis papeles
+  - mis cartas y mi estatus
+  - próximo paso con los papeles
+  en:
+  - mail and status
+  - what is next for my papers
+  - my letters and my status
+  - next step papers
+  ht:
+  - lapòs ak estati
+  - kisa k ap vini pou papye m
+  - lèt mwen ak estati mwen
+  - pwochen etap pou papye yo
+privacy_scope: person-papers
+stages:
+- 2
+modes:
+- resident
+region_pack: us
+is_immigration: true
+hero_cards:
+- mail-address
+- status-word
+- papers-folder
+related_cards:
+- status-word
+- immigration-papers
+fact_refs: []
+topics:
+- immigration
+- mail

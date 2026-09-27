@@ -1,0 +1,12 @@
+{
+  "note": "AppAction answer_onboarding_volunteered_status_word. Example ids only; no real people or facts.",
+  "type": "app_action",
+  "value": {
+    "answer": {
+      "person_id": "00000000-0000-4000-8000-000000000002",
+      "status_word": "example-status",
+      "type": "volunteered_status_word"
+    },
+    "type": "answer_onboarding"
+  }
+}

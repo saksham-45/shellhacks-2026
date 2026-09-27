@@ -1,0 +1,308 @@
+[
+  {
+    "id": "us.immigration.tps.haiti.end-date",
+    "claim": "Haiti TPS designation terminated effective July 27, 2026; A12/C19 EADs issued to TPS Haiti beneficiaries are no longer valid.",
+    "value": "2026-07-27",
+    "unit": "date",
+    "value_type": "date",
+    "jurisdiction": "us",
+    "source_id": "us.uscis.i9central.haiti-tps-termination.2026-07-29",
+    "url": "https://www.uscis.gov/i-9-central/form-i-9-related-news/update-on-termination-of-temporary-protected-status-for-haiti-release-july-29-2026",
+    "quote": "The Haiti TPS designation is terminated, effective July 27, 2026. … Forms I-766, Employment Authorization Document, (EADs) with category A12 or C19 issued to TPS Haiti beneficiaries are no longer valid.",
+    "retrieved_at": "2026-09-25T17:40:24-04:00",
+    "check_every": "P1D",
+    "status": "verified",
+    "plan_value": "Haiti TPS ended 7/27/2026; A12/C19 EADs no longer valid",
+    "correction_note": "Confirmed. The FR notice itself says Feb 3, 2026; the July 27, 2026 date comes from USCIS after the Supreme Court judgment issued in Mullin v. Doe / Trump v. Miot. D.D.C. confirmed on Aug 5, 2026 that its stay is no longer in effect. Merits litigation in Miot v. Trump (D.D.C. 25-cv-02471) continues but no court order currently blocks the termination. Watch items (not primary-verified; congress.gov blocked the fetch): S. 4814 / H.R. 1689 to redesignate Haiti. Some secondary sources say termination took effect Aug 5, 2026; USCIS (the agency) says July 27, 2026.",
+    "topics": [
+      "immigration",
+      "tps"
+    ],
+    "desk": "us-fl-miamidade.immigration-legal-aid",
+    "x-supporting": [
+      {
+        "source_id": "uscis.tps.haiti",
+        "url": "https://www.uscis.gov/humanitarian/temporary-protected-status/temporary-protected-status-designated-country-haiti",
+        "retrieved_at": "2026-09-25T17:40:24-04:00",
+        "quote": "On June 25, 2026, the U.S. Supreme Court issued a favorable decision concerning TPS terminations. Mullin v. Doe, 609 U.S. ____ (2026). The Haiti TPS designation is terminated, effective July 27, 2026.",
+        "note": "Page is marked \"Archived Content\"; Last Reviewed/Updated 07/27/2025 per page footer."
+      },
+      {
+        "source_id": "fr.2025-21379",
+        "citation": "90 FR 54733 (Nov. 28, 2025)",
+        "url": "https://www.federalregister.gov/documents/2025/11/28/2025-21379/termination-of-the-designation-of-haiti-for-temporary-protected-status",
+        "retrieved_at": "2026-09-25T17:40:24-04:00",
+        "quote": "The designation of Haiti for Temporary Protected Status is terminated, effective at 11:59 p.m., local time, on February 3, 2026.",
+        "note": "Original FR effective date was Feb 3, 2026; postponed by D.D.C. stay of Feb 2, 2026 until the Supreme Court judgment issued July 27, 2026."
+      },
+      {
+        "source_id": "scotus.mullin-v-doe.25-1083",
+        "url": "https://www.supremecourt.gov/opinions/25pdf/25-1083_f204.pdf",
+        "retrieved_at": "2026-09-25T17:36:00-04:00",
+        "quote": "The TPS statute bars judicial review of non-constitutional claims. … Reversed and remanded."
+      },
+      {
+        "source_id": "dcd.miot-v-trump.25-cv-02471.dkt144",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.283214/gov.uscourts.dcd.283214.144.0.pdf",
+        "retrieved_at": "2026-09-25T17:40:24-04:00",
+        "quote": "Therefore, the Court’s Order, which had stayed the effective date of Department of Homeland Security Secretary Kristi Noem’s Termination of the Designation of Haiti for Temporary Protected Status, 90 Fed. Reg. 54733 (Nov. 28, 2025) (Termination), pending judicial review, is no longer in effect."
+      },
+      {
+        "source_id": "dcd.miot-v-trump.25-cv-02471.dkt146",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.283214/gov.uscourts.dcd.283214.146.0.pdf",
+        "retrieved_at": "2026-09-25T17:40:24-04:00",
+        "quote": "The parties have conferred and propose the following schedule for merits briefing",
+        "note": "Joint status report filed 09/04/26: merits briefing (motion for judgment on the pleadings due Sept 16, 2026; reply due Nov 6, 2026) and discovery continue. No stay of the termination is in effect."
+      }
+    ],
+    "x-verdict": "verified",
+    "x-source_id_original": "uscis.i9central.haiti-tps-termination.2026-07-29"
+  },
+  {
+    "id": "us.immigration.tps.venezuela.doc-validity",
+    "claim": "Venezuela TPS EADs, I-797 notices and I-94s issued on or before Feb 5, 2025 with an Oct 2, 2026 expiration remain valid until Oct 2, 2026.",
+    "value": "2026-10-02",
+    "unit": "date",
+    "value_type": "date",
+    "jurisdiction": "us",
+    "source_id": "us.uscis.tps.venezuela",
+    "url": "https://www.uscis.gov/humanitarian/temporary-protected-status/temporary-protected-status-designated-country-venezuela",
+    "quote": "TPS beneficiaries who received TPS-related employment authorization documents (EADs), Forms I-797, Notices of Action, and Forms I-94 issued with October 2, 2026, expiration dates on or before February 5, 2025 will maintain work authorization and their documentation will remain valid until October 2, 2026, pursuant to the U.S. District Court for the Northern District of California’s order dated May 30, 2025.",
+    "retrieved_at": "2026-09-25T17:40:24-04:00",
+    "check_every": "P1D",
+    "status": "verified",
+    "plan_value": "Docs issued on or before 2/5/2025 showing Oct 2, 2026 expiration valid only until Oct 2, 2026",
+    "correction_note": "Confirmed; wording tightened: the rule covers EADs, Forms I-797 and Forms I-94 that were issued on or before Feb 5, 2025 with an Oct 2, 2026 expiration. USCIS says \"until October 2, 2026\" (its filing table says \"through Oct. 2, 2026\"). Everyone else under the 2023 designation lost TPS when the Supreme Court let the termination take effect on Oct 3, 2025; the 2021 designation ended Nov 7, 2025. NTPSA v. Noem (N.D. Cal. 3:25-cv-01766) is still being litigated; no primary source found extending past Oct 2, 2026. Deadline is 7 days away.",
+    "topics": [
+      "immigration",
+      "tps"
+    ],
+    "desk": "us-fl-miamidade.immigration-legal-aid",
+    "x-supporting": [
+      {
+        "source_id": "uscis.i9central.venezuela-scotus-order",
+        "url": "https://www.uscis.gov/i-9-central/form-i-9-related-news/update-supreme-court-order-for-tps-venezuela-0",
+        "retrieved_at": "2026-09-25T17:40:24-04:00",
+        "quote": "On Oct. 3, 2025, the U.S. Supreme Court allowed the termination of the 2023 Venezuela TPS designation to take immediate effect.",
+        "note": "Page Last Reviewed/Updated 06/22/2026."
+      },
+      {
+        "source_id": "fr.2025-02294",
+        "citation": "90 FR 9040 (Feb. 5, 2025)",
+        "url": "https://www.federalregister.gov/documents/2025/02/05/2025-02294/termination-of-the-october-3-2023-designation-of-venezuela-for-temporary-protected-status",
+        "retrieved_at": "2026-09-25T17:37:00-04:00",
+        "quote": "The October 3, 2023 designation of Venezuela for TPS is terminated effective at 11:59 p.m., local time, on April 7, 2025."
+      },
+      {
+        "source_id": "fr.2025-17087",
+        "citation": "90 FR 43225 (Sept. 8, 2025)",
+        "url": "https://www.federalregister.gov/documents/2025/09/08/2025-17087/termination-of-the-2021-designation-of-venezuela-for-temporary-protected-status",
+        "retrieved_at": "2026-09-25T17:37:00-04:00",
+        "quote": "The 2021 designation of Venezuela for TPS is terminated, effective at 11:59 p.m., local time, on November 7, 2025."
+      }
+    ],
+    "x-verdict": "verified",
+    "x-source_id_original": "uscis.tps.venezuela"
+  },
+  {
+    "id": "us.medicaid.hr1.noncitizen-eligibility.effective",
+    "claim": "Starting Oct 1, 2026, H.R.1 (P.L. 119-21) §71109 ends federal Medicaid/CHIP matching for full coverage for noncitizens other than LPRs, Cuban/Haitian entrants and COFA migrants (citizens and nationals are unaffected), with exceptions for emergency Medicaid and the CHIPRA 214 lawfully-residing children/pregnant women option.",
+    "value": "2026-10-01",
+    "unit": "date",
+    "value_type": "date",
+    "jurisdiction": "us",
+    "source_id": "us.congress.pl119-21.sec71109",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/1/text",
+    "quote": "beginning on October 1, 2026, except as provided in paragraphs (2) and (4), in no event shall payment be made to a State under this section for medical assistance furnished to an individual unless such individual is—",
+    "retrieved_at": "2026-09-25T17:40:48-04:00",
+    "check_every": "P7D",
+    "status": "verified",
+    "plan_value": "Medicaid/CHIP noncitizen eligibility change starts Oct 1, 2026",
+    "correction_note": "Date confirmed from the statute. Precision fix: §71109 limits FEDERAL PAYMENT (FFP) to states rather than directly rewriting eligibility. Groups that remain: citizens and nationals, LPRs, Cuban/Haitian entrants, COFA migrants. Everyone else (e.g., refugees, asylees, parolees, trafficking victims unless they hold one of those statuses) loses federally matched full-scope Medicaid/CHIP. Exceptions: 1903(v)(2) emergency Medicaid and 1903(v)(4) CHIPRA 214 lawfully residing children/pregnant women option. States may still pay with state-only funds. CMS SHO #26-001 (Apr 8, 2026) names \"asylees, refugees, parolees, or victims of trafficking\", but that was seen in search results only: medicaid.gov returned 403 to the box and WebFetch timed out, so there is no CMS quote in the ledger. Florida's CHIPRA 214 election and AHCA plans are unsourced.",
+    "topics": [
+      "health"
+    ],
+    "x-remaining_groups_quote": "“(i) a citizen or national of the United States;“(ii) an alien lawfully admitted for permanent residence as an immigrant … “(iii) an alien who has been granted the status of Cuban and Haitian entrant, as defined in section 501(e) of the Refugee Education Assistance Act of 1980 (Public Law 96–422); or“(iv) an individual who lawfully resides in the United States in accordance with a Compact of Free Association",
+    "x-unsourced_parts": [
+      "CMS SHO #26-001 text (https://www.medicaid.gov/federal-policy-guidance/downloads/sho26001.pdf): fetch blocked (403)",
+      "Florida CHIPRA 214 election / AHCA implementation"
+    ],
+    "x-verdict": "verified",
+    "x-source_id_original": "congress.pl119-21.sec71109"
+  },
+  {
+    "id": "us.medicare.noncitizen.eligible-groups",
+    "claim": "Under P.L. 119-21 sec. 71201 (new SSA sec. 1899C, 42 USC 1395mmm), Medicare entitlement or enrollment is limited to citizens/nationals, LPRs, Cuban and Haitian entrants, and COFA migrants.",
+    "value": [
+      "citizen or national",
+      "lawful permanent resident",
+      "Cuban and Haitian entrant",
+      "COFA migrant"
+    ],
+    "unit": null,
+    "value_type": "codes",
+    "jurisdiction": "us",
+    "source_id": "us.congress-hr1-text",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/1/text",
+    "quote": "an individual may be entitled to, or enrolled for, benefits under this title only if the individual is—“(1) a citizen or national of the United States;“(2) an alien who is lawfully admitted for permanent residence under the Immigration and Nationality Act;“(3) an alien who has been granted the status of Cuban and Haitian entrant, as defined in section 501(e) of the Refugee Education Assistance Act of 1980 (Public Law 96–422); or“(4) an individual who lawfully resides in the United States in accordance with a Compact of Free Association",
+    "retrieved_at": "2026-09-25T18:05:00-04:00",
+    "check_every": "P1D",
+    "status": "verified",
+    "desk": "us.ssa",
+    "topics": [
+      "immigration"
+    ],
+    "plan_ref": "myamericandream-plan-additions.md Batch 3 #1",
+    "x-original-value": [
+      "citizen or national",
+      "lawful permanent resident",
+      "Cuban and Haitian entrant",
+      "COFA migrant"
+    ]
+  },
+  {
+    "id": "us.medicare.noncitizen.existing-enrollee-rule",
+    "claim": "For people already entitled/enrolled on the date of enactment (July 4, 2025), the limit applies beginning 18 months after enactment; SSA must review within 1 year and notify as soon as practicable.",
+    "value": "18 months after enactment (P.L. 119-21, enacted July 4, 2025)",
+    "unit": null,
+    "value_type": "text",
+    "jurisdiction": "us",
+    "source_id": "us.congress-hr1-text",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/1/text",
+    "quote": "In the case of an individual who is entitled to, or enrolled for, benefits under this title as of the date of the enactment of this section, subsection (a) shall apply beginning on the date that is 18 months after such date of enactment.",
+    "retrieved_at": "2026-09-25T18:05:00-04:00",
+    "check_every": "P1D",
+    "status": "verified",
+    "desk": "us.ssa",
+    "topics": [
+      "immigration"
+    ],
+    "value_language": "en"
+  },
+  {
+    "id": "us.medicare.noncitizen.termination-date",
+    "claim": "Calendar date Medicare ends for non-citizen enrollees outside the four groups who were enrolled as of July 4, 2025.",
+    "value": null,
+    "unit": null,
+    "value_type": "date",
+    "jurisdiction": "us",
+    "source_id": "us.fr-2026-14327",
+    "url": "https://www.federalregister.gov/documents/2026/07/16/2026-14327/medicare-and-medicaid-programs-cy-2027-payment-policies-under-the-physician-fee-schedule-and-other",
+    "quote": "Individuals who do not meet these criteria and who were enrolled in Medicare on or before July 4, 2025, will have their coverage terminated effective February 1, 2027, which is the date that is 18 months after enactment of the WTFC legislation (July 4, 2025).",
+    "retrieved_at": "2026-09-25T18:05:00-04:00",
+    "check_every": "P1D",
+    "status": "unsourced",
+    "desk": "us.ssa",
+    "plan_value": "2027-02-01 (CMA) vs 2027-01-04 (secondary)",
+    "topics": [
+      "immigration"
+    ],
+    "x-dispute_note": "Feb 1, 2027 appears only in the CMS CY 2027 Physician Fee Schedule PROPOSED rule (FR 2026-14327, 91 FR 43842, July 16, 2026; comments closed Sept 14, 2026); no final rule found in the Federal Register as of 2026-09-25. The statute says '18 months after' July 4, 2025, which by plain count is Jan 4, 2027 (a computation, not quoted text). Show neither date as fact until the final rule or SSA notice text is sourced."
+  },
+  {
+    "id": "us.medicare.noncitizen.ssa-notice-window",
+    "claim": "SSA sends preliminary notices Aug-Nov 2026 and termination notices late Dec 2026.",
+    "value": null,
+    "unit": null,
+    "value_type": "text",
+    "jurisdiction": "us",
+    "source_id": "us.fr-2026-14327",
+    "url": "https://www.federalregister.gov/documents/2026/07/16/2026-14327/medicare-and-medicaid-programs-cy-2027-payment-policies-under-the-physician-fee-schedule-and-other",
+    "quote": "",
+    "retrieved_at": "2026-09-25T18:05:00-04:00",
+    "check_every": "P1D",
+    "status": "unsourced",
+    "desk": "us.ssa",
+    "topics": [
+      "immigration"
+    ],
+    "x-dispute_note": "Only in a Center for Medicare Advocacy summary (secondary). Statute only says SSA notifies 'as soon as practicable'. No SSA page quoting the Aug-Nov / late-Dec schedule was fetched."
+  },
+  {
+    "id": "us.immigration.f1.fixed-admission.effective",
+    "claim": "DHS final rule replaces duration of status with a fixed admission period for F, J and I nonimmigrants, effective Sept 15, 2026.",
+    "value": "2026-09-15",
+    "unit": null,
+    "value_type": "date",
+    "jurisdiction": "us",
+    "source_id": "us.fr-2026-14439",
+    "url": "https://www.federalregister.gov/documents/2026/07/17/2026-14439/establishing-a-fixed-time-period-of-admission-and-an-extension-of-stay-procedure-for-nonimmigrant",
+    "quote": "This rule has been classified as a major rule subject to congressional review. The effective date is September 15, 2026.",
+    "retrieved_at": "2026-09-25T18:05:00-04:00",
+    "check_every": "P1D",
+    "status": "verified",
+    "desk": "us.uscis",
+    "topics": [
+      "immigration"
+    ],
+    "correction_note": "Rule text also warns the date could change after congressional review; no such FR document found as of 2026-09-25."
+  },
+  {
+    "id": "us.immigration.f1.fixed-admission.length",
+    "claim": "Admission is granted up to the program end date, not to exceed 4 years, plus 30 days to depart; students admitted D/S and maintaining status on Sept 15, 2026 transition gradually.",
+    "value": "program end date, max 4 years, plus 30 days",
+    "unit": null,
+    "value_type": "text",
+    "jurisdiction": "us",
+    "source_id": "us.fr-2026-14439",
+    "url": "https://www.federalregister.gov/documents/2026/07/17/2026-14439/establishing-a-fixed-time-period-of-admission-and-an-extension-of-stay-procedure-for-nonimmigrant",
+    "quote": "Upon admission into the United States, a fixed period of stay is granted up to the program end date, not to exceed 4 years, plus an additional 30-days for F and J nonimmigrants to depart.",
+    "retrieved_at": "2026-09-25T18:05:00-04:00",
+    "check_every": "P7D",
+    "status": "verified",
+    "desk": "us.uscis",
+    "topics": [
+      "immigration"
+    ],
+    "value_language": "en"
+  },
+  {
+    "id": "us.irs.itin.not-id",
+    "claim": "IRS: an ITIN is for federal tax purposes only and does not serve as identification outside the federal tax system.",
+    "value": [
+      "Qualify you for Social Security benefits or the Earned Income Tax Credit",
+      "Provide or change immigration status",
+      "Authorize you to work legally in the U.S.",
+      "Serve as identification outside the federal tax system"
+    ],
+    "unit": null,
+    "value_type": "codes",
+    "jurisdiction": "us",
+    "source_id": "us.irs-itin",
+    "url": "https://www.irs.gov/individuals/individual-taxpayer-identification-number",
+    "quote": "An ITIN is issued by the IRS for federal tax purposes only. An ITIN doesn't : Qualify you for Social Security benefits or the Earned Income Tax Credit Provide or change immigration status Authorize you to work legally in the U.S. Serve as identification outside the federal tax system",
+    "retrieved_at": "2026-09-25T18:05:00-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "desk": "us-fl-miamidade.211",
+    "topics": [
+      "immigration"
+    ],
+    "x-original-value": [
+      "Qualify you for Social Security benefits or the Earned Income Tax Credit",
+      "Provide or change immigration status",
+      "Authorize you to work legally in the U.S.",
+      "Serve as identification outside the federal tax system"
+    ]
+  },
+  {
+    "id": "us-fl.local-id.restriction",
+    "claim": "Florida counties (125.0156) and municipalities (166.246) may not fund ID cards for people without proof of lawful presence, and may not accept IDs from issuers that knowingly issue to people not lawfully present; federal documents are exempt.",
+    "value": "restricted",
+    "unit": null,
+    "value_type": "text",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.statutes-166-246",
+    "url": "https://www.flsenate.gov/Laws/Statutes/2026/166.246",
+    "quote": "A municipality may not: (1) Provide funds to any person, entity, or organization for the purpose of issuing an identification card or document to an individual who does not provide proof of lawful presence in the United States. (2) Accept as identification any identification card or document issued by any person, entity, or organization that knowingly issues such identification cards or documents to individuals who are not lawfully present in the United States. This prohibition does not apply to any documentation issued by, or on behalf of, the Federal Government.",
+    "retrieved_at": "2026-09-25T18:05:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "desk": "us-fl-miamidade.immigration-legal-aid",
+    "topics": [
+      "immigration"
+    ],
+    "correction_note": "Discovery said the statutes 'limit which IDs local governments can accept'. Precisely: counties and cities may not accept an ID from an issuer that knowingly issues IDs to people not lawfully present, and may not fund such IDs. Documents issued by or for the Federal Government are exempt. Identical text in 125.0156 for counties (https://www.flsenate.gov/Laws/Statutes/2026/125.0156). History: ch. 2023-40, ch. 2024-9.",
+    "value_language": "en"
+  }
+]

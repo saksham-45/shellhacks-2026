@@ -1,0 +1,23 @@
+{
+  "fact_id": "us-fl-miamidade.transit.nearest-stop",
+  "outcome": "schema-drift",
+  "action": "The layer/API changed shape. Update lookup.endpoint/layer_id/fields and the adapter that uses it.",
+  "result": {
+    "fact_id": "us-fl-miamidade.transit.nearest-stop",
+    "source_id": "us-fl-miamidade.gtfs",
+    "kind": "lookup",
+    "status_before": "verified",
+    "outcome": "schema-drift",
+    "detail": "layer metadata: response is not JSON",
+    "snippet": null,
+    "similarity": null,
+    "observed": null,
+    "recorded": null,
+    "checked_url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip?f=json",
+    "final_url": null,
+    "consecutive_unreachable": 0,
+    "propose_stale": false
+  },
+  "run_started_at": "2026-09-25T17:38:48-04:00",
+  "auto_applied": false
+}

@@ -1,0 +1,105 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: listing-check
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > The hard papers
+  item: Listing check
+- plan: mymiami-plan.md
+  section: Every feature > Housing traps and the bad week
+  item: Listing check
+- plan: mymiami-public-data.md
+  section: Card by card
+  item: Listing scam
+title:
+  es: Revisa el anuncio
+  en: Listing check
+  ht: Verifye anons lan
+summary:
+  es: Una lista de sí o no, en voz alta, antes de pagar cualquier cosa por un lugar.
+  en: A yes-or-no list, spoken, before you pay anything for a place.
+  ht: Yon lis wi oswa non, a vwa wo, anvan ou peye anyen pou yon kote.
+body:
+  es: |-
+    ¿Quieren dinero antes de que hayas entrado?
+
+    ¿Piden transferencia, criptomonedas, bitcoin o tarjeta de regalo?
+
+    ¿Dicen “estoy en el extranjero” y no pueden enseñarlo?
+
+    ¿Hay una cuota que no aparece en la página del propio edificio?
+
+    Cualquier sí es una estafa conocida. Para y denúncialo.
+  en: |-
+    Do they want money before you have been inside?
+
+    Do they ask for a wire, crypto, bitcoin, or a gift card?
+
+    Do they say “I am abroad” and cannot show it?
+
+    Is there a fee that is not on the building's own website?
+
+    Any yes is a known scam pattern. Stop and report it.
+  ht: |-
+    Èske yo vle lajan anvan ou antre ladan l?
+
+    Èske yo mande w voye lajan, kripto, bitcoin, oswa yon kat kado?
+
+    Èske yo di “m aletranje” epi yo pa ka montre l?
+
+    Èske gen yon frè ki pa sou pwòp sit entènèt bilding lan?
+
+    Nenpòt wi se yon eskwokri yo konnen. Kanpe epi rapòte l.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- []
+- []
+- []
+- - us.ftc.rental-scam-signs
+desk: us.ftc
+actions:
+- type: call_desk
+  desk_id: us.ftc
+utterances:
+  es:
+  - este anuncio de apartamento es real
+  - el dueño está en el extranjero
+  - quieren depósito antes de verlo
+  - revisa este anuncio
+  - is this listing una estafa
+  en:
+  - is this apartment listing real
+  - the landlord is abroad
+  - they want a deposit before I see it
+  - check this listing
+  - este anuncio es scam
+  ht:
+  - èske anons apatman sa a vre
+  - mèt kay la aletranje
+  - yo vle depo anvan m wè l
+  - verifye anons sa a
+  - anons sa a se scam
+privacy_scope: household
+stages:
+- 1
+- 5
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- scam-check
+- lease-basics
+fact_refs:
+- us.ftc.rental-scam-signs
+topics:
+- rent
+- scams

@@ -1,0 +1,90 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: sun-heat
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Stages
+  item: 'Tourist mode: sun'
+title:
+  es: Sol y calor
+  en: Sun and heat
+  ht: Solèy ak chalè
+summary:
+  es: El sol aquí quema rápido y el calor puede enfermarte. Agua, sombra y protector solar son parte del plan.
+  en: The sun here burns fast and the heat can make you sick. Water, shade, and sunscreen are part of the plan.
+  ht: Solèy isit la boule vit epi chalè a ka rann ou malad. Dlo, lonbraj, ak krèm solèy fè pati plan an.
+body:
+  es: |-
+    Señales de enfermedad por calor: mareo, mucho sudor, confusión. Busca sombra y toma agua.
+
+    Confusión o desmayo por el calor es una emergencia: llama al {fact:us.911.phone}.
+
+    Nunca dejes a un niño o una mascota en un carro estacionado, ni por un minuto.
+  en: |-
+    Heat illness signs: dizziness, heavy sweating, confusion. Get to shade and drink water.
+
+    Confusion or fainting in the heat is an emergency: call {fact:us.911.phone}.
+
+    Never leave a child or a pet in a parked car, not even for a minute.
+  ht: |-
+    Siy maladi chalè: tèt vire, anpil swe, konfizyon. Al nan lonbraj epi bwè dlo.
+
+    Konfizyon oswa endispozisyon nan chalè se yon ijans: rele {fact:us.911.phone}.
+
+    Pa janm kite yon timoun oswa yon bèt nan yon machin ki pake, pa menm pou yon ti moman.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us.cdc.heat-illness-signs
+- - us.cdc.heat-illness-signs
+  - us.911.phone
+- - us.nhtsa.hot-car
+desk: us.911
+actions:
+- type: call_desk
+  desk_id: us.911
+utterances:
+  es:
+  - hace demasiado calor
+  - señales de golpe de calor
+  - cómo me cuido del sol
+  - me mareé por el calor
+  - it's so hot, qué hago
+  en:
+  - it is too hot
+  - heat stroke signs
+  - how do I handle the sun
+  - I feel dizzy from the heat
+  - hace un calor terrible
+  ht:
+  - fè twò cho
+  - siy kou chalè
+  - kijan pou m pwoteje m kont solèy la
+  - tèt mwen vire akoz chalè a
+  - li too hot, kisa pou m fè
+privacy_scope: person
+stages:
+- 1
+- 10
+modes:
+- resident
+- tourist
+region_pack: us
+is_immigration: false
+origin_lenses:
+- tourist
+related_cards:
+- emergency-911
+fact_refs:
+- us.cdc.heat-illness-signs
+- us.911.phone
+- us.nhtsa.hot-car
+topics:
+- health
+- visitors

@@ -1,0 +1,949 @@
+[
+ {
+  "id": "us.census.incorporated-place.demo.pin-sw137",
+  "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Incorporated place containing the address, or none",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "us.census-geocoder",
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?address=11200+SW+137th+Ave,+Miami,+FL+33186&benchmark=Public_AR_Current&vintage=Current_Current&layers=all&format=json",
+  "quote": "No 'Incorporated Places' key in the geographies response (unincorporated).",
+  "retrieved_at": "2026-09-25T17:17:00-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.311",
+  "notes": "Live query by Research at 2026-09-25T17:17:00-04:00. Matches myAD Regions' draft value. None recorded: the live query answered with no feature. value is null (never a sentinel); ADCore should map this to a FactOutcome.",
+  "x-outcome": "none",
+  "topics": [
+   "municipality"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "none recorded at this pin (an outcome, not a value)"
+ },
+ {
+  "id": "us-fl-miamidade.trash.garbage-days.demo.pin-nw1st",
+  "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: County garbage collection days for the pin (county service area only)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gis-garbage-route",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/1/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.196332054722%2C25.775080963346&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+  "quote": "features: [] (point is outside every polygon of this layer)",
+  "retrieved_at": "2026-09-25T17:36:58-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "weekdays",
+  "desk": "us-fl-miamidade.dswm",
+  "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value. None recorded: the live query answered with no feature. value is null (never a sentinel); ADCore should map this to a FactOutcome.",
+  "x-outcome": "none",
+  "topics": [
+   "trash"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "none recorded at this pin (an outcome, not a value)"
+ },
+ {
+  "id": "us-fl-miamidade.trash.recycling-day.demo.pin-nw1st",
+  "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: County recycling collection weekday for the pin",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gis-recycling-route",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/2/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.196332054722%2C25.775080963346&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+  "quote": "features: [] (point is outside every polygon of this layer)",
+  "retrieved_at": "2026-09-25T17:36:58-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "weekdays",
+  "desk": "us-fl-miamidade.dswm",
+  "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value. None recorded: the live query answered with no feature. value is null (never a sentinel); ADCore should map this to a FactOutcome.",
+  "x-outcome": "none",
+  "topics": [
+   "trash"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "none recorded at this pin (an outcome, not a value)"
+ },
+ {
+  "id": "us-fl-miamidade.trash.recycling-week.demo.pin-nw1st",
+  "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: County recycling pickup week letter (A/B/C) for the pin",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gis-recycling-route",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/2/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.196332054722%2C25.775080963346&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+  "quote": "features: [] (point is outside every polygon of this layer)",
+  "retrieved_at": "2026-09-25T17:36:58-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.dswm",
+  "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Not in Regions' draft (added by Research). None recorded: the live query answered with no feature. value is null (never a sentinel); ADCore should map this to a FactOutcome.",
+  "x-outcome": "none",
+  "topics": [
+   "trash"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "none recorded at this pin (an outcome, not a value)"
+ },
+ {
+  "id": "us-fl-miami.trash.day.demo.pin-sw137",
+  "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: City of Miami trash day for the address from TrashRoutes TRASHDAY (per the City's own service names this is most likely the weekly bulky-trash day, not household garbage)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.gis-trash-routes",
+  "url": "https://gis.miami.gov/gis/rest/services/SolidWaste/TrashRoutes/MapServer/0/query",
+  "quote": "Pin is outside the City of Miami (unincorporated); layer not applicable.",
+  "retrieved_at": "2026-09-25T17:30:00-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "weekdays",
+  "desk": "us-fl-miami.solid-waste",
+  "notes": "Live query by Research at 2026-09-25T17:30:00-04:00. Not in Regions' draft (added by Research). None recorded: the live query answered with no feature. value is null (never a sentinel); ADCore should map this to a FactOutcome.",
+  "x-outcome": "none",
+  "topics": [
+   "trash"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "none recorded at this pin (an outcome, not a value)"
+ },
+ {
+  "id": "us-fl-miami.trash.garbage-days.demo.pin-sw137",
+  "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: City of Miami household garbage pickup days for the address (GarbageRoutes GARBDAY)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.gis-garbage-routes",
+  "url": "https://gis.miami.gov/gis/rest/services/SolidWaste/GarbageRoutes/MapServer/0/query",
+  "quote": "Pin is outside the City of Miami (unincorporated); layer not applicable.",
+  "retrieved_at": "2026-09-25T17:30:00-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "weekdays",
+  "desk": "us-fl-miami.solid-waste",
+  "notes": "Live query by Research at 2026-09-25T17:30:00-04:00. Not in Regions' draft (added by Research). None recorded: the live query answered with no feature. value is null (never a sentinel); ADCore should map this to a FactOutcome.",
+  "x-outcome": "none",
+  "topics": [
+   "trash"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "none recorded at this pin (an outcome, not a value)"
+ },
+ {
+  "id": "us-fl-miamidade.parks.nearest-county.1.demo.pin-nw1st",
+  "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: nearest #1 (nearest-county), 655 m straight-line",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "FIRST STREET METROMOVER STATION DOG SPOT",
+    "coordinate": {
+     "latitude": 25.77569,
+     "longitude": -80.18983
+    },
+    "address": "245 NE 1ST AVE, MIAMI 33132"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gis-parks-county",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/1/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.196332054722%2C25.775080963346&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter",
+  "quote": "NAME: FIRST STREET METROMOVER STATION DOG SPOT; ADDRESS: 245 NE 1ST AVE; PHONE: 305-694-5096; 655 m",
+  "retrieved_at": "2026-09-25T17:36:58-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.parks",
+  "topics": [
+   "parks"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.parks.nearest-county.2.demo.pin-nw1st",
+  "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: nearest #2 (nearest-county), 755 m straight-line",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "FIFTH STREET METROMOVER STATION PLAYGROUND",
+    "coordinate": {
+     "latitude": 25.76938,
+     "longitude": -80.19223
+    },
+    "address": "30 SE 5TH ST, MIAMI 33131"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gis-parks-county",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/1/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.196332054722%2C25.775080963346&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter",
+  "quote": "NAME: FIFTH STREET METROMOVER STATION PLAYGROUND; ADDRESS: 30 SE 5TH ST; PHONE: None; 755 m",
+  "retrieved_at": "2026-09-25T17:36:58-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.parks",
+  "topics": [
+   "parks"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.parks.nearest-county.3.demo.pin-nw1st",
+  "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: nearest #3 (nearest-county), 2779 m straight-line",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "PASEO DE LAS AMERICAS",
+    "coordinate": {
+     "latitude": 25.7511,
+     "longitude": -80.20415
+    },
+    "address": "23 SE 26TH RD, MIAMI 33129"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gis-parks-county",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/1/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.196332054722%2C25.775080963346&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter",
+  "quote": "NAME: PASEO DE LAS AMERICAS; ADDRESS: 23 SE 26TH RD; PHONE: None; 2779 m",
+  "retrieved_at": "2026-09-25T17:36:58-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.parks",
+  "topics": [
+   "parks"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.parks.nearest-municipal.1.demo.pin-nw1st",
+  "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: nearest #1 (nearest-municipal), 225 m straight-line",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Paul S Walker Park",
+    "coordinate": {
+     "latitude": 25.77386,
+     "longitude": -80.19454
+    },
+    "address": "46 W Flagler St, Miami 33130"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gis-parks-municipal",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/0/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.196332054722%2C25.775080963346&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter",
+  "quote": "NAME: Paul S Walker Park; ADDRESS: 46 W Flagler St; PHONE: 305-960-2946; 225 m",
+  "retrieved_at": "2026-09-25T17:36:58-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.parks",
+  "topics": [
+   "parks"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.parks.nearest-municipal.2.demo.pin-nw1st",
+  "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: nearest #2 (nearest-municipal), 529 m straight-line",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Lummus Park - City of Miami",
+    "coordinate": {
+     "latitude": 25.77621,
+     "longitude": -80.20146
+    },
+    "address": "360 NW 3rd St, Miami 33128"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gis-parks-municipal",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/0/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.196332054722%2C25.775080963346&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter",
+  "quote": "NAME: Lummus Park - City of Miami; ADDRESS: 360 NW 3rd St; PHONE: 305-579-6934; 529 m",
+  "retrieved_at": "2026-09-25T17:36:58-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.parks",
+  "topics": [
+   "parks"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.parks.nearest-municipal.3.demo.pin-nw1st",
+  "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: nearest #3 (nearest-municipal), 618 m straight-line",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Jose Marti Park - Pool",
+    "coordinate": {
+     "latitude": 25.77096,
+     "longitude": -80.20047
+    },
+    "address": "380 SW 3rd St, Miami 33130"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gis-parks-municipal",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/0/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.196332054722%2C25.775080963346&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter",
+  "quote": "NAME: Jose Marti Park - Pool; ADDRESS: 380 SW 3rd St; PHONE: 305-575-2103; 618 m",
+  "retrieved_at": "2026-09-25T17:36:58-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.parks",
+  "topics": [
+   "parks"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.library.nearest.1.demo.pin-nw1st",
+  "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: nearest #1 (nearest), 117 m straight-line",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Main Library",
+    "coordinate": {
+     "latitude": 25.774359999999998,
+     "longitude": -80.19718
+    },
+    "address": "101 W Flagler St, Miami 33130"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gis-libraries",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.196332054722%2C25.775080963346&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=5000&units=esriSRUnit_Meter",
+  "quote": "NAME: Main Library; ADDRESS: 101 W Flagler St; PHONE: None; 117 m",
+  "retrieved_at": "2026-09-25T17:36:58-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.library",
+  "topics": [
+   "libraries"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.library.nearest.2.demo.pin-nw1st",
+  "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: nearest #2 (nearest), 1283 m straight-line",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Culmer/Overtown Branch",
+    "coordinate": {
+     "latitude": 25.785800000000002,
+     "longitude": -80.20107
+    },
+    "address": "350 NW 13TH ST, Miami 33136"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gis-libraries",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.196332054722%2C25.775080963346&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=5000&units=esriSRUnit_Meter",
+  "quote": "NAME: Culmer/Overtown Branch; ADDRESS: 350 NW 13TH ST; PHONE: None; 1283 m",
+  "retrieved_at": "2026-09-25T17:36:58-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.library",
+  "topics": [
+   "libraries"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.library.nearest.3.demo.pin-nw1st",
+  "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: nearest #3 (nearest), 2156 m straight-line",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Hispanic Branch",
+    "coordinate": {
+     "latitude": 25.772129999999997,
+     "longitude": -80.21761
+    },
+    "address": "1398 SW 1ST ST, Miami 33135"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gis-libraries",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.196332054722%2C25.775080963346&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=5000&units=esriSRUnit_Meter",
+  "quote": "NAME: Hispanic Branch; ADDRESS: 1398 SW 1ST ST; PHONE: None; 2156 m",
+  "retrieved_at": "2026-09-25T17:36:58-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.library",
+  "topics": [
+   "libraries"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.1.demo.pin-nw1st",
+  "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: nearest transit stop #1 (46 m straight-line)",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "NW 1 ST @ NW 1 AV",
+    "coordinate": {
+     "latitude": 25.77511,
+     "longitude": -80.19679
+    }
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": "stops.txt stop_id 104: NW 1 ST @ NW 1 AV; routes: 100, 101, 11, 207, 208, 211, 400, 77",
+  "retrieved_at": "2026-09-25T17:38:00-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.transit",
+  "topics": [
+   "transit"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.1.routes.demo.pin-nw1st",
+  "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: routes serving nearest stop #1",
+  "value": [
+   "100",
+   "101",
+   "11",
+   "207",
+   "208",
+   "211",
+   "400",
+   "77"
+  ],
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": "stops.txt stop_id 104: NW 1 ST @ NW 1 AV; routes: 100, 101, 11, 207, 208, 211, 400, 77",
+  "retrieved_at": "2026-09-25T17:38:00-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "codes",
+  "desk": "us-fl-miamidade.transit",
+  "topics": [
+   "transit"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.2.demo.pin-nw1st",
+  "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: nearest transit stop #2 (74 m straight-line)",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "NW 1 AV @ NW 1 ST",
+    "coordinate": {
+     "latitude": 25.77536,
+     "longitude": -80.19566
+    }
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": "stops.txt stop_id 1241: NW 1 AV @ NW 1 ST; routes: 2, 207, 208, 211, 401, 836, 837, 95",
+  "retrieved_at": "2026-09-25T17:38:00-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.transit",
+  "topics": [
+   "transit"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.2.routes.demo.pin-nw1st",
+  "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: routes serving nearest stop #2",
+  "value": [
+   "2",
+   "207",
+   "208",
+   "211",
+   "401",
+   "836",
+   "837",
+   "95"
+  ],
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": "stops.txt stop_id 1241: NW 1 AV @ NW 1 ST; routes: 2, 207, 208, 211, 401, 836, 837, 95",
+  "retrieved_at": "2026-09-25T17:38:00-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "codes",
+  "desk": "us-fl-miamidade.transit",
+  "topics": [
+   "transit"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.3.demo.pin-nw1st",
+  "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: nearest transit stop #3 (90 m straight-line)",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "GOVERNMENT CENTER METROMOVER STATION",
+    "coordinate": {
+     "latitude": 25.775864,
+     "longitude": -80.196093
+    }
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": "stops.txt stop_id 813: GOVERNMENT CENTER METROMOVER STATION; routes: MMI, MMO",
+  "retrieved_at": "2026-09-25T17:38:00-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.transit",
+  "topics": [
+   "transit"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.3.routes.demo.pin-nw1st",
+  "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: routes serving nearest stop #3",
+  "value": [
+   "MMI",
+   "MMO"
+  ],
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": "stops.txt stop_id 813: GOVERNMENT CENTER METROMOVER STATION; routes: MMI, MMO",
+  "retrieved_at": "2026-09-25T17:38:00-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "codes",
+  "desk": "us-fl-miamidade.transit",
+  "topics": [
+   "transit"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.parks.nearest-county.1.demo.pin-sw137",
+  "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: nearest #1 (nearest-county), 647 m straight-line",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "CAMP MATECUMBE",
+    "coordinate": {
+     "latitude": 25.65826,
+     "longitude": -80.41893
+    },
+    "address": "13841 SW 120TH ST, MIAMI 33186"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gis-parks-county",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/1/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.416060788844%2C25.663473322904&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter",
+  "quote": "NAME: CAMP MATECUMBE; ADDRESS: 13841 SW 120TH ST; PHONE: 305-247-6016; 647 m",
+  "retrieved_at": "2026-09-25T17:36:58-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.parks",
+  "topics": [
+   "parks"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.parks.nearest-county.2.demo.pin-sw137",
+  "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: nearest #2 (nearest-county), 1344 m straight-line",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "ARVIDA PARK",
+    "coordinate": {
+     "latitude": 25.6665,
+     "longitude": -80.40308
+    },
+    "address": "12890 SW 108TH ST, MIAMI 33186"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gis-parks-county",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/1/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.416060788844%2C25.663473322904&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter",
+  "quote": "NAME: ARVIDA PARK; ADDRESS: 12890 SW 108TH ST; PHONE: 305-270-4951; 1344 m",
+  "retrieved_at": "2026-09-25T17:36:58-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.parks",
+  "topics": [
+   "parks"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.parks.nearest-county.3.demo.pin-sw137",
+  "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: nearest #3 (nearest-county), 1507 m straight-line",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "KINGS MEADOW PARK",
+    "coordinate": {
+     "latitude": 25.6758,
+     "longitude": -80.42232
+    },
+    "address": "9900 SW 142ND AVE, MIAMI 33186"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gis-parks-county",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/1/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.416060788844%2C25.663473322904&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter",
+  "quote": "NAME: KINGS MEADOW PARK; ADDRESS: 9900 SW 142ND AVE; PHONE: 305-386-0227; 1507 m",
+  "retrieved_at": "2026-09-25T17:36:58-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.parks",
+  "topics": [
+   "parks"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.parks.nearest-municipal.1.demo.pin-sw137",
+  "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: nearest (nearest-municipal)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gis-parks-municipal",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/0/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.416060788844%2C25.663473322904&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter",
+  "quote": "features: [] within 3000 m",
+  "retrieved_at": "2026-09-25T17:36:58-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.parks",
+  "x-outcome": "none",
+  "notes": "None recorded: the live query answered with no feature. value is null (never a sentinel); ADCore should map this to a FactOutcome.",
+  "topics": [
+   "parks"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "none recorded at this pin (an outcome, not a value)"
+ },
+ {
+  "id": "us-fl-miamidade.library.nearest.1.demo.pin-sw137",
+  "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: nearest #1 (nearest), 2723 m straight-line",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "West Kendall Regional",
+    "coordinate": {
+     "latitude": 25.67299,
+     "longitude": -80.44109
+    },
+    "address": "10201 Hammocks Blvd #159, Miami-Dade 33196"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gis-libraries",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.416060788844%2C25.663473322904&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=5000&units=esriSRUnit_Meter",
+  "quote": "NAME: West Kendall Regional; ADDRESS: 10201 Hammocks Blvd #159; PHONE: None; 2723 m",
+  "retrieved_at": "2026-09-25T17:36:58-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.library",
+  "topics": [
+   "libraries"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.library.nearest.2.demo.pin-sw137",
+  "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: nearest #2 (nearest), 3522 m straight-line",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Kendale Lakes Branch",
+    "coordinate": {
+     "latitude": 25.68519,
+     "longitude": -80.44163999999999
+    },
+    "address": "15205 SW 88th St, Miami-Dade 33196"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gis-libraries",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.416060788844%2C25.663473322904&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=5000&units=esriSRUnit_Meter",
+  "quote": "NAME: Kendale Lakes Branch; ADDRESS: 15205 SW 88th St; PHONE: None; 3522 m",
+  "retrieved_at": "2026-09-25T17:36:58-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.library",
+  "topics": [
+   "libraries"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.library.nearest.3.demo.pin-sw137",
+  "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: nearest #3 (nearest), 4382 m straight-line",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Country Walk Branch",
+    "coordinate": {
+     "latitude": 25.62416,
+     "longitude": -80.41301
+    },
+    "address": "15433 SW 137th Ave, Miami-Dade 33177"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gis-libraries",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.416060788844%2C25.663473322904&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=5000&units=esriSRUnit_Meter",
+  "quote": "NAME: Country Walk Branch; ADDRESS: 15433 SW 137th Ave; PHONE: None; 4382 m",
+  "retrieved_at": "2026-09-25T17:36:58-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.library",
+  "topics": [
+   "libraries"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.1.demo.pin-sw137",
+  "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: nearest transit stop #1 (16 m straight-line)",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "SW 137 AV & SW 112 ST",
+    "coordinate": {
+     "latitude": 25.663373,
+     "longitude": -80.415947
+    }
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": "stops.txt stop_id 3312: SW 137 AV & SW 112 ST; routes: 137",
+  "retrieved_at": "2026-09-25T17:38:00-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.transit",
+  "topics": [
+   "transit"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.1.routes.demo.pin-sw137",
+  "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: routes serving nearest stop #1",
+  "value": [
+   "137"
+  ],
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": "stops.txt stop_id 3312: SW 137 AV & SW 112 ST; routes: 137",
+  "retrieved_at": "2026-09-25T17:38:00-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "codes",
+  "desk": "us-fl-miamidade.transit",
+  "topics": [
+   "transit"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.2.demo.pin-sw137",
+  "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: nearest transit stop #2 (47 m straight-line)",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "SW 137 AV @ SW 112 ST",
+    "coordinate": {
+     "latitude": 25.66308,
+     "longitude": -80.41622
+    }
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": "stops.txt stop_id 3296: SW 137 AV @ SW 112 ST; routes: 137",
+  "retrieved_at": "2026-09-25T17:38:00-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.transit",
+  "topics": [
+   "transit"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.2.routes.demo.pin-sw137",
+  "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: routes serving nearest stop #2",
+  "value": [
+   "137"
+  ],
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": "stops.txt stop_id 3296: SW 137 AV @ SW 112 ST; routes: 137",
+  "retrieved_at": "2026-09-25T17:38:00-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "codes",
+  "desk": "us-fl-miamidade.transit",
+  "topics": [
+   "transit"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.3.demo.pin-sw137",
+  "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: nearest transit stop #3 (351 m straight-line)",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "SW 137 AV @ SW 109 ST",
+    "coordinate": {
+     "latitude": 25.66662,
+     "longitude": -80.41636
+    }
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": "stops.txt stop_id 3295: SW 137 AV @ SW 109 ST; routes: 137",
+  "retrieved_at": "2026-09-25T17:38:00-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.transit",
+  "topics": [
+   "transit"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.3.routes.demo.pin-sw137",
+  "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: routes serving nearest stop #3",
+  "value": [
+   "137"
+  ],
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": "stops.txt stop_id 3295: SW 137 AV @ SW 109 ST; routes: 137",
+  "retrieved_at": "2026-09-25T17:38:00-04:00",
+  "check_every": "P30D",
+  "status": "demo",
+  "value_type": "codes",
+  "desk": "us-fl-miamidade.transit",
+  "topics": [
+   "transit"
+  ],
+  "x-moved-from": "pins.json",
+  "x-moved-why": "ranked result; the server demo-id rule needs an unranked lookup base"
+ },
+ {
+  "id": "us-fl-miamidade.storm.evacuation-centers.demo.pin-sw137",
+  "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: open evacuation centers serving the pin, or none",
+  "value": null,
+  "unit": null,
+  "value_type": "place",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gis-evacuation-centers",
+  "url": "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/EvacuationCenter_gdb/FeatureServer/0/query?where=1%3D1&returnCountOnly=true&f=json",
+  "quote": "{\"count\":0}",
+  "retrieved_at": "2026-09-25T19:30:00-04:00",
+  "check_every": "P1D",
+  "status": "demo",
+  "kind": "static",
+  "topics": [
+   "storm",
+   "shelter"
+  ],
+  "desk": "us-fl-miamidade.311",
+  "notes": "Live query by Research at 2026-09-25T19:30:00-04:00 returned count 0: no centers open. None recorded: value is null (never a sentinel); ADCore should map this to a FactOutcome. Any shelter name or address the demo shows for this pin has no source today and should be struck (noSource). The county assigns no fixed centers; it announces open ones after an evacuation order (us-fl-miamidade.storm.evacuation-centers.announcement). The pin is in evacuation zone D.",
+  "x-outcome": "none"
+ }
+]

@@ -1,0 +1,1546 @@
+# Proposed region pack manifest. Generated; review before use.
+region: us-fl-miamidade
+generated_at: '2026-09-25T17:39:13-04:00'
+generator: research.onboarding propose
+status: proposed — every entry unverified until a human or agent confirms it
+packs:
+- id: us
+  parent: null
+  level: country
+  name: United States
+  fips: US
+- id: us-fl
+  parent: us
+  level: state
+  name: Florida
+  fips: '12'
+  desks:
+  - id: us-fl.dmv
+    topic: dmv
+    name: Florida Department of Highway Safety and Motor Vehicles
+    phone: null
+    url: https://drivebakedgetbustedfl.gov/
+    official: true
+    found_by: dotgov-registry
+    status: unverified (website only; phone not read)
+  - id: us-fl.dmv
+    topic: dmv
+    name: Florida Department of Highway Safety and Motor Vehicles
+    phone: null
+    url: https://floridacrashportal.gov/
+    official: true
+    found_by: dotgov-registry
+    status: unverified (website only; phone not read)
+  - id: us-fl.legal-aid
+    topic: legal-aid
+    name: 6th Judicial Circuit Office of the Public Defender
+    phone: null
+    url: https://flpd6.gov/
+    official: true
+    found_by: dotgov-registry
+    status: unverified (website only; phone not read)
+- id: us-fl-miamidade
+  parent: us-fl
+  level: county
+  name: Miami-Dade County
+  fips: '12086'
+  languages:
+    observed:
+    - name: Spanish
+      share_of_pop_5plus: 0.6699
+      speakers: 1799905
+      limited_english: 898816
+      source: https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b16001.dat
+      year: 2024
+    - name: English only
+      share_of_pop_5plus: 0.2433
+      speakers: 653847
+      limited_english: null
+      source: https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b16001.dat
+      year: 2024
+    - name: Haitian
+      share_of_pop_5plus: 0.0372
+      speakers: 99855
+      limited_english: 43577
+      source: https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b16001.dat
+      year: 2024
+    - name: Portuguese
+      share_of_pop_5plus: 0.0093
+      speakers: 25040
+      limited_english: 5939
+      source: https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b16001.dat
+      year: 2024
+    - name: French (incl. Cajun)
+      share_of_pop_5plus: 0.0067
+      speakers: 18134
+      limited_english: 3917
+      source: https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b16001.dat
+      year: 2024
+    - name: Russian
+      share_of_pop_5plus: 0.0058
+      speakers: 15690
+      limited_english: 5197
+      source: https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b16001.dat
+      year: 2024
+    - name: Chinese (incl. Mandarin, Cantonese)
+      share_of_pop_5plus: 0.0031
+      speakers: 8345
+      limited_english: 3248
+      source: https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b16001.dat
+      year: 2024
+    - name: Hebrew
+      share_of_pop_5plus: 0.0025
+      speakers: 6816
+      limited_english: 969
+      source: https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b16001.dat
+      year: 2024
+    note: ACS language spoken at home; surfaces (UI languages) are a human decision.
+  desks:
+  - id: us-fl-miamidade.311
+    topic: '311'
+    name: 311 phone on www.miamidade.gov
+    phone: '311'
+    address: null
+    website: null
+    url: https://www.miamidade.gov/global/home.page
+    official: true
+    found_by: official-website
+    quote: lection day and more. View More Services Report a Problem Submit a service request to the 311 Contact Center for
+      a simple and conveni
+    status: unverified
+  - id: us-fl-miamidade.311
+    topic: '311'
+    name: 311 phone on www.miamidade.gov
+    phone: 305-468-5900
+    address: null
+    website: null
+    url: https://www.miamidade.gov/global/311/home.page
+    official: true
+    found_by: official-website
+    quote: e access to the resources they need in the manner they prefer. Call 311 By dialing 311 or 305-468-5900 (outside
+      Miami-Dade County), you can re
+    status: unverified
+  - id: us-fl-miamidade.311
+    topic: '311'
+    name: 311 phone on www.miamidade.gov
+    phone: '311'
+    address: null
+    website: null
+    url: https://www.miamidade.gov/global/navigation/service-index.page?INTERESTCATEGORY=housing-social-services
+    official: true
+    found_by: official-website
+    quote: ort Miami-Dade Home Privacy Statement ADA Notice Disclaimer About Miami-Dade Self-Service 311 Contact Center Mobile
+      Applications Open
+    status: unverified
+  - id: us-fl-miamidade.311
+    topic: '311'
+    name: 311 phone on www.miamidade.gov
+    phone: '311'
+    address: null
+    website: null
+    url: https://www.miamidade.gov/global/navigation/service-index.page?INTERESTCATEGORY=travel-transportation
+    official: true
+    found_by: official-website
+    quote: ort Miami-Dade Home Privacy Statement ADA Notice Disclaimer About Miami-Dade Self-Service 311 Contact Center Mobile
+      Applications Open
+    status: unverified
+  - id: us-fl-miamidade.311
+    topic: '311'
+    name: 311 phone on www.miamidade.gov
+    phone: '311'
+    address: null
+    website: null
+    url: https://www.miamidade.gov/global/navigation/service-index.page
+    official: true
+    found_by: official-website
+    quote: ort Miami-Dade Home Privacy Statement ADA Notice Disclaimer About Miami-Dade Self-Service 311 Contact Center Mobile
+      Applications Open
+    status: unverified
+  - id: us-fl-miamidade.311
+    topic: '311'
+    name: 311 phone on www.miamidade.gov
+    phone: '311'
+    address: null
+    website: null
+    url: https://www.miamidade.gov/global/navigation/online-services.page
+    official: true
+    found_by: official-website
+    quote: of visiting County offices in person. Report Problems Report neighborhood problems to the 311 Contact Center. Attach
+      a photo and subm
+    status: unverified
+  - id: us-fl-miamidade.311
+    topic: '311'
+    name: 311 phone on www.miamidade.gov
+    phone: '311'
+    address: null
+    website: null
+    url: https://www.miamidade.gov/global/transportation/transit-pass.page
+    official: true
+    found_by: official-website
+    quote: ort Miami-Dade Home Privacy Statement ADA Notice Disclaimer About Miami-Dade Self-Service 311 Contact Center Mobile
+      Applications Open
+    status: unverified
+  - id: us-fl-miamidade.license-and-tag-agent
+    topic: license-and-tag-agent
+    name: license-and-tag-agent phone on www.mdctaxcollector.gov
+    phone: 305-375-5448
+    address: null
+    website: null
+    url: https://www.mdctaxcollector.gov/
+    official: true
+    found_by: official-website
+    quote: ' our Terms and Conditions. Email address Subscribe 200 NW 2nd Ave, Miami, FL 33128 Phone: (305) 375-5448 Monday
+      through Friday 8:00AM to 5:00PM '
+    status: unverified
+  - id: us-fl-miamidade.license-and-tag-agent
+    topic: license-and-tag-agent
+    name: license-and-tag-agent phone on www.mdctaxcollector.gov
+    phone: 305-375-5448
+    address: null
+    website: null
+    url: https://www.mdctaxcollector.gov/services
+    official: true
+    found_by: official-website
+    quote: ' our Terms and Conditions. Email address Subscribe 200 NW 2nd Ave, Miami, FL 33128 Phone: (305) 375-5448 Monday
+      through Friday 8:00AM to 5:00PM '
+    status: unverified
+  - id: us-fl-miamidade.license-and-tag-agent
+    topic: license-and-tag-agent
+    name: license-and-tag-agent phone on www.mdctaxcollector.gov
+    phone: 305-375-5448
+    address: null
+    website: null
+    url: https://www.mdctaxcollector.gov/authorized-driving-schools
+    official: true
+    found_by: official-website
+    quote: ' our Terms and Conditions. Email address Subscribe 200 NW 2nd Ave, Miami, FL 33128 Phone: (305) 375-5448 Monday
+      through Friday 8:00AM to 5:00PM '
+    status: unverified
+  - id: us-fl-miamidade.license-and-tag-agent
+    topic: license-and-tag-agent
+    name: license-and-tag-agent phone on www.mdctaxcollector.gov
+    phone: 305-375-5448
+    address: null
+    website: null
+    url: https://www.mdctaxcollector.gov/driver-license-and-id-card-services
+    official: true
+    found_by: official-website
+    quote: ' our Terms and Conditions. Email address Subscribe 200 NW 2nd Ave, Miami, FL 33128 Phone: (305) 375-5448 Monday
+      through Friday 8:00AM to 5:00PM '
+    status: unverified
+  - id: us-fl-miamidade.housing-authority
+    topic: housing-authority
+    name: HOUSING AUTHORITY OF THE CITY OF MIAMI BEACH
+    phone: 305-532-6401
+    address: 200 Alton Rd, Miami Beach 33139
+    website: null
+    url: https://services.arcgis.com/VTyQ9soqVukalItT/arcgis/rest/services/Public_Housing_Authorities/FeatureServer/0
+    official: true
+    found_by: hud
+    quote: '{''FORMAL_PARTICIPANT_NAME'': ''HOUSING AUTHORITY OF THE CITY OF MIAMI BEACH'', ''HA_PHN_NUM'': ''3055326401'',
+      ''HA_EMAIL_ADDR_TEXT'': ''mdelcampillo@mbha.org'', ''STD_ADDR'': ''200 Alton Rd'', ''STD_CITY'': ''Miami Beach'', ''STD_ZIP5'':
+      ''33139'', ''PARTICIPANT_CODE'': ''FL017'', ''HA_PROGRAM_TYPE'': ''Combined'', ''TOTAL_UNITS'''
+    status: unverified
+  - id: us-fl-miamidade.housing-authority
+    topic: housing-authority
+    name: MIAMI DADE HOUSING AND COMMUNITY DEV
+    phone: 786-469-4106
+    address: 701 NW 1st Ct Fl 16, Miami 33136
+    website: null
+    url: https://services.arcgis.com/VTyQ9soqVukalItT/arcgis/rest/services/Public_Housing_Authorities/FeatureServer/0
+    official: true
+    found_by: hud
+    quote: '{''FORMAL_PARTICIPANT_NAME'': ''MIAMI DADE HOUSING AND COMMUNITY DEV'', ''HA_PHN_NUM'': ''7864694106'', ''HA_EMAIL_ADDR_TEXT'':
+      ''nathan.kogon@miamidade.gov'', ''STD_ADDR'': ''701 NW 1st Ct Fl 16'', ''STD_CITY'': ''Miami'', ''STD_ZIP5'': ''33136'',
+      ''PARTICIPANT_CODE'': ''FL005'', ''HA_PROGRAM_TYPE'': ''Combined'', ''TOTAL_UNITS'': '
+    status: unverified
+  - id: us-fl-miamidade.housing-authority
+    topic: housing-authority
+    name: HOUSING AUTHORITY OF THE CITY OF HOMESTEAD
+    phone: 305-247-0639
+    address: 29355 S Federal Hwy, Homestead 33033
+    website: null
+    url: https://services.arcgis.com/VTyQ9soqVukalItT/arcgis/rest/services/Public_Housing_Authorities/FeatureServer/0
+    official: true
+    found_by: hud
+    quote: '{''FORMAL_PARTICIPANT_NAME'': ''HOUSING AUTHORITY OF THE CITY OF HOMESTEAD'', ''HA_PHN_NUM'': ''3052470639'',
+      ''HA_EMAIL_ADDR_TEXT'': ''swhite@hhahousing.org'', ''STD_ADDR'': ''29355 S Federal Hwy'', ''STD_CITY'': ''Homestead'',
+      ''STD_ZIP5'': ''33033'', ''PARTICIPANT_CODE'': ''FL068'', ''HA_PROGRAM_TYPE'': ''Section 8'', ''TOTAL_UN'
+    status: unverified
+  - id: us-fl-miamidade.housing-authority
+    topic: housing-authority
+    name: MIAMI HSG CONSERVATION
+    phone: 305-416-2080
+    address: 444 SW 2nd Ave, Miami 33130
+    website: null
+    url: https://services.arcgis.com/VTyQ9soqVukalItT/arcgis/rest/services/Public_Housing_Authorities/FeatureServer/0
+    official: true
+    found_by: hud
+    quote: '{''FORMAL_PARTICIPANT_NAME'': ''MIAMI HSG CONSERVATION'', ''HA_PHN_NUM'': ''3054162080'', ''HA_EMAIL_ADDR_TEXT'':
+      ''rtazoe@miamigov.com'', ''STD_ADDR'': ''444 SW 2nd Ave'', ''STD_CITY'': ''Miami'', ''STD_ZIP5'': ''33130'', ''PARTICIPANT_CODE'':
+      ''FL145'', ''HA_PROGRAM_TYPE'': ''Section 8'', ''TOTAL_UNITS'': 0}'
+    status: unverified
+  - id: us-fl-miamidade.housing-authority
+    topic: housing-authority
+    name: Carrfour Supportive Housing, Inc.
+    phone: 305-371-8300
+    address: 1398 SW 1st St, Miami 33135
+    website: null
+    url: https://services.arcgis.com/VTyQ9soqVukalItT/arcgis/rest/services/Public_Housing_Authorities/FeatureServer/0
+    official: true
+    found_by: hud
+    quote: '{''FORMAL_PARTICIPANT_NAME'': ''Carrfour Supportive Housing, Inc.'', ''HA_PHN_NUM'': ''3053718300'', ''HA_EMAIL_ADDR_TEXT'':
+      ''sberman@carrfour.org'', ''STD_ADDR'': ''1398 SW 1st St'', ''STD_CITY'': ''Miami'', ''STD_ZIP5'': ''33135'', ''PARTICIPANT_CODE'':
+      ''FL881'', ''HA_PROGRAM_TYPE'': ''Section 8'', ''TOTAL_UNITS'': 0}'
+    status: unverified
+  - id: us-fl-miamidade.housing-authority
+    topic: housing-authority
+    name: HIALEAH HOUSING AUTHORITY
+    phone: 305-888-9744
+    address: 75 E 6th St, Hialeah 33010
+    website: null
+    url: https://services.arcgis.com/VTyQ9soqVukalItT/arcgis/rest/services/Public_Housing_Authorities/FeatureServer/0
+    official: true
+    found_by: hud
+    quote: '{''FORMAL_PARTICIPANT_NAME'': ''HIALEAH HOUSING AUTHORITY'', ''HA_PHN_NUM'': ''3058889744'', ''HA_EMAIL_ADDR_TEXT'':
+      ''jponce@hialeahhousing.org'', ''STD_ADDR'': ''75 E 6th St'', ''STD_CITY'': ''Hialeah'', ''STD_ZIP5'': ''33010'', ''PARTICIPANT_CODE'':
+      ''FL066'', ''HA_PROGRAM_TYPE'': ''Combined'', ''TOTAL_UNITS'': 857}'
+    status: unverified
+  - id: us-fl-miamidade.school-district
+    topic: school-district
+    name: MIAMI-DADE
+    phone: 305-995-1000
+    address: '1450 NE 2ND AVE # 912, MIAMI 33132'
+    website: http://www.dadeschools.net
+    url: https://nces.ed.gov/ccd/districtsearch/district_detail.asp?ID2=1200390
+    official: true
+    found_by: nces-district
+    quote: 'Schools in this District) NCES District ID: 1200390 State District ID: FL-13 Mailing Address: 1450 NE 2nd Ave
+      # 912 Miami FL, 33132 -1308 Physical Address: 1450 NE 2nd Ave # 912 Miami FL, 33132 -1308 Phone: (305)995-1000 Type:
+      Regular local'
+    status: unverified
+  - id: us-fl-miamidade.school-district
+    topic: school-district
+    name: Miccosukee Indian School
+    phone: 305-894-2364
+    address: US HWY 41 Mile Marker 37.5, Miami 33194
+    website: http://www.miccosukeeindianschool.com
+    url: https://nces.ed.gov/ccd/districtsearch/district_detail.asp?ID2=5900090
+    official: true
+    found_by: nces-district
+    quote: 'ls in this District) NCES District ID: 5900090 State District ID: BI-D54S02 Mailing Address: Po Box 440021 Tamiami
+      Station Miami FL, 33144 Physical Address: Us Hwy 41 Mile Marker 37.5 Miami FL, 33194 Phone: (305)894-2364 Type: Regular
+      local'
+    status: unverified
+  - id: us-fl-miamidade.school-district
+    topic: school-district
+    name: KIPP CHARTER
+    phone: 786-309-1047
+    address: 3400 NW 87TH ST, MIAMI 33147
+    website: http://www.kippmiami.org
+    url: https://nces.ed.gov/ccd/districtsearch/district_detail.asp?ID2=1200083
+    official: true
+    found_by: nces-district
+    quote: 'P CHARTER (Schools in this District) NCES District ID: 1200083 State District ID: FL-98Z Mailing Address: 3400
+      NW 87th St Miami FL, 33147 -3944 Physical Address: 3400 NW 87th St Miami FL, 33147 -3944 Phone: (786)309-1047 Type:
+      Independent c'
+    status: unverified
+  - id: us-fl-miamidade.school-district
+    topic: school-district
+    name: MATER ACADEMY
+    phone: 786-245-3377
+    address: 8003 NW 103rd Street, HIALEAH GARDENS 33016
+    website: http://www.materacademy.org
+    url: https://nces.ed.gov/ccd/districtsearch/district_detail.asp?ID2=1202018
+    official: true
+    found_by: nces-district
+    quote: ' in this District) NCES District ID: 1202018 State District ID: FL-815 Mailing Address: 8003 NW 103rd Street Hialeah
+      Gardens FL, 33016 Physical Address: 8003 NW 103rd Street Hialeah Gardens FL, 33016 Phone: (786)245-3377 Type: Independent
+      c'
+    status: unverified
+  - id: us-fl-miamidade.legal-aid
+    topic: legal-aid
+    name: Legal Services of Greater Miami, Inc. — Legal Services of Greater Miami Inc
+    phone: null
+    address: 4343 West Flagler Street Ste. 100, Miami 33134
+    website: null
+    url: https://services3.arcgis.com/n7h3cEoHTyNCwjCf/arcgis/rest/services/LSC_offices_grantees_main_branch_(Public)/FeatureServer/0
+    official: true
+    found_by: lsc-legal-aid
+    quote: '{''orgName'': ''Legal Services of Greater Miami, Inc.'', ''officenam'': ''Legal Services of Greater Miami Inc'',
+      ''officetype'': ''Main'', ''address'': ''4343 West Flagler Street'', ''bldgSuite'': ''Ste. 100'', ''City'': ''Miami'',
+      ''State'': ''FL'', ''ZIP'': ''33134''}'
+    status: unverified
+  - id: us-fl-miamidade.license-and-tag-agent
+    topic: license-and-tag-agent
+    name: Miami-Dade County Office of the Tax Collector
+    phone: null
+    url: https://www.mdctaxcollector.gov/
+    official: true
+    found_by: dotgov-registry
+    status: unverified (website only; phone not read)
+  - id: us-fl-miamidade.sheriff
+    topic: sheriff
+    name: Miami-Dade Sheriff's Office
+    phone: null
+    url: https://mdsofl.gov/
+    official: true
+    found_by: dotgov-registry
+    status: unverified (website only; phone not read)
+  - id: us-fl-miamidade.clerk-of-court
+    topic: clerk-of-court
+    name: Miami-Dade Clerk of Court & Comptroller
+    phone: null
+    url: https://miamidadeclerk.gov/
+    official: true
+    found_by: dotgov-registry
+    status: unverified (website only; phone not read)
+  - id: us-fl-miamidade.property-appraiser
+    topic: property-appraiser
+    name: Property Appraiser of Miami-Dade County
+    phone: null
+    url: https://miamidadepa.gov/
+    official: true
+    found_by: dotgov-registry
+    status: unverified (website only; phone not read)
+  - id: us-fl-miamidade.sheriff
+    topic: sheriff
+    name: Miami-Dade Sheriff's Office
+    phone: null
+    url: https://miamidadesheriff.gov/
+    official: true
+    found_by: dotgov-registry
+    status: unverified (website only; phone not read)
+  - id: us-fl-miamidade.elections
+    topic: elections
+    name: Miami-Dade County Elections Department
+    phone: null
+    url: https://votemiamidade.gov/
+    official: true
+    found_by: dotgov-registry
+    status: unverified (website only; phone not read)
+  adapters:
+  - topic: 311-history
+    endpoint: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/data_311_2023/FeatureServer
+    layer_id: 0
+    layer_name: data_311_2023
+    fields:
+    - street_address
+    - goal_days
+    - actual_completed_days
+    geometry: null
+    method: arcgis-query attribute where-clause
+    official: true
+    confidence: 0.67
+    alternatives:
+    - endpoint: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/data_311_2022/FeatureServer
+      layer_id: 0
+      layer_name: data_311_2022
+      confidence: 0.67
+    - endpoint: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/data_311_2020/FeatureServer
+      layer_id: 0
+      layer_name: data_311_2020
+      confidence: 0.67
+    - endpoint: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/data_311_2018/FeatureServer
+      layer_id: 0
+      layer_name: data_311_2018
+      confidence: 0.67
+  - topic: broadband
+    endpoint: https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer
+    layer_id: 4
+    layer_name: MDBroadbandProvider
+    fields:
+    - TRANSTECH
+    geometry: esriGeometryPolygon
+    method: arcgis-query point-in-polygon esriSpatialRelIntersects
+    official: true
+    confidence: 0.67
+    alternatives: []
+  - topic: bulky-waste
+    endpoint: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/WCSBulkyBook_gdb/FeatureServer
+    layer_id: 0
+    layer_name: WCSBulkyBook
+    fields:
+    - BOOK
+    - LABEL
+    - CREATEDBY
+    - CREATEDDATE
+    - MODIFIEDBY
+    - MODIFIEDDATE
+    geometry: esriGeometryPolygon
+    method: arcgis-query point-in-polygon esriSpatialRelIntersects
+    official: true
+    confidence: 0.78
+    alternatives: []
+  - topic: flood
+    endpoint: https://gis.miamidade.gov/arcgis/rest/services/EnerGov/MD_LandMgtViewer/MapServer
+    layer_id: 64
+    layer_name: FEMA Panels
+    fields:
+    - PANELID
+    - Shape.STArea()
+    - Shape.STLength()
+    geometry: esriGeometryPolygon
+    method: arcgis-query point-in-polygon esriSpatialRelIntersects
+    official: true
+    confidence: 0.56
+    alternatives:
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/MD_SQLPictometry_Connect/MapServer
+      layer_id: 6
+      layer_name: Flood Zones
+      confidence: 0.56
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_CommunityServices/MapServer
+      layer_id: 6
+      layer_name: EvacuationOrder
+      confidence: 0.56
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/EnerGov/MD_LandMgtViewer/MapServer
+      layer_id: 63
+      layer_name: FEMA Flood Zones
+      confidence: 0.56
+  - topic: libraries
+    endpoint: https://gis.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer
+    layer_id: 3
+    layer_name: MDC Libraries
+    fields:
+    - psde2.MDC.Library.ADDRESS
+    - psde2.MDC.Library.PHONE
+    - psde2.MDC.Library.WKDAY
+    - psde2.MDC.Library.WKDAY2
+    - psde2.MDC.Library.WKDAY3
+    - psde2.MDC.Library.EXCPTDAY
+    - MergedLibraries.ADDRESS
+    geometry: esriGeometryPoint
+    method: 'arcgis-query nearest: buffered point search, sort by distance'
+    official: true
+    confidence: 0.78
+    alternatives:
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer
+      layer_id: 1
+      layer_name: MergedLibraries
+      confidence: 0.78
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer
+      layer_id: 2
+      layer_name: FutureLibraries
+      confidence: 0.78
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer
+      layer_id: 0
+      layer_name: SouthBrowardCountyLibraries
+      confidence: 0.78
+  - topic: mosquito
+    endpoint: https://gis.miamidade.gov/arcgis/rest/services/SolidWaste/MD_MosquitoTraps/MapServer
+    layer_id: 0
+    layer_name: Mosquito Trap
+    fields:
+    - LOCATION
+    - ALTID
+    - DESCRIPTION
+    - TRAPID
+    - INSTALLDATE
+    - STATUS
+    geometry: esriGeometryPoint
+    method: 'arcgis-query nearest: buffered point search, sort by distance'
+    official: true
+    confidence: 0.67
+    alternatives:
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/SolidWaste/MD_MosquitoTraps_Admin/MapServer
+      layer_id: 0
+      layer_name: Mosquito Trap
+      confidence: 0.67
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/SolidWaste/MD_MosquitoTrapsCharts/MapServer
+      layer_id: 0
+      layer_name: Mosquito Control Traps
+      confidence: 0.67
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/SolidWaste/MD_Mosquito_Spray_Schedule_Timeline/MapServer
+      layer_id: 1
+      layer_name: Mosquito Control Spray Schedule
+      confidence: 0.67
+  - topic: municipal-boundary
+    endpoint: https://gis.miamidade.gov/arcgis/rest/services/MapCache/BaseMap/MapServer
+    layer_id: 36
+    layer_name: Municipal
+    fields:
+    - NAME
+    - ADDRESS
+    - CITY
+    - PHONE
+    geometry: esriGeometryPolygon
+    method: arcgis-query point-in-polygon esriSpatialRelIntersects
+    official: true
+    confidence: 0.78
+    alternatives:
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/MapCache/MDCBaseMap_WebMercator/MapServer
+      layer_id: 36
+      layer_name: Municipal
+      confidence: 0.78
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/MapCache/MDCImagery/MapServer
+      layer_id: 22
+      layer_name: Municipal
+      confidence: 0.78
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/MapCache/BaseMap/MapServer
+      layer_id: 29
+      layer_name: Municipality
+      confidence: 0.78
+  - topic: parcel
+    endpoint: https://gis.miamidade.gov/arcgis/rest/services/AddressSearchMap_PropertiesWithZip/MapServer
+    layer_id: 1
+    layer_name: Property
+    fields:
+    - FOLIO
+    - addressid
+    - address
+    - st_name
+    geometry: esriGeometryPolygon
+    method: arcgis-query point-in-polygon esriSpatialRelIntersects
+    official: true
+    confidence: 0.89
+    alternatives:
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Parcel/MapServer
+      layer_id: 1
+      layer_name: PAParcel
+      confidence: 0.89
+    - endpoint: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/ParcelsView_gdb/FeatureServer
+      layer_id: 0
+      layer_name: PARCELSVIEW
+      confidence: 0.89
+    - endpoint: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/Parcelpoly_gdb/FeatureServer
+      layer_id: 0
+      layer_name: Parcel_poly
+      confidence: 0.89
+  - topic: parks
+    endpoint: https://gis.miamidade.gov/arcgis/rest/services/ParkFinder/MapServer
+    layer_id: 0
+    layer_name: Parks
+    fields:
+    - NAME
+    - ADDRESS
+    - PHONE
+    geometry: esriGeometryPoint
+    method: 'arcgis-query nearest: buffered point search, sort by distance'
+    official: true
+    confidence: 0.56
+    alternatives:
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/MD_CommissionDistrict/MapServer
+      layer_id: 21
+      layer_name: County Park
+      confidence: 0.56
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/LandManagement/MD_ZoningLandManagementViewer/MapServer
+      layer_id: 21
+      layer_name: Municipal Park
+      confidence: 0.56
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/MD_CommissionDistrict/MapServer
+      layer_id: 22
+      layer_name: Municipal Park
+      confidence: 0.56
+  - topic: public-safety
+    endpoint: https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_PublicSafety/MapServer
+    layer_id: 2
+    layer_name: FireStation
+    fields:
+    - NAME
+    - ADDRESS
+    geometry: esriGeometryPoint
+    method: 'arcgis-query nearest: buffered point search, sort by distance'
+    official: true
+    confidence: 0.78
+    alternatives:
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_PublicSafety/MapServer
+      layer_id: 3
+      layer_name: PoliceStation
+      confidence: 0.78
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_PublicSafety/MapServer
+      layer_id: 0
+      layer_name: MunicipalFireStation
+      confidence: 0.78
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_PublicSafety/MapServer
+      layer_id: 1
+      layer_name: MunicipalPoliceStation
+      confidence: 0.78
+  - topic: recycling
+    endpoint: https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer
+    layer_id: 2
+    layer_name: RecyclingRoute
+    fields:
+    - ROUTE
+    - WEEKDAY
+    - DAYID
+    - PICKUPWEEK
+    geometry: esriGeometryPolygon
+    method: arcgis-query point-in-polygon esriSpatialRelIntersects
+    official: true
+    confidence: 1.0
+    alternatives:
+    - endpoint: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/RecyclingRoute_gdb/FeatureServer
+      layer_id: 0
+      layer_name: RecyclingRoute
+      confidence: 1.0
+    - endpoint: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/RecyclingZone_gdb/FeatureServer
+      layer_id: 0
+      layer_name: RecyclingZone
+      confidence: 0.78
+    - endpoint: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/Garbage_and_Recycling_Pick_up_WFL1/FeatureServer
+      layer_id: 1
+      layer_name: No County Recycling Routes
+      confidence: 0.78
+  - topic: representatives
+    endpoint: https://gis.miamidade.gov/arcgis/rest/services/LandManagement/MD_CommissionDistrict/MapServer
+    layer_id: 0
+    layer_name: CommissionDistrict
+    fields:
+    - ID
+    - COMMNAME
+    - GlobalID
+    geometry: esriGeometryPolygon
+    method: arcgis-query point-in-polygon esriSpatialRelIntersects
+    official: true
+    confidence: 0.78
+    alternatives:
+    - endpoint: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/SchoolBoardDistrict_gdb/FeatureServer
+      layer_id: 0
+      layer_name: SchoolBoardDistrict
+      confidence: 0.78
+    - endpoint: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/SchoolBoardDistrict2000_gdb/FeatureServer
+      layer_id: 0
+      layer_name: SchoolBoardDistrict2000
+      confidence: 0.78
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/MD_CommissionDistrict/MapServer
+      layer_id: 1
+      layer_name: Commission District Boundary Line
+      confidence: 0.78
+  - topic: school-attendance
+    endpoint: https://gis.miamidade.gov/arcgis/rest/services/MD_MDCZoning/MapServer
+    layer_id: 3
+    layer_name: No School Zone
+    fields:
+    - NAME
+    geometry: esriGeometryPolygon
+    method: arcgis-query point-in-polygon esriSpatialRelIntersects
+    official: true
+    confidence: 0.56
+    alternatives:
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/MD_SOPSearchMap/MapServer
+      layer_id: 1
+      layer_name: Schools, Daycares and Parks Boundary
+      confidence: 0.56
+  - topic: school-attendance-elementary
+    endpoint: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/ElementaryAttendanceBoundary_gdb/FeatureServer
+    layer_id: 0
+    layer_name: ElementaryAttendanceBoundary
+    fields:
+    - NAME
+    - ADDRESS
+    - PHONE
+    - GRADES
+    geometry: esriGeometryPolygon
+    method: arcgis-query point-in-polygon esriSpatialRelIntersects
+    official: true
+    confidence: 0.78
+    alternatives:
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer
+      layer_id: 9
+      layer_name: ElementaryAttendanceBoundary
+      confidence: 0.56
+  - topic: school-attendance-high
+    endpoint: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/HighAttendanceBoundary_gdb/FeatureServer
+    layer_id: 0
+    layer_name: HighAttendanceBoundary
+    fields:
+    - NAME
+    - ADDRESS
+    - PHONE
+    - GRADES
+    geometry: esriGeometryPolygon
+    method: arcgis-query point-in-polygon esriSpatialRelIntersects
+    official: true
+    confidence: 0.78
+    alternatives:
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer
+      layer_id: 10
+      layer_name: HighAttendanceBoundary
+      confidence: 0.56
+  - topic: school-attendance-middle
+    endpoint: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/MiddleAttendanceBoundary_gdb/FeatureServer
+    layer_id: 0
+    layer_name: MiddleAttendanceBoundary
+    fields:
+    - NAME
+    - ADDRESS
+    - PHONE
+    - GRADES
+    geometry: esriGeometryPolygon
+    method: arcgis-query point-in-polygon esriSpatialRelIntersects
+    official: true
+    confidence: 0.78
+    alternatives:
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer
+      layer_id: 11
+      layer_name: MiddleAttendanceBoundary
+      confidence: 0.56
+  - topic: school-sites
+    endpoint: https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer
+    layer_id: 1
+    layer_name: Daycare
+    fields:
+    - NAME
+    - ADDRESS
+    - PHONE
+    geometry: esriGeometryPoint
+    method: 'arcgis-query nearest: buffered point search, sort by distance'
+    official: true
+    confidence: 0.78
+    alternatives:
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer
+      layer_id: 4
+      layer_name: College
+      confidence: 0.78
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer
+      layer_id: 5
+      layer_name: HeadStart
+      confidence: 0.78
+    - endpoint: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/HeadStart_gdb/FeatureServer
+      layer_id: 0
+      layer_name: HeadStart
+      confidence: 0.78
+  - topic: transit
+    endpoint: https://gis.miamidade.gov/arcgis/rest/services/BusMetro_RealTime/BusRealTime/MapServer
+    layer_id: 0
+    layer_name: Bus
+    fields:
+    - Latitude
+    - Longitude
+    - PassengerCapacityPercentage
+    - BusName
+    - BusTimeStamp
+    - BusTimeStampUTC
+    geometry: esriGeometryPoint
+    method: 'arcgis-query nearest: buffered point search, sort by distance'
+    official: true
+    confidence: 0.78
+    alternatives:
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/BusMetro_RealTime/BusStopActive/MapServer
+      layer_id: 0
+      layer_name: Bus Stop
+      confidence: 0.78
+    - endpoint: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/Bus_Stop_Maintenance_View_Layer/FeatureServer
+      layer_id: 1
+      layer_name: Bus Stop
+      confidence: 0.78
+    - endpoint: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/Bus_Stops/FeatureServer
+      layer_id: 0
+      layer_name: Bus_Stops
+      confidence: 0.78
+  - topic: trash
+    endpoint: https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer
+    layer_id: 1
+    layer_name: GarbagePickupRoute
+    fields:
+    - ROUTE
+    - COLLDAY
+    - WEEKDAYS
+    geometry: esriGeometryPolygon
+    method: arcgis-query point-in-polygon esriSpatialRelIntersects
+    official: true
+    confidence: 1.0
+    alternatives:
+    - endpoint: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/GarbagePickupRoute_gdb/FeatureServer
+      layer_id: 0
+      layer_name: GarbagePickupRoute
+      confidence: 1.0
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_CommunityServices/MapServer
+      layer_id: 5
+      layer_name: GarbagePickupRoute
+      confidence: 0.78
+    - endpoint: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/Trash_Pick_Up_WFL1/FeatureServer
+      layer_id: 1
+      layer_name: No County Garbage Routes
+      confidence: 0.78
+  - topic: voting
+    endpoint: https://gis.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer
+    layer_id: 3
+    layer_name: Precinct
+    fields:
+    - ID
+    - Shape.STArea()
+    - Shape.STLength()
+    geometry: esriGeometryPolygon
+    method: arcgis-query point-in-polygon esriSpatialRelIntersects
+    official: true
+    confidence: 0.67
+    alternatives:
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer
+      layer_id: 0
+      layer_name: PollingPlace
+      confidence: 0.67
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer
+      layer_id: 1
+      layer_name: EarlyVotingSite
+      confidence: 0.67
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/LandManagement/MD_ZoningLandManagementViewer/MapServer
+      layer_id: 14
+      layer_name: Precincts
+      confidence: 0.44
+  - topic: water-sewer
+    endpoint: https://gis.miamidade.gov/arcgis/rest/services/Wasd/iMDCUtilityCoordination_1_v1/MapServer
+    layer_id: 11
+    layer_name: Sewer
+    fields:
+    - PRJNAME
+    - AGCYNAME
+    - CONTNAME
+    geometry: esriGeometryPolygon
+    method: arcgis-query point-in-polygon esriSpatialRelIntersects
+    official: true
+    confidence: 1.0
+    alternatives:
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/Wasd/iMDCUtilityCoordination_1_v1/MapServer
+      layer_id: 14
+      layer_name: Water
+      confidence: 1.0
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/Wasd/iMDCUtilityCoordination_2_v1/MapServer
+      layer_id: 11
+      layer_name: Sewer
+      confidence: 1.0
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/Wasd/iMDCUtilityCoordination_2_v1/MapServer
+      layer_id: 14
+      layer_name: Water
+      confidence: 1.0
+  - topic: zoning
+    endpoint: https://gis.miamidade.gov/arcgis/rest/services/LandManagement/MD_ZoningLandManagementData/MapServer
+    layer_id: 0
+    layer_name: Zoning Hearing
+    fields:
+    - OBJECTID
+    - ENERGOV_ID
+    - PROC_NUM
+    - CASE_TYPE
+    - WORK_TYPE
+    - FOLIO
+    geometry: esriGeometryPolygon
+    method: arcgis-query point-in-polygon esriSpatialRelIntersects
+    official: true
+    confidence: 0.78
+    alternatives:
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/LandManagement/MD_ZoningRecords/MapServer
+      layer_id: 0
+      layer_name: Zoning Hearings
+      confidence: 0.78
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/LandManagement/MD_Zoning/MapServer
+      layer_id: 2
+      layer_name: Municipal Zoning
+      confidence: 0.78
+    - endpoint: https://gis.miamidade.gov/arcgis/rest/services/LandManagement/MD_LandUse/MapServer
+      layer_id: 0
+      layer_name: Existing Land Use
+      confidence: 0.78
+  transit:
+  - title: Miami-Dade Transit (gtfs)
+    url: http://www.miamidade.gov/transit/googletransit/current/google_transit.zip
+    official: true
+    mdb_id: mdb-331
+    data_type: gtfs
+    status: active
+    key_required: false
+    mirror: https://files.mobilitydatabase.org/mdb-331/latest.zip
+    reachable: 200
+  - title: Miami Dade Transit (gtfs_rt/tu)
+    url: https://api.goswift.ly/real-time/miami/gtfs-rt-trip-updates
+    official: false
+    mdb_id: mdb-1738
+    data_type: gtfs_rt
+    status: active
+    key_required: true
+    mirror: ''
+    reachable: null
+  - title: Miami Dade Transit (gtfs_rt/vp)
+    url: https://api.goswift.ly/real-time/miami/gtfs-rt-vehicle-positions/
+    official: false
+    mdb_id: mdb-1739
+    data_type: gtfs_rt
+    status: active
+    key_required: true
+    mirror: ''
+    reachable: null
+  - title: City of Miami Beach (gtfs)
+    url: https://data.trilliumtransit.com/gtfs/miamibeach-fl-us/miamibeach-fl-us.zip
+    official: false
+    mdb_id: mdb-2322
+    data_type: gtfs
+    status: active
+    key_required: false
+    mirror: https://files.mobilitydatabase.org/mdb-2322/latest.zip
+    reachable: 200
+  - title: City of Miami Gardens (gtfs)
+    url: https://data.trilliumtransit.com/gtfs/miamigardens-fl-us/miamigardens-fl-us.zip
+    official: false
+    mdb_id: mdb-2323
+    data_type: gtfs
+    status: active
+    key_required: false
+    mirror: https://files.mobilitydatabase.org/mdb-2323/latest.zip
+    reachable: 200
+  - title: Brightline (gtfs)
+    url: https://data.trilliumtransit.com/gtfs/brightline-fl-us/brightline-fl-us.zip
+    official: false
+    mdb_id: tld-4769
+    data_type: gtfs
+    status: inactive
+    key_required: false
+    mirror: https://files.mobilitydatabase.org/tld-4769/latest.zip
+    reachable: null
+  portals:
+  - title: 'ArcGIS Hub/Online site: Maps and Open Data'
+    url: https://gis-mdc.opendata.arcgis.com/
+    platform: arcgis-hub
+    official: false
+    verified: false
+  - title: Miami-Dade County Environmentally Endangered Lands (EEL) Program
+    url: https://mdc-eel-program-MDC.hub.arcgis.com
+    platform: arcgis-hub
+    official: true
+    verified: true
+  - title: Little River Adaptation Action Area
+    url: https://adaptation-action-area-in-little-river-MDC.hub.arcgis.com
+    platform: arcgis-hub
+    official: true
+    verified: true
+  - title: Sustainable Buildings Program - HUB Site
+    url: https://sustainable-buildings-program.miamidade.gov
+    platform: arcgis-hub
+    official: true
+    verified: true
+  - title: Open Data Hub Site
+    url: https://opendata.miamidade.gov
+    platform: arcgis-hub
+    official: true
+    verified: true
+  - title: Real Estate Request Portal
+    url: https://property-review-mdc.hub.arcgis.com
+    platform: arcgis-hub
+    official: true
+    verified: true
+  - title: Vision Zero Hub
+    url: https://visionzeromdc.miamidade.gov
+    platform: arcgis-hub
+    official: true
+    verified: true
+  - title: Miami-Dade County Sea Level Rise Strategy Draft
+    url: https://miami-dade-county-sea-level-rise-strategy-draft-MDC.hub.arcgis.com
+    platform: arcgis-hub
+    official: true
+    verified: true
+  gis_roots:
+  - url: https://gis.miamidade.gov/arcgis/rest/services
+    verified: true
+    services: 135
+    found_by: probe of a common ArcGIS path on an official domain
+  - url: https://gisweb.miamidade.gov/arcgis/rest/services
+    verified: true
+    services: null
+    found_by: probe of a common ArcGIS path on an official domain
+- id: us-fl-miami
+  parent: us-fl-miamidade
+  level: city
+  name: Miami city
+  fips: '1245000'
+  desks:
+  - id: us-fl-miami.311
+    topic: '311'
+    name: 311 phone on www.miami.gov
+    phone: 305-468-5900
+    address: null
+    website: null
+    url: https://www.miami.gov/Home
+    official: true
+    found_by: official-website
+    quote: . Social Tweets by CityofMiami Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900 Miami Riverside
+      Center (MRC) 444 SW 2nd
+    status: unverified
+  - id: us-fl-miami.311
+    topic: '311'
+    name: 311 phone on www.miami.gov
+    phone: '311'
+    address: null
+    website: null
+    url: https://www.miami.gov/Home
+    official: true
+    found_by: official-website
+    quote: 'be page. Social Tweets by CityofMiami Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900
+      Miami Riverside Center '
+    status: unverified
+  - id: us-fl-miami.311
+    topic: '311'
+    name: 311 phone on www.miami.gov
+    phone: 305-468-5900
+    address: null
+    website: null
+    url: https://www.miami.gov/My-Government/City-Officials/Find-My-Commissioner-District-Map
+    official: true
+    found_by: official-website
+    quote: ion. Contact Us Location Miami Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900 Miami Riverside
+      Center (MRC) 444 SW 2nd
+    status: unverified
+  - id: us-fl-miami.311
+    topic: '311'
+    name: 311 phone on www.miami.gov
+    phone: '311'
+    address: null
+    website: null
+    url: https://www.miami.gov/My-Government/City-Officials/Find-My-Commissioner-District-Map
+    official: true
+    found_by: official-website
+    quote: 'ect option. Contact Us Location Miami Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900
+      Miami Riverside Center '
+    status: unverified
+  - id: us-fl-miami.solid-waste
+    topic: solid-waste
+    name: solid-waste phone on www.miami.gov
+    phone: 305-960-2801
+    address: null
+    website: null
+    url: https://www.miami.gov/My-Government/Departments
+    official: true
+    found_by: official-website
+    quote: e City's financial, physical, and human resources more effectively. Solid Waste Telephone 305-960-2801 Email solidwastecustomerservice@miamigo
+    status: unverified
+  - id: us-fl-miami.311
+    topic: '311'
+    name: 311 phone on www.miami.gov
+    phone: 305-416-1495
+    address: null
+    website: null
+    url: https://www.miami.gov/My-Government/Departments
+    official: true
+    found_by: official-website
+    quote: orce sanitation code enforcement rules and policies. Zoning Telephone 311 Alternate Phone 305-416-1495 Email miamizoning@miamigov.com
+      The Offi
+    status: unverified
+  - id: us-fl-miami.311
+    topic: '311'
+    name: 311 phone on www.miami.gov
+    phone: 305-468-5900
+    address: null
+    website: null
+    url: https://www.miami.gov/My-Government/Departments
+    official: true
+    found_by: official-website
+    quote: for construction and land use. Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900 Miami Riverside
+      Center (MRC) 444 SW 2nd
+    status: unverified
+  - id: us-fl-miami.311
+    topic: '311'
+    name: 311 phone on www.miami.gov
+    phone: 305-468-5900
+    address: null
+    website: null
+    url: https://www.miami.gov/My-Government/Departments/Housing-Community-Development
+    official: true
+    found_by: official-website
+    quote: Affordable Housing Master Plan Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900 Miami Riverside
+      Center (MRC) 444 SW 2nd
+    status: unverified
+  - id: us-fl-miami.311
+    topic: '311'
+    name: 311 phone on www.miami.gov
+    phone: '311'
+    address: null
+    website: null
+    url: https://www.miami.gov/My-Government/Departments/Housing-Community-Development
+    official: true
+    found_by: official-website
+    quote: ' HOPWA Affordable Housing Master Plan Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900
+      Miami Riverside Center '
+    status: unverified
+  - id: us-fl-miami.311
+    topic: '311'
+    name: 311 phone on www.miami.gov
+    phone: 305-468-5900
+    address: null
+    website: null
+    url: https://www.miami.gov/My-Government/Departments/Human-Services
+    official: true
+    found_by: official-website
+    quote: ' Us Instagram Facebook Twitter Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900 Miami Riverside
+      Center (MRC) 444 SW 2nd'
+    status: unverified
+  - id: us-fl-miami.311
+    topic: '311'
+    name: 311 phone on www.miami.gov
+    phone: '311'
+    address: null
+    website: null
+    url: https://www.miami.gov/My-Government/Departments/Human-Services
+    official: true
+    found_by: official-website
+    quote: ' Follow Us Instagram Facebook Twitter Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900
+      Miami Riverside Center '
+    status: unverified
+  - id: us-fl-miami.311
+    topic: '311'
+    name: 311 phone on www.miami.gov
+    phone: 305-468-5900
+    address: null
+    website: null
+    url: https://www.miami.gov/My-Government/Departments/Solid-Waste
+    official: true
+    found_by: official-website
+    quote: 2 Sign up for your free course Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900 Miami Riverside
+      Center (MRC) 444 SW 2nd
+    status: unverified
+  - id: us-fl-miami.311
+    topic: '311'
+    name: 311 phone on www.miami.gov
+    phone: '311'
+    address: null
+    website: null
+    url: https://www.miami.gov/My-Government/Departments/Solid-Waste
+    official: true
+    found_by: official-website
+    quote: 'FL 33142 Sign up for your free course Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900
+      Miami Riverside Center '
+    status: unverified
+  - id: us-fl-miami.311
+    topic: '311'
+    name: 311 phone on www.miami.gov
+    phone: 305-468-5900
+    address: null
+    website: null
+    url: https://www.miami.gov/My-Government/Government-Services
+    official: true
+    found_by: official-website
+    quote: y Services Government Services Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900 Miami Riverside
+      Center (MRC) 444 SW 2nd
+    status: unverified
+  - id: us-fl-miami.311
+    topic: '311'
+    name: 311 phone on www.miami.gov
+    phone: '311'
+    address: null
+    website: null
+    url: https://www.miami.gov/My-Government/Government-Services
+    official: true
+    found_by: official-website
+    quote: 'ule City Services Government Services Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900
+      Miami Riverside Center '
+    status: unverified
+  adapters:
+  - topic: 311-history
+    endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/311_Service_Requests/FeatureServer
+    layer_id: 0
+    layer_name: 311_Service_Requests
+    fields:
+    - Street_Address
+    - Goal_Days
+    - Actual_Completed_Days
+    geometry: esriGeometryPoint
+    method: 'arcgis-query nearest: buffered point search, sort by distance'
+    official: true
+    confidence: 0.67
+    alternatives:
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/City_of_Miami_Service_Requests/FeatureServer
+      layer_id: 0
+      layer_name: City_of_Miami_Service_Requests
+      confidence: 0.67
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/City_of_Miami_311_Service_Requests_Since_2015/FeatureServer
+      layer_id: 0
+      layer_name: City_of_Miami_311_Service_Requests_Since_2015
+      confidence: 0.67
+  - topic: flood
+    endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/FEMA2021_FloodHazardAreas/FeatureServer
+    layer_id: 0
+    layer_name: FEMA2021_FloodHazardAreas
+    fields:
+    - DFIRM_ID
+    - VERSION_ID
+    - FLD_AR_ID
+    - STUDY_TYP
+    - FLD_ZONE
+    - ZONE_SUBTY
+    geometry: esriGeometryPolygon
+    method: arcgis-query point-in-polygon esriSpatialRelIntersects
+    official: true
+    confidence: 0.78
+    alternatives:
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/FEMA2021_LiMWA/FeatureServer
+      layer_id: 0
+      layer_name: FEMA2021_LiMWA
+      confidence: 0.44
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Primary_Evacuation_Route/FeatureServer
+      layer_id: 0
+      layer_name: Primary_Evacuation_Route
+      confidence: 0.44
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Emergency_Evacuation_Bus_Pick_Up/FeatureServer
+      layer_id: 0
+      layer_name: Emergency_Evacuation_Bus_Pick_Up
+      confidence: 0.44
+  - topic: libraries
+    endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Library/FeatureServer
+    layer_id: 0
+    layer_name: Library
+    fields:
+    - ADDRESS
+    - PHONE
+    - WKDAY
+    - WKDAY2
+    - WKDAY3
+    - EXCPTDAY
+    geometry: esriGeometryPoint
+    method: 'arcgis-query nearest: buffered point search, sort by distance'
+    official: true
+    confidence: 0.78
+    alternatives: []
+  - topic: municipal-boundary
+    endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Municipal_Park_Boundary/FeatureServer
+    layer_id: 0
+    layer_name: Municipal_Park_Boundary
+    fields:
+    - NAME
+    - ADDRESS
+    - CITY
+    - PHONE
+    geometry: esriGeometryPolygon
+    method: arcgis-query point-in-polygon esriSpatialRelIntersects
+    official: true
+    confidence: 1.0
+    alternatives:
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/XYMiami_Active_Police/FeatureServer
+      layer_id: 7
+      layer_name: MDC_Municipalities
+      confidence: 0.78
+  - topic: parcel
+    endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Property_Card/FeatureServer
+    layer_id: 0
+    layer_name: Property_Card
+    fields:
+    - FOLIO
+    - ADDRESS
+    - PARCELFOLIO
+    - RECYDAY
+    - TRASHDAY
+    - GARBDAY
+    geometry: esriGeometryPoint
+    method: arcgis-query buffered point (distance 30 m) then closest feature
+    official: true
+    confidence: 0.89
+    alternatives:
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/DREAM_Parcels_Layer/FeatureServer
+      layer_id: 0
+      layer_name: DREAM_Parcels_Layer_polygons
+      confidence: 0.89
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/DREAM_Parcels_Layer_view/FeatureServer
+      layer_id: 0
+      layer_name: DREAM_Parcels_Layer_polygons
+      confidence: 0.89
+  - topic: parks
+    endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/City_Parks/FeatureServer
+    layer_id: 0
+    layer_name: City_Parks
+    fields:
+    - ADDRESS
+    geometry: esriGeometryPolygon
+    method: arcgis-query point-in-polygon esriSpatialRelIntersects
+    official: true
+    confidence: 0.67
+    alternatives:
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/City_Owned_Park/FeatureServer
+      layer_id: 0
+      layer_name: City_Owned_Park
+      confidence: 0.67
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Undeveloped_Parks/FeatureServer
+      layer_id: 0
+      layer_name: Undeveloped_Parks
+      confidence: 0.67
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Parks 5 min walk time/FeatureServer
+      layer_id: 0
+      layer_name: Parks 5 min walk time
+      confidence: 0.67
+  - topic: public-safety
+    endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Business_with_Fire_Department_Certificate_Occupancy/FeatureServer
+    layer_id: 0
+    layer_name: Business_with_Fire_Department_Certificate_Occupancy
+    fields:
+    - BusinessID
+    - BusinessNa
+    - BusinessAd
+    - City
+    - StateCode
+    - ZipCode
+    geometry: esriGeometryPoint
+    method: 'arcgis-query nearest: buffered point search, sort by distance'
+    official: true
+    confidence: 0.78
+    alternatives:
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Police_Zones/FeatureServer
+      layer_id: 0
+      layer_name: Police_Zones
+      confidence: 0.67
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Fire_901_Zones/FeatureServer
+      layer_id: 0
+      layer_name: Fire_901_Zones
+      confidence: 0.67
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Police_Districts/FeatureServer
+      layer_id: 0
+      layer_name: Police_Districts
+      confidence: 0.67
+  - topic: recycling
+    endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Recycle_Routes/FeatureServer
+    layer_id: 0
+    layer_name: Recycle_Routes
+    fields:
+    - RECYDAY
+    - RECYROUTE
+    geometry: esriGeometryPolygon
+    method: arcgis-query point-in-polygon esriSpatialRelIntersects
+    official: true
+    confidence: 1.0
+    alternatives: []
+  - topic: representatives
+    endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Commission_Districts/FeatureServer
+    layer_id: 0
+    layer_name: Commission_Districts
+    fields:
+    - ADDRESS
+    - PHONE
+    geometry: esriGeometryPolygon
+    method: arcgis-query point-in-polygon esriSpatialRelIntersects
+    official: true
+    confidence: 0.78
+    alternatives:
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Commission_Districts_New/FeatureServer
+      layer_id: 0
+      layer_name: Commission_Districts_New
+      confidence: 0.78
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Enriched Commission Districts/FeatureServer
+      layer_id: 0
+      layer_name: Enriched Commission Districts
+      confidence: 0.78
+  - topic: school-sites
+    endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/College/FeatureServer
+    layer_id: 0
+    layer_name: College
+    fields:
+    - NAME
+    - ADDRESS
+    - PHONE
+    geometry: esriGeometryPoint
+    method: 'arcgis-query nearest: buffered point search, sort by distance'
+    official: true
+    confidence: 0.78
+    alternatives:
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Head_Start/FeatureServer
+      layer_id: 0
+      layer_name: Head_Start
+      confidence: 0.78
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/School_Site/FeatureServer
+      layer_id: 0
+      layer_name: School_Site
+      confidence: 0.78
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Charter_School/FeatureServer
+      layer_id: 0
+      layer_name: Charter_School
+      confidence: 0.78
+  - topic: transit
+    endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Bus_Shelter/FeatureServer
+    layer_id: 0
+    layer_name: Bus_Shelter
+    fields:
+    - OBJECTID
+    - SHELTERID
+    - BUSSTOPID
+    - MAINST
+    - CROSSST
+    - LOCATION
+    geometry: esriGeometryPoint
+    method: 'arcgis-query nearest: buffered point search, sort by distance'
+    official: true
+    confidence: 0.78
+    alternatives:
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Metrorail_Stations/FeatureServer
+      layer_id: 0
+      layer_name: Metrorail_Stations
+      confidence: 0.78
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Emergency_Evacuation_Bus_Pick_Up/FeatureServer
+      layer_id: 0
+      layer_name: Emergency_Evacuation_Bus_Pick_Up
+      confidence: 0.78
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/BusRoutes/FeatureServer
+      layer_id: 0
+      layer_name: BusRoutes
+      confidence: 0.67
+  - topic: trash
+    endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Trash_Routes/FeatureServer
+    layer_id: 0
+    layer_name: Trash_Routes
+    fields:
+    - TRASHDAY
+    geometry: esriGeometryPolygon
+    method: arcgis-query point-in-polygon esriSpatialRelIntersects
+    official: true
+    confidence: 1.0
+    alternatives:
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Garbage_Routes/FeatureServer
+      layer_id: 0
+      layer_name: Garbage_Routes
+      confidence: 1.0
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/StreetsSolidWasteCleanup_view/FeatureServer
+      layer_id: 0
+      layer_name: StreetsSolidWasteCleanup
+      confidence: 0.44
+  - topic: water-sewer
+    endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/XYMiami_Active_Police/FeatureServer
+    layer_id: 4
+    layer_name: Water_bodys
+    fields:
+    - WBNAME
+    geometry: esriGeometryPolygon
+    method: arcgis-query point-in-polygon esriSpatialRelIntersects
+    official: true
+    confidence: 0.78
+    alternatives:
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Water_Bodies_(Polygons)/FeatureServer
+      layer_id: 0
+      layer_name: Water_Bodies_(Polygons)
+      confidence: 0.78
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Blue_Lagoon_Waterford_Annexation_Area/FeatureServer
+      layer_id: 0
+      layer_name: Blue_Lagoon_Waterford_Annexation_Area
+      confidence: 0.67
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/wasd_sanitary_in_3288A/FeatureServer
+      layer_id: 3
+      layer_name: WASD Sanitary Sewer Later in 3288A WBID
+      confidence: 0.67
+  - topic: zoning
+    endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/M21_Zoning/FeatureServer
+    layer_id: 0
+    layer_name: M21_Zoning
+    fields:
+    - M21_ZONE
+    - Map_Code
+    - Transect
+    - Transect_D
+    - Bldg_Heigh
+    - Intensity
+    geometry: esriGeometryPolygon
+    method: arcgis-query point-in-polygon esriSpatialRelIntersects
+    official: true
+    confidence: 0.78
+    alternatives:
+    - endpoint: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Future_Land_Use/FeatureServer
+      layer_id: 0
+      layer_name: Future_Land_Use
+      confidence: 0.78
+  portals:
+  - title: 'ArcGIS Hub/Online site: View City Services Map'
+    url: https://miamigis.maps.arcgis.com/apps/webappviewer/index.html
+    platform: arcgis-hub
+    official: false
+    verified: false
+  - title: Socrata portal data.miamigov.com
+    url: https://data.miamigov.com/
+    platform: socrata
+    official: true
+    verified: true
+  gis_roots:
+  - url: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services
+    verified: true
+    services: 188
+    found_by: official-website
+place: Miami-Dade County, FL

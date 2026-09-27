@@ -1,0 +1,99 @@
+[
+  {
+    "id": "us-fl.minimum-wage.hourly",
+    "claim": "Florida minimum wage is $15.00 per hour from September 30, 2026.",
+    "value": "15.00",
+    "unit": "USD",
+    "value_type": "money",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flsenate.fl-const.art-x-sec-24",
+    "url": "https://www.flsenate.gov/Laws/Constitution",
+    "quote": "Effective September 30th, 2021, the existing state Minimum Wage shall increase to $10.00 per hour, and then increase each September 30th thereafter by $1.00 per hour, until the Minimum Wage reaches $15.00 per hour on September 30th, 2026.",
+    "retrieved_at": "2026-09-25T17:40:24-04:00",
+    "check_every": "P7D",
+    "status": "verified",
+    "plan_value": "$15.00 from 9/30/2026",
+    "correction_note": "Confirmed from Fla. Const. Art. X §24(c) on flsenate.gov. The FloridaCommerce notice/poster could NOT be fetched: floridajobs.org returned 403 to every box request (page, 2025/2026 announcement and poster PDFs) and WebFetch timed out or got 404. The files in src/ named fl_2026-minimum-wage-*.pdf are 403 error pages, not posters. Re-check FloridaCommerce after 9/30.",
+    "topics": [
+      "minimum-wage"
+    ],
+    "x-verdict": "verified",
+    "x-source_id_original": "flsenate.fl-const.art-x-sec-24",
+    "unit_detail": "USD/hour"
+  },
+  {
+    "id": "us-fl.minimum-wage.tipped",
+    "claim": "Florida tipped-employee direct wage from September 30, 2026 is $11.98 per hour.",
+    "value": null,
+    "unit": "USD/hour",
+    "value_type": "money",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flsenate.fl-const.art-x-sec-24",
+    "url": "https://www.flsenate.gov/Laws/Constitution",
+    "quote": "For tipped Employees meeting eligibility requirements for the tip credit under the FLSA, Employers may credit towards satisfaction of the Minimum Wage tips up to the amount of the allowable FLSA tip credit in 2003.",
+    "retrieved_at": "2026-09-25T17:40:24-04:00",
+    "check_every": "P7D",
+    "status": "unsourced",
+    "plan_value": "11.98",
+    "correction_note": "Unsourced. The primary text gives the formula (tip credit capped at the 2003 FLSA tip credit), not a dollar figure, and $3.02 does not appear in the fetched Constitution or in Fla. Stat. 448.110. $15.00 − $3.02 = $11.98 is arithmetic, not an official notice. The FloridaCommerce 2026 poster could not be fetched (403). Do not display $11.98 as official until the FloridaCommerce notice is fetched and quoted.",
+    "topics": [
+      "minimum-wage",
+      "tipping"
+    ],
+    "x-verdict": "unsourced",
+    "x-source_id_original": "flsenate.fl-const.art-x-sec-24"
+  },
+  {
+    "id": "us-fl.business-tax.due-date",
+    "claim": "Due date for renewing Florida (and Miami-Dade) local business tax receipts for the year starting Oct 1, 2026 (due September 30 every year)",
+    "value": "2026-09-30",
+    "unit": null,
+    "value_type": "date",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.statutes-205-053",
+    "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0200-0299/0205/Sections/0205.053.html",
+    "quote": "All business tax receipts shall be sold by the appropriate tax collector beginning July 1 of each year, are due and payable on or before September 30 of each year, and expire on September 30 of the succeeding year.",
+    "retrieved_at": "2026-09-25T18:20:00-04:00",
+    "check_every": "P180D",
+    "status": "verified",
+    "topics": [
+      "work"
+    ],
+    "notes": "Applies to Miami-Dade County receipts (year Oct 1 to Sept 30); a business inside a city needs both a city and a county receipt (miamidade.gov Tax Collector news, 2024). Sept 30, 2026 is a Wednesday."
+  },
+  {
+    "id": "us-fl.business-tax.october-penalty",
+    "claim": "Delinquency penalty on a business tax receipt not renewed by September 30, for the month of October",
+    "value": "10",
+    "unit": "percent",
+    "value_type": "quantity",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.statutes-205-053",
+    "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0200-0299/0205/Sections/0205.053.html",
+    "quote": "Receipts that are not renewed when due and payable are delinquent and subject to a delinquency penalty of 10 percent for the month of October, plus an additional 5 percent penalty for each subsequent month of delinquency until paid. However, the total delinquency penalty may not exceed 25 percent of the business tax for the delinquent establishment.",
+    "retrieved_at": "2026-09-25T18:20:00-04:00",
+    "check_every": "P180D",
+    "status": "verified",
+    "topics": [
+      "work"
+    ]
+  },
+  {
+    "id": "us-fl.business-tax.exemption-65-disabled",
+    "claim": "People 65 or older and people physically unable to do manual labor, with at most one helper and no more than $1,000 of their own capital, can run a business in their home county without paying the business tax",
+    "value": true,
+    "unit": null,
+    "value_type": "flag",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.statutes-205-162",
+    "url": "https://www.flsenate.gov/laws/statutes/2025/205.162",
+    "quote": "All disabled persons physically incapable of manual labor, widows with minor dependents, and persons 65 years of age or older, with not more than one employee or helper, and who use their own capital only, not in excess of $1,000, may engage in any business or occupation in counties in which they live without being required to pay a business tax.",
+    "retrieved_at": "2026-09-25T18:20:00-04:00",
+    "check_every": "P180D",
+    "status": "verified",
+    "topics": [
+      "work"
+    ],
+    "notes": "Miami-Dade Tax Collector exemption form: mdctaxcollector.gov/storage/forms/lbt/exempt-appl-other.pdf (physician's certificate for disability, proof of age for 65+). The receipt itself is still required."
+  }
+]

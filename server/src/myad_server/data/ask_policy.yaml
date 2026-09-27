@@ -1,0 +1,419 @@
+# /v1/ask deterministic policy (owner: myAD Agents).
+#
+# DESK-ONLY CLASSIFIER (review r3, finding B1). Questions only a desk can answer are never answered by a card.
+# Matching is structural, not phrase-based (see ask/desk_only.py):
+#   * text is casefolded, accent-folded and punctuation-stripped, then tokenized;
+#   * a token also matches with a plural, -ed, -d or -ing ending removed (entries are base forms and are
+#     not stemmed: "renewed" never matches "renew"); an entry ending in `*` is a prefix
+#     (>= 4 letters); two adjacent tokens also match one entry word ("rande-vou" = "randevou");
+#   * multi-word entries match contiguous tokens. Write entries with accents or without; they are folded too.
+# Every lexicon mixes es, en and ht on purpose: code-switched requests need no language detection.
+# A rule fires when ALL lexicons of ANY one of its `when` clauses hit (a DOMAIN plus a QUESTION-TYPE cue, or
+# a domain that is desk-only by itself). `ambiguous_domain`: the domain word alone is an ambiguous overlap and
+# fails closed to the desk unless a card that is itself about that domain matches confidently.
+# `unless_part_of`: tokens inside these phrases do not count for the rule ("work permit" is not a job ask).
+# Rule order is the reason reported when several rules fire. The wording is a first pass by Agents;
+# Language/Content should review it (Creole especially). Held-out eval: tests/data/desk_only_heldout.yaml.
+lexicons:
+  # ---- immigration status and outcome ---------------------------------------------------------------
+  immigration_status:
+    - visa
+    - visas
+    - viza
+    - green card
+    - tarjeta verde
+    - kat vet
+    - residency
+    - residence card
+    - permanent resident
+    - residencia
+    - residente permanente
+    - rezidans
+    - asylum
+    - asilo
+    - asylo
+    - azil
+    - tps
+    - parole
+    - parol
+    - citizenship
+    - ciudadania
+    - sitwayennte
+    - sitwayen
+    - naturaliz*
+    - natiraliz*
+    - paper
+    - papeles
+    - papye
+    - work permit
+    - work authorization
+    - ead
+    - permiso de trabajo
+    - autorizacion de trabajo
+    - pemi travay
+    - otorizasyon travay
+    - immigration
+    - inmigracion
+    - imigrasyon
+    - uscis
+    - deport*
+    - depote
+    - refugee
+    - refugiad*
+    - refijye
+    - petition
+    - peticion
+    - petisyon
+    - application
+    - solicitud
+    - aplikasyon
+    - my case
+    - mi caso
+    - case mwen
+    - ka mwen
+    - dosye mwen
+    - immigration status
+    - estatus
+    - estado migratorio
+    - let me stay
+    - dejen quedar
+    - dejan quedar
+    - kite m rete
+    - stay in the country
+    - stay in the us
+    - quedarme en
+    - quedar en el pais
+    - rete nan peyi
+  outcome_cue:
+    # outcome / approval / acquisition / future questions about one person's case
+    - approv*
+    - approval
+    - deny
+    - denied
+    - denial
+    - accept*
+    - reject*
+    - refus*
+    - grant*
+    - chance
+    - chances
+    - odds
+    - likely
+    - decision
+    - decide*
+    - outcome
+    - result
+    - qualify
+    - qualifies
+    - eligib*
+    - pass
+    - win
+    - lose
+    - will
+    - won t
+    - would
+    - going to
+    - gonna
+    - get
+    - got
+    - give
+    - obtain
+    - receive
+    - renewed
+    - extended
+    - deport*
+    - status of my
+    - aprob*
+    - aprueb*
+    - negar
+    - negado
+    - negada
+    - negaron
+    - niega*
+    - nieg*
+    - acept*
+    - rechaz*
+    - otorg*
+    - conced*
+    - dar
+    - dan
+    - daran
+    - den
+    - dieron
+    - van a
+    - va a
+    - vas a
+    - obten*
+    - consegu*
+    - consigo
+    - recib*
+    - posibilidad*
+    - probabilidad*
+    - decision
+    - resultado
+    - calific*
+    - elegib*
+    - ganar
+    - perder
+    - renuevan
+    - renueven
+    - sale
+    - saldra
+    - salio
+    - deporta*
+    - apwouv*
+    - apwob*
+    - refize
+    - rejte
+    - aksepte
+    - bay
+    - ban
+    - ba m
+    - jwenn
+    - resevwa
+    - chans
+    - chanse
+    - ap
+    - pral
+    - prale
+    - va
+    - desizyon
+    - rezilta
+    - kalifye
+    - pase
+    - genyen
+    - pedi
+    - depote
+  # ---- employment -----------------------------------------------------------------------------------
+  employment:
+    - job
+    - jobs
+    - work
+    - working
+    - employ*
+    - hire
+    - hiring
+    - hired
+    - career
+    - vacanc*
+    - trabaj*
+    - emple*
+    - chamba
+    - chambea*
+    - contratando
+    - contratan
+    - contratar
+    - contratacion
+    - vacante
+    - travay
+    - djob
+    - anplwa
+    - anboch*
+  work_document:
+    - work permit
+    - work authorization
+    - permiso de trabajo
+    - autorizacion de trabajo
+    - pemi travay
+    - otorizasyon travay
+  # ---- medical / dental price -----------------------------------------------------------------------
+  medical:
+    - clinic
+    - clinica
+    - klinik
+    - doctor
+    - doctora
+    - medico
+    - medica
+    - medical
+    - dokte
+    - medsen
+    - medsin
+    - hospital
+    - lopital
+    - dentist
+    - dentista
+    - dental
+    - dantis
+    - health center
+    - health clinic
+    - centro de salud
+    - sant sante
+    - sante
+    - checkup
+    - chequeo
+    - consulta
+    - emergency room
+    - sala de emergencia
+    - urgent care
+    - pediatra
+    - pedyat
+    - vaccine
+    - vacuna
+    - vaksen
+  price_cue:
+    - cost
+    - costs
+    - price
+    - charge
+    - fee
+    - fees
+    - how much
+    - free
+    - pay
+    - expensive
+    - cheap
+    - afford
+    - copay
+    - cuanto
+    - cuesta
+    - cuestan
+    - costo
+    - cobr*
+    - precio
+    - gratis
+    - gratuit*
+    - pagar
+    - pago
+    - caro
+    - barato
+    - tarifa
+    - konbyen
+    - pri
+    - koute
+    - peye
+    - che
+    - bon mache
+    - fre
+  # ---- appointment slots ----------------------------------------------------------------------------
+  appointment:
+    - appointment
+    - appt
+    - slot
+    - time slot
+    - cita
+    - turno
+    - randevou
+    - rendezvous
+    - rendez vous
+  booking_cue:
+    # booking verbs only; "schedule" alone is also a timetable ("bus schedule"), "pran" is "take" in ht
+    - book
+    - booking
+    - schedule a
+    - schedule an
+    - schedule me
+    - schedule my
+    - reserve
+    - reservar
+    - agendar
+    - agendame
+    - programar
+  bookable:
+    - dmv
+    - office
+    - oficina
+    - biros
+    - biwo
+    - interview
+    - entrevista
+    - biometric*
+    - consulate
+    - consulado
+    - konsila
+    - visit
+    - visita
+    - vizit
+    - doctor
+    - medico
+    - dokte
+  # ---- school bus ------------------------------------------------------------------------------------
+  school_bus:
+    - school bus
+    - bus escolar
+    - autobus escolar
+    - guagua escolar
+    - transporte escolar
+    - school transportation
+    - bis lekol
+  school:
+    - school
+    - escuela
+    - colegio
+    - escolar
+    - lekol
+  bus:
+    - bus
+    - autobus
+    - guagua
+    - bis
+    - camion
+    - transportation
+    - transporte
+    - transpo
+
+desk_only:
+  - id: visa_outcome
+    immigration: true
+    when:
+      - [immigration_status, outcome_cue]
+    ambiguous_domain: immigration_status
+    topics: []
+  - id: school_bus_eligibility
+    # Agents never state school-bus eligibility; every school-bus question goes to the district's
+    # transportation desk (agreed with Regions).
+    when:
+      - [school_bus]
+      - [school, bus]
+    topics: []
+  - id: clinic_price
+    when:
+      - [medical, price_cue]
+    ambiguous_domain: medical
+    topics: []
+  - id: appointment_slot
+    when:
+      - [appointment]
+      - [booking_cue, bookable]
+    topics: []
+  - id: job
+    when:
+      - [employment]
+    unless_part_of: [work_document]
+    topics: []
+
+# M4: the generic /v1/ask desk (no answer, or a desk-only question with no card desk) follows the household's
+# resolved jurisdiction; unknown jurisdiction falls back to the county, and a city desk is used only when the
+# jurisdiction is that city. `parents` and `levels` mirror server/regionpacks/*/manifest.json (checked by
+# tests/test_ask_desk_choice.py). Desk ids are never listed here: a desk is `<pack>.<name>` for a name in
+# `generic_desk_names`, used only if the ledger has its contact facts.
+jurisdictions:
+  parents:
+    us: null
+    us-fl: us
+    us-fl-miamidade: us-fl
+    us-fl-miami: us-fl-miamidade
+  levels:
+    us: country
+    us-fl: state
+    us-fl-miamidade: county
+    us-fl-miami: city
+  unknown: us-fl-miamidade
+generic_desk_names:
+  - "311"
+
+# Cards carrying one of these topics count as immigration content. The research topic
+# vocabulary does not carry an immigration marker, so this validated policy set is the source of truth.
+immigration_topics:
+  - immigration
+  - tps
+  - visa
+  - asylum
+  - uscis
+  - status
+
+# When a card offers one of these actions and the utterance uses the verb, the resolution performs that
+# action instead of opening the card. Keys must exist in contracts/intent/command_keys.json.
+action_verbs:
+  call_desk: '\b(call|llamar|llama|llamo|rele|telefon|phone number|numero de telefono)'
+  open_map: '\b(map|mapa|kat\b|directions|direcciones|como llego|how do i get there)'

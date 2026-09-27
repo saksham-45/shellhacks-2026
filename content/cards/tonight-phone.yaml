@@ -1,0 +1,90 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: tonight-phone
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Put the shoes on > Tonight and the next three days
+  item: 2. A phone that can reach home
+title:
+  es: Un teléfono que llegue a casa
+  en: A phone that reaches home
+  ht: Yon telefòn ki ka rele lakay
+summary:
+  es: Al comienzo, WhatsApp importa más que el correo. Consigue una SIM o eSIM que no pida número de Seguro Social.
+  en: At the start, WhatsApp matters more than email. Get a SIM or eSIM that does not ask for a Social Security number.
+  ht: Nan kòmansman an, WhatsApp pi enpòtan pase imèl. Pran yon SIM oswa eSIM ki pa mande nimewo Sekirite Sosyal.
+body:
+  es: |-
+    Los planes prepagados se venden sin número de Seguro Social. Por lo general basta el pasaporte.
+
+    Antes de salir de la tienda, manda un WhatsApp a tu casa.
+
+    Anota también en papel el número de un familiar y el de una oficina de ayuda, por si el teléfono se apaga.
+
+    No comparamos precios de compañías. Pide el total con impuestos antes de pagar.
+  en: |-
+    Prepaid plans are sold without a Social Security number. A passport is usually enough.
+
+    Before you leave the store, send a WhatsApp message home.
+
+    Write a relative's number and a help desk's number on paper too, in case the phone dies.
+
+    We do not compare carrier prices. Ask for the total with taxes before you pay.
+  ht: |-
+    Yo vann plan peye davans san nimewo Sekirite Sosyal. Anjeneral, paspò a ase.
+
+    Anvan ou soti nan magazen an, voye yon mesaj WhatsApp lakay.
+
+    Ekri nimewo yon fanmi ak nimewo yon biwo èd sou papye tou, si telefòn nan ta mouri.
+
+    Nou pa konpare pri konpayi yo. Mande total la ak taks anvan ou peye.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us.mobile.prepaid-without-ssn
+- []
+- []
+- []
+desk: us.phone-carrier-store
+actions:
+- type: open_map
+  target:
+    type: desk
+    desk_id: us.phone-carrier-store
+utterances:
+  es:
+  - necesito un teléfono
+  - cómo consigo una SIM
+  - puedo sacar un eSIM sin social
+  - mi teléfono no sirve aquí
+  - dónde compro un chip para el celular
+  en:
+  - I need a phone
+  - how do I get a SIM card
+  - can I get an eSIM without a social
+  - my phone does not work here
+  - where do I buy a chip for my phone
+  ht:
+  - mwen bezwen yon telefòn
+  - kote m ka jwenn yon kat SIM
+  - èske m ka pran yon eSIM san social
+  - telefòn mwen pa mache isit la
+  - kote pou m achte yon chip pou telefòn nan
+privacy_scope: person
+stages:
+- 1
+modes:
+- resident
+region_pack: us
+is_immigration: false
+fact_refs:
+- us.mobile.prepaid-without-ssn
+topics:
+- utilities
+- desk

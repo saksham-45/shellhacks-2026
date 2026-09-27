@@ -1,0 +1,99 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: lens-latam-notario
+kind: lens
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Origin lens
+  item: Anywhere in Latin America, especially Cuba
+title:
+  es: Un notario aquí no es abogado
+  en: A notario here is not a lawyer
+  ht: Yon notè isit la pa yon avoka
+summary:
+  es: La palabra suena igual, pero el trabajo no. Aquí, un notary public solo sella una firma y no puede dar consejos de inmigración.
+  en: The word sounds the same; the job is not. Here, a notary public stamps a signature and may not give immigration advice.
+  ht: Mo a sonnen menm jan, men travay la pa menm. Isit la, yon notary public sèlman mete so sou yon siyati epi li pa gen dwa bay konsèy sou imigrasyon.
+body:
+  es: |-
+    Un notary public de Florida es testigo de firmas. La ley no le permite dar consejos de inmigración.
+
+    Lo que cuesta: pagarle a un notario para que “haga los papeles” es como las familias pierden años y dinero.
+
+    Ve con un abogado o un representante acreditado por el Departamento de Justicia. Te dirán el nombre oficial del formulario. Nosotros no escogemos el formulario.
+
+    Un notario que te promete TPS, un permiso de trabajo o un estatus rápido te está vendiendo una suposición. Si un trámite se presenta mal, lo pagas por años. Pide la acreditación de quien te ayuda antes de pagar o firmar.
+  en: |-
+    A Florida notary public witnesses signatures. The law does not let a notary give immigration advice.
+
+    What it costs: paying a notario to “do the papers” is how families lose years and money.
+
+    Go to a lawyer or a DOJ-accredited representative. They will tell you the official form name. We will not pick the form.
+
+    A notario who promises TPS, a work card, or a quick status is selling a guess. If a filing goes in wrong, you pay for it for years. Ask for the helper's accreditation before you pay or sign.
+  ht: |-
+    Yon notary public Florid se temwen siyati. Lalwa pa pèmèt li bay konsèy sou imigrasyon.
+
+    Sa sa koute: peye yon notè pou l “fè papye yo” se konsa fanmi pèdi ane ak lajan.
+
+    Al kay yon avoka oswa yon reprezantan Depatman Jistis akredite. Yo va di w non ofisyèl fòm lan. Nou p ap chwazi fòm lan.
+
+    Yon notè ki pwomèt ou TPS, pèmi travay, oswa yon estati vit ap vann ou yon devinèt. Si yon dosye mal depoze, w ap peye sa pandan plizyè ane. Mande akreditasyon moun k ap ede w la anvan ou peye oswa siyen.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl.notary.no-immigration-advice
+- - us.uscis.notario-scam
+- - us.immigration.who-may-advise
+- []
+desk: us.accredited-legal-help
+actions:
+- type: call_desk
+  desk_id: us.accredited-legal-help
+utterances:
+  es:
+  - un notario me puede hacer los papeles
+  - el notario aquí es abogado
+  - el notario me pide dinero por mi caso
+  - notario o abogado
+  - a notario can do mis papeles
+  en:
+  - can a notario do my papers
+  - is a notary a lawyer here
+  - the notario wants money for my case
+  - notario or lawyer
+  - el notario me cobra por los papeles
+  ht:
+  - èske yon notè ka fè papye m
+  - èske yon notè se avoka isit la
+  - notè a vle lajan pou dosye m
+  - notè oswa avoka
+  - notario a vle fè papye m
+privacy_scope: person-papers
+stages:
+- 1
+- 2
+modes:
+- resident
+region_pack: us-fl
+is_immigration: true
+origin_lenses:
+- latinAmerica
+related_cards:
+- status-word
+- immigration-papers
+fact_refs:
+- us-fl.notary.no-immigration-advice
+- us.uscis.notario-scam
+- us.immigration.who-may-advise
+verified_only_refs:
+- us.immigration.tps.venezuela.doc-validity
+topics:
+- immigration
+- legal-aid
+- tps

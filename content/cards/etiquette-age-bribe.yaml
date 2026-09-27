@@ -1,0 +1,81 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: etiquette-age-bribe
+kind: etiquette
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Origin lens > Etiquette cards
+  item: Alcohol is 21. Smoking rules are posted. A bribe is a crime here, not a fee.
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The country, same everywhere
+  item: Tipping, age 21, the notario warning, driving ethics
+title:
+  es: Alcohol, cigarrillo y sobornos
+  en: Alcohol, smoking, and bribes
+  ht: Alkòl, sigarèt, ak koripsyon
+summary:
+  es: La edad para tomar alcohol es {fact:us.alcohol.minimum-age}. Las reglas de fumar están en los letreros. Un soborno aquí es un delito, no una tarifa.
+  en: The drinking age is {fact:us.alcohol.minimum-age}. Smoking rules are posted. A bribe is a crime here, not a fee.
+  ht: Laj pou bwè alkòl se {fact:us.alcohol.minimum-age}. Règ pou fimen yo afiche. Koripsyon isit la se yon krim, se pa yon frè.
+body:
+  es: |-
+    En tu país, la edad para tomar puede ser más flexible, y un pago pequeño puede arreglar las cosas.
+
+    Aquí, las tiendas y bares piden identificación, y ofrecerle dinero a un funcionario es un delito.
+
+    Sigue el letrero de fumar de la puerta.
+  en: |-
+    At home, the rules on drinking age may be looser, and a small payment may smooth things over.
+
+    Here, stores and bars check ID, and offering money to an official is a crime.
+
+    Follow the smoking sign on the door.
+  ht: |-
+    Lakay, règ sou laj pou bwè ka pi lach, epi yon ti kòb ka ranje bagay yo.
+
+    Isit la, magazen ak ba mande ID, epi ofri yon otorite lajan se yon krim.
+
+    Swiv siy fimen ki sou pòt la.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- - us-fl.bribery.crime
+- []
+desk: us.211
+utterances:
+  es:
+  - cuál es la edad para tomar
+  - puedo fumar aquí
+  - puedo pagar para arreglar un problema
+  - mi hijo adolescente puede comprar cerveza
+  en:
+  - what is the drinking age
+  - can I smoke here
+  - can I pay to fix a problem
+  - can my teenager buy beer
+  ht:
+  - ki laj pou bwè alkòl
+  - èske m ka fimen isit la
+  - èske m ka peye pou ranje yon pwoblèm
+  - èske adolesan m nan ka achte byè
+privacy_scope: person
+stages:
+- 1
+- 10
+modes:
+- resident
+- tourist
+region_pack: us-fl
+is_immigration: false
+fact_refs:
+- us.alcohol.minimum-age
+- us-fl.bribery.crime
+topics:
+- etiquette
+- police

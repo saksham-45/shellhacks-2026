@@ -1,0 +1,96 @@
+{
+  "configurations": [
+    {
+      "id": "7A1E0001-0000-4000-8000-000000000001",
+      "name": "Español",
+      "options": {
+        "commandLineArgumentEntries": [
+          {
+            "argument": "-myadUITest YES"
+          },
+          {
+            "argument": "-myadSeed demoHousehold"
+          },
+          {
+            "argument": "-myadSurfaceLanguage es"
+          },
+          {
+            "argument": "-myadVoiceStub YES"
+          }
+        ],
+        "language": "es",
+        "region": "US"
+      }
+    },
+    {
+      "id": "7A1E0001-0000-4000-8000-000000000002",
+      "name": "English",
+      "options": {
+        "commandLineArgumentEntries": [
+          {
+            "argument": "-myadUITest YES"
+          },
+          {
+            "argument": "-myadSeed demoHousehold"
+          },
+          {
+            "argument": "-myadSurfaceLanguage en"
+          },
+          {
+            "argument": "-myadVoiceStub YES"
+          }
+        ],
+        "language": "en",
+        "region": "US"
+      }
+    },
+    {
+      "id": "7A1E0001-0000-4000-8000-000000000003",
+      "name": "Kreyòl",
+      "options": {
+        "commandLineArgumentEntries": [
+          {
+            "argument": "-myadUITest YES"
+          },
+          {
+            "argument": "-myadSeed demoHousehold"
+          },
+          {
+            "argument": "-myadSurfaceLanguage ht"
+          },
+          {
+            "argument": "-myadVoiceStub YES"
+          }
+        ],
+        "language": "ht",
+        "region": "US"
+      }
+    }
+  ],
+  "defaultOptions": {
+    "targetForVariableExpansion": {
+      "containerPath": "container:MyAmericanDream.xcodeproj",
+      "identifier": "MyAmericanDream",
+      "name": "MyAmericanDream"
+    },
+    "uiTestingScreenshotsLifetime": "keepAlways",
+    "codeCoverage": false
+  },
+  "testTargets": [
+    {
+      "target": {
+        "containerPath": "container:MyAmericanDream.xcodeproj",
+        "identifier": "MyAmericanDreamUITests",
+        "name": "MyAmericanDreamUITests"
+      }
+    },
+    {
+      "target": {
+        "containerPath": "container:MyAmericanDream.xcodeproj",
+        "identifier": "MyAmericanDreamTests",
+        "name": "MyAmericanDreamTests"
+      }
+    }
+  ],
+  "version": 1
+}

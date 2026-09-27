@@ -1,0 +1,109 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: work-allowed
+kind: country
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Put the shoes on > The first month, once they are sleeping
+  item: 13. Work only if the status allows it
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The country, same everywhere
+  item: Work rules by status, pointed at the official desk
+- plan: myamericandream-plan.md
+  section: Stages
+  item: 7. School or allowed work
+title:
+  es: El trabajo que tu estatus permite
+  en: Work your status allows
+  ht: Travay estati ou pèmèt
+summary:
+  es: Trabaja solo si tu estatus lo permite. La respuesta está en las fechas de tu permiso de trabajo o en la oficina internacional de tu escuela.
+  en: Work only if your status allows it. The answer is on your work card's dates, or at your school's international office.
+  ht: Travay sèlman si estati ou pèmèt li. Repons lan sou dat ki sou pèmi travay ou, oswa nan biwo entènasyonal lekòl ou.
+body:
+  es: |-
+    Un permiso de trabajo, la tarjeta EAD, muestra una fecha de inicio, una de fin y una categoría. Trabajar fuera de esas fechas no está autorizado.
+
+    Consulta con la oficina acreditada si tu permiso de trabajo todavía es válido.
+
+    Estudiantes F-1: el trabajo en el campus, CPT (entrenamiento práctico curricular) y OPT (entrenamiento práctico opcional) pasan por la oficina internacional de tu escuela. El DSO (oficial escolar designado) puede explicarte las reglas antes de empezar.
+
+    Esta tarjeta termina aquí. No explica otras formas de cobrar.
+
+    Las preguntas sobre tu propio caso van a un abogado o representante acreditado.
+  en: |-
+    A work permit, the EAD card, shows a start date, an end date, and a category. Work outside those dates is not authorized.
+
+    Check whether your work card is still valid with the accredited desk.
+
+    F-1 students: on-campus work, CPT (Curricular Practical Training), and OPT (Optional Practical Training) go through your school's international office. The DSO (Designated School Official) can explain the rules before you start.
+
+    This card stops here. It does not explain other ways to get paid.
+
+    Questions about your own case go to a lawyer or accredited representative.
+  ht: |-
+    Yon pèmi travay, kat EAD la, montre yon dat kòmansman, yon dat fen, ak yon kategori. Travay andeyò dat sa yo pa otorize.
+
+    Tcheke ak biwo akredite a si pèmi travay ou toujou valab.
+
+    Etidyan F-1: travay sou kanpis, CPT (fòmasyon pratik nan kourikoulòm) ak OPT (fòmasyon pratik opsyonèl) pase nan biwo entènasyonal lekòl ou. DSO a (ofisyèl lekòl ki deziyen) ka esplike règ yo anvan ou kòmanse.
+
+    Kat sa a kanpe la. Li pa esplike lòt fason pou touche.
+
+    Kesyon sou pwòp dosye ou ale bay yon avoka oswa yon reprezantan akredite.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us.status.ead
+- []
+- - us.f1.work-through-dso
+- []
+- []
+desk: us.accredited-legal-help
+actions:
+- type: call_desk
+  desk_id: us.accredited-legal-help
+utterances:
+  es:
+  - puedo trabajar
+  - tengo permiso para trabajar
+  - cuándo vence mi permiso de trabajo
+  - puedo trabajar fuera del campus
+  - can I work con mis papeles
+  en:
+  - can I work
+  - am I allowed to work
+  - when does my work permit expire
+  - can I work off campus
+  - puedo trabajar with my papers
+  ht:
+  - èske m ka travay
+  - èske m gen dwa travay
+  - ki lè pèmi travay mwen fini
+  - èske m ka travay andeyò kanpis la
+  - èske m ka work ak papye m yo
+privacy_scope: person-papers
+stages:
+- 7
+modes:
+- resident
+region_pack: us
+is_immigration: true
+origin_lenses:
+- internationalStudent
+related_cards:
+- lens-student-desk
+- status-word
+fact_refs:
+- us.status.ead
+- us.f1.work-through-dso
+verified_only_refs:
+- us.immigration.tps.venezuela.doc-validity
+topics:
+- immigration
+- work

@@ -1,0 +1,100 @@
+# Fee Check vocabulary (owner: myAD Agents). NOT facts: no amount, phone, hour or address lives here.
+# Every fee, source and desk contact is read from the ledger rows that Regions' `*.fee-check-*` adapters
+# declare (server/regionpacks/<pack>/manifest.json, read-only) and that the verifier admits.
+#
+# Patterns match NORMALIZED text: lowercase, accents stripped, punctuation turned into spaces. Every rule is
+# checked in en/es/ht at once, so code-switched sentences still match. First-pass wording: Language/Content
+# should review it (Creole especially).
+#
+# `purposes` is ordered: the first rule whose `all_of` patterns all match wins. A key is either a Regions fee
+# group (the adapter's `answers` key, e.g. fees.license) or one declared fact id. A key that Regions does not
+# declare for the request's region is simply never offered.
+purposes:
+  - key: us-fl.flhsmv.fee.class-e-renewal
+    all_of:
+      - '\b(renew\w*|renov\w*|renouvle\w*|renouvel\w*)'
+      - '\b(licen[cs]\w*|lisans|driver|conducir|manejar|permi|brevet)'
+  - key: us-fl.flhsmv.fee.id-card-original
+    all_of:
+      - '\b(id card|identification card|state id|tarjeta de identificacion|identificacion|cedula|kat idantite|kat id|kat didantite)\b'
+  - key: us-fl.flhsmv.fee.class-e-original
+    all_of:
+      - '\b(licen[cs]\w*|lisans|permis de conduire|brevet|driver s license|drivers license)'
+  - key: scams.gift-card
+    all_of:
+      - '\b(gift cards?|tarjetas? de regalo|kat kado|google play card|apple card|itunes card)\b'
+  - key: fees.uscis
+    all_of:
+      - '\b(uscis|immigration|inmigracion|imigrasyon|form i|formulario i|fom i|i 130|i 485|i 765|i 90|i 821|green card|residencia|rezidans|asylum|asilo|azil|work permit|permiso de trabajo|pemi travay|citizenship|ciudadania|sitwayennte|tps|parole|visa|viza|notario)\b'
+  - key: fees.mia-taxi
+    all_of:
+      - '\b(taxi|taxis|taksi|cab|cabs)\b'
+  - key: rent.deposit
+    all_of:
+      - '\b(deposit|deposito|depo|security deposit|rent|renta|alquiler|lwaye)\b'
+
+# Regions groups whose price is set by a private party. They never get a verdict, only their desk.
+private_groups:
+  - rent.deposit
+
+# A second ledger line that may be added to a group's fee (rendered only if the verifier admits it).
+addons:
+  fees.license:
+    - us-fl.flhsmv.fee.tax-collector-service-fee
+
+# Immigration fee questions end at the accredited-help desk (hackathon spec). Its contact lines, if any,
+# come only from `<desk>.*` ledger rows; when the ledger has none, the group's own desk answers.
+immigration_desk: us.accredited-legal-help
+
+payee:
+  government: '\b(dmv|flhsmv|tax collector|recaudador|uscis|government|gobierno|gouvenman|leta a|county office|oficina del condado|biwo konte)\b'
+  private: '\b(gestor|gestoria|gestoría|notario|landlord|dueno|casero|propietario|mechanic|mecanico|mekanisyen|preparer|preparador|agente|agent|abogado|lawyer|avoka|friend|amigo|zanmi|el senor|la senora|msye|madanm|company|compania|konpayi|store|tienda|magazen|contractor|contratista)\b'
+
+# Order matters: gift cards and Cash App are not "card" or "cash".
+method:
+  unknown: '\b(gift cards?|tarjetas? de regalo|kat kado|cash app|zelle|venmo|western union|moneygram|bitcoin|crypto\w*)\b'
+  money_order: '\b(money orders?|giro postal|orden de pago|manda|mandat)\b'
+  cash: '\b(cash|efectivo|kach|lajan kach)\b'
+  # "green card" / "tarjeta verde" / "kat vet" name an immigration document, not a payment method.
+  card: '\b(credit card|debit card|tarjeta de credito|tarjeta de debito|(?<!green )cards?(?! form)|tarjetas?(?! verde)|kat kredi|kat debi)\b'
+  check: '\b(check|cheque|chek)\b'
+
+# Reviewed-copy templates for the one-sentence answer (first pass; Language/Content review pending).
+# {source}, {amount}, {text}, {desk} are filled only from verifier-admitted ledger facts.
+copy:
+  official_fee:
+    en: 'The official fee published by {source} is {amount}{addon}.'
+    es: 'La tarifa oficial publicada por {source} es {amount}{addon}.'
+    ht: 'Frè ofisyèl {source} pibliye a se {amount}{addon}.'
+  addon:
+    en: ', plus a possible service fee of {amount}'
+    es: ', más un posible cargo de servicio de {amount}'
+    ht: ', plis yon frè sèvis {amount} ki ka aplike'
+  official_rule:
+    en: '{source} says: “{text}”'
+    es: '{source} dice{note}: “{text}”'
+    ht: '{source} di{note}: “{text}”'
+  quoted_in_english:
+    en: ''
+    es: ' (en inglés)'
+    ht: ' (an anglè)'
+  no_official_fee:
+    en: 'I don''t have the official fee for that; ask {desk}.'
+    es: 'No tengo la tarifa oficial para eso; pregunte en {desk}.'
+    ht: 'Mwen pa gen frè ofisyèl la pou sa; mande {desk}.'
+  private_no_verdict:
+    en: 'I don''t have a price for private services; ask {desk}.'
+    es: 'No tengo un precio para servicios privados; pregunte en {desk}.'
+    ht: 'Mwen pa gen pri pou sèvis prive; mande {desk}.'
+  not_shown_tourist:
+    en: 'I can''t help with that in visitor mode; ask {desk}.'
+    es: 'No puedo ayudar con eso en modo visitante; pregunte en {desk}.'
+    ht: 'Mwen pa ka ede ak sa nan mòd vizitè; mande {desk}.'
+  desk_fallback:
+    en: 'the desk below'
+    es: 'la oficina indicada abajo'
+    ht: 'biwo ki anba a'
+  desk_none:  # no desk id at all (no Regions manifests and no ledger): never a made-up desk or number
+    en: 'a local help desk'
+    es: 'una oficina de ayuda local'
+    ht: 'yon biwo èd lokal'

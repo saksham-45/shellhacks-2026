@@ -1,0 +1,105 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: mail-address
+kind: country
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Put the shoes on > Tonight and the next three days
+  item: 7. An address that receives mail
+- plan: myamericandream-plan.md
+  section: Build order
+  item: '7. Country cards: mail'
+- plan: myamericandream-plan.md
+  section: How it opens
+  item: Tu dirección de correo / Your mail address
+title:
+  es: Tu dirección de correo
+  en: Your mail address
+  ht: Adrès lapòs ou
+summary:
+  es: USCIS escribe por correo. Una carta que nadie abre puede acabar con un caso.
+  en: USCIS writes by mail. A letter nobody opens can end a case.
+  ht: USCIS ekri pa lapòs. Yon lèt pèsonn pa louvri ka fini yon dosye.
+body:
+  es: |-
+    USCIS manda citas, pedidos de pruebas y decisiones por correo.
+
+    Cuando te mudes, avísale a USCIS dentro de {fact:us.uscis.address-change-deadline}.
+
+    La casa de un primo sirve solo si alguien allí abre tus cartas y te avisa el mismo día.
+
+    Lo que cuesta: una carta de cita que no viste puede ser una cita perdida, y el caso puede ser negado.
+  en: |-
+    USCIS sends appointments, requests for evidence, and decisions by mail.
+
+    When you move, tell USCIS within {fact:us.uscis.address-change-deadline}.
+
+    A cousin's house works only if someone there opens your letters and tells you the same day.
+
+    What it costs: a missed appointment letter can mean a missed appointment, and the case can be denied.
+  ht: |-
+    USCIS voye randevou, demann prèv, ak desizyon pa lapòs.
+
+    Lè ou demenaje, di USCIS nan {fact:us.uscis.address-change-deadline}.
+
+    Kay yon kouzen bon sèlman si yon moun la louvri lèt ou yo epi li di w menm jou a.
+
+    Sa sa koute: yon lèt randevou ou pa wè ka vle di yon randevou ou rate, epi yo ka refize dosye a.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us.uscis.notices-by-mail
+- - us.uscis.address-change-online
+  - us.uscis.address-change-deadline
+- []
+- - us.uscis.missed-appointment
+desk: us.uscis
+actions:
+- type: call_desk
+  desk_id: us.uscis
+- type: call_desk
+  desk_id: us.accredited-legal-help
+utterances:
+  es:
+  - qué dirección le doy a USCIS
+  - me mudé, le aviso a inmigración
+  - mi correo llega a casa de mi primo
+  - cambiar mi dirección
+  - no me llegó la carta
+  en:
+  - what address do I give USCIS
+  - I moved, do I tell immigration
+  - my mail goes to my cousin's house
+  - change my address
+  - I did not get my letter
+  ht:
+  - ki adrès pou m bay USCIS
+  - mwen demenaje, èske m di imigrasyon
+  - lèt mwen yo ale kay kouzen m
+  - chanje adrès mwen
+  - mwen pa resevwa lèt mwen
+privacy_scope: person-papers
+stages:
+- 1
+- 2
+- 9
+modes:
+- resident
+region_pack: us
+is_immigration: true
+origin_lenses:
+- haiti
+- internationalStudent
+fact_refs:
+- us.uscis.notices-by-mail
+- us.uscis.address-change-online
+- us.uscis.address-change-deadline
+- us.uscis.missed-appointment
+topics:
+- mail
+- immigration

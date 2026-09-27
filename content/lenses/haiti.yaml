@@ -1,0 +1,80 @@
+# Origin lens (myAD Content). The file id is the ADCore OriginLens case.
+# title is the lens name; lens_card plus attaches_to are the cards it surfaces.
+id: haiti
+origin_lens: haiti
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Origin lens
+  item: Haiti
+title:
+  es: Desde Haití
+  en: From Haiti
+  ht: Soti Ayiti
+summary:
+  es: Primero el criollo haitiano, y cada plazo verificado. El correo en inglés y las fechas que se oyen de otros son como la gente pierde una fecha límite.
+  en: Creole first, and every deadline checked. Mail in English and dates heard secondhand are how people miss a deadline.
+  ht: Kreyòl an premye, ak chak delè verifye. Lèt an anglè ak dat ou tande nan bouch lòt moun se konsa moun rate yon delè.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+desk: us-fl-miamidade.immigration-legal-aid
+origin_match:
+  countries:
+  - HT
+  self_select: true
+  note: The person can pick or drop the lens.
+modes:
+- resident
+lens_card: lens-haiti-deadlines
+attaches_to:
+- immigration-papers
+- language-desk
+- license-and-tag
+- mail-address
+- miami-dade-311
+- status-word
+origin_lines:
+- card: license-and-tag
+  text:
+    es: En tu país, quizás hiciste el examen de manejo en tu idioma. Aquí es solo en inglés, sin intérprete ni traducción al criollo. Estudia en inglés antes de sacar la cita.
+    en: At home, you may have taken the driving test in your own language. Here it is in English only, with no interpreter and no Creole version. Study in English before you book.
+    ht: Lakay, ou te ka pase egzamen kondwi a nan pwòp lang ou. Isit la se an angle sèlman, san entèprèt e san vèsyon kreyòl. Etidye an angle anvan ou pran randevou.
+  fact_refs:
+  - us-fl.flhsmv.exams-english-only
+- card: immigration-papers
+  text:
+    es: En tu país, la noticia de un plazo llegaba por la radio o de boca en boca. Aquí solo cuenta el aviso oficial, y actuar por un rumor puede costarte tu estatus.
+    en: At home, news of a deadline came by radio or word of mouth. Here, only the official notice counts, and acting on a rumor can cost you your status.
+    ht: Lakay, nouvèl yon delè te rive nan radyo oswa bouch an bouch. Isit la, se sèlman avi ofisyèl la ki konte, e si ou aji sou yon rimè ou ka pèdi estati ou.
+  fact_refs: []
+- card: language-desk
+  text:
+    es: En tu país, podías explicarte en creole. Aquí, pide un intérprete; un amigo que traduce tus papeles puede equivocarse en los detalles.
+    en: At home, you could explain yourself in Creole. Here, ask for an interpreter; a friend translating your papers can get the details wrong.
+    ht: Lakay, ou te ka esplike w an kreyòl. Isit la, mande yon entèprèt; yon zanmi k ap tradui papye ou ka fè erè sou detay yo.
+  fact_refs: []
+- card: mail-address
+  text:
+    es: En tu país, las noticias importantes podían llegar en persona. Aquí llegan por correo en inglés, y una carta sin abrir puede significar un plazo perdido.
+    en: At home, important news may have come in person. Here, it comes by mail in English, and a letter left closed can mean a missed deadline.
+    ht: Lakay, gwo nouvèl te ka rive an pèsòn. Isit la, yo rive pa lapòs an anglè, e yon lèt ou pa louvri ka fè w rate yon delè.
+  fact_refs: []
+- card: miami-dade-311
+  text:
+    es: En tu país, ibas a la oficina en persona. Aquí, la línea del condado recibe la solicitud por teléfono o por la app; mira en qué idiomas contesta antes de llamar.
+    en: At home, you went to the office in person. Here, the county line takes the request by phone or app; check which languages it answers in before you call.
+    ht: Lakay, ou te al nan biwo a an pèsòn. Isit la, liy konte a pran demann lan pa telefòn oswa nan aplikasyon an; gade ki lang li reponn anvan ou rele.
+  fact_refs: []
+- card: status-word
+  text:
+    es: En tu país, la gente decía que un estatus se mantenía. Aquí, el estado de cada haitiano depende de sus propios papeles; habla con una persona acreditada antes de actuar por algo que hayas oído.
+    en: At home, people said a status would hold. Here, each Haitian person’s status depends on their own papers; talk to an accredited helper before acting on anything you heard.
+    ht: Lakay, moun te di yon estati ap kenbe. Isit la, estati chak Ayisyen depann de pwòp papye li; pale ak yon moun akredite anvan ou aji sou yon bagay ou tande.
+  fact_refs: []
+fact_refs:
+- us-fl.flhsmv.exams-english-only

@@ -1,0 +1,642 @@
+[
+  {
+    "id": "us-fl.license.noncitizen.bring-immigration-document",
+    "claim": "Non-immigrants applying for a Florida driver license or ID must bring an original primary ID such as a valid employment authorization card (I-688B or I-766) or a non-expired I-94 with required attachments; if unsure, bring all USCIS documents.",
+    "value": "original EAD (I-688B/I-766) or non-expired I-94 with attachments",
+    "unit": "text",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-what-to-bring-nonimmigrant",
+    "url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/non-immigrant/",
+    "quote": "Valid employment authorization card issued by the U.S. Department of Homeland Security (DHS) form I-688B or I-766; or Non-expired proof of non-immigrant classification provided by DHS form I-94 with required supporting attachment(s). If a customer is unsure of the required documentation, they should bring all United States Citizenship and Immigration Services (USCIS) documentation with them.",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "value_type": "text",
+    "desk": "us-fl-miamidade.tax-collector",
+    "plan_value": "Non-citizens are told to bring the immigration document itself.",
+    "plan_ref": "myamericandream-plan.md > The first month (item 9); myamericandream-plan.md > Origin lens (India, Students); myamericandream-plan.md > The demo step 1",
+    "topics": [
+      "license"
+    ],
+    "value_language": "en"
+  },
+  {
+    "id": "us-fl.license.noncitizen.i94-with-passport",
+    "claim": "An I-94 must be accompanied by a valid passport with a date-of-entry stamp.",
+    "value": "I-94 + valid passport with entry stamp",
+    "unit": "text",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-what-to-bring-nonimmigrant",
+    "url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/non-immigrant/",
+    "quote": "I-94s must be accompanied by a valid passport with a date of entry stamp.",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "value_type": "text",
+    "desk": "us-fl-miamidade.tax-collector",
+    "topics": [
+      "license"
+    ],
+    "value_language": "en"
+  },
+  {
+    "id": "us-fl.license.noncitizen.f1-m1-i20",
+    "claim": "F-1 and M-1 students must bring their I-20 with the I-94.",
+    "value": "I-20",
+    "unit": "document",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-what-to-bring-nonimmigrant",
+    "url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/non-immigrant/",
+    "quote": "F-1 and M-1 classification must be accompanied by an I-20;",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "value_type": "text",
+    "desk": "us-fl-miamidade.tax-collector",
+    "plan_value": "Students on F-1 or M-1 also bring the I-20.",
+    "plan_ref": "myamericandream-plan.md > The first month (item 9); myamericandream-plan.md > Origin lens (India, Students); myamericandream-plan.md > The demo step 1",
+    "topics": [
+      "license"
+    ],
+    "value_language": "en"
+  },
+  {
+    "id": "us-fl.license.noncitizen.j1-ds2019",
+    "claim": "J-1 and J-2 holders must bring the DS-2019.",
+    "value": "DS-2019",
+    "unit": "document",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-what-to-bring-nonimmigrant",
+    "url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/non-immigrant/",
+    "quote": "J-1 or J-2 designation must be accompanied by a DS2019;",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "value_type": "text",
+    "desk": "us-fl-miamidade.tax-collector",
+    "plan_value": "J-1 brings the DS-2019.",
+    "plan_ref": "myamericandream-plan.md > The first month (item 9); myamericandream-plan.md > Origin lens (India, Students); myamericandream-plan.md > The demo step 1",
+    "topics": [
+      "license"
+    ],
+    "value_language": "en"
+  },
+  {
+    "id": "us-fl.license.noncitizen.docs-valid-60-days",
+    "claim": "Immigration documents must be valid for more than 60 days from the date of issuance.",
+    "value": "60",
+    "unit": "days",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-what-to-bring-nonimmigrant",
+    "url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/non-immigrant/",
+    "quote": "Documents must be valid for more than 60 days from the date of issuance.",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "value_type": "quantity",
+    "desk": "us-fl-miamidade.tax-collector",
+    "topics": [
+      "license"
+    ]
+  },
+  {
+    "id": "us-fl.license.noncitizen.temp-permit-then-mailed",
+    "claim": "A non-citizen applying for an original license gets a 60-day temporary paper permit (no photo) and a receipt; after identity and status are verified, the card is issued within 60 days and mailed to the address on the driver record.",
+    "value": "temporary_permit_days: 60; mailed_within_days: 60",
+    "unit": "days",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-what-to-bring-nonimmigrant",
+    "url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/non-immigrant/",
+    "quote": "Non-U.S. citizens applying for an original driver license will be issued a 60-day temporary paper permit without a photo and a receipt. Non-U.S. citizens applying for an ID card will be issued a receipt. Upon identity and legal status verification, a driver license or ID card will be issued within 60 days and mailed to the address on the driver record.",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "value_type": "text",
+    "desk": "us-fl-miamidade.tax-collector",
+    "plan_value": "The state says a first non-citizen license is checked and then mailed",
+    "plan_ref": "myamericandream-plan.md > The first month (item 9); myamericandream-plan.md > Origin lens (India, Students); myamericandream-plan.md > The demo step 1",
+    "topics": [
+      "license"
+    ],
+    "value_language": "en"
+  },
+  {
+    "id": "us-fl.license.noncitizen.term-max-one-year",
+    "claim": "A non-citizen's license or ID is issued for the period on the USCIS document, not to exceed one year.",
+    "value": "1",
+    "unit": "year (maximum)",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-what-to-bring-nonimmigrant",
+    "url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/non-immigrant/",
+    "quote": "The driver license or ID card will be issued for the period of time specified on the USCIS document, not to exceed one year.",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "value_type": "quantity",
+    "desk": "us-fl-miamidade.tax-collector",
+    "plan_value": "issued for the time on the USCIS document, not longer than a year",
+    "plan_ref": "myamericandream-plan.md > The first month (item 9); myamericandream-plan.md > Origin lens (India, Students); myamericandream-plan.md > The demo step 1",
+    "notes": "This sentence is on the Non-Immigrant page. Immigrant (green card) holders follow a different page: https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/immigrant/",
+    "topics": [
+      "license"
+    ]
+  },
+  {
+    "id": "us-fl.license.noncitizen.denial-letter",
+    "claim": "If lawful status or identity is not verified, FLHSMV mails a denial of issuance letter.",
+    "value": "denial letter mailed",
+    "unit": "text",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-what-to-bring-nonimmigrant",
+    "url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/non-immigrant/",
+    "quote": "If lawful status or identification is not verified, a denial of issuance letter will be mailed to the customer.",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "value_type": "text",
+    "desk": "us-fl-miamidade.tax-collector",
+    "topics": [
+      "license"
+    ],
+    "value_language": "en"
+  },
+  {
+    "id": "us-fl.license.two-proofs-of-address",
+    "claim": "Applicants must bring two different documents showing their Florida residential address; the current license or ID does not count.",
+    "value": "2",
+    "unit": "documents",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-what-to-bring-nonimmigrant",
+    "url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/non-immigrant/",
+    "quote": "Customers may not use their current driver license or ID card as proof of residential address. Customers must submit two different documents with their Florida residential address (printouts or faxes of these documents are acceptable).",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "value_type": "quantity",
+    "desk": "us-fl-miamidade.tax-collector",
+    "plan_value": "Two proofs of a Florida address.",
+    "plan_ref": "myamericandream-plan.md > The first month (item 9); myamericandream-plan.md > Origin lens (India, Students); myamericandream-plan.md > The demo step 1",
+    "topics": [
+      "license"
+    ]
+  },
+  {
+    "id": "us-fl.license.address-docs-dated-60-days",
+    "claim": "Most proof-of-address documents (utility bill, bank statement, insurance bill, government mail, etc.) must be dated within the last 60 days.",
+    "value": "60",
+    "unit": "days",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-what-to-bring-nonimmigrant",
+    "url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/non-immigrant/",
+    "quote": "Utility bill – (Ex. water, gas, electricity, cell phone, cable) (must be dated within the last 60 days)",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "value_type": "quantity",
+    "desk": "us-fl-miamidade.tax-collector",
+    "topics": [
+      "license"
+    ]
+  },
+  {
+    "id": "us-fl.license.no-out-of-state-address",
+    "claim": "FLHSMV no longer accepts out-of-state or U.S. territory addresses for a Florida Class E license or ID.",
+    "value": false,
+    "unit": "boolean (out-of-state address accepted)",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-what-to-bring-nonimmigrant",
+    "url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/non-immigrant/",
+    "quote": "We will no longer accept out-of-state or U.S. territory addresses for applicants obtaining a Florida Class E license or identification card.",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "value_type": "flag",
+    "desk": "us-fl-miamidade.tax-collector",
+    "topics": [
+      "license"
+    ]
+  },
+  {
+    "id": "us-fl.license.certification-of-address",
+    "claim": "Someone without address documents in their own name may have the person they live with complete a Certification of Address form plus two proofs of address listed on that form.",
+    "value": "Certification of Address (HSMV-71120)",
+    "unit": "form",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-what-to-bring-nonimmigrant",
+    "url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/non-immigrant/",
+    "quote": "Customers who do not have any of the above documents in their name may have the person they reside with complete a Certification of Address form along with two proof of address documents listed on that form.",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "value_type": "text",
+    "desk": "us-fl-miamidade.tax-collector",
+    "notes": "Relevant to 'a cousin's address' households.",
+    "topics": [
+      "license"
+    ],
+    "value_language": "en"
+  },
+  {
+    "id": "us-fl.license.proof-of-ssn",
+    "claim": "Applicants with an SSN bring one original proof with the full number (Social Security card, W-2, pay stub, SSA-1099 or any 1099); those without an SSN are pointed to FLHSMV's What To Bring FAQ.",
+    "value": "one SSN document if issued",
+    "unit": "text",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-what-to-bring-nonimmigrant",
+    "url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/non-immigrant/",
+    "quote": "2. Proof of Social Security An original of one of the following documents with complete name and complete SSN: Social Security card (with customer’s current name); or W-2 form (not handwritten); or Pay check/stub; or SSA-1099; or Any 1099 (not handwritten). Customers without an SSN can find assistance on our What To Bring FAQ page .",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "value_type": "text",
+    "desk": "us-fl-miamidade.tax-collector",
+    "plan_value": "Social Security if they have one.",
+    "plan_ref": "myamericandream-plan.md > The first month (item 9); myamericandream-plan.md > Origin lens (India, Students); myamericandream-plan.md > The demo step 1",
+    "topics": [
+      "license"
+    ],
+    "value_language": "en"
+  },
+  {
+    "id": "us-fl.license.no-ssa-refusal-letter-needed",
+    "claim": "Non-immigrants in the country without a work visa do not need an SSA refusal letter.",
+    "value": false,
+    "unit": "boolean (refusal letter required)",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-what-to-bring-nonimmigrant",
+    "url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/non-immigrant/",
+    "quote": "Non-immigrants in the country without a work visa are not required to obtain a letter from the Social Security Administration stating that they were never issued an SSN (also known as an SSA refusal letter).",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "value_type": "flag",
+    "desk": "us-fl-miamidade.tax-collector",
+    "topics": [
+      "license"
+    ]
+  },
+  {
+    "id": "us-fl.license.ssn-name-must-match",
+    "claim": "The name on the SSN record must match the name that will appear on the Florida license or ID.",
+    "value": "SSN name = license name",
+    "unit": "text",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-what-to-bring-nonimmigrant",
+    "url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/non-immigrant/",
+    "quote": "Please note that the name assigned to the Social Security Number (SSN) must match the name that will appear on the Florida driver license or ID card.",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "value_type": "text",
+    "desk": "us-fl-miamidade.tax-collector",
+    "topics": [
+      "license"
+    ],
+    "value_language": "en"
+  },
+  {
+    "id": "us-fl.license.document-buckets",
+    "claim": "For a non-immigrant, FLHSMV lists three document groups: 1) primary identification (immigration document), 2) proof of Social Security, 3) two proofs of residential address, which is four documents in total when the person has an SSN.",
+    "value": [
+      "primary identification",
+      "proof of Social Security",
+      "proof of residential address x2"
+    ],
+    "unit": "list",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-what-to-bring-nonimmigrant",
+    "url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/non-immigrant/",
+    "quote": "1. Primary Identification ... 2. Proof of Social Security ... 3. Proofs of Residential Address",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "value_type": "codes",
+    "desk": "us-fl-miamidade.tax-collector",
+    "plan_value": "The four things to bring.",
+    "plan_ref": "mymiami-plan.md > The errand that eats a day (License and tag)",
+    "notes": "The quote joins three section headings from the page; the '...' marks omitted text between them. 'Four things' only works if you count the two address proofs separately plus the I-20/DS-2019 as part of primary ID. The card should list the three FLHSMV groups, not 'four things'.",
+    "topics": [
+      "license"
+    ]
+  },
+  {
+    "id": "us-fl.license.real-id-star",
+    "claim": "Florida licenses and IDs with a star in the upper-right corner are REAL ID compliant; since May 7, 2025, TSA accepts only starred cards (or a passport) at airports.",
+    "value": "2025-05-07",
+    "unit": "date",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-what-to-bring",
+    "url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/",
+    "quote": "After May 7, 2025, the Transportation Security Administration (TSA) will only accept driver licenses and ID cards with a star in the upper right corner as proof of identification at airports.",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P1Y",
+    "status": "verified",
+    "value_type": "date",
+    "desk": "us-fl.flhsmv",
+    "topics": [
+      "license"
+    ]
+  },
+  {
+    "id": "us-fl.license.immigrant.green-card",
+    "claim": "Immigrants (permanent residents) use a green card (I-551) or an I-551 stamp in the passport or on the I-94 as primary ID.",
+    "value": "I-551",
+    "unit": "document",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-what-to-bring-immigrant",
+    "url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/immigrant/",
+    "quote": "Valid alien registration receipt card (green card, form I-551);",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "value_type": "text",
+    "desk": "us-fl-miamidade.tax-collector",
+    "topics": [
+      "license"
+    ],
+    "value_language": "en"
+  },
+  {
+    "id": "us-fl-miamidade.license.tax-collector-transition",
+    "claim": "After a constitutional amendment, the Miami-Dade Tax Collector is taking over driver license and ID offices from FLHSMV; FLHSMV still manages appointments at offices not yet transitioned.",
+    "value": "transition in progress",
+    "unit": "text",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.mdc-tax-collector-dl",
+    "url": "https://www.mdctaxcollector.gov/driver-license-and-id-card-services",
+    "quote": "As a result of a recent constitutional amendment, the Miami-Dade County Office of the Tax Collector is now mandated to assume responsibility for the administration and issuance of Driver Licenses and Identification Cards for county residents. Accordingly, the County’s Driver License Offices will transition from the management of the Florida Department of Highway Safety and Motor Vehicles (FLHSMV) to the Office of the Tax Collector. ... In the meantime, the Florida Department of Highway Safety and Motor Vehicles (FLHSMV) will continue to manage appointments at locations not yet administered by the Tax Collector.",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "text",
+    "desk": "us-fl-miamidade.tax-collector",
+    "plan_value": "the Miami-Dade appointment is the Tax Collector, not the empty state calendar",
+    "plan_ref": "myamericandream-plan.md > The first month (item 9); mymiami-plan.md > License and tag; mymiami-public-data.md > Public to a person, closed to the app",
+    "correction_note": "Partly outdated. The plan says the Miami-Dade appointment is the Tax Collector and the state calendar is empty. The Tax Collector page says it has taken over eight offices so far and that FLHSMV still books appointments at offices not yet transitioned. The card should point to the Tax Collector first and FLHSMV for offices that have not moved yet. Do not call the state calendar 'empty'; no official source says so, and that was only a user report (r/Miami).",
+    "topics": [
+      "license"
+    ],
+    "value_language": "en"
+  },
+  {
+    "id": "us-fl-miamidade.license.tax-collector-offices-count",
+    "claim": "The Tax Collector says it has taken over eight driver license offices so far.",
+    "value": "8",
+    "unit": "offices",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.mdc-tax-collector-dl",
+    "url": "https://www.mdctaxcollector.gov/driver-license-and-id-card-services",
+    "quote": "the Office of the Tax Collector has already assumed control of eight offices in a short period of time.",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "quantity",
+    "desk": "us-fl-miamidade.tax-collector",
+    "topics": [
+      "license"
+    ]
+  },
+  {
+    "id": "us-fl-miamidade.license.tax-collector-no-road-tests",
+    "claim": "Most license transactions can be done at Tax Collector offices, but driving tests and CDLs are only offered at selected offices.",
+    "value": "driving tests and CDL at selected offices only",
+    "unit": "text",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.mdc-tax-collector-dl",
+    "url": "https://www.mdctaxcollector.gov/driver-license-and-id-card-services",
+    "quote": "Residents can now complete most Driver License transactions at the Tax Collector’s Office, with the exception of driving tests and Commercial Driver Licenses (CDL), which are provided at selected offices.",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "text",
+    "desk": "us-fl-miamidade.tax-collector",
+    "topics": [
+      "license"
+    ],
+    "value_language": "en"
+  },
+  {
+    "id": "us-fl-miamidade.tax-collector.phone",
+    "claim": "The Miami-Dade Tax Collector's phone number is (305) 375-5448; the downtown office is at 200 NW 2nd Ave, Miami, FL 33128.",
+    "value": "305-375-5448",
+    "unit": "phone",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.mdc-tax-collector-locations",
+    "url": "https://www.mdctaxcollector.gov/locations",
+    "quote": "Downtown Miami 200 NW 2nd Ave, Miami, FL 33128 (305) 375-5448",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "value_type": "phone",
+    "desk": "us-fl-miamidade.tax-collector",
+    "topics": [
+      "desk",
+      "license"
+    ]
+  },
+  {
+    "id": "us-fl-miamidade.license.tax-collector-kendall-office",
+    "claim": "The Tax Collector's Kendall office is at 11735 SW 147th Ave, Suite 23, Miami, FL 33196, and the Coral Reef office is at 14653 SW 122 Ave, Miami, FL 33186.",
+    "value": [
+      "11735 SW 147th Ave",
+      "Suite 23",
+      "Miami",
+      "FL 33196",
+      "14653 SW 122 Ave",
+      "Miami",
+      "FL 33186"
+    ],
+    "unit": "addresses",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.mdc-tax-collector-locations",
+    "url": "https://www.mdctaxcollector.gov/locations",
+    "quote": "Coral Reef 14653 SW 122 Ave, Miami, FL 33186 (305) 375-5448 ... Kendall (Suite 23) 11735 SW 147th Ave, Suite 23, Miami, FL 33196 (305) 375-5448",
+    "retrieved_at": "2026-09-25T17:30:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "value_type": "codes",
+    "desk": "us-fl-miamidade.tax-collector",
+    "notes": "Locations page read via WebSearch extraction. Recheck with a direct fetch.",
+    "topics": [
+      "license"
+    ]
+  },
+  {
+    "id": "us-fl-miamidade.tax-collector.hours",
+    "claim": "Most Tax Collector offices are open Monday to Friday 8:00 AM to 5:00 PM, and select locations also open Saturday 8:00 AM to 1:00 PM.",
+    "value": "mon_fri: 08:00-17:00; sat_select: 08:00-13:00",
+    "unit": "hours",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.mdc-tax-collector-dl",
+    "url": "https://www.mdctaxcollector.gov/driver-license-and-id-card-services",
+    "quote": "Monday – Friday: 8:00 AM to 5:00 PM Saturday (Select Locations): 8:00 AM to 1:00 PM",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "text",
+    "desk": "us-fl-miamidade.tax-collector",
+    "topics": [
+      "desk",
+      "license"
+    ],
+    "value_language": "en"
+  },
+  {
+    "id": "us-fl-miamidade.license.flow-library-services",
+    "claim": "Florida Licensing on Wheels (FLOW) at Miami-Dade libraries renews, replaces or updates driver licenses, issues new Florida ID cards, renews registrations and sells specialty plates. The event listing does not offer a first-time driver license or tests.",
+    "value": [
+      "renew/replace/update driver license",
+      "new Florida ID card",
+      "vehicle registration renewal",
+      "specialty plate"
+    ],
+    "unit": "list",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.mdpls-flow-event",
+    "url": "https://mdpls.org/event/15529974",
+    "quote": "Visit FLOW at the library to renew, replace or update your driver's license. Representatives can also assist you with getting a new Florida identification card, renewing your vehicle registration, purchasing a special license plate and more!",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "codes",
+    "desk": "us-fl-miamidade.tax-collector",
+    "plan_value": "The library van (Florida Licensing on Wheels) is the faster path people only learn from each other.",
+    "plan_ref": "myamericandream-plan.md > The first month (item 9); mymiami-plan.md > License and tag; mymiami-public-data.md > Public to a person",
+    "correction_note": "The plan frames FLOW as the faster path to a license, and the demo uses it for an F-1 student who needs a first license. The library's FLOW listing covers only renewals, replacements, updates, new ID cards, registrations and plates. It does not list first-time licenses or tests. A first-time non-citizen license still needs a Tax Collector or FLHSMV office. Show FLOW only for renewals and IDs. 'Faster' is a user report (r/Miami), not an official claim.",
+    "topics": [
+      "license"
+    ]
+  },
+  {
+    "id": "us-fl-miamidade.license.flow-event-example",
+    "claim": "Example FLOW stop: Hialeah Gardens Branch library, Monday Oct 26, 2026, 10:00am to 2:00pm, register via 305-820-8520.",
+    "value": "2026-10-26",
+    "unit": "date",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.mdpls-flow-event",
+    "url": "https://mdpls.org/event/15529974",
+    "quote": "Monday, October 26 10:00am - 2:00pm Hialeah Gardens Branch",
+    "retrieved_at": "2026-09-25T17:31:00-04:00",
+    "check_every": "P7D",
+    "status": "verified",
+    "value_type": "date",
+    "desk": "us-fl-miamidade.library",
+    "notes": "Schedules change. Freshness should scrape mdpls.org events for 'Florida Licensing on Wheels'.",
+    "topics": [
+      "license"
+    ]
+  },
+  {
+    "id": "us-fl-miamidade.license.appointment-wait-reports",
+    "claim": "People on r/Miami report that Kendall and Doral license appointments are booked weeks out.",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "",
+    "url": null,
+    "quote": null,
+    "retrieved_at": "2026-09-25T17:35:00-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "plan_value": "People on r/Miami report Kendall and Doral booked weeks out",
+    "plan_ref": "mymiami-public-data.md > Public to a person, closed to the app",
+    "notes": "Anecdotal forum report, labeled as such in the plan. No official wait-time data found; the Tax Collector has no public slot API. Show only as 'what people report', or drop it. Status changed from demo to unsourced: there is no value to show, and a forum report is not a source.",
+    "topics": [
+      "license"
+    ]
+  },
+  {
+    "jurisdiction": "us-fl",
+    "retrieved_at": "2026-09-25T19:05:00-04:00",
+    "status": "verified",
+    "desk": "us-fl.flhsmv",
+    "topics": [
+      "license"
+    ],
+    "id": "us-fl.flhsmv.exams-english-only",
+    "claim": "Since Friday, February 6, 2026, every Florida driver license knowledge and skills exam, in all license classes and including oral exams, is given only in English, and interpreters or translation services are not allowed.",
+    "value": true,
+    "unit": "flag",
+    "value_type": "flag",
+    "source_id": "us-fl.flhsmv-news-english-only-exams",
+    "url": "https://www.flhsmv.gov/2026/01/30/flhsmv-announces-driver-license-exams-to-be-administered-in-english-only/",
+    "quote": "beginning Friday, February 6th, all driver license knowledge and skills examinations will be administered exclusively in English. This change applies to all driver license classifications, including exams administered orally. ... Language translation services will no longer be permitted for knowledge or skills examinations, and any printed exams in languages other than English will be removed for use.",
+    "check_every": "P90D",
+    "plan_value": "Class E knowledge exam offered in six languages (Arabic, Chinese, English, Haitian Creole, Russian, Spanish)",
+    "correction_note": "Older copies of the FLHSMV Class E page (still in search caches) list six languages; the rule changed 2026-02-06."
+  },
+  {
+    "jurisdiction": "us-fl",
+    "retrieved_at": "2026-09-25T19:05:00-04:00",
+    "status": "verified",
+    "desk": "us-fl.flhsmv",
+    "topics": [
+      "license"
+    ],
+    "id": "us-fl.flhsmv.exams-english-only.effective-date",
+    "claim": "Date Florida driver license exams became English-only with no interpreters.",
+    "value": "2026-02-06",
+    "unit": "date",
+    "value_type": "date",
+    "source_id": "us-fl.flhsmv-news-english-only-exams",
+    "url": "https://www.flhsmv.gov/2026/01/30/flhsmv-announces-driver-license-exams-to-be-administered-in-english-only/",
+    "quote": "beginning Friday, February 6th, all driver license knowledge and skills examinations will be administered exclusively in English.",
+    "check_every": "P1Y"
+  },
+  {
+    "jurisdiction": "us-fl",
+    "retrieved_at": "2026-09-25T19:05:00-04:00",
+    "status": "verified",
+    "desk": "us-fl.flhsmv",
+    "topics": [
+      "license"
+    ],
+    "id": "us-fl.flhsmv.class-e-exam-languages",
+    "claim": "The Class E knowledge exam is available in English only.",
+    "value": "English only",
+    "unit": "text",
+    "value_type": "text",
+    "source_id": "us-fl.flhsmv-class-e-exam",
+    "url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/class-e-knowledge-exam-driving-skills-test/",
+    "quote": "Class E knowledge examinations are available in English only.",
+    "check_every": "P90D",
+    "value_language": "en"
+  },
+  {
+    "id": "us-fl.flhsmv.no-interpreter",
+    "claim": "Since February 6, 2026, Florida does not allow interpreters or language translation services during driver license knowledge or skills exams.",
+    "value": true,
+    "unit": "flag",
+    "value_type": "flag",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-news-english-only-exams",
+    "url": "https://www.flhsmv.gov/2026/01/30/flhsmv-announces-driver-license-exams-to-be-administered-in-english-only/",
+    "quote": "Language translation services will no longer be permitted for knowledge or skills examinations, and any printed exams in languages other than English will be removed for use.",
+    "retrieved_at": "2026-09-25T19:05:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "desk": "us-fl.flhsmv",
+    "topics": [
+      "license"
+    ]
+  },
+  {
+    "id": "us-fl.flhsmv.driver-handbook.url",
+    "claim": "The official Florida Driver's Handbook (English PDF) published by FLHSMV on its Handbooks & Manuals page.",
+    "value": "https://flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+    "unit": null,
+    "value_type": "code",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-handbooks-manuals",
+    "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+    "quote": "Florida Driver’s Handbook English",
+    "retrieved_at": "2026-09-25T18:30:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "desk": "us-fl.flhsmv",
+    "topics": [
+      "license"
+    ],
+    "x-es-url": "https://flhsmv.gov/pdf/handbooks/spanishdriverhandbook.pdf"
+  }
+]

@@ -1,0 +1,81 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: lens-origin-questionnaire
+kind: lens
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Origin lens
+  item: Other countries start as a short questionnaire
+title:
+  es: Cuéntanos cómo era en tu país
+  en: Tell us how it worked at home
+  ht: Di nou kijan sa te ye lakay
+summary:
+  es: 'Para los países que aún no escribimos: ¿qué hacías con la policía, el manejo, los médicos y la renta en tu país? Solo comparamos lo que nos cuentas, para no inventar una cultura.'
+  en: 'For countries we have not written yet: what did you do about police, driving, doctors, and rent back home? We compare only what you tell us, so we do not invent a culture.'
+  ht: 'Pou peyi nou poko ekri: kisa ou te konn fè ak lapolis, kondwi, doktè, ak lwaye lakay ou? Nou konpare sèlman sa ou di nou, pou nou pa envante yon kilti.'
+body:
+  es: |-
+    Preguntas cortas: policía, manejo, médicos, renta.
+
+    Tus respuestas se quedan en este teléfono. Deciden qué notas de aquí contra allá ves.
+
+    Salta cualquier pregunta. No se pregunta nada de tus papeles.
+  en: |-
+    Four short questions: police, driving, doctors, rent.
+
+    Your answers stay on this phone. They choose which here-versus-home notes you see.
+
+    Skip any question. Nothing about your papers is asked.
+  ht: |-
+    Kesyon kout: lapolis, kondwi, doktè, lwaye.
+
+    Repons ou rete nan telefòn sa a. Yo deside ki nòt isit kont lakay ou wè.
+
+    Sote nenpòt kesyon. Yo pa mande anyen sou papye ou.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- []
+- []
+desk: us.211
+utterances:
+  es:
+  - mi país no aparece
+  - compara con mi país
+  - cómo era en mi país
+  - configurar mi país de origen
+  - my country no sale
+  en:
+  - my country is not listed
+  - compare with my country
+  - how was it back home
+  - set up my home country
+  - mi país no sale
+  ht:
+  - peyi m pa ladan l
+  - konpare ak peyi m
+  - kijan sa te ye lakay
+  - mete peyi lakay mwen
+  - peyi m pa la
+privacy_scope: person
+stages:
+- 1
+modes:
+- resident
+region_pack: us
+is_immigration: false
+origin_lenses:
+- questionnaire
+related_cards:
+- driving-rules
+- police-stop-script
+fact_refs: []
+topics:
+- desk

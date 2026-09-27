@@ -1,0 +1,115 @@
+# XcodeGen spec. Owner: myAD Lead. Generate on the captain's Mac: `cd ios && xcodegen generate`.
+name: MyAmericanDream
+options:
+  bundleIdPrefix: com.saksham45
+  deploymentTarget:
+    iOS: "18.0"
+  createIntermediateGroups: true
+  developmentLanguage: en
+  # Surface languages (ARCHITECTURE §3). Base stays for Xcode's own use.
+  knownRegions: [en, es, ht, Base]
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+    LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+    SWIFT_EMIT_LOC_STRINGS: YES
+    DEVELOPMENT_LANGUAGE: en
+packages:
+  ADCore: { path: Packages/ADCore }
+  ADLocale: { path: Packages/ADLocale }
+  ADVoice: { path: Packages/ADVoice }
+  ADCityPack: { path: Packages/ADCityPack }
+  ADAgentsClient: { path: Packages/ADAgentsClient }
+  ADAccessibility: { path: Packages/ADAccessibility }
+  ADRouter: { path: Packages/ADRouter }
+targets:
+  MyAmericanDream:
+    type: application
+    platform: iOS
+    sources:
+      - path: App
+        excludes:
+          - "Tests/**"
+          - "**/*.md"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.saksham45.myamericandream
+        PRODUCT_NAME: MyAmericanDream
+        PRODUCT_MODULE_NAME: MyAmericanDream
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: myMiami
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_NSMicrophoneUsageDescription: "myMiami listens when you tap the mic so you can use the app by voice."
+        INFOPLIST_KEY_NSSpeechRecognitionUsageDescription: "Speech recognition turns what you say into actions in the app."
+        INFOPLIST_KEY_NSCameraUsageDescription: "myMiami uses the camera so you can photograph a bumper or a leak and see the next official step."
+        INFOPLIST_KEY_NSPhotoLibraryUsageDescription: "myMiami reads a photo you pick so it can show the next official step."
+        TARGETED_DEVICE_FAMILY: "1"
+        GEMINI_API_KEY: "$(GEMINI_API_KEY)"
+        ELEVENLABS_API_KEY: "$(ELEVENLABS_API_KEY)"
+      configs:
+        Release:
+          # UI-test fixtures (voice scripts, test lexicon) never ship.
+          EXCLUDED_SOURCE_FILE_NAMES: "voicescript.*.json command_lexicon.uitest.json"
+    postCompileScripts:
+      - name: Inject API keys
+        basedOnDependencyAnalysis: false
+        script: |
+          python3 - <<'PY'
+          import os, plistlib
+          from pathlib import Path
+          p = Path(os.environ["TARGET_BUILD_DIR"]) / os.environ["INFOPLIST_PATH"]
+          data = plistlib.loads(p.read_bytes())
+          for k in ("GEMINI_API_KEY", "ELEVENLABS_API_KEY"):
+              v = os.environ.get(k) or ""
+              if v.strip():
+                  data[k] = v.strip()
+          p.write_bytes(plistlib.dumps(data))
+          PY
+    dependencies:
+      - package: ADCore
+      - package: ADLocale
+      - package: ADVoice
+      - package: ADCityPack
+      - package: ADAgentsClient
+      - package: ADAccessibility
+      - package: ADRouter
+  MyAmericanDreamTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: App/Tests/AppLogicTests
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.saksham45.myamericandream.tests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/MyAmericanDream.app/MyAmericanDream"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+    dependencies:
+      - target: MyAmericanDream
+  MyAmericanDreamUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: Tests/Accessibility
+        excludes:
+          - "**/*.md"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.saksham45.myamericandream.uitests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: MyAmericanDream
+    dependencies:
+      - target: MyAmericanDream
+      - package: ADAccessibility
+schemes:
+  MyAmericanDream:
+    build:
+      targets:
+        MyAmericanDream: all
+        MyAmericanDreamTests: [test]
+        MyAmericanDreamUITests: [test]
+    test:
+      testPlans:
+        - path: Accessibility.xctestplan
+          defaultPlan: true

@@ -1,0 +1,76 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: internet-block
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > Errands
+  item: Who advertises internet on the block
+- plan: mymiami-plan.md
+  section: Every feature > The errand that eats a day
+  item: Internet on this block
+title:
+  es: Internet en esta cuadra
+  en: Internet on this block
+  ht: Entènèt sou blòk sa a
+summary:
+  es: Quién anuncia servicio en tu bloque censal y la velocidad que anuncia. No la factura.
+  en: Who advertises service on your census block, and the speed they advertise. Not the bill.
+  ht: Kiyès ki fè piblisite pou sèvis sou blòk resansman ou, ak vitès yo anonse. Se pa bòdwo a.
+body:
+  es: |-
+    Anunciado en tu cuadra: {fact:us-fl-miamidade.broadband.providers-on-block}.
+
+    Anunciado no es garantizado. Pregunta el precio cuando termine la promoción, y si hay contrato.
+  en: |-
+    Advertised on your block: {fact:us-fl-miamidade.broadband.providers-on-block}.
+
+    Advertised is not guaranteed. Ask the price after any promotion ends, and whether there is a contract.
+  ht: |-
+    Sa yo anonse sou blòk ou: {fact:us-fl-miamidade.broadband.providers-on-block}.
+
+    Sa yo anonse pa garanti. Mande pri a apre pwomosyon an fini, epi si gen yon kontra.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.broadband.providers-on-block
+- []
+desk: us-fl-miamidade.internet-providers
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.internet-providers
+utterances:
+  es:
+  - quién da internet aquí
+  - compañías de internet en mi calle
+  - el internet más rápido en mi dirección
+  - puedo poner wifi en la casa
+  - internet provider en mi casa
+  en:
+  - who has internet here
+  - internet providers on my street
+  - fastest internet at my address
+  - can I get wifi at home
+  - el internet de mi casa
+  ht:
+  - kiyès ki bay entènèt isit la
+  - konpayi entènèt nan lari m
+  - entènèt ki pi rapid nan adrès mwen
+  - èske m ka mete wifi lakay
+  - internet kay mwen
+privacy_scope: household
+stages:
+- 5
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+fact_refs:
+- us-fl-miamidade.broadband.providers-on-block
+topics:
+- utilities

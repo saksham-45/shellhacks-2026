@@ -1,0 +1,87 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: health-coverage-changes
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Stages
+  item: 6. Health
+title:
+  es: 'Medicaid y KidCare: confirma antes de contar con eso'
+  en: 'Medicaid and KidCare: check before you count on it'
+  ht: 'Medicaid ak KidCare: tcheke anvan ou konte sou li'
+summary:
+  es: Las reglas de Medicaid y KidCare pueden cambiar. Consulta con la oficina de beneficios del estado o con alguien de confianza antes de contar con la cobertura.
+  en: Rules for Medicaid and KidCare can change. Check with the state benefits office or a trusted helper before you count on coverage.
+  ht: Règ Medicaid ak KidCare yo ka chanje. Tcheke ak biwo benefis leta a oswa ak yon moun ou fè konfyans anvan ou konte sou kouvèti a.
+body:
+  es: |-
+    Medicaid es cobertura de salud pública para adultos que califican; KidCare es la cobertura de Florida para niños que califican. En Florida, el programa ACCESS del estado recibe las solicitudes.
+
+    Las reglas pueden cambiar. No te guíes por una fecha que te dijo alguien. Pregunta en la oficina de beneficios qué aplica a tu familia ahora.
+
+    Nosotros no decidimos quién califica. Lo decide el estado.
+  en: |-
+    Medicaid is public health coverage for qualifying adults; KidCare is Florida coverage for qualifying children. In Florida, the state's ACCESS program takes applications.
+
+    Rules can change. Do not rely on a date you heard from someone. Ask the benefits office what applies to your family now.
+
+    We do not decide who qualifies. The state does.
+  ht: |-
+    Medicaid se kouvèti sante piblik pou granmoun ki kalifye; KidCare se kouvèti Florid pou timoun ki kalifye. Nan Florid, pwogram ACCESS leta a resevwa aplikasyon yo.
+
+    Règ yo ka chanje. Pa fye yon dat yon moun di w. Mande biwo benefis la kisa ki aplike pou fanmi ou kounye a.
+
+    Se pa nou ki deside kiyès ki kalifye. Se leta a.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl.medicaid.access-applications
+- []
+- []
+desk: us-fl.dcf-access
+actions:
+- type: call_desk
+  desk_id: us-fl.dcf-access
+- type: call_desk
+  desk_id: us-fl.kidcare
+utterances:
+  es:
+  - mi hijo califica para Medicaid
+  - CHIP para mis hijos
+  - cambió Medicaid
+  - seguro médico público para mis hijos
+  - Medicaid for my kids
+  en:
+  - does my child qualify for Medicaid
+  - CHIP for my kids
+  - did Medicaid change
+  - public health insurance for my children
+  - Medicaid para mis hijos
+  ht:
+  - èske pitit mwen kalifye pou Medicaid
+  - CHIP pou timoun mwen yo
+  - èske Medicaid chanje
+  - asirans sante piblik pou timoun mwen yo
+  - Medicaid pou pitit mwen
+privacy_scope: person
+stages:
+- 6
+modes:
+- resident
+region_pack: us-fl
+is_immigration: false
+related_cards:
+- clinic-not-er
+fact_refs:
+- us-fl.medicaid.access-applications
+verified_only_refs:
+- us.medicaid.hr1.noncitizen-eligibility.effective
+topics:
+- health
+editor_notes: Added under the Firstmate status-date hold so the Medicaid/CHIP date has a gated home and a benefits desk. Not a card the plans name; the plans' Stage 6 health slot is its nearest reference.

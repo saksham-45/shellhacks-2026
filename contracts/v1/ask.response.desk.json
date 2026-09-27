@@ -1,0 +1,11 @@
+{
+  "action": {"type": "navigate", "destination": {"type": "desk", "desk_id": "us.example-immigration-desk"}},
+  "grounding": {
+    "type": "desk",
+    "desk_id": "us.example-immigration-desk",
+    "reason": {"key": "ask.reason.desk_only.visa_outcome", "table": "ADAgentsClient"}
+  },
+  "confidence": 0.9,
+  "clarification": null,
+  "reply_language": "ht"
+}

@@ -1,0 +1,152 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: school-enrollment
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Put the shoes on > The first month, once they are sleeping
+  item: 12. School, if a child is here
+title:
+  es: Inscribir a un niño en la escuela
+  en: Enrolling a child in school
+  ht: Enskri yon timoun lekòl
+summary:
+  es: Las escuelas de Miami-Dade pueden pedir vacunas, un examen físico y prueba de dirección. La escuela de tu zona sale de tu dirección.
+  en: Miami-Dade schools can ask for shots, a physical, and proof of address. The zoned school comes from your pin.
+  ht: Lekòl Miami-Dade ka mande vaksen, yon egzamen fizik, ak prèv adrès. Lekòl zòn ou an soti nan adrès ou.
+body:
+  es: |-
+    La inscripción pide prueba de dirección, el formulario de vacunas escolares de Florida y un examen físico reciente.
+
+    Si tu hijo es o fue estudiante aprendiz de inglés, las reglas de Florida dicen que la escuela debe comunicarse contigo en un idioma que entiendas, a menos que claramente no sea factible. La política del distrito escolar de Miami-Dade también dice que hace esfuerzos razonables para comunicarse con cada padre o madre en su idioma. En una reunión del IEP (la reunión que planea la ayuda de educación especial), la escuela tiene que conseguir un intérprete si lo necesitas para entender la reunión; pídelo. Oficina de educación bilingüe: {fact:us-fl-miamidade.m-dcps.bilingual-education.phone}.
+
+    Tu escuela primaria de zona: {fact:us-fl-miamidade.school.zoned-elementary}. Secundaria: {fact:us-fl-miamidade.school.zoned-middle}. Preparatoria: {fact:us-fl-miamidade.school.zoned-high}.
+
+    Las escuelas de elección y magnet quieren decir que el padre o la madre maneja.
+
+    La tarjeta de la escuela puede ver la dirección de la casa. Nunca ve los papeles de los padres.
+
+    Para pre-K (VPK), pregunta al escritorio de M-DCPS cómo solicitar y qué programa corresponde a tu niño.
+
+    Desde {fact:us-fl-miamidade.m-dcps.meals.full-price-from}, en las escuelas que no son CEP, los estudiantes sin una solicitud aprobada pagan el precio completo: {fact:us-fl-miamidade.m-dcps.meals.full-price-lunch}. En las escuelas CEP, el desayuno y el almuerzo son gratis para todos; hay {fact:us-fl-miamidade.m-dcps.meals.cep-school-count}.
+
+    Puedes solicitar sin número de Seguro Social para los beneficios de comidas: {fact:us-fl-miamidade.m-dcps.meals.form-no-ssn-ok}.
+  en: |-
+    Enrollment asks for proof of address, the Florida school immunization form, and a recent physical exam.
+
+    If your child is or was an English learner, Florida rules say the school must communicate with you in a language you understand unless that is clearly not feasible. Miami-Dade's school district policy also says it makes reasonable efforts to communicate with every parent in their language. At an IEP meeting (the meeting that plans special-education help), the school has to arrange an interpreter if you need one to understand the meeting; ask for one. Bilingual education office: {fact:us-fl-miamidade.m-dcps.bilingual-education.phone}.
+
+    Your zoned elementary school: {fact:us-fl-miamidade.school.zoned-elementary}. Middle: {fact:us-fl-miamidade.school.zoned-middle}. High: {fact:us-fl-miamidade.school.zoned-high}.
+
+    Choice and magnet schools mean the parent drives.
+
+    The school card can see the shared address. It never sees a parent's papers.
+
+    For pre-K (VPK), ask the M-DCPS desk how to apply and which program fits your child.
+
+    Starting {fact:us-fl-miamidade.m-dcps.meals.full-price-from}, at schools that are not CEP, students without an approved application pay the full price: {fact:us-fl-miamidade.m-dcps.meals.full-price-lunch}. At CEP schools, breakfast and lunch are free for everyone; there are {fact:us-fl-miamidade.m-dcps.meals.cep-school-count}.
+
+    You can apply for meal benefits without a Social Security number: {fact:us-fl-miamidade.m-dcps.meals.form-no-ssn-ok}.
+  ht: |-
+    Enskripsyon an mande prèv adrès, fòm vaksen lekòl Florid la, ak yon egzamen fizik ki fèk fèt.
+
+    Si pitit ou se oswa te yon elèv k ap aprann angle, règ Florid yo di lekòl la dwe kominike avè w nan yon lang ou konprann, sof si sa klèman pa posib. Politik distri lekòl Miami-Dade la di tou li fè efò rezonab pou kominike ak chak paran nan lang yo. Nan yon reyinyon IEP (reyinyon ki planifye èd edikasyon espesyal la), lekòl la dwe jwenn yon entèprèt si ou bezwen youn pou konprann reyinyon an; mande l. Biwo edikasyon bileng: {fact:us-fl-miamidade.m-dcps.bilingual-education.phone}.
+
+    Lekòl primè zòn ou: {fact:us-fl-miamidade.school.zoned-elementary}. Mwayen: {fact:us-fl-miamidade.school.zoned-middle}. Segondè: {fact:us-fl-miamidade.school.zoned-high}.
+
+    Lekòl chwa ak lekòl magnet vle di se paran an ki kondwi.
+
+    Kat lekòl la ka wè adrès kay la. Li pa janm wè papye paran yo.
+
+    Pou pre-K (VPK), mande biwo M-DCPS la kijan pou aplike ak ki pwogram ki mache pou pitit ou.
+
+    Apati {fact:us-fl-miamidade.m-dcps.meals.full-price-from}, nan lekòl ki pa CEP yo, elèv ki pa gen yon aplikasyon apwouve peye pri konplè: {fact:us-fl-miamidade.m-dcps.meals.full-price-lunch}. Nan lekòl CEP yo, dejene ak manje midi gratis pou tout moun; gen {fact:us-fl-miamidade.m-dcps.meals.cep-school-count}.
+
+    Ou ka aplike san nimewo Sekirite Sosyal pou avantaj manje yo: {fact:us-fl-miamidade.m-dcps.meals.form-no-ssn-ok}.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.m-dcps.enrollment-documents
+  - us-fl.school.immunization-form
+- - us-fl.fac.6a-6.0908.parent-communication
+  - us-fl-miamidade.m-dcps.policy-2111
+  - us.ecfr.34-300.322e.iep-interpreter
+  - us-fl-miamidade.m-dcps.bilingual-education.phone
+- - us-fl-miamidade.school.zoned-elementary
+  - us-fl-miamidade.school.zoned-middle
+  - us-fl-miamidade.school.zoned-high
+- - us-fl-miamidade.m-dcps.choice-transport
+- []
+- []
+- - us-fl-miamidade.m-dcps.meals.full-price-from
+  - us-fl-miamidade.m-dcps.meals.full-price-lunch
+  - us-fl-miamidade.m-dcps.meals.cep-school-count
+- - us-fl-miamidade.m-dcps.meals.form-no-ssn-ok
+desk: us-fl-miamidade.m-dcps
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.m-dcps
+- type: open_map
+  target:
+    type: desk
+    desk_id: us-fl-miamidade.m-dcps
+utterances:
+  es:
+  - cómo inscribo a mi hijo en la escuela
+  - qué escuela le toca a mi hijo
+  - papeles para inscribir en la escuela
+  - mi hija necesita escuela
+  - cómo registro a mi niño en el school
+  - intérprete en la escuela
+  - comunicación escolar en español
+  - reunión del IEP en mi idioma
+  en:
+  - how do I enroll my kid in school
+  - what school is my son zoned for
+  - papers to register at school
+  - my daughter needs a school
+  - inscribir a my kid
+  - interpreter at school
+  - school communication in my language
+  - interpreter for an IEP meeting
+  ht:
+  - kijan pou m enskri pitit mwen lekòl
+  - ki lekòl ki nan zòn pitit mwen
+  - papye pou enskri lekòl
+  - pitit fi m bezwen yon lekòl
+  - kijan pou m rejistre kid mwen nan school
+  - entèprèt lekòl
+  - kominikasyon lekòl nan lang mwen
+  - entèprèt pou reyinyon IEP
+privacy_scope: person
+stages:
+- 7
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- school-run
+- school-shots
+fact_refs:
+- us-fl-miamidade.m-dcps.enrollment-documents
+- us-fl.school.immunization-form
+- us-fl.fac.6a-6.0908.parent-communication
+- us-fl-miamidade.m-dcps.policy-2111
+- us.ecfr.34-300.322e.iep-interpreter
+- us-fl-miamidade.m-dcps.bilingual-education.phone
+- us-fl-miamidade.school.zoned-elementary
+- us-fl-miamidade.school.zoned-middle
+- us-fl-miamidade.school.zoned-high
+- us-fl-miamidade.m-dcps.choice-transport
+- us-fl-miamidade.m-dcps.meals.full-price-from
+- us-fl-miamidade.m-dcps.meals.full-price-lunch
+- us-fl-miamidade.m-dcps.meals.cep-school-count
+- us-fl-miamidade.m-dcps.meals.form-no-ssn-ok
+topics:
+- schools

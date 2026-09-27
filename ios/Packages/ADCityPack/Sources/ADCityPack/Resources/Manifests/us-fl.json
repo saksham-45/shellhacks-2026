@@ -1,0 +1,78 @@
+{
+  "id": "us-fl",
+  "parent": "us",
+  "level": "state",
+  "boundary": {
+    "method": "any_child"
+  },
+  "adapters": [
+    {
+      "id": "us-fl.fee-check-flhsmv",
+      "answers": [
+        "fees.license"
+      ],
+      "sources": [],
+      "desk": "us-fl.flhsmv",
+      "facts": [
+        {
+          "id": "us-fl.flhsmv.fee.class-e-original",
+          "topics": [
+            "license"
+          ]
+        },
+        {
+          "id": "us-fl.flhsmv.fee.class-e-renewal",
+          "topics": [
+            "license"
+          ]
+        },
+        {
+          "id": "us-fl.flhsmv.fee.id-card-original",
+          "topics": [
+            "license"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-fl.fee-check-deposit",
+      "answers": [
+        "rent.deposit"
+      ],
+      "sources": [],
+      "desk": "us-fl.bar-lawyer-referral",
+      "facts": [
+        {
+          "id": "us-fl.landlord.deposit.return-days-no-claim",
+          "topics": [
+            "rent"
+          ]
+        },
+        {
+          "id": "us-fl.landlord.deposit.claim-notice-days",
+          "topics": [
+            "rent"
+          ]
+        },
+        {
+          "id": "us-fl.landlord.deposit.tenant-objection-days",
+          "topics": [
+            "rent"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [],
+  "desks": [
+    "us-fl.division-of-elections",
+    "us-fl.flhsmv",
+    "us-fl.bar-lawyer-referral"
+  ],
+  "desks_placeholder": true,
+  "languages": [
+    "es",
+    "en",
+    "ht"
+  ]
+}

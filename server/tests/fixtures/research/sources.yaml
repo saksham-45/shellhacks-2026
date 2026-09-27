@@ -1,0 +1,26 @@
+# TEST FIXTURE sources (fictional).
+sources:
+  - id: us.test-source
+    publisher: Test Publisher (fictional)
+    title: Test source
+    url: https://example.invalid/us
+    kind: html
+    jurisdiction: us
+    key_required: false
+    check_every: P30D
+  - id: us-fl-miamidade.test-source
+    publisher: Test County Publisher (fictional)
+    title: Test county layer
+    url: https://example.invalid/county
+    kind: gis-layer
+    jurisdiction: us-fl-miamidade
+    key_required: false
+    check_every: P7D
+  - id: us-fl-miami.test-source
+    publisher: Test City Publisher (fictional)
+    title: Test city page
+    url: https://example.invalid/city
+    kind: html
+    jurisdiction: us-fl-miami
+    key_required: false
+    check_every: P30D

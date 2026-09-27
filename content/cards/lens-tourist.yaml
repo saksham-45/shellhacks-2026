@@ -1,0 +1,93 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: lens-tourist
+kind: lens
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Origin lens
+  item: Tourists
+- plan: myamericandream-plan.md
+  section: Stages > Tourist mode
+title:
+  es: Aquí de visita
+  en: Here for a visit
+  ht: Isit la an vizit
+summary:
+  es: 'Lo que sorprende a los visitantes: la propina es parte del precio, la factura del peaje llega después del viaje y el sol quema rápido.'
+  en: 'What catches visitors: the tip is part of the price, the toll bill arrives after the trip, and the sun burns fast.'
+  ht: 'Sa ki sezi vizitè yo: poubwa a fè pati pri a, bòdwo peyaj la rive apre vwayaj la, epi solèy la boule vit.'
+body:
+  es: |-
+    En tu país, el precio del menú puede ser el total. Aquí, en un restaurante con servicio a la mesa se espera propina.
+
+    Los peajes por placa del carro de alquiler llegan después y cuestan más que con sticker.
+
+    {fact:us.911.phone} es la emergencia. La línea del condado para lo que no es emergencia es para la basura que no pasó, no para un peligro.
+  en: |-
+    At home, the menu price may be the whole price. Here, a sit-down meal expects a tip.
+
+    A rental car's plate tolls come later and cost more than a sticker.
+
+    {fact:us.911.phone} is the emergency. The county non-emergency line is for a missed trash day, not for danger.
+  ht: |-
+    Lakay, pri sou meni an ka tout pri a. Isit la, nan yon restoran ak sèvis sou tab, yo tann yon poubwa.
+
+    Peyaj pa plak machin lwaye a vini apre epi yo koute plis pase ak sticker.
+
+    {fact:us.911.phone} se ijans lan. Liy konte a pou sa ki pa ijans se pou fatra yo pa ranmase, pa pou danje.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- - us-fl.toll.rental-car-programs
+- - us.911.phone
+desk: us-fl-miamidade.mia-information
+actions:
+- type: open_map
+  target:
+    type: desk
+    desk_id: us-fl-miamidade.mia-information
+utterances:
+  es:
+  - qué debe saber un turista
+  - consejos para visitar Miami
+  - primera vez en Miami
+  - soy turista aquí
+  - tourist tips para Miami
+  en:
+  - what should a tourist know
+  - visitor tips for Miami
+  - first time in Miami
+  - I am a tourist here
+  - tips pa turistas
+  ht:
+  - kisa yon touris dwe konnen
+  - konsèy pou vizite Miami
+  - premye fwa m Miami
+  - mwen se touris isit la
+  - tourist tips pou Miami
+privacy_scope: person
+stages:
+- 1
+- 10
+modes:
+- tourist
+region_pack: us-fl-miamidade
+is_immigration: false
+origin_lenses:
+- tourist
+related_cards:
+- tipping
+- rental-car-tolls
+- sun-heat
+- emergency-911
+fact_refs:
+- us-fl.toll.rental-car-programs
+- us.911.phone
+topics:
+- visitors

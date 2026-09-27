@@ -1,0 +1,1 @@
+{"displayFieldName":"COMMNAME","fieldAliases":{"ID":"ID","COMMNAME":"COMMNAME"},"fields":[{"name":"ID","type":"esriFieldTypeSmallInteger","alias":"ID"},{"name":"COMMNAME","type":"esriFieldTypeString","alias":"COMMNAME","length":30}],"features":[{"attributes":{"ID":11,"COMMNAME":"Roberto J. Gonzalez"}}]}

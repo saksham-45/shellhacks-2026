@@ -1,0 +1,21 @@
+{
+  "note": "AppAction save_person_new. Example ids only; no real people or facts.",
+  "type": "app_action",
+  "value": {
+    "person": {
+      "age": 30,
+      "display_name": "Example Cousin",
+      "goal": "work",
+      "mode": null,
+      "origin": {
+        "country_code": "HT"
+      },
+      "person_id": null,
+      "stage": null,
+      "status_word": null,
+      "surface_language": null,
+      "think_in": "ht"
+    },
+    "type": "save_person"
+  }
+}

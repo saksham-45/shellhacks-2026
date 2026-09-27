@@ -1,0 +1,8 @@
+{
+  "note": "AppAction set_pin. Example ids only; no real people or facts.",
+  "type": "app_action",
+  "value": {
+    "pin_id": "downtown",
+    "type": "set_pin"
+  }
+}

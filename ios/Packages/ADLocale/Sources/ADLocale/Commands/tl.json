@@ -1,0 +1,100 @@
+{
+  "language": "tl",
+  "version": 1,
+  "review": {
+    "state": "needs_review",
+    "note": "Agent-authored for Florida Census languages; pending native review."
+  },
+  "fillers": [
+    "please",
+    "nga"
+  ],
+  "commands": {
+    "back": [
+      "bumalik",
+      "back"
+    ],
+    "home": [
+      "home",
+      "unang screen"
+    ],
+    "read_this": [
+      "basahin ito",
+      "basahin nang malakas"
+    ],
+    "stop": [
+      "tigil",
+      "stop"
+    ],
+    "repeat": [
+      "ulitin",
+      "ulit"
+    ],
+    "next_step": [
+      "susunod",
+      "susunod na hakbang"
+    ],
+    "previous_step": [
+      "nakaraang hakbang"
+    ],
+    "call_desk": [
+      "tumawag",
+      "tawagan ang opisina"
+    ],
+    "open_map": [
+      "mapa",
+      "buksan ang mapa"
+    ],
+    "switch_language_es": [
+      "español",
+      "spanish"
+    ],
+    "switch_language_en": [
+      "ingles",
+      "english"
+    ],
+    "switch_language_ht": [
+      "kreyòl",
+      "creole"
+    ],
+    "switch_language_pt": [
+      "portuguese"
+    ],
+    "switch_language_fr": [
+      "french"
+    ],
+    "switch_language_ar": [
+      "arabic"
+    ],
+    "switch_language_zh": [
+      "chinese"
+    ],
+    "switch_language_ru": [
+      "russian"
+    ],
+    "switch_language_tl": [
+      "tagalog",
+      "sa tagalog"
+    ],
+    "switch_language_vi": [
+      "vietnamese"
+    ],
+    "yes": [
+      "oo",
+      "opo"
+    ],
+    "no": [
+      "hindi"
+    ],
+    "ordinal_first": [
+      "una",
+      "unang isa"
+    ],
+    "ordinal_second": [
+      "pangalawa"
+    ],
+    "ordinal_third": [
+      "pangatlo"
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: the-week
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > The week and the map
+  item: Hero and the week list
+- plan: myamericandream-plan.md
+  section: Put the shoes on > The first year, the path to standing alone
+  item: 18. The week-to-week city
+- plan: mymiami-plan.md
+  section: Every feature > The week, and where you are
+  item: The week
+title:
+  es: La semana
+  en: The week
+  ht: Semèn nan
+summary:
+  es: 'Un dato manda en la pantalla: lo próximo que le va a pegar a esta casa. El resto de la semana es una lista.'
+  en: 'One fact owns the screen: the next thing that will bite this household. The rest of the week is a list.'
+  ht: 'Yon sèl bagay pran ekran an: pwochen bagay ki pral frape kay sa a. Rès semèn nan se yon lis.'
+body:
+  es: |-
+    Tu gobierno: {fact:us-fl-miamidade.gov.municipality}.
+
+    Basura del condado: {fact:us-fl-miamidade.trash.garbage-days}. Reciclaje del condado: {fact:us-fl-miamidade.trash.recycling-day}.
+
+    En la Ciudad de Miami, se aplica el día de basura de la ciudad: {fact:us-fl-miami.trash.day}.
+
+    Escuela: {fact:us-fl-miamidade.school.zoned-elementary}. Peajes de tu ruta: {fact:us-fl-miamidade.gmx.tolls-on-route}.
+
+    La noche antes de la recogida, esta pantalla habla de mañana.
+  en: |-
+    Your government: {fact:us-fl-miamidade.gov.municipality}.
+
+    County trash: {fact:us-fl-miamidade.trash.garbage-days}. County recycling: {fact:us-fl-miamidade.trash.recycling-day}.
+
+    In the City of Miami, the city's trash day applies: {fact:us-fl-miami.trash.day}.
+
+    School: {fact:us-fl-miamidade.school.zoned-elementary}. Tolls on your drive: {fact:us-fl-miamidade.gmx.tolls-on-route}.
+
+    The night before a pickup, this screen is about tomorrow.
+  ht: |-
+    Gouvènman ou: {fact:us-fl-miamidade.gov.municipality}.
+
+    Fatra konte a: {fact:us-fl-miamidade.trash.garbage-days}. Resiklaj konte a: {fact:us-fl-miamidade.trash.recycling-day}.
+
+    Nan Vil Miami, se jou fatra Vil Miami ki aplike: {fact:us-fl-miami.trash.day}.
+
+    Lekòl: {fact:us-fl-miamidade.school.zoned-elementary}. Peyaj sou wout ou: {fact:us-fl-miamidade.gmx.tolls-on-route}.
+
+    Aswè anvan ranmasaj la, ekran sa a pale de demen.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.gov.municipality
+- - us-fl-miamidade.trash.garbage-days
+  - us-fl-miamidade.trash.recycling-day
+- - us-fl-miami.trash.day
+- - us-fl-miamidade.school.zoned-elementary
+  - us-fl-miamidade.gmx.tolls-on-route
+- []
+paragraph_when:
+- municipality: unincorporated
+- municipality: unincorporated
+- municipality: us-fl-miami
+- null
+- null
+desk: us-fl-miamidade.311
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.311
+utterances:
+  es:
+  - qué hay esta semana
+  - qué tengo esta semana
+  - qué toca mañana
+  - mi semana
+  - what do I have esta semana
+  en:
+  - what is this week
+  - what do I have this week
+  - what is tomorrow
+  - my week
+  - qué hay this week
+  ht:
+  - kisa k genyen semèn sa a
+  - kisa m genyen pou semèn nan
+  - kisa k gen demen
+  - semèn mwen
+  - what's up semèn sa a
+privacy_scope: household
+stages:
+- 10
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- trash-and-recycling
+- school-run
+- tolls
+- which-government
+fact_refs:
+- us-fl-miamidade.gov.municipality
+- us-fl-miamidade.trash.garbage-days
+- us-fl-miamidade.trash.recycling-day
+- us-fl-miami.trash.day
+- us-fl-miamidade.school.zoned-elementary
+- us-fl-miamidade.gmx.tolls-on-route
+topics:
+- trash
+- schools
+- tolls
+- municipality

@@ -1,0 +1,630 @@
+# Proposed sources.yaml fragment (same shape as research/sources.yaml). Review before merging.
+sources:
+- id: us-fl-miami.gis-311-service-requests-0
+  publisher: services1.arcgis.com (publisher not established)
+  title: 311_Service_Requests / 311_Service_Requests
+  url: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/311_Service_Requests/FeatureServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miami
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic '311-history' (layer name, service name, geometry point).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miami.gis-fema2021-floodhazardareas-0
+  publisher: services1.arcgis.com (publisher not established)
+  title: FEMA2021_FloodHazardAreas / FEMA2021_FloodHazardAreas
+  url: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/FEMA2021_FloodHazardAreas/FeatureServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miami
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'flood' (layer name, service name, geometry polygon).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miami.gis-library-0
+  publisher: services1.arcgis.com (publisher not established)
+  title: Library / Library
+  url: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Library/FeatureServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miami
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'libraries' (layer name, service name, geometry point).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miami.gis-municipal-park-boundary-0
+  publisher: services1.arcgis.com (publisher not established)
+  title: Municipal_Park_Boundary / Municipal_Park_Boundary
+  url: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Municipal_Park_Boundary/FeatureServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miami
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'municipal-boundary' (layer name, service name, fields, geometry polygon).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miami.gis-property-card-0
+  publisher: services1.arcgis.com (publisher not established)
+  title: Property_Card / Property_Card
+  url: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Property_Card/FeatureServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miami
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'parcel' (layer name, service name, fields, geometry point).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miami.gis-city-parks-0
+  publisher: services1.arcgis.com (publisher not established)
+  title: City_Parks / City_Parks
+  url: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/City_Parks/FeatureServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miami
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'parks' (layer name, service name, geometry polygon).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miami.gis-business-with-fire-department--0
+  publisher: services1.arcgis.com (publisher not established)
+  title: Business_with_Fire_Department_Certificate_Occupancy / Business_with_Fire_Department_Certificate_Occupancy
+  url: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Business_with_Fire_Department_Certificate_Occupancy/FeatureServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miami
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'public-safety' (layer name, service name, geometry point).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miami.gis-recycle-routes-0
+  publisher: services1.arcgis.com (publisher not established)
+  title: Recycle_Routes / Recycle_Routes
+  url: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Recycle_Routes/FeatureServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miami
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'recycling' (layer name, service name, fields, geometry polygon).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miami.gis-commission-districts-0
+  publisher: services1.arcgis.com (publisher not established)
+  title: Commission_Districts / Commission_Districts
+  url: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Commission_Districts/FeatureServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miami
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'representatives' (layer name, service name, geometry polygon).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miami.gis-college-0
+  publisher: services1.arcgis.com (publisher not established)
+  title: College / College
+  url: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/College/FeatureServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miami
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'school-sites' (layer name, service name, geometry point).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miami.gis-bus-shelter-0
+  publisher: services1.arcgis.com (publisher not established)
+  title: Bus_Shelter / Bus_Shelter
+  url: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Bus_Shelter/FeatureServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miami
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'transit' (layer name, service name, geometry point).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miami.gis-trash-routes-0
+  publisher: services1.arcgis.com (publisher not established)
+  title: Trash_Routes / Trash_Routes
+  url: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Trash_Routes/FeatureServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miami
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'trash' (layer name, service name, fields, geometry polygon).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miami.gis-xymiami-active-police-4
+  publisher: services1.arcgis.com (publisher not established)
+  title: XYMiami_Active_Police / Water_bodys
+  url: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/XYMiami_Active_Police/FeatureServer/4
+  kind: gis-layer
+  jurisdiction: us-fl-miami
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'water-sewer' (layer name, fields, geometry polygon).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miami.gis-m21-zoning-0
+  publisher: services1.arcgis.com (publisher not established)
+  title: M21_Zoning / M21_Zoning
+  url: https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/M21_Zoning/FeatureServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miami
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'zoning' (layer name, service name, geometry polygon).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.gis-311-service-requests-miami-dad-0
+  publisher: services.arcgis.com (publisher not established)
+  title: 311 Service Requests - Miami-Dade County - 2023 / data_311_2023
+  url: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/data_311_2023/FeatureServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic '311-history' (layer name, service name, geometry table).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.gis-communityservices-md-recreatio-4
+  publisher: Miami-Dade County
+  title: CommunityServices/MD_RecreationCulture / MDBroadbandProvider
+  url: https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/4
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'broadband' (layer name, fields, geometry polygon).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.gis-wcs-bulky-book-0
+  publisher: services.arcgis.com (publisher not established)
+  title: WCS Bulky Book / WCSBulkyBook
+  url: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/WCSBulkyBook_gdb/FeatureServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'bulky-waste' (layer name, service name, geometry polygon).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.gis-energov-md-landmgtviewer-64
+  publisher: Miami-Dade County
+  title: EnerGov/MD_LandMgtViewer / FEMA Panels
+  url: https://gis.miamidade.gov/arcgis/rest/services/EnerGov/MD_LandMgtViewer/MapServer/64
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'flood' (layer name, geometry polygon).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.gis-md-libraries-3
+  publisher: Miami-Dade County
+  title: MD_Libraries / MDC Libraries
+  url: https://gis.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/3
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'libraries' (layer name, service name, geometry point).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.gis-solidwaste-md-mosquitotraps-0
+  publisher: Miami-Dade County
+  title: SolidWaste/MD_MosquitoTraps / Mosquito Trap
+  url: https://gis.miamidade.gov/arcgis/rest/services/SolidWaste/MD_MosquitoTraps/MapServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'mosquito' (layer name, service name, geometry point).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.gis-mapcache-basemap-36
+  publisher: Miami-Dade County
+  title: MapCache/BaseMap / Municipal
+  url: https://gis.miamidade.gov/arcgis/rest/services/MapCache/BaseMap/MapServer/36
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'municipal-boundary' (layer name, fields, geometry polygon).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.gis-addresssearchmap-propertieswit-1
+  publisher: Miami-Dade County
+  title: AddressSearchMap_PropertiesWithZip / Property
+  url: https://gis.miamidade.gov/arcgis/rest/services/AddressSearchMap_PropertiesWithZip/MapServer/1
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'parcel' (layer name, service name, fields, geometry polygon).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.gis-parkfinder-0
+  publisher: Miami-Dade County
+  title: ParkFinder / Parks
+  url: https://gis.miamidade.gov/arcgis/rest/services/ParkFinder/MapServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'parks' (layer name, geometry point).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.gis-communityservices-md-publicsaf-2
+  publisher: Miami-Dade County
+  title: CommunityServices/MD_PublicSafety / FireStation
+  url: https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_PublicSafety/MapServer/2
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'public-safety' (layer name, service name, geometry point).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.gis-communityservices-md-garbagere-2
+  publisher: Miami-Dade County
+  title: CommunityServices/MD_GarbageRecycle / RecyclingRoute
+  url: https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/2
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'recycling' (layer name, service name, fields, geometry polygon).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.gis-landmanagement-md-commissiondi-0
+  publisher: Miami-Dade County
+  title: LandManagement/MD_CommissionDistrict / CommissionDistrict
+  url: https://gis.miamidade.gov/arcgis/rest/services/LandManagement/MD_CommissionDistrict/MapServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'representatives' (layer name, service name, geometry polygon).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.gis-md-mdczoning-3
+  publisher: Miami-Dade County
+  title: MD_MDCZoning / No School Zone
+  url: https://gis.miamidade.gov/arcgis/rest/services/MD_MDCZoning/MapServer/3
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'school-attendance' (layer name, geometry polygon).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.gis-elementary-school-attendance-b-0
+  publisher: services.arcgis.com (publisher not established)
+  title: Elementary School Attendance Boundary / ElementaryAttendanceBoundary
+  url: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/ElementaryAttendanceBoundary_gdb/FeatureServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'school-attendance-elementary' (layer name, service name, geometry polygon).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.gis-high-school-attendance-boundar-0
+  publisher: services.arcgis.com (publisher not established)
+  title: High School Attendance Boundary / HighAttendanceBoundary
+  url: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/HighAttendanceBoundary_gdb/FeatureServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'school-attendance-high' (layer name, service name, geometry polygon).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.gis-middle-school-attendance-bound-0
+  publisher: services.arcgis.com (publisher not established)
+  title: Middle School Attendance Boundary / MiddleAttendanceBoundary
+  url: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/MiddleAttendanceBoundary_gdb/FeatureServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'school-attendance-middle' (layer name, service name, geometry polygon).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.gis-communityservices-md-education-1
+  publisher: Miami-Dade County
+  title: CommunityServices/MD_Educational / Daycare
+  url: https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/1
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'school-sites' (layer name, service name, geometry point).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.gis-busmetro-realtime-busrealtime-0
+  publisher: Miami-Dade County
+  title: BusMetro_RealTime/BusRealTime / Bus
+  url: https://gis.miamidade.gov/arcgis/rest/services/BusMetro_RealTime/BusRealTime/MapServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'transit' (layer name, service name, geometry point).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.gis-communityservices-md-garbagere-1
+  publisher: Miami-Dade County
+  title: CommunityServices/MD_GarbageRecycle / GarbagePickupRoute
+  url: https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/1
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'trash' (layer name, service name, fields, geometry polygon).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.gis-md-knowwheretovote-3
+  publisher: Miami-Dade County
+  title: MD_KnowWhereToVote / Precinct
+  url: https://gis.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/3
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'voting' (layer name, service name, geometry polygon).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.gis-wasd-imdcutilitycoordination-1-11
+  publisher: Miami-Dade County
+  title: Wasd/iMDCUtilityCoordination_1_v1 / Sewer
+  url: https://gis.miamidade.gov/arcgis/rest/services/Wasd/iMDCUtilityCoordination_1_v1/MapServer/11
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'water-sewer' (layer name, service name, fields, geometry polygon).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.gis-landmanagement-md-zoninglandma-0
+  publisher: Miami-Dade County
+  title: LandManagement/MD_ZoningLandManagementData / Zoning Hearing
+  url: https://gis.miamidade.gov/arcgis/rest/services/LandManagement/MD_ZoningLandManagementData/MapServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Proposed by onboarding for topic 'zoning' (layer name, service name, geometry polygon).
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.www-miamidade-gov-official-website
+  publisher: Miami-Dade County
+  title: Miami-Dade County — 311 phone on www.miamidade.gov
+  url: https://www.miamidade.gov/global/home.page
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Desk contact candidates found by official-website.
+  official: true
+  extraction: html-quote
+- id: us-fl-miamidade.www-mdctaxcollector-gov-official-website
+  publisher: Miami-Dade County Office of the Tax Collector
+  title: Miami-Dade County Office of the Tax Collector — license-and-tag-agent phone on www.mdctaxcollector.gov
+  url: https://www.mdctaxcollector.gov/
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Desk contact candidates found by official-website.
+  official: true
+  extraction: html-quote
+- id: us-fl-miami.www-miami-gov-official-website
+  publisher: City of Miami
+  title: City of Miami — 311 phone on www.miami.gov
+  url: https://www.miami.gov/Home
+  kind: html
+  jurisdiction: us-fl-miami
+  key_required: false
+  check_every: P90D
+  notes: Desk contact candidates found by official-website.
+  official: true
+  extraction: html-quote
+- id: us-fl-miamidade.portal-mdc-eel-program-mdc-hub-arcgis-com
+  publisher: mdc-eel-program-mdc.hub.arcgis.com (publisher not established)
+  title: Miami-Dade County Environmentally Endangered Lands (EEL) Program
+  url: https://mdc-eel-program-MDC.hub.arcgis.com
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Open-data portal (arcgis-hub), found by arcgis-online.
+  official: true
+  extraction: manual
+- id: us-fl-miamidade.portal-adaptation-action-area-in-little-river-m
+  publisher: adaptation-action-area-in-little-river-mdc.hub.arcgis.com (publisher not established)
+  title: Little River Adaptation Action Area
+  url: https://adaptation-action-area-in-little-river-MDC.hub.arcgis.com
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Open-data portal (arcgis-hub), found by arcgis-online.
+  official: true
+  extraction: manual
+- id: us-fl-miamidade.portal-sustainable-buildings-program-miamidade-
+  publisher: Miami-Dade County
+  title: Sustainable Buildings Program - HUB Site
+  url: https://sustainable-buildings-program.miamidade.gov
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Open-data portal (arcgis-hub), found by arcgis-online.
+  official: true
+  extraction: manual
+- id: us-fl-miamidade.portal-opendata-miamidade-gov
+  publisher: Miami-Dade County
+  title: Open Data Hub Site
+  url: https://opendata.miamidade.gov
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Open-data portal (arcgis-hub), found by arcgis-online.
+  official: true
+  extraction: manual
+- id: us-fl-miamidade.portal-property-review-mdc-hub-arcgis-com
+  publisher: property-review-mdc.hub.arcgis.com (publisher not established)
+  title: Real Estate Request Portal
+  url: https://property-review-mdc.hub.arcgis.com
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Open-data portal (arcgis-hub), found by arcgis-online.
+  official: true
+  extraction: manual
+- id: us-fl-miamidade.portal-visionzeromdc-miamidade-gov
+  publisher: Miami-Dade County
+  title: Vision Zero Hub
+  url: https://visionzeromdc.miamidade.gov
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Open-data portal (arcgis-hub), found by arcgis-online.
+  official: true
+  extraction: manual
+- id: us-fl-miamidade.portal-miami-dade-county-sea-level-rise-strateg
+  publisher: miami-dade-county-sea-level-rise-strategy-draft-mdc.hub.arcgis.com (publisher not established)
+  title: Miami-Dade County Sea Level Rise Strategy Draft
+  url: https://miami-dade-county-sea-level-rise-strategy-draft-MDC.hub.arcgis.com
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Open-data portal (arcgis-hub), found by arcgis-online.
+  official: true
+  extraction: manual
+- id: us-fl-miamidade.ago-311-service-requests-miami-dade-county-2
+  publisher: services.arcgis.com (publisher not established)
+  title: 311 Service Requests - Miami-Dade County - 2023
+  url: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/data_311_2023/FeatureServer
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: ArcGIS Online item 6fce6d69cdd8447389894138444aea2d in org 8Pc9XBTAsYuxx9Ny.
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.ago-311-service-request
+  publisher: services.arcgis.com (publisher not established)
+  title: 311 Service Request
+  url: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/311_Service_Request/FeatureServer
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: ArcGIS Online item a6b9c3e344de40aca4c11a992f002910 in org 8Pc9XBTAsYuxx9Ny.
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miami.portal-data-miamigov-com
+  publisher: City of Miami
+  title: Socrata portal data.miamigov.com
+  url: https://data.miamigov.com/
+  kind: api
+  jurisdiction: us-fl-miami
+  key_required: false
+  check_every: P90D
+  notes: Open-data portal (socrata), found by socrata-catalog.
+  official: true
+  extraction: manual
+- id: us-fl-miamidade.gtfs-miami-dade-transit
+  publisher: Miami-Dade Transit
+  title: Miami-Dade Transit GTFS schedule
+  url: http://www.miamidade.gov/transit/googletransit/current/google_transit.zip
+  kind: gtfs
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P7D
+  notes: Mobility Database mdb-331 (catalog status active); probe HTTP 200.
+  official: true
+  extraction: manual
+- id: us-fl-miamidade.gtfs-city-of-miami-beach
+  publisher: City of Miami Beach
+  title: City of Miami Beach GTFS schedule
+  url: https://data.trilliumtransit.com/gtfs/miamibeach-fl-us/miamibeach-fl-us.zip
+  kind: gtfs
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P7D
+  notes: Mobility Database mdb-2322 (catalog status active); probe HTTP 200.
+  official: false
+  extraction: manual
+- id: us-fl-miamidade.gtfs-city-of-miami-gardens
+  publisher: City of Miami Gardens
+  title: City of Miami Gardens GTFS schedule
+  url: https://data.trilliumtransit.com/gtfs/miamigardens-fl-us/miamigardens-fl-us.zip
+  kind: gtfs
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P7D
+  notes: Mobility Database mdb-2323 (catalog status active); probe HTTP 200.
+  official: false
+  extraction: manual
+- id: us-fl-miamidade.gtfs-brightline
+  publisher: Brightline
+  title: Brightline GTFS schedule
+  url: https://data.trilliumtransit.com/gtfs/brightline-fl-us/brightline-fl-us.zip
+  kind: gtfs
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P7D
+  notes: Mobility Database tld-4769 (catalog status inactive); probe HTTP None.
+  official: false
+  extraction: manual
+- id: us-fl-miamidade.acs-b16001-2024
+  publisher: U.S. Census Bureau
+  title: ACS 2024 acs1 B16001 language spoken at home
+  url: https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b16001.dat
+  kind: dataset
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P365D
+  notes: Pipe-delimited table-based summary file; labels from https://api.census.gov/data/2024/acs/acs1/groups/B16001.json.
+  official: true
+  extraction: manual
+- id: us-fl-miamidade.services-arcgis-com-hud
+  publisher: services.arcgis.com (publisher not established)
+  title: services.arcgis.com (publisher not established) — HOUSING AUTHORITY OF THE CITY OF MIAMI BEACH
+  url: https://services.arcgis.com/VTyQ9soqVukalItT/arcgis/rest/services/Public_Housing_Authorities/FeatureServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Desk contact candidates found by hud.
+  official: true
+  extraction: arcgis-query
+- id: us-fl-miamidade.nces-ed-gov-nces-district
+  publisher: National Center for Education Statistics
+  title: National Center for Education Statistics — MIAMI-DADE
+  url: https://nces.ed.gov/ccd/districtsearch/district_detail.asp?ID2=1200390
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Desk contact candidates found by nces-district.
+  official: true
+  extraction: html-quote
+- id: us-fl-miamidade.services3-arcgis-com-lsc-legal-aid
+  publisher: services3.arcgis.com (publisher not established)
+  title: services3.arcgis.com (publisher not established) — Legal Services of Greater Miami, Inc. — Legal Services of Greater
+    Mia
+  url: https://services3.arcgis.com/n7h3cEoHTyNCwjCf/arcgis/rest/services/LSC_offices_grantees_main_branch_(Public)/FeatureServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Desk contact candidates found by lsc-legal-aid.
+  official: true
+  extraction: arcgis-query

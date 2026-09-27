@@ -1,0 +1,111 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: vote
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > Errands
+  item: Where to vote, who represents them
+- plan: mymiami-plan.md
+  section: Every feature > The errand that eats a day
+  item: Vote
+title:
+  es: Dónde votar y quién te representa
+  en: Where to vote, who represents you
+  ht: Ki kote pou vote, kiyès ki reprezante w
+summary:
+  es: Tu lugar de votación, votación anticipada y tus distritos, del mapa del condado.
+  en: Your polling place, early voting, and your districts, from the county's map.
+  ht: Biwo vòt ou, vòt davans, ak distri ou yo, dapre kat konte a.
+body:
+  es: |-
+    Lugar de votación: {fact:us-fl-miamidade.vote.polling-place}. Votación anticipada: {fact:us-fl-miamidade.vote.early-voting}.
+
+    Distrito de la comisión del condado: {fact:us-fl-miamidade.vote.commission-district}. Congreso: {fact:us-fl-miamidade.vote.congress-district}. Senado estatal: {fact:us-fl-miamidade.vote.state-senate-district}. Cámara estatal: {fact:us-fl-miamidade.vote.state-house-district}.
+
+    Cualquiera puede ver quién lo representa y contactar esa oficina.
+
+    Solo los ciudadanos de Estados Unidos pueden votar en elecciones federales y estatales. Inscribirse o votar sin ser ciudadano es un delito y puede acabar con un caso de inmigración.
+  en: |-
+    Polling place: {fact:us-fl-miamidade.vote.polling-place}. Early voting: {fact:us-fl-miamidade.vote.early-voting}.
+
+    County commission district: {fact:us-fl-miamidade.vote.commission-district}. Congress: {fact:us-fl-miamidade.vote.congress-district}. State Senate: {fact:us-fl-miamidade.vote.state-senate-district}. State House: {fact:us-fl-miamidade.vote.state-house-district}.
+
+    Anyone can look up who represents them and contact that office.
+
+    Only US citizens may vote in federal and state elections. Registering or voting as a non-citizen is a crime and can end an immigration case.
+  ht: |-
+    Biwo vòt: {fact:us-fl-miamidade.vote.polling-place}. Vòt davans: {fact:us-fl-miamidade.vote.early-voting}.
+
+    Distri komisyon konte a: {fact:us-fl-miamidade.vote.commission-district}. Kongrè: {fact:us-fl-miamidade.vote.congress-district}. Sena leta: {fact:us-fl-miamidade.vote.state-senate-district}. Chanm leta: {fact:us-fl-miamidade.vote.state-house-district}.
+
+    Nenpòt moun ka chèche kiyès ki reprezante l epi kontakte biwo sa a.
+
+    Se sèlman sitwayen ameriken ki ka vote nan eleksyon federal ak eleksyon leta. Enskri oswa vote lè ou pa sitwayen se yon krim epi li ka fini yon dosye imigrasyon.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.vote.polling-place
+  - us-fl-miamidade.vote.early-voting
+- - us-fl-miamidade.vote.commission-district
+  - us-fl-miamidade.vote.congress-district
+  - us-fl-miamidade.vote.state-senate-district
+  - us-fl-miamidade.vote.state-house-district
+- []
+- - us.voting.citizens-only
+  - us.voting.noncitizen-consequence
+desk: us-fl-miamidade.elections
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.elections
+- type: call_desk
+  desk_id: us-fl-miamidade.immigration-legal-aid
+- type: open_map
+  target:
+    type: desk
+    desk_id: us-fl-miamidade.elections
+utterances:
+  es:
+  - dónde voto
+  - quién es mi comisionado
+  - quién me representa
+  - votación anticipada cerca
+  - puedo votar
+  en:
+  - where do I vote
+  - who is my commissioner
+  - who represents me
+  - early voting near me
+  - can I vote
+  ht:
+  - ki kote pou m vote
+  - kiyès ki komisyonè m
+  - kiyès ki reprezante m
+  - vòt davans toupre m
+  - èske m ka vote
+privacy_scope: person-papers
+stages:
+- 10
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: true
+fact_refs:
+- us-fl-miamidade.vote.polling-place
+- us-fl-miamidade.vote.early-voting
+- us-fl-miamidade.vote.commission-district
+- us-fl-miamidade.vote.congress-district
+- us-fl-miamidade.vote.state-senate-district
+- us-fl-miamidade.vote.state-house-district
+- us.voting.citizens-only
+- us.voting.noncitizen-consequence
+topics:
+- voting
+- representatives
+- immigration
+editor_notes: is_immigration because the non-citizen voting warning cites an immigration consequence; tourist mode hides it.

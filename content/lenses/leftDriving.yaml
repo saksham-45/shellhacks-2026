@@ -1,0 +1,94 @@
+# Origin lens (myAD Content). The file id is the ADCore OriginLens case.
+# title is the lens name; lens_card plus attaches_to are the cards it surfaces.
+id: leftDriving
+origin_lens: leftDriving
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Origin lens
+  item: India, and anyone from a left-driving country
+title:
+  es: Aprendiste a manejar por la izquierda
+  en: Learned to drive on the left
+  ht: Ou aprann kondwi sou bò gòch
+summary:
+  es: Un buen conductor en su país puede ser un peligro aquí. Cambian el lado de la vía, los giros y los papeles, y el primer error suele ser un choque o una multa.
+  en: A good driver at home can still be a danger here. The side of the road, the turns, and the paperwork change, and the first mistake is often a crash or a ticket.
+  ht: Yon bon chofè lakay ka toujou yon danje isit la. Bò wout la, vire yo, ak papye yo chanje, e premye erè a souvan se yon aksidan oswa yon tikè.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+desk: us-fl.flhsmv
+origin_match:
+  countries:
+  - AU
+  - BD
+  - BS
+  - BB
+  - GB
+  - GY
+  - HK
+  - ID
+  - IE
+  - IN
+  - JM
+  - JP
+  - KE
+  - LK
+  - MY
+  - NP
+  - NZ
+  - PK
+  - SG
+  - TH
+  - TT
+  - TZ
+  - UG
+  - ZA
+  self_select: true
+  note: Draft list of left-driving countries for Research to confirm. The person can pick or drop the lens.
+modes:
+- resident
+lens_card: lens-left-driving
+attaches_to:
+- car-insurance-first
+- driving-rules
+- fl-id-license-checklist
+- license-and-tag
+- police-stop-script
+origin_lines:
+- card: car-insurance-first
+  text:
+    es: En tu país, el seguro quizá parecía opcional. Aquí, manejar sin él puede costarte la licencia, y después de un choque toda la cuenta cae sobre ti.
+    en: At home, insurance may have felt optional. Here, driving without it can cost you your license, and after a crash the whole bill lands on you.
+    ht: Lakay, asirans te ka sanble opsyonèl. Isit la, si ou kondwi san li ou ka pèdi lisans ou, e apre yon aksidan tout bòdwo a tonbe sou ou.
+  fact_refs: []
+- card: driving-rules
+  text:
+    es: En tu país, ibas por la izquierda. Aquí se va por la derecha, y girar al carril equivocado en un cruce es como chocan los recién llegados.
+    en: At home, you kept left. Here, keep right, and a turn into the wrong lane at a junction is how newcomers crash.
+    ht: Lakay, ou te kondwi sou bò gòch. Isit la, rete sou bò dwat, e vire nan move liy nan yon kalfou se konsa moun ki fèk rive fè aksidan.
+  fact_refs: []
+- card: fl-id-license-checklist
+  text:
+    es: En tu país, tu licencia probaba quién eras. Aquí, la licencia de Florida pide sus propios documentos, y llegar sin ellos te cuesta la cita.
+    en: At home, your license proved who you were. Here, a Florida license needs its own documents, and showing up without them costs you the appointment.
+    ht: Lakay, lisans ou te pwouve kiyès ou ye. Isit la, lisans Florid mande pwòp dokiman pa l, e si ou rive san yo ou pèdi randevou a.
+  fact_refs: []
+- card: license-and-tag
+  text:
+    es: En tu país, tu licencia era la única que necesitabas. Aquí, cuando vives en Florida necesitas licencia y placa de Florida, y una parada sin ellas sale cara.
+    en: At home, your license was the only one you needed. Here, once you live in Florida you need a Florida license and tag, and a stop without them gets expensive.
+    ht: Lakay, lisans ou te sèl lisans ou te bezwen. Isit la, depi ou rete Florid ou bezwen lisans ak plak Florid, e si lapolis kanpe w san yo sa ap koute w chè.
+  fact_refs: []
+- card: police-stop-script
+  text:
+    es: En tu país, quizá te bajabas a hablar con el policía. Aquí, quédate en el carro con las manos en el volante; bajarte puede volver peligrosa la parada.
+    en: At home, you may have stepped out to talk to the officer. Here, stay in the car with your hands on the wheel; getting out can turn a stop dangerous.
+    ht: Lakay, petèt ou te desann pou pale ak polisye a. Isit la, rete nan machin nan ak men ou sou volan an; si ou desann, sa ka vin danjere.
+  fact_refs: []
+fact_refs: []

@@ -1,0 +1,614 @@
+{
+  "id": "us-fl-miamidade",
+  "parent": "us-fl",
+  "level": "county",
+  "boundary": {
+    "method": "fact_ok",
+    "fact": "us-fl-miamidade.government.municipality"
+  },
+  "adapters": [
+    {
+      "id": "us-fl-miamidade.municipality",
+      "answers": [
+        "government.which"
+      ],
+      "sources": [
+        "us-fl-miamidade.gis-municipality"
+      ],
+      "desk": "us-fl-miamidade.311",
+      "facts": [
+        {
+          "id": "us-fl-miamidade.government.municipality",
+          "topics": [
+            "municipality"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.government.municipality-id",
+          "topics": [
+            "municipality"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-fl-miamidade.trash-county-garbage",
+      "answers": [
+        "trash.schedule"
+      ],
+      "sources": [
+        "us-fl-miamidade.gis-garbage-route"
+      ],
+      "desk": "us-fl-miamidade.dswm",
+      "facts": [
+        {
+          "id": "us-fl-miamidade.trash.garbage-days",
+          "topics": [
+            "trash"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-fl-miamidade.trash-county-recycling",
+      "answers": [
+        "trash.schedule"
+      ],
+      "sources": [
+        "us-fl-miamidade.gis-recycling-route"
+      ],
+      "desk": "us-fl-miamidade.dswm",
+      "facts": [
+        {
+          "id": "us-fl-miamidade.trash.recycling-day",
+          "topics": [
+            "trash"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.trash.recycling-week",
+          "topics": [
+            "trash"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-fl-miamidade.school-elementary",
+      "answers": [
+        "school.zoned"
+      ],
+      "sources": [
+        "us-fl-miamidade.gis-school-elementary"
+      ],
+      "desk": "us-fl-miamidade.m-dcps-transportation",
+      "facts": [
+        {
+          "id": "us-fl-miamidade.school.elementary",
+          "topics": [
+            "schools"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.school.elementary.phone",
+          "topics": [
+            "schools"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.school.elementary.grades",
+          "topics": [
+            "schools"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-fl-miamidade.school-middle",
+      "answers": [
+        "school.zoned"
+      ],
+      "sources": [
+        "us-fl-miamidade.gis-school-middle"
+      ],
+      "desk": "us-fl-miamidade.m-dcps-transportation",
+      "facts": [
+        {
+          "id": "us-fl-miamidade.school.middle",
+          "topics": [
+            "schools"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.school.middle.phone",
+          "topics": [
+            "schools"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.school.middle.grades",
+          "topics": [
+            "schools"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-fl-miamidade.school-high",
+      "answers": [
+        "school.zoned"
+      ],
+      "sources": [
+        "us-fl-miamidade.gis-school-high"
+      ],
+      "desk": "us-fl-miamidade.m-dcps-transportation",
+      "facts": [
+        {
+          "id": "us-fl-miamidade.school.high",
+          "topics": [
+            "schools"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.school.high.phone",
+          "topics": [
+            "schools"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.school.high.grades",
+          "topics": [
+            "schools"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-fl-miamidade.parcel",
+      "answers": [
+        "building.parcel"
+      ],
+      "sources": [
+        "us-fl-miamidade.gis-parcels"
+      ],
+      "desk": "us-fl-miamidade.property-appraiser",
+      "facts": [
+        {
+          "id": "us-fl-miamidade.parcel.folio",
+          "topics": [
+            "parcel"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.parcel.year-built",
+          "topics": [
+            "parcel"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.parcel.condo",
+          "topics": [
+            "parcel"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.parcel.use",
+          "topics": [
+            "parcel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-fl-miamidade.water",
+      "answers": [
+        "utility.water"
+      ],
+      "sources": [
+        "us-fl-miamidade.gis-water-service"
+      ],
+      "desk": "us-fl-miamidade.wasd",
+      "facts": [
+        {
+          "id": "us-fl-miamidade.utility.water",
+          "topics": [
+            "water"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-fl-miamidade.sewer",
+      "answers": [
+        "utility.sewer"
+      ],
+      "sources": [
+        "us-fl-miamidade.gis-sewer-service"
+      ],
+      "desk": "us-fl-miamidade.wasd",
+      "facts": [
+        {
+          "id": "us-fl-miamidade.utility.sewer",
+          "topics": [
+            "water"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-fl-miamidade.parks-county",
+      "answers": [
+        "places.parks"
+      ],
+      "sources": [
+        "us-fl-miamidade.gis-parks-county"
+      ],
+      "desk": "us-fl-miamidade.parks",
+      "facts": [
+        {
+          "id": "us-fl-miamidade.parks.nearest-county.1",
+          "topics": [
+            "parks"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.parks.nearest-county.2",
+          "topics": [
+            "parks"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.parks.nearest-county.3",
+          "topics": [
+            "parks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-fl-miamidade.parks-municipal",
+      "answers": [
+        "places.parks"
+      ],
+      "sources": [
+        "us-fl-miamidade.gis-parks-municipal"
+      ],
+      "desk": "us-fl-miamidade.parks",
+      "facts": [
+        {
+          "id": "us-fl-miamidade.parks.nearest-municipal.1",
+          "topics": [
+            "parks"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.parks.nearest-municipal.2",
+          "topics": [
+            "parks"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.parks.nearest-municipal.3",
+          "topics": [
+            "parks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-fl-miamidade.libraries",
+      "answers": [
+        "places.libraries"
+      ],
+      "sources": [
+        "us-fl-miamidade.gis-libraries"
+      ],
+      "desk": "us-fl-miamidade.library",
+      "facts": [
+        {
+          "id": "us-fl-miamidade.library.nearest.1",
+          "topics": [
+            "libraries"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.library.nearest.2",
+          "topics": [
+            "libraries"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.library.nearest.3",
+          "topics": [
+            "libraries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-fl-miamidade.vote",
+      "answers": [
+        "vote.where"
+      ],
+      "sources": [
+        "us-fl-miamidade.gis-vote"
+      ],
+      "desk": "us-fl-miamidade.elections",
+      "facts": [
+        {
+          "id": "us-fl-miamidade.vote.precinct",
+          "topics": [
+            "voting"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.vote.polling-place",
+          "topics": [
+            "voting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-fl-miamidade.rep-county-commission",
+      "answers": [
+        "representatives.county"
+      ],
+      "sources": [
+        "us-fl-miamidade.gis-vote"
+      ],
+      "desk": "us-fl-miamidade.elections",
+      "facts": [
+        {
+          "id": "us-fl-miamidade.rep.county-commission.district",
+          "topics": [
+            "representatives"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.rep.county-commission.member",
+          "topics": [
+            "representatives"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-fl-miamidade.rep-congress",
+      "answers": [
+        "representatives.congress"
+      ],
+      "sources": [
+        "us-fl-miamidade.gis-vote"
+      ],
+      "desk": "us-fl-miamidade.elections",
+      "facts": [
+        {
+          "id": "us-fl-miamidade.rep.congress.district",
+          "topics": [
+            "representatives"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.rep.congress.member",
+          "topics": [
+            "representatives"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-fl-miamidade.rep-state-senate",
+      "answers": [
+        "representatives.state-senate"
+      ],
+      "sources": [
+        "us-fl-miamidade.gis-vote"
+      ],
+      "desk": "us-fl-miamidade.elections",
+      "facts": [
+        {
+          "id": "us-fl-miamidade.rep.state-senate.district",
+          "topics": [
+            "representatives"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.rep.state-senate.member",
+          "topics": [
+            "representatives"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-fl-miamidade.rep-state-house",
+      "answers": [
+        "representatives.state-house"
+      ],
+      "sources": [
+        "us-fl-miamidade.gis-vote"
+      ],
+      "desk": "us-fl-miamidade.elections",
+      "facts": [
+        {
+          "id": "us-fl-miamidade.rep.state-house.district",
+          "topics": [
+            "representatives"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.rep.state-house.member",
+          "topics": [
+            "representatives"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-fl-miamidade.rep-school-board",
+      "answers": [
+        "representatives.school-board"
+      ],
+      "sources": [
+        "us-fl-miamidade.gis-vote"
+      ],
+      "desk": "us-fl-miamidade.elections",
+      "facts": [
+        {
+          "id": "us-fl-miamidade.rep.school-board.district",
+          "topics": [
+            "representatives"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.rep.school-board.member",
+          "topics": [
+            "representatives"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-fl-miamidade.transit",
+      "answers": [
+        "transit.nearby"
+      ],
+      "sources": [
+        "us-fl-miamidade.gtfs"
+      ],
+      "desk": "us-fl-miamidade.transit",
+      "facts": [
+        {
+          "id": "us-fl-miamidade.transit.nearest-stop.1",
+          "topics": [
+            "transit"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.transit.nearest-stop.1.routes",
+          "topics": [
+            "transit"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.transit.nearest-stop.2",
+          "topics": [
+            "transit"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.transit.nearest-stop.2.routes",
+          "topics": [
+            "transit"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.transit.nearest-stop.3",
+          "topics": [
+            "transit"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.transit.nearest-stop.3.routes",
+          "topics": [
+            "transit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-fl-miamidade.rent-line",
+      "answers": [
+        "rent.line"
+      ],
+      "sources": [],
+      "desk": "us-fl-miamidade.housing",
+      "facts": [
+        {
+          "id": "us-fl-miamidade.rent.line",
+          "topics": [
+            "rent"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-fl-miamidade.evacuation-zone",
+      "answers": [
+        "storm.zone"
+      ],
+      "sources": [
+        "us-fl-miamidade.gis-evacuation-zone"
+      ],
+      "desk": "us-fl-miamidade.311",
+      "facts": [
+        {
+          "id": "us-fl-miamidade.storm.evacuation-zone",
+          "topics": [
+            "storm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-fl-miamidade.fee-check-mia-taxi",
+      "answers": [
+        "fees.mia-taxi"
+      ],
+      "sources": [],
+      "desk": "us-fl-miamidade.mia-information",
+      "facts": [
+        {
+          "id": "us-fl-miamidade.mia.taxi.meter-rule",
+          "topics": [
+            "transit"
+          ]
+        },
+        {
+          "id": "us-fl-miamidade.mia.taxi.flat-rate-rule",
+          "topics": [
+            "transit"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "us-fl-miamidade.gis-address-locator",
+    "us-fl-miamidade.gis-municipality",
+    "us-fl-miamidade.gis-garbage-route",
+    "us-fl-miamidade.gis-recycling-route",
+    "us-fl-miamidade.gis-school-elementary",
+    "us-fl-miamidade.gis-school-middle",
+    "us-fl-miamidade.gis-school-high",
+    "us-fl-miamidade.gis-parcels",
+    "us-fl-miamidade.gis-water-service",
+    "us-fl-miamidade.gis-sewer-service",
+    "us-fl-miamidade.gis-parks-county",
+    "us-fl-miamidade.gis-parks-municipal",
+    "us-fl-miamidade.gis-libraries",
+    "us-fl-miamidade.gis-vote",
+    "us-fl-miamidade.gtfs",
+    "us-fl-miamidade.gis-evacuation-zone"
+  ],
+  "desks": [
+    "us-fl-miamidade.311",
+    "us-fl-miamidade.dswm",
+    "us-fl-miamidade.m-dcps-transportation",
+    "us-fl-miamidade.property-appraiser",
+    "us-fl-miamidade.wasd",
+    "us-fl-miamidade.parks",
+    "us-fl-miamidade.library",
+    "us-fl-miamidade.elections",
+    "us-fl-miamidade.transit",
+    "us-fl-miamidade.housing",
+    "us-fl-miamidade.mia-information"
+  ],
+  "desks_placeholder": true,
+  "languages": [
+    "es",
+    "en",
+    "ht"
+  ]
+}

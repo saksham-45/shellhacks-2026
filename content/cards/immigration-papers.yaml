@@ -1,0 +1,141 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: immigration-papers
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > The hard papers
+  item: 'Immigration papers: checklist and accredited help, Spanish and Creole first'
+- plan: mymiami-plan.md
+  section: Every feature > Housing traps and the bad week
+  item: Immigration papers
+title:
+  es: Papeles de inmigración
+  en: Immigration papers
+  ht: Papye imigrasyon
+summary:
+  es: Una lista y ayuda acreditada, primero en español y creole. Definimos palabras y te damos la oficina. No escogemos tu camino.
+  en: A checklist and accredited help, in Spanish and Creole first. We define words and hand you the desk. We do not pick your path.
+  ht: Yon lis ak èd akredite, an panyòl ak kreyòl an premye. Nou esplike mo yo epi nou ba w biwo a. Nou pa chwazi chemen ou.
+body:
+  es: |-
+    Guarda juntos: pasaporte, I-94, cada aviso de USCIS, actas de nacimiento y de matrimonio, y sus traducciones.
+
+    Los formularios son gratis en el sitio de USCIS. Nunca pagues por un formulario en blanco.
+    Las tarifas de USCIS se pagan solo por los métodos de pago propios de USCIS; si alguien te pide que le pagues en efectivo las tarifas de USCIS, es una señal de alerta.
+
+    El estado de TPS y otros estatus depende de los papeles de cada persona; habla con una persona acreditada antes de actuar por algo que hayas oído.
+
+    Solo un abogado con licencia o un representante acreditado por el Departamento de Justicia puede aconsejarte. El Departamento de Justicia tiene la lista de organizaciones reconocidas. Un notario no puede aconsejarte.
+
+    Asistencia legal de inmigración en Miami-Dade: {fact:us-fl-miamidade.immigration-legal-aid.phone}. Idiomas: {fact:us-fl-miamidade.immigration-legal-aid.languages}.
+
+    ¿Te mudaste? Pregúntale a la oficina acreditada cómo avisarle a USCIS dentro de {fact:us.uscis.address-change-deadline}.
+
+    No te diremos qué formulario, qué estatus ni qué posibilidades tienes.
+  en: |-
+    Keep together: passport, I-94, every USCIS notice, birth and marriage records, and their translations.
+
+    Forms are free on the USCIS website. Never pay for a blank form.
+    USCIS fees are paid only through USCIS's own payment methods; anyone asking you to pay USCIS fees to them in cash is a warning sign.
+
+    TPS and other status outcomes depend on each person’s papers; talk to an accredited helper before acting on anything you heard.
+
+    Only a licensed lawyer or a DOJ-accredited representative may advise you. The Justice Department keeps the list of recognized organizations. A notary cannot advise you.
+
+    Immigration legal aid in Miami-Dade: {fact:us-fl-miamidade.immigration-legal-aid.phone}. Languages: {fact:us-fl-miamidade.immigration-legal-aid.languages}.
+
+    Moved? Ask the accredited desk about telling USCIS you moved within {fact:us.uscis.address-change-deadline}.
+
+    We will not tell you which form, which status, or what your chances are.
+  ht: |-
+    Kenbe ansanm: paspò, I-94, chak avi USCIS, batistè ak papye maryaj, ak tradiksyon yo.
+
+    Fòm yo gratis sou sit USCIS la. Pa janm peye pou yon fòm vid.
+    Frè USCIS yo peye sèlman ak pwòp metòd peman USCIS yo; si yon moun mande w peye frè USCIS yo ba li an lajan kach, se yon siy danje.
+
+    Eta TPS ak lòt estati depann de papye chak moun; pale ak yon moun akredite anvan ou aji sou yon bagay ou tande.
+
+    Se sèlman yon avoka ki gen lisans oswa yon reprezantan Depatman Jistis akredite ki ka konseye w. Depatman Jistis la kenbe lis òganizasyon ki rekonèt yo. Yon notè pa ka konseye w.
+
+    Èd legal imigrasyon nan Miami-Dade: {fact:us-fl-miamidade.immigration-legal-aid.phone}. Lang: {fact:us-fl-miamidade.immigration-legal-aid.languages}.
+
+    Ou demenaje? Mande biwo akredite a kijan pou di USCIS ou demenaje nan {fact:us.uscis.address-change-deadline}.
+
+    Nou p ap di w ki fòm, ki estati, ni ki chans ou genyen.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- - us.uscis.forms-free
+  - us.uscis.fee-payment-methods
+- []
+- - us.immigration.who-may-advise
+  - us.eoir.recognized-organizations
+  - us.uscis.notario-scam
+- - us-fl-miamidade.immigration-legal-aid.phone
+  - us-fl-miamidade.immigration-legal-aid.languages
+- - us.uscis.address-change-deadline
+- []
+desk: us-fl-miamidade.immigration-legal-aid
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.immigration-legal-aid
+- type: open_map
+  target:
+    type: desk
+    desk_id: us-fl-miamidade.immigration-legal-aid
+utterances:
+  es:
+  - ayuda con mis papeles de inmigración
+  - abogado de inmigración gratis
+  - lista de papeles de inmigración
+  - dónde bajo los formularios de USCIS
+  - help con mis papeles
+  en:
+  - help with my immigration papers
+  - free immigration lawyer
+  - immigration checklist
+  - where do I download USCIS forms
+  - ayuda con mis papeles de immigration
+  ht:
+  - èd pou papye imigrasyon mwen
+  - avoka imigrasyon gratis
+  - lis papye imigrasyon
+  - ki kote pou m telechaje fòm USCIS
+  - help ak papye imigrasyon m
+privacy_scope: person-papers
+stages:
+- 2
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: true
+origin_lenses:
+- latinAmerica
+- haiti
+related_cards:
+- status-word
+- papers-folder
+- lens-latam-notario
+fact_refs:
+- us.uscis.forms-free
+- us.uscis.fee-payment-methods
+- us.immigration.who-may-advise
+- us.eoir.recognized-organizations
+- us.uscis.notario-scam
+- us-fl-miamidade.immigration-legal-aid.phone
+- us-fl-miamidade.immigration-legal-aid.languages
+- us.uscis.address-change-deadline
+verified_only_refs:
+- us.immigration.tps.haiti.end-date
+- us.immigration.tps.venezuela.doc-validity
+topics:
+- immigration
+- legal-aid
+- tps

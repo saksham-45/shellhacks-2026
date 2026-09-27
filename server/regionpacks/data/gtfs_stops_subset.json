@@ -1,0 +1,487 @@
+{
+ "source": {
+  "request_url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "retrieved_at": "2026-09-25T18:07:12-04:00",
+  "sha256": "785460181e910e47af9172ccb9da0b10aa61ba9d55539fd6b69d0ad181758ef5",
+  "bytes": 8419295,
+  "last_modified": "Fri, 31 Jul 2026 20:10:53 GMT",
+  "stops_txt_zip_time": "2026-07-31T14:41:00",
+  "derived_by": "scripts/derive_gtfs_subset.py"
+ },
+ "coverage": [
+  {
+   "pin": "pin-sw137",
+   "lat": 25.663194000003116,
+   "lon": -80.41646700000167,
+   "radius_m": 600
+  },
+  {
+   "pin": "pin-nw1st",
+   "lat": 25.775604000003124,
+   "lon": -80.19666900000166,
+   "radius_m": 600
+  }
+ ],
+ "stops": [
+  {
+   "stop_id": "104",
+   "stop_name": "NW 1 ST @ NW 1 AV",
+   "lat": 25.77511,
+   "lon": -80.19679,
+   "routes": [
+    "100",
+    "101",
+    "11",
+    "207",
+    "208",
+    "211",
+    "400",
+    "77"
+   ]
+  },
+  {
+   "stop_id": "10401",
+   "stop_name": "NW 1 AV & NW 5 ST (S/F)",
+   "lat": 25.778538,
+   "lon": -80.195394,
+   "routes": [
+    "836",
+    "837",
+    "95"
+   ]
+  },
+  {
+   "stop_id": "1165",
+   "stop_name": "NW 5 ST & NW 4 AV",
+   "lat": 25.778661,
+   "lon": -80.201356,
+   "routes": [
+    "7"
+   ]
+  },
+  {
+   "stop_id": "11663",
+   "stop_name": "SW 4TH AVE @ SW 2ND ST",
+   "lat": 25.771762,
+   "lon": -80.200865,
+   "routes": [
+    "MIAHAVA"
+   ]
+  },
+  {
+   "stop_id": "11664",
+   "stop_name": "S RIVER DR @ W FLAGLER ST",
+   "lat": 25.774085,
+   "lon": -80.202027,
+   "routes": [
+    "MIAHAVA"
+   ]
+  },
+  {
+   "stop_id": "1241",
+   "stop_name": "NW 1 AV @ NW 1 ST",
+   "lat": 25.77536,
+   "lon": -80.19566,
+   "routes": [
+    "2",
+    "207",
+    "208",
+    "211",
+    "401",
+    "836",
+    "837",
+    "95"
+   ]
+  },
+  {
+   "stop_id": "1340",
+   "stop_name": "SW 1 AVE & SW 1 ST",
+   "lat": 25.773499,
+   "lon": -80.195638,
+   "routes": [
+    "401",
+    "836",
+    "837",
+    "9",
+    "95"
+   ]
+  },
+  {
+   "stop_id": "184",
+   "stop_name": "SW 1 ST @ SW 1 AV",
+   "lat": 25.7729,
+   "lon": -80.19561,
+   "routes": [
+    "2"
+   ]
+  },
+  {
+   "stop_id": "22",
+   "stop_name": "NE 1 AV @ NE 4 ST",
+   "lat": 25.77778,
+   "lon": -80.19191,
+   "routes": [
+    "7",
+    "9"
+   ]
+  },
+  {
+   "stop_id": "24",
+   "stop_name": "NW 6 ST & 1 AV",
+   "lat": 25.77994,
+   "lon": -80.19606,
+   "routes": [
+    "7"
+   ]
+  },
+  {
+   "stop_id": "3295",
+   "stop_name": "SW 137 AV @ SW 109 ST",
+   "lat": 25.66662,
+   "lon": -80.41636,
+   "routes": [
+    "137"
+   ]
+  },
+  {
+   "stop_id": "3296",
+   "stop_name": "SW 137 AV @ SW 112 ST",
+   "lat": 25.66308,
+   "lon": -80.41622,
+   "routes": [
+    "137"
+   ]
+  },
+  {
+   "stop_id": "3312",
+   "stop_name": "SW 137 AV & SW 112 ST",
+   "lat": 25.663373,
+   "lon": -80.415947,
+   "routes": [
+    "137"
+   ]
+  },
+  {
+   "stop_id": "40",
+   "stop_name": "CBD TERMINAL @ SW 1 AV OP FEDERAL B",
+   "lat": 25.77374,
+   "lon": -80.19594,
+   "routes": [
+    "203",
+    "21",
+    "3"
+   ]
+  },
+  {
+   "stop_id": "59",
+   "stop_name": "SW 1 ST & 1 CT",
+   "lat": 25.773176,
+   "lon": -80.196472,
+   "routes": [
+    "100",
+    "101",
+    "11",
+    "400",
+    "7",
+    "77"
+   ]
+  },
+  {
+   "stop_id": "590",
+   "stop_name": "SE 1 ST & 1 AV",
+   "lat": 25.773315,
+   "lon": -80.191272,
+   "routes": [
+    "101",
+    "203",
+    "3",
+    "836",
+    "837",
+    "95"
+   ]
+  },
+  {
+   "stop_id": "6635",
+   "stop_name": "SE 1 AV @ E FLAGLER ST",
+   "lat": 25.77403,
+   "lon": -80.19187,
+   "routes": [
+    "11",
+    "7",
+    "77",
+    "9"
+   ]
+  },
+  {
+   "stop_id": "6645",
+   "stop_name": "NW 2 AV @ NW 5 ST",
+   "lat": 25.77896,
+   "lon": -80.19792,
+   "routes": [
+    "2",
+    "401"
+   ]
+  },
+  {
+   "stop_id": "6646",
+   "stop_name": "NW 2 AV @ NW 4 ST",
+   "lat": 25.77801,
+   "lon": -80.19796,
+   "routes": [
+    "2",
+    "401",
+    "7"
+   ]
+  },
+  {
+   "stop_id": "6647",
+   "stop_name": "NW 2 AV & NW 2 ST",
+   "lat": 25.776135,
+   "lon": -80.197864,
+   "routes": [
+    "21",
+    "7"
+   ]
+  },
+  {
+   "stop_id": "6648",
+   "stop_name": "NW 2 AV @ NW 2 ST",
+   "lat": 25.77617,
+   "lon": -80.19773,
+   "routes": [
+    "2",
+    "207",
+    "208",
+    "21",
+    "211",
+    "401"
+   ]
+  },
+  {
+   "stop_id": "6649",
+   "stop_name": "NW 2 AV @ NW 3 ST",
+   "lat": 25.77754,
+   "lon": -80.19774,
+   "routes": [
+    "2",
+    "21",
+    "401"
+   ]
+  },
+  {
+   "stop_id": "6650",
+   "stop_name": "NW 2 AV @ NW 5 ST",
+   "lat": 25.77913,
+   "lon": -80.19785,
+   "routes": [
+    "2",
+    "21",
+    "401"
+   ]
+  },
+  {
+   "stop_id": "6658",
+   "stop_name": "W FLAGLER ST @ NW 2 AV",
+   "lat": 25.77412,
+   "lon": -80.19734,
+   "routes": [
+    "21"
+   ]
+  },
+  {
+   "stop_id": "6661",
+   "stop_name": "NE 1 ST @ NE 1 AV",
+   "lat": 25.77521,
+   "lon": -80.19233,
+   "routes": [
+    "11",
+    "77",
+    "9",
+    "MIACOR"
+   ]
+  },
+  {
+   "stop_id": "6662",
+   "stop_name": "NW 1 ST @ N MIAMI AV",
+   "lat": 25.77516,
+   "lon": -80.19394,
+   "routes": [
+    "100",
+    "101",
+    "11",
+    "203",
+    "3",
+    "77"
+   ]
+  },
+  {
+   "stop_id": "6667",
+   "stop_name": "NW 3 ST @ NW 2 AV",
+   "lat": 25.77689,
+   "lon": -80.19697,
+   "routes": [
+    "2",
+    "207",
+    "208",
+    "401"
+   ]
+  },
+  {
+   "stop_id": "6941",
+   "stop_name": "SW 2 AV & SW 3 ST",
+   "lat": 25.771204,
+   "lon": -80.197666,
+   "routes": [
+    "207",
+    "MIACOR"
+   ]
+  },
+  {
+   "stop_id": "6948",
+   "stop_name": "SW 2 AV @ SW 3 ST",
+   "lat": 25.7713,
+   "lon": -80.19749,
+   "routes": [
+    "208",
+    "MIACOR"
+   ]
+  },
+  {
+   "stop_id": "7861",
+   "stop_name": "NW NORTH RIVER D @ NW 2 ST",
+   "lat": 25.77546,
+   "lon": -80.20159,
+   "routes": [
+    "77"
+   ]
+  },
+  {
+   "stop_id": "7862",
+   "stop_name": "NW NORTH RIVER D @ NW 3 ST",
+   "lat": 25.77628,
+   "lon": -80.20244,
+   "routes": [
+    "77"
+   ]
+  },
+  {
+   "stop_id": "7875",
+   "stop_name": "NW NORTH RIVER D @ NW 3 ST",
+   "lat": 25.7762,
+   "lon": -80.20256,
+   "routes": [
+    "77"
+   ]
+  },
+  {
+   "stop_id": "8018",
+   "stop_name": "NW 5 ST & NW 3 AV",
+   "lat": 25.778693,
+   "lon": -80.200388,
+   "routes": [
+    "21",
+    "7"
+   ]
+  },
+  {
+   "stop_id": "8019",
+   "stop_name": "NW 5 ST & NW 3 AV",
+   "lat": 25.778727,
+   "lon": -80.199288,
+   "routes": [
+    "7"
+   ]
+  },
+  {
+   "stop_id": "811",
+   "stop_name": "COLLEGE NORTH METROMOVER STATION",
+   "lat": 25.778926,
+   "lon": -80.192085,
+   "routes": [
+    "MMO"
+   ]
+  },
+  {
+   "stop_id": "812",
+   "stop_name": "WILKIE D FERGUSON METROMOVER STATION",
+   "lat": 25.778815,
+   "lon": -80.195341,
+   "routes": [
+    "MMO"
+   ]
+  },
+  {
+   "stop_id": "813",
+   "stop_name": "GOVERNMENT CENTER METROMOVER STATION",
+   "lat": 25.775864,
+   "lon": -80.196093,
+   "routes": [
+    "MMI",
+    "MMO"
+   ]
+  },
+  {
+   "stop_id": "815",
+   "stop_name": "THIRD STREET METROMOVER STATION",
+   "lat": 25.772024,
+   "lon": -80.193508,
+   "routes": [
+    "MMO"
+   ]
+  },
+  {
+   "stop_id": "834",
+   "stop_name": "MIAMI AVENUE METROMOVER STATION",
+   "lat": 25.773391,
+   "lon": -80.193582,
+   "routes": [
+    "MMI"
+   ]
+  },
+  {
+   "stop_id": "837",
+   "stop_name": "WILKIE D FERGUSON METROMOVER STATION",
+   "lat": 25.778815,
+   "lon": -80.195341,
+   "routes": [
+    "MMI"
+   ]
+  },
+  {
+   "stop_id": "838",
+   "stop_name": "COLLEGE NORTH METROMOVER STATION",
+   "lat": 25.778926,
+   "lon": -80.192085,
+   "routes": [
+    "MMI"
+   ]
+  },
+  {
+   "stop_id": "9512",
+   "stop_name": "GOVERNMENT CTR.STAT.RAIL SOUTHBOUND",
+   "lat": 25.776047,
+   "lon": -80.196157,
+   "routes": [
+    "2600"
+   ]
+  },
+  {
+   "stop_id": "9513",
+   "stop_name": "GOVERNMENT CTR.STAT.RAIL NORTHBOUND",
+   "lat": 25.776044,
+   "lon": -80.19603,
+   "routes": [
+    "2600"
+   ]
+  },
+  {
+   "stop_id": "9997",
+   "stop_name": "NW 6 ST & 2 AV",
+   "lat": 25.779846,
+   "lon": -80.198201,
+   "routes": [
+    "7"
+   ]
+  }
+ ]
+}

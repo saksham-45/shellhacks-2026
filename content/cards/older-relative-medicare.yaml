@@ -1,0 +1,86 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: older-relative-medicare
+kind: country
+status: draft
+plan_refs:
+- plan: myamericandream-plan-additions.md
+  section: Batch 3
+  item: Medicare and noncitizen relatives
+title:
+  es: Medicare para un familiar mayor
+  en: Medicare for an older relative
+  ht: Medicare pou yon fanmi ki pi gran
+summary:
+  es: Las reglas de Medicare dependen del grupo migratorio de la persona y de si ya estaba inscrita.
+  en: Medicare rules depend on the person's immigration group and whether they were already enrolled.
+  ht: Règ Medicare yo depann de gwoup imigrasyon moun nan ak si moun nan te deja enskri.
+body:
+  es: |-
+    Para una persona que no es ciudadana, la elegibilidad o inscripción de Medicare se limita a estos grupos: {fact:us.medicare.noncitizen.eligible-groups}.
+
+    Si la persona ya tenía Medicare cuando se aprobó la regla, la limitación para quienes ya estaban inscritos comienza {fact:us.medicare.noncitizen.existing-enrollee-rule}.
+
+    No adivines qué significa esto para tu familiar. Reúne sus avisos y papeles, llama al Seguro Social y pide que revisen el caso.
+  en: |-
+    For a person who is not a citizen, Medicare eligibility or enrollment is limited to these groups: {fact:us.medicare.noncitizen.eligible-groups}.
+
+    If the person already had Medicare when the rule was enacted, the limit for people already enrolled begins {fact:us.medicare.noncitizen.existing-enrollee-rule}.
+
+    Do not guess what this means for your relative. Gather their notices and papers, call Social Security, and ask them to review the case.
+  ht: |-
+    Pou yon moun ki pa sitwayen, kalifikasyon oswa enskripsyon Medicare limite ak gwoup sa yo: {fact:us.medicare.noncitizen.eligible-groups}.
+
+    Si moun nan te deja gen Medicare lè yo te adopte règ la, limit pou moun ki te deja enskri yo kòmanse {fact:us.medicare.noncitizen.existing-enrollee-rule}.
+
+    Pa devine sa sa vle di pou fanmi ou. Rasanble avi ak papye li yo, rele Sekirite Sosyal, epi mande yo revize ka a.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us.medicare.noncitizen.eligible-groups
+- - us.medicare.noncitizen.existing-enrollee-rule
+- []
+desk: us.ssa
+actions:
+- type: call_desk
+  desk_id: us.ssa
+- type: call_desk
+  desk_id: us.accredited-legal-help
+utterances:
+  es:
+  - Medicare para mi familiar mayor
+  - mi familiar no es ciudadano y tiene Medicare
+  - quién puede tener Medicare
+  - qué hago con el Medicare de mi familiar
+  - debo llamar al Seguro Social por Medicare
+  en:
+  - Medicare for my older relative
+  - my relative is not a citizen and has Medicare
+  - who can have Medicare
+  - what do I do about my relative's Medicare
+  - should I call Social Security about Medicare
+  ht:
+  - Medicare pou fanmi mwen ki pi gran
+  - fanmi mwen pa sitwayen epi li gen Medicare
+  - kiyès ki ka gen Medicare
+  - kisa pou m fè pou Medicare fanmi mwen
+  - èske mwen dwe rele Sekirite Sosyal pou Medicare
+privacy_scope: person-papers
+stages:
+- 6
+modes:
+- resident
+region_pack: us
+is_immigration: true
+related_cards:
+- immigration-papers
+- ssn-itin
+fact_refs:
+- us.medicare.noncitizen.eligible-groups
+- us.medicare.noncitizen.existing-enrollee-rule
+topics:
+- immigration

@@ -1,0 +1,93 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: parks-libraries
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > Errands
+  item: Parks and libraries
+- plan: mymiami-plan.md
+  section: Every feature > The errand that eats a day
+  item: Parks and libraries
+- plan: mymiami-public-data.md
+  section: Card by card
+  item: Nearest park, library, fire station
+title:
+  es: Parques y bibliotecas
+  en: Parks and libraries
+  ht: Pak ak bibliyotèk
+summary:
+  es: El parque, la biblioteca y la estación de bomberos más cercanos, en la misma silueta.
+  en: The nearest park, library, and fire station, on the same outline.
+  ht: Pak, bibliyotèk, ak estasyon ponpye ki pi pre a, sou menm kat la.
+body:
+  es: |-
+    Parque más cercano: {fact:us-fl-miamidade.places.nearest-park}. Biblioteca más cercana: {fact:us-fl-miamidade.places.nearest-library}.
+
+    Estación de bomberos más cercana: {fact:us-fl-miamidade.places.nearest-fire-station}.
+
+    Algunas bibliotecas reciben la camioneta de licencias, Florida Licensing on Wheels.
+  en: |-
+    Nearest park: {fact:us-fl-miamidade.places.nearest-park}. Nearest library: {fact:us-fl-miamidade.places.nearest-library}.
+
+    Nearest fire station: {fact:us-fl-miamidade.places.nearest-fire-station}.
+
+    Some libraries host the license van, Florida Licensing on Wheels.
+  ht: |-
+    Pak ki pi pre a: {fact:us-fl-miamidade.places.nearest-park}. Bibliyotèk ki pi pre a: {fact:us-fl-miamidade.places.nearest-library}.
+
+    Estasyon ponpye ki pi pre a: {fact:us-fl-miamidade.places.nearest-fire-station}.
+
+    Gen bibliyotèk ki resevwa kamyonèt lisans lan, Florida Licensing on Wheels.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.places.nearest-park
+  - us-fl-miamidade.places.nearest-library
+- - us-fl-miamidade.places.nearest-fire-station
+- - us-fl-miamidade.tax-collector.flow
+desk: us-fl-miamidade.libraries
+actions:
+- type: open_map
+  target:
+    type: desk
+    desk_id: us-fl-miamidade.libraries
+utterances:
+  es:
+  - parque más cercano
+  - biblioteca cerca de mí
+  - dónde pueden jugar los niños
+  - la estación de bomberos más cercana
+  - a park cerca de la casa
+  en:
+  - nearest park
+  - library near me
+  - where can the kids play
+  - closest fire station
+  - un parque cerca de home
+  ht:
+  - pak ki pi pre a
+  - bibliyotèk toupre m
+  - ki kote timoun yo ka jwe
+  - estasyon ponpye ki pi pre a
+  - yon park toupre kay la
+privacy_scope: household
+stages:
+- 10
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+fact_refs:
+- us-fl-miamidade.places.nearest-park
+- us-fl-miamidade.places.nearest-library
+- us-fl-miamidade.places.nearest-fire-station
+- us-fl-miamidade.tax-collector.flow
+topics:
+- parks
+- libraries

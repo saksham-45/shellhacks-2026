@@ -1,0 +1,74 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: stage-07-school-or-allowed-work
+kind: stage
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Stages
+  item: 7. School or allowed work
+title:
+  es: Escuela o trabajo permitido
+  en: School or allowed work
+  ht: Lekòl oswa travay ki pèmèt
+summary:
+  es: El niño está inscrito, o el trabajo es uno que mi estatus permite.
+  en: The child is enrolled, or the job is one my status allows.
+  ht: Timoun nan enskri, oswa travay la se youn estati m pèmèt.
+body:
+  es: |-
+    Lo principal es la zona escolar, el DSO, el funcionario escolar que maneja tu registro estudiantil, o las fechas del permiso de trabajo.
+
+    Lo principal es la primera tarjeta de esa lista que aún no terminas. Cada familiar puede estar en una etapa distinta en la misma casa.
+  en: |-
+    The hero is the school zone, the DSO, the school official who handles your student record, or the dates on the work card.
+
+    The hero is the first card on that list you have not finished. Family members can be on different stages in the same house.
+  ht: |-
+    Premye bagay la se zòn lekòl la, DSO a, ofisyèl lekòl ki okipe dosye etidyan ou a, oswa dat ki sou pèmi travay la.
+
+    Premye bagay la se premye kat nan lis sa a ou poko fini. Chak moun nan fanmi an ka nan yon etap diferan nan menm kay la.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- []
+desk: us-fl-miamidade.m-dcps
+utterances:
+  es:
+  - etapa de escuela o trabajo
+  - próximo paso para la escuela
+  - y la escuela y el trabajo
+  - etapa escolar
+  en:
+  - school or work stage
+  - next step for school
+  - what about work and school
+  - school stage
+  ht:
+  - etap lekòl oswa travay
+  - pwochen etap pou lekòl
+  - e lekòl ak travay la
+  - etap lekòl
+privacy_scope: person
+stages:
+- 7
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+hero_cards:
+- school-enrollment
+- school-run
+- work-allowed
+- lens-student-desk
+related_cards:
+- status-word
+fact_refs: []
+topics:
+- schools
+- work

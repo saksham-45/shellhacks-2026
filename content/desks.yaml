@@ -1,0 +1,854 @@
+# Desks cards end at (myAD Content). Contact details are <desk-id>.<field> ledger facts.
+translation_status:
+  es: draft
+  ht: draft
+desks:
+- id: us.911
+  name:
+    es: Línea de emergencias
+    en: Emergency line
+    ht: Liy ijans
+  level: any
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - languages
+  fact_refs:
+  - us.911.name
+  - us.911.phone
+  - us.911.languages
+  topics:
+  - desk
+- id: us.988
+  name:
+    es: 'Línea 988 de Prevención del Suicidio y Crisis'
+    en: '988 Suicide & Crisis Lifeline'
+    ht: 'Liy 988 pou Prevansyon Swisid ak Kriz' # needs_review: ht not natively reviewed
+  level: federal
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  fact_refs:
+  - us.988.name
+  - us.988.phone
+  - us.988.url
+  topics:
+  - desk
+- id: us.211
+  name:
+    es: Línea de ayuda comunitaria
+    en: Community help line
+    ht: Liy èd kominotè
+  level: nonprofit
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - languages
+  fact_refs:
+  - us.211.name
+  - us.211.phone
+  - us.211.languages
+  topics:
+  - desk
+- id: us.accredited-legal-help
+  name:
+    es: Ayuda legal de inmigración reconocida por el Departamento de Justicia más cercana
+    en: Nearest DOJ-recognized immigration legal help
+    ht: Èd legal imigrasyon Depatman Jistis rekonèt ki pi pre a
+  level: nonprofit
+  immigration: true
+  contact_kind: lookup
+  contact_fields:
+  - name
+  - phone
+  - address
+  fact_refs:
+  - us.accredited-legal-help.name
+  - us.accredited-legal-help.phone
+  - us.accredited-legal-help.address
+  topics:
+  - immigration
+  - legal-aid
+  - desk
+- id: us.bank-branch
+  name:
+    es: Una sucursal de banco o cooperativa cerca de ti
+    en: A bank or credit union branch near you
+    ht: Yon branch bank oswa kooperativ toupre w
+  level: private
+  immigration: false
+  contact_kind: lookup
+  contact_fields:
+  - name
+  - address
+  fact_refs:
+  - us.bank-branch.name
+  - us.bank-branch.address
+  topics:
+  - desk
+- id: us.cbp
+  name:
+    es: Aduanas y Protección Fronteriza (I-94)
+    en: U.S. Customs and Border Protection (I-94)
+    ht: Ladwàn ak Pwoteksyon Fwontyè Etazini (I-94)
+  level: federal
+  immigration: true
+  contact_kind: static
+  contact_fields:
+  - name
+  - url
+  fact_refs:
+  - us.cbp.name
+  - us.cbp.url
+  topics:
+  - immigration
+- id: us.cfpb
+  name:
+    es: Oficina para la Protección Financiera del Consumidor
+    en: Consumer Financial Protection Bureau
+    ht: Biwo Pwoteksyon Finansyè Konsomatè
+  level: federal
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  fact_refs:
+  - us.cfpb.name
+  - us.cfpb.phone
+  - us.cfpb.url
+  topics:
+  - desk
+- id: us.community-health-center
+  name:
+    es: Centro de salud comunitario más cercano
+    en: Nearest community health center
+    ht: Sant sante kominotè ki pi pre a
+  level: nonprofit
+  immigration: false
+  contact_kind: lookup
+  contact_fields:
+  - name
+  - phone
+  - address
+  fact_refs:
+  - us.community-health-center.name
+  - us.community-health-center.phone
+  - us.community-health-center.address
+  topics:
+  - desk
+- id: us.ftc
+  name:
+    es: Comisión Federal de Comercio (denuncias de fraude)
+    en: Federal Trade Commission (fraud reports)
+    ht: Komisyon Federal Komès (rapò fwod)
+  level: federal
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  fact_refs:
+  - us.ftc.name
+  - us.ftc.phone
+  - us.ftc.url
+  topics:
+  - desk
+- id: us.irs
+  name:
+    es: Servicio de Impuestos Internos (IRS)
+    en: Internal Revenue Service (IRS)
+    ht: Sèvis Taks Entèn (IRS)
+  level: federal
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  fact_refs:
+  - us.irs.name
+  - us.irs.phone
+  - us.irs.url
+  topics:
+  - desk
+- id: us.legal-aid
+  name:
+    es: Oficina de asistencia legal civil más cercana
+    en: Nearest civil legal aid office
+    ht: Biwo èd legal sivil ki pi pre a
+  level: nonprofit
+  immigration: false
+  contact_kind: lookup
+  contact_fields:
+  - name
+  - phone
+  fact_refs:
+  - us.legal-aid.name
+  - us.legal-aid.phone
+  topics:
+  - legal-aid
+  - desk
+- id: us.phone-carrier-store
+  name:
+    es: Una tienda de telefonía cerca de ti
+    en: A phone carrier store near you
+    ht: Yon magazen konpayi telefòn toupre w
+  level: private
+  immigration: false
+  contact_kind: lookup
+  contact_fields:
+  - name
+  - address
+  fact_refs:
+  - us.phone-carrier-store.name
+  - us.phone-carrier-store.address
+  topics:
+  - desk
+- id: us.school-dso
+  name:
+    es: La oficina de estudiantes internacionales de tu escuela (DSO)
+    en: Your school's international student office (DSO)
+    ht: Biwo etidyan entènasyonal lekòl ou (DSO)
+  level: school
+  immigration: true
+  contact_kind: lookup
+  contact_fields:
+  - name
+  - phone
+  fact_refs:
+  - us.school-dso.name
+  - us.school-dso.phone
+  topics:
+  - immigration
+  - schools
+- id: us.fema-nfip
+  name:
+    es: Programa Nacional de Seguro contra Inundaciones de FEMA
+    en: FEMA National Flood Insurance Program
+    ht: Pwogram Nasyonal Asirans Inondasyon FEMA
+  level: federal
+  immigration: false
+  contact_kind: lookup
+  contact_fields:
+  - name
+  - phone
+  - url
+  fact_refs:
+  - us.fema-nfip.name
+  - us.fema-nfip.phone
+  - us.fema-nfip.url
+  topics:
+  - flood
+- id: us.ssa
+  name:
+    es: Administración del Seguro Social
+    en: Social Security Administration
+    ht: Administrasyon Sekirite Sosyal
+  level: federal
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  fact_refs:
+  - us.ssa.name
+  - us.ssa.phone
+  - us.ssa.url
+  topics:
+  - desk
+- id: us.uscis
+  name:
+    es: Servicio de Ciudadanía e Inmigración (USCIS)
+    en: U.S. Citizenship and Immigration Services (USCIS)
+    ht: Sèvis Sitwayènte ak Imigrasyon Etazini (USCIS)
+  level: federal
+  immigration: true
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  fact_refs:
+  - us.uscis.name
+  - us.uscis.phone
+  - us.uscis.url
+  topics:
+  - immigration
+- id: us-fl.bar-lawyer-referral
+  name:
+    es: Servicio de referencia de abogados de The Florida Bar
+    en: The Florida Bar lawyer referral service
+    ht: Sèvis referans avoka The Florida Bar
+  level: state
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  fact_refs:
+  - us-fl.bar-lawyer-referral.name
+  - us-fl.bar-lawyer-referral.phone
+  - us-fl.bar-lawyer-referral.url
+  topics:
+  - legal-aid
+- id: us-fl.dbpr-condos
+  name:
+    es: Regulador de condominios de Florida (DBPR)
+    en: Florida condominium regulator (DBPR)
+    ht: Regilatè kondo Florid (DBPR)
+  level: state
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  fact_refs:
+  - us-fl.dbpr-condos.name
+  - us-fl.dbpr-condos.phone
+  - us-fl.dbpr-condos.url
+  topics:
+  - parcel
+- id: us-fl.dcf-access
+  name:
+    es: Oficina de beneficios de Florida (DCF ACCESS)
+    en: Florida benefits office (DCF ACCESS)
+    ht: Biwo benefis Florid (DCF ACCESS)
+  level: state
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  fact_refs:
+  - us-fl.dcf-access.name
+  - us-fl.dcf-access.phone
+  - us-fl.dcf-access.url
+  topics:
+  - desk
+- id: us-fl.kidcare
+  name:
+    es: Seguro médico para niños de Florida (Florida KidCare)
+    en: Florida children's health coverage (Florida KidCare)
+    ht: Asirans sante pou timoun Florid (Florida KidCare)
+  level: state
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  fact_refs:
+  - us-fl.kidcare.name
+  - us-fl.kidcare.phone
+  - us-fl.kidcare.url
+  topics:
+  - desk
+- id: us-fl.dfs-insurance
+  name:
+    es: Ayuda al consumidor de seguros de Florida (DFS)
+    en: Florida insurance consumer help (DFS)
+    ht: Èd konsomatè asirans Florid (DFS)
+  level: state
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  fact_refs:
+  - us-fl.dfs-insurance.name
+  - us-fl.dfs-insurance.phone
+  - us-fl.dfs-insurance.url
+  topics:
+  - desk
+- id: us-fl.flhsmv
+  name:
+    es: Departamento de Seguridad Vial y Vehículos de Florida (FLHSMV)
+    en: Florida Highway Safety and Motor Vehicles (FLHSMV)
+    ht: Depatman Sekirite Wout ak Machin Florid (FLHSMV)
+  level: state
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  fact_refs:
+  - us-fl.flhsmv.name
+  - us-fl.flhsmv.phone
+  - us-fl.flhsmv.url
+  topics:
+  - license
+- id: us-fl.fpl
+  name:
+    es: Servicio al cliente de Florida Power & Light
+    en: Florida Power & Light customer service
+    ht: Sèvis kliyan Florida Power & Light
+  level: private
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  fact_refs:
+  - us-fl.fpl.name
+  - us-fl.fpl.phone
+  - us-fl.fpl.url
+  topics:
+  - desk
+- id: us-fl.sunpass
+  name:
+    es: Servicio al cliente de SunPass
+    en: SunPass customer service
+    ht: Sèvis kliyan SunPass
+  level: state
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  fact_refs:
+  - us-fl.sunpass.name
+  - us-fl.sunpass.phone
+  - us-fl.sunpass.url
+  topics:
+  - tolls
+- id: us-fl-miamidade.311
+  name:
+    es: Línea de Miami-Dade para lo que no es emergencia
+    en: Miami-Dade non-emergency line
+    ht: Liy Miami-Dade pou sa ki pa ijans
+  level: county
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  - languages
+  fact_refs:
+  - us-fl-miamidade.311.name
+  - us-fl-miamidade.311.phone
+  - us-fl-miamidade.311.url
+  - us-fl-miamidade.311.languages
+  topics:
+  - desk
+  - trash
+- id: us-fl-miamidade.careersource
+  name:
+    es: Centro de empleo CareerSource South Florida
+    en: CareerSource South Florida job center
+    ht: Sant travay CareerSource South Florida
+  level: county
+  immigration: false
+  contact_kind: lookup
+  contact_fields:
+  - name
+  - phone
+  - address
+  fact_refs:
+  - us-fl-miamidade.careersource.name
+  - us-fl-miamidade.careersource.phone
+  - us-fl-miamidade.careersource.address
+  topics:
+  - desk
+- id: us-fl-miamidade.consumer-protection
+  name:
+    es: Protección al consumidor de Miami-Dade (grúas)
+    en: Miami-Dade consumer protection (towing)
+    ht: Pwoteksyon konsomatè Miami-Dade (remòkaj)
+  level: county
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  fact_refs:
+  - us-fl-miamidade.consumer-protection.name
+  - us-fl-miamidade.consumer-protection.phone
+  - us-fl-miamidade.consumer-protection.url
+  topics:
+  - desk
+- id: us-fl-miamidade.elections
+  name:
+    es: Departamento de Elecciones de Miami-Dade
+    en: Miami-Dade Elections Department
+    ht: Depatman Eleksyon Miami-Dade
+  level: county
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  - address
+  fact_refs:
+  - us-fl-miamidade.elections.name
+  - us-fl-miamidade.elections.phone
+  - us-fl-miamidade.elections.url
+  - us-fl-miamidade.elections.address
+  topics:
+  - voting
+- id: us-fl-miamidade.gmx
+  name:
+    es: Agencia de Autopistas del Gran Miami (GMX)
+    en: Greater Miami Expressway Agency (GMX)
+    ht: Ajans Otowout Gran Miami (GMX)
+  level: county
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  fact_refs:
+  - us-fl-miamidade.gmx.name
+  - us-fl-miamidade.gmx.phone
+  - us-fl-miamidade.gmx.url
+  topics:
+  - tolls
+- id: us-fl-miamidade.grocery-store
+  name:
+    es: El servicio al cliente del supermercado
+    en: The grocery store's service desk
+    ht: Biwo sèvis kliyan makèt la
+  level: private
+  immigration: false
+  contact_kind: lookup
+  contact_fields:
+  - name
+  - phone
+  - address
+  fact_refs:
+  - us-fl-miamidade.grocery-store.name
+  - us-fl-miamidade.grocery-store.phone
+  - us-fl-miamidade.grocery-store.address
+  topics:
+  - desk
+- id: us-fl-miamidade.homeless-trust
+  name:
+    es: Línea del Homeless Trust de Miami-Dade
+    en: Miami-Dade Homeless Trust helpline
+    ht: Liy Homeless Trust Miami-Dade
+  level: county
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  fact_refs:
+  - us-fl-miamidade.homeless-trust.name
+  - us-fl-miamidade.homeless-trust.phone
+  topics:
+  - desk
+- id: us-fl-miamidade.housing
+  name:
+    es: Oficina de vivienda de Miami-Dade
+    en: Miami-Dade housing office
+    ht: Biwo lojman Miami-Dade
+  level: county
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  fact_refs:
+  - us-fl-miamidade.housing.name
+  - us-fl-miamidade.housing.phone
+  - us-fl-miamidade.housing.url
+  topics:
+  - rent
+- id: us-fl-miamidade.immigration-legal-aid
+  name:
+    es: Asistencia legal de inmigración en Miami-Dade
+    en: Immigration legal aid in Miami-Dade
+    ht: Èd legal imigrasyon nan Miami-Dade
+  level: nonprofit
+  immigration: true
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - address
+  - languages
+  fact_refs:
+  - us-fl-miamidade.immigration-legal-aid.name
+  - us-fl-miamidade.immigration-legal-aid.phone
+  - us-fl-miamidade.immigration-legal-aid.address
+  - us-fl-miamidade.immigration-legal-aid.languages
+  topics:
+  - immigration
+  - legal-aid
+- id: us-fl-miamidade.internet-providers
+  name:
+    es: Compañías de internet de tu cuadra
+    en: Internet providers listed for your block
+    ht: Konpayi entènèt pou blòk ou
+  level: private
+  immigration: false
+  contact_kind: lookup
+  contact_fields:
+  - name
+  - phone
+  fact_refs:
+  - us-fl-miamidade.internet-providers.name
+  - us-fl-miamidade.internet-providers.phone
+  topics:
+  - desk
+- id: us-fl-miamidade.jackson
+  name:
+    es: Asistencia financiera de Jackson Health System
+    en: Jackson Health System financial assistance
+    ht: Asistans finansyè Jackson Health System
+  level: county
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - address
+  fact_refs:
+  - us-fl-miamidade.jackson.name
+  - us-fl-miamidade.jackson.phone
+  - us-fl-miamidade.jackson.address
+  topics:
+  - desk
+- id: us-fl-miamidade.legal-aid
+  name:
+    es: Asistencia legal en Miami-Dade
+    en: Legal aid in Miami-Dade
+    ht: Èd legal nan Miami-Dade
+  level: nonprofit
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - address
+  fact_refs:
+  - us-fl-miamidade.legal-aid.name
+  - us-fl-miamidade.legal-aid.phone
+  - us-fl-miamidade.legal-aid.address
+  topics:
+  - legal-aid
+- id: us-fl-miamidade.libraries
+  name:
+    es: Biblioteca pública de Miami-Dade más cercana
+    en: Nearest Miami-Dade public library
+    ht: Bibliyotèk piblik Miami-Dade ki pi pre a
+  level: county
+  immigration: false
+  contact_kind: lookup
+  contact_fields:
+  - name
+  - address
+  fact_refs:
+  - us-fl-miamidade.libraries.name
+  - us-fl-miamidade.libraries.address
+  topics:
+  - libraries
+- id: us-fl-miamidade.community-services
+  name:
+    es: Departamento de Servicios Comunitarios de Miami-Dade
+    en: Miami-Dade Community Services Department
+    ht: Depatman Sèvis Kominotè Miami-Dade
+  level: county
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  - address
+  fact_refs:
+  - us-fl-miamidade.community-services.name
+  - us-fl-miamidade.community-services.phone
+  - us-fl-miamidade.community-services.url
+  - us-fl-miamidade.community-services.address
+  topics:
+  - power
+  - desk
+- id: us-fl-miamidade.m-dcps
+  name:
+    es: Escuelas Públicas del Condado Miami-Dade
+    en: Miami-Dade County Public Schools
+    ht: Lekòl Piblik Konte Miami-Dade
+  level: school
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  - address
+  fact_refs:
+  - us-fl-miamidade.m-dcps.name
+  - us-fl-miamidade.m-dcps.phone
+  - us-fl-miamidade.m-dcps.url
+  - us-fl-miamidade.m-dcps.address
+  topics:
+  - schools
+- id: us-fl-miamidade.mia-information
+  name:
+    es: Información del Aeropuerto Internacional de Miami
+    en: Miami International Airport information
+    ht: Enfòmasyon Ayewopò Entènasyonal Miami
+  level: county
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - address
+  fact_refs:
+  - us-fl-miamidade.mia-information.name
+  - us-fl-miamidade.mia-information.address
+  topics:
+  - transit
+- id: us-fl-miamidade.mia-rental-car-center
+  name:
+    es: Centro de Alquiler de Autos de MIA
+    en: MIA Rental Car Center
+    ht: Sant Lokasyon Machin MIA
+  level: county
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - address
+  fact_refs:
+  - us-fl-miamidade.mia-rental-car-center.name
+  - us-fl-miamidade.mia-rental-car-center.phone
+  - us-fl-miamidade.mia-rental-car-center.address
+  topics:
+  - tolls
+- id: us-fl-miamidade.property-appraiser
+  name:
+    es: Tasador de Propiedades de Miami-Dade
+    en: Miami-Dade Property Appraiser
+    ht: Evalyatè Pwopriyete Miami-Dade
+  level: county
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  - address
+  fact_refs:
+  - us-fl-miamidade.property-appraiser.name
+  - us-fl-miamidade.property-appraiser.phone
+  - us-fl-miamidade.property-appraiser.url
+  - us-fl-miamidade.property-appraiser.address
+  topics:
+  - parcel
+- id: us-fl-miamidade.school-bus-camera
+  name:
+    es: Oficina de multas de cámaras de buses escolares
+    en: School-bus camera citation office
+    ht: Biwo tikè kamera bis lekòl
+  level: county
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  fact_refs:
+  - us-fl-miamidade.school-bus-camera.name
+  - us-fl-miamidade.school-bus-camera.phone
+  - us-fl-miamidade.school-bus-camera.url
+  topics:
+  - schools
+- id: us-fl-miamidade.tax-collector
+  name:
+    es: Tax Collector de Miami-Dade (licencia y placa)
+    en: Miami-Dade Tax Collector (license and tag)
+    ht: Tax Collector Miami-Dade (lisans ak plak)
+  level: county
+  immigration: false
+  contact_kind: lookup
+  contact_fields:
+  - name
+  - phone
+  - url
+  - address
+  fact_refs:
+  - us-fl-miamidade.tax-collector.name
+  - us-fl-miamidade.tax-collector.phone
+  - us-fl-miamidade.tax-collector.url
+  - us-fl-miamidade.tax-collector.address
+  topics:
+  - license
+- id: us-fl-miamidade.transit
+  name:
+    es: Servicio al cliente de Miami-Dade Transit
+    en: Miami-Dade Transit customer service
+    ht: Sèvis kliyan Miami-Dade Transit
+  level: county
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  fact_refs:
+  - us-fl-miamidade.transit.name
+  - us-fl-miamidade.transit.phone
+  - us-fl-miamidade.transit.url
+  topics:
+  - transit
+- id: us-fl.sfrta
+  name:
+    es: Autoridad Regional de Transporte del Sur de Florida (Tri-Rail)
+    en: South Florida Regional Transportation Authority (Tri-Rail)
+    ht: Otorite Rejyonal Transpò Sid Florid (Tri-Rail)
+  level: state
+  immigration: false
+  contact_kind: static
+  contact_fields:
+  - name
+  - phone
+  - url
+  fact_refs:
+  - us-fl.sfrta.name
+  - us-fl.sfrta.phone
+  - us-fl.sfrta.url
+  topics:
+  - transit
+- id: us-fl-miamidade.water-sewer
+  name:
+    es: Tu compañía de agua y alcantarillado
+    en: Your water and sewer utility
+    ht: Sèvis dlo ak egou ou
+  level: any
+  immigration: false
+  contact_kind: lookup
+  contact_fields:
+  - name
+  - phone
+  - address
+  fact_refs:
+  - us-fl-miamidade.water-sewer.name
+  - us-fl-miamidade.water-sewer.phone
+  - us-fl-miamidade.water-sewer.address
+  topics:
+  - water

@@ -1,0 +1,7 @@
+{
+  "note": "AppAction undo. Example ids only; no real people or facts.",
+  "type": "app_action",
+  "value": {
+    "type": "undo"
+  }
+}

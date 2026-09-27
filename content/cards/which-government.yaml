@@ -1,0 +1,120 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: which-government
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > The week and the map
+  item: Which government, city or unincorporated
+- plan: mymiami-plan.md
+  section: Every feature > The week, and where you are
+  item: Which government
+title:
+  es: Qué gobierno te toca
+  en: Which government you live under
+  ht: Ki gouvènman ki responsab ou
+summary:
+  es: Una ciudad, o ninguna ciudad. Eso decide quién recoge tu basura y quién pone la multa.
+  en: A city, or no city at all. That decides who hauls your trash and who writes the ticket.
+  ht: Yon vil, oswa okenn vil. Se sa ki deside kiyès ki ranmase fatra ou ak kiyès ki ba w tikè.
+body:
+  es: |-
+    Tu dirección está en: {fact:us-fl-miamidade.gov.municipality}.
+
+    Fuera de toda ciudad quiere decir Miami-Dade no incorporado: el condado es tu gobierno local.
+
+    El condado recoge la basura en las zonas no incorporadas y en algunas ciudades. Otras ciudades recogen la suya.
+
+    En la Ciudad de Miami: la ciudad recoge su propia basura, así que el mapa de basura del condado ahí sale vacío.
+
+    Policía para tu dirección: {fact:us-fl-miamidade.safety.police-agency}.
+
+    Mueve la dirección y esta tarjeta cambia. Las reglas del país no.
+  en: |-
+    Your pin is in: {fact:us-fl-miamidade.gov.municipality}.
+
+    Outside every city means unincorporated Miami-Dade: the county is your local government.
+
+    The county hauls trash for unincorporated areas and some cities. Other cities haul their own.
+
+    In the City of Miami: the city hauls its own trash, so the county's trash map is empty there.
+
+    Police for your pin: {fact:us-fl-miamidade.safety.police-agency}.
+
+    Move the pin and this card changes. The country's rules do not.
+  ht: |-
+    Adrès ou nan: {fact:us-fl-miamidade.gov.municipality}.
+
+    Andeyò tout vil vle di zòn Miami-Dade ki pa enkòpore: konte a se gouvènman lokal ou.
+
+    Konte a ranmase fatra nan zòn ki pa enkòpore yo ak nan kèk vil. Lòt vil ranmase pa yo.
+
+    Nan Vil Miami: vil la ranmase pwòp fatra li, kidonk kat fatra konte a vid la.
+
+    Lapolis pou adrès ou: {fact:us-fl-miamidade.safety.police-agency}.
+
+    Chanje adrès la epi kat sa a chanje. Règ peyi a pa chanje.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.gov.municipality
+- - us-fl-miamidade.gov.unincorporated
+- - us-fl-miamidade.trash.service-area
+- - us-fl-miami.trash.city-hauls
+- - us-fl-miamidade.safety.police-agency
+- []
+paragraph_when:
+- municipality: unincorporated
+- municipality: unincorporated
+- municipality: unincorporated
+- municipality: us-fl-miami
+- null
+- null
+desk: us-fl-miamidade.311
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.311
+utterances:
+  es:
+  - en qué ciudad estoy
+  - estoy en la Ciudad de Miami
+  - cuál es mi gobierno local
+  - esto es zona no incorporada
+  - which city estoy
+  en:
+  - what city am I in
+  - am I in the city of Miami
+  - who is my local government
+  - is this unincorporated
+  - en qué city estoy
+  ht:
+  - nan ki vil mwen ye
+  - èske m nan Vil Miami
+  - kiyès ki gouvènman lokal mwen
+  - èske zòn sa a pa enkòpore
+  - ki city mwen ye
+privacy_scope: household
+stages:
+- 5
+- 10
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- household-map
+- trash-and-recycling
+fact_refs:
+- us-fl-miamidade.gov.municipality
+- us-fl-miamidade.gov.unincorporated
+- us-fl-miamidade.trash.service-area
+- us-fl-miami.trash.city-hauls
+- us-fl-miamidade.safety.police-agency
+topics:
+- municipality
+- trash

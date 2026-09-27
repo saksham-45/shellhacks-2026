@@ -1,0 +1,13 @@
+{
+  "note": "Destination.cards. Example ids only.",
+  "type": "destination",
+  "value": {
+    "filter": {
+      "desk": null,
+      "mode": null,
+      "stage": 8,
+      "subject": "person"
+    },
+    "type": "cards"
+  }
+}

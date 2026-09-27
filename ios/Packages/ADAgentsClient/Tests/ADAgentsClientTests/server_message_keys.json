@@ -1,0 +1,19 @@
+[
+  "ask.reason.desk_only.appointment_slot",
+  "ask.reason.desk_only.clinic_price",
+  "ask.reason.desk_only.job",
+  "ask.reason.desk_only.school_bus_eligibility",
+  "ask.reason.desk_only.visa_outcome",
+  "handoff.reason.adapter_error",
+  "handoff.reason.membership_unknown",
+  "handoff.reason.no_lookup_evidence",
+  "handoff.reason.no_source",
+  "handoff.reason.not_applicable",
+  "handoff.reason.not_displayable",
+  "handoff.reason.type_mismatch",
+  "handoff.reason.unavailable",
+  "handoff.reason.unknown_fact",
+  "handoff.reason.value_mismatch",
+  "handoff.reason.wrong_demo_pin",
+  "handoff.reason.wrong_jurisdiction"
+]

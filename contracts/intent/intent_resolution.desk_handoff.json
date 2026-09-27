@@ -1,0 +1,18 @@
+{
+  "note": "IntentResolution: desk handoff.",
+  "type": "intent_resolution",
+  "value": {
+    "action": null,
+    "clarification": null,
+    "confidence": 0.2,
+    "grounding": {
+      "desk_id": "us-fl-miamidade.311",
+      "reason": {
+        "key": "router.no_answer",
+        "table": "ADRouter"
+      },
+      "type": "desk"
+    },
+    "reply_language": "ht"
+  }
+}

@@ -1,0 +1,131 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: lease-basics
+kind: country
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Put the shoes on > The first year, the path to standing alone
+  item: 15. A lease they understand
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The country, same everywhere
+  item: 'Lease patterns: application fee, wire-before-visit, three times the rent'
+- plan: myamericandream-plan.md
+  section: Stages
+  item: 5. Roof
+title:
+  es: Un contrato de alquiler que puedas explicar
+  en: A lease you can explain back
+  ht: Yon kontra lwaye ou ka esplike
+summary:
+  es: Quién paga el agua. Qué significa la regla de ingresos del dueño. Por qué una transferencia antes de ver el lugar es una estafa.
+  en: Who pays water. What the landlord's income rule means. Why a wire before the visit is a scam.
+  ht: Kiyès ki peye dlo. Kisa règ revni mèt kay la vle di. Poukisa voye lajan anvan ou vizite se eskwokri.
+body:
+  es: |-
+    Muchos dueños quieren que tu ingreso mensual sea por lo menos {fact:us.lease.income-multiple} la renta.
+
+    El contrato dice quién paga el agua, la luz y la basura. Si no lo dice, pregunta por escrito antes de firmar.
+
+    La ley de Florida dice cómo se deben entregar los avisos para terminar el alquiler, y el contrato no puede renunciar a esas reglas.
+
+    La cuota de solicitud paga la revisión que el dueño hace de ti. Pregunta si te la devuelven si te dicen que no.
+
+    Una transferencia, una tarjeta de regalo o criptomonedas antes de ver el lugar por dentro es la estafa clásica de alquiler.
+
+    Mantén por escrito tu dirección de reenvío. Si no hay reclamo, el dueño devuelve el depósito dentro de {fact:us-fl.landlord.deposit.return-days-no-claim} días; si hay reclamo, el dueño envía un aviso escrito dentro de {fact:us-fl.landlord.deposit.claim-notice-days} días, y tienes {fact:us-fl.landlord.deposit.tenant-objection-days} días para objetar por escrito.
+
+    ¿Una cláusula rara? La asistencia legal gratuita la puede leer contigo.
+  en: |-
+    Many landlords want your monthly income to be at least {fact:us.lease.income-multiple} the rent.
+
+    The lease says who pays water, power, and trash. If it does not say, ask in writing before you sign.
+
+    Florida law sets how lease-ending notices must be delivered, and the lease cannot waive those rules.
+
+    An application fee pays for the landlord's check on you. Ask whether you get it back if they say no.
+
+    A wire, a gift card, or crypto before you see the inside is the classic rental scam.
+
+    Keep your forwarding address in writing. If there is no claim, the landlord returns the deposit within {fact:us-fl.landlord.deposit.return-days-no-claim} days; if there is a claim, the landlord sends written notice within {fact:us-fl.landlord.deposit.claim-notice-days} days, and you have {fact:us-fl.landlord.deposit.tenant-objection-days} days to object in writing.
+
+    A strange clause? Free legal aid can read it with you.
+  ht: |-
+    Anpil mèt kay vle revni ou chak mwa rive omwen {fact:us.lease.income-multiple} lwaye a.
+
+    Kontra a di kiyès ki peye dlo, kouran, ak fatra. Si li pa di l, mande alekri anvan ou siyen.
+
+    Lalwa Florid di kijan pou yo remèt avi pou fini kontra lwaye a, epi kontra a pa ka anile règ sa yo.
+
+    Frè aplikasyon an peye pou mèt kay la fè ankèt sou ou. Mande si y ap remèt ou l si yo di non.
+
+    Voye lajan, yon kat kado, oswa kripto anvan ou wè anndan kay la, se eskwokri lwaye ki pi konnen an.
+
+    Kenbe adrès pou yo voye korespondans ba ou alekri. Si pa gen reklamasyon, mèt kay la remèt depo a nan {fact:us-fl.landlord.deposit.return-days-no-claim} jou; si gen reklamasyon, li voye avi alekri nan {fact:us-fl.landlord.deposit.claim-notice-days} jou, epi ou gen {fact:us-fl.landlord.deposit.tenant-objection-days} jou pou w fè objeksyon alekri.
+
+    Yon kloz ki dwòl? Èd legal gratis ka li l avè w.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us.lease.income-multiple
+- []
+- - us-fl.eviction.notice-delivery-not-waivable
+- []
+- - us.ftc.rental-scam-signs
+  - us.ftc.rental-scam-signs.es
+- - us-fl.landlord.deposit.return-days-no-claim
+  - us-fl.landlord.deposit.claim-notice-days
+  - us-fl.landlord.deposit.tenant-objection-days
+- []
+desk: us-fl-miamidade.legal-aid
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.legal-aid
+utterances:
+  es:
+  - ayúdame a entender mi contrato
+  - qué significa la regla de ingresos
+  - quién paga el agua
+  - me devuelven el application fee
+  - the landlord quiere una transferencia
+  en:
+  - help me understand my lease
+  - what does the income rule mean
+  - who pays the water
+  - is the application fee refundable
+  - el landlord wants a wire
+  ht:
+  - ede m konprann kontra lwaye m
+  - kisa règ revni a vle di
+  - kiyès ki peye dlo a
+  - èske y ap remèt mwen application fee a
+  - landlord la vle m voye yon wire
+privacy_scope: household
+stages:
+- 5
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+origin_lenses:
+- internationalStudent
+- questionnaire
+related_cards:
+- listing-check
+- eviction-clock
+- rent-line
+fact_refs:
+- us.lease.income-multiple
+- us-fl.eviction.notice-delivery-not-waivable
+- us.ftc.rental-scam-signs
+- us.ftc.rental-scam-signs.es
+- us-fl.landlord.deposit.return-days-no-claim
+- us-fl.landlord.deposit.claim-notice-days
+- us-fl.landlord.deposit.tenant-objection-days
+topics:
+- rent
+- legal-aid

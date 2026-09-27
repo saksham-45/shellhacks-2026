@@ -1,0 +1,69 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: stage-03-id
+kind: stage
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Stages
+  item: 3. ID
+title:
+  es: Identificación
+  en: ID
+  ht: Pyès idantite
+summary:
+  es: El estado sabe mi nombre, o sé exactamente qué papel me falta.
+  en: The state knows my name, or I know exactly which paper is missing.
+  ht: Leta konnen non mwen, oswa mwen konnen egzakteman ki papye ki manke.
+body:
+  es: |-
+    Lo principal es la lista para la licencia o la identificación.
+
+    Lo principal es la primera tarjeta de esa lista que aún no terminas. Cada familiar puede estar en una etapa distinta en la misma casa.
+  en: |-
+    The hero is the license or ID checklist.
+
+    The hero is the first card on that list you have not finished. Family members can be on different stages in the same house.
+  ht: |-
+    Premye bagay la se lis pou lisans oswa ID a.
+
+    Premye bagay la se premye kat nan lis sa a ou poko fini. Chak moun nan fanmi an ka nan yon etap diferan nan menm kay la.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- []
+desk: us-fl.flhsmv
+utterances:
+  es:
+  - qué me falta para la identificación
+  - etapa de identificación
+  - qué papel me falta
+  - próximo paso para mi ID
+  en:
+  - what is missing for my ID
+  - ID stage
+  - which paper am I missing
+  - next step for my ID
+  ht:
+  - kisa ki manke pou ID mwen
+  - etap pyès idantite
+  - ki papye ki manke m
+  - pwochen etap pou ID mwen
+privacy_scope: person
+stages:
+- 3
+modes:
+- resident
+region_pack: us-fl
+is_immigration: false
+hero_cards:
+- fl-id-license-checklist
+- license-and-tag
+fact_refs: []
+topics:
+- license

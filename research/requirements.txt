@@ -1,0 +1,7 @@
+# research/ (freshness + onboarding + ledger tools). Python 3.12.
+httpx==0.28.1
+PyYAML==6.0.2
+jsonschema==4.23.0
+beautifulsoup4==4.12.3
+pytest==8.3.4
+# PDF text: poppler-utils `pdftotext` CLI (apt install poppler-utils). pdfminer.six is an optional fallback.

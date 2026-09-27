@@ -1,0 +1,40 @@
+{
+  "request_id": "0example0request0id0000000000003",
+  "language": "ht",
+  "facts": {
+    "us.example-id-desk.url": {
+      "type": "fact",
+      "fact": {
+        "fact_id": "us.example-id-desk.url",
+        "pack_id": "us",
+        "value": {"type": "code", "code": "example.invalid/id"},
+        "status": "verified",
+        "is_demo": false,
+        "source_id": "us.example-source",
+        "source_name": "Example Agency (fictional)",
+        "url": "https://example.invalid/id",
+        "quote": "EXAMPLE ONLY - not a real quote.",
+        "retrieved_at": "2026-09-25T12:00:00-04:00",
+        "jurisdiction": "us",
+        "basis": null
+      }
+    }
+  },
+  "handoffs": [],
+  "has_demo": false,
+  "dropped_claims": 0,
+  "person_id": "person-example-1",
+  "steps": [
+    {
+      "card_id": "example-get-id",
+      "claims": [
+        {
+          "copy_key": {"key": "card.example-get-id.summary", "table": "Cards"},
+          "fact_refs": [{"pack_id": "us", "fact_id": "us.example-id-desk.url"}],
+          "desk_id": "us.example-id-desk"
+        }
+      ]
+    }
+  ],
+  "origin_comparison": []
+}

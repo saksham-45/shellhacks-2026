@@ -1,0 +1,20 @@
+{
+  "note": "AppAction answer_onboarding_people. Example ids only; no real people or facts.",
+  "type": "app_action",
+  "value": {
+    "answer": {
+      "people": [
+        {
+          "age": 20,
+          "display_name": "Example Student"
+        },
+        {
+          "age": null,
+          "display_name": "Example Parent"
+        }
+      ],
+      "type": "people"
+    },
+    "type": "answer_onboarding"
+  }
+}

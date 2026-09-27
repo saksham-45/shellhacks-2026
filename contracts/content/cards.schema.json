@@ -1,0 +1,224 @@
+{
+  "$defs": {
+    "action": {
+      "oneOf": [
+        {
+          "enum": [
+            "call_desk",
+            "open_map",
+            "read_aloud",
+            "navigate",
+            "next_step",
+            "previous_step"
+          ]
+        },
+        {
+          "properties": {
+            "type": {
+              "enum": [
+                "call_desk",
+                "open_map",
+                "read_aloud",
+                "navigate",
+                "next_step",
+                "previous_step"
+              ]
+            }
+          },
+          "required": [
+            "type"
+          ],
+          "type": "object"
+        }
+      ]
+    },
+    "card": {
+      "additionalProperties": false,
+      "properties": {
+        "actions": {
+          "items": {
+            "$ref": "#/$defs/action"
+          },
+          "type": "array"
+        },
+        "desk": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "fact_refs": {
+          "items": {
+            "pattern": "^[a-z0-9-]+(\\.[a-z0-9-]+)+$",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "id": {
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "type": "string"
+        },
+        "immigration": {
+          "type": "boolean"
+        },
+        "modes": {
+          "items": {
+            "enum": [
+              "resident",
+              "tourist"
+            ]
+          },
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "needs_review": {
+          "$ref": "#/$defs/lang3_flags"
+        },
+        "region_pack": {
+          "enum": [
+            "us",
+            "us-fl",
+            "us-fl-miamidade",
+            "us-fl-miami"
+          ]
+        },
+        "scope": {
+          "enum": [
+            "household",
+            "person",
+            "person-papers"
+          ]
+        },
+        "stages": {
+          "items": {
+            "maximum": 10,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        "title": {
+          "$ref": "#/$defs/lang3_text"
+        },
+        "topics": {
+          "items": {
+            "pattern": "^[a-z0-9]+([_-][a-z0-9]+)*$",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "utterances": {
+          "$ref": "#/$defs/lang3_phrases"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "desk",
+        "scope",
+        "stages",
+        "modes",
+        "region_pack",
+        "fact_refs",
+        "topics",
+        "utterances",
+        "actions",
+        "needs_review",
+        "immigration"
+      ],
+      "type": "object"
+    },
+    "lang3_flags": {
+      "additionalProperties": false,
+      "properties": {
+        "en": {
+          "type": "boolean"
+        },
+        "es": {
+          "type": "boolean"
+        },
+        "ht": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "es",
+        "en",
+        "ht"
+      ],
+      "type": "object"
+    },
+    "lang3_phrases": {
+      "additionalProperties": false,
+      "properties": {
+        "en": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "es": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "ht": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "es",
+        "en",
+        "ht"
+      ],
+      "type": "object"
+    },
+    "lang3_text": {
+      "additionalProperties": false,
+      "properties": {
+        "en": {
+          "type": "string"
+        },
+        "es": {
+          "type": "string"
+        },
+        "ht": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "es",
+        "en",
+        "ht"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "https://myamericandream.invalid/contracts/content/cards.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "cards": {
+      "items": {
+        "$ref": "#/$defs/card"
+      },
+      "type": "array"
+    },
+    "version": {
+      "const": 1
+    }
+  },
+  "required": [
+    "version",
+    "cards"
+  ],
+  "title": "myAD compiled card bundle",
+  "type": "object"
+}

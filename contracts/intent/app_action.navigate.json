@@ -1,0 +1,12 @@
+{
+  "note": "AppAction navigate. Example ids only; no real people or facts.",
+  "type": "app_action",
+  "value": {
+    "destination": {
+      "card_id": "license-checklist",
+      "person_id": "00000000-0000-4000-8000-000000000001",
+      "type": "card"
+    },
+    "type": "navigate"
+  }
+}

@@ -1,0 +1,98 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: back-to-mia
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Stages
+  item: 'Tourist mode: how to get back to MIA'
+title:
+  es: Volver a MIA
+  en: Getting back to MIA
+  ht: Retounen nan ayewopò MIA
+summary:
+  es: Taxi oficial, app de viaje o el tren. Deja tiempo para el tráfico y la seguridad.
+  en: Official taxi, rideshare, or the train. Leave time for traffic and security.
+  ht: Taksi ofisyèl, aplikasyon woulib, oswa tren an. Kite tan pou trafik ak sekirite.
+body:
+  es: |-
+    Metrorail tiene parada en la estación del Aeropuerto Internacional de Miami.
+
+    Los taxis y las apps dejan en salidas.
+
+    Mira en la app de tu aerolínea con cuánta anticipación llegar.
+
+    ¿Carro de alquiler? Devuélvelo primero. Los cargos de peaje pueden llegar después.
+  en: |-
+    Metrorail stops at the Miami International Airport station.
+
+    Taxis and rideshare drop off at departures.
+
+    Check your airline's app for how early to be there.
+
+    Rental car? Return it first. The toll charges can come later.
+  ht: |-
+    Metrorail kanpe nan estasyon Ayewopò Entènasyonal Miami an.
+
+    Taksi ak aplikasyon woulib yo depoze moun nan depa.
+
+    Gade nan aplikasyon konpayi avyon ou konbyen tan davans pou w la.
+
+    Machin lwaye? Remèt li an premye. Frè peyaj yo ka vini apre.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.transit.metrorail-airport
+- - us-fl-miamidade.mia.ground-transport
+- []
+- []
+desk: us-fl-miamidade.mia-information
+actions:
+- type: open_map
+  target:
+    type: desk
+    desk_id: us-fl-miamidade.mia-information
+utterances:
+  es:
+  - cómo vuelvo al aeropuerto
+  - tren a MIA
+  - llévame a MIA
+  - con cuánto tiempo salgo para mi vuelo
+  - how do I get al aeropuerto
+  en:
+  - how do I get back to the airport
+  - train to MIA
+  - take me to MIA
+  - how early should I leave for my flight
+  - cómo llego al airport
+  ht:
+  - kijan pou m retounen ayewopò a
+  - tren pou MIA
+  - mennen m MIA
+  - a ki lè pou m pati pou vòl mwen
+  - kijan pou m rive airport la
+privacy_scope: person
+stages:
+- 1
+- 10
+modes:
+- resident
+- tourist
+region_pack: us-fl-miamidade
+is_immigration: false
+origin_lenses:
+- tourist
+related_cards:
+- airport-exit
+- rental-car-tolls
+fact_refs:
+- us-fl-miamidade.transit.metrorail-airport
+- us-fl-miamidade.mia.ground-transport
+topics:
+- transit
+- visitors

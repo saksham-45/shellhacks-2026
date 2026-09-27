@@ -1,0 +1,108 @@
+[
+ {
+  "id": "us-fl-miamidade.sheriff.online-report-area",
+  "claim": "The Sheriff's online non-emergency report covers incidents in unincorporated Miami-Dade and in Cutler Bay, Palmetto Bay and Miami Lakes.",
+  "value": "Unincorporated Miami-Dade County, Town of Cutler Bay, Village of Palmetto Bay, Town of Miami Lakes",
+  "unit": null,
+  "value_type": "text",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdso-online-report",
+  "url": "https://www.miamidade.gov/apps/mdso/non-emergencypolicereport/",
+  "quote": "verify that the incident occurred within the unincorporated area of Miami-Dade County or within the Town of Cutler Bay, Village of Palmetto Bay, or Town of Miami Lakes.",
+  "retrieved_at": "2026-09-25T20:30:00-04:00",
+  "check_every": "P30D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "police",
+   "municipality"
+  ],
+  "value_language": "en",
+  "desk": "us-fl-miamidade.sheriff",
+  "notes": "Text read from the live county app bundle (main JS) on miamidade.gov, 2026-09-25; the page is an Angular app. Same bundle lists the rules: no known suspects, no weapons, no injuries; not on M-DCPS property; not on a state or federal numbered highway; filer 18 or older with an email; \"All cases filed within this system will be reviewed, but for a number of reasons most will not be investigated.\" It still says to call 305-476-5423 if any rule fails, while the verified sheriff phone row is 305-743-7433 (305-SHERIFF)."
+ },
+ {
+  "id": "us-fl-miamidade.sheriff.online-report-url",
+  "claim": "Where to file a non-emergency police report online with the Miami-Dade Sheriff's Office.",
+  "value": "https://www.miamidade.gov/apps/mdso/non-emergencypolicereport/",
+  "unit": null,
+  "value_type": "code",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdso-online-report",
+  "url": "https://www.miamidade.gov/apps/mdso/non-emergencypolicereport/",
+  "quote": "All cases filed within this system will be reviewed, but for a number of reasons most will not be investigated.",
+  "retrieved_at": "2026-09-25T20:30:00-04:00",
+  "check_every": "P30D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "police"
+  ],
+  "desk": "us-fl-miamidade.sheriff",
+  "notes": "Eligible types listed in the app: lost property, civil landlord/tenant disputes, verbal threats, thefts, burglaries (vehicle, unlocked garage and similar), criminal mischief or vandalism, harassing phone calls."
+ },
+ {
+  "id": "us-fl-miamidade.sheriff.service-area",
+  "claim": "The Miami-Dade Sheriff's Office is the police for unincorporated Miami-Dade (UMSA) and for the municipalities that contract with it.",
+  "value": "Miami-Dade Sheriff's Office",
+  "unit": null,
+  "value_type": "code",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.budget-fy2526-mdso",
+  "url": "https://www.miamidade.gov/resources/budget/adopted/fy2025-26/sheriffs-office.pdf",
+  "quote": "MDSO serves the community with three distinct, yet interrelated, functions: providing basic police services to the Unincorporated Municipal Service Area (UMSA) of Miami-Dade County and contracted municipalities",
+  "retrieved_at": "2026-09-25T20:30:00-04:00",
+  "check_every": "P365D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "police",
+   "municipality"
+  ],
+  "desk": "us-fl-miamidade.sheriff",
+  "notes": "The contracted municipalities are named in the county memo of 2025-01-07 (source us-fl-miamidade.mdso-interlocal-memo-2025), item 14: \"Interlocal Agreement between Miami-Dade County & Town of Miami Lakes for Local Police Services\", \"...Village of Palmetto Bay for Local Police Services\", \"...Town of Cutler Bay for Local Police Services\". The FY2024-25 budget also lists local patrol contracts for these three towns."
+ },
+ {
+  "id": "us-fl-miamidade.sheriff.contract-towns",
+  "claim": "Towns that contract with the Miami-Dade Sheriff's Office for local police services.",
+  "value": "Town of Miami Lakes, Village of Palmetto Bay, Town of Cutler Bay",
+  "unit": null,
+  "value_type": "text",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdso-interlocal-memo-2025",
+  "url": "https://www.miamidade.gov/resources/management/documents/memos/2025-01-07-MDSO-interlocal-agreement.pdf",
+  "quote": "Interlocal Agreement between Miami-Dade County and Town of Cutler Bay for Local Police Services",
+  "retrieved_at": "2026-09-25T20:30:00-04:00",
+  "check_every": "P365D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "police",
+   "municipality"
+  ],
+  "value_language": "en",
+  "desk": "us-fl-miamidade.sheriff",
+  "notes": "Same item 14 names \"Interlocal Agreement between Miami-Dade County & Town of Miami Lakes for Local Police Services\" and \"Interlocal Agreement between Miami-Dade County and Village of Palmetto Bay for Local Police Services\". Matches the online-report area list."
+ },
+ {
+  "id": "us-fl-miami.police.service-area",
+  "claim": "Inside the City of Miami, the City of Miami Police Department is the police agency.",
+  "value": "City of Miami Police Department",
+  "unit": null,
+  "value_type": "code",
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.miami-gov-police",
+  "url": "https://www.miami.gov/My-Government/Departments/Police-Department",
+  "quote": "The over 1,100 sworn members of our police force are relentlessly committed to ensuring that the citizens of Miami are not deprived of their fundamental right to feel safe in their neighborhoods.",
+  "retrieved_at": "2026-09-25T20:30:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "police",
+   "municipality"
+  ],
+  "desk": "us-fl-miami.police",
+  "notes": "Same page: \"Miami Police Non-Emergency: (305) 579-6111\" and location \"400 NW 2nd Avenue Miami\"."
+ }
+]

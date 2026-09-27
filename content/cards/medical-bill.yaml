@@ -1,0 +1,124 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: medical-bill
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > The hard papers
+  item: 'A medical bill: what to ask, no invented coverage'
+- plan: mymiami-plan.md
+  section: Every feature > Housing traps and the bad week
+  item: Medical bill
+title:
+  es: Una factura médica
+  en: A medical bill
+  ht: Yon bòdwo medikal
+summary:
+  es: A qué oficina llamar y qué preguntar antes y después de la visita. No adivinamos tu cobertura.
+  en: Which desk to call and what to ask before and after the visit. We do not guess your coverage.
+  ht: Ki biwo pou rele ak kisa pou mande anvan ak apre vizit la. Nou pa devine kouvèti ou.
+body:
+  es: |-
+    Antes de una visita planeada, pregunta: ¿cuánto voy a pagar y hay precio en efectivo?
+
+    En Florida, puedes pedirle al hospital una factura detallada.
+
+    Los proveedores de salud que reciben dinero federal deben tomar medidas razonables para darte acceso real en tu idioma.
+
+    La ayuda financiera de Jackson puede cubrir hogares hasta {fact:us-fl-miamidade.jackson.financial-assistance.sliding-scale-max-fpl} de las pautas federales de pobreza; pregunta antes de pagar la cuenta.
+
+    La renovación de Jackson Prime es solo en línea: {fact:us-fl-miamidade.jackson.prime-renewal-online-only}; pregunta en la oficina de Jackson si necesitas ayuda.
+
+    Pregunta en facturación: ¿hay plan de pagos, y pueden detener la cuenta mientras pido ayuda?
+
+    No sabemos tu cobertura. La sabe tu aseguradora o la oficina de facturación.
+  en: |-
+    Before a planned visit, ask: what will I pay, and is there a cash price?
+
+    In Florida, you can ask the hospital for an itemized bill.
+
+    Health providers that take federal money must take reasonable steps to give you meaningful access in your language.
+
+    Jackson's financial help can cover households up to {fact:us-fl-miamidade.jackson.financial-assistance.sliding-scale-max-fpl} of the federal poverty guidelines; ask before you pay the bill.
+
+    Jackson Prime renewal is online only: {fact:us-fl-miamidade.jackson.prime-renewal-online-only}; ask the Jackson desk if you need help.
+
+    Ask the billing office: is there a payment plan, and can you hold the bill while I apply for help?
+
+    We do not know your coverage. Your insurer or the billing office does.
+  ht: |-
+    Anvan yon vizit ki planifye, mande: konbyen m ap peye, epi èske gen yon pri kach?
+
+    Nan Florid, ou ka mande lopital la yon bòdwo detaye.
+
+    Founisè swen sante ki resevwa lajan federal dwe pran mezi rezonab pou ba ou aksè toutbon nan lang ou.
+
+    Èd finansyè Jackson ka kouvri kay ki rive jiska {fact:us-fl-miamidade.jackson.financial-assistance.sliding-scale-max-fpl} nan direktiv federal sou povrete; mande anvan ou peye bòdwo a.
+
+    Renouvèlman Jackson Prime fèt sou entènèt sèlman: {fact:us-fl-miamidade.jackson.prime-renewal-online-only}; mande biwo Jackson nan si ou bezwen èd.
+
+    Mande biwo fakti a: èske gen yon plan peman, epi èske yo ka kenbe bòdwo a pandan m ap mande èd?
+
+    Nou pa konnen kouvèti ou. Se asirans ou oswa biwo fakti a ki konnen.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- - us-fl.hospital.itemized-bill
+- - us.hhs.45-cfr-92.201.requirement
+- - us-fl-miamidade.jackson.financial-assistance.sliding-scale-max-fpl
+- - us-fl-miamidade.jackson.prime-renewal-online-only
+- []
+- []
+desk: us-fl-miamidade.legal-aid
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.legal-aid
+- type: call_desk
+  desk_id: us-fl-miamidade.jackson
+- type: open_map
+  target:
+    type: desk
+    desk_id: us-fl-miamidade.jackson
+utterances:
+  es:
+  - me llegó una cuenta del hospital
+  - no puedo pagar la cuenta médica
+  - cómo pido una factura detallada
+  - ayuda financiera en Jackson
+  - I got una factura del hospital
+  en:
+  - I got a hospital bill
+  - I cannot pay my medical bill
+  - how do I get an itemized bill
+  - financial help at Jackson
+  - me llegó un bill del hospital
+  ht:
+  - mwen resevwa yon bòdwo lopital
+  - mwen pa ka peye bòdwo medikal mwen
+  - kijan pou m jwenn yon bòdwo detaye
+  - èd finansyè nan Jackson
+  - mwen resevwa yon hospital bill
+privacy_scope: person
+stages:
+- 6
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- clinic-not-er
+- health-coverage-changes
+fact_refs:
+- us-fl.hospital.itemized-bill
+- us.hhs.45-cfr-92.201.requirement
+- us-fl-miamidade.jackson.financial-assistance.sliding-scale-max-fpl
+- us-fl-miamidade.jackson.prime-renewal-online-only
+topics:
+- health
+- money

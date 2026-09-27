@@ -1,0 +1,1827 @@
+[
+ {
+  "id": "us.census.incorporated-place",
+  "kind": "lookup",
+  "claim": "Incorporated place containing the address, or none",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "desk": "us.census-bureau",
+  "source_id": "us.census-geocoder",
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "endpoint": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+   "layer_id": null,
+   "fields": [
+    "Incorporated Places.NAME",
+    "Incorporated Places.GEOID"
+   ],
+   "method": "census_geocoder(benchmark=Public_AR_Current, vintage=Current_Current, layers=all)",
+   "question": "government.which"
+  },
+  "topics": [
+   "municipality"
+  ]
+ },
+ {
+  "id": "us.census.county-subdivision",
+  "kind": "lookup",
+  "claim": "Census county subdivision (CCD) containing the address",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "desk": "us.census-bureau",
+  "source_id": "us.census-geocoder",
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "endpoint": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+   "layer_id": null,
+   "fields": [
+    "County Subdivisions.NAME"
+   ],
+   "method": "census_geocoder(benchmark=Public_AR_Current, vintage=Current_Current, layers=all)",
+   "question": "government.which"
+  },
+  "topics": [
+   "municipality"
+  ]
+ },
+ {
+  "id": "us.census.tract",
+  "kind": "lookup",
+  "claim": "Census tract containing the address",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "desk": "us.census-bureau",
+  "source_id": "us.census-geocoder",
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "endpoint": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+   "layer_id": null,
+   "fields": [
+    "Census Tracts.GEOID",
+    "Census Tracts.NAME"
+   ],
+   "method": "census_geocoder(benchmark=Public_AR_Current, vintage=Current_Current, layers=all)",
+   "question": "geo.tract"
+  },
+  "topics": []
+ },
+ {
+  "id": "us.census.congressional-district",
+  "kind": "lookup",
+  "claim": "US House district (120th Congress) containing the address",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "desk": "us.census-bureau",
+  "source_id": "us.census-geocoder",
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "endpoint": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+   "layer_id": null,
+   "fields": [
+    "120th Congressional Districts.CD120"
+   ],
+   "method": "census_geocoder(benchmark=Public_AR_Current, vintage=Current_Current, layers=all)",
+   "question": "representatives.congress"
+  },
+  "topics": [
+   "representatives"
+  ]
+ },
+ {
+  "id": "us-fl.census.state-senate-district",
+  "kind": "lookup",
+  "claim": "Florida Senate district (2026) containing the address",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "desk": "us-fl.division-of-elections",
+  "source_id": "us.census-geocoder",
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "endpoint": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+   "layer_id": null,
+   "fields": [
+    "2026 State Legislative Districts - Upper.SLDU"
+   ],
+   "method": "census_geocoder(benchmark=Public_AR_Current, vintage=Current_Current, layers=all)",
+   "question": "representatives.state-senate"
+  },
+  "topics": [
+   "representatives"
+  ]
+ },
+ {
+  "id": "us-fl.census.state-house-district",
+  "kind": "lookup",
+  "claim": "Florida House district (2026) containing the address",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "desk": "us-fl.division-of-elections",
+  "source_id": "us.census-geocoder",
+  "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "endpoint": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+   "layer_id": null,
+   "fields": [
+    "2026 State Legislative Districts - Lower.SLDL"
+   ],
+   "method": "census_geocoder(benchmark=Public_AR_Current, vintage=Current_Current, layers=all)",
+   "question": "representatives.state-house"
+  },
+  "topics": [
+   "representatives"
+  ]
+ },
+ {
+  "id": "us.fema.flood-zone",
+  "kind": "lookup",
+  "claim": null,
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "desk": "us.fema-nfip",
+  "topics": [
+   "flood"
+  ],
+  "source_id": "us.fema.nfhl",
+  "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us.flood-zone",
+   "endpoint": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query",
+   "fields": [
+    "FLD_ZONE",
+    "ZONE_SUBTY",
+    "SFHA_TF"
+   ],
+   "question": "flood.zone"
+  }
+ },
+ {
+  "id": "us.uscis.forms-free",
+  "kind": "lookup",
+  "claim": null,
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "desk": "us.uscis",
+  "topics": [
+   "immigration"
+  ],
+  "source_id": null,
+  "url": null,
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": null,
+  "status": "unsourced",
+  "lookup": {
+   "adapter": "us.fee-check-uscis",
+   "endpoint": null,
+   "fields": [],
+   "question": "fees.uscis"
+  }
+ },
+ {
+  "id": "us.uscis.fee-payment-methods",
+  "kind": "lookup",
+  "claim": null,
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "desk": "us.uscis",
+  "topics": [
+   "immigration"
+  ],
+  "source_id": null,
+  "url": null,
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": null,
+  "status": "unsourced",
+  "lookup": {
+   "adapter": "us.fee-check-uscis",
+   "endpoint": null,
+   "fields": [],
+   "question": "fees.uscis"
+  }
+ },
+ {
+  "id": "us.ftc.gift-card-payment-scam",
+  "kind": "lookup",
+  "claim": null,
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "desk": "us.ftc",
+  "topics": [
+   "scams"
+  ],
+  "source_id": null,
+  "url": null,
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": null,
+  "status": "unsourced",
+  "lookup": {
+   "adapter": "us.fee-check-ftc",
+   "endpoint": null,
+   "fields": [],
+   "question": "scams.gift-card"
+  }
+ },
+ {
+  "id": "us-fl.flhsmv.fee.class-e-original",
+  "kind": "lookup",
+  "claim": null,
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "desk": "us-fl.flhsmv",
+  "topics": [
+   "license"
+  ],
+  "source_id": null,
+  "url": null,
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": null,
+  "status": "unsourced",
+  "lookup": {
+   "adapter": "us-fl.fee-check-flhsmv",
+   "endpoint": null,
+   "fields": [],
+   "question": "fees.license"
+  }
+ },
+ {
+  "id": "us-fl.flhsmv.fee.class-e-renewal",
+  "kind": "lookup",
+  "claim": null,
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "desk": "us-fl.flhsmv",
+  "topics": [
+   "license"
+  ],
+  "source_id": null,
+  "url": null,
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": null,
+  "status": "unsourced",
+  "lookup": {
+   "adapter": "us-fl.fee-check-flhsmv",
+   "endpoint": null,
+   "fields": [],
+   "question": "fees.license"
+  }
+ },
+ {
+  "id": "us-fl.flhsmv.fee.id-card-original",
+  "kind": "lookup",
+  "claim": null,
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "desk": "us-fl.flhsmv",
+  "topics": [
+   "license"
+  ],
+  "source_id": null,
+  "url": null,
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": null,
+  "status": "unsourced",
+  "lookup": {
+   "adapter": "us-fl.fee-check-flhsmv",
+   "endpoint": null,
+   "fields": [],
+   "question": "fees.license"
+  }
+ },
+ {
+  "id": "us-fl.landlord.deposit.return-days-no-claim",
+  "kind": "lookup",
+  "claim": null,
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "desk": "us-fl.bar-lawyer-referral",
+  "topics": [
+   "rent"
+  ],
+  "source_id": null,
+  "url": null,
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": null,
+  "status": "unsourced",
+  "lookup": {
+   "adapter": "us-fl.fee-check-deposit",
+   "endpoint": null,
+   "fields": [],
+   "question": "rent.deposit"
+  }
+ },
+ {
+  "id": "us-fl.landlord.deposit.claim-notice-days",
+  "kind": "lookup",
+  "claim": null,
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "desk": "us-fl.bar-lawyer-referral",
+  "topics": [
+   "rent"
+  ],
+  "source_id": null,
+  "url": null,
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": null,
+  "status": "unsourced",
+  "lookup": {
+   "adapter": "us-fl.fee-check-deposit",
+   "endpoint": null,
+   "fields": [],
+   "question": "rent.deposit"
+  }
+ },
+ {
+  "id": "us-fl.landlord.deposit.tenant-objection-days",
+  "kind": "lookup",
+  "claim": null,
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "desk": "us-fl.bar-lawyer-referral",
+  "topics": [
+   "rent"
+  ],
+  "source_id": null,
+  "url": null,
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": null,
+  "status": "unsourced",
+  "lookup": {
+   "adapter": "us-fl.fee-check-deposit",
+   "endpoint": null,
+   "fields": [],
+   "question": "rent.deposit"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.government.municipality",
+  "kind": "lookup",
+  "claim": "Municipality (or UNINCORPORATED MIAMI-DADE) containing the pin",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.311",
+  "topics": [
+   "municipality"
+  ],
+  "source_id": "us-fl-miamidade.gis-municipality",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_MDPDViewer/MapServer/8/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.municipality",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_MDPDViewer/MapServer/8/query",
+   "fields": [
+    "NAME",
+    "MUNICID"
+   ],
+   "question": "government.which"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.government.municipality-id",
+  "kind": "lookup",
+  "claim": "County MUNICID of the municipality (or unincorporated area) containing the pin",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.311",
+  "topics": [
+   "municipality"
+  ],
+  "source_id": "us-fl-miamidade.gis-municipality",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_MDPDViewer/MapServer/8/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.municipality",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_MDPDViewer/MapServer/8/query",
+   "fields": [
+    "NAME",
+    "MUNICID"
+   ],
+   "question": "government.which"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.trash.garbage-days",
+  "kind": "lookup",
+  "claim": "County garbage collection days for the pin (county service area only)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.dswm",
+  "topics": [
+   "trash"
+  ],
+  "source_id": "us-fl-miamidade.gis-garbage-route",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/1/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.trash-county-garbage",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/1/query",
+   "fields": [
+    "WEEKDAYS",
+    "ROUTE"
+   ],
+   "question": "trash.schedule"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.trash.recycling-day",
+  "kind": "lookup",
+  "claim": "County recycling collection weekday for the pin",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.dswm",
+  "topics": [
+   "trash"
+  ],
+  "source_id": "us-fl-miamidade.gis-recycling-route",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/2/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.trash-county-recycling",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/2/query",
+   "fields": [
+    "WEEKDAY",
+    "PICKUPWEEK",
+    "DESCRIPTION"
+   ],
+   "question": "trash.schedule"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.trash.recycling-week",
+  "kind": "lookup",
+  "claim": "County recycling pickup week letter (A/B/C) for the pin",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.dswm",
+  "topics": [
+   "trash"
+  ],
+  "source_id": "us-fl-miamidade.gis-recycling-route",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/2/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.trash-county-recycling",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/2/query",
+   "fields": [
+    "WEEKDAY",
+    "PICKUPWEEK",
+    "DESCRIPTION"
+   ],
+   "question": "trash.schedule"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.school.elementary",
+  "kind": "lookup",
+  "claim": "Zoned elementary school (name, address, point)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.m-dcps-transportation",
+  "topics": [
+   "schools"
+  ],
+  "source_id": "us-fl-miamidade.gis-school-elementary",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.school-elementary",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query",
+   "fields": [
+    "psde2.MDC.SchoolSite.NAME",
+    "psde2.MDC.SchoolSite.ADDRESS",
+    "psde2.MDC.SchoolSite.LAT",
+    "psde2.MDC.SchoolSite.LON",
+    "psde2.MDC.ElementaryAttendanceBoundary.PHONE",
+    "psde2.MDC.ElementaryAttendanceBoundary.GRADES"
+   ],
+   "question": "school.zoned"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.school.elementary.phone",
+  "kind": "lookup",
+  "claim": "Zoned elementary school phone",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.m-dcps-transportation",
+  "topics": [
+   "schools"
+  ],
+  "source_id": "us-fl-miamidade.gis-school-elementary",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.school-elementary",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query",
+   "fields": [
+    "psde2.MDC.SchoolSite.NAME",
+    "psde2.MDC.SchoolSite.ADDRESS",
+    "psde2.MDC.SchoolSite.LAT",
+    "psde2.MDC.SchoolSite.LON",
+    "psde2.MDC.ElementaryAttendanceBoundary.PHONE",
+    "psde2.MDC.ElementaryAttendanceBoundary.GRADES"
+   ],
+   "question": "school.zoned"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.school.elementary.grades",
+  "kind": "lookup",
+  "claim": "Zoned elementary school grades",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.m-dcps-transportation",
+  "topics": [
+   "schools"
+  ],
+  "source_id": "us-fl-miamidade.gis-school-elementary",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.school-elementary",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query",
+   "fields": [
+    "psde2.MDC.SchoolSite.NAME",
+    "psde2.MDC.SchoolSite.ADDRESS",
+    "psde2.MDC.SchoolSite.LAT",
+    "psde2.MDC.SchoolSite.LON",
+    "psde2.MDC.ElementaryAttendanceBoundary.PHONE",
+    "psde2.MDC.ElementaryAttendanceBoundary.GRADES"
+   ],
+   "question": "school.zoned"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.school.middle",
+  "kind": "lookup",
+  "claim": "Zoned middle school (name, address, point)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.m-dcps-transportation",
+  "topics": [
+   "schools"
+  ],
+  "source_id": "us-fl-miamidade.gis-school-middle",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.school-middle",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query",
+   "fields": [
+    "psde2.MDC.SchoolSite.NAME",
+    "psde2.MDC.SchoolSite.ADDRESS",
+    "psde2.MDC.SchoolSite.LAT",
+    "psde2.MDC.SchoolSite.LON",
+    "psde2.MDC.MiddleAttendanceBoundary.PHONE",
+    "psde2.MDC.MiddleAttendanceBoundary.GRADES"
+   ],
+   "question": "school.zoned"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.school.middle.phone",
+  "kind": "lookup",
+  "claim": "Zoned middle school phone",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.m-dcps-transportation",
+  "topics": [
+   "schools"
+  ],
+  "source_id": "us-fl-miamidade.gis-school-middle",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.school-middle",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query",
+   "fields": [
+    "psde2.MDC.SchoolSite.NAME",
+    "psde2.MDC.SchoolSite.ADDRESS",
+    "psde2.MDC.SchoolSite.LAT",
+    "psde2.MDC.SchoolSite.LON",
+    "psde2.MDC.MiddleAttendanceBoundary.PHONE",
+    "psde2.MDC.MiddleAttendanceBoundary.GRADES"
+   ],
+   "question": "school.zoned"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.school.middle.grades",
+  "kind": "lookup",
+  "claim": "Zoned middle school grades",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.m-dcps-transportation",
+  "topics": [
+   "schools"
+  ],
+  "source_id": "us-fl-miamidade.gis-school-middle",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.school-middle",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query",
+   "fields": [
+    "psde2.MDC.SchoolSite.NAME",
+    "psde2.MDC.SchoolSite.ADDRESS",
+    "psde2.MDC.SchoolSite.LAT",
+    "psde2.MDC.SchoolSite.LON",
+    "psde2.MDC.MiddleAttendanceBoundary.PHONE",
+    "psde2.MDC.MiddleAttendanceBoundary.GRADES"
+   ],
+   "question": "school.zoned"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.school.high",
+  "kind": "lookup",
+  "claim": "Zoned high school (name, address, point)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.m-dcps-transportation",
+  "topics": [
+   "schools"
+  ],
+  "source_id": "us-fl-miamidade.gis-school-high",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.school-high",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query",
+   "fields": [
+    "psde2.MDC.SchoolSite.NAME",
+    "psde2.MDC.SchoolSite.ADDRESS",
+    "psde2.MDC.SchoolSite.LAT",
+    "psde2.MDC.SchoolSite.LON",
+    "psde2.MDC.HighAttendanceBoundary.PHONE",
+    "psde2.MDC.HighAttendanceBoundary.GRADES"
+   ],
+   "question": "school.zoned"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.school.high.phone",
+  "kind": "lookup",
+  "claim": "Zoned high school phone",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.m-dcps-transportation",
+  "topics": [
+   "schools"
+  ],
+  "source_id": "us-fl-miamidade.gis-school-high",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.school-high",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query",
+   "fields": [
+    "psde2.MDC.SchoolSite.NAME",
+    "psde2.MDC.SchoolSite.ADDRESS",
+    "psde2.MDC.SchoolSite.LAT",
+    "psde2.MDC.SchoolSite.LON",
+    "psde2.MDC.HighAttendanceBoundary.PHONE",
+    "psde2.MDC.HighAttendanceBoundary.GRADES"
+   ],
+   "question": "school.zoned"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.school.high.grades",
+  "kind": "lookup",
+  "claim": "Zoned high school grades",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.m-dcps-transportation",
+  "topics": [
+   "schools"
+  ],
+  "source_id": "us-fl-miamidade.gis-school-high",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.school-high",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query",
+   "fields": [
+    "psde2.MDC.SchoolSite.NAME",
+    "psde2.MDC.SchoolSite.ADDRESS",
+    "psde2.MDC.SchoolSite.LAT",
+    "psde2.MDC.SchoolSite.LON",
+    "psde2.MDC.HighAttendanceBoundary.PHONE",
+    "psde2.MDC.HighAttendanceBoundary.GRADES"
+   ],
+   "question": "school.zoned"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.parcel.folio",
+  "kind": "lookup",
+  "claim": "Folio of the parcel at the pin",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.property-appraiser",
+  "topics": [
+   "parcel"
+  ],
+  "source_id": "us-fl-miamidade.gis-parcels",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.parcel",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query",
+   "fields": [
+    "FOLIO",
+    "TRUE_SITE_ADDR",
+    "CONDO_FLAG",
+    "YEAR_BUILT",
+    "DOR_DESC"
+   ],
+   "question": "building.parcel"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.parcel.year-built",
+  "kind": "lookup",
+  "claim": "Year built of the parcel at the pin (when the county records none, the answer is not_applicable, never 0)",
+  "value": null,
+  "unit": "year",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.property-appraiser",
+  "topics": [
+   "parcel"
+  ],
+  "source_id": "us-fl-miamidade.gis-parcels",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.parcel",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query",
+   "fields": [
+    "FOLIO",
+    "TRUE_SITE_ADDR",
+    "CONDO_FLAG",
+    "YEAR_BUILT",
+    "DOR_DESC"
+   ],
+   "question": "building.parcel"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.parcel.condo",
+  "kind": "lookup",
+  "claim": "Condo flag of the parcel at the pin",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.property-appraiser",
+  "topics": [
+   "parcel"
+  ],
+  "source_id": "us-fl-miamidade.gis-parcels",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.parcel",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query",
+   "fields": [
+    "FOLIO",
+    "TRUE_SITE_ADDR",
+    "CONDO_FLAG",
+    "YEAR_BUILT",
+    "DOR_DESC"
+   ],
+   "question": "building.parcel"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.parcel.use",
+  "kind": "lookup",
+  "claim": "Property use description of the parcel at the pin",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.property-appraiser",
+  "topics": [
+   "parcel"
+  ],
+  "source_id": "us-fl-miamidade.gis-parcels",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.parcel",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query",
+   "fields": [
+    "FOLIO",
+    "TRUE_SITE_ADDR",
+    "CONDO_FLAG",
+    "YEAR_BUILT",
+    "DOR_DESC"
+   ],
+   "question": "building.parcel"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.utility.water",
+  "kind": "lookup",
+  "claim": "Water utility serving the pin",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.wasd",
+  "topics": [
+   "water"
+  ],
+  "source_id": "us-fl-miamidade.gis-water-service",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_WaterSewer/MapServer/1/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.water",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_WaterSewer/MapServer/1/query",
+   "fields": [
+    "UTILITYNAME"
+   ],
+   "question": "utility.water"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.utility.sewer",
+  "kind": "lookup",
+  "claim": "Sewer utility serving the pin",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.wasd",
+  "topics": [
+   "water"
+  ],
+  "source_id": "us-fl-miamidade.gis-sewer-service",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_WaterSewer/MapServer/0/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.sewer",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_WaterSewer/MapServer/0/query",
+   "fields": [
+    "UTILITYNAME"
+   ],
+   "question": "utility.sewer"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.parks.nearest-county.1",
+  "kind": "lookup",
+  "claim": "Nearest county-operated parks (rank 1 by straight-line distance)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.parks",
+  "topics": [
+   "parks"
+  ],
+  "source_id": "us-fl-miamidade.gis-parks-county",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/1/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.parks-county",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/1/query",
+   "fields": [
+    "NAME",
+    "ADDRESS"
+   ],
+   "question": "places.parks"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.parks.nearest-county.2",
+  "kind": "lookup",
+  "claim": "Nearest county-operated parks (rank 2 by straight-line distance)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.parks",
+  "topics": [
+   "parks"
+  ],
+  "source_id": "us-fl-miamidade.gis-parks-county",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/1/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.parks-county",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/1/query",
+   "fields": [
+    "NAME",
+    "ADDRESS"
+   ],
+   "question": "places.parks"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.parks.nearest-county.3",
+  "kind": "lookup",
+  "claim": "Nearest county-operated parks (rank 3 by straight-line distance)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.parks",
+  "topics": [
+   "parks"
+  ],
+  "source_id": "us-fl-miamidade.gis-parks-county",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/1/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.parks-county",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/1/query",
+   "fields": [
+    "NAME",
+    "ADDRESS"
+   ],
+   "question": "places.parks"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.parks.nearest-municipal.1",
+  "kind": "lookup",
+  "claim": "Nearest municipal parks (county-published layer) (rank 1 by straight-line distance)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.parks",
+  "topics": [
+   "parks"
+  ],
+  "source_id": "us-fl-miamidade.gis-parks-municipal",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/0/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.parks-municipal",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/0/query",
+   "fields": [
+    "NAME",
+    "ADDRESS"
+   ],
+   "question": "places.parks"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.parks.nearest-municipal.2",
+  "kind": "lookup",
+  "claim": "Nearest municipal parks (county-published layer) (rank 2 by straight-line distance)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.parks",
+  "topics": [
+   "parks"
+  ],
+  "source_id": "us-fl-miamidade.gis-parks-municipal",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/0/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.parks-municipal",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/0/query",
+   "fields": [
+    "NAME",
+    "ADDRESS"
+   ],
+   "question": "places.parks"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.parks.nearest-municipal.3",
+  "kind": "lookup",
+  "claim": "Nearest municipal parks (county-published layer) (rank 3 by straight-line distance)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.parks",
+  "topics": [
+   "parks"
+  ],
+  "source_id": "us-fl-miamidade.gis-parks-municipal",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/0/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.parks-municipal",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/0/query",
+   "fields": [
+    "NAME",
+    "ADDRESS"
+   ],
+   "question": "places.parks"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.library.nearest.1",
+  "kind": "lookup",
+  "claim": "Nearest library branches (rank 1 by straight-line distance)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.library",
+  "topics": [
+   "libraries"
+  ],
+  "source_id": "us-fl-miamidade.gis-libraries",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.libraries",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1/query",
+   "fields": [
+    "BRANCH",
+    "ADDRESS"
+   ],
+   "question": "places.libraries"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.library.nearest.2",
+  "kind": "lookup",
+  "claim": "Nearest library branches (rank 2 by straight-line distance)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.library",
+  "topics": [
+   "libraries"
+  ],
+  "source_id": "us-fl-miamidade.gis-libraries",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.libraries",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1/query",
+   "fields": [
+    "BRANCH",
+    "ADDRESS"
+   ],
+   "question": "places.libraries"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.library.nearest.3",
+  "kind": "lookup",
+  "claim": "Nearest library branches (rank 3 by straight-line distance)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.library",
+  "topics": [
+   "libraries"
+  ],
+  "source_id": "us-fl-miamidade.gis-libraries",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P30D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.libraries",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1/query",
+   "fields": [
+    "BRANCH",
+    "ADDRESS"
+   ],
+   "question": "places.libraries"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.vote.precinct",
+  "kind": "lookup",
+  "claim": "Voting precinct containing the pin",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "topics": [
+   "voting"
+  ],
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/3/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P7D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.vote",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/3/query",
+   "fields": [],
+   "question": "vote.where"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.vote.polling-place",
+  "kind": "lookup",
+  "claim": "Election-day polling place for the pin's precinct",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "topics": [
+   "voting"
+  ],
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/3/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P7D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.vote",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/3/query",
+   "fields": [],
+   "question": "vote.where"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.rep.county-commission.district",
+  "kind": "lookup",
+  "claim": "County commission district and commissioner - district id",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "topics": [
+   "representatives"
+  ],
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/4/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P7D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.rep-county-commission",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/4/query",
+   "fields": [
+    "ID",
+    "COMMNAME"
+   ],
+   "question": "representatives.county"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.rep.county-commission.member",
+  "kind": "lookup",
+  "claim": "County commission district and commissioner - member name as published",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "topics": [
+   "representatives"
+  ],
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/4/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P7D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.rep-county-commission",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/4/query",
+   "fields": [
+    "ID",
+    "COMMNAME"
+   ],
+   "question": "representatives.county"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.rep.congress.district",
+  "kind": "lookup",
+  "claim": "US House district and representative (county layer) - district id",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "topics": [
+   "representatives"
+  ],
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/5/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P7D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.rep-congress",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/5/query",
+   "fields": [
+    "ID",
+    "REPNAME"
+   ],
+   "question": "representatives.congress"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.rep.congress.member",
+  "kind": "lookup",
+  "claim": "US House district and representative (county layer) - member name as published",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "topics": [
+   "representatives"
+  ],
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/5/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P7D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.rep-congress",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/5/query",
+   "fields": [
+    "ID",
+    "REPNAME"
+   ],
+   "question": "representatives.congress"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.rep.state-senate.district",
+  "kind": "lookup",
+  "claim": "Florida Senate district and senator (county layer) - district id",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "topics": [
+   "representatives"
+  ],
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/6/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P7D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.rep-state-senate",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/6/query",
+   "fields": [
+    "ID",
+    "SENNAME"
+   ],
+   "question": "representatives.state-senate"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.rep.state-senate.member",
+  "kind": "lookup",
+  "claim": "Florida Senate district and senator (county layer) - member name as published",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "topics": [
+   "representatives"
+  ],
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/6/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P7D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.rep-state-senate",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/6/query",
+   "fields": [
+    "ID",
+    "SENNAME"
+   ],
+   "question": "representatives.state-senate"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.rep.state-house.district",
+  "kind": "lookup",
+  "claim": "Florida House district and representative (county layer) - district id",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "topics": [
+   "representatives"
+  ],
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/7/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P7D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.rep-state-house",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/7/query",
+   "fields": [
+    "ID",
+    "REPNAME"
+   ],
+   "question": "representatives.state-house"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.rep.state-house.member",
+  "kind": "lookup",
+  "claim": "Florida House district and representative (county layer) - member name as published",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "topics": [
+   "representatives"
+  ],
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/7/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P7D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.rep-state-house",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/7/query",
+   "fields": [
+    "ID",
+    "REPNAME"
+   ],
+   "question": "representatives.state-house"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.rep.school-board.district",
+  "kind": "lookup",
+  "claim": "School board district and member - district id",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "topics": [
+   "representatives"
+  ],
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/8/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P7D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.rep-school-board",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/8/query",
+   "fields": [
+    "ID",
+    "BRDMBR"
+   ],
+   "question": "representatives.school-board"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.rep.school-board.member",
+  "kind": "lookup",
+  "claim": "School board district and member - member name as published",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "topics": [
+   "representatives"
+  ],
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/8/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P7D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.rep-school-board",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/8/query",
+   "fields": [
+    "ID",
+    "BRDMBR"
+   ],
+   "question": "representatives.school-board"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.1",
+  "kind": "lookup",
+  "claim": "Nearest Miami-Dade Transit stop (rank suffix), straight-line distance (rank 1 by straight-line distance)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.transit",
+  "topics": [
+   "transit"
+  ],
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P7D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.transit",
+   "endpoint": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+   "fields": [],
+   "question": "transit.nearby"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.1.routes",
+  "kind": "lookup",
+  "claim": "Route short names serving that stop (rank 1 by straight-line distance)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.transit",
+  "topics": [
+   "transit"
+  ],
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P7D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.transit",
+   "endpoint": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+   "fields": [],
+   "question": "transit.nearby"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.2",
+  "kind": "lookup",
+  "claim": "Nearest Miami-Dade Transit stop (rank suffix), straight-line distance (rank 2 by straight-line distance)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.transit",
+  "topics": [
+   "transit"
+  ],
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P7D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.transit",
+   "endpoint": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+   "fields": [],
+   "question": "transit.nearby"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.2.routes",
+  "kind": "lookup",
+  "claim": "Route short names serving that stop (rank 2 by straight-line distance)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.transit",
+  "topics": [
+   "transit"
+  ],
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P7D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.transit",
+   "endpoint": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+   "fields": [],
+   "question": "transit.nearby"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.3",
+  "kind": "lookup",
+  "claim": "Nearest Miami-Dade Transit stop (rank suffix), straight-line distance (rank 3 by straight-line distance)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.transit",
+  "topics": [
+   "transit"
+  ],
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P7D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.transit",
+   "endpoint": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+   "fields": [],
+   "question": "transit.nearby"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.3.routes",
+  "kind": "lookup",
+  "claim": "Route short names serving that stop (rank 3 by straight-line distance)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.transit",
+  "topics": [
+   "transit"
+  ],
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P7D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.transit",
+   "endpoint": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+   "fields": [],
+   "question": "transit.nearby"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.rent.line",
+  "kind": "lookup",
+  "claim": "Rent line for the pin from Miami-Dade County's own table (not yet sourced: unsourced with the county housing desk)",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.housing",
+  "topics": [
+   "rent"
+  ],
+  "source_id": null,
+  "url": null,
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": null,
+  "status": "unsourced",
+  "lookup": {
+   "adapter": "us-fl-miamidade.rent-line",
+   "endpoint": null,
+   "fields": [],
+   "question": "rent.line"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.storm.evacuation-zone",
+  "kind": "lookup",
+  "claim": null,
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.311",
+  "topics": [
+   "storm"
+  ],
+  "source_id": "us-fl-miamidade.gis-evacuation-zone",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_CommunityServices/MapServer/7/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P90D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miamidade.evacuation-zone",
+   "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_CommunityServices/MapServer/7/query",
+   "fields": [
+    "ZONEID",
+    "CATEGORY"
+   ],
+   "question": "storm.zone"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.mia.taxi.meter-rule",
+  "kind": "lookup",
+  "claim": null,
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.mia-information",
+  "topics": [
+   "transit"
+  ],
+  "source_id": null,
+  "url": null,
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": null,
+  "status": "unsourced",
+  "lookup": {
+   "adapter": "us-fl-miamidade.fee-check-mia-taxi",
+   "endpoint": null,
+   "fields": [],
+   "question": "fees.mia-taxi"
+  }
+ },
+ {
+  "id": "us-fl-miamidade.mia.taxi.flat-rate-rule",
+  "kind": "lookup",
+  "claim": null,
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.mia-information",
+  "topics": [
+   "transit"
+  ],
+  "source_id": null,
+  "url": null,
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": null,
+  "status": "unsourced",
+  "lookup": {
+   "adapter": "us-fl-miamidade.fee-check-mia-taxi",
+   "endpoint": null,
+   "fields": [],
+   "question": "fees.mia-taxi"
+  }
+ },
+ {
+  "id": "us-fl-miami.trash.day",
+  "kind": "lookup",
+  "claim": "City of Miami trash day for the pin",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "desk": "us-fl-miami.solid-waste",
+  "topics": [
+   "trash"
+  ],
+  "source_id": "us-fl-miami.gis-trash-routes",
+  "url": "https://gis.miami.gov/gis/rest/services/SolidWaste/TrashRoutes/MapServer/0/query",
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": "P7D",
+  "status": "verified",
+  "lookup": {
+   "adapter": "us-fl-miami.trash-city",
+   "endpoint": "https://gis.miami.gov/gis/rest/services/SolidWaste/TrashRoutes/MapServer/0/query",
+   "fields": [
+    "OBJECTID",
+    "TRASHDAY"
+   ],
+   "question": "trash.schedule"
+  }
+ }
+]

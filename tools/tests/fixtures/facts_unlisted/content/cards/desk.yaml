@@ -1,0 +1,4 @@
+id: desk
+title: {es: "t", en: "t", ht: "t"}
+body: {es: "{fact:xx-test.desk.phone}", en: "b", ht: "b"}
+fact_refs: []

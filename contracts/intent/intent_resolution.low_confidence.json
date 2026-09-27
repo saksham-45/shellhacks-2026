@@ -1,0 +1,18 @@
+{
+  "note": "IntentResolution: low confidence.",
+  "type": "intent_resolution",
+  "value": {
+    "action": {
+      "destination": {
+        "card_id": "clinic",
+        "person_id": null,
+        "type": "card"
+      },
+      "type": "navigate"
+    },
+    "clarification": null,
+    "confidence": 0.3,
+    "grounding": null,
+    "reply_language": "en"
+  }
+}

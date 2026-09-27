@@ -1,0 +1,9 @@
+{
+  "request_url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/0/query?where=PRECINCT%3D792&outFields=NAME%2CADDRESS%2CLAT%2CLON%2CPRECINCT&returnGeometry=false&f=json",
+  "method": "GET",
+  "retrieved_at": "2026-09-25T18:06:35-04:00",
+  "http_status": 200,
+  "bytes": 625,
+  "sha256": "ba17cbb486bacc58b752a14e98d73d5cb0f958de159573da9b25b5ebfacbcbbd",
+  "capture_path": "scripts/refresh_fixtures.py (LiveTransport, box egress)"
+}

@@ -1,0 +1,8 @@
+{
+  "note": "Destination.onboarding. Example ids only.",
+  "type": "destination",
+  "value": {
+    "step": "origin_and_language",
+    "type": "onboarding"
+  }
+}

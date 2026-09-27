@@ -1,0 +1,18 @@
+{
+ "result": {
+  "input": {
+   "address": {
+    "address": "11200 SW 137th Ave, Miami, FL 33186"
+   }
+  },
+  "addressMatches": [
+   {
+    "matchedAddress": "11200 SW 137TH AVE, MIAMI, FL, 33186",
+    "coordinates": {
+     "x": -80.416060788844,
+     "y": 25.663473322904
+    }
+   }
+  ]
+ }
+}

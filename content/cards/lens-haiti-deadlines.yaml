@@ -1,0 +1,108 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: lens-haiti-deadlines
+kind: lens
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Origin lens
+  item: Haiti
+title:
+  es: Fechas límite, en criollo haitiano
+  en: Deadlines, in Creole
+  ht: Dat limit, an kreyòl
+summary:
+  es: 'Criollo haitiano en cada botón. El correo en inglés y las fechas del permiso de trabajo requieren una revisión acreditada. El estado de cada haitiano depende de sus propios papeles.'
+  en: 'Creole on every button. Mail is in English, and work card dates need accredited review. Each Haitian person’s status depends on their own papers.'
+  ht: 'Kreyòl sou chak bouton. Lèt yo an anglè, epi dat sou pèmi travay bezwen revizyon akredite. Estati chak Ayisyen depann de pwòp papye li.'
+body:
+  es: |-
+    Idiomas en que contesta la línea del condado para lo que no es emergencia: {fact:us-fl-miamidade.311.languages}.
+
+    El estado de cada haitiano depende de sus propios papeles; habla con una persona acreditada antes de actuar por algo que hayas oído.
+
+    Una fecha límite entra en tu calendario solo cuando la fuente oficial la confirma.
+
+    Abre cada carta de USCIS el día que llega. Un notario no puede aconsejarte sobre tus papeles.
+  en: |-
+    Languages the county non-emergency desk answers in: {fact:us-fl-miamidade.311.languages}.
+
+    Each Haitian person’s status depends on their own papers; talk to an accredited helper before acting on anything you heard.
+
+    A deadline goes on your calendar only when the official source confirms it.
+
+    Open every letter from USCIS the day it comes. A notary cannot advise you on your papers.
+  ht: |-
+    Lang liy konte a pou sa ki pa ijans reponn: {fact:us-fl-miamidade.311.languages}.
+
+    Estati chak Ayisyen depann de pwòp papye li; pale ak yon moun akredite anvan ou aji sou yon bagay ou tande.
+
+    Yon dat limit antre nan kalandriye ou sèlman lè sous ofisyèl la konfime l.
+
+    Louvri chak lèt USCIS jou li rive a. Yon notè pa ka konseye w sou papye ou.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.311.languages
+- []
+- []
+- - us.uscis.notices-by-mail
+  - us.uscis.notario-scam
+desk: us-fl-miamidade.immigration-legal-aid
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.immigration-legal-aid
+- type: open_map
+  target:
+    type: desk
+    desk_id: us-fl-miamidade.immigration-legal-aid
+utterances:
+  es:
+  - qué pasó con el TPS de Haití
+  - noticias del TPS para haitianos
+  - ayuda en creole
+  - soy de Haití, qué hago
+  - Haiti TPS qué pasó
+  en:
+  - Haiti TPS news
+  - what happened with TPS for Haitians
+  - help in Creole
+  - I am from Haiti what do I do
+  - TPS Haiti ki sa k pase
+  ht:
+  - kisa k pase ak TPS Ayiti
+  - nouvèl TPS pou Ayisyen
+  - èd an kreyòl
+  - mwen soti Ayiti kisa pou m fè
+  - TPS Haiti what happened
+privacy_scope: person-papers
+stages:
+- 1
+- 2
+- 7
+- 9
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: true
+origin_lenses:
+- haiti
+related_cards:
+- status-word
+- mail-address
+- immigration-papers
+- miami-dade-311
+fact_refs:
+- us-fl-miamidade.311.languages
+- us.uscis.notices-by-mail
+- us.uscis.notario-scam
+verified_only_refs:
+- us.immigration.tps.haiti.end-date
+topics:
+- immigration
+- tps
+- legal-aid

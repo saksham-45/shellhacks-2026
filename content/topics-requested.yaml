@@ -1,0 +1,4 @@
+# Topic tags the cards use that are not in research/topics.yaml yet (sent to myAD Research).
+# The validator warns (does not fail) on these until Research adds or renames them.
+# Empty: Research added all six (etiquette, food, money, taxes, utilities, visitors) on 2026-09-25.
+requested: []

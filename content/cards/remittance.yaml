@@ -1,0 +1,94 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: remittance
+kind: country
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The country, same everywhere
+  item: Banks, credit, remittance
+- plan: myamericandream-plan.md
+  section: Stages
+  item: 4. Money
+title:
+  es: Mandar dinero a casa
+  en: Sending money home
+  ht: Voye lajan lakay
+summary:
+  es: Compara la comisión y la tasa de cambio antes de enviar. La compañía tiene que mostrarte las dos.
+  en: Compare the fee and the exchange rate before you send. The company must show you both.
+  ht: Konpare frè a ak to chanj lan anvan ou voye. Konpayi an oblije montre w toude.
+body:
+  es: |-
+    Antes de pagar, la compañía de envíos debe mostrarte la comisión, la tasa de cambio y cuánto llega.
+
+    Después de pagar, normalmente tienes un tiempo corto para cancelar: {fact:us.cfpb.remittance-cancel-window}.
+
+    Compara lo que llega, no solo la comisión.
+
+    Nunca mandes dinero a alguien que te promete papeles, un trabajo o un apartamento a cambio.
+  en: |-
+    Before you pay, a money-transfer company must show the fee, the exchange rate, and the amount that arrives.
+
+    After paying, you usually have a short window to cancel: {fact:us.cfpb.remittance-cancel-window}.
+
+    Compare the amount that arrives, not only the fee.
+
+    Never send money to someone who promises papers, a job, or an apartment in return.
+  ht: |-
+    Anvan ou peye, konpayi transfè lajan an dwe montre w frè a, to chanj lan, ak konbyen k ap rive.
+
+    Apre ou fin peye, anjeneral ou gen yon ti tan pou anile: {fact:us.cfpb.remittance-cancel-window}.
+
+    Konpare konbyen k ap rive, pa sèlman frè a.
+
+    Pa janm voye lajan bay yon moun ki pwomèt ou papye, yon travay, oswa yon apatman an echanj.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us.cfpb.remittance-disclosure
+- - us.cfpb.remittance-cancel-window
+- []
+- []
+desk: us.cfpb
+actions:
+- type: call_desk
+  desk_id: us.cfpb
+utterances:
+  es:
+  - cómo mando dinero a mi casa
+  - la forma más barata de mandar dinero
+  - mandar remesas a Cuba
+  - la comisión del envío es muy alta
+  - send money a mi familia
+  en:
+  - how do I send money home
+  - cheapest way to send money to Haiti
+  - send money to Cuba
+  - the remittance fee is too high
+  - mandar dinero with an app
+  ht:
+  - kijan pou m voye lajan lakay
+  - fason ki pi bon mache pou voye lajan Ayiti
+  - voye lajan bay fanmi m
+  - frè transfè a twò chè
+  - send money bay manman m
+privacy_scope: person
+stages:
+- 4
+modes:
+- resident
+region_pack: us
+is_immigration: false
+related_cards:
+- bank-account
+- scam-check
+fact_refs:
+- us.cfpb.remittance-disclosure
+- us.cfpb.remittance-cancel-window
+topics:
+- money

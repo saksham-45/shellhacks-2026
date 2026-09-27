@@ -1,0 +1,84 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: business-tax-receipt
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan-additions.md
+  section: Batch 4
+  item: Florida business tax receipts
+title:
+  es: Recibo de impuesto comercial
+  en: Local business tax receipt
+  ht: Resi taks biznis lokal
+summary:
+  es: Revisa la fecha de vencimiento, la penalidad por atraso y si necesitas recibos del condado y de la ciudad.
+  en: Check the due date, the late penalty, and whether you need both county and city receipts.
+  ht: Tcheke dat limit lan, penalite reta a, ak si ou bezwen resi konte ak vil la.
+body:
+  es: |-
+    El recibo de impuesto comercial vence {fact:us-fl.business-tax.due-date}. Un recibo no renovado queda atrasado y paga una penalidad de {fact:us-fl.business-tax.october-penalty} el primer mes.
+
+    Si tu negocio está dentro de una ciudad, revisa tanto el recibo de la ciudad como el del condado: {fact:us-fl.business-tax.due-date}.
+
+    Una persona de {fact:us-fl.business-tax.exemption-65-disabled} puede solicitar la exención del pago si cumple esas condiciones, pero el recibo todavía se exige. Pregunta al Tax Collector por el formulario y tu caso.
+  en: |-
+    The local business tax receipt is due {fact:us-fl.business-tax.due-date}. A receipt not renewed on time is delinquent and owes a {fact:us-fl.business-tax.october-penalty} penalty for the first month.
+
+    If your business is inside a city, check both the city and county receipts: {fact:us-fl.business-tax.due-date}.
+
+    A person covered by {fact:us-fl.business-tax.exemption-65-disabled} may apply for an exemption from payment if they meet those conditions, but the receipt is still required. Ask the Tax Collector about the form and your case.
+  ht: |-
+    Resi taks biznis lokal la dwe renouvle {fact:us-fl.business-tax.due-date}. Yon resi yo pa renouvle alè vin anreta epi li dwe yon penalite {fact:us-fl.business-tax.october-penalty} pou premye mwa a.
+
+    Si biznis ou andedan yon vil, verifye resi vil la ak resi konte a: {fact:us-fl.business-tax.due-date}.
+
+    Yon moun ki tonbe anba {fact:us-fl.business-tax.exemption-65-disabled} ka mande egzanpsyon pou peman an si li ranpli kondisyon yo, men resi a toujou obligatwa. Mande Tax Collector la sou fòm nan ak ka pa w la.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl.business-tax.due-date
+  - us-fl.business-tax.october-penalty
+- - us-fl.business-tax.due-date
+- - us-fl.business-tax.exemption-65-disabled
+desk: us-fl-miamidade.tax-collector
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.tax-collector
+utterances:
+  es:
+  - necesito un recibo de impuesto comercial
+  - cuándo vence mi recibo comercial
+  - cuál es la penalidad por renovar tarde
+  - necesito recibos de la ciudad y del condado
+  - hay una exención para una persona mayor
+  en:
+  - I need a local business tax receipt
+  - when is my business receipt due
+  - what is the late renewal penalty
+  - do I need city and county receipts
+  - is there an exemption for an older person
+  ht:
+  - mwen bezwen yon resi taks biznis lokal
+  - kilè resi biznis mwen dwe renouvle
+  - ki penalite pou renouvle anreta
+  - èske mwen bezwen resi vil ak konte
+  - èske gen egzanpsyon pou yon moun ki pi gran
+privacy_scope: household
+stages:
+- 7
+- 10
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+fact_refs:
+- us-fl.business-tax.due-date
+- us-fl.business-tax.october-penalty
+- us-fl.business-tax.exemption-65-disabled
+topics:
+- work

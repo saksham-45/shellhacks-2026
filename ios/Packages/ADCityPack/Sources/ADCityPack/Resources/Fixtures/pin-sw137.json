@@ -1,0 +1,3352 @@
+{
+ "pin_id": "pin-sw137",
+ "pin": {
+  "address": "11200 SW 137th Ave, Miami, FL 33186",
+  "lat": 25.663194000003116,
+  "lon": -80.41646700000167
+ },
+ "pack_ids": [
+  "us",
+  "us-fl",
+  "us-fl-miamidade"
+ ],
+ "results": [
+  {
+   "fact_id": "us.fema.flood-zone",
+   "ledger_id": "us.fema.flood-zone.demo.pin-sw137",
+   "pack": "us",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "code",
+    "code": "X"
+   },
+   "source_id": "us.fema.nfhl",
+   "publisher": "Federal Emergency Management Agency (FEMA)",
+   "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE%2CZONE_SUBTY%2CSFHA_TF&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:11:07-04:00",
+   "quote": "FLD_ZONE: X; ZONE_SUBTY: AREA OF MINIMAL FLOOD HAZARD; SFHA_TF: F",
+   "jurisdiction": "us",
+   "desk": "us.fema-nfip",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us.uscis.forms-free",
+   "ledger_id": "us.uscis.forms-free",
+   "pack": "us",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "USCIS forms and USCIS online accounts are always free.",
+    "language": "en"
+   },
+   "source_id": "us.uscis-all-forms",
+   "publisher": "U.S. Citizenship and Immigration Services (USCIS)",
+   "url": "https://www.uscis.gov/forms/all-forms",
+   "retrieved_at": "2026-09-25T18:29:00-04:00",
+   "quote": "USCIS forms and USCIS online accounts are always free.",
+   "jurisdiction": "us",
+   "desk": "us.uscis",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us.uscis.fee-payment-methods",
+   "ledger_id": "us.uscis.fee-payment-methods",
+   "pack": "us",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "Pay.gov for benefit requests filed electronically; ACH debit transactions using Form G-1650 for benefit requests mailed to USCIS; credit, debit, and prepaid card payments using Form G-1450 for mailed requests; and, if exempt, personal or business check, money order, bank draft, or cashier’s check with Form G-1651.",
+    "language": "en"
+   },
+   "source_id": "us.uscis-g-1651",
+   "publisher": "U.S. Citizenship and Immigration Services (USCIS)",
+   "url": "https://www.uscis.gov/g-1651",
+   "retrieved_at": "2026-09-25T18:29:00-04:00",
+   "quote": "Effective Oct. 28, 2025,we will only accept payments through Pay.gov for benefit requests filed electronically. ... For benefit requests mailed to USCIS, we will only accept ACH debit transactions using Form G-1650, Authorization for ACH Transactions, or credit, debit, and prepaid card payments using Form G-1450, Authorization for Credit Card Transactions.",
+   "jurisdiction": "us",
+   "desk": "us.uscis",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us.ftc.gift-card-payment-scam",
+   "ledger_id": "us.ftc.gift-card-payment-scam",
+   "pack": "us",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "Only scammers will tell you to buy a gift card and give them the numbers off the back of the card; no real business or government agency will ever tell you to buy a gift card to pay them.",
+    "language": "en"
+   },
+   "source_id": "us.ftc-gift-card-scams",
+   "publisher": "Federal Trade Commission (FTC)",
+   "url": "https://consumer.ftc.gov/articles/avoiding-and-reporting-gift-card-scams",
+   "retrieved_at": "2026-09-25T18:29:00-04:00",
+   "quote": "Only scammers will tell you to buy a gift card, like a Google Play or Apple Card, and give them the numbers off the back of the card. No matter what they say, that’s a scam. No real business or government agency will ever tell you to buy a gift card to pay them.",
+   "jurisdiction": "us",
+   "desk": "us.ftc",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P180D"
+  },
+  {
+   "fact_id": "us-fl.flhsmv.fee.class-e-original",
+   "ledger_id": "us-fl.flhsmv.fee.class-e-original",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "money",
+    "amount": 48.0,
+    "currency": "USD"
+   },
+   "source_id": "us-fl.flhsmv-fees",
+   "publisher": "Florida Department of Highway Safety and Motor Vehicles (FLHSMV)",
+   "url": "https://www.flhsmv.gov/fees/",
+   "retrieved_at": "2026-09-25T18:29:00-04:00",
+   "quote": "Original Class E (includes Learner’s license)* $48.00 ... An additional $6.25 service fee may apply to any credential issued in a tax collector office.",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl.flhsmv",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl.flhsmv.fee.class-e-renewal",
+   "ledger_id": "us-fl.flhsmv.fee.class-e-renewal",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "money",
+    "amount": 48.0,
+    "currency": "USD"
+   },
+   "source_id": "us-fl.flhsmv-fees",
+   "publisher": "Florida Department of Highway Safety and Motor Vehicles (FLHSMV)",
+   "url": "https://www.flhsmv.gov/fees/",
+   "retrieved_at": "2026-09-25T18:29:00-04:00",
+   "quote": "Renewal Class E* $48.00 ... An additional $6.25 service fee may apply to any credential issued in a tax collector office.",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl.flhsmv",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl.flhsmv.fee.id-card-original",
+   "ledger_id": "us-fl.flhsmv.fee.id-card-original",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "money",
+    "amount": 25.0,
+    "currency": "USD"
+   },
+   "source_id": "us-fl.flhsmv-fees",
+   "publisher": "Florida Department of Highway Safety and Motor Vehicles (FLHSMV)",
+   "url": "https://www.flhsmv.gov/fees/",
+   "retrieved_at": "2026-09-25T18:29:00-04:00",
+   "quote": "Identification Cards (Original, Renewal & Replacement)* $25.00 ... An additional $6.25 service fee may apply to any credential issued in a tax collector office.",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl.flhsmv",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl.landlord.deposit.return-days-no-claim",
+   "ledger_id": "us-fl.landlord.deposit.return-days-no-claim",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "quantity",
+    "amount": 15,
+    "unit": "day"
+   },
+   "source_id": "us-fl.fl-statute-83-49",
+   "publisher": "The Florida Senate",
+   "url": "https://www.flsenate.gov/Laws/Statutes/2025/83.49",
+   "retrieved_at": "2026-09-25T18:29:00-04:00",
+   "quote": "Upon the vacating of the premises for termination of the rental agreement, if the landlord does not intend to impose a claim on the security deposit, the landlord must return the security deposit, together with interest if otherwise required, within 15 days after the termination of the rental agreement.",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl.bar-lawyer-referral",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P1Y"
+  },
+  {
+   "fact_id": "us-fl.landlord.deposit.claim-notice-days",
+   "ledger_id": "us-fl.landlord.deposit.claim-notice-days",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "quantity",
+    "amount": 30,
+    "unit": "day"
+   },
+   "source_id": "us-fl.fl-statute-83-49",
+   "publisher": "The Florida Senate",
+   "url": "https://www.flsenate.gov/Laws/Statutes/2025/83.49",
+   "retrieved_at": "2026-09-25T18:29:00-04:00",
+   "quote": "If the landlord intends to impose a claim on the deposit, the landlord must, within 30 days after the termination of the rental agreement, provide the tenant written notice by certified mail to the tenant’s last known mailing address or by e-mail in accordance with s. 83.505 of his or her intention to impose a claim on the deposit and the reason for imposing the claim.",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl.bar-lawyer-referral",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P1Y"
+  },
+  {
+   "fact_id": "us-fl.landlord.deposit.tenant-objection-days",
+   "ledger_id": "us-fl.landlord.deposit.tenant-objection-days",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "quantity",
+    "amount": 15,
+    "unit": "day"
+   },
+   "source_id": "us-fl.fl-statute-83-49",
+   "publisher": "The Florida Senate",
+   "url": "https://www.flsenate.gov/Laws/Statutes/2025/83.49",
+   "retrieved_at": "2026-09-25T18:29:00-04:00",
+   "quote": "Unless the tenant objects to the imposition of the landlord’s claim or the amount thereof within 15 days after receipt of the landlord’s notice of intention to impose a claim, the landlord may then deduct the amount of his or her claim and shall remit the balance of the deposit to the tenant within 30 days after the date of the notice of intention to impose a claim for damages.",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl.bar-lawyer-referral",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P1Y"
+  },
+  {
+   "fact_id": "us-fl-miamidade.government.municipality",
+   "ledger_id": "us-fl-miamidade.government.municipality.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "code",
+    "code": "UNINCORPORATED MIAMI-DADE"
+   },
+   "source_id": "us-fl-miamidade.gis-municipality",
+   "publisher": "Miami-Dade County (GIS)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_MDPDViewer/MapServer/8/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=NAME%2CMUNICID&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:28-04:00",
+   "quote": "NAME: UNINCORPORATED MIAMI-DADE; MUNICID: 30",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.311",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.government.municipality-id",
+   "ledger_id": "us-fl-miamidade.government.municipality-id.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "code",
+    "code": "30"
+   },
+   "source_id": "us-fl-miamidade.gis-municipality",
+   "publisher": "Miami-Dade County (GIS)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_MDPDViewer/MapServer/8/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=NAME%2CMUNICID&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:28-04:00",
+   "quote": "NAME: UNINCORPORATED MIAMI-DADE; MUNICID: 30",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.311",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.trash.garbage-days",
+   "ledger_id": "us-fl-miamidade.trash.garbage-days.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "weekdays",
+    "days": [
+     "tuesday",
+     "friday"
+    ]
+   },
+   "source_id": "us-fl-miamidade.gis-garbage-route",
+   "publisher": "Miami-Dade County (GIS; layer labels service area 'DSWM')",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/1/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=WEEKDAYS%2CROUTE&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:29-04:00",
+   "quote": "WEEKDAYS: Tuesday Friday (ROUTE 5209)",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.dswm",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.trash.recycling-day",
+   "ledger_id": "us-fl-miamidade.trash.recycling-day.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "weekdays",
+    "days": [
+     "friday"
+    ]
+   },
+   "source_id": "us-fl-miamidade.gis-recycling-route",
+   "publisher": "Miami-Dade County (GIS; layer labels service area 'DSWM')",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/2/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=WEEKDAY%2CPICKUPWEEK%2CDESCRIPTION&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:30-04:00",
+   "quote": "WEEKDAY: FRIDAY; PICKUPWEEK: A; DESCRIPTION: DSWM SERVICE AREA",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.dswm",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.trash.recycling-week",
+   "ledger_id": "us-fl-miamidade.trash.recycling-week.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "code",
+    "code": "A"
+   },
+   "source_id": "us-fl-miamidade.gis-recycling-route",
+   "publisher": "Miami-Dade County (GIS; layer labels service area 'DSWM')",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/2/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=WEEKDAY%2CPICKUPWEEK%2CDESCRIPTION&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:30-04:00",
+   "quote": "WEEKDAY: FRIDAY; PICKUPWEEK: A; DESCRIPTION: DSWM SERVICE AREA",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.dswm",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.school.elementary",
+   "ledger_id": "us-fl-miamidade.school.elementary.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "place",
+    "place": {
+     "name": "Claude Pepper Elementary",
+     "coordinate": {
+      "latitude": 25.67654,
+      "longitude": -80.42995
+     },
+     "address": "14550 SW 96th St"
+    }
+   },
+   "source_id": "us-fl-miamidade.gis-school-elementary",
+   "publisher": "Miami-Dade County (GIS)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=psde2.MDC.SchoolSite.NAME%2Cpsde2.MDC.SchoolSite.ADDRESS%2Cpsde2.MDC.SchoolSite.LAT%2Cpsde2.MDC.SchoolSite.LON%2Cpsde2.MDC.ElementaryAttendanceBoundary.PHONE%2Cpsde2.MDC.ElementaryAttendanceBoundary.GRADES&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:30-04:00",
+   "quote": "psde2.MDC.SchoolSite.NAME: Claude Pepper Elementary; ADDRESS: 14550 SW 96th St",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.m-dcps-transportation",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon",
+    "distance_m": 2007.0
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.school.elementary.phone",
+   "ledger_id": "us-fl-miamidade.school.elementary.phone.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "phone",
+    "digits": "3053865244"
+   },
+   "source_id": "us-fl-miamidade.gis-school-elementary",
+   "publisher": "Miami-Dade County (GIS)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=psde2.MDC.SchoolSite.NAME%2Cpsde2.MDC.SchoolSite.ADDRESS%2Cpsde2.MDC.SchoolSite.LAT%2Cpsde2.MDC.SchoolSite.LON%2Cpsde2.MDC.ElementaryAttendanceBoundary.PHONE%2Cpsde2.MDC.ElementaryAttendanceBoundary.GRADES&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:30-04:00",
+   "quote": "PHONE: 305-386-5244",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.m-dcps-transportation",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.school.elementary.grades",
+   "ledger_id": "us-fl-miamidade.school.elementary.grades.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "code",
+    "code": "PK-5"
+   },
+   "source_id": "us-fl-miamidade.gis-school-elementary",
+   "publisher": "Miami-Dade County (GIS)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=psde2.MDC.SchoolSite.NAME%2Cpsde2.MDC.SchoolSite.ADDRESS%2Cpsde2.MDC.SchoolSite.LAT%2Cpsde2.MDC.SchoolSite.LON%2Cpsde2.MDC.ElementaryAttendanceBoundary.PHONE%2Cpsde2.MDC.ElementaryAttendanceBoundary.GRADES&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:30-04:00",
+   "quote": "GRADES: PK-5",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.m-dcps-transportation",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.school.middle",
+   "ledger_id": "us-fl-miamidade.school.middle.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "place",
+    "place": {
+     "name": "Arvida Middle",
+     "coordinate": {
+      "latitude": 25.66654,
+      "longitude": -80.40116
+     },
+     "address": "10900 SW 127th Ave"
+    }
+   },
+   "source_id": "us-fl-miamidade.gis-school-middle",
+   "publisher": "Miami-Dade County (GIS)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=psde2.MDC.SchoolSite.NAME%2Cpsde2.MDC.SchoolSite.ADDRESS%2Cpsde2.MDC.SchoolSite.LAT%2Cpsde2.MDC.SchoolSite.LON%2Cpsde2.MDC.MiddleAttendanceBoundary.PHONE%2Cpsde2.MDC.MiddleAttendanceBoundary.GRADES&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:31-04:00",
+   "quote": "psde2.MDC.SchoolSite.NAME: Arvida Middle; ADDRESS: 10900 SW 127th Ave",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.m-dcps-transportation",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon",
+    "distance_m": 1578.6
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.school.middle.phone",
+   "ledger_id": "us-fl-miamidade.school.middle.phone.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "phone",
+    "digits": "3053857144"
+   },
+   "source_id": "us-fl-miamidade.gis-school-middle",
+   "publisher": "Miami-Dade County (GIS)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=psde2.MDC.SchoolSite.NAME%2Cpsde2.MDC.SchoolSite.ADDRESS%2Cpsde2.MDC.SchoolSite.LAT%2Cpsde2.MDC.SchoolSite.LON%2Cpsde2.MDC.MiddleAttendanceBoundary.PHONE%2Cpsde2.MDC.MiddleAttendanceBoundary.GRADES&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:31-04:00",
+   "quote": "PHONE: 305-385-7144",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.m-dcps-transportation",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.school.middle.grades",
+   "ledger_id": "us-fl-miamidade.school.middle.grades.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "code",
+    "code": "6-8"
+   },
+   "source_id": "us-fl-miamidade.gis-school-middle",
+   "publisher": "Miami-Dade County (GIS)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=psde2.MDC.SchoolSite.NAME%2Cpsde2.MDC.SchoolSite.ADDRESS%2Cpsde2.MDC.SchoolSite.LAT%2Cpsde2.MDC.SchoolSite.LON%2Cpsde2.MDC.MiddleAttendanceBoundary.PHONE%2Cpsde2.MDC.MiddleAttendanceBoundary.GRADES&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:31-04:00",
+   "quote": "GRADES: 6-8",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.m-dcps-transportation",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.school.high",
+   "ledger_id": "us-fl-miamidade.school.high.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "place",
+    "place": {
+     "name": "Miami Sunset Senior High",
+     "coordinate": {
+      "latitude": 25.70156,
+      "longitude": -80.40421
+     },
+     "address": "13125 SW 72nd St"
+    }
+   },
+   "source_id": "us-fl-miamidade.gis-school-high",
+   "publisher": "Miami-Dade County (GIS)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=psde2.MDC.SchoolSite.NAME%2Cpsde2.MDC.SchoolSite.ADDRESS%2Cpsde2.MDC.SchoolSite.LAT%2Cpsde2.MDC.SchoolSite.LON%2Cpsde2.MDC.HighAttendanceBoundary.PHONE%2Cpsde2.MDC.HighAttendanceBoundary.GRADES&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:31-04:00",
+   "quote": "psde2.MDC.SchoolSite.NAME: Miami Sunset Senior High; ADDRESS: 13125 SW 72nd St",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.m-dcps-transportation",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon",
+    "distance_m": 4439.4
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.school.high.phone",
+   "ledger_id": "us-fl-miamidade.school.high.phone.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "phone",
+    "digits": "3053854255"
+   },
+   "source_id": "us-fl-miamidade.gis-school-high",
+   "publisher": "Miami-Dade County (GIS)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=psde2.MDC.SchoolSite.NAME%2Cpsde2.MDC.SchoolSite.ADDRESS%2Cpsde2.MDC.SchoolSite.LAT%2Cpsde2.MDC.SchoolSite.LON%2Cpsde2.MDC.HighAttendanceBoundary.PHONE%2Cpsde2.MDC.HighAttendanceBoundary.GRADES&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:31-04:00",
+   "quote": "PHONE: 305-385-4255",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.m-dcps-transportation",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.school.high.grades",
+   "ledger_id": "us-fl-miamidade.school.high.grades.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "code",
+    "code": "9-12"
+   },
+   "source_id": "us-fl-miamidade.gis-school-high",
+   "publisher": "Miami-Dade County (GIS)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=psde2.MDC.SchoolSite.NAME%2Cpsde2.MDC.SchoolSite.ADDRESS%2Cpsde2.MDC.SchoolSite.LAT%2Cpsde2.MDC.SchoolSite.LON%2Cpsde2.MDC.HighAttendanceBoundary.PHONE%2Cpsde2.MDC.HighAttendanceBoundary.GRADES&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:31-04:00",
+   "quote": "GRADES: 9-12",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.m-dcps-transportation",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.parcel.folio",
+   "ledger_id": "us-fl-miamidade.parcel.folio.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "code",
+    "code": "3059100230010"
+   },
+   "source_id": "us-fl-miamidade.gis-parcels",
+   "publisher": "Miami-Dade County (GIS, PaParcel layer)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=80&units=esriSRUnit_Meter&outFields=FOLIO%2CTRUE_SITE_ADDR%2CCONDO_FLAG%2CYEAR_BUILT%2CDOR_DESC&returnGeometry=true&outSR=4326&f=json",
+   "retrieved_at": "2026-09-25T18:06:32-04:00",
+   "quote": "FOLIO: 3059100230010; TRUE_SITE_ADDR: 11200 SW 137 AVE",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.property-appraiser",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "address_match",
+    "distance_m": 0.0
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.parcel.year-built",
+   "ledger_id": "us-fl-miamidade.parcel.year-built.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "quantity",
+    "amount": 1990,
+    "unit": "year"
+   },
+   "source_id": "us-fl-miamidade.gis-parcels",
+   "publisher": "Miami-Dade County (GIS, PaParcel layer)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=80&units=esriSRUnit_Meter&outFields=FOLIO%2CTRUE_SITE_ADDR%2CCONDO_FLAG%2CYEAR_BUILT%2CDOR_DESC&returnGeometry=true&outSR=4326&f=json",
+   "retrieved_at": "2026-09-25T18:06:32-04:00",
+   "quote": "FOLIO: 3059100230010; TRUE_SITE_ADDR: 11200 SW 137 AVE; YEAR_BUILT: 1990",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.property-appraiser",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "address_match",
+    "distance_m": 0.0
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.parcel.condo",
+   "ledger_id": "us-fl-miamidade.parcel.condo.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "flag",
+    "value": false
+   },
+   "source_id": "us-fl-miamidade.gis-parcels",
+   "publisher": "Miami-Dade County (GIS, PaParcel layer)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=80&units=esriSRUnit_Meter&outFields=FOLIO%2CTRUE_SITE_ADDR%2CCONDO_FLAG%2CYEAR_BUILT%2CDOR_DESC&returnGeometry=true&outSR=4326&f=json",
+   "retrieved_at": "2026-09-25T18:06:32-04:00",
+   "quote": "FOLIO: 3059100230010; TRUE_SITE_ADDR: 11200 SW 137 AVE; CONDO_FLAG: N",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.property-appraiser",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "address_match",
+    "distance_m": 0.0
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.parcel.use",
+   "ledger_id": "us-fl-miamidade.parcel.use.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "text",
+    "text": "RESTAURANT OR CAFETERIA : RETAIL OUTLET",
+    "language": "en"
+   },
+   "source_id": "us-fl-miamidade.gis-parcels",
+   "publisher": "Miami-Dade County (GIS, PaParcel layer)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=80&units=esriSRUnit_Meter&outFields=FOLIO%2CTRUE_SITE_ADDR%2CCONDO_FLAG%2CYEAR_BUILT%2CDOR_DESC&returnGeometry=true&outSR=4326&f=json",
+   "retrieved_at": "2026-09-25T18:06:32-04:00",
+   "quote": "FOLIO: 3059100230010; TRUE_SITE_ADDR: 11200 SW 137 AVE; DOR_DESC: RESTAURANT OR CAFETERIA : RETAIL OUTLET",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.property-appraiser",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "address_match",
+    "distance_m": 0.0
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.utility.water",
+   "ledger_id": "us-fl-miamidade.utility.water.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "code",
+    "code": "MDWS"
+   },
+   "source_id": "us-fl-miamidade.gis-water-service",
+   "publisher": "Miami-Dade County (GIS)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_WaterSewer/MapServer/1/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=UTILITYNAME&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:32-04:00",
+   "quote": "UTILITYNAME: MDWS",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.wasd",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.utility.sewer",
+   "ledger_id": "us-fl-miamidade.utility.sewer.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "code",
+    "code": "MDWS"
+   },
+   "source_id": "us-fl-miamidade.gis-sewer-service",
+   "publisher": "Miami-Dade County (GIS)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_WaterSewer/MapServer/0/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=UTILITYNAME&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:32-04:00",
+   "quote": "UTILITYNAME: MDWS",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.wasd",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.parks.nearest-county.1",
+   "ledger_id": "us-fl-miamidade.parks.nearest-county.1.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "place",
+    "place": {
+     "name": "CAMP MATECUMBE",
+     "coordinate": {
+      "latitude": 25.658261,
+      "longitude": -80.418928
+     },
+     "address": "13841 SW 120TH ST"
+    }
+   },
+   "source_id": "us-fl-miamidade.gis-parks-county",
+   "publisher": "Miami-Dade County (GIS)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/1/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter&outFields=NAME%2CADDRESS&returnGeometry=true&outSR=4326&f=json",
+   "retrieved_at": "2026-09-25T18:06:33-04:00",
+   "quote": "NAME: CAMP MATECUMBE; ADDRESS: 13841 SW 120TH ST",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.parks",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "buffer_then_haversine",
+    "distance_m": 601.5
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.parks.nearest-county.2",
+   "ledger_id": "us-fl-miamidade.parks.nearest-county.2.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "place",
+    "place": {
+     "name": "ARVIDA PARK",
+     "coordinate": {
+      "latitude": 25.666504,
+      "longitude": -80.403083
+     },
+     "address": "12890 SW 108TH ST"
+    }
+   },
+   "source_id": "us-fl-miamidade.gis-parks-county",
+   "publisher": "Miami-Dade County (GIS)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/1/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter&outFields=NAME%2CADDRESS&returnGeometry=true&outSR=4326&f=json",
+   "retrieved_at": "2026-09-25T18:06:33-04:00",
+   "quote": "NAME: ARVIDA PARK; ADDRESS: 12890 SW 108TH ST",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.parks",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "buffer_then_haversine",
+    "distance_m": 1391.0
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.parks.nearest-county.3",
+   "ledger_id": "us-fl-miamidade.parks.nearest-county.3.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "place",
+    "place": {
+     "name": "KINGS MEADOW PARK",
+     "coordinate": {
+      "latitude": 25.675805,
+      "longitude": -80.422324
+     },
+     "address": "9900 SW 142ND AVE"
+    }
+   },
+   "source_id": "us-fl-miamidade.gis-parks-county",
+   "publisher": "Miami-Dade County (GIS)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/1/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter&outFields=NAME%2CADDRESS&returnGeometry=true&outSR=4326&f=json",
+   "retrieved_at": "2026-09-25T18:06:33-04:00",
+   "quote": "NAME: KINGS MEADOW PARK; ADDRESS: 9900 SW 142ND AVE",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.parks",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "buffer_then_haversine",
+    "distance_m": 1520.1
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.parks.nearest-municipal.1",
+   "ledger_id": "us-fl-miamidade.parks.nearest-municipal.1.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "not_applicable",
+   "is_demo": true,
+   "value": null,
+   "source_id": "us-fl-miamidade.gis-parks-municipal",
+   "publisher": "Miami-Dade County (GIS)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/0/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter&outFields=NAME%2CADDRESS&returnGeometry=true&outSR=4326&f=json",
+   "retrieved_at": "2026-09-25T18:06:33-04:00",
+   "quote": null,
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.parks",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "buffer_then_haversine"
+   },
+   "not_applicable": {
+    "reason": "regions.na.none-within-radius",
+    "defer_to": null
+   },
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.parks.nearest-municipal.2",
+   "ledger_id": "us-fl-miamidade.parks.nearest-municipal.2.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "not_applicable",
+   "is_demo": true,
+   "value": null,
+   "source_id": "us-fl-miamidade.gis-parks-municipal",
+   "publisher": "Miami-Dade County (GIS)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/0/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter&outFields=NAME%2CADDRESS&returnGeometry=true&outSR=4326&f=json",
+   "retrieved_at": "2026-09-25T18:06:33-04:00",
+   "quote": null,
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.parks",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "buffer_then_haversine"
+   },
+   "not_applicable": {
+    "reason": "regions.na.none-within-radius",
+    "defer_to": null
+   },
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.parks.nearest-municipal.3",
+   "ledger_id": "us-fl-miamidade.parks.nearest-municipal.3.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "not_applicable",
+   "is_demo": true,
+   "value": null,
+   "source_id": "us-fl-miamidade.gis-parks-municipal",
+   "publisher": "Miami-Dade County (GIS)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/0/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter&outFields=NAME%2CADDRESS&returnGeometry=true&outSR=4326&f=json",
+   "retrieved_at": "2026-09-25T18:06:33-04:00",
+   "quote": null,
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.parks",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "buffer_then_haversine"
+   },
+   "not_applicable": {
+    "reason": "regions.na.none-within-radius",
+    "defer_to": null
+   },
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.library.nearest.1",
+   "ledger_id": "us-fl-miamidade.library.nearest.1.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "place",
+    "place": {
+     "name": "West Kendall Regional",
+     "coordinate": {
+      "latitude": 25.672999,
+      "longitude": -80.441097
+     },
+     "address": "10201 Hammocks Blvd #159"
+    }
+   },
+   "source_id": "us-fl-miamidade.gis-libraries",
+   "publisher": "Miami-Dade County (GIS)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=5000&units=esriSRUnit_Meter&outFields=BRANCH%2CADDRESS&returnGeometry=true&outSR=4326&f=json",
+   "retrieved_at": "2026-09-25T18:06:34-04:00",
+   "quote": "BRANCH: West Kendall Regional; ADDRESS: 10201 Hammocks Blvd #159",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.library",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "buffer_then_haversine",
+    "distance_m": 2698.5
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.library.nearest.2",
+   "ledger_id": "us-fl-miamidade.library.nearest.2.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "place",
+    "place": {
+     "name": "Kendale Lakes Branch",
+     "coordinate": {
+      "latitude": 25.685193,
+      "longitude": -80.441645
+     },
+     "address": "15205 SW 88th St"
+    }
+   },
+   "source_id": "us-fl-miamidade.gis-libraries",
+   "publisher": "Miami-Dade County (GIS)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=5000&units=esriSRUnit_Meter&outFields=BRANCH%2CADDRESS&returnGeometry=true&outSR=4326&f=json",
+   "retrieved_at": "2026-09-25T18:06:34-04:00",
+   "quote": "BRANCH: Kendale Lakes Branch; ADDRESS: 15205 SW 88th St",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.library",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "buffer_then_haversine",
+    "distance_m": 3514.3
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.library.nearest.3",
+   "ledger_id": "us-fl-miamidade.library.nearest.3.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "place",
+    "place": {
+     "name": "Country Walk Branch",
+     "coordinate": {
+      "latitude": 25.624163,
+      "longitude": -80.413008
+     },
+     "address": "15433 SW 137th Ave"
+    }
+   },
+   "source_id": "us-fl-miamidade.gis-libraries",
+   "publisher": "Miami-Dade County (GIS)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=5000&units=esriSRUnit_Meter&outFields=BRANCH%2CADDRESS&returnGeometry=true&outSR=4326&f=json",
+   "retrieved_at": "2026-09-25T18:06:34-04:00",
+   "quote": "BRANCH: Country Walk Branch; ADDRESS: 15433 SW 137th Ave",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.library",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "buffer_then_haversine",
+    "distance_m": 4353.9
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.vote.precinct",
+   "ledger_id": "us-fl-miamidade.vote.precinct.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "code",
+    "code": "792"
+   },
+   "source_id": "us-fl-miamidade.gis-vote",
+   "publisher": "Miami-Dade County (GIS, KnowWhereToVote service)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/3/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ID&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:34-04:00",
+   "quote": "Precinct ID: 792",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.elections",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P7D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.vote.polling-place",
+   "ledger_id": "us-fl-miamidade.vote.polling-place.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "place",
+    "place": {
+     "name": "Our Lady of Lourdes Catholic Church",
+     "coordinate": {
+      "latitude": 25.66231,
+      "longitude": -80.42335
+     },
+     "address": "11291 SW 142 Ave"
+    }
+   },
+   "source_id": "us-fl-miamidade.gis-vote",
+   "publisher": "Miami-Dade County (GIS, KnowWhereToVote service)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/0/query?where=PRECINCT%3D792&outFields=NAME%2CADDRESS%2CLAT%2CLON%2CPRECINCT&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:35-04:00",
+   "quote": "PRECINCT: 792; NAME: Our Lady of Lourdes Catholic Church; ADDRESS: 11291 SW 142 Ave",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.elections",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "attribute_query",
+    "distance_m": 696.8
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P7D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.rep.county-commission.district",
+   "ledger_id": "us-fl-miamidade.rep.county-commission.district.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "code",
+    "code": "11"
+   },
+   "source_id": "us-fl-miamidade.gis-vote",
+   "publisher": "Miami-Dade County (GIS, KnowWhereToVote service)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/4/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ID%2CCOMMNAME&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:35-04:00",
+   "quote": "ID: 11; COMMNAME: Roberto J. Gonzalez",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.elections",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P7D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.rep.county-commission.member",
+   "ledger_id": "us-fl-miamidade.rep.county-commission.member.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "code",
+    "code": "Roberto J. Gonzalez"
+   },
+   "source_id": "us-fl-miamidade.gis-vote",
+   "publisher": "Miami-Dade County (GIS, KnowWhereToVote service)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/4/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ID%2CCOMMNAME&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:35-04:00",
+   "quote": "ID: 11; COMMNAME: Roberto J. Gonzalez",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.elections",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P7D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.rep.congress.district",
+   "ledger_id": "us-fl-miamidade.rep.congress.district.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "code",
+    "code": "28"
+   },
+   "source_id": "us-fl-miamidade.gis-vote",
+   "publisher": "Miami-Dade County (GIS, KnowWhereToVote service)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/5/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ID%2CREPNAME&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:36-04:00",
+   "quote": "ID: 28; REPNAME: Carlos A. Giménez",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.elections",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P7D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.rep.congress.member",
+   "ledger_id": "us-fl-miamidade.rep.congress.member.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "code",
+    "code": "Carlos A. Giménez"
+   },
+   "source_id": "us-fl-miamidade.gis-vote",
+   "publisher": "Miami-Dade County (GIS, KnowWhereToVote service)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/5/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ID%2CREPNAME&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:36-04:00",
+   "quote": "ID: 28; REPNAME: Carlos A. Giménez",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.elections",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P7D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.rep.state-senate.district",
+   "ledger_id": "us-fl-miamidade.rep.state-senate.district.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "code",
+    "code": "40"
+   },
+   "source_id": "us-fl-miamidade.gis-vote",
+   "publisher": "Miami-Dade County (GIS, KnowWhereToVote service)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/6/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ID%2CSENNAME&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:36-04:00",
+   "quote": "ID: 40; SENNAME: Ana Maria Rodriguez",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.elections",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P7D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.rep.state-senate.member",
+   "ledger_id": "us-fl-miamidade.rep.state-senate.member.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "code",
+    "code": "Ana Maria Rodriguez"
+   },
+   "source_id": "us-fl-miamidade.gis-vote",
+   "publisher": "Miami-Dade County (GIS, KnowWhereToVote service)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/6/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ID%2CSENNAME&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:36-04:00",
+   "quote": "ID: 40; SENNAME: Ana Maria Rodriguez",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.elections",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P7D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.rep.state-house.district",
+   "ledger_id": "us-fl-miamidade.rep.state-house.district.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "code",
+    "code": "119"
+   },
+   "source_id": "us-fl-miamidade.gis-vote",
+   "publisher": "Miami-Dade County (GIS, KnowWhereToVote service)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/7/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ID%2CREPNAME&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:37-04:00",
+   "quote": "ID: 119; REPNAME: Juan Carlos Porras",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.elections",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P7D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.rep.state-house.member",
+   "ledger_id": "us-fl-miamidade.rep.state-house.member.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "code",
+    "code": "Juan Carlos Porras"
+   },
+   "source_id": "us-fl-miamidade.gis-vote",
+   "publisher": "Miami-Dade County (GIS, KnowWhereToVote service)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/7/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ID%2CREPNAME&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:37-04:00",
+   "quote": "ID: 119; REPNAME: Juan Carlos Porras",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.elections",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P7D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.rep.school-board.district",
+   "ledger_id": "us-fl-miamidade.rep.school-board.district.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "code",
+    "code": "7"
+   },
+   "source_id": "us-fl-miamidade.gis-vote",
+   "publisher": "Miami-Dade County (GIS, KnowWhereToVote service)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/8/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ID%2CBRDMBR&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:37-04:00",
+   "quote": "ID: 7; BRDMBR: Dr. Lubby Navarro",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.elections",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P7D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.rep.school-board.member",
+   "ledger_id": "us-fl-miamidade.rep.school-board.member.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "code",
+    "code": "Dr. Lubby Navarro"
+   },
+   "source_id": "us-fl-miamidade.gis-vote",
+   "publisher": "Miami-Dade County (GIS, KnowWhereToVote service)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/8/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ID%2CBRDMBR&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:06:37-04:00",
+   "quote": "ID: 7; BRDMBR: Dr. Lubby Navarro",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.elections",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P7D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.transit.nearest-stop.1",
+   "ledger_id": "us-fl-miamidade.transit.nearest-stop.1.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "place",
+    "place": {
+     "name": "SW 137 AV @ SW 112 ST",
+     "coordinate": {
+      "latitude": 25.66308,
+      "longitude": -80.41622
+     },
+     "address": null
+    }
+   },
+   "source_id": "us-fl-miamidade.gtfs",
+   "publisher": "Miami-Dade County DTPW (Miami-Dade Transit)",
+   "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+   "retrieved_at": "2026-09-25T18:07:12-04:00",
+   "quote": "stops.txt stop_id 3296: SW 137 AV @ SW 112 ST; routes.txt route_short_name: 137",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.transit",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "gtfs_haversine",
+    "distance_m": 27.8
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P7D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.transit.nearest-stop.1.routes",
+   "ledger_id": "us-fl-miamidade.transit.nearest-stop.1.routes.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "codes",
+    "codes": [
+     "137"
+    ]
+   },
+   "source_id": "us-fl-miamidade.gtfs",
+   "publisher": "Miami-Dade County DTPW (Miami-Dade Transit)",
+   "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+   "retrieved_at": "2026-09-25T18:07:12-04:00",
+   "quote": "stops.txt stop_id 3296: SW 137 AV @ SW 112 ST; routes.txt route_short_name: 137",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.transit",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "gtfs_haversine",
+    "distance_m": 27.8
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P7D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.transit.nearest-stop.2",
+   "ledger_id": "us-fl-miamidade.transit.nearest-stop.2.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "place",
+    "place": {
+     "name": "SW 137 AV & SW 112 ST",
+     "coordinate": {
+      "latitude": 25.663373,
+      "longitude": -80.415947
+     },
+     "address": null
+    }
+   },
+   "source_id": "us-fl-miamidade.gtfs",
+   "publisher": "Miami-Dade County DTPW (Miami-Dade Transit)",
+   "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+   "retrieved_at": "2026-09-25T18:07:12-04:00",
+   "quote": "stops.txt stop_id 3312: SW 137 AV & SW 112 ST; routes.txt route_short_name: 137",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.transit",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "gtfs_haversine",
+    "distance_m": 55.8
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P7D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.transit.nearest-stop.2.routes",
+   "ledger_id": "us-fl-miamidade.transit.nearest-stop.2.routes.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "codes",
+    "codes": [
+     "137"
+    ]
+   },
+   "source_id": "us-fl-miamidade.gtfs",
+   "publisher": "Miami-Dade County DTPW (Miami-Dade Transit)",
+   "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+   "retrieved_at": "2026-09-25T18:07:12-04:00",
+   "quote": "stops.txt stop_id 3312: SW 137 AV & SW 112 ST; routes.txt route_short_name: 137",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.transit",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "gtfs_haversine",
+    "distance_m": 55.8
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P7D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.transit.nearest-stop.3",
+   "ledger_id": "us-fl-miamidade.transit.nearest-stop.3.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "place",
+    "place": {
+     "name": "SW 137 AV @ SW 109 ST",
+     "coordinate": {
+      "latitude": 25.66662,
+      "longitude": -80.41636
+     },
+     "address": null
+    }
+   },
+   "source_id": "us-fl-miamidade.gtfs",
+   "publisher": "Miami-Dade County DTPW (Miami-Dade Transit)",
+   "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+   "retrieved_at": "2026-09-25T18:07:12-04:00",
+   "quote": "stops.txt stop_id 3295: SW 137 AV @ SW 109 ST; routes.txt route_short_name: 137",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.transit",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "gtfs_haversine",
+    "distance_m": 381.1
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P7D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.transit.nearest-stop.3.routes",
+   "ledger_id": "us-fl-miamidade.transit.nearest-stop.3.routes.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "codes",
+    "codes": [
+     "137"
+    ]
+   },
+   "source_id": "us-fl-miamidade.gtfs",
+   "publisher": "Miami-Dade County DTPW (Miami-Dade Transit)",
+   "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+   "retrieved_at": "2026-09-25T18:07:12-04:00",
+   "quote": "stops.txt stop_id 3295: SW 137 AV @ SW 109 ST; routes.txt route_short_name: 137",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.transit",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "gtfs_haversine",
+    "distance_m": 381.1
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P7D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.rent.line",
+   "ledger_id": "us-fl-miamidade.rent.line.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "unsourced",
+   "is_demo": true,
+   "value": null,
+   "source_id": null,
+   "publisher": null,
+   "url": null,
+   "retrieved_at": null,
+   "quote": null,
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.housing",
+   "basis": {
+    "method": "device_coords"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": null
+  },
+  {
+   "fact_id": "us-fl-miamidade.storm.evacuation-zone",
+   "ledger_id": "us-fl-miamidade.storm.evacuation-zone.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "code",
+    "code": "D"
+   },
+   "source_id": "us-fl-miamidade.gis-evacuation-zone",
+   "publisher": "Miami-Dade County GIS (Information Technology Department)",
+   "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_CommunityServices/MapServer/7/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ZONEID%2CCATEGORY&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:11:08-04:00",
+   "quote": "ZONEID: D; CATEGORY: 4",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.311",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.mia.taxi.meter-rule",
+   "ledger_id": "us-fl-miamidade.mia.taxi.meter-rule",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "The metered rate is calculated at $2.95 for the first 1/6 mile, $0.85 for each additional 1/6 mile up to one mile, $0.55 for each additional 1/6 mile after, and $0.40 per minute ($24.00 per hour) wait charge; a $2.00 airport origination fee also applies and MIA trips have a $15 minimum fare.",
+    "language": "en"
+   },
+   "source_id": "us-fl-miamidade.mia-taxicabs-shuttles",
+   "publisher": "Miami International Airport (Miami-Dade Aviation Department)",
+   "url": "https://www.miami-airport.com/taxicabs-shuttles.asp",
+   "retrieved_at": "2026-09-25T18:29:00-04:00",
+   "quote": "Below are the current taxi rates. A $2.00 airport origination fee also applies. ... $2.95 for the first 1/6 mile ... $0.85 for each additional 1/6 mile up to one mile ... $0.55 for each additional 1/6 mile after ... $0.40 per minute ($24.00 per hour) wait charge ... A minimum fare of $15 is established for trips originated at MIA.",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.mia-information",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.mia.taxi.flat-rate-rule",
+   "ledger_id": "us-fl-miamidade.mia.taxi.flat-rate-rule",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "All flat fare rates are eliminated. The meter rate applies now to all trips. The ARTS program will continue but passengers will be charged the meter rate instead of a flat fare.",
+    "language": "en"
+   },
+   "source_id": "us-fl-miamidade.mdc-taxicab-passenger-info",
+   "publisher": "Miami-Dade County",
+   "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1572618493969359",
+   "retrieved_at": "2026-09-25T18:29:00-04:00",
+   "quote": "All flat fare rates are eliminated. The meter rate applies now to all trips. This also applies to taxicabs providing services under the Airport Regional Taxicab Service (ARTS/Blue Cabs) Program. ... The ARTS program will continue but passengers will be charged the meter rate instead of a flat fare.",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.mia-information",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.211.name",
+   "ledger_id": "us-fl-miamidade.211.name",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "code",
+    "code": "211 Miami"
+   },
+   "source_id": "us-fl-miamidade.211-miami",
+   "publisher": "211 Miami",
+   "url": "https://211miami.org/",
+   "retrieved_at": "2026-09-25T17:32:00-04:00",
+   "quote": "211 Miami | Confidential Helpline",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.211",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.211.phone",
+   "ledger_id": "us-fl-miamidade.211.phone",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "phone",
+    "digits": "211"
+   },
+   "source_id": "us-fl-miamidade.211-miami",
+   "publisher": "211 Miami",
+   "url": "https://211miami.org/",
+   "retrieved_at": "2026-09-25T17:28:00-04:00",
+   "quote": "24/7 Helpline connecting people in need to community resources and providing emotional support/crisis intervention. Dial 211 Alternative Phone: (305) 631-4211 Text your zip code to 898211",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.211",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.211.phone-alt",
+   "ledger_id": "us-fl-miamidade.211.phone-alt",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "phone",
+    "digits": "305-631-4211"
+   },
+   "source_id": "us-fl-miamidade.211-miami",
+   "publisher": "211 Miami",
+   "url": "https://211miami.org/",
+   "retrieved_at": "2026-09-25T17:28:00-04:00",
+   "quote": "Dial 211 Alternative Phone: (305) 631-4211",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.211",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.211.text-number",
+   "ledger_id": "us-fl-miamidade.211.text-number",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "Text your ZIP code to 898211",
+    "language": "en"
+   },
+   "source_id": "us-fl-miamidade.211-miami",
+   "publisher": "211 Miami",
+   "url": "https://211miami.org/",
+   "retrieved_at": "2026-09-25T17:28:00-04:00",
+   "quote": "Text your zip code to 898211",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.211",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us.988.phone",
+   "ledger_id": "us.988.phone",
+   "pack": "us",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "phone",
+    "digits": "988"
+   },
+   "source_id": "us.988-lifeline",
+   "publisher": "988 Suicide & Crisis Lifeline",
+   "url": "https://988lifeline.org/",
+   "retrieved_at": "2026-09-25T17:38:00-04:00",
+   "quote": "988 Lifeline - If you need emotional support, reach out to the national mental health hotline: 988.",
+   "jurisdiction": "us",
+   "desk": "us.988",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P180D"
+  },
+  {
+   "fact_id": "us-fl.dcf-access.name",
+   "ledger_id": "us-fl.dcf-access.name",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "code",
+    "code": "Florida DCF"
+   },
+   "source_id": "us-fl.dcf-access",
+   "publisher": "Florida Department of Children and Families",
+   "url": "https://www.myflfamilies.com/services/public-assistance",
+   "retrieved_at": "2026-09-25T18:02:50-04:00",
+   "quote": "Public Benefits and Services | Florida DCF",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl.dcf-access",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl.dcf-access.url",
+   "ledger_id": "us-fl.dcf-access.url",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "code",
+    "code": "https://www.myflfamilies.com/services/public-assistance"
+   },
+   "source_id": "us-fl.dcf-access",
+   "publisher": "Florida Department of Children and Families",
+   "url": "https://www.myflfamilies.com/services/public-assistance",
+   "retrieved_at": "2026-09-25T18:02:50-04:00",
+   "quote": "Public Benefits and Services | Florida DCF",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl.dcf-access",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.legal-aid.name",
+   "ledger_id": "us-fl-miamidade.legal-aid.name",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "code",
+    "code": "Legal Services of Greater Miami"
+   },
+   "source_id": "us-fl-miamidade.lsgmi-home",
+   "publisher": "Legal Services of Greater Miami",
+   "url": "https://www.legalservicesmiami.org/",
+   "retrieved_at": "2026-09-25T17:32:00-04:00",
+   "quote": "Legal Services of Greater Miami",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.legal-aid",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.legal-aid.phone",
+   "ledger_id": "us-fl-miamidade.legal-aid.phone",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "phone",
+    "digits": "305-576-0080"
+   },
+   "source_id": "us-fl-miamidade.lsgmi-home",
+   "publisher": "Legal Services of Greater Miami",
+   "url": "https://www.legalservicesmiami.org/",
+   "retrieved_at": "2026-09-25T17:28:00-04:00",
+   "quote": "Legal Services of Greater Miami 4343 West Flagler Street, Suite 100, Miami, Florida 33134 Miami-Dade: (305) 576-0080",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.legal-aid",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.legal-aid.address",
+   "ledger_id": "us-fl-miamidade.legal-aid.address",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "place",
+    "place": {
+     "name": "Legal Services of Greater Miami",
+     "coordinate": {
+      "latitude": 25.771905,
+      "longitude": -80.266622
+     },
+     "address": "4343 West Flagler Street, Suite 100, Miami, FL 33134"
+    }
+   },
+   "source_id": "us-fl-miamidade.lsgmi-home",
+   "publisher": "Legal Services of Greater Miami",
+   "url": "https://www.legalservicesmiami.org/",
+   "retrieved_at": "2026-09-25T17:32:00-04:00",
+   "quote": "4343 West Flagler Street, Suite 100, Miami, Florida 33134",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.legal-aid",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl.florida-bar-lrs.name",
+   "ledger_id": "us-fl.florida-bar-lrs.name",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "code",
+    "code": "The Florida Bar Lawyer Referral Service"
+   },
+   "source_id": "us-fl.florida-bar-lrs",
+   "publisher": "The Florida Bar",
+   "url": "https://www.floridabar.org/public/lrs/",
+   "retrieved_at": "2026-09-25T17:32:00-04:00",
+   "quote": "The Florida Bar Lawyer Referral Service",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl.florida-bar-lrs",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl.florida-bar-lrs.phone",
+   "ledger_id": "us-fl.florida-bar-lrs.phone",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "phone",
+    "digits": "800-342-8011"
+   },
+   "source_id": "us-fl.florida-bar-lrs",
+   "publisher": "The Florida Bar",
+   "url": "https://www.floridabar.org/public/lrs/",
+   "retrieved_at": "2026-09-25T17:38:00-04:00",
+   "quote": "Please note we do not have pro bono lawyers. Find a Florida Legal Aid program in your area. Give us a Call Call 800-342-8011, Monday-Friday, 8:00 a.m.-5:30 p.m.",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl.florida-bar-lrs",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.immigration-legal-aid.name",
+   "ledger_id": "us-fl-miamidade.immigration-legal-aid.name",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "code",
+    "code": "Catholic Legal Services, Archdiocese of Miami"
+   },
+   "source_id": "us-fl-miamidade.provider.cclsmiami",
+   "publisher": "Catholic Legal Services, Archdiocese of Miami",
+   "url": "https://www.cclsmiami.org/",
+   "retrieved_at": "2026-09-25T17:40:24-04:00",
+   "quote": "Catholic Legal Services provides professional legal services to those who come from foreign lands who lack sufficient means to obtain representation without regard to faith or national origin.",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.immigration-legal-aid",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P7D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.immigration-legal-aid.phone",
+   "ledger_id": "us-fl-miamidade.immigration-legal-aid.phone",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "phone",
+    "digits": "305-373-1073"
+   },
+   "source_id": "us-fl-miamidade.provider.cclsmiami",
+   "publisher": "Catholic Legal Services, Archdiocese of Miami",
+   "url": "https://www.cclsmiami.org/",
+   "retrieved_at": "2026-09-25T17:40:24-04:00",
+   "quote": "Tel. 305-373-1073",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.immigration-legal-aid",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P7D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.immigration-legal-aid.address",
+   "ledger_id": "us-fl-miamidade.immigration-legal-aid.address",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "place",
+    "place": {
+     "name": "Catholic Legal Services, Archdiocese of Miami",
+     "coordinate": {
+      "latitude": 25.786998,
+      "longitude": -80.220272
+     },
+     "address": "1469 NW 13th Terrace, Suite 100, Miami, FL 33125 (downtown office)"
+    }
+   },
+   "source_id": "us-fl-miamidade.cls-miami",
+   "publisher": "Catholic Legal Services, Archdiocese of Miami",
+   "url": "https://www.cclsmiami.org/",
+   "retrieved_at": "2026-09-25T17:32:00-04:00",
+   "quote": "1469 NW 13th Terr, Suite 100 Miami, FL 33125",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.immigration-legal-aid",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us.immigration.notario-not-authorized",
+   "ledger_id": "us.immigration.notario-not-authorized",
+   "pack": "us",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "Only an attorney or an accredited representative working for a Department of Justice recognized organization can give you legal advice and represent you in your immigration case. In the United States, notary publics are not authorized to provide legal services.",
+    "language": "en"
+   },
+   "source_id": "us.uscis-common-scams",
+   "publisher": "U.S. Citizenship and Immigration Services (USCIS)",
+   "url": "https://www.uscis.gov/scams-fraud-and-misconduct/avoid-scams/common-scams",
+   "retrieved_at": "2026-09-25T17:38:00-04:00",
+   "quote": "Only an attorney or an accredited representative working for a Department of Justice recognized organization can give you legal advice and represent you in your immigration case. In many Spanish-speaking nations, “notarios” are attorneys with special legal credentials. In the United States, however, notary publics are not authorized to provide legal services;",
+   "jurisdiction": "us",
+   "desk": "us.uscis",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P180D"
+  },
+  {
+   "fact_id": "us-fl.wic.phone-state",
+   "ledger_id": "us-fl.wic.phone-state",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "phone",
+    "digits": "800-342-3556"
+   },
+   "source_id": "us-fl.doh-wic",
+   "publisher": "Florida Department of Health",
+   "url": "https://www.floridahealth.gov/programs-and-services/wic/",
+   "retrieved_at": "2026-09-25T22:40:00-04:00",
+   "quote": "To apply for WIC, contact a local WIC office. Find a local phone number or call 800-342-3556",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl.wic",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.wic.phone",
+   "ledger_id": "us-fl-miamidade.wic.phone",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "phone",
+    "digits": "786-336-1300"
+   },
+   "source_id": "us-fl-miamidade.doh-wic",
+   "publisher": "Florida Department of Health in Miami-Dade County",
+   "url": "https://miamidade.floridahealth.gov/programs-and-services/wic/",
+   "retrieved_at": "2026-09-25T22:40:00-04:00",
+   "quote": "Simply call us at 786-336-1300 and schedule your appointment today at your preferred WIC Center.",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl.wic",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.wic.citizenship-not-required",
+   "ledger_id": "us-fl-miamidade.wic.citizenship-not-required",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "Legal residency / citizenship is NOT required (WIC does not report legal status to the federal government). Must live in Florida (citizenship not required).",
+    "language": "en"
+   },
+   "source_id": "us-fl-miamidade.doh-wic",
+   "publisher": "Florida Department of Health in Miami-Dade County",
+   "url": "https://miamidade.floridahealth.gov/programs-and-services/wic/",
+   "retrieved_at": "2026-09-25T22:40:00-04:00",
+   "quote": "Legal residency / citizenship is NOT required (WIC does not report legal status to the federal government",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl.wic",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us.wic.who",
+   "ledger_id": "us.wic.who",
+   "pack": "us",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "WIC is available to women who are currently pregnant, postpartum (up to 6 months after the end of a pregnancy), or breastfeeding (up to the infant’s first birthday); infants; and children (up to their fifth birthday).",
+    "language": "en"
+   },
+   "source_id": "us.fns-wic-eligibility",
+   "publisher": "U.S. Department of Agriculture, Food and Nutrition Service",
+   "url": "https://www.fns.usda.gov/wic/eligibility",
+   "retrieved_at": "2026-09-25T22:40:00-04:00",
+   "quote": "WIC is available to: Women who are currently pregnant, postpartum (up to 6 months after the end of a pregnancy), or breastfeeding (up to the infant’s first birthday); Infants; Children (up to their fifth birthday)",
+   "jurisdiction": "us",
+   "desk": "us-fl.wic",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us.fns.school-meals-immigration",
+   "ledger_id": "us.fns.school-meals-immigration",
+   "pack": "us",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "A child eligible for a free public education under state or local law is not ineligible for school lunch or school breakfast based on citizenship, alienage, or immigration status.",
+    "language": "en"
+   },
+   "source_id": "us.fns-prwora-federal-public-benefit",
+   "publisher": "U.S. Department of Agriculture, Food and Nutrition Service",
+   "url": "https://www.fns.usda.gov/programs/fr-071025",
+   "retrieved_at": "2026-09-25T22:40:00-04:00",
+   "quote": "an individual who is eligible to receive free public education benefits under State or local law shall not be ineligible to receive benefits provided under the school lunch program ... or the school breakfast program ... on the basis of citizenship, alienage, or immigration status.",
+   "jurisdiction": "us",
+   "desk": "us-fl-miamidade.m-dcps-transportation",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us.fns.snap-undocumented-not-eligible",
+   "ledger_id": "us.fns.snap-undocumented-not-eligible",
+   "pack": "us",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "Only U.S. citizens and certain lawfully present non-citizens may receive SNAP benefits. SNAP is not and has never been available to undocumented non-citizens.",
+    "language": "en"
+   },
+   "source_id": "us.fns-snap-non-citizen",
+   "publisher": "U.S. Department of Agriculture, Food and Nutrition Service",
+   "url": "https://fns.usda.gov/snap/recipient/eligibility/non-citizen",
+   "retrieved_at": "2026-09-25T22:40:00-04:00",
+   "quote": "Only U.S. citizens and certain lawfully present non-citizens may receive SNAP benefits. SNAP is not and has never been available to undocumented non-citizens.",
+   "jurisdiction": "us",
+   "desk": "us-fl.dcf-access",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us.hrsa.health-center.ability-to-pay",
+   "ledger_id": "us.hrsa.health-center.ability-to-pay",
+   "pack": "us",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "Get care at a HRSA-funded health center regardless of your ability to pay. Health centers serve everyone, even if they cannot pay, and adjust fees based on income and family size.",
+    "language": "en"
+   },
+   "source_id": "us.hrsa-health-centers",
+   "publisher": "Health Resources and Services Administration (HRSA)",
+   "url": "https://www.hrsa.gov/",
+   "retrieved_at": "2026-09-25T22:40:00-04:00",
+   "quote": "Get care at a HRSA-funded health center regardless of your ability to pay.",
+   "jurisdiction": "us",
+   "desk": "us.community-health-center",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us.hrsa.find-a-health-center.url",
+   "ledger_id": "us.hrsa.find-a-health-center.url",
+   "pack": "us",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "code",
+    "code": "https://findahealthcenter.hrsa.gov/"
+   },
+   "source_id": "us.hrsa-find-health-center",
+   "publisher": "Health Resources and Services Administration (HRSA)",
+   "url": "https://bphc.hrsa.gov/about-health-centers/what-health-center",
+   "retrieved_at": "2026-09-25T22:40:00-04:00",
+   "quote": "Use the Find a Health Center tool to locate a health center clinic near you.",
+   "jurisdiction": "us",
+   "desk": "us.community-health-center",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us.hrsa.health-center.anyone",
+   "ledger_id": "us.hrsa.health-center.anyone",
+   "pack": "us",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "Anyone may use a community health care center, whether you have health insurance or not. How much you pay is based on a sliding scale at each facility.",
+    "language": "en"
+   },
+   "source_id": "us.hrsa-eligibility",
+   "publisher": "Health Resources and Services Administration (HRSA)",
+   "url": "https://www.hrsa.gov/get-health-care/affordable/eligibility",
+   "retrieved_at": "2026-09-25T22:40:00-04:00",
+   "quote": "Anyone may use a community health care center, whether you have health insurance or not. How much you pay is based on a sliding scale at each facility.",
+   "jurisdiction": "us",
+   "desk": "us.community-health-center",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl.school.plyler-equal-access",
+   "ledger_id": "us-fl.school.plyler-equal-access",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "In accordance with federal law (Plyler v. Doe, 1982 U.S. Supreme Court), any student who lives in any state and is of compulsory school age is entitled to equal access to public school. No district shall inquire into a student’s or his parents’ immigration status.",
+    "language": "en"
+   },
+   "source_id": "us-fl.fldoe-immigrant-tech-assist",
+   "publisher": "Florida Department of Education",
+   "url": "https://www.fldoe.org/core/fileparse.php/7764/urlt/techassisresource.pdf",
+   "retrieved_at": "2026-09-25T22:40:00-04:00",
+   "quote": "In accordance with federal law (Plyler v. Doe, 1982 U.S. Supreme Court), any student who lives in any state and is of compulsory school age is entitled to equal access to public school. ... No district shall inquire into a student’s or his parents’ immigration status (Florida Consent Decree).",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl-miamidade.m-dcps-transportation",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.mdcps.ferpa-status",
+   "ledger_id": "us-fl-miamidade.mdcps.ferpa-status",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "By law, school officials cannot disclose immigration status. FERPA prohibits school districts from releasing or sharing personally identifiable information, including citizenship status, with outside entities.",
+    "language": "en"
+   },
+   "source_id": "us-fl-miamidade.mdcps-undocumented-guide-2025",
+   "publisher": "Miami-Dade County Public Schools",
+   "url": "https://api.dadeschools.net/WMSFiles/94/Additional%20Resources/Resource%20Guide%20for%20Undocumented%20Students_Updated%20Jan%202025.pdf",
+   "retrieved_at": "2026-09-25T22:40:00-04:00",
+   "quote": "If you have concerns about telling your advisor or counselor about your immigration status, please know that by law, school officials cannot disclose immigration status. The Family Educational Rights and Privacy Act (FERPA) prohibits school districts from releasing or sharing personally identifiable information, including citizenship status, with outside entities.",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.m-dcps-transportation",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl.kidcare.name",
+   "ledger_id": "us-fl.kidcare.name",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "code",
+    "code": "Florida KidCare"
+   },
+   "source_id": "us-fl.kidcare",
+   "publisher": "Florida KidCare",
+   "url": "https://www.floridakidcare.org/",
+   "retrieved_at": "2026-09-25T18:02:50-04:00",
+   "quote": "Home - Florida KidCare",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl.kidcare",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl.kidcare.url",
+   "ledger_id": "us-fl.kidcare.url",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "code",
+    "code": "https://www.floridakidcare.org/"
+   },
+   "source_id": "us-fl.kidcare",
+   "publisher": "Florida KidCare",
+   "url": "https://www.floridakidcare.org/",
+   "retrieved_at": "2026-09-25T18:02:50-04:00",
+   "quote": "Home - Florida KidCare",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl.kidcare",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl.kidcare.phone",
+   "ledger_id": "us-fl.kidcare.phone",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "phone",
+    "digits": "888-540-5437"
+   },
+   "source_id": "us-fl.doh-wic-links",
+   "publisher": "Florida Department of Health",
+   "url": "https://www.floridahealth.gov/programs-and-services/wic/links.html",
+   "retrieved_at": "2026-09-25T22:40:00-04:00",
+   "quote": "KidCare : 888-540-5437. Low cost health insurance for uninsured children birth to age 18 years.",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl.kidcare",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.liheap.status-requirement",
+   "ledger_id": "us-fl-miamidade.liheap.status-requirement",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "Must be a U.S. citizen or have legal permanent resident status",
+    "language": "en"
+   },
+   "source_id": "us-fl-miamidade.light-bill-assistance",
+   "publisher": "Miami-Dade County",
+   "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1504204216164378",
+   "retrieved_at": "2026-09-25T18:20:00-04:00",
+   "quote": "Must be a U.S. citizen or have legal permanent resident status",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.community-services",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl.liheap.household-status-requirement",
+   "ledger_id": "us-fl.liheap.household-status-requirement",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "At least one person in your household is a U.S. Citizen, permanent resident or qualified alien of the U.S.",
+    "language": "en"
+   },
+   "source_id": "us-fl.liheap-faq",
+   "publisher": "Florida LIHEAP",
+   "url": "https://floridaliheap.com/faq",
+   "retrieved_at": "2026-09-25T19:15:00-04:00",
+   "quote": "At least one person in your household is a U.S. Citizen, permanent resident or qualified alien of the U.S.",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl-miamidade.community-services",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.jackson.phone",
+   "ledger_id": "us-fl-miamidade.jackson.phone",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "phone",
+    "digits": "305-585-1111"
+   },
+   "source_id": "us-fl-miamidade.jackson-health",
+   "publisher": "Jackson Health System",
+   "url": "https://jacksonhealth.org/",
+   "retrieved_at": "2026-09-25T17:28:00-04:00",
+   "quote": "Contact by Phone 305-585-1111",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.jackson",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.jackson.financial-assistance.sliding-scale-max-fpl",
+   "ledger_id": "us-fl-miamidade.jackson.financial-assistance.sliding-scale-max-fpl",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "quantity",
+    "amount": 300,
+    "unit": "percent of FPG"
+   },
+   "source_id": "us-fl-miamidade.jackson-financial-assistance",
+   "publisher": "Jackson Health System",
+   "url": "https://jacksonhealth.org/patient-tools/financial-assistance",
+   "retrieved_at": "2026-09-25T19:15:00-04:00",
+   "quote": "based on income and current Federal Poverty Guidelines up to 300 percent.",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.jackson",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.jackson.healthcare-advisors.phone",
+   "ledger_id": "us-fl-miamidade.jackson.healthcare-advisors.phone",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "phone",
+    "digits": "305-585-2222"
+   },
+   "source_id": "us-fl-miamidade.jackson-financial-assistance",
+   "publisher": "Jackson Health System",
+   "url": "https://jacksonhealth.org/patient-tools/financial-assistance",
+   "retrieved_at": "2026-09-25T19:15:00-04:00",
+   "quote": "Please contact one of our Healthcare Advisors at 305-585-2222",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.jackson",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.homeless-trust.phone",
+   "ledger_id": "us-fl-miamidade.homeless-trust.phone",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "phone",
+    "digits": "1-877-994-4357"
+   },
+   "source_id": "us-fl-miamidade.mdc-homeless-trust",
+   "publisher": "Miami-Dade County Homeless Trust",
+   "url": "https://www.homelesstrust.org/homeless-trust/home.page",
+   "retrieved_at": "2026-09-25T17:28:00-04:00",
+   "quote": "Homeless or about to be? Call our Homeless Helpline for assistance. Call 1-877-994-4357",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.homeless-trust",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us.poison-control.phone",
+   "ledger_id": "us.poison-control.phone",
+   "pack": "us",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "phone",
+    "digits": "1-800-222-1222"
+   },
+   "source_id": "us.poison-control",
+   "publisher": "National Capital Poison Center",
+   "url": "https://www.poison.org/",
+   "retrieved_at": "2026-09-25T17:38:00-04:00",
+   "quote": "1-800-222-1222",
+   "jurisdiction": "us",
+   "desk": "us.poison-control",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us.medicaid.hr1.noncitizen-eligibility.effective",
+   "ledger_id": "us.medicaid.hr1.noncitizen-eligibility.effective",
+   "pack": "us",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "date",
+    "date": "2026-10-01"
+   },
+   "source_id": "us.congress.pl119-21.sec71109",
+   "publisher": "United States Congress",
+   "url": "https://www.congress.gov/bill/119th-congress/house-bill/1/text",
+   "retrieved_at": "2026-09-25T17:40:48-04:00",
+   "quote": "beginning on October 1, 2026, except as provided in paragraphs (2) and (4), in no event shall payment be made to a State under this section for medical assistance furnished to an individual unless such individual is—",
+   "jurisdiction": "us",
+   "desk": "us-fl.dcf-access",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.vision-zero.goal",
+   "ledger_id": "us-fl-miamidade.vision-zero.goal",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "Miami-Dade's Vision Zero goal is to end traffic fatalities and serious injuries by 2040, while increasing safe, reliable, sustainable and equitable mobility for all.",
+    "language": "en"
+   },
+   "source_id": "us-fl-miamidade.vision-zero",
+   "publisher": "Miami-Dade County Department of Transportation and Public Works (DTPW)",
+   "url": "https://www.miamidade.gov/VisionZero",
+   "retrieved_at": "2026-09-26T12:20:00-04:00",
+   "quote": "Miami-Dade's Vision Zero goal is to end traffic fatalities and serious injuries by 2040, while increasing safe, reliable, sustainable and equitable mobility for all.",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.dtpw",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.vision-zero.hin-share",
+   "ledger_id": "us-fl-miamidade.vision-zero.hin-share",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "The County's high-injury network is about 20% of road miles and accounts for 86% of fatal and severe-injury crashes. DTPW is improving 24 of those locations.",
+    "language": "en"
+   },
+   "source_id": "us-fl-miamidade.vision-zero-ss4a-2023",
+   "publisher": "Miami-Dade County (Mayor's Office / DTPW)",
+   "url": "https://www.miamidade.gov/global/release.page?Mduid_release=rel1702605530122623",
+   "retrieved_at": "2026-09-26T12:20:00-04:00",
+   "quote": "The awarded funds will focus on infrastructure improvements at 24 critical locations within the County's high-injury network. These areas, while only representing about 20% of the county's total road miles, account for 86% of all fatal and severe-injury crashes.",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.dtpw",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.vision-zero.hub",
+   "ledger_id": "us-fl-miamidade.vision-zero.hub",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "County Vision Zero crash map: visionzeromdc.miamidade.gov (High Injury Network, 2019–2024 killed or seriously injured).",
+    "language": "en"
+   },
+   "source_id": "us-fl-miamidade.vision-zero-hub",
+   "publisher": "Miami-Dade County DTPW (Vision Zero Hub)",
+   "url": "https://visionzeromdc.miamidade.gov/",
+   "retrieved_at": "2026-09-26T12:20:00-04:00",
+   "quote": "This dashboard presents crash reporting data as outlined in Miami-Dade County's 2021 Vision Zero Plan. It focuses on fatal and severe injury crashes, particularly within the High Injury Network and equity areas, addressing risks to vulnerable road users and transit access.",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.dtpw",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.311.phone",
+   "ledger_id": "us-fl-miamidade.311.phone",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "phone",
+    "digits": "311"
+   },
+   "source_id": "us-fl-miamidade.311-contact",
+   "publisher": "Miami-Dade County 311 Contact Center",
+   "url": "https://www.miamidade.gov/global/311.page",
+   "retrieved_at": "2026-09-26T12:20:00-04:00",
+   "quote": "By dialing 311 or 305-468-5900 (outside Miami-Dade County), you can receive personalized customer service in English, Spanish or Haitian Creole.",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.311",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.311.phone-alt",
+   "ledger_id": "us-fl-miamidade.311.phone-alt",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "phone",
+    "digits": "3054685900"
+   },
+   "source_id": "us-fl-miamidade.311-contact",
+   "publisher": "Miami-Dade County 311 Contact Center",
+   "url": "https://www.miamidade.gov/global/311.page",
+   "retrieved_at": "2026-09-26T12:20:00-04:00",
+   "quote": "By dialing 311 or 305-468-5900 (outside Miami-Dade County), you can receive personalized customer service in English, Spanish or Haitian Creole.",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.311",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.311.hours-languages",
+   "ledger_id": "us-fl-miamidade.311.hours-languages",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "311 is English, Spanish, or Haitian Creole. Monday–Friday 7 a.m.–7 p.m., Saturday 8 a.m.–5 p.m. Closed Sunday and holidays. Florida Relay 711.",
+    "language": "en"
+   },
+   "source_id": "us-fl-miamidade.311-contact",
+   "publisher": "Miami-Dade County 311 Contact Center",
+   "url": "https://www.miamidade.gov/global/311.page",
+   "retrieved_at": "2026-09-26T12:20:00-04:00",
+   "quote": "The 311 Contact Center is open Monday through Friday from 7 a.m. to 7 p.m. and Saturday from 8 a.m. to 5 p.m., while closed on Sundays and holidays.",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.311",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.311.traffic-signal",
+   "ledger_id": "us-fl-miamidade.311.traffic-signal",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "311 takes reports for a traffic sign or traffic signal issue, a pothole, and Miami-Dade Transit trip planning.",
+    "language": "en"
+   },
+   "source_id": "us-fl-miamidade.311-contact",
+   "publisher": "Miami-Dade County 311 Contact Center",
+   "url": "https://www.miamidade.gov/global/311.page",
+   "retrieved_at": "2026-09-26T12:20:00-04:00",
+   "quote": "Report an issue with a traffic sign or traffic signal",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.311",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.mia.taxi.stand-location",
+   "ledger_id": "us-fl-miamidade.mia.taxi.stand-location",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "Official MIA taxis are on the arrivals (ground) level, outside baggage claim.",
+    "language": "en"
+   },
+   "source_id": "us-fl-miamidade.mia-taxicabs-shuttles",
+   "publisher": "Miami International Airport (Miami-Dade Aviation Department)",
+   "url": "https://www.miami-airport.com/taxicabs-shuttles.asp",
+   "retrieved_at": "2026-09-26T12:20:00-04:00",
+   "quote": "Taxicabs are located on the arrivals (ground) level of the airport, outside of the baggage claim areas.",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.mia-information",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.mia.taxi.solicitor-warning",
+   "ledger_id": "us-fl-miamidade.mia.taxi.solicitor-warning",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "Ignore transportation offers inside the terminal. Go to the designated taxi stand on the lower-level curb. Uniformed Aviation staff assist there. Many solicitors are unlicensed and uninsured.",
+    "language": "en"
+   },
+   "source_id": "us-fl-miamidade.mia-taxicabs-shuttles",
+   "publisher": "Miami International Airport (Miami-Dade Aviation Department)",
+   "url": "https://www.miami-airport.com/taxicabs-shuttles.asp",
+   "retrieved_at": "2026-09-26T12:20:00-04:00",
+   "quote": "Passengers at MIA are advised to ignore offers of transportation from solicitors inside the terminal. Solicitation of ground transportation is an illegal activity and many illegal solicitors are unlicensed and uninsured. To obtain safe and legitimate ground transportation, please be sure to go to the designated Taxi stands located at the lower-level curb, outside of the baggage claim area, where uniformed Miami-Dade Aviation Department staff members will be happy to assist you.",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.mia-information",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl.flhsmv.insurance.pip-pdl-required",
+   "ledger_id": "us-fl.flhsmv.insurance.pip-pdl-required",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "Before you register a vehicle with at least four wheels in Florida, you must show proof of PIP and PDL automobile insurance.",
+    "language": "en"
+   },
+   "source_id": "us-fl.flhsmv-insurance",
+   "publisher": "Florida Department of Highway Safety and Motor Vehicles (FLHSMV)",
+   "url": "https://www.flhsmv.gov/insurance/",
+   "retrieved_at": "2026-09-26T12:20:00-04:00",
+   "quote": "Before you register a vehicle with at least four wheels in Florida, you must show proof of Personal Injury Protection (PIP) and Property Damage Liability (PDL) automobile insurance.",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl.flhsmv",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P180D"
+  },
+  {
+   "fact_id": "us-fl.flhsmv.insurance.minimums",
+   "ledger_id": "us-fl.flhsmv.insurance.minimums",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "Florida minimums: $10,000 PIP and $10,000 PDL. The Tax Collector / FLHSMV desk checks this at registration. This app does not sell a policy.",
+    "language": "en"
+   },
+   "source_id": "us-fl.flhsmv-insurance",
+   "publisher": "Florida Department of Highway Safety and Motor Vehicles (FLHSMV)",
+   "url": "https://www.flhsmv.gov/insurance/",
+   "retrieved_at": "2026-09-26T12:20:00-04:00",
+   "quote": "have a minimum of $10,000 in PIP AND a minimum of $10,000 in PDL.",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl.flhsmv",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P180D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.police.nearest.name",
+   "ledger_id": "us-fl-miamidade.police.nearest.name.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "place",
+    "place": {
+     "name": "Hammocks Station",
+     "coordinate": {
+      "latitude": 25.67464,
+      "longitude": -80.42293
+     },
+     "address": "10000 SW 142nd Ave"
+    }
+   },
+   "source_id": "us-fl-miamidade.gis-mdpd-stations",
+   "publisher": "Miami-Dade County GIS (MDPD stations)",
+   "url": "https://gisweb.miamidade.gov/ArcGIS/rest/services/CommunityServices/MD_PublicSafety/MapServer/3/query",
+   "retrieved_at": "2026-09-26T12:20:00-04:00",
+   "quote": "NAME: Hammocks Station; ADDRESS: 10000 SW 142nd Ave; PHONE: 305-383-6800",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.mdpd",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.police.nearest.phone",
+   "ledger_id": "us-fl-miamidade.police.nearest.phone.demo.pin-sw137",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": true,
+   "value": {
+    "type": "phone",
+    "digits": "3053836800"
+   },
+   "source_id": "us-fl-miamidade.gis-mdpd-stations",
+   "publisher": "Miami-Dade County GIS (MDPD stations)",
+   "url": "https://gisweb.miamidade.gov/ArcGIS/rest/services/CommunityServices/MD_PublicSafety/MapServer/3/query",
+   "retrieved_at": "2026-09-26T12:20:00-04:00",
+   "quote": "NAME: Hammocks Station; ADDRESS: 10000 SW 142nd Ave; PHONE: 305-383-6800",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.mdpd",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "point_in_polygon"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.311.non-emergency",
+   "ledger_id": "us-fl-miamidade.311.non-emergency",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "311 is the non-emergency desk (English, Spanish, Haitian Creole). It is closed Sunday and after evening hours listed on the county page.",
+    "language": "en"
+   },
+   "source_id": "us-fl-miamidade.311-contact",
+   "publisher": "Miami-Dade County 311 Contact Center",
+   "url": "https://www.miamidade.gov/global/311.page",
+   "retrieved_at": "2026-09-26T16:40:00-04:00",
+   "quote": "Miami-Dade County's 311 Contact Center serves as a primary channel for accessing non-emergency government services and information in English, Spanish and Haitian Creole.",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.311",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.mia.rideshare.levels",
+   "ledger_id": "us-fl-miamidade.mia.rideshare.levels",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "MIA ride-app pickups: first level (arrivals) and second level (departures). Check the app for the door number.",
+    "language": "en"
+   },
+   "source_id": "us-fl-miamidade.mia-taxicabs-shuttles",
+   "publisher": "Miami International Airport (Miami-Dade Aviation Department)",
+   "url": "https://www.miami-airport.com/taxicabs-shuttles.asp",
+   "retrieved_at": "2026-09-26T16:40:00-04:00",
+   "quote": "Ride app pickups are available on the first level (arrivals) and second level (departures). Please check your preferred ride app for designated locations and door numbers.",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.mia-information",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.transit.parking.daily-fee",
+   "ledger_id": "us-fl-miamidade.transit.parking.daily-fee",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "Metrorail daily parking is $4.50 at a ticket machine, or $4.85 in PayByPhone. Transit customers only.",
+    "language": "en"
+   },
+   "source_id": "us-fl-miamidade.metrorail-parking",
+   "publisher": "Miami-Dade County DTPW (Miami-Dade Transit)",
+   "url": "https://www.miamidade.gov/transit/metrorail-parking.asp",
+   "retrieved_at": "2026-09-26T16:40:00-04:00",
+   "quote": "The cost is $4.50 at a TVM, or $4.85 through the PayByPhone app.",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.transit",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.transit.parking.hours",
+   "ledger_id": "us-fl-miamidade.transit.parking.hours",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "Metrorail parking garages are open 5 a.m. to 1 a.m., seven days a week.",
+    "language": "en"
+   },
+   "source_id": "us-fl-miamidade.metrorail-parking",
+   "publisher": "Miami-Dade County DTPW (Miami-Dade Transit)",
+   "url": "https://www.miamidade.gov/transit/metrorail-parking.asp",
+   "retrieved_at": "2026-09-26T16:40:00-04:00",
+   "quote": "Metrorail parking garages are open from 5 a.m. to one hour passed midnight (1 a.m.), seven days a week.",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.transit",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.transit.parking.customers-only",
+   "ledger_id": "us-fl-miamidade.transit.parking.customers-only",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "You must board Metrorail or Metrobus to park at a Metrorail facility.",
+    "language": "en"
+   },
+   "source_id": "us-fl-miamidade.metrorail-parking",
+   "publisher": "Miami-Dade County DTPW (Miami-Dade Transit)",
+   "url": "https://www.miamidade.gov/transit/metrorail-parking.asp",
+   "retrieved_at": "2026-09-26T16:40:00-04:00",
+   "quote": "Metrorail parking is available to Transit customers only. You must board Metrorail or Metrobus to park at a Metrorail facility.",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.transit",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.transit.parking.theft-disclaimer",
+   "ledger_id": "us-fl-miamidade.transit.parking.theft-disclaimer",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "The county is not responsible for damage, theft, or vandalism to vehicles or their contents at Metrorail parking.",
+    "language": "en"
+   },
+   "source_id": "us-fl-miamidade.metrorail-parking",
+   "publisher": "Miami-Dade County DTPW (Miami-Dade Transit)",
+   "url": "https://www.miamidade.gov/transit/metrorail-parking.asp",
+   "retrieved_at": "2026-09-26T16:40:00-04:00",
+   "quote": "Miami-Dade County and Miami-Dade Transit are not responsible for damage, theft or vandalism to vehicles or their contents.",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.transit",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P90D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.crime-map.county",
+   "ledger_id": "us-fl-miamidade.crime-map.county",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "County crime incident map: miamidade.gov Crime Map. It may not include information for individual cities. This app does not score a neighborhood.",
+    "language": "en"
+   },
+   "source_id": "us-fl-miamidade.crime-map",
+   "publisher": "Miami-Dade County (Sheriff's Office / service page)",
+   "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1510669357918648",
+   "retrieved_at": "2026-09-26T16:40:00-04:00",
+   "quote": "Our crime incident map can show you crimes that have been committed near you. It may not include information for individual cities.",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.mdpd",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl-miamidade.transit.parking.dadeland-south",
+   "ledger_id": "us-fl-miamidade.transit.parking.dadeland-south",
+   "pack": "us-fl-miamidade",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "Dadeland South Metrorail has surface and garage parking for Transit customers.",
+    "language": "en"
+   },
+   "source_id": "us-fl-miamidade.metrorail-parking",
+   "publisher": "Miami-Dade County DTPW (Miami-Dade Transit)",
+   "url": "https://www.miamidade.gov/transit/metrorail-parking.asp",
+   "retrieved_at": "2026-09-26T16:40:00-04:00",
+   "quote": "Surface parking: ... Dadeland South ... Garage parking: ... Dadeland South ... Dadeland North ...",
+   "jurisdiction": "us-fl-miamidade",
+   "desk": "us-fl-miamidade.transit",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P30D"
+  },
+  {
+   "fact_id": "us-fl.flhsmv.crash.notify-law",
+   "ledger_id": "us-fl.flhsmv.crash.notify-law",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "If anyone is hurt, or damage looks at least $500, contact local law enforcement now.",
+    "language": "en"
+   },
+   "source_id": "us-fl.flhsmv-involved-in-a-crash",
+   "publisher": "Florida Department of Highway Safety and Motor Vehicles (FLHSMV)",
+   "url": "https://www.flhsmv.gov/insurance/involved-in-a-crash/",
+   "retrieved_at": "2026-09-26T17:10:00-04:00",
+   "quote": "Section 316.065, Florida Statutes, requires the driver of a vehicle involved in a crash involving injury or death to a person, or at least $500 estimated vehicle or property damage to immediately contact local law enforcement.",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl.flhsmv",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P180D"
+  },
+  {
+   "fact_id": "us-fl.flhsmv.crash.self-report",
+   "ledger_id": "us-fl.flhsmv.crash.self-report",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "If an officer is not required, FLHSMV has a Driver Report of Traffic Crash and a Driver Exchange of Information form at flhsmv.gov/traffic-crash-reports/.",
+    "language": "en"
+   },
+   "source_id": "us-fl.flhsmv-involved-in-a-crash",
+   "publisher": "Florida Department of Highway Safety and Motor Vehicles (FLHSMV)",
+   "url": "https://www.flhsmv.gov/insurance/involved-in-a-crash/",
+   "retrieved_at": "2026-09-26T17:10:00-04:00",
+   "quote": "Otherwise, you can complete a “Driver Report of Traffic Crash (Self Report)” or “Driver Exchange of Information” on line, or download the form at https://www.flhsmv.gov/traffic-crash-reports/ and submit it to the address on the form.",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl.flhsmv",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P180D"
+  },
+  {
+   "fact_id": "us-fl.statute.316.062.exchange",
+   "ledger_id": "us-fl.statute.316.062.exchange",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "Florida law: give your name, address, and vehicle registration. Show your license if asked. Help if someone is hurt.",
+    "language": "en"
+   },
+   "source_id": "us-fl.statute-316-062",
+   "publisher": "The Florida Senate",
+   "url": "https://www.flsenate.gov/Laws/Statutes/2026/Chapter316/All",
+   "retrieved_at": "2026-09-26T17:10:00-04:00",
+   "quote": "The driver of any vehicle involved in a crash resulting in injury to or death of any person or damage to any vehicle or other property which is driven or attended by any person shall give his or her name, address, and the registration number of the vehicle he or she is driving, and shall upon request and if available exhibit his or her license or permit to drive",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl.flhsmv",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P180D"
+  },
+  {
+   "fact_id": "us-fl.statute.316.062.self-incrimination",
+   "ledger_id": "us-fl.statute.316.062.self-incrimination",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "This app does not decide fault. The duty to report to an officer does not extend to information that would violate the privilege against self-incrimination.",
+    "language": "en"
+   },
+   "source_id": "us-fl.statute-316-062",
+   "publisher": "The Florida Senate",
+   "url": "https://www.flsenate.gov/Laws/Statutes/2026/Chapter316/All",
+   "retrieved_at": "2026-09-26T17:10:00-04:00",
+   "quote": "The statutory duty of a person to make a report or give information to a law enforcement officer making a written report relating to a crash shall not be construed as extending to information which would violate the privilege of such person against self-incrimination.",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl.flhsmv",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P180D"
+  },
+  {
+   "fact_id": "us-fl.flhsmv.crash.customer-service",
+   "ledger_id": "us-fl.flhsmv.crash.customer-service",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "phone",
+    "digits": "8506172000"
+   },
+   "source_id": "us-fl.flhsmv-involved-in-a-crash",
+   "publisher": "Florida Department of Highway Safety and Motor Vehicles (FLHSMV)",
+   "url": "https://www.flhsmv.gov/insurance/involved-in-a-crash/",
+   "retrieved_at": "2026-09-26T17:10:00-04:00",
+   "quote": "Call the Department of Highway Safety and Motor Vehicles, Customer Service Center, at (850) 617-2000.",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl.flhsmv",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P180D"
+  },
+  {
+   "fact_id": "us-fl.statute.316.070.exchange-at-scene",
+   "ledger_id": "us-fl.statute.316.070.exchange-at-scene",
+   "pack": "us-fl",
+   "status": "ok",
+   "is_demo": false,
+   "value": {
+    "type": "text",
+    "text": "At a reported crash, the officer instructs each driver to give owner and driver name and address, the vehicle license number, and the name of the liability carrier.",
+    "language": "en"
+   },
+   "source_id": "us-fl.statute-316-070",
+   "publisher": "The Florida Senate",
+   "url": "https://www.flsenate.gov/Laws/Statutes/2025/0316.070",
+   "retrieved_at": "2026-09-26T17:10:00-04:00",
+   "quote": "The law enforcement officer at the scene of a crash required to be reported in accordance with the provisions of s. 316.066 shall instruct the driver of each vehicle involved in the crash to report the following to all other parties suffering injury or property damage as an apparent result of the crash: (1) The name and address of the owner and the driver of the vehicle. (2) The license number of the vehicle. (3) The name of the liability carrier for the vehicle.",
+   "jurisdiction": "us-fl",
+   "desk": "us-fl.flhsmv",
+   "basis": {
+    "method": "device_coords",
+    "lookup": "ledger"
+   },
+   "not_applicable": null,
+   "error": null,
+   "check_every": "P180D"
+  }
+ ]
+}

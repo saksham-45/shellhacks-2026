@@ -1,0 +1,86 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: school-shots
+kind: country
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The country, same everywhere
+  item: School immunization as a concept
+title:
+  es: Las vacunas de la escuela
+  en: School shots
+  ht: Vaksen lekòl
+summary:
+  es: Las escuelas de Estados Unidos piden el récord de vacunas del niño. El estado decide cuáles.
+  en: US schools ask for a child's vaccine record. The state decides which shots.
+  ht: Lekòl Etazini mande kat vaksen timoun nan. Se leta ki deside ki vaksen.
+body:
+  es: |-
+    Cada estado fija las vacunas que un niño necesita para la escuela.
+
+    En Florida, un médico o el departamento de salud llena el formulario de vacunas escolares del estado.
+
+    Lleva la tarjeta de vacunas de tu país. Una clínica puede pasarla al formulario del estado.
+  en: |-
+    Each state sets the vaccines a child needs for school.
+
+    In Florida, a doctor or the health department fills in the state's own school vaccine form.
+
+    Bring the vaccine card from home. A clinic can copy it onto the state form.
+  ht: |-
+    Chak eta fikse vaksen yon timoun bezwen pou lekòl.
+
+    Nan Florid, yon doktè oswa depatman sante a ranpli fòm vaksen lekòl leta a.
+
+    Pote kat vaksen ou te genyen lakay. Yon klinik ka kopye l sou fòm leta a.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us.school.immunization-state-law
+- - us-fl.school.immunization-form
+- - us-fl.school.immunization-transfer
+desk: us.community-health-center
+actions:
+- type: call_desk
+  desk_id: us.community-health-center
+- type: open_map
+  target:
+    type: desk
+    desk_id: us.community-health-center
+utterances:
+  es:
+  - qué vacunas necesita mi hijo
+  - vacunas de la escuela
+  - formulario de vacunas para la escuela
+  - la tarjeta de vacunas de mi hijo es de mi país
+  en:
+  - what shots does my kid need
+  - school vaccines
+  - vaccine form for school
+  - my son's vaccine card is from home
+  ht:
+  - ki vaksen pitit mwen bezwen
+  - vaksen lekòl
+  - fòm vaksen pou lekòl
+  - kat vaksen pitit mwen soti Ayiti
+privacy_scope: person
+stages:
+- 7
+modes:
+- resident
+region_pack: us
+is_immigration: false
+related_cards:
+- school-enrollment
+fact_refs:
+- us.school.immunization-state-law
+- us-fl.school.immunization-form
+- us-fl.school.immunization-transfer
+topics:
+- schools
+- health

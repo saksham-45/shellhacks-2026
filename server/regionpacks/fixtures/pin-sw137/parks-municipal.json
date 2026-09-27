@@ -1,0 +1,1 @@
+{"displayFieldName":"NAME","fieldAliases":{"NAME":"NAME","ADDRESS":"ADDRESS"},"geometryType":"esriGeometryPoint","spatialReference":{"wkid":4326,"latestWkid":4326},"fields":[{"name":"NAME","type":"esriFieldTypeString","alias":"NAME","length":45},{"name":"ADDRESS","type":"esriFieldTypeString","alias":"ADDRESS","length":50}],"features":[]}

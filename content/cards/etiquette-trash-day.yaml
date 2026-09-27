@@ -1,0 +1,86 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: etiquette-trash-day
+kind: etiquette
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Origin lens > Etiquette cards
+  item: Trash day is a rule with a fine. The night before is the hero for a settled household.
+title:
+  es: El día de la basura es una regla
+  en: Trash day is a rule
+  ht: Jou fatra se yon règ
+summary:
+  es: Los botes salen la noche antes y se entran después de la recogida. El día o el lugar equivocado puede traer una multa.
+  en: Carts go out the night before and come back after pickup. The wrong day or the wrong place can bring a fine.
+  ht: Bokit yo sòti aswè anvan an epi yo rantre apre ranmasaj la. Move jou oswa move plas ka pote yon amand.
+body:
+  es: |-
+    Tu gobierno para esta dirección: {fact:us-fl-miamidade.gov.municipality}.
+
+    Reglas del condado sobre cuándo y dónde sacar los botes: {fact:us-fl-miamidade.trash.cart-rules}.
+
+    En la Ciudad de Miami, se aplican las reglas de la ciudad: {fact:us-fl-miami.trash.cart-rules}.
+  en: |-
+    Your government for this pin: {fact:us-fl-miamidade.gov.municipality}.
+
+    County rules on when and where carts go out: {fact:us-fl-miamidade.trash.cart-rules}.
+
+    In the City of Miami, the city's own rules apply: {fact:us-fl-miami.trash.cart-rules}.
+  ht: |-
+    Gouvènman ou pou adrès sa a: {fact:us-fl-miamidade.gov.municipality}.
+
+    Règ konte a sou ki lè ak ki kote pou mete bokit yo deyò: {fact:us-fl-miamidade.trash.cart-rules}.
+
+    Nan Vil Miami, se règ vil la ki aplike: {fact:us-fl-miami.trash.cart-rules}.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.gov.municipality
+- - us-fl-miamidade.trash.cart-rules
+- - us-fl-miami.trash.cart-rules
+paragraph_when:
+- municipality: unincorporated
+- municipality: unincorporated
+- municipality: us-fl-miami
+desk: us-fl-miamidade.311
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.311
+utterances:
+  es:
+  - cuándo saco la basura
+  - me pueden multar por la basura
+  - reglas de los botes de basura
+  - cuándo entro los botes
+  en:
+  - when do I put the trash out
+  - can I get a fine for trash
+  - trash can rules
+  - when do I bring the cans back
+  ht:
+  - ki lè pou m mete fatra deyò
+  - èske yo ka ban m amand pou fatra
+  - règ pou bokit fatra yo
+  - ki lè pou m rantre bokit yo
+privacy_scope: household
+stages:
+- 10
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- trash-and-recycling
+fact_refs:
+- us-fl-miamidade.gov.municipality
+- us-fl-miamidade.trash.cart-rules
+- us-fl-miami.trash.cart-rules
+topics:
+- trash
+- municipality

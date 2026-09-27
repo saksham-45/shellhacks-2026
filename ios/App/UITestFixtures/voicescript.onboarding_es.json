@@ -1,0 +1,35 @@
+{
+  "lines": [
+    {
+      "expect": "a11y.onboarding.step.people",
+      "language": "es",
+      "text": "la primera"
+    },
+    {
+      "expect": "a11y.onboarding.step.originAndLanguage",
+      "language": "es",
+      "text": "Ana 20, Rosa 58"
+    },
+    {
+      "expect": "a11y.onboarding.step.goal",
+      "language": "es",
+      "text": "soy de Cuba y hablo español"
+    },
+    {
+      "expect": "a11y.onboarding.step.originAndLanguage",
+      "language": "es",
+      "text": "la segunda"
+    },
+    {
+      "expect": "a11y.onboarding.step.goal",
+      "language": "es",
+      "text": "soy de Cuba y hablo español"
+    },
+    {
+      "expect": "a11y.household.list",
+      "language": "es",
+      "text": "la primera"
+    }
+  ],
+  "name": "onboarding_es"
+}

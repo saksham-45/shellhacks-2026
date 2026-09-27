@@ -1,0 +1,149 @@
+{
+  "language": "en",
+  "version": 1,
+  "review": {
+    "state": "translated",
+    "note": "Source language. Agent-authored; common US English command phrasings."
+  },
+  "fillers": [
+    "please",
+    "hey",
+    "now"
+  ],
+  "commands": {
+    "back": [
+      "back",
+      "go back"
+    ],
+    "home": [
+      "go home",
+      "home screen"
+    ],
+    "read_this": [
+      "read this",
+      "read it",
+      "read this to me",
+      "read it to me",
+      "read aloud"
+    ],
+    "stop": [
+      "stop",
+      "stop talking"
+    ],
+    "repeat": [
+      "repeat",
+      "repeat that",
+      "say that again",
+      "again"
+    ],
+    "next_step": [
+      "next",
+      "next step",
+      "what's next"
+    ],
+    "previous_step": [
+      "previous step",
+      "previous"
+    ],
+    "call_desk": [
+      "call",
+      "call them",
+      "call the office",
+      "call the desk"
+    ],
+    "open_map": [
+      "map",
+      "open the map",
+      "show me the map",
+      "get directions"
+    ],
+    "switch_language_es": [
+      "spanish",
+      "in spanish",
+      "switch to spanish",
+      "español",
+      "en español"
+    ],
+    "switch_language_en": [
+      "english",
+      "in english",
+      "switch to english"
+    ],
+    "switch_language_ht": [
+      "creole",
+      "haitian creole",
+      "in creole",
+      "switch to creole",
+      "kreyòl"
+    ],
+    "yes": [
+      "yes",
+      "yeah",
+      "yep",
+      "sure",
+      "ok",
+      "okay",
+      "correct"
+    ],
+    "no": [
+      "no",
+      "nope",
+      "no thanks",
+      "not now"
+    ],
+    "ordinal_first": [
+      "the first one",
+      "first one",
+      "number one"
+    ],
+    "ordinal_second": [
+      "the second one",
+      "second one",
+      "number two"
+    ],
+    "ordinal_third": [
+      "the third one",
+      "third one",
+      "number three"
+    ],
+    "switch_language_pt": [
+      "portuguese",
+      "in portuguese",
+      "switch to portuguese",
+      "português"
+    ],
+    "switch_language_fr": [
+      "french",
+      "in french",
+      "switch to french",
+      "français"
+    ],
+    "switch_language_ar": [
+      "arabic",
+      "in arabic",
+      "switch to arabic"
+    ],
+    "switch_language_zh": [
+      "chinese",
+      "in chinese",
+      "switch to chinese",
+      "中文"
+    ],
+    "switch_language_ru": [
+      "russian",
+      "in russian",
+      "switch to russian"
+    ],
+    "switch_language_tl": [
+      "tagalog",
+      "in tagalog",
+      "switch to tagalog",
+      "filipino"
+    ],
+    "switch_language_vi": [
+      "vietnamese",
+      "in vietnamese",
+      "switch to vietnamese"
+    ]
+  }
+}

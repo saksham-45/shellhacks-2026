@@ -1,0 +1,98 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: toll-bill
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > Money
+  item: 'The toll bill: which agency, sticker not on the account, express lanes need the sticker'
+- plan: mymiami-plan.md
+  section: Every feature > Money
+  item: Toll bill
+title:
+  es: La factura del peaje
+  en: The toll bill
+  ht: Bòdwo peyaj la
+summary:
+  es: Qué agencia la mandó, por qué el sticker no la pagó y por qué la tarifa por placa es más alta. Una segunda factura no es estafa de por sí.
+  en: Which agency sent it, why the sticker did not catch it, and why the plate rate is higher. A second invoice is not a scam by default.
+  ht: Ki ajans ki voye l, poukisa sticker a pa t peye l, ak poukisa pri pa plak la pi wo. Yon dezyèm fakti pa otomatikman yon eskwokri.
+body:
+  es: |-
+    Aquí más de una agencia maneja peajes. La factura dice cuál; págale a esa agencia.
+
+    Si tu sticker no está conectado a esta placa en tu cuenta, el pórtico cobra por placa a la tarifa más alta.
+
+    En todos los pórticos de la tabla de autopistas del condado, la tarifa por placa es más alta que la de SunPass.
+
+    Una segunda factura puede ser el seguimiento real de una primera sin pagar. Un mensaje de texto que te pide hacer clic para pagar es una estafa común: paga solo en el sitio de la agencia.
+  en: |-
+    More than one agency runs tolls here. The bill names the agency; pay that agency.
+
+    If your sticker is not linked to this plate on your account, the gantry bills the plate at the higher rate.
+
+    On every gantry in the county expressway table, the plate rate is higher than the SunPass rate.
+
+    A second invoice can be a real follow-up to an unpaid first one. A text asking you to click a link to pay is a common scam: pay only on the agency's own site.
+  ht: |-
+    Plis pase yon ajans jere peyaj isit la. Bòdwo a di ki ajans; peye ajans sa a.
+
+    Si sticker ou pa konekte ak plak sa a nan kont ou, pòtik la fè plak la peye pi wo pri a.
+
+    Sou tout pòtik ki nan tablo otowout konte a, pri pa plak la pi wo pase pri SunPass la.
+
+    Yon dezyèm fakti ka yon vrè swivi pou yon premye ki pa t peye. Yon tèks ki mande w klike sou yon lyen pou peye se yon eskwokri komen: peye sèlman sou pwòp sit ajans lan.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl.toll.agencies
+- - us-fl.toll.sunpass-plate-link
+- - us-fl-miamidade.gmx.plate-vs-sunpass
+- - us-fl.toll.invoice-sequence
+  - us.ftc.toll-text-scam
+desk: us-fl.sunpass
+actions:
+- type: call_desk
+  desk_id: us-fl.sunpass
+utterances:
+  es:
+  - me llegó una factura de peaje
+  - por qué me cobraron peaje por placa
+  - este mensaje del peaje es estafa
+  - mi SunPass no funcionó
+  - I got una factura del toll
+  en:
+  - I got a toll bill
+  - why did I get a toll by plate bill
+  - is this toll text a scam
+  - my SunPass did not work
+  - me llegó un bill del peaje
+  ht:
+  - mwen resevwa yon bòdwo peyaj
+  - poukisa yo voye m bòdwo peyaj pa plak
+  - èske tèks peyaj sa a se eskwokri
+  - SunPass mwen pa t mache
+  - mwen resevwa yon toll bill
+privacy_scope: household
+stages:
+- 8
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- tolls
+fact_refs:
+- us-fl.toll.agencies
+- us-fl.toll.sunpass-plate-link
+- us-fl-miamidade.gmx.plate-vs-sunpass
+- us-fl.toll.invoice-sequence
+- us.ftc.toll-text-scam
+topics:
+- tolls
+- scams

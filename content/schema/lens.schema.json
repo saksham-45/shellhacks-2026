@@ -1,0 +1,184 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "myAmericanDream origin lens (content/lenses/<id>.yaml)",
+  "description": "Origin is where the person lived before; it is a separate axis from the region pack (where they are now). The file id IS the ADCore OriginLens case (camelCase), and origin_lens repeats it. title is the lens name. lens_card plus attaches_to are the cards the lens surfaces.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "origin_lens",
+    "status",
+    "plan_refs",
+    "title",
+    "summary",
+    "translation_status",
+    "needs_review",
+    "desk",
+    "origin_match",
+    "modes",
+    "lens_card",
+    "attaches_to",
+    "origin_lines",
+    "fact_refs"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "card.schema.json#/$defs/lensId"
+    },
+    "origin_lens": {
+      "$ref": "card.schema.json#/$defs/lensId"
+    },
+    "status": {
+      "const": "draft"
+    },
+    "plan_refs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "card.schema.json#/$defs/planRef"
+      }
+    },
+    "title": {
+      "$ref": "card.schema.json#/$defs/localized"
+    },
+    "summary": {
+      "$ref": "card.schema.json#/$defs/localized"
+    },
+    "translation_status": {
+      "$ref": "card.schema.json#/$defs/translationStatus"
+    },
+    "needs_review": {
+      "description": "true for every language whose translation_status is not reviewed; en is false.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "es",
+        "en",
+        "ht"
+      ],
+      "properties": {
+        "es": {
+          "type": "boolean"
+        },
+        "en": {
+          "type": "boolean"
+        },
+        "ht": {
+          "type": "boolean"
+        }
+      }
+    },
+    "desk": {
+      "description": "Where this lens hands off (a desk in content/desks.yaml).",
+      "$ref": "card.schema.json#/$defs/deskId"
+    },
+    "origin_match": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "self_select"
+      ],
+      "properties": {
+        "countries": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z]{2}$"
+          }
+        },
+        "regions": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "card.schema.json#/$defs/kebabId"
+          }
+        },
+        "goals": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "arrive",
+              "study",
+              "work",
+              "reunite",
+              "visit",
+              "getThroughWeek"
+            ]
+          }
+        },
+        "self_select": {
+          "type": "boolean"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "modes": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "resident",
+          "tourist"
+        ]
+      }
+    },
+    "lens_card": {
+      "$ref": "card.schema.json#/$defs/kebabId"
+    },
+    "attaches_to": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "card.schema.json#/$defs/kebabId"
+      }
+    },
+    "origin_lines": {
+      "description": "The short 'at home, this; here, this' line shown on an attached card. Compiles to lens.<id>.line.<card>.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "card",
+          "text",
+          "fact_refs"
+        ],
+        "properties": {
+          "card": {
+            "$ref": "card.schema.json#/$defs/kebabId"
+          },
+          "text": {
+            "$ref": "card.schema.json#/$defs/localized"
+          },
+          "region_pack": {
+            "$ref": "card.schema.json#/$defs/regionPack"
+          },
+          "fact_refs": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "$ref": "card.schema.json#/$defs/factId"
+            }
+          }
+        }
+      }
+    },
+    "fact_refs": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "card.schema.json#/$defs/factId"
+      }
+    },
+    "editor_notes": {
+      "type": "string"
+    }
+  }
+}

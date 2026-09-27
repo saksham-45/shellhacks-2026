@@ -1,0 +1,90 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: papers-folder
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Put the shoes on > Tonight and the next three days
+  item: 6. A folder
+title:
+  es: Tu carpeta de papeles
+  en: Your papers folder
+  ht: Katab papye ou
+summary:
+  es: Pasaporte, I-94, todo lo que te dio USCIS, actas de nacimiento, récord de vacunas. Toma foto de cada página. Quédate con los originales.
+  en: Passport, I-94, anything USCIS gave you, birth certificates, vaccine records. Photograph every page. Keep the originals.
+  ht: Paspò, I-94, tout sa USCIS ba ou, batistè, kat vaksen. Pran foto chak paj. Kenbe orijinal yo.
+body:
+  es: |-
+    El I-94 es tu registro de llegada. Lo puedes buscar e imprimir en el sitio oficial de CBP.
+
+    Toma foto de cada página, por delante y por detrás. Las fotos se quedan en este teléfono.
+
+    No le entregues los originales a nadie que ofrezca guardarlos o hacerte los papeles.
+
+    Esta carpeta es tuya. Nunca aparece en la tarjeta de otro familiar.
+  en: |-
+    The I-94 is your arrival record. You can look it up and print it on the official CBP website.
+
+    Photograph every page, front and back. The photos stay on this phone.
+
+    Do not hand originals to anyone who offers to keep them safe or to do the papers for you.
+
+    This folder is yours. It never shows on another family member's card.
+  ht: |-
+    I-94 la se dosye arive ou. Ou ka chèche l epi enprime l sou sit ofisyèl CBP a.
+
+    Pran foto chak paj, devan ak dèyè. Foto yo rete nan telefòn sa a.
+
+    Pa bay orijinal yo bay okenn moun ki ofri kenbe yo pou ou oswa fè papye yo pou ou.
+
+    Katab sa a se pou ou. Li pa janm parèt sou kat yon lòt moun nan fanmi an.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us.cbp.i94-online
+- []
+- []
+- []
+desk: us.cbp
+actions:
+- type: call_desk
+  desk_id: us.accredited-legal-help
+utterances:
+  es:
+  - qué papeles debo guardar
+  - dónde saco mi I-94
+  - cómo guardo mis documentos
+  - alguien quiere mi pasaporte
+  - lista de papeles
+  en:
+  - what papers should I keep
+  - where do I get my I-94
+  - how do I save my documents
+  - someone wants my passport
+  - papers checklist
+  ht:
+  - ki papye pou m kenbe
+  - kote m ka jwenn I-94 mwen
+  - kijan pou m sere dokiman m yo
+  - yon moun vle paspò m
+  - lis papye yo
+privacy_scope: person-papers
+stages:
+- 1
+- 2
+modes:
+- resident
+region_pack: us
+is_immigration: true
+related_cards:
+- immigration-papers
+fact_refs:
+- us.cbp.i94-online
+topics:
+- immigration

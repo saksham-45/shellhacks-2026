@@ -1,0 +1,11 @@
+{
+  "request_url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?address=11200+SW+137th+Ave%2C+Miami%2C+FL+33186&benchmark=Public_AR_Current&vintage=Current_Current&layers=all&format=json",
+  "method": "GET",
+  "retrieved_at": "2026-09-25T17:17:00-04:00",
+  "http_status": 200,
+  "bytes": 291,
+  "sha256": "af97cb30ddfab8bc543320d7bdf0ea59f5860585db349874032b9944ff003289",
+  "original_sha256": "f4fa3b01640f2e6a11cb0f4ee1b6c42f0601f3ae0299c0315ab85b55f7767083",
+  "capture_path": "WebFetch (different egress; this box gets the Census F5 'Request Rejected' page)",
+  "minimized": "kept result.input.address and addressMatches[0].matchedAddress/coordinates; geographies dropped"
+}

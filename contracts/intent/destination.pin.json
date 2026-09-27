@@ -1,0 +1,7 @@
+{
+  "note": "Destination.pin. Example ids only.",
+  "type": "destination",
+  "value": {
+    "type": "pin"
+  }
+}

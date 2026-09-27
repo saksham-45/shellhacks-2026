@@ -1,0 +1,4134 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "regions.address.bulky-book": {
+      "comment": "Who handles my address: county bulky-waste area. %1$@ area label as returned, %2$@ fallback desk.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bulky trash: county bulky-waste area %1$@. Ask %2$@ for the pickup date."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Basura voluminosa: zona %1$@ del condado. Pregunte a %2$@ la fecha de recogida."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Gwo fatra: zòn %1$@ konte a. Mande %2$@ dat ranmasaj la."
+          }
+        }
+      }
+    },
+    "regions.address.bulky-day": {
+      "comment": "Who handles my address: City of Miami bulky trash day from the city code list. %1$@ day.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bulky trash: %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Basura voluminosa: %1$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Gwo fatra: %1$@."
+          }
+        }
+      }
+    },
+    "regions.address.cached": {
+      "comment": "Who handles my address: a saved county answer (replay chip, or the live check timed out). %1$@ date it was recorded.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replay · not live. Saved %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Repetición · no es en vivo. Guardada el %1$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Repetisyon · se pa an dirèk. Sere %1$@."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Replay · não ao vivo. Salvo %1$@."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Replay · pas en direct. Enregistré %1$@."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "إعادة · ليست مباشرة. محفوظ %1$@."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "回放 · 非实时。已保存 %1$@。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Повтор · не в прямом эфире. Сохранено %1$@."
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Replay · hindi live. Na-save %1$@."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Phát lại · không trực tiếp. Đã lưu %1$@."
+          }
+        }
+      }
+    },
+    "regions.address.check": {
+      "comment": "Who handles my address: check button.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Who handles my address?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "¿Quién atiende mi dirección?"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Kiyès ki okipe adrès mwen?"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Quem atende o meu endereço?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Qui s’occupe de mon adresse ?"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "من يتولى عنواني؟"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "谁负责我的地址？"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Кто обслуживает мой адрес?"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Sino ang humahawak ng address ko?"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ai phụ trách địa chỉ của tôi?"
+          }
+        }
+      }
+    },
+    "regions.address.day.friday": {
+      "comment": "Who handles my address: weekday name.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Friday"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "viernes"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "vandredi"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "sexta-feira"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "vendredi"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "الجمعة"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "星期五"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "пятница"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Biyernes"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Thứ Sáu"
+          }
+        }
+      }
+    },
+    "regions.address.day.monday": {
+      "comment": "Who handles my address: weekday name.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Monday"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "lunes"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "lendi"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "segunda-feira"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "lundi"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "الاثنين"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "星期一"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "понедельник"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Lunes"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Thứ Hai"
+          }
+        }
+      }
+    },
+    "regions.address.day.saturday": {
+      "comment": "Who handles my address: weekday name.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saturday"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "sábado"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "samdi"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "sábado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "samedi"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "السبت"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "星期六"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "суббота"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Sabado"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Thứ Bảy"
+          }
+        }
+      }
+    },
+    "regions.address.day.sunday": {
+      "comment": "Who handles my address: weekday name.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sunday"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "domingo"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "dimanch"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "domingo"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "dimanche"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "الأحد"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "星期日"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "воскресенье"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Linggo"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Chủ nhật"
+          }
+        }
+      }
+    },
+    "regions.address.day.thursday": {
+      "comment": "Who handles my address: weekday name.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thursday"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "jueves"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "jedi"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "quinta-feira"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "jeudi"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "الخميس"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "星期四"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "четверг"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Huwebes"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Thứ Năm"
+          }
+        }
+      }
+    },
+    "regions.address.day.tuesday": {
+      "comment": "Who handles my address: weekday name.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tuesday"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "martes"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "madi"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "terça-feira"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "mardi"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "الثلاثاء"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "星期二"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "вторник"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Martes"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Thứ Ba"
+          }
+        }
+      }
+    },
+    "regions.address.day.wednesday": {
+      "comment": "Who handles my address: weekday name.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wednesday"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "miércoles"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "mèkredi"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "quarta-feira"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "mercredi"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "الأربعاء"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "星期三"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "среда"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Miyerkules"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Thứ Tư"
+          }
+        }
+      }
+    },
+    "regions.address.days-and": {
+      "comment": "Who handles my address: joins the last two days. %1$@ earlier days, %2$@ last day.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ and %2$@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "%1$@ y %2$@"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "%1$@ ak %2$@"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "%1$@ e %2$@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "%1$@ et %2$@"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "%1$@ و %2$@"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "%1$@和%2$@"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "%1$@ и %2$@"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "%1$@ at %2$@"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "%1$@ và %2$@"
+          }
+        }
+      }
+    },
+    "regions.address.desk-phone": {
+      "comment": "Who handles my address: a desk and its phone. %1$@ desk name, %2$@ phone. [same:es] [same:ht]",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ (%2$@)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "%1$@ (%2$@)"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "%1$@ (%2$@)"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "%1$@ (%2$@)"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "%1$@ (%2$@)"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "%1$@ (%2$@)"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "%1$@ (%2$@)"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "%1$@ (%2$@)"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "%1$@ (%2$@)"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "%1$@ (%2$@)"
+          }
+        }
+      }
+    },
+    "regions.address.field": {
+      "comment": "Who handles my address: address field placeholder.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your address, with ZIP code"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Su dirección, con código postal"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Adrès ou, avèk kòd postal la"
+          }
+        }
+      }
+    },
+    "regions.address.garbage": {
+      "comment": "Who handles my address: garbage days. %1$@ localized days.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Garbage pickup: %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Recogida de basura: %1$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ranmasaj fatra: %1$@."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Coleta de lixo: %1$@."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Collecte des ordures : %1$@."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "جمع القمامة: %1$@."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "垃圾收运：%1$@。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Вывоз мусора: %1$@."
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Kolekta ng basura: %1$@."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Thu rác: %1$@."
+          }
+        }
+      }
+    },
+    "regions.address.grades": {
+      "comment": "Who handles my address: school grades as returned. %1$@ grades (PK-5).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "grades %1$@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "grados %1$@"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "klas %1$@"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "séries %1$@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "classes %1$@"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "الصفوف %1$@"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "年级 %1$@"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "классы %1$@"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "grades %1$@"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "khối %1$@"
+          }
+        }
+      }
+    },
+    "regions.address.municipality": {
+      "comment": "Who handles my address: the Municipality Name layer answer. %1$@ municipality name as returned, title case.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This address is in %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Esta dirección está en %1$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Adrès sa a nan %1$@."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Este endereço fica em %1$@."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cette adresse est à %1$@."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "هذا العنوان في %1$@."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "该地址位于%1$@。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Этот адрес в %1$@."
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ang address na ito ay nasa %1$@."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Địa chỉ này thuộc %1$@."
+          }
+        }
+      }
+    },
+    "regions.address.needs-zip": {
+      "comment": "Who handles my address: the typed address has no 5-digit ZIP.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add the 5-digit ZIP code so the county can find the exact address."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Agregue el código postal de 5 dígitos para que el condado encuentre la dirección exacta."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ajoute kòd postal 5 chif la pou konte a ka jwenn adrès egzak la."
+          }
+        }
+      }
+    },
+    "regions.address.not-found": {
+      "comment": "Who handles my address: the county locator has no exact match.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The county's address finder didn't find an exact match. Check the number, street and ZIP code."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "El buscador de direcciones del condado no encontró una coincidencia exacta. Revise el número, la calle y el código postal."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Sistèm adrès konte a pa jwenn adrès sa a egzakteman. Verifye nimewo a, lari a ak kòd postal la."
+          }
+        }
+      }
+    },
+    "regions.address.not-returned.bulky": {
+      "comment": "Who handles my address: the county layer returned nothing, or more than one answer. %1$@ fallback desk (311).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The county map didn't return bulky trash information for this address. Ask %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "El mapa del condado no devolvió información de basura voluminosa para esta dirección. Pregunte a %1$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Kat konte a pa bay enfòmasyon sou gwo fatra pou adrès sa a. Mande %1$@."
+          }
+        }
+      }
+    },
+    "regions.address.not-returned.garbage": {
+      "comment": "Who handles my address: the county layer returned nothing, or more than one answer. %1$@ fallback desk (311).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The county map didn't return a garbage day for this address. Ask %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "El mapa del condado no devolvió un día de basura para esta dirección. Pregunte a %1$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Kat konte a pa bay jou fatra a pou adrès sa a. Mande %1$@."
+          }
+        }
+      }
+    },
+    "regions.address.not-returned.government": {
+      "comment": "Who handles my address: the county layer returned nothing, or more than one answer. %1$@ fallback desk (311).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The county map didn't return a city for this address. Ask %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "El mapa del condado no devolvió una ciudad para esta dirección. Pregunte a %1$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Kat konte a pa bay okenn vil pou adrès sa a. Mande %1$@."
+          }
+        }
+      }
+    },
+    "regions.address.not-returned.online-report": {
+      "comment": "Who handles my address: no verified rule for the Sheriff's online report. %1$@ fallback desk (311).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Whether the Sheriff's online report covers this address isn't confirmed yet. Ask %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Aún no está confirmado si el reporte en línea del Sheriff cubre esta dirección. Pregunte a %1$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nou poko konfime si rapò sou entènèt Cherif la kouvri adrès sa a. Mande %1$@."
+          }
+        }
+      }
+    },
+    "regions.address.not-returned.police": {
+      "comment": "Who handles my address: no police answer. %1$@ fallback desk (311).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The county map didn't return a police agency for this address. Ask %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "El mapa del condado no devolvió una agencia de policía para esta dirección. Pregunte a %1$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Kat konte a pa bay ajans polis la pou adrès sa a. Mande %1$@."
+          }
+        }
+      }
+    },
+    "regions.address.not-returned.recycling": {
+      "comment": "Who handles my address: the county layer returned nothing, or more than one answer. %1$@ fallback desk (311).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The county map didn't return a recycling day for this address. Ask %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "El mapa del condado no devolvió un día de reciclaje para esta dirección. Pregunte a %1$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Kat konte a pa bay jou resiklaj la pou adrès sa a. Mande %1$@."
+          }
+        }
+      }
+    },
+    "regions.address.not-returned.school": {
+      "comment": "Who handles my address: the county layer returned nothing, or more than one answer. %1$@ fallback desk (311).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The county map didn't return a zoned school for this address. Ask %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "El mapa del condado no devolvió una escuela asignada para esta dirección. Pregunte a %1$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Kat konte a pa bay lekòl zòn nan pou adrès sa a. Mande %1$@."
+          }
+        }
+      }
+    },
+    "regions.address.not-returned.sewer": {
+      "comment": "Who handles my address: the county layer returned nothing, or more than one answer. %1$@ fallback desk (311).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The county map didn't return a sewer utility for this address. Ask %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "El mapa del condado no devolvió un proveedor de alcantarillado para esta dirección. Pregunte a %1$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Kat konte a pa bay konpayi egou a pou adrès sa a. Mande %1$@."
+          }
+        }
+      }
+    },
+    "regions.address.not-returned.water": {
+      "comment": "Who handles my address: the county layer returned nothing, or more than one answer. %1$@ fallback desk (311).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The county map didn't return a water utility for this address. Ask %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "El mapa del condado no devolvió un proveedor de agua para esta dirección. Pregunte a %1$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Kat konte a pa bay konpayi dlo a pou adrès sa a. Mande %1$@."
+          }
+        }
+      }
+    },
+    "regions.address.online-report.no": {
+      "comment": "Who handles my address: verified rule: the Sheriff's online report does not list this municipality.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Sheriff's online non-emergency police report doesn't cover this area."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "El reporte policial en línea del Sheriff (no emergencias) no cubre esta zona."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Rapò polis sou entènèt Cherif la (pa ijans) pa kouvri zòn sa a."
+          }
+        }
+      }
+    },
+    "regions.address.online-report.yes": {
+      "comment": "Who handles my address: verified rule: the Sheriff's online report covers this municipality. %1$@ report URL.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Sheriff's online non-emergency police report covers this area: %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "El reporte policial en línea del Sheriff (no emergencias) cubre esta zona: %1$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Rapò polis sou entènèt Cherif la (pa ijans) kouvri zòn sa a: %1$@."
+          }
+        }
+      }
+    },
+    "regions.address.police": {
+      "comment": "Who handles my address: police agency from a verified rule. %1$@ desk name (with phone).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Police: %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Policía: %1$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Polis: %1$@."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Polícia: %1$@."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Police : %1$@."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "الشرطة: %1$@."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "警察：%1$@。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Полиция: %1$@."
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pulis: %1$@."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cảnh sát: %1$@."
+          }
+        }
+      }
+    },
+    "regions.address.police-ask": {
+      "comment": "Who handles my address: no verified police rule for this municipality. %1$@ fallback desk (311).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Which police agency covers this address isn't confirmed yet. Ask %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Aún no está confirmado qué agencia de policía cubre esta dirección. Pregunte a %1$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nou poko konfime ki ajans polis ki kouvri adrès sa a. Mande %1$@."
+          }
+        }
+      }
+    },
+    "regions.address.police-district": {
+      "comment": "Who handles my address: county police grid district, shown only under a Sheriff answer. %1$@ district name as returned.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "County police district: %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Distrito policial del condado: %1$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Distri polis konte a: %1$@."
+          }
+        }
+      }
+    },
+    "regions.address.recycling-label": {
+      "comment": "Who handles my address: recycling text with no readable day. %1$@ as returned.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recycling: \"%1$@\"."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Reciclaje: \"%1$@\"."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Resiklaj: \"%1$@\"."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Reciclagem: \"%1$@\"."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Recyclage : « %1$@ »."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "إعادة التدوير: \"%1$@\"."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "回收：“%1$@”。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Переработка: «%1$@»."
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Recycling: \"%1$@\"."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Tái chế: \"%1$@\"."
+          }
+        }
+      }
+    },
+    "regions.address.recycling-route": {
+      "comment": "Who handles my address: City of Miami recycling. %1$@ day, %2$@ route text as returned.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recycling: %1$@ (the city route says \"%2$@\")."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Reciclaje: %1$@ (la ruta de la ciudad dice \"%2$@\")."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Resiklaj: %1$@ (wout vil la di \"%2$@\")."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Reciclagem: %1$@ (a rota da cidade diz \"%2$@\")."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Recyclage : %1$@ (la tournée de la ville indique « %2$@ »)."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "إعادة التدوير: %1$@ (مسار المدينة يقول \"%2$@\")."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "回收：%1$@（城市路线写着“%2$@”）。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Переработка: %1$@ (маршрут города: «%2$@»)."
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Recycling: %1$@ (sabi ng city route \"%2$@\")."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Tái chế: %1$@ (tuyến thành phố ghi \"%2$@\")."
+          }
+        }
+      }
+    },
+    "regions.address.recycling-week": {
+      "comment": "Who handles my address: county recycling. %1$@ day, %2$@ county pickup week code as returned (A or B).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recycling: %1$@, week %2$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Reciclaje: %1$@, semana %2$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Resiklaj: %1$@, semèn %2$@."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Reciclagem: %1$@, semana %2$@."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Recyclage : %1$@, semaine %2$@."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "إعادة التدوير: %1$@، الأسبوع %2$@."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "回收：%1$@，第 %2$@ 周。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Переработка: %1$@, неделя %2$@."
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Recycling: %1$@, linggo %2$@."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Tái chế: %1$@, tuần %2$@."
+          }
+        }
+      }
+    },
+    "regions.address.replay.label": {
+      "comment": "Who handles my address: origin label for a saved county answer. %1$@ date and time it was recorded.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replay · not live · %1$@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Repetición · no es en vivo · %1$@"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Repetisyon · se pa an dirèk · %1$@"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Replay · não ao vivo · %1$@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Replay · pas en direct · %1$@"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "إعادة · ليست مباشرة · %1$@"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "回放 · 非实时 · %1$@"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Повтор · не в прямом эфире · %1$@"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Replay · hindi live · %1$@"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Phát lại · không trực tiếp · %1$@"
+          }
+        }
+      }
+    },
+    "regions.address.school": {
+      "comment": "Who handles my address: zoned elementary school. %1$@ school name, %2$@ address, phone and grades as returned.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zoned elementary school: %1$@ (%2$@)."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Escuela primaria asignada: %1$@ (%2$@)."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Lekòl primè pou zòn nan: %1$@ (%2$@)."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Escola primária da zona: %1$@ (%2$@)."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "École élémentaire de secteur : %1$@ (%2$@)."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "المدرسة الابتدائية للمنطقة: %1$@ (%2$@)."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "对口小学：%1$@（%2$@）。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Закреплённая начальная школа: %1$@ (%2$@)."
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Elementary school sa zone: %1$@ (%2$@)."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Trường tiểu học theo khu: %1$@ (%2$@)."
+          }
+        }
+      }
+    },
+    "regions.address.school-confirm": {
+      "comment": "Who handles my address: always after the school. %1$@ M-DCPS desk (with phone).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confirm the school assignment with %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Confirme la escuela asignada con %1$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Konfime lekòl la avèk %1$@."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Confirme a escola da zona com %1$@."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Confirmez l’affectation scolaire auprès de %1$@."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "أكد تعيين المدرسة مع %1$@."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "请向 %1$@ 确认学区学校。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Подтвердите школу у %1$@."
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Kumpirmahin ang paaralan kay %1$@."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Xác nhận trường với %1$@."
+          }
+        }
+      }
+    },
+    "regions.address.school-name": {
+      "comment": "Who handles my address: zoned elementary school with no detail. %1$@ school name.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zoned elementary school: %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Escuela primaria asignada: %1$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Lekòl primè pou zòn nan: %1$@."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Escola primária da zona: %1$@."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "École élémentaire de secteur : %1$@."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "المدرسة الابتدائية للمنطقة: %1$@."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "对口小学：%1$@。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Закреплённая начальная школа: %1$@."
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Elementary school sa zone: %1$@."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Trường tiểu học theo khu: %1$@."
+          }
+        }
+      }
+    },
+    "regions.address.sewer": {
+      "comment": "Who handles my address: sewer utility. %1$@ utility (desk with phone, or the layer code list name).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sewer: %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Alcantarillado: %1$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Egou: %1$@."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Esgoto: %1$@."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Égouts : %1$@."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "الصرف: %1$@."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "下水道：%1$@。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Канализация: %1$@."
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Alkantarilya: %1$@."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cống: %1$@."
+          }
+        }
+      }
+    },
+    "regions.address.sources": {
+      "comment": "Who handles my address: heading over the source links.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sources (Miami-Dade County map layers)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Fuentes (capas de mapas del Condado Miami-Dade)"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Sous (kouch kat Konte Miami-Dade)"
+          }
+        }
+      }
+    },
+    "regions.address.unavailable": {
+      "comment": "Who handles my address: the county did not answer in time and this address has no saved answer.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The county didn't answer in time. Try again, or play a saved demo address."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "El condado no respondió a tiempo. Intente de nuevo o reproduzca una dirección de demostración guardada."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Konte a pa reponn atan. Eseye ankò, oswa jwe yon adrès demo ki anrejistre."
+          }
+        }
+      }
+    },
+    "regions.address.unincorporated": {
+      "comment": "Who handles my address: the layer returned UNINCORPORATED MIAMI-DADE.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This address is in unincorporated Miami-Dade (not inside any city)."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Esta dirección está en el Miami-Dade no incorporado (fuera de cualquier ciudad)."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Adrès sa a nan zòn Miami-Dade ki pa enkòpore (li pa anndan okenn vil)."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Este endereço fica em Miami-Dade não incorporado (fora de qualquer cidade)."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cette adresse est dans le Miami-Dade non incorporé (hors de toute ville)."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "هذا العنوان في ميامي-داد غير المدمجة (خارج أي مدينة)."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "该地址在未建市的迈阿密-戴德（不属于任何城市）。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Этот адрес в неинкорпорированном Майами-Дейд (не в городе)."
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ang address na ito ay sa unincorporated Miami-Dade (hindi sa loob ng lungsod)."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Địa chỉ này thuộc Miami-Dade không thành phố (không trong thành phố nào)."
+          }
+        }
+      }
+    },
+    "regions.address.water": {
+      "comment": "Who handles my address: water utility. %1$@ utility (desk with phone, or the layer code list name).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Water: %1$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Agua: %1$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Dlo: %1$@."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Água: %1$@."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Eau : %1$@."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "الماء: %1$@."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "供水：%1$@。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Вода: %1$@."
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Tubig: %1$@."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nước: %1$@."
+          }
+        }
+      }
+    },
+    "regions.beat.checking": {
+      "comment": "Status while a check runs (at most 4 seconds before the saved replay).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Checking…"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Revisando…"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "N ap tcheke…"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Consultando…"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Vérification…"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "جارٍ التحقق…"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "正在查询…"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Проверка…"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Tinitingnan…"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Đang kiểm tra…"
+          }
+        }
+      }
+    },
+    "regions.beat.hold-to-talk": {
+      "comment": "Push-to-talk button, held while speaking.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Talk"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Hablar"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pale"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Falar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Parler"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "تحدّث"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "说话"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Говорить"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Magsalita"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nói"
+          }
+        }
+      }
+    },
+    "regions.beat.listening": {
+      "comment": "Shown while the button is held.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Listening…"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Escuchando…"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "M ap koute…"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ouvindo…"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Écoute…"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "جارٍ الاستماع…"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "正在听…"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Слушаю…"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nakikinig…"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Đang nghe…"
+          }
+        }
+      }
+    },
+    "regions.beat.speak": {
+      "comment": "Button that reads the answer aloud in the chosen language.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Read aloud"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Leer en voz alta"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Li l fò"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ler em voz alta"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Lire à voix haute"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "القراءة بصوت عال"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "朗读"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Читать вслух"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Basahin nang malakas"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Đọc to"
+          }
+        }
+      }
+    },
+    "regions.check.as-of": {
+      "comment": "Source date under an answer. %@ date.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source checked: %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Fuente consultada: %@"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Sous tcheke: %@"
+          }
+        }
+      }
+    },
+    "regions.check.live.label": {
+      "comment": "Label on an answer from the live path. %@ time retrieved.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Live · %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "En vivo · %@"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "An dirèk · %@"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ao vivo · %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "En direct · %@"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "مباشر · %@"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "实时 · %@"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "В эфире · %@"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Live · %@"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Trực tiếp · %@"
+          }
+        }
+      }
+    },
+    "regions.check.replay-chip": {
+      "comment": "Button that plays the saved replay instead of waiting.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replay · not live"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Repetición · no es en vivo"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Repetisyon · se pa an dirèk"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Replay · não ao vivo"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Replay · pas en direct"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "إعادة · ليست مباشرة"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "回放 · 非实时"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Повтор · не в прямом эфире"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Replay · hindi live"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Phát lại · không trực tiếp"
+          }
+        }
+      }
+    },
+    "regions.fee.answer.state-fee": {
+      "comment": "Fee Check answer when the service fee is not in the ledger. %1$@ fee, %2$@ what it is for, %3$@ source.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The state charges %1$@ for %2$@. Source: %3$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "El estado cobra %1$@ por %2$@. Fuente: %3$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Leta a mande %1$@ pou %2$@. Sous: %3$@."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "O Estado cobra %1$@ por %2$@. Fonte: %3$@."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "L’État facture %1$@ pour %2$@. Source : %3$@."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "تفرض الولاية %1$@ مقابل %2$@. المصدر: %3$@."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "州收取 %1$@ 用于 %2$@。来源：%3$@。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Штат берёт %1$@ за %2$@. Источник: %3$@."
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Sisingilin ng estado ang %1$@ para sa %2$@. Source: %3$@."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Tiểu bang thu %1$@ cho %2$@. Nguồn: %3$@."
+          }
+        }
+      }
+    },
+    "regions.fee.answer.unsourced": {
+      "comment": "Fee Check answer when the ledger has no verified fee. %@ desk name. No number.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I don't have the official fee for that. Ask %@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "No tengo la tarifa oficial para eso. Pregunte en %@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mwen pa gen pri ofisyèl pou sa. Mande %@."
+          }
+        }
+      }
+    },
+    "regions.fee.answer.with-service-fee": {
+      "comment": "Fee Check spoken and shown answer. %1$@ state fee, %2$@ what it is for, %3$@ service fee, %4$@ source name. Never judge the quoted price.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The state charges %1$@ for %2$@, plus up to %3$@ at a Tax Collector office. Source: %4$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "El estado cobra %1$@ por %2$@, más hasta %3$@ en una oficina del Tax Collector. Fuente: %4$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Leta a mande %1$@ pou %2$@, plis jiska %3$@ nan yon biwo Tax Collector. Sous: %4$@."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "O Estado cobra %1$@ por %2$@, mais até %3$@ no Tax Collector. Fonte: %4$@."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "L’État facture %1$@ pour %2$@, plus jusqu’à %3$@ au Tax Collector. Source : %4$@."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "تفرض الولاية %1$@ مقابل %2$@، بالإضافة إلى ما يصل إلى %3$@ في مكتب جابي الضرائب. المصدر: %4$@."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "州收取 %1$@ 用于 %2$@，税务官办公室最多另收 %3$@。来源：%4$@。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Штат берёт %1$@ за %2$@, плюс до %3$@ в офисе Tax Collector. Источник: %4$@."
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Sisingilin ng estado ang %1$@ para sa %2$@, plus hanggang %3$@ sa Tax Collector. Source: %4$@."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Tiểu bang thu %1$@ cho %2$@, cộng tối đa %3$@ tại Tax Collector. Nguồn: %4$@."
+          }
+        }
+      }
+    },
+    "regions.fee.chip.question": {
+      "comment": "Fee Check chip: the question the person asked, first part of the chip.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Is that normal?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "¿Eso es normal?"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Èske sa nòmal?"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Isso é normal?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Est-ce normal ?"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "هل هذا طبيعي؟"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "这正常吗？"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Это нормально?"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Normal ba iyon?"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Điều đó có bình thường không?"
+          }
+        }
+      }
+    },
+    "regions.fee.desk-line": {
+      "comment": "Fee Check: the desk and its phone, after the answer. %1$@ desk name, %2$@ phone.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questions: %1$@, %2$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Para preguntas: %1$@, %2$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pou kesyon: %1$@, %2$@."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Perguntas: %1$@, %2$@."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Questions : %1$@, %2$@."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "أسئلة: %1$@، %2$@."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "问题：%1$@、%2$@。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Вопросы: %1$@, %2$@."
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mga tanong: %1$@, %2$@."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Câu hỏi: %1$@, %2$@."
+          }
+        }
+      }
+    },
+    "regions.fee.desk-only": {
+      "comment": "Fee Check: the desk when no phone is verified. %@ desk name.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questions: %@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Para preguntas: %@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pou kesyon: %@."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Perguntas: %@."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Questions : %@."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "أسئلة: %@."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "问题：%@。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Вопросы: %@."
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mga tanong: %@."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Câu hỏi: %@."
+          }
+        }
+      }
+    },
+    "regions.fee.phrase.id-card": {
+      "comment": "Fee Check answer: noun phrase after 'charges $X for'. Florida ID card.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "an ID card"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "la tarjeta de identificación"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "kat idantite a"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "uma carteira de identidade"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "une carte d’identité"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "بطاقة هوية"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "一张身份证"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "удостоверение"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "isang ID card"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "một thẻ căn cước"
+          }
+        }
+      }
+    },
+    "regions.fee.phrase.license": {
+      "comment": "Fee Check answer: noun phrase after 'charges $X for'. Original Class E driver license.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "a first driver license"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "la primera licencia"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "yon premye lisans"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "uma primeira carteira de motorista"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "un premier permis de conduire"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "رخصة قيادة أولى"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "首次驾照"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "первые права"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "unang lisensya sa pagmamaneho"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "bằng lái lần đầu"
+          }
+        }
+      }
+    },
+    "regions.fee.phrase.license-renewal": {
+      "comment": "Fee Check answer: noun phrase after 'charges $X for'.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "a license renewal"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "renovar la licencia"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "renouvle lisans lan"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "uma renovação da carteira"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "un renouvellement du permis"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "تجديد رخصة"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "驾照续期"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "продление прав"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "pag-renew ng lisensya"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "gia hạn bằng lái"
+          }
+        }
+      }
+    },
+    "regions.fee.replay.label": {
+      "comment": "Label on a Fee Check answer that came from the saved demo script, not a live turn.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replay · not live"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Repetición · no es en vivo"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Repetisyon · se pa an dirèk"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Replay · não ao vivo"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Replay · pas en direct"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "إعادة · ليست مباشرة"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "回放 · 非实时"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Повтор · не в прямом эфире"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Replay · hindi live"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Phát lại · không trực tiếp"
+          }
+        }
+      }
+    },
+    "regions.fee.source.us-fl.flhsmv-fees": {
+      "comment": "Short spoken source name for the FLHSMV fee page. Acronym, not translated.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FLHSMV"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "FLHSMV"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "FLHSMV"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "FLHSMV"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "FLHSMV"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "FLHSMV"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "FLHSMV"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "FLHSMV"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "FLHSMV"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "FLHSMV"
+          }
+        }
+      }
+    },
+    "regions.fee.topic.id-card": {
+      "comment": "Fee Check chip: what the price is for. One or two words.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ID card"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "tarjeta de identificación"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "kat idantite"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Carteira de identidade"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Carte d’identité"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "بطاقة الهوية"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "身份证"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Удостоверение"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "ID card"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Thẻ căn cước"
+          }
+        }
+      }
+    },
+    "regions.fee.topic.license": {
+      "comment": "Fee Check chip: what the price is for. One or two words.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "license"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "licencia"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "lisans"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "carteira"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "permis"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "رخصة"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "驾照"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "права"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "lisensya"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "bằng lái"
+          }
+        }
+      }
+    },
+    "regions.fee.topic.license-renewal": {
+      "comment": "Fee Check chip: what the price is for. One or two words.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "license renewal"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "renovación de licencia"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "renouvèlman lisans"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "renovação da carteira"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "renouvellement du permis"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "تجديد الرخصة"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "驾照续期"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "продление прав"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "pag-renew ng lisensya"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "gia hạn bằng lái"
+          }
+        }
+      }
+    },
+    "regions.listing.advice.company": {
+      "comment": "Listing Check follow-up when a company owns it.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ask for a lease signed by the company or its manager."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pida un contrato firmado por la compañía o por quien la administra."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mande yon kontra ke konpayi a oswa moun ki jere l siyen."
+          }
+        }
+      }
+    },
+    "regions.listing.advice.proof": {
+      "comment": "Listing Check follow-up after a mismatch. Managers are legitimate; never call it a scam.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ask for proof that they manage it for the owner."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pida prueba de que administra la propiedad para el dueño."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mande prèv ke li jere kay la pou pwopriyetè a."
+          }
+        }
+      }
+    },
+    "regions.listing.check": {
+      "comment": "Button that runs the county record check.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check the county record"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Revisar el registro del condado"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Tcheke dosye konte a"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Consultar o registro do condado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Vérifier le registre du comté"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "تحقق من سجل المقاطعة"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "查看县记录"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Проверить запись округа"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Tingnan ang rekord ng county"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Xem hồ sơ quận"
+          }
+        }
+      }
+    },
+    "regions.listing.desks": {
+      "comment": "Listing Check: where to report. %1$@ FTC desk name, %2$@ 311 desk name.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To report: %1$@ or %2$@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Para reportar: %1$@ o %2$@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pou rapòte: %1$@ oswa %2$@."
+          }
+        }
+      }
+    },
+    "regions.listing.field.address": {
+      "comment": "Field label for the address in the listing.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Listing address"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Dirección del anuncio"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Adrès anons lan"
+          }
+        }
+      }
+    },
+    "regions.listing.field.name": {
+      "comment": "Field label for the name the person offering the rental gave. Never stored.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name the person gave you"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nombre que le dieron"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Non moun nan ba ou"
+          }
+        }
+      }
+    },
+    "regions.listing.folio": {
+      "comment": "Folio line. %@ grouped folio. [same:es] [same:ht] \"Folio\" is the county's own term in Spanish and Haitian Creole too.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folio %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Folio %@"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Folio %@"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Fólio %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Folio %@"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Folio %@"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "地籍号 %@"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Фолио %@"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Folio %@"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Folio %@"
+          }
+        }
+      }
+    },
+    "regions.listing.ftc-says": {
+      "comment": "Listing Check: introduces the FTC's own words (quoted from the ledger). %@ the quote.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The FTC says: \"%@\""
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "La FTC dice: «%@»"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "FTC di: «%@»"
+          }
+        }
+      }
+    },
+    "regions.listing.record-link": {
+      "comment": "Link to the county's Property Search page.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open the county record"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ver el registro del condado"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Louvri dosye konte a"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Abrir o registro do condado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ouvrir le registre du comté"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "فتح سجل المقاطعة"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "打开县记录"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Открыть запись округа"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Buksan ang rekord ng county"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mở hồ sơ quận"
+          }
+        }
+      }
+    },
+    "regions.listing.replay.label": {
+      "comment": "Label on a Listing Check answer from the saved county response. %@ time it was retrieved.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replay · not live · %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Repetición · no es en vivo · %@"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Repetisyon · se pa an dirèk · %@"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Replay · não ao vivo · %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Replay · pas en direct · %@"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "إعادة · ليست مباشرة · %@"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "回放 · 非实时 · %@"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Повтор · не в прямом эфире · %@"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Replay · hindi live · %@"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Phát lại · không trực tiếp · %@"
+          }
+        }
+      }
+    },
+    "regions.listing.verdict.condo-needs-unit": {
+      "comment": "Listing Check: condo building, no unit given. No verdict.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That is a condo building. Say the unit number so I can compare."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Es un edificio de condominios. Diga el número de la unidad para comparar."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Se yon bilding kondo. Di nimewo inite a pou m ka konpare."
+          }
+        }
+      }
+    },
+    "regions.listing.verdict.does-not-match": {
+      "comment": "Listing Check: owner of record does not match. Never say scam. %@ the claimed name.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "According to the county record, the owner of that property is not named %@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Según el registro del condado, el dueño de esa propiedad no se llama %@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Dapre dosye konte a, pwopriyetè kay sa a pa rele %@."
+          }
+        }
+      }
+    },
+    "regions.listing.verdict.matches": {
+      "comment": "Listing Check: county owner of record matches the name the person gave. %@ that name.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "According to the county record, the owner matches the name %@."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Según el registro del condado, el dueño coincide con el nombre %@."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Dapre dosye konte a, pwopriyetè a koresponn ak non %@."
+          }
+        }
+      }
+    },
+    "regions.listing.verdict.no-record": {
+      "comment": "Listing Check: no county record at that address.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I did not find that address in the county record."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "No encontré esa dirección en el registro del condado."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mwen pa jwenn adrès sa a nan dosye konte a."
+          }
+        }
+      }
+    },
+    "regions.listing.verdict.no-verdict": {
+      "comment": "Listing Check: the record cannot settle it. No verdict.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I can't compare that name with this record. Check the county record."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "No puedo comparar ese nombre con este registro. Revise el registro del condado."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mwen pa ka konpare non sa a ak dosye sa a. Tcheke dosye konte a."
+          }
+        }
+      }
+    },
+    "regions.listing.verdict.owned-by-company": {
+      "comment": "Listing Check: owner of record is a company (LLC etc.). Never name it.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "According to the county record, a company owns that property."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Según el registro del condado, esa propiedad es de una compañía."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Dapre dosye konte a, se yon konpayi ki mèt kay sa a."
+          }
+        }
+      }
+    },
+    "regions.na.city-trash-not-serviced": {
+      "comment": "Shown on the City of Miami trash line when the city's routes have no entry at the pin. Card fact line, max 70 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The City of Miami's trash routes don't cover this address."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La Ciudad de Miami no recoge la basura en esta dirección."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Vil Miami pa ranmase fatra nan adrès sa a."
+          }
+        }
+      }
+    },
+    "regions.na.county-trash-not-serviced": {
+      "comment": "Shown on the county trash/recycling line when the county does not collect at the pin (the card then shows the city's day if one exists). Card fact line, max 70 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Miami-Dade County's trash routes don't cover this address."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El Condado de Miami-Dade no recoge la basura en esta dirección."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Konte Miami-Dade pa ranmase fatra nan adrès sa a."
+          }
+        }
+      }
+    },
+    "regions.na.no-parcel-nearby": {
+      "comment": "Shown on the building card when no county parcel is near the pin. Card fact line, max 60 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No property record was found at this address."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se encontró registro de propiedad en esta dirección."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nou pa jwenn dosye pwopriyete pou adrès sa a."
+          }
+        }
+      }
+    },
+    "regions.na.none-within-radius": {
+      "comment": "Shown on a nearest-place line (parks, libraries) when nothing is inside the search radius. Card fact line, max 50 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "None found within the search distance."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se encontró nada dentro de esa distancia."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nou pa jwenn anyen nan distans rechèch la."
+          }
+        }
+      }
+    },
+    "regions.na.outside-layer": {
+      "comment": "Shown on a fact line when the source layer has no entry at the pin. Card fact line, max 60 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This source has no record for this address."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta fuente no tiene información de esta dirección."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Sous sa a pa gen dosye pou adrès sa a."
+          }
+        }
+      }
+    },
+    "regions.na.parcel-year-not-recorded": {
+      "comment": "Shown on the building card's year-built line when the county records none. Card fact line, max 60 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The county's property record lists no year built."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El registro del condado no dice el año de construcción."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Dosye pwopriyete konte a pa di ki ane yo te bati l."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

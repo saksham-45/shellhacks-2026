@@ -1,0 +1,18 @@
+{
+ "result": {
+  "input": {
+   "address": {
+    "address": "111 NW 1st St, Miami, FL 33128"
+   }
+  },
+  "addressMatches": [
+   {
+    "matchedAddress": "111 NW 1ST ST, MIAMI, FL, 33128",
+    "coordinates": {
+     "x": -80.196332054722,
+     "y": 25.775080963346
+    }
+   }
+  ]
+ }
+}

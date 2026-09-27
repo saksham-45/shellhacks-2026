@@ -1,0 +1,12 @@
+{
+  "request_id": "0123456789abcdef0123456789abcdef",
+  "person_id": "person-example",
+  "language": "es",
+  "mode": "resident",
+  "utterances": [
+    "Mi casero cambió las cerraduras ayer.",
+    "Tengo el contrato de alquiler."
+  ],
+  "ticked_status_words": [],
+  "desk_id": "us-fl-example.example-housing-desk"
+}

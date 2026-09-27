@@ -1,0 +1,104 @@
+{
+  "language": "fr",
+  "version": 1,
+  "review": {
+    "state": "needs_review",
+    "note": "Agent-authored for Florida Census languages; pending native review."
+  },
+  "fillers": [
+    "s’il vous plaît",
+    "alors"
+  ],
+  "commands": {
+    "back": [
+      "retour",
+      "revenir"
+    ],
+    "home": [
+      "accueil",
+      "écran d’accueil"
+    ],
+    "read_this": [
+      "lire ça",
+      "lire à voix haute"
+    ],
+    "stop": [
+      "arrêt",
+      "stop"
+    ],
+    "repeat": [
+      "répéter",
+      "encore"
+    ],
+    "next_step": [
+      "suivant",
+      "étape suivante"
+    ],
+    "previous_step": [
+      "étape précédente",
+      "précédent"
+    ],
+    "call_desk": [
+      "appeler",
+      "appeler le bureau"
+    ],
+    "open_map": [
+      "carte",
+      "ouvrir la carte"
+    ],
+    "switch_language_es": [
+      "espagnol",
+      "en espagnol"
+    ],
+    "switch_language_en": [
+      "anglais",
+      "en anglais"
+    ],
+    "switch_language_ht": [
+      "créole",
+      "kreyòl"
+    ],
+    "switch_language_pt": [
+      "portugais"
+    ],
+    "switch_language_fr": [
+      "français",
+      "en français"
+    ],
+    "switch_language_ar": [
+      "arabe"
+    ],
+    "switch_language_zh": [
+      "chinois"
+    ],
+    "switch_language_ru": [
+      "russe"
+    ],
+    "switch_language_tl": [
+      "tagalog"
+    ],
+    "switch_language_vi": [
+      "vietnamien"
+    ],
+    "yes": [
+      "oui",
+      "d’accord"
+    ],
+    "no": [
+      "non",
+      "pas maintenant"
+    ],
+    "ordinal_first": [
+      "le premier",
+      "la première"
+    ],
+    "ordinal_second": [
+      "le deuxième",
+      "la deuxième"
+    ],
+    "ordinal_third": [
+      "le troisième",
+      "la troisième"
+    ]
+  }
+}

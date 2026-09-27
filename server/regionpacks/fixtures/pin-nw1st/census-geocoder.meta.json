@@ -1,0 +1,11 @@
+{
+  "request_url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?address=111+NW+1st+St%2C+Miami%2C+FL+33128&benchmark=Public_AR_Current&vintage=Current_Current&layers=all&format=json",
+  "method": "GET",
+  "retrieved_at": "2026-09-25T17:17:00-04:00",
+  "http_status": 200,
+  "bytes": 281,
+  "sha256": "a82079ed426c475788e417edf801e4f2ac372d4bb829b0a8bcc19dedbcf01a7a",
+  "original_sha256": "cc840af9d78165bb9dc9ceef61250352c057e286ae266b0397844fca4e7d835b",
+  "capture_path": "WebFetch (different egress; this box gets the Census F5 'Request Rejected' page)",
+  "minimized": "kept result.input.address and addressMatches[0].matchedAddress/coordinates; geographies dropped"
+}

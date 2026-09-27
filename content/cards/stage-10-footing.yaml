@@ -1,0 +1,72 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: stage-10-footing
+kind: stage
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Stages
+  item: 10. Footing
+title:
+  es: Pie firme
+  en: Footing
+  ht: Sou pwòp pye m
+summary:
+  es: Puedo hacer lo que sigue sin un traductor al lado.
+  en: I can do the next thing without a translator in the room.
+  ht: Mwen ka fè pwochen bagay la san yon tradiktè bò kote m.
+body:
+  es: |-
+    Lo principal es la semana normal: la noche de la basura, la mañana de escuela, el peaje, la oficina de la ciudad.
+
+    Lo principal es la primera tarjeta de esa lista que aún no terminas. Cada familiar puede estar en una etapa distinta en la misma casa.
+  en: |-
+    The hero is the ordinary week: trash night, the school morning, the toll, the city desk.
+
+    The hero is the first card on that list you have not finished. Family members can be on different stages in the same house.
+  ht: |-
+    Premye bagay la se semèn òdinè a: aswè fatra, maten lekòl, peyaj, biwo vil la.
+
+    Premye bagay la se premye kat nan lis sa a ou poko fini. Chak moun nan fanmi an ka nan yon etap diferan nan menm kay la.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- []
+desk: us-fl-miamidade.311
+utterances:
+  es:
+  - etapa de pie firme
+  - cómo es mi semana normal
+  - ya estoy asentado, qué sigue
+  - por mi cuenta
+  en:
+  - footing stage
+  - what is my normal week
+  - I am settled what is next
+  - on my own feet
+  ht:
+  - etap sou pwòp pye m
+  - kijan semèn nòmal mwen ye
+  - mwen enstale, kisa k ap vini
+  - sou pwòp pye m
+privacy_scope: person
+stages:
+- 10
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+hero_cards:
+- the-week
+- trash-and-recycling
+- miami-dade-311
+- offices
+fact_refs: []
+topics:
+- desk
+- trash

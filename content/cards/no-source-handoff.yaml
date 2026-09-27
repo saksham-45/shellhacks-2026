@@ -1,0 +1,93 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: no-source-handoff
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Why this is not ChatGPT
+  item: Those screens say the limit and hand over the accredited desk
+- plan: mymiami-plan.md
+  section: Why anyone downloads this instead of opening ChatGPT
+  item: What a chat is still better at
+title:
+  es: Esto no lo tenemos
+  en: We do not have this one
+  ht: Nou pa genyen sa a
+summary:
+  es: Cuando no tenemos fuente, o la fuente no responde, te decimos cuál de las dos, y te pasamos la oficina que sabe.
+  en: When we have no source, or the source is down, we say which one, and hand you the desk that knows.
+  ht: Lè nou pa gen sous, oswa sous la pa reponn, nou di w kiyès nan de a, epi nou ba w biwo ki konnen an.
+body:
+  es: |-
+    Sin fuente quiere decir que todavía no hay una fuente oficial para esto. No vamos a adivinar.
+
+    No disponible quiere decir que la fuente existe pero no respondió ahora. Intenta más tarde o pregunta en la oficina.
+
+    Una cláusula rara del contrato: asistencia legal. Tus propios papeles: un abogado o representante acreditado. Lo demás: la línea de ayuda comunitaria.
+  en: |-
+    Unsourced means no official source exists for this yet. We will not guess.
+
+    Unavailable means the source exists but did not answer just now. Try again later, or ask the desk.
+
+    A strange lease clause: legal aid. Your own papers: a lawyer or accredited representative. Anything else: the community help line.
+  ht: |-
+    San sous vle di poko gen yon sous ofisyèl pou sa. Nou p ap devine.
+
+    Pa disponib vle di sous la egziste men li pa reponn kounye a. Eseye pita, oswa mande biwo a.
+
+    Yon kloz dwòl nan kontra lwaye: èd legal. Pwòp papye ou: yon avoka oswa yon reprezantan akredite. Tout lòt bagay: liy èd kominotè a.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- []
+- []
+desk: us.211
+actions:
+- type: call_desk
+  desk_id: us.211
+utterances:
+  es:
+  - esto no lo tienen
+  - tengo una pregunta rara
+  - quién me puede contestar esto
+  - nadie sabe esto
+  - la app no sabe
+  en:
+  - you do not have this
+  - I have a weird question
+  - who can answer this
+  - nobody knows this
+  - the app does not know
+  ht:
+  - nou pa genyen sa a
+  - mwen gen yon kesyon dwòl
+  - kiyès ki ka reponn sa a
+  - pèsonn pa konnen sa a
+  - aplikasyon an pa konnen
+privacy_scope: person
+stages:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+modes:
+- resident
+region_pack: us
+is_immigration: false
+related_cards:
+- offices
+fact_refs: []
+topics:
+- desk

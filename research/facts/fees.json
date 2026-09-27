@@ -1,0 +1,337 @@
+[
+ {
+  "id": "us.uscis.forms-free",
+  "claim": "USCIS forms and USCIS online accounts are always free; nobody should charge you for a blank USCIS form.",
+  "value": "USCIS forms and USCIS online accounts are always free.",
+  "unit": null,
+  "value_type": "text",
+  "jurisdiction": "us",
+  "source_id": "us.uscis-all-forms",
+  "url": "https://www.uscis.gov/forms/all-forms",
+  "quote": "USCIS forms and USCIS online accounts are always free.",
+  "retrieved_at": "2026-09-25T18:29:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "immigration",
+   "scams"
+  ],
+  "desk": "us.uscis",
+  "value_language": "en",
+  "x-flag-value": true
+ },
+ {
+  "id": "us.uscis.fee-payment-methods",
+  "claim": "Since October 28, 2025, USCIS takes fees for online filings only through Pay.gov; mailed filings are paid by bank debit (Form G-1650) or card (Form G-1450), and checks or money orders are accepted only with an approved exemption (Form G-1651).",
+  "value": "Pay.gov for benefit requests filed electronically; ACH debit transactions using Form G-1650 for benefit requests mailed to USCIS; credit, debit, and prepaid card payments using Form G-1450 for mailed requests; and, if exempt, personal or business check, money order, bank draft, or cashier’s check with Form G-1651.",
+  "unit": null,
+  "value_type": "text",
+  "jurisdiction": "us",
+  "source_id": "us.uscis-g-1651",
+  "url": "https://www.uscis.gov/g-1651",
+  "quote": "Effective Oct. 28, 2025,we will only accept payments through Pay.gov for benefit requests filed electronically. ... For benefit requests mailed to USCIS, we will only accept ACH debit transactions using Form G-1650, Authorization for ACH Transactions, or credit, debit, and prepaid card payments using Form G-1450, Authorization for Credit Card Transactions.",
+  "retrieved_at": "2026-09-25T18:29:00-04:00",
+  "check_every": "P30D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "immigration"
+  ],
+  "desk": "us.uscis",
+  "value_language": "en",
+  "notes": "USCIS says the electronic-payment change is effective Oct. 28, 2025; paper methods require a completed and signed Form G-1651 exemption."
+ },
+ {
+  "id": "us.ftc.gift-card-payment-scam",
+  "claim": "The FTC says only scammers tell you to pay with gift cards; no real business or government agency will.",
+  "value": "Only scammers will tell you to buy a gift card and give them the numbers off the back of the card; no real business or government agency will ever tell you to buy a gift card to pay them.",
+  "unit": null,
+  "value_type": "text",
+  "jurisdiction": "us",
+  "source_id": "us.ftc-gift-card-scams",
+  "url": "https://consumer.ftc.gov/articles/avoiding-and-reporting-gift-card-scams",
+  "quote": "Only scammers will tell you to buy a gift card, like a Google Play or Apple Card, and give them the numbers off the back of the card. No matter what they say, that’s a scam. No real business or government agency will ever tell you to buy a gift card to pay them.",
+  "retrieved_at": "2026-09-25T18:29:00-04:00",
+  "check_every": "P180D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "scams"
+  ],
+  "desk": "us.ftc",
+  "value_language": "en"
+ },
+ {
+  "id": "us-fl.flhsmv.fee.class-e-original",
+  "claim": "An original Florida Class E driver license (including the learner's license) costs $48.00; a $6.25 service fee may be added at a tax collector office.",
+  "value": 48.0,
+  "unit": "USD",
+  "value_type": "money",
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.flhsmv-fees",
+  "url": "https://www.flhsmv.gov/fees/",
+  "quote": "Original Class E (includes Learner’s license)* $48.00 ... An additional $6.25 service fee may apply to any credential issued in a tax collector office.",
+  "retrieved_at": "2026-09-25T18:29:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "license"
+  ],
+  "desk": "us-fl.flhsmv",
+  "notes": "An additional $6.25 service fee may apply in a tax collector office."
+ },
+ {
+  "id": "us-fl.flhsmv.fee.class-e-renewal",
+  "claim": "Renewing a Florida Class E driver license costs $48.00; a $6.25 service fee may be added at a tax collector office.",
+  "value": 48.0,
+  "unit": "USD",
+  "value_type": "money",
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.flhsmv-fees",
+  "url": "https://www.flhsmv.gov/fees/",
+  "quote": "Renewal Class E* $48.00 ... An additional $6.25 service fee may apply to any credential issued in a tax collector office.",
+  "retrieved_at": "2026-09-25T18:29:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "license"
+  ],
+  "desk": "us-fl.flhsmv",
+  "notes": "An additional $6.25 service fee may apply in a tax collector office."
+ },
+ {
+  "id": "us-fl.flhsmv.fee.id-card-original",
+  "claim": "A Florida ID card costs $25.00 (same fee for original, renewal and replacement); a $6.25 service fee may be added at a tax collector office.",
+  "value": 25.0,
+  "unit": "USD",
+  "value_type": "money",
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.flhsmv-fees",
+  "url": "https://www.flhsmv.gov/fees/",
+  "quote": "Identification Cards (Original, Renewal & Replacement)* $25.00 ... An additional $6.25 service fee may apply to any credential issued in a tax collector office.",
+  "retrieved_at": "2026-09-25T18:29:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "license"
+  ],
+  "desk": "us-fl.flhsmv",
+  "notes": "The page lists one fee for original, renewal, and replacement identification cards; an additional $6.25 service fee may apply in a tax collector office."
+ },
+ {
+  "id": "us-fl.landlord.deposit.return-days-no-claim",
+  "claim": "If a Florida landlord makes no claim on the security deposit, it must be returned within 15 days after the lease ends.",
+  "value": 15,
+  "unit": "day",
+  "value_type": "quantity",
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.fl-statute-83-49",
+  "url": "https://www.flsenate.gov/Laws/Statutes/2025/83.49",
+  "quote": "Upon the vacating of the premises for termination of the rental agreement, if the landlord does not intend to impose a claim on the security deposit, the landlord must return the security deposit, together with interest if otherwise required, within 15 days after the termination of the rental agreement.",
+  "retrieved_at": "2026-09-25T18:29:00-04:00",
+  "check_every": "P1Y",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "rent"
+  ],
+  "desk": "us-fl.bar-lawyer-referral"
+ },
+ {
+  "id": "us-fl.landlord.deposit.claim-notice-days",
+  "claim": "A Florida landlord who wants to keep part of the deposit must send written notice (certified mail, or e-mail under s. 83.505) within 30 days after the lease ends.",
+  "value": 30,
+  "unit": "day",
+  "value_type": "quantity",
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.fl-statute-83-49",
+  "url": "https://www.flsenate.gov/Laws/Statutes/2025/83.49",
+  "quote": "If the landlord intends to impose a claim on the deposit, the landlord must, within 30 days after the termination of the rental agreement, provide the tenant written notice by certified mail to the tenant’s last known mailing address or by e-mail in accordance with s. 83.505 of his or her intention to impose a claim on the deposit and the reason for imposing the claim.",
+  "retrieved_at": "2026-09-25T18:29:00-04:00",
+  "check_every": "P1Y",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "rent"
+  ],
+  "desk": "us-fl.bar-lawyer-referral"
+ },
+ {
+  "id": "us-fl.landlord.deposit.tenant-objection-days",
+  "claim": "A Florida tenant has 15 days after receiving the landlord's claim notice to object in writing.",
+  "value": 15,
+  "unit": "day",
+  "value_type": "quantity",
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.fl-statute-83-49",
+  "url": "https://www.flsenate.gov/Laws/Statutes/2025/83.49",
+  "quote": "Unless the tenant objects to the imposition of the landlord’s claim or the amount thereof within 15 days after receipt of the landlord’s notice of intention to impose a claim, the landlord may then deduct the amount of his or her claim and shall remit the balance of the deposit to the tenant within 30 days after the date of the notice of intention to impose a claim for damages.",
+  "retrieved_at": "2026-09-25T18:29:00-04:00",
+  "check_every": "P1Y",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "rent"
+  ],
+  "desk": "us-fl.bar-lawyer-referral"
+ },
+ {
+  "id": "us-fl-miamidade.mia.taxi.meter-rule",
+  "claim": "Taxis from MIA charge the meter ($2.95 for the first 1/6 mile, then $0.85 per 1/6 mile up to one mile, $0.55 per 1/6 mile after, $0.40 per minute waiting) plus a $2.00 airport origination fee, with a $15 minimum fare from MIA.",
+  "value": "The metered rate is calculated at $2.95 for the first 1/6 mile, $0.85 for each additional 1/6 mile up to one mile, $0.55 for each additional 1/6 mile after, and $0.40 per minute ($24.00 per hour) wait charge; a $2.00 airport origination fee also applies and MIA trips have a $15 minimum fare.",
+  "unit": null,
+  "value_type": "text",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mia-taxicabs-shuttles",
+  "url": "https://www.miami-airport.com/taxicabs-shuttles.asp",
+  "quote": "Below are the current taxi rates. A $2.00 airport origination fee also applies. ... $2.95 for the first 1/6 mile ... $0.85 for each additional 1/6 mile up to one mile ... $0.55 for each additional 1/6 mile after ... $0.40 per minute ($24.00 per hour) wait charge ... A minimum fare of $15 is established for trips originated at MIA.",
+  "retrieved_at": "2026-09-25T18:29:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "transit",
+   "visitors"
+  ],
+  "desk": "us-fl-miamidade.mia-information",
+  "value_language": "en",
+  "notes": "MIA also states: “A minimum fare of $15 is established for trips originated at MIA.”"
+ },
+ {
+  "id": "us-fl-miamidade.mia.taxi.flat-rate-rule",
+  "claim": "Miami-Dade has eliminated all taxi flat fares, including the airport ARTS flat fares; every trip is charged by the meter.",
+  "value": "All flat fare rates are eliminated. The meter rate applies now to all trips. The ARTS program will continue but passengers will be charged the meter rate instead of a flat fare.",
+  "unit": null,
+  "value_type": "text",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-taxicab-passenger-info",
+  "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1572618493969359",
+  "quote": "All flat fare rates are eliminated. The meter rate applies now to all trips. This also applies to taxicabs providing services under the Airport Regional Taxicab Service (ARTS/Blue Cabs) Program. ... The ARTS program will continue but passengers will be charged the meter rate instead of a flat fare.",
+  "retrieved_at": "2026-09-25T18:29:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "transit",
+   "visitors"
+  ],
+  "desk": "us-fl-miamidade.mia-information",
+  "value_language": "en",
+  "notes": "The current official Miami-Dade page supplies no current named-zone flat-fare amounts because it says flat fare rates are eliminated."
+ },
+ {
+  "id": "us.fcc.lifeline.ssn4",
+  "claim": "The Lifeline phone and internet discount application asks for the last four digits of your Social Security number, or a Tribal ID number for Tribal members without one (47 CFR 54.410(d)).",
+  "value": "The form must require the last four digits of the subscriber’s Social Security number, or a Tribal identification number when the subscriber is a Tribal nation member without a Social Security number.",
+  "unit": null,
+  "value_type": "text",
+  "jurisdiction": "us",
+  "source_id": "us.ecfr-47-54-410",
+  "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-B/part-54/subpart-E/section-54.410",
+  "quote": "(vi) The last four digits of the subscriber's social security number, or the subscriber's Tribal identification number, if the subscriber is a member of a Tribal nation and does not have a social security number;",
+  "retrieved_at": "2026-09-25T18:29:00-04:00",
+  "check_every": "P1Y",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "utilities"
+  ],
+  "value_language": "en",
+  "notes": "The direct HTML page was access-blocked; the exact text was retrieved from the official eCFR Versioner API for the 2026-09-24 issue."
+ },
+ {
+  "unit": "USD",
+  "retrieved_at": "2026-09-25T18:55:00-04:00",
+  "status": "verified",
+  "kind": "static",
+  "id": "us-fl.flhsmv.fee.tax-collector-service-fee",
+  "claim": "A Florida driver license or ID credential issued at a county tax collector office may carry an extra $6.25 service fee on top of the state fee (charged at most once per visit; veterans with proof are exempt).",
+  "value": 6.25,
+  "unit_detail": "per visit, added at a tax collector office",
+  "value_type": "money",
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.flhsmv-fees",
+  "url": "https://www.flhsmv.gov/fees/",
+  "quote": "An additional $6.25 service fee may apply to any credential issued in a tax collector office.",
+  "check_every": "P90D",
+  "topics": [
+   "license",
+   "money"
+  ],
+  "desk": "us-fl-miamidade.tax-collector",
+  "notes": "Statutory basis: Fla. Stat. 322.135(1)(c), 2026 Florida Statutes (see us-fl.statute.322-135.service-fee). The FLHSMV page also says: \"Veterans that provide or have previously provided evidence of veteran status will not be charged the $6.25 service fee in a tax collector office\"."
+ },
+ {
+  "unit": null,
+  "retrieved_at": "2026-09-25T18:55:00-04:00",
+  "status": "verified",
+  "kind": "static",
+  "id": "us-fl.statute.322-135.service-fee",
+  "claim": "Fla. Stat. 322.135(1)(c) (2026): tax collectors acting as driver license agents must charge a $6.25 service fee, but not more than once per customer per visit (other exceptions include voter registration and veterans with proof).",
+  "value": "(c) A service fee of $6.25 must be charged, in addition to the fees set forth in this chapter, for providing all services pursuant to this chapter. The service fee may not be charged: 1. More than once per customer during a single visit to a tax collector’s office.",
+  "value_type": "text",
+  "value_language": "en",
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.fl-statute-322-135",
+  "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0322/Sections/0322.135.html",
+  "quote": "(c) A service fee of $6.25 must be charged, in addition to the fees set forth in this chapter, for providing all services pursuant to this chapter. The service fee may not be charged: 1. More than once per customer during a single visit to a tax collector’s office.",
+  "check_every": "P1Y",
+  "topics": [
+   "license",
+   "money"
+  ],
+  "desk": "us-fl-miamidade.tax-collector",
+  "notes": "Read from the 2026 Florida Statutes on the Legislature site; history line ends \"s. 8, ch. 2025-125\". The plan’s 2020 wording is superseded by this text."
+ },
+ {
+  "unit": null,
+  "retrieved_at": "2026-09-25T18:55:00-04:00",
+  "status": "verified",
+  "kind": "static",
+  "id": "us.ftc.rental-scam-signs",
+  "claim": "FTC: a rental-listing scammer usually says they are out of the country, rushes you to decide, and asks for a wire transfer, gift cards or cryptocurrency for the application fee, deposit or first month’s rent before you can see the place.",
+  "value": "But when you ask to see the rental, the fake owner will usually claim to be out of the country or give another excuse for not showing the property — then rush you into making a quick decision. The fake owner might tell you can only secure the property with a wire transfer through Western Union or MoneyGram, gift cards, or cryptocurrency to pay for an application fee, deposit, or first month’s rent.",
+  "value_type": "text",
+  "value_language": "en",
+  "jurisdiction": "us",
+  "source_id": "us.ftc-rental-listing-scams",
+  "url": "https://consumer.ftc.gov/articles/rental-listing-scams",
+  "quote": "But when you ask to see the rental, the fake owner will usually claim to be out of the country or give another excuse for not showing the property — then rush you into making a quick decision. The fake owner might tell you can only secure the property with a wire transfer through Western Union or MoneyGram, gift cards, or cryptocurrency to pay for an application fee, deposit, or first month’s rent.",
+  "check_every": "P90D",
+  "topics": [
+   "rent",
+   "scams"
+  ],
+  "desk": "us.ftc",
+  "notes": "Same page also says: if anyone insists you can only pay with wire transfers through Western Union or MoneyGram, gift cards, or cryptocurrency, it’s a scam.",
+  "x-requested-by": "content/facts-requested.yaml",
+  "x-translation-id": "us.ftc.rental-scam-signs.es"
+ },
+ {
+  "unit": null,
+  "retrieved_at": "2026-09-25T18:55:00-04:00",
+  "status": "verified",
+  "kind": "static",
+  "id": "us.ftc.rental-scam-signs.es",
+  "claim": "FTC (Spanish page): señales de una estafa de alquiler: el supuesto propietario dice estar fuera del país, lo presiona para decidir rápido y pide transferencia, tarjetas de regalo o criptomonedas antes de mostrar la propiedad.",
+  "value": "Pero cuando pide ver la propiedad en alquiler, el supuesto propietario normalmente alegará estar fuera del país o dará otra excusa para no mostrarla, y luego lo presionará para que tome una decisión rápida. El falso propietario podría decirle que solo puede reservar la propiedad con una transferencia a través de Western Union o MoneyGram, con tarjetas de regalo, o con una criptomonedas para pagar el cargo de solicitud, un depósito, o el primer mes de alquiler.",
+  "value_type": "text",
+  "value_language": "es",
+  "jurisdiction": "us",
+  "source_id": "us.ftc-rental-listing-scams-es",
+  "url": "https://consumidor.ftc.gov/articulos/estafas-de-listados-de-propiedades-en-alquiler",
+  "quote": "Pero cuando pide ver la propiedad en alquiler, el supuesto propietario normalmente alegará estar fuera del país o dará otra excusa para no mostrarla, y luego lo presionará para que tome una decisión rápida. El falso propietario podría decirle que solo puede reservar la propiedad con una transferencia a través de Western Union o MoneyGram, con tarjetas de regalo, o con una criptomonedas para pagar el cargo de solicitud, un depósito, o el primer mes de alquiler.",
+  "check_every": "P90D",
+  "topics": [
+   "rent",
+   "scams"
+  ],
+  "desk": "us.ftc",
+  "notes": "Official FTC Spanish version linked from the English page (hreflang es); same content as us.ftc.rental-scam-signs.",
+  "x-translation-of": "us.ftc.rental-scam-signs"
+ }
+]

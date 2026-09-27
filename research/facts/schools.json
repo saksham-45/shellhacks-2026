@@ -1,0 +1,140 @@
+[
+ {
+  "id": "us-fl-miamidade.vpk.application-opens",
+  "claim": "Date Miami-Dade VPK applications open",
+  "value": null,
+  "unit": null,
+  "value_type": "date",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.m-dcps",
+  "url": "https://news.dadeschools.net/cmnc/new/37651",
+  "quote": "Applications for both Magnet and VPK programs are accepted exclusively through the Admissions tab on the Dadeschools.net website. Parents can log in easily using an Apple or Google account and click the Admissions Application tile to get started. This applies to both new and current students. The deadline to apply for Magnet programs and select VPK is January 15 th, 2026.",
+  "retrieved_at": "2026-09-25T18:00:00-04:00",
+  "check_every": "P7D",
+  "status": "unsourced",
+  "desk": "us-fl-miamidade.m-dcps",
+  "topics": [
+   "schools"
+  ],
+  "x-dispute_note": "The requested October 1, 2026 date is not stated by a primary page; the October 1 date came from a search result only, which points to the 2025-10-01 opening for the 2026-2027 cycle, not 2026-10-01."
+ },
+ {
+  "id": "us-fl-miamidade.m-dcps.meals.full-price-from",
+  "claim": "Date from which students at non-CEP M-DCPS schools without an approved meal application are charged full price",
+  "value": "2026-09-28",
+  "unit": null,
+  "value_type": "date",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdcps-nutrition-flyer-2026",
+  "url": "https://mdcpsnutrition.net/wp-content/uploads/Meal-Benefits-Application-Flyer-2026-27.pdf",
+  "quote": "Students at Non-CEP schools who haven't been approved for free or reduced-price meals through a submitted application will be charged full price for meals effective September 28, 2026.",
+  "retrieved_at": "2026-09-25T18:20:00-04:00",
+  "check_every": "P7D",
+  "status": "verified",
+  "topics": [
+   "schools"
+  ],
+  "desk": "us-fl-miamidade.m-dcps"
+ },
+ {
+  "id": "us-fl-miamidade.m-dcps.meals.cep-school-count",
+  "claim": "Number of M-DCPS schools that keep free breakfast and lunch for all students (CEP) in 2026-27",
+  "value": "121",
+  "unit": "schools",
+  "value_type": "quantity",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdcps-news-37828",
+  "url": "https://news.dadeschools.net/cmnc/new/37828",
+  "quote": "a total of 121 schools will continue offering free breakfast and lunch. Students at all other schools will need to fill out an application to qualify for free and reduced-price meals.",
+  "retrieved_at": "2026-09-25T18:20:00-04:00",
+  "check_every": "P30D",
+  "status": "verified",
+  "topics": [
+   "schools"
+  ],
+  "desk": "us-fl-miamidade.m-dcps"
+ },
+ {
+  "id": "us-fl-miamidade.m-dcps.meals.full-price-lunch",
+  "claim": "Full-price lunch at non-CEP M-DCPS schools, 2026-27",
+  "value": "4.20",
+  "unit": "USD",
+  "value_type": "money",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdcps-news-37828",
+  "url": "https://news.dadeschools.net/cmnc/new/37828",
+  "quote": "Full price lunch is $4.20, reduced price, $.40",
+  "retrieved_at": "2026-09-25T18:20:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "topics": [
+   "schools"
+  ],
+  "desk": "us-fl-miamidade.m-dcps",
+  "notes": "Elementary and K-8: breakfast free. Middle and high: full-price breakfast $2.50, reduced $0.30."
+ },
+ {
+  "id": "us-fl-miamidade.m-dcps.meals.form-no-ssn-ok",
+  "claim": "The M-DCPS meal application can be completed by an adult who has no Social Security number (mark that they have none); SSN digits are only asked when income is listed",
+  "value": true,
+  "unit": null,
+  "value_type": "flag",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdcps-news-37851",
+  "url": "https://news.dadeschools.net/cmnc/new/37851",
+  "quote": "if the application includes income information, the last four digits of the social security number (SSN) of the adult household member signing the application or an indication that this adult does not have a SSN.",
+  "retrieved_at": "2026-09-25T18:20:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "topics": [
+   "schools",
+   "immigration"
+  ],
+  "desk": "us-fl-miamidade.m-dcps",
+  "notes": "The 2026-27 paper form has a box 'I do not have a Social Security Number'. SSN digits are not needed when a SNAP/TANF case number is listed or for a foster child. Help line on the flyer: (786) 275-0400 ext 5000."
+ },
+ {
+  "id": "us-fl-miamidade.m-dcps.closure-notice",
+  "claim": "M-DCPS announces storm closures in news releases on news.dadeschools.net after consulting county emergency officials. Example: for Hurricane Milton it cancelled classes at all schools on Oct. 9, 2024.",
+  "value": "classes at all M-DCPS schools have been cancelled on Wednesday, October 9, 2024",
+  "unit": null,
+  "value_type": "text",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdcps-news-34195",
+  "url": "https://news.dadeschools.net/cmnc/new/34195",
+  "quote": "classes at all M-DCPS schools have been cancelled on Wednesday, October 9, 2024. This includes adult education, school-based after-care programs, activities and athletic events.",
+  "retrieved_at": "2026-09-25T19:30:00-04:00",
+  "check_every": "P365D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "schools",
+   "storm"
+  ],
+  "value_language": "en",
+  "desk": "us-fl-miamidade.m-dcps",
+  "notes": "Historical example, not a current closure. Release dated Monday, October 7, 2024. A live demo notice must be labeled SIMULATED."
+ },
+ {
+  "id": "us-fl-miamidade.m-dcps.help-line",
+  "claim": "During storm closures, families can reach an M-DCPS agent at 305-995-HELP (305-995-4357).",
+  "value": "305-995-4357",
+  "unit": null,
+  "value_type": "phone",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdcps-news-34199",
+  "url": "https://news.dadeschools.net/cmnc/new/34199",
+  "quote": "Families can also speak with an agent by calling 305-995-HELP.",
+  "retrieved_at": "2026-09-25T19:30:00-04:00",
+  "check_every": "P365D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "schools",
+   "storm",
+   "desk"
+  ],
+  "desk": "us-fl-miamidade.m-dcps",
+  "notes": "Digits derived from the letters on a phone keypad (HELP = 4357). Same release: Live Chat by texting 1-844-908-1674; support center 8 a.m. to 8 p.m. during Hurricane Milton (Oct. 2024)."
+ }
+]

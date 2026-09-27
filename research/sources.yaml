@@ -1,0 +1,1919 @@
+# Source registry. Owner: myAD Research.
+# Schema: schema/source.schema.json. Required per entry: id (<pack-id>.<slug>), publisher, title, url,
+#   kind (api|gis-layer|gtfs|pdf|html|dataset), jurisdiction, key_required, check_every (ISO 8601 duration).
+# Extra fields: notes, official (true = government/agency primary source), extraction, reachable,
+#   http_status, last_checked, layer, fields.
+# Only sources that were actually retrieved are listed. Facts in facts/*.json point here via source_id.
+sources:
+- id: us-fl-miami.com-hcd
+  publisher: City of Miami Department of Housing & Community Development
+  title: City of Miami Housing & Community Development
+  url: https://www.miami.gov/My-Government/Departments/Housing-Community-Development
+  kind: html
+  jurisdiction: us-fl-miami
+  key_required: false
+  check_every: P90D
+  notes: Read via WebFetch (curl gets HTTP 403). Contact block with phone, TTY, address and weekday hours.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 403
+  last_checked: '2026-09-25T17:32:00-04:00'
+- id: us-fl-miami.com-housing-income-limits
+  publisher: City of Miami, Housing & Community Development
+  title: 'Four tables: Section 8 (30/50/80% AMI, eff'
+  url: https://www.miami.gov/Housing-Assistance/Home-Ownership/Housing-Income-Limits
+  kind: html
+  jurisdiction: us-fl-miami
+  key_required: false
+  check_every: P30D
+  notes: 'Four tables: Section 8 (30/50/80% AMI, eff. May 1 2026), SHIP (80/120%), Multifamily/tax credit (80/100/140%), CDBG/HOME/HOPWA
+    (80%, eff. June 1 2026). Direct curl from the box returns HTTP 403 (Granicus WAF); WebFetch rendered it. Page footer:
+    ''Dial 311 or 305-468-5900''.'
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:18:00-04:00'
+- id: us-fl-miami.com-solid-waste
+  publisher: City of Miami Department of Solid Waste
+  title: City of Miami Department of Solid Waste
+  url: https://www.miami.gov/My-Government/Departments/Solid-Waste
+  kind: html
+  jurisdiction: us-fl-miami
+  key_required: false
+  check_every: P90D
+  notes: Read via WebFetch (curl from the box gets HTTP 403 from the Granicus WAF). Contact block, residential guidelines,
+    service days.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 403
+  last_checked: '2026-09-25T17:32:00-04:00'
+- id: us-fl-miami.gis-garbage-routes
+  publisher: City of Miami GIS
+  title: City of Miami Garbage Routes (GARBDAY)
+  url: https://gis.miami.gov/gis/rest/services/SolidWaste/GarbageRoutes/MapServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miami
+  key_required: false
+  check_every: P30D
+  notes: 'GARBDAY alias ''Garbage Pickup Days'', same SW_Service_Days domain. Downtown pin: GARBROUTE 114, GARBDAY MR (Mon
+    and Thu). Read via WebFetch ~17:30 EDT; box curl fails TLS. Fallback: City AGOL services1.arcgis.com/CvuPhqcTQpZPT9qY
+    Garbage_Routes/FeatureServer/0 (same GARBDAY ''MR'').'
+  official: true
+  extraction: arcgis-query
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:30:00-04:00'
+  layer: SolidWaste/GarbageRoutes/MapServer/0
+  fields:
+  - GARBROUTE
+  - GARBDAY
+- id: us-fl-miami.gis-trash-routes
+  publisher: City of Miami GIS
+  title: City of Miami Trash Routes (TRASHDAY)
+  url: https://gis.miami.gov/gis/rest/services/SolidWaste/TrashRoutes/MapServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miami
+  key_required: false
+  check_every: P30D
+  notes: 'Intermittent: WebFetch got HTTP 503 at ~17:20 EDT, then 200 at ~17:30 (layer JSON and point query). Box curl fails
+    TLS. TRASHDAY alias ''Trash Pickup Day'', coded domain SW_Service_Days (M, T, W, R=Thu, F, MR, TF, NTRF, D). Sibling services
+    in the same folder: GarbageRoutes, RecycleRoutes, BulkTrash_4Day_Plan.'
+  official: true
+  extraction: arcgis-query
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:30:00-04:00'
+  layer: SolidWaste/TrashRoutes/MapServer/0
+  fields:
+  - TRASHDAY
+- id: us-fl-miami.miami-police-contact
+  publisher: City of Miami Police Department
+  title: Contact page; the homepage fetched 200.
+  url: https://www.miami-police.org/contact.html
+  kind: html
+  jurisdiction: us-fl-miami
+  key_required: false
+  check_every: P90D
+  notes: Contact page; the homepage fetched 200.
+  official: true
+  extraction: html-quote
+  reachable: true
+  last_checked: '2026-09-25T17:38:00-04:00'
+- id: us-fl-miamidade.211-miami
+  publisher: 211 Miami (nonprofit; funded by The Children's Trust)
+  title: Designated 211 line for Miami-Dade; nonprofit, so official:false.
+  url: https://211miami.org/
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Designated 211 line for Miami-Dade; nonprofit, so official:false.
+  official: false
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:28:00-04:00'
+- id: us-fl-miamidade.cls-miami
+  publisher: Catholic Legal Services, Archdiocese of Miami (nonprofit)
+  title: Immigration legal services; site in English/Spanish/Kreyòl.
+  url: https://www.cclsmiami.org/
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Immigration legal services; site in English/Spanish/Kreyòl.
+  official: false
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:38:00-04:00'
+- id: us-fl-miamidade.gis-evacuation-zone
+  publisher: Miami-Dade County GIS (Information Technology Department)
+  title: Hurricane evacuation (storm surge planning) zones (layer 7)
+  url: https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_CommunityServices/MapServer/7
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Public ArcGIS REST layer, no key. Queried live for both demo pins at 2026-09-25T17:36:58-04:00.
+  official: true
+  extraction: arcgis-query
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:36:58-04:00'
+  layer: CommunityServices/MD_CommunityServices/MapServer/7
+  fields:
+  - ZONEID
+  - CATEGORY
+- id: us-fl-miamidade.gis-garbage-route
+  publisher: Miami-Dade County GIS (Information Technology Department)
+  title: County garbage collection routes (MD_GarbageRecycle layer 1)
+  url: https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/1
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Public ArcGIS REST layer, no key. Queried live for both demo pins at 2026-09-25T17:36:58-04:00.
+  official: true
+  extraction: arcgis-query
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:36:58-04:00'
+  layer: CommunityServices/MD_GarbageRecycle/MapServer/1
+  fields:
+  - WEEKDAYS
+  - ROUTE
+  - MODIFIEDDATE
+- id: us-fl-miamidade.gis-libraries
+  publisher: Miami-Dade County GIS (Information Technology Department)
+  title: Library branches (MD_Libraries layer 1)
+  url: https://gisweb.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Public ArcGIS REST layer, no key. Queried live for both demo pins at 2026-09-25T17:36:58-04:00.
+  official: true
+  extraction: arcgis-query
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:36:58-04:00'
+  layer: MD_Libraries/MapServer/1
+  fields:
+  - BRANCH
+  - ADDRESS
+  - CITY
+  - LAT
+  - LON
+- id: us-fl-miamidade.gis-municipality
+  publisher: Miami-Dade County GIS (Information Technology Department)
+  title: Municipal boundaries (MD_MDPDViewer layer 8)
+  url: https://gisweb.miamidade.gov/arcgis/rest/services/MD_MDPDViewer/MapServer/8
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Public ArcGIS REST layer, no key. Queried live for both demo pins at 2026-09-25T17:36:58-04:00.
+  official: true
+  extraction: arcgis-query
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:36:58-04:00'
+  layer: MD_MDPDViewer/MapServer/8
+  fields:
+  - NAME
+  - MUNICID
+- id: us-fl-miamidade.gis-parcels
+  publisher: Miami-Dade County GIS (Information Technology Department)
+  title: Property Appraiser parcels (MD_LandInformation layer 26)
+  url: https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Public ArcGIS REST layer, no key. Queried live for both demo pins at 2026-09-25T17:36:58-04:00.
+  official: true
+  extraction: arcgis-query
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:36:58-04:00'
+  layer: MD_LandInformation/MapServer/26
+  fields:
+  - FOLIO
+  - TRUE_SITE_ADDR
+  - YEAR_BUILT
+  - CONDO_FLAG
+  - DOR_DESC
+- id: us-fl-miamidade.gis-parks-county
+  publisher: Miami-Dade County GIS (Information Technology Department)
+  title: County parks (MD_RecreationCulture layer 1)
+  url: https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/1
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Public ArcGIS REST layer, no key. Queried live for both demo pins at 2026-09-25T17:36:58-04:00.
+  official: true
+  extraction: arcgis-query
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:36:58-04:00'
+  layer: CommunityServices/MD_RecreationCulture/MapServer/1
+  fields:
+  - NAME
+  - ADDRESS
+  - PHONE
+  - CLASS
+  - LAT
+  - LON
+- id: us-fl-miamidade.gis-parks-municipal
+  publisher: Miami-Dade County GIS (Information Technology Department)
+  title: Municipal parks (MD_RecreationCulture layer 0)
+  url: https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Public ArcGIS REST layer, no key. Queried live for both demo pins at 2026-09-25T17:36:58-04:00.
+  official: true
+  extraction: arcgis-query
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:36:58-04:00'
+  layer: CommunityServices/MD_RecreationCulture/MapServer/0
+  fields:
+  - NAME
+  - ADDRESS
+  - PHONE
+  - MNGTAGCY
+  - LAT
+  - LON
+- id: us-fl-miamidade.gis-recycling-route
+  publisher: Miami-Dade County GIS (Information Technology Department)
+  title: County recycling routes (MD_GarbageRecycle layer 2)
+  url: https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/2
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Public ArcGIS REST layer, no key. Queried live for both demo pins at 2026-09-25T17:36:58-04:00.
+  official: true
+  extraction: arcgis-query
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:36:58-04:00'
+  layer: CommunityServices/MD_GarbageRecycle/MapServer/2
+  fields:
+  - WEEKDAY
+  - PICKUPWEEK
+  - ISMUNIC
+  - DESCRIPTION
+  - UPDATED
+- id: us-fl-miamidade.gis-school-elementary
+  publisher: Miami-Dade County GIS (Information Technology Department)
+  title: Elementary attendance boundaries joined to school sites (layer 9)
+  url: https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Public ArcGIS REST layer, no key. Queried live for both demo pins at 2026-09-25T17:36:58-04:00.
+  official: true
+  extraction: arcgis-query
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:36:58-04:00'
+  layer: CommunityServices/MD_Educational/MapServer/9
+  fields:
+  - SchoolSite.NAME/ADDRESS/LAT/LON
+  - Boundary.PHONE/GRADES
+- id: us-fl-miamidade.gis-school-high
+  publisher: Miami-Dade County GIS (Information Technology Department)
+  title: High attendance boundaries (layer 10)
+  url: https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Public ArcGIS REST layer, no key. Queried live for both demo pins at 2026-09-25T17:36:58-04:00.
+  official: true
+  extraction: arcgis-query
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:36:58-04:00'
+  layer: CommunityServices/MD_Educational/MapServer/10
+  fields:
+  - same as elementary
+- id: us-fl-miamidade.gis-school-middle
+  publisher: Miami-Dade County GIS (Information Technology Department)
+  title: Middle attendance boundaries (layer 11)
+  url: https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Public ArcGIS REST layer, no key. Queried live for both demo pins at 2026-09-25T17:36:58-04:00.
+  official: true
+  extraction: arcgis-query
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:36:58-04:00'
+  layer: CommunityServices/MD_Educational/MapServer/11
+  fields:
+  - same as elementary
+- id: us-fl-miamidade.gis-sewer-service
+  publisher: Miami-Dade County GIS (Information Technology Department)
+  title: Sewer service areas (MD_WaterSewer layer 0)
+  url: https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_WaterSewer/MapServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Public ArcGIS REST layer, no key. Queried live for both demo pins at 2026-09-25T17:36:58-04:00.
+  official: true
+  extraction: arcgis-query
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:36:58-04:00'
+  layer: CommunityServices/MD_WaterSewer/MapServer/0
+  fields:
+  - UTILITYNAME
+  - UTILITYURL
+  - MODDATE
+- id: us-fl-miamidade.gis-vote
+  publisher: Miami-Dade County GIS (Information Technology Department)
+  title: Know Where To Vote (layers 0 polling place, 3 precinct, 4-8 districts)
+  url: https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Public ArcGIS REST layer, no key. Queried live for both demo pins at 2026-09-25T17:36:58-04:00.
+  official: true
+  extraction: arcgis-query
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:36:58-04:00'
+  layer: MD_KnowWhereToVote/MapServer
+  fields:
+  - ID
+  - COMMNAME
+  - REPNAME
+  - SENNAME
+  - BRDMBR
+  - layer 0 NAME/ADDRESS/PRECINCT/LAT/LON
+- id: us-fl-miamidade.gis-water-service
+  publisher: Miami-Dade County GIS (Information Technology Department)
+  title: Water service areas (MD_WaterSewer layer 1)
+  url: https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_WaterSewer/MapServer/1
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Public ArcGIS REST layer, no key. Queried live for both demo pins at 2026-09-25T17:36:58-04:00.
+  official: true
+  extraction: arcgis-query
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:36:58-04:00'
+  layer: CommunityServices/MD_WaterSewer/MapServer/1
+  fields:
+  - UTILITYNAME
+  - UTILITYURL
+  - MODDATE
+- id: us-fl-miamidade.gmx-acfr-2024
+  publisher: Greater Miami Expressway Agency (GMX)
+  title: GMX Annual Comprehensive Financial Report FY2024
+  url: https://gmx-way.com/pdf/annual_reports/2024%20ACFR.pdf
+  kind: pdf
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P1Y
+  notes: 'FY2024 Annual Comprehensive Financial Report (9.2 MB PDF). Statistical section p. 86-87: historical rates, ''Rates
+    lowered on July 1, 2018'', and the current toll rate table.'
+  official: true
+  extraction: pdf-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:36:00-04:00'
+- id: us-fl-miamidade.gmx-toll-inquiries
+  publisher: Greater Miami Expressway Agency (GMX)
+  title: Customer service numbers, invoice color guide (blue = GMX/MDX invoice, gray = SunPass toll enforcement invoice),
+    registr
+  url: https://gmx-way.com/help/toll-inquiries
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Customer service numbers, invoice color guide (blue = GMX/MDX invoice, gray = SunPass toll enforcement invoice),
+    registration hold guidance.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:24:00-04:00'
+- id: us-fl-miamidade.gmx-toll-rate-schedule-pdf
+  publisher: Greater Miami Expressway Agency (GMX)
+  title: Official per-gantry SunPass and Toll-By-Plate table (7-page PDF; page 1 is the table, rest are maps)
+  url: https://gmx-way.com/pdf/Toll_Rate_Schedule.pdf
+  kind: pdf
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Official per-gantry SunPass and Toll-By-Plate table (7-page PDF; page 1 is the table, rest are maps). Fetched 200,
+    2,542,274 bytes. PDF ModDate 2024-01-22; footer 'Toll Rate Schedule for Web 5.3.22'. No HTML toll-rate page found (gmx-way.com/toll-rates
+    returns 404).
+  official: true
+  extraction: pdf-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:14:00-04:00'
+  layer: page 1 table
+- id: us-fl-miamidade.gtfs
+  publisher: Miami-Dade DTPW
+  title: Miami-Dade Transit GTFS static feed
+  url: http://www.miamidade.gov/transit/googletransit/current/google_transit.zip
+  kind: gtfs
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P7D
+  notes: HTTP 200, 8,419,295 bytes, Last-Modified Fri, 31 Jul 2026 20:10:53 GMT; 6,973 stops; no feed_info.txt. Downloaded
+    at 17:38 EDT.
+  official: true
+  extraction: api-json
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:38:00-04:00'
+- id: us-fl-miamidade.jackson-health
+  publisher: Jackson Health System (Public Health Trust of Miami-Dade County)
+  title: Main phone.
+  url: https://jacksonhealth.org/
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Main phone.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:28:00-04:00'
+- id: us-fl-miamidade.lsgmi-home
+  publisher: Legal Services of Greater Miami, Inc. (nonprofit)
+  title: Civil legal aid; LSC grantee
+  url: https://www.legalservicesmiami.org/
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Civil legal aid; LSC grantee. Nonprofit, so official:false.
+  official: false
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:28:00-04:00'
+- id: us-fl-miamidade.mdc-311-home
+  publisher: Miami-Dade County 311 Contact Center
+  title: 311 phone, outside-county number, languages (en/es/ht), hours, Florida Relay 711, 311 Direct.
+  url: https://www.miamidade.gov/global/311/home.page
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: 311 phone, outside-county number, languages (en/es/ht), hours, Florida Relay 711, 311 Direct.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:28:00-04:00'
+- id: us-fl-miamidade.mdc-dswm-garbage-service
+  publisher: Miami-Dade County Department of Solid Waste Management
+  title: Garbage and recycling collection service (county service page)
+  url: https://www.miamidade.gov/global/service.page?Mduid_service=ser1464792744722367
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Covered-area list, twice-weekly automated pickup, holidays, billing unit 305-594-1630, $68 replacement cart.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:32:00-04:00'
+- id: us-fl-miamidade.mdc-dswm-home
+  publisher: Miami-Dade County Department of Solid Waste Management
+  title: Department of Solid Waste Management (home page)
+  url: https://www.miamidade.gov/global/solidwaste/home.page
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: County DSWM home page. Lists the DSWM office (2525 NW 62nd Street, 5th Floor, Miami, FL 33147, 305-514-6666) and
+    routes service questions to 311.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:32:00-04:00'
+- id: us-fl-miamidade.mdc-dtpw-home
+  publisher: Miami-Dade County Department of Transportation and Public Works (DTPW)
+  title: Transportation & Public Works (home page)
+  url: https://www.miamidade.gov/global/transportation/home.page
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: 'DTPW home. Office: Overtown Transit Village North, 701 NW 1st Court, Suite 1700, Miami, FL 33136, 786-469-5675.'
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:32:00-04:00'
+- id: us-fl-miamidade.mdc-elections-home
+  publisher: Miami-Dade County Supervisor of Elections
+  title: Office of the Supervisor of Elections of Miami-Dade County
+  url: https://www.votemiamidade.gov/elections/home.page
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: 'miamidade.gov/global/elections redirects here. Footer: 2700 NW 87th Avenue, Miami, Florida 33172, 305-499-VOTE (8683).'
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:32:00-04:00'
+- id: us-fl-miamidade.mdc-hcd-2026-rfa-booklet
+  publisher: Miami-Dade County Department of Housing and Community Development (HCD)
+  title: FY 2026 Surtax, SHIP and HOME Request for Applications (income and rent limits)
+  url: https://www.miamidade.gov/resources/housing/documents/requests/2026-surtax-booklet.pdf
+  kind: pdf
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: County's own FY 2026 Surtax/SHIP/HOME Request for Applications booklet (122 pages, PDF ModDate 2026-07-29). HOME
+    section p. 92-93 prints the 2026 AMI ($89,800), 50%/80% income limits for 1-4 persons, and HUD Low/High HOME rent limits
+    (eff. June 1, 2026). A later section prints an older table; see fact notes.
+  official: true
+  extraction: pdf-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:34:00-04:00'
+- id: us-fl-miamidade.mdc-hcd-home
+  publisher: Miami-Dade County Department of Housing and Community Development (HCD)
+  title: Housing and Community Development (home page)
+  url: https://www.miamidade.gov/global/housing/home.page
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: 'County HCD home. Office: Overtown Transit Village North, 701 NW 1st Court, 16th Floor, Miami, FL 33136, 786-469-4100.'
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:32:00-04:00'
+- id: us-fl-miamidade.mdc-homeless-trust
+  publisher: Miami-Dade County Homeless Trust
+  title: Homeless Helpline and office (Stephen P
+  url: https://www.homelesstrust.org/homeless-trust/home.page
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Homeless Helpline and office (Stephen P. Clark Center, 111 NW 1st Street Suite 27-310).
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:28:00-04:00'
+- id: us-fl-miamidade.mdc-pa-home
+  publisher: Property Appraiser of Miami-Dade County
+  title: Property Appraiser of Miami-Dade County (home page)
+  url: https://www.miamidadepa.gov/pa/home.page
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: 'miamidade.gov/pa redirects here. Office: Stephen P. Clark Center, 111 NW 1st Street, Suite 710 (the downtown demo
+    pin''s building).'
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:32:00-04:00'
+- id: us-fl-miamidade.mdc-parks-home
+  publisher: Miami-Dade County Parks, Recreation and Open Spaces
+  title: Parks, Recreation and Open Spaces (home page)
+  url: https://www.miamidade.gov/global/recreation/home.page
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: 'miamidade.gov/parks redirects here (the old /global/parks/home.page is 404). Director''s office: Hickman Building,
+    275 NW 2nd Street, 305-755-7800.'
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:32:00-04:00'
+- id: us-fl-miamidade.mdc-tax-collector-dl
+  publisher: Miami-Dade County Office of the Tax Collector
+  title: Driver license/ID transition from FLHSMV to the Tax Collector, hours, and exceptions
+  url: https://www.mdctaxcollector.gov/driver-license-and-id-card-services
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: Driver license/ID transition from FLHSMV to the Tax Collector, hours, and exceptions. Appointments at https://app.mdctaxcollector.gov/
+    (no public slot API).
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:31:00-04:00'
+- id: us-fl-miamidade.mdc-tax-collector-locations
+  publisher: Miami-Dade County Office of the Tax Collector
+  title: Office list with addresses; the same (305) 375-5448 number is listed for all offices.
+  url: https://www.mdctaxcollector.gov/locations
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Office list with addresses; the same (305) 375-5448 number is listed for all offices.
+  official: true
+  extraction: html-quote
+  reachable: true
+  last_checked: '2026-09-25T17:30:00-04:00'
+- id: us-fl-miamidade.mdc-wasd-home
+  publisher: Miami-Dade Water and Sewer Department
+  title: Utility contact.
+  url: https://www.miamidade.gov/global/water/home.page
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Utility contact.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:28:00-04:00'
+- id: us-fl-miamidade.mdcps-initial-entry-handbook-2024
+  publisher: Miami-Dade County Public Schools, Federal and State Compliance Office (FASCO)
+  title: 2024-2025 Initial Entry Registration Procedures Handbook
+  url: https://api.dadeschools.net/WMSFiles/59/Registration/Handbooks/2024-2025%20Initial%20Entry%20Registration%20Procedures%20Handbook-11012024.pdf
+  kind: pdf
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P180D
+  notes: 53-page PDF, ModDate 2024-11-06 ('Revised November 6'). Newest M-DCPS registration handbook found on api.dadeschools.net;
+    supersedes the 01/21 parent guide for procedures.
+  official: true
+  extraction: pdf-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:32:00-04:00'
+- id: us-fl-miamidade.mdpls-contact
+  publisher: Miami-Dade Public Library System
+  title: Contact Us - Miami-Dade Public Library System
+  url: https://www.mdpls.org/contact-us
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Customer care email and main phone 305-375-2665.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:32:00-04:00'
+- id: us-fl-miamidade.mdpls-flow-event
+  publisher: Miami-Dade Public Library System
+  title: FLOW event listing (library calendar)
+  url: https://mdpls.org/event/15529974
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P7D
+  notes: FLOW event listing (library calendar). The FLHSMV FLOW page https://www.flhsmv.gov/locations/florida-licensing-on-wheels/
+    returned 404 on 2026-09-25.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:31:00-04:00'
+- id: us-fl-miamidade.mdso-home
+  publisher: Miami-Dade Sheriff's Office
+  title: miamidade.gov/global/police/home.page redirects here.
+  url: https://www.mdso.com/
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: miamidade.gov/global/police/home.page redirects here.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:38:00-04:00'
+- id: us-fl-miamidade.nces-ccd-mdcps
+  publisher: U.S. Department of Education, National Center for Education Statistics (Common Core of Data)
+  title: 'NCES CCD district detail: Miami-Dade (NCES ID 1200390)'
+  url: https://nces.ed.gov/ccd/districtsearch/district_detail.asp?ID2=1200390&Search=2
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Federal directory record for the district. dadeschools.net renders only via JavaScript and its old contactus.asp
+    now returns 404, so the district's phone and address are taken from NCES.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:32:00-04:00'
+- id: us-fl.fhfc-2026-income-rent-limits-pdf
+  publisher: Florida Housing Finance Corporation (FHFC)
+  title: Primary statewide 2026 income and rent limits (multifamily rental programs, CWHIP)
+  url: https://www.floridahousing.org/docs/default-source/developers-and-property-managers/compliance/limits/florida-housing-rental-programs---2026-income-and-rent-limits-(eff-5-1-2026).pdf?sfvrsn=21bc8923_1
+  kind: pdf
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P90D
+  notes: 'Primary statewide 2026 income and rent limits (multifamily rental programs, CWHIP). Miami-Dade = Miami-Miami Beach-Kendall
+    HMFA. Index page: https://www.floridahousing.org/owners-and-managers/compliance/rent-limits'
+  official: true
+  extraction: pdf-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:27:00-04:00'
+  layer: Miami-Dade County block
+- id: us-fl.fl-statute-316-075
+  publisher: The Florida Legislature (Online Sunshine), 2026 Florida Statutes
+  title: s
+  url: http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0316/Sections/0316.075.html
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P1Y
+  notes: s. 316.075 Traffic control signal devices (right on red).
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:33:00-04:00'
+- id: us-fl.fl-statute-316-172
+  publisher: The Florida Legislature (Online Sunshine), 2026 Florida Statutes
+  title: s
+  url: http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0316/Sections/0316.172.html
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P1Y
+  notes: s. 316.172 Traffic to stop for school bus.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:33:00-04:00'
+- id: us-fl.fl-statute-316-193
+  publisher: The Florida Legislature (Online Sunshine), 2026 Florida Statutes
+  title: s
+  url: http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0316/Sections/0316.193.html
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P1Y
+  notes: s. 316.193 Driving under the influence; penalties.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:33:00-04:00'
+- id: us-fl.fl-statute-562-111
+  publisher: The Florida Legislature (Online Sunshine), 2026 Florida Statutes
+  title: s
+  url: http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0562/Sections/0562.111.html
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P1Y
+  notes: s. 562.111 Possession of alcoholic beverages by persons under age 21 prohibited.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:33:00-04:00'
+- id: us-fl.fl-statute-627-736
+  publisher: The Florida Legislature (Online Sunshine), 2026 Florida Statutes
+  title: s
+  url: http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0600-0699/0627/Sections/0627.736.html
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P1Y
+  notes: s. 627.736 Required personal injury protection benefits.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:33:00-04:00'
+- id: us-fl.fl-statute-715-07
+  publisher: The Florida Legislature (Online Sunshine), 2026 Florida Statutes
+  title: s
+  url: http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0715/Sections/0715.07.html
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P1Y
+  notes: s. 715.07 Vehicles or vessels parked on real property; towing (private-property tows).
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:33:00-04:00'
+- id: us-fl.flhsmv-contact
+  publisher: Florida Department of Highway Safety and Motor Vehicles (FLHSMV)
+  title: Contact Us - FLHSMV
+  url: https://www.flhsmv.gov/contact-us/
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P90D
+  notes: Customer Service Center 850-617-2000, Mon-Fri 8-5 ET.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:32:00-04:00'
+- id: us-fl.flhsmv-insurance
+  publisher: FLHSMV
+  title: Florida minimum insurance (PIP/PDL) requirements.
+  url: https://www.flhsmv.gov/insurance/
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P1Y
+  notes: Florida minimum insurance (PIP/PDL) requirements.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:33:00-04:00'
+- id: us-fl.flhsmv-what-to-bring
+  publisher: FLHSMV
+  title: REAL ID overview and links by citizenship status.
+  url: https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P90D
+  notes: REAL ID overview and links by citizenship status.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:31:00-04:00'
+- id: us-fl.flhsmv-what-to-bring-immigrant
+  publisher: FLHSMV
+  title: REAL ID document list for immigrants (green card holders etc.).
+  url: https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/immigrant/
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P90D
+  notes: REAL ID document list for immigrants (green card holders etc.).
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:31:00-04:00'
+- id: us-fl.flhsmv-what-to-bring-nonimmigrant
+  publisher: Florida Department of Highway Safety and Motor Vehicles (FLHSMV)
+  title: REAL ID document list for non-immigrants (F-1/M-1 I-20, J-1 DS-2019, 60-day temp permit, mailed card, max 1-year
+    term, 2
+  url: https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/non-immigrant/
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P90D
+  notes: REAL ID document list for non-immigrants (F-1/M-1 I-20, J-1 DS-2019, 60-day temp permit, mailed card, max 1-year
+    term, 2 proofs of address, SSN proof).
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:31:00-04:00'
+- id: us-fl.florida-bar-lrs
+  publisher: The Florida Bar
+  title: Lawyer Referral Service (not pro bono).
+  url: https://www.floridabar.org/public/lrs/
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P90D
+  notes: Lawyer Referral Service (not pro bono).
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:38:00-04:00'
+- id: us-fl.shimberg-income-rent-limits
+  publisher: Shimberg Center for Housing Studies, University of Florida (Florida Housing Data Clearinghouse)
+  title: Secondary compilation of HUD FMR/MFI and FHFC 2026 limits
+  url: https://flhousingdata.shimberg.ufl.edu/income-and-rent-limits/results?nid=1
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P90D
+  notes: Secondary compilation of HUD FMR/MFI and FHFC 2026 limits. Not a publisher of the limits; cross-check only.
+  official: false
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:18:00-04:00'
+- id: us.988-lifeline
+  publisher: 988 Suicide & Crisis Lifeline (SAMHSA-funded; administered by Vibrant Emotional Health)
+  title: National crisis line.
+  url: https://988lifeline.org/
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P180D
+  notes: National crisis line.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:38:00-04:00'
+- id: us.census-geocoder
+  publisher: U.S. Census Bureau
+  title: Census Geocoder (geographies, onelineaddress)
+  url: https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress
+  kind: api
+  jurisdiction: us
+  key_required: false
+  check_every: P30D
+  notes: benchmark=Public_AR_Current, vintage=Current_Current, layers=all. Box curl gets 'Request Rejected' (WAF); read via
+    WebFetch at 17:17 EDT. No key.
+  official: true
+  extraction: api-json
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:17:00-04:00'
+- id: us.poison-control
+  publisher: National Capital Poison Center (nonprofit)
+  title: National Poison Help line.
+  url: https://www.poison.org/
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P1Y
+  notes: National Poison Help line.
+  official: false
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:38:00-04:00'
+- id: us.us-911-gov-faq
+  publisher: NHTSA National 911 Program (911.gov)
+  title: Blocks curl from the box (403); WebFetch works.
+  url: https://www.911.gov/calling-911/frequently-asked-questions/
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P1Y
+  notes: Blocks curl from the box (403); WebFetch works.
+  official: true
+  extraction: html-quote
+  reachable: true
+  last_checked: '2026-09-25T17:38:00-04:00'
+- id: us.uscis-common-scams
+  publisher: U.S. Citizenship and Immigration Services
+  title: Notario público warning; only attorneys or DOJ-accredited representatives may advise.
+  url: https://www.uscis.gov/scams-fraud-and-misconduct/avoid-scams/common-scams
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P180D
+  notes: Notario público warning; only attorneys or DOJ-accredited representatives may advise.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:38:00-04:00'
+- id: us.uscis-contact-center
+  publisher: U.S. Citizenship and Immigration Services
+  title: USCIS Contact Center phone and hours.
+  url: https://www.uscis.gov/contactcenter
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P90D
+  notes: USCIS Contact Center phone and hours.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T17:28:00-04:00'
+
+- id: us.uscis.i9central.haiti-tps-termination.2026-07-29
+  publisher: U.S. Citizenship and Immigration Services
+  title: 'Update on Termination of Temporary Protected Status for Haiti (Release:
+    July 29, 2026) | USCIS'
+  url: https://www.uscis.gov/i-9-central/form-i-9-related-news/update-on-termination-of-temporary-protected-status-for-haiti-release-july-29-2026
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P1D
+  notes: Added from urgent fact source URL.
+- id: us.uscis.tps.venezuela
+  publisher: U.S. Citizenship and Immigration Services
+  title: 'Temporary Protected Status Designated Country: Venezuela | USCIS'
+  url: https://www.uscis.gov/humanitarian/temporary-protected-status/temporary-protected-status-designated-country-venezuela
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P1D
+  notes: Added from urgent fact source URL.
+- id: us.congress.pl119-21.sec71109
+  publisher: Congress.gov | Library of Congress
+  title: 'Text - H.R.1 - 119th Congress (2025-2026): An act to provide for reconciliation
+    pursuant to title II of H. Con. Res. 14. | Congress.gov | Library of Congress'
+  url: https://www.congress.gov/bill/119th-congress/house-bill/1/text
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P7D
+  notes: Added from urgent fact source URL.
+- id: us-fl.flsenate.fl-const.art-x-sec-24
+  publisher: The Florida Senate
+  title: The Florida Constitution - The Florida Senate
+  url: https://www.flsenate.gov/Laws/Constitution
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P7D
+  notes: Added from urgent fact source URL.
+- id: us-fl-miamidade.provider.cclsmiami
+  publisher: Catholic Legal Services, Archdiocese of Miami
+  title: Catholic Legal Services, Archdiocese of Miami
+  url: https://www.cclsmiami.org/
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P7D
+  notes: Added from urgent fact source URL.
+- id: us.congress-hr1-text
+  publisher: Congress.gov | Library of Congress
+  title: 'Text - H.R.1 - 119th Congress (2025-2026): An act to provide for reconciliation
+    pursuant to title II of H. Con. Res. 14. | Congress.gov | Library of Congress'
+  url: https://www.congress.gov/bill/119th-congress/house-bill/1/text
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P1D
+  notes: Added from urgent fact source URL.
+- id: us.fr-2026-14327
+  publisher: Centers for Medicare & Medicaid Services
+  title: Medicare and Medicaid Programs; CY 2027 Payment Policies Under the Physician
+    Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare
+    Shared Savings Program Requirements; and Medicare Prescription Drug Inflation
+    Rebate Program
+  url: https://www.federalregister.gov/documents/2026/07/16/2026-14327/medicare-and-medicaid-programs-cy-2027-payment-policies-under-the-physician-fee-schedule-and-other
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P1D
+  notes: Added from urgent fact source URL.
+- id: us.fr-2026-14439
+  publisher: Department of Homeland Security
+  title: Establishing a Fixed Time Period of Admission and an Extension of Stay Procedure
+    for Nonimmigrant Academic Students, Exchange Visitors, and Representatives of
+    Foreign Information Media
+  url: https://www.federalregister.gov/documents/2026/07/17/2026-14439/establishing-a-fixed-time-period-of-admission-and-an-extension-of-stay-procedure-for-nonimmigrant
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P1D
+  notes: Added from urgent fact source URL.
+- id: us.irs-itin
+  publisher: Internal Revenue Service
+  title: Individual taxpayer identification number (ITIN) | Internal Revenue Service
+  url: https://www.irs.gov/individuals/individual-taxpayer-identification-number
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P30D
+  notes: Added from urgent fact source URL.
+- id: us-fl.statutes-166-246
+  publisher: The Florida Senate
+  title: Chapter 166 Section 246 - 2026 Florida Statutes - The Florida Senate
+  url: https://www.flsenate.gov/Laws/Statutes/2026/166.246
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P90D
+  notes: Added from urgent fact source URL.
+- id: us.fema.nfhl
+  publisher: Federal Emergency Management Agency (FEMA)
+  title: 'Layer: Flood Hazard Zones (ID: 28)'
+  url: https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28
+  kind: gis-layer
+  jurisdiction: us
+  key_required: false
+  check_every: P30D
+  notes: FEMA National Flood Hazard Layer MapServer flood hazard zones layer 28.
+- id: us-fl-miamidade.m-dcps
+  publisher: Miami-Dade County Public Schools
+  title: M-DCPS Office of Communications
+  url: https://news.dadeschools.net/cmnc/new/37651
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P7D
+  notes: Added from urgent fact source URL.
+
+- id: us-fl.kidcare
+  publisher: Florida KidCare
+  title: Home - Florida KidCare
+  url: https://www.floridakidcare.org/
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P90D
+  notes: Official desk page used for verified name and URL.
+- id: us-fl.dcf-access
+  publisher: Florida DCF
+  title: Public Benefits and Services | Florida DCF
+  url: https://www.myflfamilies.com/services/public-assistance
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P90D
+  notes: Official desk page used for verified name and URL.
+- id: us.fema.nfip
+  publisher: Federal Emergency Management Agency (FEMA)
+  title: Floodsmart | The National Flood Insurance Program
+  url: https://www.floodsmart.gov/
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P90D
+  notes: Official desk page used for verified name and URL.
+- id: us-fl-miamidade.mdcps-nutrition-flyer-2026
+  publisher: Miami-Dade County Public Schools, Department of Food and Nutrition
+  title: Meal Benefits Application Flyer SY 2026-27
+  url: https://mdcpsnutrition.net/wp-content/uploads/Meal-Benefits-Application-Flyer-2026-27.pdf
+  kind: pdf
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P7D
+  official: true
+  extraction: pdf-quote
+  reachable: true
+  last_checked: '2026-09-25T18:20:00-04:00'
+- id: us-fl-miamidade.mdcps-news-37828
+  publisher: Miami-Dade County Public Schools, Office of Communications
+  title: M-DCPS Will Offer Free Breakfast and Lunch at Qualifying Schools
+  url: https://news.dadeschools.net/cmnc/new/37828
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  official: true
+  extraction: html-quote
+  reachable: true
+  last_checked: '2026-09-25T18:20:00-04:00'
+- id: us-fl-miamidade.mdcps-news-37851
+  publisher: Miami-Dade County Public Schools, Office of Communications
+  title: Free and reduced-price meals public release 2026-2027
+  url: https://news.dadeschools.net/cmnc/new/37851
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  official: true
+  extraction: html-quote
+  reachable: true
+  last_checked: '2026-09-25T18:20:00-04:00'
+  notes: Quote read from search extract of the official page.
+- id: us-fl.statutes-205-053
+  publisher: Florida Legislature
+  title: Fla. Stat. 205.053 Business tax receipts; dates due and delinquent; penalties
+  url: http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0200-0299/0205/Sections/0205.053.html
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P180D
+  official: true
+  extraction: html-quote
+  reachable: true
+  last_checked: '2026-09-25T18:20:00-04:00'
+- id: us-fl.statutes-205-162
+  publisher: The Florida Senate
+  title: Fla. Stat. 205.162 Exemption allowed certain disabled persons, the aged, and widows with minor dependents
+  url: https://www.flsenate.gov/laws/statutes/2025/205.162
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P180D
+  official: true
+  extraction: html-quote
+  reachable: true
+  last_checked: '2026-09-25T18:20:00-04:00'
+- id: us-fl-miamidade.mdc-tax-collector-lbt-exempt-form
+  publisher: Miami-Dade Office of the Tax Collector
+  title: Local business tax exemption application (disabled / 65+)
+  url: https://mdctaxcollector.gov/storage/forms/lbt/exempt-appl-other.pdf
+  kind: pdf
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P180D
+  official: true
+  extraction: pdf-quote
+  reachable: true
+  last_checked: '2026-09-25T18:20:00-04:00'
+- id: us-fl.fpl-residential-deposits
+  publisher: Florida Power & Light
+  title: 'FPL Rates: Residential Deposits'
+  url: https://www.fpl.com/rates/residential-deposits.html
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P90D
+  official: false
+  extraction: html-quote
+  reachable: true
+  last_checked: '2026-09-25T18:20:00-04:00'
+  notes: 'Utility''s own page (primary for its own deposit policy; regulated by the Florida PSC). Tariff: fpl.com/rates/pdf/electric-tariff-section6.pdf.'
+- id: us-fl-miamidade.light-bill-assistance
+  publisher: Miami-Dade County Community Services Department
+  title: Light Bill Assistance
+  url: https://www.miamidade.gov/global/service.page?Mduid_service=ser1504204216164378
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  official: true
+  extraction: html-quote
+  reachable: true
+  last_checked: '2026-09-25T18:20:00-04:00'
+  notes: Page also still carries an old pandemic line (crisis help up to $2,000 in 12 months); do not use that figure.
+- id: us-fl.dfs-consumer-services-contact
+  publisher: Florida Department of Financial Services, Division of Consumer Services
+  title: Contact Us | Consumer Services
+  url: https://myfloridacfo.com/division/consumers/contactus
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P90D
+  official: true
+  extraction: html-quote
+  reachable: true
+  last_checked: '2026-09-25T18:32:00-04:00'
+- id: us-fl.flhsmv-news-english-only-exams
+  publisher: Florida Department of Highway Safety and Motor Vehicles (FLHSMV)
+  title: FLHSMV Announces Driver License Exams to Be Administered in English Only (2026-01-30)
+  url: https://www.flhsmv.gov/2026/01/30/flhsmv-announces-driver-license-exams-to-be-administered-in-english-only/
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P1Y
+  notes: Press release; effective Friday 2026-02-06. Stale third-party copies still list six exam languages.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T19:05:00-04:00'
+- id: us-fl.flhsmv-class-e-exam
+  publisher: Florida Department of Highway Safety and Motor Vehicles (FLHSMV)
+  title: Class E Knowledge Exam & Driving Skills Test
+  url: https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/class-e-knowledge-exam-driving-skills-test/
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P90D
+  notes: Live page reads English only (search-engine caches still show Arabic, Chinese, English, Haitian Creole, Russian, Spanish).
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T19:05:00-04:00'
+- id: us-fl.flsenate.stat-83-56
+  publisher: The Florida Senate (Florida Statutes)
+  title: Fla. Stat. 83.56 Termination of rental agreement (2025)
+  url: https://www.flsenate.gov/Laws/Statutes/2025/83.56
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P1Y
+  notes: Official statute text; 2025 edition.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T19:15:00-04:00'
+- id: us-fl.flsenate.stat-83-60
+  publisher: The Florida Senate (Florida Statutes)
+  title: Fla. Stat. 83.60 Defenses to action for rent or possession (2025)
+  url: https://www.flsenate.gov/Laws/Statutes/2025/83.60
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P1Y
+  notes: Official statute text; 2025 edition.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T19:15:00-04:00'
+- id: us-fl-miamidade.transit-fares
+  publisher: Miami-Dade County Department of Transportation and Public Works
+  title: Transit Fares and Parking Fees
+  url: https://www.miamidade.gov/global/transportation/transit-fares.page
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: County fares change by ordinance; re-check monthly.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T19:15:00-04:00'
+- id: us-fl-miamidade.jackson-financial-assistance
+  publisher: Jackson Health System (Public Health Trust of Miami-Dade County)
+  title: Financial Assistance
+  url: https://jacksonhealth.org/patient-tools/financial-assistance
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Healthcare Advisors 305-585-2222 appears in the ACA section next to stale 2018 penalty text.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T19:15:00-04:00'
+- id: us-fl.liheap-faq
+  publisher: Florida Department of Commerce (Florida LIHEAP)
+  title: Florida LIHEAP FAQ
+  url: https://floridaliheap.com/faq
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P90D
+  notes: State program FAQ in English, Spanish and Haitian Creole.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T19:15:00-04:00'
+- id: us-fl.flhsmv-handbooks-manuals
+  publisher: Florida Department of Highway Safety and Motor Vehicles (FLHSMV)
+  title: Handbooks & Manuals
+  url: https://www.flhsmv.gov/resources/handbooks-manuals/
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P90D
+  notes: Links the Florida Driver's Handbook PDFs (English, Spanish) and the CDL handbook. English PDF last-modified 2024-08-06.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+- id: us.uscis-all-forms
+  publisher: U.S. Citizenship and Immigration Services (USCIS)
+  title: All Forms
+  url: https://www.uscis.gov/forms/all-forms
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P90D
+  notes: States that USCIS forms and online accounts are always free.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+- id: us.uscis-g-1651
+  publisher: U.S. Citizenship and Immigration Services (USCIS)
+  title: G-1651, Exemption Request for Electronic Payment
+  url: https://www.uscis.gov/g-1651
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P30D
+  notes: Electronic-payment rule effective 2025-10-28; paper payment only with a G-1651 exemption.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+- id: us.ftc-gift-card-scams
+  publisher: Federal Trade Commission (FTC)
+  title: Avoiding and Reporting Gift Card Scams
+  url: https://consumer.ftc.gov/articles/avoiding-and-reporting-gift-card-scams
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P180D
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+- id: us-fl.flhsmv-fees
+  publisher: Florida Department of Highway Safety and Motor Vehicles (FLHSMV)
+  title: Fees
+  url: https://www.flhsmv.gov/fees/
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P90D
+  notes: Driver license and ID fees; $6.25 tax collector service fee may apply.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+- id: us-fl.fl-statute-83-49
+  publisher: The Florida Senate
+  title: Florida Statutes 83.49, Deposit money or advance rent; duty of landlord and tenant (2025)
+  url: https://www.flsenate.gov/Laws/Statutes/2025/83.49
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P1Y
+  notes: Official statute text; re-check after each legislative session.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+- id: us-fl-miamidade.mia-taxicabs-shuttles
+  publisher: Miami International Airport (Miami-Dade Aviation Department)
+  title: Taxicabs & Shuttles
+  url: https://www.miami-airport.com/taxicabs-shuttles.asp
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Current meter rates, $2.00 airport origination fee, $15 MIA minimum fare.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+- id: us-fl-miamidade.mdc-taxicab-passenger-info
+  publisher: Miami-Dade County
+  title: Taxicab passenger information (for-hire rates)
+  url: https://www.miamidade.gov/global/service.page?Mduid_service=ser1572618493969359
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: States all flat fare rates are eliminated; meter applies to all trips, including ARTS.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+- id: us.ecfr-47-54-410
+  publisher: Electronic Code of Federal Regulations (National Archives / GPO)
+  title: 47 CFR 54.410 Subscriber eligibility determination and certification
+  url: https://www.ecfr.gov/current/title-47/chapter-I/subchapter-B/part-54/subpart-E/section-54.410
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P1Y
+  notes: HTML page returns an access challenge to scripts; text read through the official eCFR Versioner API (issue 2026-09-24).
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+- id: us.ed-el-2015-fact-sheet
+  publisher: "U.S. Department of Education"
+  title: "OCR and DOJ fact sheet: Ensuring English Learner Students Can Participate Meaningfully and Equally (January 2015, rescinded)"
+  url: "https://www.ed.gov/media/document/ocr-and-doj-civil-rights-division-ensuring-english-learner-students-can-participate-meaningfully-and-equally-educational-programs-january-2015-rescinded-21469"
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P180D
+  notes: "ed.gov returns an automated-access block to scripts; rescission banner read from the search-indexed official page."
+  official: true
+  extraction: html-quote
+  reachable: false
+- id: us-fl.flrules-6a-6.0908
+  publisher: "Florida Department of State (Florida Administrative Code)"
+  title: "Rule 6A-6.0908 Equal Access to Appropriate Instruction for English Language Learners"
+  url: "https://www.flrules.org/gateway/ruleNo.asp?id=6A-6.0908"
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P1Y
+  notes: "Rule page lists Effective Date 5/5/2009; rule text is the linked Word document (readFile.asp ... 6A-6.0908.doc), read manually."
+  official: true
+  extraction: manual
+  reachable: true
+  http_status: 200
+- id: us-fl-miamidade.mdcps-policy-2111
+  publisher: "Miami-Dade County School Board (BoardDocs)"
+  title: "Policy 2111 Parent and Family Engagement: A Home-School-District Partnership"
+  url: "https://go.boarddocs.com/fl/sbmd/Board.nsf/goto?id=CXRRRT6F4800&open="
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P180D
+  notes: "Last revised 11.15.2023."
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+- id: us.ecfr-34-300-322
+  publisher: "Electronic Code of Federal Regulations (National Archives / GPO)"
+  title: "34 CFR 300.322 Parent participation"
+  url: "https://www.ecfr.gov/current/title-34/subtitle-B/chapter-III/part-300/subpart-D/section-300.322"
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P1Y
+  notes: "HTML page returns an access challenge to scripts; text read through the official eCFR Versioner API (issue 2026-09-24)."
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+- id: us-fl-miamidade.mdcps-toolkit-1516
+  publisher: "Miami-Dade County Public Schools"
+  title: "M-DCPS 2015-16 parent toolkit (news.dadeschools.net)"
+  url: "https://news.dadeschools.net/toolkit1516/toolkit1516.htm"
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: "Old (2015-16) but official; phone corroborated by M-DCPS Guide and Resources for Student Support 2023-2024."
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+- id: us-fl.sfrta-fare-notice-2026
+  publisher: "South Florida Regional Transportation Authority (Tri-Rail)"
+  title: "Notice of Public Hearing and Proposed Fare Changes 2026 (station posting)"
+  url: "https://media.tri-rail.com/Files/About/SFRTA/Meetings/Public%20Hearings/2026/Public%20Hearing%20Notice%20-%20Fare%20Increase%202026%20-%20STATION%20POSTING%20B.pdf"
+  kind: pdf
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P30D
+  notes: "Hearing June 26, 2026; notice states it serves as the final fare changes unless amended; no effective date given."
+  official: true
+  extraction: pdf-quote
+  reachable: true
+  http_status: 200
+- id: us.ecfr-45-92-201
+  publisher: "Electronic Code of Federal Regulations (National Archives / GPO)"
+  title: "45 CFR 92.201 Meaningful access for individuals with limited English proficiency"
+  url: "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-A/part-92/subpart-C/section-92.201"
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P90D
+  notes: "HTML page returns an access challenge to scripts; text read through the official eCFR Versioner API (issue 2026-09-24)."
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+- id: us-fl.fl-statute-322-135
+  publisher: "The Florida Legislature"
+  title: "Fla. Stat. 322.135 Driver license agents (2026 Florida Statutes)"
+  url: "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0322/Sections/0322.135.html"
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P1Y
+  notes: "2026 Florida Statutes; last amended s. 8, ch. 2025-125."
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+- id: us.ftc-rental-listing-scams
+  publisher: "Federal Trade Commission"
+  title: "Rental Listing Scams (consumer advice)"
+  url: "https://consumer.ftc.gov/articles/rental-listing-scams"
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P90D
+  notes: "English article; links an official Spanish version."
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+- id: us.ftc-rental-listing-scams-es
+  publisher: "Federal Trade Commission"
+  title: "Estafas de listados de propiedades en alquiler (consumidor.ftc.gov)"
+  url: "https://consumidor.ftc.gov/articulos/estafas-de-listados-de-propiedades-en-alquiler"
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P90D
+  notes: "Official Spanish version of the FTC rental listing scams article."
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+- id: us.ftc-contact
+  publisher: "Federal Trade Commission"
+  title: "Contact the Federal Trade Commission"
+  url: "https://www.ftc.gov/contact"
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P90D
+  notes: "Lists ReportFraud.ftc.gov and the Consumer Response Center 1-877-FTC-HELP (382-4357)."
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+- id: us-fl-miamidade.gis-311crm-display
+  publisher: Miami-Dade County GIS
+  title: 311 CRM Display map service (municipality, county and City of Miami solid-waste routes, water and sewer areas)
+  url: https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM_Display/MapServer
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: 'ArcGIS Server 11.5, read by box curl 2026-09-25. Layers used: 1 Municipality Name (NAME, 35 values incl. UNINCORPORATED
+    MIAMI-DADE), 3 MDC Garbage Route (ROUTE, COLLDAY, WEEKDAYS), 4 MDC Recycling Route (ROUTE, WEEKDAY, PICKUPWEEK), 7 MDC
+    SWM Bulky Book (LABEL), 14 Water Service Area (UTILITYNAME), 15 Sewer Service Area (UTILITYNAME), 19 COM Garbage Route
+    (GARBROUTE, GRAPCKDAYS), 20 COM Recycling Route (RECYROUTE), 21 COM Bulky Trash Route (TRASHDAY; codes decode with the
+    SW_Service_Days domain on source us-fl-miami.gis-trash-routes). Layer 18 here is COM Neighborhood (not used). Downtown
+    county pin (-80.196669, 25.775604) returns layer 1 NAME MIAMI.'
+  official: true
+  extraction: arcgis-query
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T20:30:00-04:00'
+  layer: 311/311CRM_Display/MapServer/1
+  fields:
+  - NAME
+- id: us-fl-miamidade.gis-311crm
+  publisher: Miami-Dade County GIS
+  title: 311 CRM map service (elementary attendance boundaries, police grid)
+  url: https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM/MapServer
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: 'Read by box curl 2026-09-25. Layer 18 MDC.ElementaryAttendanceBoundary (NAME, ADDRESS, PHONE, GRADES). Layer 38
+    MDC.PoliceGrid_poly (GRID, DISTRICTID, DISTNAME, AGENCY, MUNICID, CADAGENCY): AGENCY is a bare integer and CADAGENCY a
+    two-letter code with no published domain, so Research does not use layer 38 to name the police agency (the downtown City
+    of Miami pin returns AGENCY 30, CADAGENCY PD, DISTNAME GOVERNMENT SERVICES BUREAU). Use layer 1 of 311CRM_Display instead.'
+  official: true
+  extraction: arcgis-query
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T20:30:00-04:00'
+  layer: 311/311CRM/MapServer/38
+  fields:
+  - DISTNAME
+  - AGENCY
+  - CADAGENCY
+- id: us-fl-miamidade.mdso-online-report
+  publisher: Miami-Dade Sheriff's Office
+  title: MDSO Non-Emergency Online Police Report app
+  url: https://www.miamidade.gov/apps/mdso/non-emergencypolicereport/
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P30D
+  notes: 'Angular single-page app on miamidade.gov. The eligibility text is not in the HTML; it was read from the live app bundle
+    main JS served from the same path on 2026-09-25. That text still says "call 305-476-5423", while Discovery batch 11 reports
+    a county release saying 305-SHERIFF (305-743-7433) replaces 305-4-POLICE.'
+  official: true
+  extraction: manual
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T20:30:00-04:00'
+- id: us-fl-miamidade.budget-fy2526-mdso
+  publisher: Miami-Dade County Office of Management and Budget
+  title: FY 2025-26 Adopted Budget, Sheriff's Office
+  url: https://www.miamidade.gov/resources/budget/adopted/fy2025-26/sheriffs-office.pdf
+  kind: pdf
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P365D
+  notes: Read with pdftotext 2026-09-25. The PDF text uses an ff ligature in "sheriff", so quotes stop before that word.
+  official: true
+  extraction: pdf-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T20:30:00-04:00'
+- id: us-fl-miamidade.mdso-interlocal-memo-2025
+  publisher: Miami-Dade County Mayor's Office
+  title: Memo 2025-01-07, MDSO interlocal agreements (transition of the Sheriff's Office)
+  url: https://www.miamidade.gov/resources/management/documents/memos/2025-01-07-MDSO-interlocal-agreement.pdf
+  kind: pdf
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P365D
+  notes: Item 14 lists the contracted local police services for Miami Lakes, Palmetto Bay and Cutler Bay. Read with pdftotext 2026-09-25.
+  official: true
+  extraction: pdf-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T20:30:00-04:00'
+- id: us-fl-miami.miami-gov-police
+  publisher: City of Miami
+  title: City of Miami Police Department page (miami.gov)
+  url: https://www.miami.gov/My-Government/Departments/Police-Department
+  kind: html
+  jurisdiction: us-fl-miami
+  key_required: false
+  check_every: P90D
+  notes: Box curl is blocked by the site; read through a web fetch on 2026-09-25.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T20:30:00-04:00'
+- id: us-fl.sfrta-fares-page
+  publisher: South Florida Regional Transportation Authority (Tri-Rail)
+  title: Tri-Rail fares page (site header carries the contact line)
+  url: https://www.tri-rail.com/pages/view/fares
+  kind: html
+  jurisdiction: us-fl
+  key_required: false
+  check_every: P90D
+  notes: The fare table renders only with JavaScript; the server HTML carries the header contact line and page title. Read 2026-09-25.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T20:30:00-04:00'
+- id: us-fl-miamidade.eeap-service-page
+  publisher: Miami-Dade County Department of Emergency Management
+  title: Emergency & Evacuation Assistance Program (EEAP) service page
+  url: https://www.miamidade.gov/global/service.page?Mduid_service=ser1470238193996672
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Read by box curl 2026-09-25. Phone block lists Hotline for Registrants, TTY/TDD Line and Fax; online registration at miamidade.gov/apps/gis/eeap_publicregistration/.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T19:30:00-04:00'
+- id: us-fl-miamidade.eeap-faq-register
+  publisher: Miami-Dade County Department of Emergency Management
+  title: How do I register for the EEAP? (county FAQ)
+  url: https://www.miamidade.gov/global/faq.page?Mduid_faq=faq1598023863344518
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: Read by box curl 2026-09-25.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T19:30:00-04:00'
+- id: us-fl-miamidade.asd-pet-hurricane
+  publisher: Miami-Dade Animal Services
+  title: Pet Preparedness During a Hurricane (pet-friendly evacuation centers)
+  url: https://www.miamidade.gov/global/service.page?Mduid_service=ser1598287646006415
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P90D
+  notes: English only; the lang=es URL returns the same English page. The county's own Spanish and Haitian Creole text is in the readiness guide (source us-fl-miamidade.hurricane-readiness-guide-2025).
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T19:30:00-04:00'
+- id: us-fl-miamidade.hurricane-readiness-guide-2025
+  publisher: Miami-Dade County Department of Emergency Management
+  title: Official Severe Weather and Emergency Readiness Guide 2025 (English, Spanish, Haitian Creole)
+  url: https://www.miamidade.gov/hurricane/library/guide-to-hurricane-readiness.pdf
+  kind: pdf
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P180D
+  notes: 48-page trilingual PDF, created 2025-04-23 (still the file at this URL on 2026-09-25; no 2026 edition found). Read with pdftotext. The guide does not state the four-pet limit; the Animal Services page does.
+  official: true
+  extraction: pdf-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T19:30:00-04:00'
+- id: us-fl-miamidade.gis-evacuation-centers
+  publisher: Miami-Dade County GIS Technical Support Group (ArcGIS Online owner MDPublisher)
+  title: Evacuation Center Feature Layer (open evacuation centers)
+  url: https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/EvacuationCenter_gdb/FeatureServer/0
+  kind: gis-layer
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P1D
+  notes: 'ArcGIS Online item b85b8bf54c654ceb87caa80bb5fcb8bf, open-data page gis-mdc.opendata.arcgis.com/datasets/evacuation-center-shelters-open.
+    Fields include ShlName, Address, City, Zipcode, ShlStatus, ShlType, SpeclNeed, PetFrndly, PetCapcity, GenPop, LAT, LON.
+    Returned count 0 on 2026-09-25 19:30 EDT (data last edited 2026-09-21 15:27 EDT): the county fills it only when centers
+    open. During a storm, re-check hourly rather than daily.'
+  official: true
+  extraction: arcgis-query
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T19:30:00-04:00'
+  layer: EvacuationCenter_gdb/FeatureServer/0
+  fields:
+  - ShlName
+  - Address
+  - ShlStatus
+  - PetFrndly
+  - SpeclNeed
+- id: us.nws-alerts-api
+  publisher: National Weather Service (NOAA)
+  title: NWS API active alerts, point query
+  url: https://api.weather.gov/alerts/active?point=25.663194,-80.416467
+  kind: api
+  jurisdiction: us
+  key_required: false
+  check_every: P1D
+  notes: 'GeoJSON FeatureCollection of active watches, warnings and advisories for a lat,lon point (up to 4 decimals). No key;
+    NWS asks for a User-Agent that identifies the app and a contact. On 2026-09-25 19:03 EDT the SW 137th Ave demo pin returned
+    0 features, so any watch the demo shows must be labeled SIMULATED. Ledger interval is daily (schema minimum); the app itself should poll alerts every few minutes during a storm.'
+  official: true
+  extraction: api-json
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T19:03:00-04:00'
+- id: us-fl-miamidade.mdcps-news-34195
+  publisher: Miami-Dade County Public Schools, Office of Communications
+  title: 'News release 2024-10-07: Hurricane Milton, schools closed Wednesday Oct. 9'
+  url: https://news.dadeschools.net/cmnc/new/34195
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P365D
+  notes: Historical storm-closure release used as the model for how M-DCPS announces closures. Read by box curl 2026-09-25.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T19:30:00-04:00'
+- id: us-fl-miamidade.mdcps-news-34199
+  publisher: Miami-Dade County Public Schools, Office of Communications
+  title: 'News release 2024-10-10: all schools reopen Oct. 11 (support line 305-995-HELP)'
+  url: https://news.dadeschools.net/cmnc/new/34199
+  kind: html
+  jurisdiction: us-fl-miamidade
+  key_required: false
+  check_every: P365D
+  notes: Read by box curl 2026-09-25.
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T19:30:00-04:00'
+- id: us.988-faq-languages
+  publisher: 988 Suicide & Crisis Lifeline (Vibrant Emotional Health)
+  title: 'FAQ: Is the 988 Lifeline available in other languages for non-English speakers?'
+  url: https://988lifeline.org/faq/calling-the-988-lifeline/faq-is-the-988-lifeline-available-in-other-languages-for-non-english-speakers/
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P180D
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T19:30:00-04:00'
+- id: us.988-servicios-en-espanol
+  publisher: 988 Suicide & Crisis Lifeline (Vibrant Emotional Health)
+  title: Servicios en Español (Línea 988)
+  url: https://988lifeline.org/es/servicios-de-traduccion/servicios-en-espanol/
+  kind: html
+  jurisdiction: us
+  key_required: false
+  check_every: P180D
+  official: true
+  extraction: html-quote
+  reachable: true
+  http_status: 200
+  last_checked: '2026-09-25T19:30:00-04:00'

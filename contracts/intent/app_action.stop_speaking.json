@@ -1,0 +1,7 @@
+{
+  "note": "AppAction stop_speaking. Example ids only; no real people or facts.",
+  "type": "app_action",
+  "value": {
+    "type": "stop_speaking"
+  }
+}

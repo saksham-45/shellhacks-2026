@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "command_keys": [
+    "back",
+    "home",
+    "read_this",
+    "stop",
+    "repeat",
+    "next_step",
+    "previous_step",
+    "call_desk",
+    "open_map",
+    "switch_language_es",
+    "switch_language_en",
+    "switch_language_ht",
+    "switch_language_pt",
+    "switch_language_fr",
+    "switch_language_ar",
+    "switch_language_zh",
+    "switch_language_ru",
+    "switch_language_tl",
+    "switch_language_vi",
+    "yes",
+    "no",
+    "ordinal_first",
+    "ordinal_second",
+    "ordinal_third"
+  ]
+}

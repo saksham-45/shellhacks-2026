@@ -1,0 +1,9 @@
+{
+  "request_url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=5000&units=esriSRUnit_Meter&outFields=BRANCH%2CADDRESS&returnGeometry=true&outSR=4326&f=json",
+  "method": "GET",
+  "retrieved_at": "2026-09-25T18:06:34-04:00",
+  "http_status": 200,
+  "bytes": 772,
+  "sha256": "1e78a591b84876653700eaa90035fe4db51bbd2a91143c0803afe275d6d7a707",
+  "capture_path": "scripts/refresh_fixtures.py (LiveTransport, box egress)"
+}

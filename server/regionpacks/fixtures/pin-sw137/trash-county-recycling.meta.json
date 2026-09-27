@@ -1,0 +1,9 @@
+{
+  "request_url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/2/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=WEEKDAY%2CPICKUPWEEK%2CDESCRIPTION&returnGeometry=false&f=json",
+  "method": "GET",
+  "retrieved_at": "2026-09-25T18:06:30-04:00",
+  "http_status": 200,
+  "bytes": 476,
+  "sha256": "cd2ea6a5603d0b24e094a3b95796a3421b778b6e012ddcee271b630b49d7cb31",
+  "capture_path": "scripts/refresh_fixtures.py (LiveTransport, box egress)"
+}

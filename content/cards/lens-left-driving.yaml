@@ -1,0 +1,98 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: lens-left-driving
+kind: lens
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Origin lens
+  item: India, and anyone from a left-driving country
+title:
+  es: ¿Aprendiste a manejar por la izquierda?
+  en: Learned to drive on the left?
+  ht: Ou te aprann kondwi sou bò goch?
+summary:
+  es: Puedes llegar siendo buen chofer y aun así ser peligroso aquí, porque las reglas que se cumplen son otras. Empieza con la tarjeta de reglas de manejo y luego la lista de la licencia de Florida, no un blog.
+  en: You can arrive a competent driver and still be dangerous here, because the enforced rules are different. Start with the driving rules card, then the Florida license checklist, not a blog.
+  ht: Ou ka rive yon bon chofè epi ou toujou danjere isit la, paske règ yo aplike yo diferan. Kòmanse ak kat règ kondwi a, epi lis lisans Florid la, pa yon blòg.
+body:
+  es: |-
+    En tu país, el tráfico puede ir por la izquierda. Aquí va por la derecha, y los giros cruzan al revés.
+
+    Los peatones mueren en las avenidas grandes de Miami. Fíjate en la gente que cruza cuando giras.
+
+    En tu país, quizás hiciste el examen de manejo en tu idioma. Aquí todos los exámenes de licencia son solo en inglés, sin intérprete.
+
+    Lo que cuesta: la licencia de tu país puede no servir por mucho tiempo. La lista de la licencia dice lo que Florida acepta.
+  en: |-
+    At home, traffic may keep left. Here it keeps right, and turns cross the other way.
+
+    Pedestrians die on Miami's big roads. Watch for people crossing when you turn.
+
+    At home, you may have taken the driving test in your own language. Here every license test is in English only, with no interpreter.
+
+    What it costs: a license from home may not be enough for long. The license checklist says what Florida accepts.
+  ht: |-
+    Lakay, machin ka woule sou bò goch. Isit la yo woule sou bò dwat, epi vire yo travèse lòt bò.
+
+    Moun a pye mouri sou gwo wout Miami yo. Veye moun k ap travèse lè w ap vire.
+
+    Lakay, ou te ka pase egzamen kondwi a nan pwòp lang ou. Isit la tout egzamen lisans se an angle sèlman, san entèprèt.
+
+    Sa sa koute: lisans ou te genyen lakay ka pa bon pou lontan. Lis lisans lan di sa Florid aksepte.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl.driving.keep-right
+- - us-fl-miamidade.pedestrian.state-rank
+- - us-fl.flhsmv.exams-english-only
+- - us-fl.flhsmv.foreign-license
+desk: us-fl.flhsmv
+actions:
+- type: call_desk
+  desk_id: us-fl.flhsmv
+utterances:
+  es:
+  - aprendí a manejar por la izquierda
+  - manejo aquí por primera vez
+  - puedo usar la licencia de mi país
+  - manejo como en mi país
+  - driving aquí es distinto
+  en:
+  - I learned to drive on the left
+  - driving here for the first time
+  - can I use my license from home
+  - I drive like in India
+  - manejar aquí es diferente
+  ht:
+  - mwen te aprann kondwi sou bò goch
+  - premye fwa m ap kondwi isit la
+  - èske m ka sèvi ak lisans lakay mwen
+  - mwen kondwi tankou lakay
+  - kondwi isit la diferan
+privacy_scope: person
+stages:
+- 3
+- 8
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+origin_lenses:
+- leftDriving
+related_cards:
+- driving-rules
+- fl-id-license-checklist
+- this-walk
+fact_refs:
+- us-fl.driving.keep-right
+- us-fl-miamidade.pedestrian.state-rank
+- us-fl.flhsmv.exams-english-only
+- us-fl.flhsmv.foreign-license
+topics:
+- driving
+- license

@@ -1,0 +1,8 @@
+{
+  "note": "Destination.desk. Example ids only.",
+  "type": "destination",
+  "value": {
+    "desk_id": "us-fl-miamidade.311",
+    "type": "desk"
+  }
+}

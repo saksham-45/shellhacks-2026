@@ -1,0 +1,203 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Content -> Research handoff (content/facts-requested.yaml)",
+  "description": "Skeleton format (requested: [{id, card, need, hint}]) extended with kind, value_type, question, endpoint, desk, and provenance fields.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "requested"
+  ],
+  "properties": {
+    "requested": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "card",
+          "need",
+          "hint",
+          "kind",
+          "value_type",
+          "desk",
+          "plan_text",
+          "source",
+          "fact_type",
+          "topic",
+          "status",
+          "used_by"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "card.schema.json#/$defs/factId"
+          },
+          "card": {
+            "$ref": "card.schema.json#/$defs/kebabId",
+            "description": "The first card that shows this fact."
+          },
+          "cards": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "$ref": "card.schema.json#/$defs/kebabId"
+            },
+            "description": "Every card that uses this fact (direct refs; for desk contact facts also the cards that end at or act on that desk). `card` is the first of them."
+          },
+          "need": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The claim the fact must support, in plain words."
+          },
+          "hint": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Where the plans say it comes from."
+          },
+          "kind": {
+            "enum": [
+              "static",
+              "lookup"
+            ],
+            "description": "static: one fixed value. lookup: depends on the address (or household inputs); value is null in the ledger and the region adapter fills it."
+          },
+          "value_type": {
+            "enum": [
+              "text",
+              "code",
+              "codes",
+              "phone",
+              "date",
+              "money",
+              "quantity",
+              "weekdays",
+              "place",
+              "flag"
+            ],
+            "description": "ADCore FactValue case (ARCHITECTURE.md 13.z). Identifiers (folio, district, URL, official names) are code; year built is quantity with unit year."
+          },
+          "question": {
+            "type": "string",
+            "minLength": 1,
+            "description": "What Research must answer for this fact. lookup: what the adapter answers for a pin; static: the one value or rule to find in the primary source."
+          },
+          "endpoint": {
+            "type": "string",
+            "minLength": 1,
+            "description": "lookup only: likely ArcGIS layer or endpoint, when a plan names one."
+          },
+          "desk": {
+            "$ref": "card.schema.json#/$defs/deskId",
+            "description": "Desk the card names while this fact is unsourced."
+          },
+          "plan_text": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "plan_ref": {
+            "$ref": "card.schema.json#/$defs/planRef"
+          },
+          "content_added_reason": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "publisher",
+              "url"
+            ],
+            "properties": {
+              "publisher": {
+                "type": "string",
+                "minLength": 1
+              },
+              "url": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^https?://"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "url_from": {
+                "enum": [
+                  "myamericandream-plan.md",
+                  "myamericandream-plan-additions.md",
+                  "mymiami-plan.md",
+                  "mymiami-public-data.md"
+                ]
+              },
+              "domain_hint": {
+                "type": "string"
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          },
+          "fact_type": {
+            "enum": [
+              "official",
+              "adapter-table",
+              "demo",
+              "neighbor-report",
+              "practice"
+            ]
+          },
+          "topic": {
+            "enum": [
+              "immigration",
+              "general"
+            ]
+          },
+          "status": {
+            "const": "requested"
+          },
+          "used_by": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "pattern": "^(card|lens|desk):[a-zA-Z0-9.-]+$"
+            }
+          },
+          "topics": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "$ref": "card.schema.json#/$defs/topic"
+            }
+          },
+          "unit": {
+            "type": "string",
+            "minLength": 1,
+            "description": "quantity/money only: the unit or currency the value carries (e.g. year, mile, day, USD)."
+          },
+          "verified_only": {
+            "type": "boolean",
+            "description": "true: a status date under the Firstmate hold. Cards may carry it only in verified_only_refs; the app shows it only when the ledger status is verified."
+          },
+          "note": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Provenance note for Research, e.g. who reported the claim and which primary source is required."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: lens-student-desk
+kind: lens
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Origin lens
+  item: International students
+title:
+  es: La oficina internacional de tu escuela es la ventanilla
+  en: Your school's international office is the desk
+  ht: Biwo entènasyonal lekòl ou se biwo a
+summary:
+  es: No un primo. La carga de materias, el trabajo en el campus, CPT y OPT son palabras de esa oficina.
+  en: Not a cousin. Course load, on-campus work, CPT, and OPT are words that belong to that office.
+  ht: Pa yon kouzen. Kantite kou, travay sou kanpis, CPT, ak OPT se mo ki pou biwo sa a.
+body:
+  es: |-
+    Mantén la carga completa de materias. Pregúntale al DSO (oficial escolar designado) antes de dejar una clase. Conserva la fecha "admit until" de tu I-94.
+
+    La nueva regla para estudiantes F-1 tiene fecha efectiva {fact:us.immigration.f1.fixed-admission.effective}; la admisión llega hasta el final del programa, con el límite descrito aquí: {fact:us.immigration.f1.fixed-admission.length}. Pregunta al DSO; no calcules tu propia fecha final.
+
+    El trabajo en el campus tiene un límite semanal durante las clases: {fact:us.f1.on-campus-hours-limit}. CPT y OPT pasan por el DSO.
+
+    ¿Te mudaste? Avísale a la escuela dentro de {fact:us.f1.sevis-address-deadline}, para que actualice SEVIS.
+
+    La cita de la licencia pide tu I-20. Un dueño puede pedir un fiador, porque todavía no tienes historial de crédito aquí.
+
+    Las notas de tu país muchas veces necesitan una evaluación antes de que una universidad las cuente.
+  en: |-
+    Keep a full course load. Ask the DSO (Designated School Official) before you drop a class. Keep the "admit until" date on your I-94.
+
+    The new rule for F-1 students has an effective date of {fact:us.immigration.f1.fixed-admission.effective}; admission runs to the program end date, with the limit described here: {fact:us.immigration.f1.fixed-admission.length}. Ask the DSO; do not calculate your own end date.
+
+    On-campus work has a weekly limit during classes: {fact:us.f1.on-campus-hours-limit}. CPT and OPT go through the DSO.
+
+    Moved? Tell the school within {fact:us.f1.sevis-address-deadline}, so it can update SEVIS.
+
+    The license visit wants your I-20. A landlord may want a guarantor, because you have no credit file here yet.
+
+    Transcripts from home often need a credential evaluation before a college will count them.
+  ht: |-
+    Kenbe tout kantite kou ou dwe pran yo. Mande DSO a (ofisyèl lekòl ki deziyen) anvan ou kite yon kou. Kenbe dat "admit until" ki sou I-94 ou a.
+
+    Nouvo règ la pou etidyan F-1 yo gen dat efektif {fact:us.immigration.f1.fixed-admission.effective}; admisyon an rive jouk dat pwogram nan fini, ak limit ki dekri la a: {fact:us.immigration.f1.fixed-admission.length}. Mande DSO a; pa kalkile pwòp dat fen ou.
+
+    Travay sou kanpis gen yon limit pa semèn pandan kou yo: {fact:us.f1.on-campus-hours-limit}. CPT ak OPT pase pa DSO a.
+
+    Ou demenaje? Di lekòl la nan {fact:us.f1.sevis-address-deadline}, pou l ka mete SEVIS ajou.
+
+    Randevou lisans lan mande I-20 ou. Yon mèt kay ka mande yon garan, paske ou poko gen dosye kredi isit la.
+
+    Nòt lekòl lakay souvan bezwen yon evalyasyon anvan yon inivèsite konte yo.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us.f1.full-course-load
+- - us.immigration.f1.fixed-admission.effective
+  - us.immigration.f1.fixed-admission.length
+- - us.f1.work-through-dso
+  - us.f1.on-campus-hours-limit
+- - us.f1.sevis-address-deadline
+- - us-fl.flhsmv.f1-documents
+  - us.credit.no-file-guarantor
+- - us.education.credential-evaluation
+desk: us.school-dso
+actions:
+- type: call_desk
+  desk_id: us.school-dso
+- type: call_desk
+  desk_id: us.accredited-legal-help
+utterances:
+  es:
+  - soy estudiante internacional
+  - puedo trabajar en el campus
+  - qué es el OPT
+  - cambié de dirección y soy estudiante
+  - I'm an international student, qué hago
+  en:
+  - I am an international student
+  - can I work on campus
+  - what is OPT
+  - I changed my address as a student
+  - soy F-1 student what do I do
+  ht:
+  - mwen se etidyan entènasyonal
+  - èske m ka travay sou kanpis
+  - kisa OPT ye
+  - mwen chanje adrès e mwen se etidyan
+  - mwen se F-1 student kisa pou m fè
+privacy_scope: person-papers
+stages:
+- 2
+- 7
+modes:
+- resident
+region_pack: us
+is_immigration: true
+origin_lenses:
+- internationalStudent
+related_cards:
+- status-word
+- work-allowed
+- fl-id-license-checklist
+- credit-start
+fact_refs:
+- us.f1.full-course-load
+- us.immigration.f1.fixed-admission.effective
+- us.immigration.f1.fixed-admission.length
+- us.f1.work-through-dso
+- us.f1.on-campus-hours-limit
+- us.f1.sevis-address-deadline
+- us-fl.flhsmv.f1-documents
+- us.credit.no-file-guarantor
+- us.education.credential-evaluation
+topics:
+- immigration
+- schools

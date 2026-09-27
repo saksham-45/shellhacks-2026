@@ -1,0 +1,39 @@
+{
+  "id": "7A1C1E2E-0000-4000-8000-000000000010",
+  "name": "Test household v0",
+  "pin": {
+    "latitude": 0,
+    "longitude": 0
+  },
+  "homeLanguageTag": "es",
+  "people": [
+    {
+      "id": "7A1C1E2E-0000-4000-8000-000000000011",
+      "displayName": "Test person",
+      "age": 30,
+      "origin": {
+        "countryCode": "CU",
+        "lenses": [
+          "latinAmerica"
+        ]
+      },
+      "surfaceLanguageTag": "es",
+      "thinkInLanguageTag": "es",
+      "stage": 4,
+      "mode": "resident",
+      "goal": "arrive",
+      "sharesPapersWithHousehold": false
+    },
+    {
+      "id": "7A1C1E2E-0000-4000-8000-000000000012",
+      "displayName": "Test tourist",
+      "origin": {
+        "lenses": []
+      },
+      "surfaceLanguageTag": "en",
+      "stage": 1,
+      "mode": "tourist",
+      "goal": "visit"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: help-this-week
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > The hard papers
+  item: 'Help this week: 211, clinic, shelter intake'
+- plan: mymiami-plan.md
+  section: Every feature > Housing traps and the bad week
+  item: Help this week
+- plan: myamericandream-plan.md
+  section: Put the shoes on > Tonight and the next three days
+  item: '5. One human who speaks their language: 211. A clinic.'
+title:
+  es: Ayuda esta semana
+  en: Help this week
+  ht: Èd semèn sa a
+summary:
+  es: La línea de ayuda comunitaria, una clínica, asistencia legal y un refugio que recibe gente. Te damos la oficina. No diagnosticamos.
+  en: The community help line, a clinic, legal aid, and a shelter that does intake. We hand you the desk. We do not diagnose.
+  ht: Liy èd kominotè a, yon klinik, èd legal, ak yon abri k ap resevwa moun. Nou ba w biwo a. Nou pa fè dyagnostik.
+body:
+  es: |-
+    La línea de ayuda comunitaria te conecta con comida, refugio y ayuda con cuentas cerca de ti.
+
+    Línea para personas sin hogar en Miami-Dade: {fact:us-fl-miamidade.homeless-trust.phone}.
+
+    Clínica: los centros de salud comunitarios cobran según tus ingresos.
+
+    Asistencia legal en Miami-Dade: {fact:us-fl-miamidade.legal-aid.phone}.
+
+    Esta tarjeta no da consejo legal de inmigración. Para papeles, abre la tarjeta de papeles de inmigración.
+  en: |-
+    The community help line connects you to food, shelter, and help with bills near you.
+
+    Homeless helpline in Miami-Dade: {fact:us-fl-miamidade.homeless-trust.phone}.
+
+    Clinic: community health centers charge by income.
+
+    Legal aid in Miami-Dade: {fact:us-fl-miamidade.legal-aid.phone}.
+
+    This card gives no immigration legal advice. For papers, open the immigration papers card.
+  ht: |-
+    Liy èd kominotè a konekte w ak manje, abri, ak èd pou bòdwo toupre w.
+
+    Liy pou moun ki san kay nan Miami-Dade: {fact:us-fl-miamidade.homeless-trust.phone}.
+
+    Klinik: sant sante kominotè yo fè w peye dapre revni ou.
+
+    Èd legal nan Miami-Dade: {fact:us-fl-miamidade.legal-aid.phone}.
+
+    Kat sa a pa bay konsèy legal sou imigrasyon. Pou papye, louvri kat papye imigrasyon an.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us.211.food-referrals
+- - us-fl-miamidade.homeless-trust.phone
+- - us.health.fqhc-sliding-scale
+- - us-fl-miamidade.legal-aid.phone
+- []
+desk: us.211
+actions:
+- type: call_desk
+  desk_id: us.211
+- type: call_desk
+  desk_id: us-fl-miamidade.homeless-trust
+- type: call_desk
+  desk_id: us-fl-miamidade.legal-aid
+utterances:
+  es:
+  - necesito ayuda esta semana
+  - dónde me ayudan con las cuentas
+  - estoy sin casa
+  - necesito un refugio
+  - I need ayuda esta semana
+  en:
+  - I need help this week
+  - where can I get help with bills
+  - I am homeless
+  - I need a shelter
+  - necesito help this week
+  ht:
+  - mwen bezwen èd semèn sa a
+  - ki kote yo ka ede m ak bòdwo
+  - mwen pa gen kay
+  - mwen bezwen yon abri
+  - mwen bezwen help semèn sa a
+privacy_scope: household
+stages:
+- 1
+- 6
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- tonight-bed
+- clinic-not-er
+- eviction-clock
+fact_refs:
+- us.211.food-referrals
+- us-fl-miamidade.homeless-trust.phone
+- us.health.fqhc-sliding-scale
+- us-fl-miamidade.legal-aid.phone
+topics:
+- desk
+- legal-aid
+- food
+- health

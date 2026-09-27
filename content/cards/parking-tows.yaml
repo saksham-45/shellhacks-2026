@@ -1,0 +1,96 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: parking-tows
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > Movement and morning
+  item: Parking and tows
+- plan: mymiami-plan.md
+  section: Every feature > Getting around and the school morning
+  item: Parking and tows
+- plan: mymiami-public-data.md
+  section: Card by card
+  item: Tow letter
+title:
+  es: Estacionamiento y grúas
+  en: Parking and tows
+  ht: Pakin ak remòkaj
+summary:
+  es: Una multa de la ciudad y una carta de grúa privada no son lo mismo. Lee el letrero y la carta antes de pagar.
+  en: A city ticket and a private tow letter are different things. Read the sign and the letter before you pay.
+  ht: Yon tikè vil la ak yon lèt remòkaj prive se de bagay diferan. Li siy lan ak lèt la anvan ou peye.
+body:
+  es: |-
+    Una multa de estacionamiento de una ciudad o del condado es una citación del gobierno. Una carta de un parqueo privado o de una grúa es un cobro privado.
+
+    El condado fija una tarifa máxima para un remolque básico: {fact:us-fl-miamidade.towing.rate-cap}.
+
+    Los vecinos cuentan cuentas de {fact:us-fl-miamidade.towing.resident-stories}. Son historias, no la regla.
+
+    Toma foto del letrero, pide un recibo detallado y paga solo lo que permiten la tarifa publicada y la ley.
+  en: |-
+    A parking ticket from a city or the county is a government citation. A letter from a private lot or tow company is a private demand.
+
+    The county sets a maximum rate for a basic tow: {fact:us-fl-miamidade.towing.rate-cap}.
+
+    Neighbors report bills of {fact:us-fl-miamidade.towing.resident-stories}. Those are stories, not the rule.
+
+    Photograph the sign, ask for an itemized receipt, and pay only what the posted rate and the law allow.
+  ht: |-
+    Yon tikè pakin vil oswa konte a se yon sitasyon gouvènman. Yon lèt yon pakin prive oswa yon konpayi remòkaj se yon demann prive.
+
+    Konte a fikse yon pri maksimòm pou yon remòkaj senp: {fact:us-fl-miamidade.towing.rate-cap}.
+
+    Vwazen yo rakonte bòdwo {fact:us-fl-miamidade.towing.resident-stories}. Se istwa, se pa règ la.
+
+    Pran foto siy lan, mande yon resi detaye, epi peye sèlman sa pri ki afiche a ak lalwa pèmèt.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.towing.private-vs-citation
+- - us-fl-miamidade.towing.rate-cap
+- - us-fl-miamidade.towing.resident-stories
+- - us-fl.towing.statute
+desk: us-fl-miamidade.consumer-protection
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.consumer-protection
+utterances:
+  es:
+  - se llevaron mi carro
+  - esta cuenta de grúa es legal
+  - cuánto pueden cobrar por la grúa
+  - multa o carta privada
+  - my car got towed, qué hago
+  en:
+  - my car got towed
+  - is this tow bill legal
+  - how much can they charge for a tow
+  - parking ticket or private letter
+  - se llevaron mi carro
+  ht:
+  - yo remòke machin mwen
+  - èske bòdwo remòkaj sa a legal
+  - konbyen yo ka mande pou yon remòkaj
+  - tikè pakin oswa lèt prive
+  - yo pran machin mwen
+privacy_scope: household
+stages:
+- 8
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+fact_refs:
+- us-fl-miamidade.towing.private-vs-citation
+- us-fl-miamidade.towing.rate-cap
+- us-fl-miamidade.towing.resident-stories
+- us-fl.towing.statute
+topics:
+- driving

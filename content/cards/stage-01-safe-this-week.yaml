@@ -1,0 +1,73 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: stage-01-safe-this-week
+kind: stage
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Stages
+  item: 1. Safe this week
+title:
+  es: Seguro esta semana
+  en: Safe this week
+  ht: An sekirite semèn sa a
+summary:
+  es: Dormí, comí, mi teléfono funciona, no le mandé dinero a un desconocido.
+  en: I slept, I ate, my phone works, I did not wire a stranger.
+  ht: Mwen dòmi, mwen manje, telefòn mwen mache, mwen pa voye lajan bay yon moun mwen pa konnen.
+body:
+  es: |-
+    Lo principal es la cama, la comida, la salida del aeropuerto y la primera estafa.
+
+    Lo principal es la primera tarjeta de esa lista que aún no terminas. Cada familiar puede estar en una etapa distinta en la misma casa.
+  en: |-
+    The hero is a bed, food, the airport exit, and the first scam.
+
+    The hero is the first card on that list you have not finished. Family members can be on different stages in the same house.
+  ht: |-
+    Premye bagay la se kabann, manje, sòti ayewopò a, ak premye eskwokri a.
+
+    Premye bagay la se premye kat nan lis sa a ou poko fini. Chak moun nan fanmi an ka nan yon etap diferan nan menm kay la.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- []
+desk: us.211
+utterances:
+  es:
+  - qué hago primero
+  - acabo de llegar
+  - ayúdame a pasar esta semana
+  - seguro esta semana
+  en:
+  - what should I do first
+  - I just got here
+  - help me get through this week
+  - safe this week
+  ht:
+  - kisa pou m fè an premye
+  - mwen fèk rive
+  - ede m pase semèn sa a
+  - an sekirite semèn sa a
+privacy_scope: person
+stages:
+- 1
+modes:
+- resident
+region_pack: us
+is_immigration: false
+hero_cards:
+- tonight-bed
+- tonight-food-pay
+- tonight-phone
+- airport-exit
+- scam-check
+- help-this-week
+fact_refs: []
+topics:
+- desk

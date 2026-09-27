@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Desks a card can end at (content/desks.yaml)",
+  "description": "Mirrors ADCore Desk. The one registry of desk ids (provisional until Research posts final ids; rename with tools/rename_desk.py). The display name compiles to desk.<id>.name in the Cards table; contact details are ledger facts <desk-id>.name|phone|url|address|hours|languages.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "translation_status",
+    "desks"
+  ],
+  "properties": {
+    "translation_status": {
+      "$ref": "card.schema.json#/$defs/translationStatus"
+    },
+    "desks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "level",
+          "immigration",
+          "contact_kind",
+          "contact_fields",
+          "fact_refs"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "card.schema.json#/$defs/deskId"
+          },
+          "name": {
+            "$ref": "card.schema.json#/$defs/localized"
+          },
+          "level": {
+            "enum": [
+              "federal",
+              "state",
+              "county",
+              "city",
+              "school",
+              "nonprofit",
+              "private",
+              "any"
+            ]
+          },
+          "immigration": {
+            "type": "boolean",
+            "description": "true if this desk handles immigration status. Tourist-mode cards never end here."
+          },
+          "fact_refs": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "$ref": "card.schema.json#/$defs/factId"
+            },
+            "description": "Exactly <desk-id>.<field> for each contact field. Phone, URL, address, hours, and languages are ledger facts, never literals."
+          },
+          "editor_notes": {
+            "type": "string"
+          },
+          "contact_kind": {
+            "enum": [
+              "static",
+              "lookup"
+            ],
+            "description": "static: one office with fixed contact facts. lookup: the nearest office of this kind, filled per pin."
+          },
+          "contact_fields": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "enum": [
+                "name",
+                "phone",
+                "url",
+                "address",
+                "hours",
+                "languages"
+              ]
+            },
+            "description": "Which <desk-id>.<field> ledger facts this desk has. fact_refs must list exactly these."
+          },
+          "topics": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "$ref": "card.schema.json#/$defs/topic"
+            }
+          }
+        }
+      }
+    }
+  }
+}

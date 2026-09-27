@@ -1,0 +1,119 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: trash-and-recycling
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Build order
+  item: '4. Miami pack for the two real pins: government, trash'
+- plan: myamericandream-plan.md
+  section: Put the shoes on > The first year, the path to standing alone
+  item: '18. The week-to-week city: trash day'
+- plan: mymiami-public-data.md
+  section: What was actually called, today
+  item: County garbage + recycling; City of Miami trash polygons
+title:
+  es: Basura y reciclaje
+  en: Trash and recycling
+  ht: Fatra ak resiklaj
+summary:
+  es: Tus días de recogida, del gobierno que de verdad recoge tu basura.
+  en: Your pickup days, from the government that actually hauls your trash.
+  ht: Jou ranmasaj ou, dapre gouvènman ki ranmase fatra ou vre.
+body:
+  es: |-
+    Tu gobierno para esta dirección: {fact:us-fl-miamidade.gov.municipality}.
+
+    Recogida del condado: basura {fact:us-fl-miamidade.trash.garbage-days}. Reciclaje {fact:us-fl-miamidade.trash.recycling-day}, semana {fact:us-fl-miamidade.trash.recycling-week}.
+
+    En la Ciudad de Miami, la ciudad recoge: {fact:us-fl-miami.trash.day}. Leemos la lista de códigos de la ciudad, nunca adivinamos.
+
+    ¿No pasaron? Repórtalo a la línea para lo que no es emergencia de tu gobierno.
+
+    La noche antes de la recogida, esto pasa a ser lo primero en tu pantalla.
+  en: |-
+    Your government for this pin: {fact:us-fl-miamidade.gov.municipality}.
+
+    County pickup: garbage {fact:us-fl-miamidade.trash.garbage-days}. Recycling {fact:us-fl-miamidade.trash.recycling-day}, week {fact:us-fl-miamidade.trash.recycling-week}.
+
+    In the City of Miami, the city hauls: {fact:us-fl-miami.trash.day}. We read the city's own code list, never a guess.
+
+    Missed pickup? File it with the non-emergency desk for your government.
+
+    The night before pickup, this becomes the first thing on your screen.
+  ht: |-
+    Gouvènman ou pou adrès sa a: {fact:us-fl-miamidade.gov.municipality}.
+
+    Ranmasaj konte a: fatra {fact:us-fl-miamidade.trash.garbage-days}. Resiklaj {fact:us-fl-miamidade.trash.recycling-day}, semèn {fact:us-fl-miamidade.trash.recycling-week}.
+
+    Nan Vil Miami, se vil la ki ranmase: {fact:us-fl-miami.trash.day}. Nou li pwòp lis kòd vil la, nou pa janm devine.
+
+    Yo pa t pase? Rapòte l bay liy pou sa ki pa ijans gouvènman ou.
+
+    Aswè anvan ranmasaj la, sa a vin premye bagay sou ekran ou.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.gov.municipality
+- - us-fl-miamidade.trash.service-area
+  - us-fl-miamidade.trash.garbage-days
+  - us-fl-miamidade.trash.recycling-day
+  - us-fl-miamidade.trash.recycling-week
+- - us-fl-miami.trash.day
+- []
+- []
+paragraph_when:
+- municipality: unincorporated
+- municipality: unincorporated
+- municipality: us-fl-miami
+- null
+- null
+desk: us-fl-miamidade.311
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.311
+utterances:
+  es:
+  - qué día es la basura
+  - qué día es el reciclaje
+  - mañana hay basura
+  - cuándo recogen la basura
+  - when is el día de la basura
+  en:
+  - when is trash day
+  - what day is recycling
+  - is trash tomorrow
+  - when do they pick up the garbage
+  - qué día pasa el trash
+  ht:
+  - ki jou fatra
+  - ki jou resiklaj
+  - èske gen fatra demen
+  - ki lè yo ranmase fatra
+  - ki jou trash la
+privacy_scope: household
+stages:
+- 10
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- etiquette-trash-day
+- miami-dade-311
+- the-week
+fact_refs:
+- us-fl-miamidade.gov.municipality
+- us-fl-miamidade.trash.service-area
+- us-fl-miamidade.trash.garbage-days
+- us-fl-miamidade.trash.recycling-day
+- us-fl-miamidade.trash.recycling-week
+- us-fl-miami.trash.day
+topics:
+- trash
+- municipality

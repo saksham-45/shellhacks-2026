@@ -1,0 +1,68 @@
+{
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "candidates": [
+  {
+   "address": "11200 SW 137TH AVE, MIAMI, 33186",
+   "location": {
+    "x": -80.41646700000167,
+    "y": 25.663194000003116
+   },
+   "score": 99.26,
+   "attributes": {
+    "Addr_type": "PointAddress",
+    "Score": 99.26
+   }
+  },
+  {
+   "address": "11200 SW 137TH AVE, UNINCORPORATED MIAMI-DADE, 33186",
+   "location": {
+    "x": -80.41610442511467,
+    "y": 25.66345894234671
+   },
+   "score": 97.41,
+   "attributes": {
+    "Addr_type": "StreetAddress",
+    "Score": 97.41
+   }
+  },
+  {
+   "address": "11200 SW 137TH CT, UNINCORPORATED MIAMI-DADE, 33186",
+   "location": {
+    "x": -80.41632584480598,
+    "y": 25.661929833226644
+   },
+   "score": 92.05,
+   "attributes": {
+    "Addr_type": "StreetAddressExt",
+    "Score": 92.05
+   }
+  },
+  {
+   "address": "11200 SW 137TH PL, UNINCORPORATED MIAMI-DADE, 33186",
+   "location": {
+    "x": -80.41691747449191,
+    "y": 25.66190958284122
+   },
+   "score": 92.05,
+   "attributes": {
+    "Addr_type": "StreetAddressExt",
+    "Score": 92.05
+   }
+  },
+  {
+   "address": "11200 SW 137TH PSGE, UNINCORPORATED MIAMI-DADE, 33186",
+   "location": {
+    "x": -80.41748481725516,
+    "y": 25.661909899158935
+   },
+   "score": 92.05,
+   "attributes": {
+    "Addr_type": "StreetAddressExt",
+    "Score": 92.05
+   }
+  }
+ ]
+}

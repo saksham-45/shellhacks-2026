@@ -1,0 +1,11 @@
+{
+  "request_url": "https://gisws.miamidade.gov/arcgis/rest/services/MDC_LocatorsPro/MD_Locator/GeocodeServer/findAddressCandidates?SingleLine=11200+SW+137th+Ave%2C+Miami%2C+FL+33186&outFields=Addr_type%2CScore&maxLocations=5&outSR=4326&f=json",
+  "method": "GET",
+  "retrieved_at": "2026-09-25T18:06:57-04:00",
+  "http_status": 200,
+  "bytes": 1347,
+  "sha256": "911ead7c63fa73ab01ef30ddf05b8ce6298976869f669dbfc346c6bd61eef09d",
+  "original_sha256": "45a109ce781a356c69ec414a9c991e96255b706b98162cb99ec74b855ba773f0",
+  "capture_path": "urllib from this box (box egress reaches gisws.miamidade.gov)",
+  "minimized": "kept spatialReference and candidates[].address/location/score/attributes; extent dropped"
+}

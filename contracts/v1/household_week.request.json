@@ -1,0 +1,13 @@
+{
+  "request_id": "0example0request0id0000000000002",
+  "pin": {"address": "1 Example Way, Exampletown (fictional)", "lat": 0.0, "lon": 0.0},
+  "surface_language": "es",
+  "think_in": "es",
+  "mode": "resident",
+  "household": {
+    "home_language": "es",
+    "rent": {"amount": 1000.0, "currency": "USD"},
+    "car": {"gantry_ids": ["example-gantry-1"]},
+    "child_ages": [7]
+  }
+}

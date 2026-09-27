@@ -1,0 +1,131 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: police-stop-script
+kind: script
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Origin lens
+  item: Anyone, the police stop
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The country, same everywhere
+  item: 911 and the police-stop script
+title:
+  es: Si la policía te detiene
+  en: If police stop you
+  ht: Si lapolis kanpe w
+summary:
+  es: Mantén la calma, las manos a la vista, y usa estas palabras. Esto no es una forma de evitar una orden legal.
+  en: Stay calm, keep your hands visible, and use these words. This is not a way around a lawful order.
+  ht: Rete kalm, kite men ou parèt, epi sèvi ak pawòl sa yo. Sa a pa yon fason pou evite yon lòd legal.
+body:
+  es: |-
+    Oríllate con cuidado. De noche, prende la luz de adentro. Deja las manos en el volante.
+
+    Muévete despacio y di lo que vas a hacer antes de moverte: “Oficial, voy a sacar mi licencia ahora.”
+
+    Si vas manejando, muestra tu licencia, el registro y la prueba de seguro cuando te lo pidan.
+
+    Nunca ofrezcas dinero. Ofrecerle dinero a un policía es un delito.
+
+    No tienes que aceptar que registren tu carro. Dilo con calma y sin resistirte: “No doy permiso para un registro.”
+
+    Puedes preguntar: “Oficial, ¿me puedo ir?”
+
+    Si el policía dice que estás arrestado, no corras ni te resistas. Di que quieres un abogado y luego quédate callado.
+
+    Después, anota el nombre y la placa del policía, y habla con un abogado si crees que no respetaron tus derechos.
+  en: |-
+    Pull over safely. At night, turn on the inside light. Keep your hands on the wheel.
+
+    Move slowly, and say what you are doing before you reach: “Officer, I am reaching for my license now.”
+
+    If you are driving, show your license, registration, and proof of insurance when asked.
+
+    Never offer cash. Offering money to an officer is a crime.
+
+    You do not have to agree to a search of your car. Say it calmly and do not resist: “I do not consent to a search.”
+
+    You can ask: “Officer, am I free to go?”
+
+    If the officer says you are under arrest, do not run or resist. Say you want a lawyer, then stay quiet.
+
+    Afterwards, write down the officer's name and badge, and talk to a lawyer if you think your rights were not respected.
+  ht: |-
+    Rale sou kote a san danje. Lannwit, limen limyè anndan machin nan. Kite men ou sou volan an.
+
+    Deplase dousman, epi di sa w pral fè anvan ou lonje men: “Ofisye, m ap pran lisans mwen kounye a.”
+
+    Si se ou k ap kondwi, montre lisans ou, anrejistreman an, ak prèv asirans lè yo mande w.
+
+    Pa janm ofri lajan. Ofri yon polis lajan se yon krim.
+
+    Ou pa oblije dakò pou yo fouye machin ou. Di l kalm, san reziste: “Mwen pa dakò pou yo fouye.”
+
+    Ou ka mande: “Ofisye, èske m ka ale?”
+
+    Si polis la di w ou arete, pa kouri, pa reziste. Di ou vle yon avoka, epi rete an silans.
+
+    Apre, ekri non polis la ak nimewo badj li, epi pale ak yon avoka si ou panse yo pa t respekte dwa ou.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- []
+- - us-fl.driving.show-documents
+- - us-fl.bribery.crime
+- - us.rights.search-consent
+- - us.rights.free-to-go
+- - us.rights.silence-and-lawyer
+- []
+desk: us-fl.bar-lawyer-referral
+actions:
+- type: call_desk
+  desk_id: us-fl.bar-lawyer-referral
+utterances:
+  es:
+  - qué hago si me para la policía
+  - la policía me está parando
+  - puede la policía registrar mi carro
+  - qué le digo al policía
+  - the police me paró qué hago
+  en:
+  - what do I do if police stop me
+  - police are pulling me over
+  - can police search my car
+  - what do I say to the cop
+  - me paró la policía what do I do
+  ht:
+  - kisa pou m fè si lapolis kanpe m
+  - lapolis ap fè m kanpe
+  - èske lapolis ka fouye machin mwen
+  - kisa pou m di polis la
+  - police la kanpe m kisa pou m fè
+privacy_scope: person
+stages:
+- 1
+- 10
+modes:
+- resident
+- tourist
+region_pack: us-fl
+is_immigration: false
+origin_lenses:
+- leftDriving
+- tourist
+- questionnaire
+related_cards:
+- emergency-911
+fact_refs:
+- us-fl.driving.show-documents
+- us-fl.bribery.crime
+- us.rights.search-consent
+- us.rights.free-to-go
+- us.rights.silence-and-lawyer
+topics:
+- police
+- legal-aid

@@ -1,0 +1,3888 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "fact.flag.no": {
+      "comment": "Value of a yes/no fact on a card, answering a question such as 'Is this a condo?'. One word.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Non"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Não"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Non"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "لا"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "否"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Нет"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Hindi"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Không"
+          }
+        }
+      }
+    },
+    "fact.flag.yes": {
+      "comment": "Value of a yes/no fact on a card, answering a question such as 'Is this a condo?'. One word.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yes"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sí"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Wi"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Sim"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Oui"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "نعم"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "是"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Да"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Oo"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Có"
+          }
+        }
+      }
+    },
+    "fact.status.demo": {
+      "comment": "Badge on example data the plans allow (e.g. a demo basket) so it is never mistaken for a real sourced fact; must always be visible. Tiny badge; keep under ~12 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Example"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ejemplo"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Egzanp"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exemplo"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Exemple"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "مثال"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "示例"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Пример"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Halimbawa"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ví dụ"
+          }
+        }
+      }
+    },
+    "fact.status.stale": {
+      "comment": "Label next to a fact whose source is past its re-check date. Badge; keep under ~24 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "May be out of date"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puede no estar al día"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Petèt li pa ajou"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pode estar desatualizado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Peut être périmé"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "قد يكون قديماً"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "可能过时"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Может быть устаревшим"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Maaaring luma na"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Có thể đã cũ"
+          }
+        }
+      }
+    },
+    "fact.status.unsourced": {
+      "comment": "Label where a fact has no source; the card then names the desk. Badge; keep under ~16 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No source"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin fuente"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pa gen sous"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Sem fonte"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pas de source"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "بدون مصدر"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "无来源"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Нет источника"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Walang source"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Không có nguồn"
+          }
+        }
+      }
+    },
+    "fact.status.verified": {
+      "comment": "Label next to a fact whose source was checked. Tiny badge; keep under ~16 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verified"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verificado"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Verifye"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Verificado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Vérifié"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "موثّق"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "已核实"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Проверено"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Verified"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Đã xác minh"
+          }
+        }
+      }
+    },
+    "goal.arrive": {
+      "comment": "Answer option for onboarding question 4 (plan wording), a button and a spoken choice. Keep under ~28 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arrive"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Llegar"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Rive"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Chegar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Arriver"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "الوصول"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "抵达"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Приехать"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Dumating"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Đến"
+          }
+        }
+      }
+    },
+    "goal.getThroughWeek": {
+      "comment": "Answer option for onboarding question 4 (plan wording), a button and a spoken choice. Keep under ~28 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Just get through this week"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salir adelante esta semana"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Jis pase semèn sa a"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Passar esta semana"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Passer cette semaine"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "تجاوز هذا الأسبوع"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "先过完这一周"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Пережить эту неделю"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Makaraos sa linggong ito"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Qua tuần này"
+          }
+        }
+      }
+    },
+    "goal.reunite": {
+      "comment": "Answer option for onboarding question 4 (plan wording), a button and a spoken choice. Keep under ~28 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reunite with family"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reunirse con la familia"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Rejwenn fanmi"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Reunir-se à família"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Retrouver sa famille"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "لمّ الشمل مع العائلة"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "与家人团聚"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Воссоединиться с семьёй"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Makiisa sa pamilya"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Đoàn tụ gia đình"
+          }
+        }
+      }
+    },
+    "goal.study": {
+      "comment": "Answer option for onboarding question 4 (plan wording), a button and a spoken choice. Keep under ~28 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Study"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estudiar"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Etidye"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Estudar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Étudier"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "الدراسة"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "学习"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Учёба"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mag-aral"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Học"
+          }
+        }
+      }
+    },
+    "goal.visit": {
+      "comment": "Answer option for onboarding question 4 (plan wording), a button and a spoken choice. Keep under ~28 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Visit"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Visitar"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Vizite"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Visitar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Visiter"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "زيارة"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "访问"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Визит"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Bumisita"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Thăm"
+          }
+        }
+      }
+    },
+    "goal.work": {
+      "comment": "Answer option for onboarding question 4 (plan wording), a button and a spoken choice. Keep under ~28 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Work"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trabajar"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Travay"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Trabalhar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Travailler"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "العمل"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "工作"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Работа"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Trabaho"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Làm việc"
+          }
+        }
+      }
+    },
+    "hero.airport": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Airport"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aeropuerto"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ayewopò"
+          }
+        }
+      }
+    },
+    "hero.backToAirport": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Plan says 'how to get back to MIA'; region-neutral here because the airport comes from the region pack. Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back to the airport"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Regreso al aeropuerto"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Retounen nan ayewopò"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Voltar ao aeroporto"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Retour à l’aéroport"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "العودة إلى المطار"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "返回机场"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Назад в аэропорт"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Bumalik sa paliparan"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Về sân bay"
+          }
+        }
+      }
+    },
+    "hero.bank": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5. [same:ht]",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bank"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Banco"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Bank"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Banco"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Banque"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "بنك"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "银行"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Банк"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Bangko"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ngân hàng"
+          }
+        }
+      }
+    },
+    "hero.bed": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bed"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dónde dormir"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Kote pou dòmi"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cama"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Lit"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "سرير"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "床位"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Кровать"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Kama"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Giường"
+          }
+        }
+      }
+    },
+    "hero.clinicDesk": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clinic desk"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recepción de la clínica"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Resepsyon klinik la"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Balcão da clínica"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Guichet de clinique"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "مكتب العيادة"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "诊所柜台"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Стойка клиники"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Opisina ng klinika"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Quầy phòng khám"
+          }
+        }
+      }
+    },
+    "hero.credit": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Credit"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Crédito"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Kredi"
+          }
+        }
+      }
+    },
+    "hero.deadlines": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deadlines"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fechas límite"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Dat limit"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Prazos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Échéances"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "المواعيد النهائية"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "截止日期"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Сроки"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mga deadline"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Hạn chót"
+          }
+        }
+      }
+    },
+    "hero.dso": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). DSO = the school's Designated School Official (international student office). Keep the acronym. Short: keep under ~28 characters; must not truncate at AX5. [same:es,ht]",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DSO"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DSO"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "DSO"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "DSO"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "DSO"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "DSO"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "DSO"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "DSO"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "DSO"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "DSO"
+          }
+        }
+      }
+    },
+    "hero.eadDates": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). EAD = employment authorization document. Keep the acronym. Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "EAD dates"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fechas del EAD"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Dat EAD yo"
+          }
+        }
+      }
+    },
+    "hero.emergency911": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Plan says '911'; the number itself is a ledger fact shown on the card, never in this label. Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Emergency number"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Número de emergencia"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nimewo ijans"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Número de emergência"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Numéro d’urgence"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "رقم الطوارئ"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "紧急电话"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Экстренный номер"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Emergency number"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Số khẩn cấp"
+          }
+        }
+      }
+    },
+    "hero.food": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Food"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comida"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Manje"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Comida"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nourriture"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "طعام"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "食物"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Еда"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pagkain"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Thức ăn"
+          }
+        }
+      }
+    },
+    "hero.idChecklist": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "License or ID checklist"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Lista para identificación"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Lis pou pyès idantite"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Lista da carteira ou identidade"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Liste permis ou pièce d’identité"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "قائمة الرخصة أو الهوية"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "驾照或证件清单"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Чек-лист прав или удостоверения"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Checklist ng lisensya o ID"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Danh sách bằng lái hoặc giấy tờ"
+          }
+        }
+      }
+    },
+    "hero.insurance": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Insurance"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seguro"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Asirans"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Seguro"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Assurance"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "التأمين"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "保险"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Страховка"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Insurance"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Bảo hiểm"
+          }
+        }
+      }
+    },
+    "hero.irs": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). IRS is a proper name. Keep as is. Short: keep under ~28 characters; must not truncate at AX5. [name]",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "IRS"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "IRS"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "IRS"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "IRS"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "IRS"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "IRS"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "IRS"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "IRS"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "IRS"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "IRS"
+          }
+        }
+      }
+    },
+    "hero.license": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "License"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Licencia"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Lisans"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Carteira"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Permis"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "رخصة"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "驾照"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Права"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Lisensya"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Bằng lái"
+          }
+        }
+      }
+    },
+    "hero.listingCheck": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Listing check"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Revisar el anuncio"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Verifye anons lan"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Checagem do anúncio"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Vérification de l’annonce"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "فحص الإعلان"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "房源核验"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Проверка объявления"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Tingnan ang listing"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Kiểm tra tin đăng"
+          }
+        }
+      }
+    },
+    "hero.mailbox": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The mailbox"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El buzón"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Bwat lèt la"
+          }
+        }
+      }
+    },
+    "hero.noCheckCasher": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No check-casher"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Evite cambiar cheques"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Evite biwo chanje chèk"
+          }
+        }
+      }
+    },
+    "hero.ordinaryWeek": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Plan says 'The ordinary Miami week'; region-neutral here because the city comes from the region pack. Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The ordinary week"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La semana normal"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Semèn nòmal la"
+          }
+        }
+      }
+    },
+    "hero.remittance": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remittance"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remesas"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Transfè lajan"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Remessa"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Transfert d’argent"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "تحويل"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "汇款"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Перевод"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Padala"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Chuyển tiền"
+          }
+        }
+      }
+    },
+    "hero.rentLine": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rent line"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Límite de ingresos y renta"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Limit revni ak lwaye"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Faixa de aluguel"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Plafond de loyer"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "حد الإيجار"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "租金线"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Порог аренды"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Rent line"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mức thuê"
+          }
+        }
+      }
+    },
+    "hero.rentalCarTolls": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rental-car tolls"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Peajes de carro alquilado"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Peyaj machin lwe"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pedágios do carro alugado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Péages de voiture de location"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "رسوم سيارة الإيجار"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "租车过路费"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Платные дороги аренды"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Toll ng rental car"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Phí cầu đường xe thuê"
+          }
+        }
+      }
+    },
+    "hero.scam": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scam"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estafa"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Magouy"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Golpe"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Arnaque"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "احتيال"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "诈骗"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Мошенничество"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Scam"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Lừa đảo"
+          }
+        }
+      }
+    },
+    "hero.schoolZone": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "School zone"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zona escolar"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Zòn lekòl"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Zona escolar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Zone scolaire"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "منطقة المدرسة"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "学区"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Школьный округ"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "School zone"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Vùng trường"
+          }
+        }
+      }
+    },
+    "hero.statusWord": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The status word"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "La palabra para sus papeles"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mo pou papye ou"
+          }
+        }
+      }
+    },
+    "hero.sun": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sun"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sol"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Solèy"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Sol"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Soleil"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "الشمس"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "阳光"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Солнце"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Araw"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nắng"
+          }
+        }
+      }
+    },
+    "hero.tipping": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tipping"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Propinas"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Poubwa"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Gorjeta"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pourboire"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "البقشيش"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "小费"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Чаевые"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Tip"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Tiền boa"
+          }
+        }
+      }
+    },
+    "hero.tolls": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tolls"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Peajes"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Peyaj"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pedágios"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Péages"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "الرسوم"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "过路费"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Платные дороги"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mga toll"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Phí cầu đường"
+          }
+        }
+      }
+    },
+    "hero.transit": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transit"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transporte público"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Transpò piblik"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Transporte"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Transports"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "النقل"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "公交"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Транспорт"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Transit"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Giao thông"
+          }
+        }
+      }
+    },
+    "hero.whichCity": {
+      "comment": "Hero label: the one next move shown big on a person's home card, next to a decorative symbol (plan, Stages table, 'The hero is' column; tourist list). Short: keep under ~28 characters; must not truncate at AX5.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Which city?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Qué ciudad?"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ki vil?"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Qual cidade?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Quelle ville ?"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "أي مدينة؟"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "哪个城市？"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Какой город?"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Aling lungsod?"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Thành phố nào?"
+          }
+        }
+      }
+    },
+    "mode.i_live_here_now": {
+      "comment": "The switch a tourist taps or says to leave tourist mode (plan, Stages, verbatim). Button; keep under ~28 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I live here now"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ahora vivo aquí"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Kounye a mwen rete isit"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Eu moro aqui agora"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "J’habite ici maintenant"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "أسكن هنا الآن"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "我现在住在这里"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Я теперь здесь живу"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Dito na ako nakatira"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Tôi sống ở đây"
+          }
+        }
+      }
+    },
+    "mode.resident": {
+      "comment": "Mode name on a person's settings: this person lives here and follows stages 1-10. NOT an immigration status: must never read as 'permanent resident' or green-card holder. Keep under ~20 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lives here"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vive aquí"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Rete isit"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mora aqui"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Vit ici"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "يسكن هنا"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "住在这里"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Живёт здесь"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nakatira rito"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Sống ở đây"
+          }
+        }
+      }
+    },
+    "mode.tourist": {
+      "comment": "Mode name on a person's settings: visiting; stages 2-9 and immigration content hidden (plan, Stages). Keep under ~20 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tourist"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Turista"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Touris"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Turista"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Touriste"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "سائح"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "游客"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Турист"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Turista"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Khách"
+          }
+        }
+      }
+    },
+    "onboarding.about_person": {
+      "comment": "Spoken and shown right before onboarding question 3 or 4, naming whose question it is when a household has several people. %@ is the person's name exactly as the household said it (never translated). Short; ends with a colon or the language's equivalent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "For %@:"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Para %@:"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pou %@:"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Para %@:"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pour %@ :"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "لـ %@:"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "对于%@："
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Для %@:"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Para kay %@:"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Đối với %@:"
+          }
+        }
+      }
+    },
+    "onboarding.error.invalid_age": {
+      "comment": "Shown and spoken before an onboarding question is asked again, after an answer was not accepted. One short sentence or two.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That age did not come through. Say it again, or skip it."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No entendimos esa edad. Dígala otra vez o pase a la siguiente."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nou pa t konprann laj la. Di l ankò, oswa sote l."
+          }
+        }
+      }
+    },
+    "onboarding.error.invalid_language": {
+      "comment": "Shown and spoken before an onboarding question is asked again, after an answer was not accepted. One short sentence or two.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That language did not come through. Say it again."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No entendimos ese idioma. Dígalo otra vez."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nou pa t konprann lang lan. Di l ankò."
+          }
+        }
+      }
+    },
+    "onboarding.error.invalid_pin": {
+      "comment": "Shown and spoken right before onboarding question 1 is asked again, so it must NOT repeat the question. One short sentence.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That place did not come through."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No entendimos ese lugar."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nou pa t konprann kote sa a."
+          }
+        }
+      }
+    },
+    "onboarding.error.no_people": {
+      "comment": "Shown and spoken before an onboarding question is asked again, after an answer was not accepted. One short sentence or two.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tell me at least one person in the household."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dígame por lo menos una persona del hogar."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Di m omwen yon moun ki rete nan kay la."
+          }
+        }
+      }
+    },
+    "onboarding.error.unexpected_answer": {
+      "comment": "Shown and spoken before an onboarding question is asked again, after an answer was not accepted. One short sentence or two.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That answers a different question. Here is the one we are on."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eso responde otra pregunta. Esta es la pregunta de ahora."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Sa se repons pou yon lòt kesyon. Men kesyon n ap poze kounye a."
+          }
+        }
+      }
+    },
+    "onboarding.error.unknown_person": {
+      "comment": "Shown and spoken before an onboarding question is asked again, after an answer was not accepted. One short sentence or two.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That person is not in this household yet."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esa persona todavía no está en este hogar."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Moun sa a poko nan kay sa a."
+          }
+        }
+      }
+    },
+    "onboarding.error.unnamed_person": {
+      "comment": "Shown and spoken before an onboarding question is asked again, after an answer was not accepted. One short sentence or two.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Each person needs a name."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cada persona necesita un nombre."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Chak moun bezwen yon non."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cada pessoa precisa de um nome."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Chaque personne a besoin d’un nom."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "كل شخص يحتاج إلى اسم."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "每个人都需要一个名字。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "У каждого должно быть имя."
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Kailangan ng pangalan ang bawat tao."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mỗi người cần một tên."
+          }
+        }
+      }
+    },
+    "onboarding.q1": {
+      "comment": "Onboarding question 1 of 4, shown and spoken (plan, 'Who it is for', verbatim, ending as a real question). Full sentence; wraps, no length limit.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Where are you sleeping, or where is the pin?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Dónde está durmiendo, o cuál es el punto en el mapa?"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ki kote w ap dòmi, oswa ki pwen an sou kat la?"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Onde você está dormindo, ou onde está o pin?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Où dormez-vous, ou où est l’épingle ?"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "أين تنام، أو أين الدبوس؟"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "你住在哪里，或者图钉在哪里？"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Где вы ночуете, или где булавка?"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Saan ka natutulog, o nasaan ang pin?"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Bạn ngủ ở đâu, hoặc ghim ở đâu?"
+          }
+        }
+      }
+    },
+    "onboarding.q2": {
+      "comment": "Onboarding question 2 of 4, shown and spoken (plan, 'Who it is for': who is in the household, each as their own person). ONE question ending in a real question mark; no trailing statement (a listener must hear it end as a question). Full sentence; wraps, no length limit.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Who is in your household, including you?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Quiénes viven en su hogar, incluyéndose a usted?"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ki moun ki fè pati kay ou a, ou menm tou?"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Quem mora na casa, incluindo você?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Qui habite avec vous, vous compris ?"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "من في أسرتك، بما فيك؟"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "家里有谁，包括你？"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Кто в семье, включая вас?"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Sino ang nasa sambahayan, kasama ka?"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ai trong hộ, kể cả bạn?"
+          }
+        }
+      }
+    },
+    "onboarding.q3": {
+      "comment": "Onboarding question 3 of 4, shown and spoken (plan, 'Who it is for', ending as a real question). Full sentence; wraps, no length limit. Asked once per person; the UI plays onboarding.about_person (with that person's name) right before it, so the question itself does not name the person.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Where did this person live before, and what language do they actually think in?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Dónde vivía esta persona antes, y en qué idioma piensa de verdad?"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ki kote moun sa a te rete anvan, e nan ki lang li reyèlman panse?"
+          }
+        }
+      }
+    },
+    "onboarding.q4": {
+      "comment": "Onboarding question 4 of 4, shown and spoken (plan, 'Who it is for', ending as a real question). Full sentence; wraps, no length limit. Asked once per person; the UI plays onboarding.about_person (with that person's name) right before it, so the question itself does not name the person.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What are they here to do right now: arrive, study, work, reunite, visit, or just get through this week?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Qué vino a hacer esta persona ahora mismo: llegar, estudiar, trabajar, reunirse con la familia, visitar, o salir adelante esta semana?"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Kisa moun sa a vin fè isit kounye a: rive, etidye, travay, rejwenn fanmi, vizite, oswa jis pase semèn sa a?"
+          }
+        }
+      }
+    },
+    "source_line.no_source": {
+      "comment": "Card footer when no fact on the card has a source; the desk's name and contact follow. One or two short sentences.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "We have no source for this. This is the desk."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No tenemos una fuente para esto. Aquí está quien le puede ayudar."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nou pa gen sous pou sa. Men ki moun ki ka ede w."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Não temos fonte para isso. Este é o balcão."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nous n’avons pas de source. Voici le guichet."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "ليس لدينا مصدر. هذا هو المكتب."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "没有来源。这是柜台。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Нет источника. Вот служба."
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Walang source. Ito ang opisina."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Không có nguồn. Đây là quầy."
+          }
+        }
+      }
+    },
+    "source_line.sourced": {
+      "comment": "Lead-in of a card's source line; the publisher and last-checked date follow. Keep under ~16 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fuente"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Sous"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Fonte"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Source"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "المصدر"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "来源"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Источник"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Source"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nguồn"
+          }
+        }
+      }
+    },
+    "stage.footing.title": {
+      "comment": "Name of stage 10 of 10 on a person's card and stage picker (plan, Stages table). Short label: keep under ~24 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Footing"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Por mi cuenta"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pou kont mwen"
+          }
+        }
+      }
+    },
+    "stage.health.title": {
+      "comment": "Name of stage 6 of 10 on a person's card and stage picker (plan, Stages table). Short label: keep under ~24 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Health"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salud"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Sante"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Saúde"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Santé"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "الصحة"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "健康"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Здоровье"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Kalusugan"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Sức khỏe"
+          }
+        }
+      }
+    },
+    "stage.id.title": {
+      "comment": "Name of stage 3 of 10 on a person's card and stage picker (plan, Stages table). Short label: keep under ~24 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ID"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Identificación"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pyès idantite"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Documento"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pièce d’identité"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "الهوية"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "证件"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Документ"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "ID"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Giấy tờ"
+          }
+        }
+      }
+    },
+    "stage.mail_and_status.title": {
+      "comment": "Name of stage 2 of 10 on a person's card and stage picker (plan, Stages table). Short label: keep under ~24 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mail and status"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Correo y estatus"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Lapòs ak estati"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Correio e status"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Courrier et statut"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "البريد والحالة"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "邮件与身份"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Почта и статус"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mail at status"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Thư và tình trạng"
+          }
+        }
+      }
+    },
+    "stage.money.title": {
+      "comment": "Name of stage 4 of 10 on a person's card and stage picker (plan, Stages table). Short label: keep under ~24 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Money"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dinero"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Lajan"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Dinheiro"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Argent"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "المال"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "钱"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Деньги"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pera"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Tiền"
+          }
+        }
+      }
+    },
+    "stage.movement.title": {
+      "comment": "Name of stage 8 of 10 on a person's card and stage picker (plan, Stages table). Short label: keep under ~24 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Movement"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cómo moverse"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Kijan pou deplase"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Deslocamento"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Déplacements"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "التنقل"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "出行"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Передвижение"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Paggalaw"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Di chuyển"
+          }
+        }
+      }
+    },
+    "stage.paper_trail.title": {
+      "comment": "Name of stage 9 of 10 on a person's card and stage picker (plan, Stages table). Taxes, credit, mail and deadlines that are not a surprise. Short label: keep under ~28 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paper trail"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impuestos, crédito y correo"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Taks, kredi ak lapòs"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Papéis"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Dossier"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "الأوراق"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "文件记录"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Бумажный след"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mga papeles"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Hồ sơ giấy"
+          }
+        }
+      }
+    },
+    "stage.roof.title": {
+      "comment": "Name of stage 5 of 10 on a person's card and stage picker (plan, Stages table). Short label: keep under ~24 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Roof"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vivienda"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Lojman"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Teto"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Toit"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "السقف"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "住房"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Крыша"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Bubong"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mái nhà"
+          }
+        }
+      }
+    },
+    "stage.safe_this_week.title": {
+      "comment": "Name of stage 1 of 10 on a person's card and stage picker (plan, Stages table). Short label: keep under ~24 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Safe this week"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A salvo esta semana"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "An sekirite semèn sa a"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Seguro nesta semana"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "En sécurité cette semaine"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "آمن هذا الأسبوع"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "本周安全"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Безопасно на этой неделе"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ligtas ngayong linggo"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "An toàn tuần này"
+          }
+        }
+      }
+    },
+    "stage.school_or_allowed_work.title": {
+      "comment": "Name of stage 7 of 10 on a person's card and stage picker (plan, Stages table). Short label: keep under ~28 characters.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "School or allowed work"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escuela o trabajo permitido"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Lekòl oswa travay otorize"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Escola ou trabalho permitido"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "École ou travail autorisé"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "المدرسة أو العمل المسموح"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "学校或允许的工作"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Школа или разрешённая работа"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Paaralan o pinapayagang trabaho"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Trường hoặc việc được phép"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

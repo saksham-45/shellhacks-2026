@@ -1,0 +1,13 @@
+{
+  "note": "Destination.cards_by_desk. Example ids only.",
+  "type": "destination",
+  "value": {
+    "filter": {
+      "desk": "us-fl-miamidade.311",
+      "mode": null,
+      "stage": null,
+      "subject": null
+    },
+    "type": "cards"
+  }
+}

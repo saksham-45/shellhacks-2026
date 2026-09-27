@@ -1,0 +1,116 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: jobs-rent
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > Money
+  item: Jobs that clear the rent line
+- plan: mymiami-plan.md
+  section: Every feature > Money
+  item: Jobs that clear the rent
+title:
+  es: Trabajos que cubren la renta
+  en: Jobs that clear the rent
+  ht: Travay ki ka peye lwaye a
+summary:
+  es: Lo que pagan los trabajos en esta zona, frente al límite de renta del condado. Un trabajo que no lo cubre queda marcado.
+  en: What jobs pay in this metro, against the county rent limit. A job that does not cover it is marked.
+  ht: Sa travay peye nan zòn sa a, konpare ak limit lwaye konte a. Yon travay ki pa kouvri l make.
+body:
+  es: |-
+    Salario mediano de trabajos en el área de Miami: {fact:us.bls.oews-miami-metro}.
+
+    Frente al límite de renta del condado: {fact:us-fl-miamidade.housing.wage-vs-rent}.
+
+    El salario mínimo por hora en Florida: {fact:us-fl.minimum-wage.hourly}. Con propinas, parte del salario puede venir de las propinas; pregunta la regla al centro de empleo.
+
+    Son salarios medianos, no trabajos abiertos. No publicamos vacantes. El centro de empleo del condado sí.
+
+    Acepta solo un trabajo que tu estatus permita.
+  en: |-
+    Median pay for jobs in the Miami metro: {fact:us.bls.oews-miami-metro}.
+
+    Against the county rent limit: {fact:us-fl-miamidade.housing.wage-vs-rent}.
+
+    Florida's hourly minimum wage: {fact:us-fl.minimum-wage.hourly}. In tipped jobs, tips can count toward part of it; ask the county job center for the rule.
+
+    These are wage medians, not open jobs. We do not list job postings. The county job center does.
+
+    Take only a job your status allows.
+  ht: |-
+    Salè medyàn travay nan zòn Miami: {fact:us.bls.oews-miami-metro}.
+
+    Konpare ak limit lwaye konte a: {fact:us-fl-miamidade.housing.wage-vs-rent}.
+
+    Salè minimòm pa lè nan Florid: {fact:us-fl.minimum-wage.hourly}. Nan travay ak tip, tip yo ka konte pou yon pati ladan l; mande sant travay konte a règ la.
+
+    Sa yo se salè medyàn, se pa travay ki louvri. Nou pa pibliye òf travay. Sant travay konte a fè sa.
+
+    Pran sèlman yon travay estati ou pèmèt.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us.bls.oews-miami-metro
+- - us-fl-miamidade.housing.rent-limit-2br-60
+  - us-fl-miamidade.housing.wage-vs-rent
+- - us-fl.minimum-wage.hourly
+- []
+- []
+paragraph_when:
+- null
+- municipality: unincorporated
+- null
+- null
+- null
+desk: us-fl-miamidade.careersource
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.careersource
+- type: open_map
+  target:
+    type: desk
+    desk_id: us-fl-miamidade.careersource
+utterances:
+  es:
+  - qué trabajos pagan para la renta
+  - cuánto paga este trabajo aquí
+  - trabajos cerca de mí
+  - este trabajo cubre mi renta
+  - a job que pague la renta
+  en:
+  - what jobs pay enough for rent
+  - how much does this job pay here
+  - jobs near me
+  - will this job cover my rent
+  - un trabajo que pague el rent
+  ht:
+  - ki travay ki peye ase pou lwaye
+  - konbyen travay sa a peye isit la
+  - travay toupre m
+  - èske travay sa a ap kouvri lwaye m
+  - yon job ki peye rent lan
+privacy_scope: person
+stages:
+- 7
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- rent-line
+- work-allowed
+- status-word
+fact_refs:
+- us-fl.minimum-wage.hourly
+- us.bls.oews-miami-metro
+- us-fl-miamidade.housing.rent-limit-2br-60
+- us-fl-miamidade.housing.wage-vs-rent
+topics:
+- work
+- rent

@@ -1,0 +1,11 @@
+{
+  "action": {"type": "navigate", "destination": {"type": "card", "card_id": "example-trash-day", "person_id": null}},
+  "grounding": {
+    "type": "card",
+    "card_id": "example-trash-day",
+    "facts": [{"pack_id": "us-fl-miamidade", "fact_id": "us-fl-miamidade.example.trash-days"}]
+  },
+  "confidence": 0.92,
+  "clarification": null,
+  "reply_language": "es"
+}

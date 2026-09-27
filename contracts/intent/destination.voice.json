@@ -1,0 +1,7 @@
+{
+  "note": "Destination.voice. Example ids only.",
+  "type": "destination",
+  "value": {
+    "type": "voice"
+  }
+}

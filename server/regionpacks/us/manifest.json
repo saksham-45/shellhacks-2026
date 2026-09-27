@@ -1,0 +1,82 @@
+{
+  "id": "us",
+  "parent": null,
+  "level": "country",
+  "boundary": {
+    "method": "always"
+  },
+  "adapters": [
+    {
+      "id": "us.flood-zone",
+      "answers": [
+        "flood.zone"
+      ],
+      "sources": [
+        "us.fema.nfhl"
+      ],
+      "desk": "us.fema-nfip",
+      "facts": [
+        {
+          "id": "us.fema.flood-zone",
+          "topics": [
+            "flood"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us.fee-check-uscis",
+      "answers": [
+        "fees.uscis"
+      ],
+      "sources": [],
+      "desk": "us.uscis",
+      "facts": [
+        {
+          "id": "us.uscis.forms-free",
+          "topics": [
+            "immigration"
+          ]
+        },
+        {
+          "id": "us.uscis.fee-payment-methods",
+          "topics": [
+            "immigration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us.fee-check-ftc",
+      "answers": [
+        "scams.gift-card"
+      ],
+      "sources": [],
+      "desk": "us.ftc",
+      "facts": [
+        {
+          "id": "us.ftc.gift-card-payment-scam",
+          "topics": [
+            "scams"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "us.census-geocoder",
+    "us.fema.nfhl"
+  ],
+  "desks": [
+    "us.census-bureau",
+    "us.fema-nfip",
+    "us.uscis",
+    "us.ftc"
+  ],
+  "desks_placeholder": true,
+  "languages": [
+    "es",
+    "en",
+    "ht"
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "request_id": "0123456789abcdef0123456789abcdef",
+  "language": "es",
+  "facts": {
+    "us-fl.example.fee.license": {
+      "type": "fact",
+      "fact": {
+        "fact_id": "us-fl.example.fee.license",
+        "pack_id": "us-fl",
+        "value": {
+          "type": "money",
+          "amount": 11.11,
+          "currency": "USD"
+        },
+        "status": "verified",
+        "is_demo": false,
+        "source_id": "us-fl.example-source",
+        "source_name": "Example State Agency (fictional)",
+        "url": "https://example.invalid/fees",
+        "quote": "EXAMPLE quote (fictional).",
+        "retrieved_at": "2026-09-25T12:00:00-04:00",
+        "jurisdiction": "us-fl"
+      }
+    },
+    "us-fl.example.fee.service": {
+      "type": "fact",
+      "fact": {
+        "fact_id": "us-fl.example.fee.service",
+        "pack_id": "us-fl",
+        "value": {
+          "type": "money",
+          "amount": 2.22,
+          "currency": "USD"
+        },
+        "status": "verified",
+        "is_demo": false,
+        "source_id": "us-fl.example-source",
+        "source_name": "Example State Agency (fictional)",
+        "url": "https://example.invalid/fees",
+        "quote": "EXAMPLE quote (fictional).",
+        "retrieved_at": "2026-09-25T12:00:00-04:00",
+        "jurisdiction": "us-fl"
+      }
+    },
+    "us-fl.example-desk.name": {
+      "type": "fact",
+      "fact": {
+        "fact_id": "us-fl.example-desk.name",
+        "pack_id": "us-fl",
+        "value": {
+          "type": "code",
+          "code": "Example Licensing Desk (fictional)"
+        },
+        "status": "verified",
+        "is_demo": false,
+        "source_id": "us-fl.example-source",
+        "source_name": "Example State Agency (fictional)",
+        "url": "https://example.invalid/fees",
+        "quote": "EXAMPLE quote (fictional).",
+        "retrieved_at": "2026-09-25T12:00:00-04:00",
+        "jurisdiction": "us-fl"
+      }
+    },
+    "us-fl.example-desk.phone": {
+      "type": "fact",
+      "fact": {
+        "fact_id": "us-fl.example-desk.phone",
+        "pack_id": "us-fl",
+        "value": {
+          "type": "phone",
+          "digits": "5550100"
+        },
+        "status": "verified",
+        "is_demo": false,
+        "source_id": "us-fl.example-source",
+        "source_name": "Example State Agency (fictional)",
+        "url": "https://example.invalid/fees",
+        "quote": "EXAMPLE quote (fictional).",
+        "retrieved_at": "2026-09-25T12:00:00-04:00",
+        "jurisdiction": "us-fl"
+      }
+    }
+  },
+  "handoffs": [
+    {
+      "desk_id": "us-fl.example-desk",
+      "reason": {
+        "key": "handoff.reason.fee_check.official_fee",
+        "table": "ADAgentsClient"
+      },
+      "contact": [
+        {
+          "pack_id": "us-fl",
+          "fact_id": "us-fl.example-desk.name"
+        },
+        {
+          "pack_id": "us-fl",
+          "fact_id": "us-fl.example-desk.phone"
+        }
+      ]
+    }
+  ],
+  "has_demo": false,
+  "dropped_claims": 0,
+  "region": "us-fl-miamidade",
+  "mode": "resident",
+  "extractor": "rule",
+  "ask": {
+    "payee_type": "private",
+    "purpose_key": "us-fl.example.fee.license",
+    "amount_cents": 30000,
+    "method": "unknown"
+  },
+  "outcome": "official_fee",
+  "lines": [
+    {
+      "text": "La tarifa oficial publicada por Example State Agency (fictional) es $11.11, más un posible cargo de servicio de $2.22.",
+      "fact_ids": [
+        "us-fl.example.fee.license",
+        "us-fl.example.fee.service"
+      ],
+      "source_id": "us-fl.example-source",
+      "source_name": "Example State Agency (fictional)",
+      "url": "https://example.invalid/fees"
+    }
+  ],
+  "desk_id": "us-fl.example-desk"
+}

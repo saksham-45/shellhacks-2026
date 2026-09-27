@@ -1,0 +1,431 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "beat.abuela_mode.title": {
+      "comment": "Demo screen: beat with the grandmother's simplified one-button mode. 'Abuela' is kept as a name in en. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent; not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abuela Mode"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modo Abuela"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mòd Grann"
+          }
+        }
+      }
+    },
+    "beat.cold_open.line": {
+      "comment": "Static cold-open line of the demo. Sofi is a name; 15 is her age. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent; not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sofi is 15. Until today she was this family's interpreter."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sofi tiene 15 años. Hasta hoy, era la intérprete de esta familia."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Sofi gen 15 an. Jiska jodi a, se li ki te entèprèt fanmi sa a."
+          }
+        }
+      }
+    },
+    "beat.cold_open.title": {
+      "comment": "Demo screen: name of the opening beat. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent; not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cold open"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apertura"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ouvèti"
+          }
+        }
+      }
+    },
+    "beat.counter.label": {
+      "comment": "Household card counter label; the number is shown next to it, never inside. Sofi is a name. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent; not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conversations Sofi didn't have to translate"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conversaciones que Sofi no tuvo que traducir"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Konvèsasyon Sofi pa t bezwen tradui"
+          }
+        }
+      }
+    },
+    "beat.demoMode.toggle": {
+      "comment": "Demo screen toggle that switches every beat to its saved replay (not live). | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent; not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Demo mode: use replays"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modo demo: usar repeticiones"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mòd demo: sèvi ak rejwe"
+          }
+        }
+      }
+    },
+    "beat.desk_copilot.title": {
+      "comment": "Demo screen: beat where the app helps at a government desk. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent; not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desk Copilot"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayuda en la ventanilla"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Èd nan biwo a"
+          }
+        }
+      }
+    },
+    "beat.family_council.title": {
+      "comment": "Demo screen: Q&A beat showing each family member's own agent. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent; not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Family Council"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Consejo familiar"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Konsèy fanmi"
+          }
+        }
+      }
+    },
+    "beat.family_voice_note.title": {
+      "comment": "Demo screen: beat that sends a recorded voice note to the family. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent; not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Family Voice Note"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nota de voz para la familia"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nòt vwa pou fanmi an"
+          }
+        }
+      }
+    },
+    "beat.fee_check.title": {
+      "comment": "Demo screen: beat where the phone checks a quoted fee against the state fee. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent; not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fee Check"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Revisar el cobro"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Verifye frè a"
+          }
+        }
+      }
+    },
+    "beat.listing_check.title": {
+      "comment": "Demo screen: swap-in beat that checks a rental listing against the county property record. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent; not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Listing Check"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Revisar el anuncio"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Verifye anons lan"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Checagem do anúncio"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Vérification de l’annonce"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "فحص الإعلان"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "房源核验"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Проверка объявления"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Tingnan ang listing"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Kiểm tra tin đăng"
+          }
+        }
+      }
+    },
+    "beat.replay.chip": {
+      "comment": "Small chip shown on any beat playing its saved replay instead of running live, so judges are never misled. Honest wording: says 'replay, not live' and never claims a recording (the replays are saved or authored demo output, not recordings). '·' is a separator. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole draft 'Repetisyon · se pa an dirèk' (repetisyon = replay, an dirèk = live), drafted by the myAD Language agent; not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replay · not live"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repetición · no es en vivo"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Repetisyon · se pa an dirèk"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Replay · não ao vivo"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Replay · pas en direct"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "إعادة · ليست مباشرة"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "回放 · 非实时"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Повтор · не в прямом эфире"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Replay · hindi live"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Phát lại · không trực tiếp"
+          }
+        }
+      }
+    },
+    "beat.replay.chipA11y": {
+      "comment": "VoiceOver label for the replay chip: a full sentence saying the result is a saved replay, not live. Never says 'recorded' (the replays are not recordings). | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole draft (sere = kept/saved, an dirèk = live), drafted by the myAD Language agent; not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This is a saved replay, not a live result."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta es una repetición guardada, no un resultado en vivo."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Sa a se yon repetisyon ki te sere, se pa yon rezilta an dirèk."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Isto é um replay salvo, não um resultado ao vivo."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ceci est un replay enregistré, pas un résultat en direct."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "هذه إعادة محفوظة وليست نتيجة مباشرة."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "这是保存的回放，不是实时结果。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Это сохранённый повтор, не живой результат."
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Naka-save na replay ito, hindi live."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Đây là bản phát lại đã lưu, không phải kết quả trực tiếp."
+          }
+        }
+      }
+    },
+    "beat.warm_handoff.title": {
+      "comment": "Demo screen: beat where an English summary sheet is prepared for the desk. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent; not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Warm Handoff Sheet"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoja para la ventanilla"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Fèy pou biwo a"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

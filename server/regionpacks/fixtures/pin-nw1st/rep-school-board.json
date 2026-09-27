@@ -1,0 +1,1 @@
+{"displayFieldName":"ID","fieldAliases":{"ID":"ID","BRDMBR":"BRDMBR"},"fields":[{"name":"ID","type":"esriFieldTypeString","alias":"ID","length":2},{"name":"BRDMBR","type":"esriFieldTypeString","alias":"BRDMBR","length":40}],"features":[{"attributes":{"ID":"2","BRDMBR":"Dr. Dorothy Bendross-Mindingall"}}]}

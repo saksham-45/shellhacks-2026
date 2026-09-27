@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "cards": [
+    {
+      "id": "example-get-id",
+      "title": {"es": "EXAMPLE ONLY es", "en": "EXAMPLE ONLY en", "ht": "EXAMPLE ONLY ht"},
+      "desk": "us.example-id-desk",
+      "scope": "person",
+      "stages": [3],
+      "modes": ["resident"],
+      "region_pack": "us",
+      "fact_refs": ["us.example-id-desk.url"],
+      "topics": ["work"],
+      "utterances": {"es": [], "en": [], "ht": []},
+      "actions": [],
+      "needs_review": {"es": true, "en": true, "ht": true},
+      "immigration": false
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+id: desk
+title: {es: "t", en: "t", ht: "t"}
+body: {es: "{fact:xx-test.desk.hours}", en: "{fact:xx-test.desk.hours}", ht: "{fact:xx-test.desk.hours}"}
+fact_refs: [xx-test.desk.hours]

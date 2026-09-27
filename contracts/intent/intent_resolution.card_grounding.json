@@ -1,0 +1,31 @@
+{
+  "note": "IntentResolution: card grounding.",
+  "type": "intent_resolution",
+  "value": {
+    "action": {
+      "destination": {
+        "card_id": "tolls",
+        "person_id": "00000000-0000-4000-8000-000000000001",
+        "type": "card"
+      },
+      "type": "navigate"
+    },
+    "clarification": null,
+    "confidence": 0.88,
+    "grounding": {
+      "card_id": "tolls",
+      "facts": [
+        {
+          "fact_id": "us-fl-miamidade.tolls.dolphin-97-ave.sunpass",
+          "pack_id": "us-fl-miamidade"
+        },
+        {
+          "fact_id": "us-fl-miamidade.tolls.dolphin-97-ave.plate",
+          "pack_id": "us-fl-miamidade"
+        }
+      ],
+      "type": "card"
+    },
+    "reply_language": "es"
+  }
+}

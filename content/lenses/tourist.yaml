@@ -1,0 +1,94 @@
+# Origin lens (myAD Content). The file id is the ADCore OriginLens case.
+# title is the lens name; lens_card plus attaches_to are the cards it surfaces.
+id: tourist
+origin_lens: tourist
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Origin lens
+  item: Tourists
+- plan: myamericandream-plan.md
+  section: Stages > Tourist mode
+title:
+  es: De visita
+  en: Here for a visit
+  ht: Isit la an vizit
+summary:
+  es: 'Lo que sorprende a los visitantes: la propina es parte del precio, la factura del peaje llega después del viaje y el sol quema rápido. Pasarlos por alto cuesta dinero o un día.'
+  en: 'What catches visitors: the tip is part of the price, the toll bill arrives after the trip, and the sun burns fast. Missing any of them costs money or a day.'
+  ht: 'Sa ki sezi vizitè yo: poubwa a fè pati pri a, bòdwo peyaj la rive apre vwayaj la, epi solèy la boule vit. Si ou bliye youn, sa koute lajan oswa yon jounen.'
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+desk: us-fl-miamidade.mia-information
+origin_match:
+  goals:
+  - visit
+  self_select: true
+  note: Any origin; set by the visit goal or tourist mode.
+modes:
+- tourist
+lens_card: lens-tourist
+attaches_to:
+- airport-exit
+- back-to-mia
+- emergency-911
+- police-stop-script
+- rental-car-tolls
+- scam-check
+- sun-heat
+- tipping
+origin_lines:
+- card: airport-exit
+  text:
+    es: En tu país, quizá aceptabas al primero que ofrecía llevarte. Aquí, toma transporte solo en las paradas marcadas; un chofer sin marca puede cobrarte mucho más.
+    en: At home, the first person offering a ride may be fine. Here, take rides only from the marked stands; an unmarked driver can cost you far more.
+    ht: Lakay, petèt ou te aksepte premye moun ki ofri w woulib. Isit la, pran transpò sèlman kote ki make yo; yon chofè san mak ka fè w peye pi chè anpil.
+  fact_refs: []
+- card: back-to-mia
+  text:
+    es: En tu país, llegar temprano al aeropuerto quizá no importaba tanto. Aquí, las filas de seguridad y la devolución del carro rentado toman tiempo, y salir tarde puede costarte el vuelo.
+    en: At home, getting to the airport early may not matter much. Here, security lines and rental-car returns take time, and a late start can cost you the flight.
+    ht: Lakay, rive bonè nan ayewopò petèt pa t twò enpòtan. Isit la, liy sekirite ak retounen machin lwe pran tan, e si ou pati an reta ou ka rate vòl la.
+  fact_refs: []
+- card: emergency-911
+  text:
+    es: En tu país, el número de emergencia es otro. Aquí, marca el número de esta tarjeta; buscar el correcto cuesta minutos que importan.
+    en: At home, the emergency number is different. Here, dial the number on this card; searching for the right one costs minutes that matter.
+    ht: Lakay, nimewo ijans lan diferan. Isit la, konpoze nimewo ki sou kat sa a; si ou pèdi tan ap chèche bon an, se minit ki konte.
+  fact_refs: []
+- card: police-stop-script
+  text:
+    es: En tu país, quizá te bajabas a explicar. Aquí, quédate en el carro con las manos en el volante y nunca ofrezcas dinero; cualquiera de las dos cosas puede convertir la parada en un arresto.
+    en: At home, you may have stepped out to explain. Here, stay in the car with your hands on the wheel and never offer money; either can turn a stop into an arrest.
+    ht: Lakay, petèt ou te desann pou esplike. Isit la, rete nan machin nan ak men ou sou volan an epi pa janm ofri lajan; nenpòt nan yo ka fè yon kontwòl tounen yon arestasyon.
+  fact_refs: []
+- card: rental-car-tolls
+  text:
+    es: En tu país, pagabas el peaje en una caseta. Aquí, muchas vías cobran por placa, y la rentadora agrega su propio cargo después del viaje.
+    en: At home, you paid tolls at a booth. Here, many roads bill by plate, and the rental company adds its own fee after the trip.
+    ht: Lakay, ou te peye peyaj nan yon kabin. Isit la, anpil wout fè bòdwo pa plak, e konpayi lwe machin nan ajoute pwòp frè pa l apre vwayaj la.
+  fact_refs: []
+- card: scam-check
+  text:
+    es: En tu país, una llamada de un funcionario quizá era real. Aquí, quien exige tarjetas de regalo o un pago por teléfono es una estafa, y ese dinero no vuelve.
+    en: At home, a call from an official may be real. Here, a caller who demands gift cards or payment by phone is a scam, and that money does not come back.
+    ht: Lakay, yon apèl yon ofisyèl te ka vre. Isit la, moun ki mande kat kado oswa peman pa telefòn se yon eskwokri, e lajan sa a pa tounen.
+  fact_refs: []
+- card: sun-heat
+  text:
+    es: En tu país, el sol quizá te parece conocido. Aquí quema rápido y el calor agota, y un golpe de calor puede terminar el viaje en la sala de emergencias.
+    en: At home, the sun may feel familiar. Here, it burns fast and the heat drains you, and heat sickness can end the trip in an emergency room.
+    ht: Lakay, solèy la ka sanble abityèl. Isit la, li boule vit e chalè a fatige w, e yon kou chalè ka fini vwayaj la nan sal ijans.
+  fact_refs: []
+- card: tipping
+  text:
+    es: En tu país, el precio del menú quizá era el precio total. Aquí, la propina es parte de lo que debes, y no dejarla se toma como una queja.
+    en: At home, the price on the menu may be the whole price. Here, the tip is part of what you owe, and leaving none is read as a complaint.
+    ht: Lakay, pri ki sou meni an te ka tout pri a. Isit la, poubwa a fè pati sa ou dwe, e si ou pa kite l, moun konprann se yon plent.
+  fact_refs: []
+fact_refs: []

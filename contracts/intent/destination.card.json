@@ -1,0 +1,9 @@
+{
+  "note": "Destination.card. Example ids only.",
+  "type": "destination",
+  "value": {
+    "card_id": "tolls",
+    "person_id": null,
+    "type": "card"
+  }
+}

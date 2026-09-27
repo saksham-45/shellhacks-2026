@@ -1,0 +1,124 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: school-run
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > Movement and morning
+  item: School run
+- plan: mymiami-plan.md
+  section: Every feature > Getting around and the school morning
+  item: School run
+- plan: mymiami-public-data.md
+  section: Card by card
+  item: The two-mile school-bus rule as math
+title:
+  es: Camino a la escuela
+  en: School run
+  ht: Mennen timoun lekòl
+summary:
+  es: Tu escuela de zona, su teléfono y sus grados, y si el distrito te debe un bus.
+  en: Your zoned school, its phone and grades, and whether the district owes you a bus.
+  ht: Lekòl zòn ou, telefòn li ak klas li yo, epi si distri a dwe ba w yon bis.
+body:
+  es: |-
+    Primaria de zona: {fact:us-fl-miamidade.school.zoned-elementary}, {fact:us-fl-miamidade.school.zoned-elementary-address}. Teléfono: {fact:us-fl-miamidade.school.zoned-elementary-phone}. Grados: {fact:us-fl-miamidade.school.zoned-elementary-grades}.
+
+    Secundaria: {fact:us-fl-miamidade.school.zoned-middle}. Preparatoria: {fact:us-fl-miamidade.school.zoned-high}.
+
+    De la casa a la escuela: {fact:us-fl-miamidade.school.distance-to-zoned}. Dentro de {fact:us-fl-miamidade.m-dcps.bus-distance}, el distrito no te debe bus. Fuera de eso, tu parada está en el portal de padres, no aquí.
+
+    Escuelas de elección y magnet: el padre o la madre maneja.
+
+    Si usas transporte público para ir a la escuela, la tarifa con descuento con la tarjeta EASY es {fact:us-fl-miamidade.transit.fare.discounted}; pregunta antes de pagar la tarifa completa.
+  en: |-
+    Zoned elementary: {fact:us-fl-miamidade.school.zoned-elementary}, {fact:us-fl-miamidade.school.zoned-elementary-address}. Phone: {fact:us-fl-miamidade.school.zoned-elementary-phone}. Grades: {fact:us-fl-miamidade.school.zoned-elementary-grades}.
+
+    Middle: {fact:us-fl-miamidade.school.zoned-middle}. High: {fact:us-fl-miamidade.school.zoned-high}.
+
+    From home to the school: {fact:us-fl-miamidade.school.distance-to-zoned}. Inside {fact:us-fl-miamidade.m-dcps.bus-distance}, the district does not owe a bus. Outside it, your stop is in the parent portal, not here.
+
+    Choice and magnet schools: the parent drives.
+
+    If you use transit to get to school, the discounted fare with the EASY Card is {fact:us-fl-miamidade.transit.fare.discounted}; ask before paying full fare.
+  ht: |-
+    Lekòl primè zòn nan: {fact:us-fl-miamidade.school.zoned-elementary}, {fact:us-fl-miamidade.school.zoned-elementary-address}. Telefòn: {fact:us-fl-miamidade.school.zoned-elementary-phone}. Klas: {fact:us-fl-miamidade.school.zoned-elementary-grades}.
+
+    Mwayen: {fact:us-fl-miamidade.school.zoned-middle}. Segondè: {fact:us-fl-miamidade.school.zoned-high}.
+
+    Soti lakay rive lekòl la: {fact:us-fl-miamidade.school.distance-to-zoned}. Anndan {fact:us-fl-miamidade.m-dcps.bus-distance}, distri a pa dwe ba w bis. Andeyò sa, arè ou nan pòtay paran an, pa isit la.
+
+    Lekòl chwa ak magnet: se paran an ki kondwi.
+
+    Si ou itilize transpò piblik pou ale lekòl, pri rabè a ak kat EASY la se {fact:us-fl-miamidade.transit.fare.discounted}; mande anvan ou peye tout pri a.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.school.zoned-elementary
+  - us-fl-miamidade.school.zoned-elementary-address
+  - us-fl-miamidade.school.zoned-elementary-phone
+  - us-fl-miamidade.school.zoned-elementary-grades
+- - us-fl-miamidade.school.zoned-middle
+  - us-fl-miamidade.school.zoned-high
+- - us-fl-miamidade.m-dcps.parent-portal-bus-stop
+  - us-fl-miamidade.school.distance-to-zoned
+  - us-fl-miamidade.m-dcps.bus-distance
+- - us-fl-miamidade.m-dcps.choice-transport
+- - us-fl-miamidade.transit.fare.discounted
+desk: us-fl-miamidade.m-dcps
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.m-dcps
+- type: open_map
+  target:
+    type: desk
+    desk_id: us-fl-miamidade.m-dcps
+utterances:
+  es:
+  - cuál es mi escuela de zona
+  - a mi hijo le toca bus escolar
+  - el teléfono de la escuela
+  - qué tan lejos está la escuela
+  - what school le toca a mi hijo
+  en:
+  - what is my zoned school
+  - does my kid get a school bus
+  - school phone number
+  - how far is the school
+  - cuál es la school de mi zona
+  ht:
+  - ki lekòl zòn mwen
+  - èske pitit mwen gen bis lekòl
+  - nimewo telefòn lekòl la
+  - konbyen distans lekòl la ye
+  - ki school ki nan zòn mwen
+privacy_scope: household
+stages:
+- 7
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- school-enrollment
+- this-walk
+fact_refs:
+- us-fl-miamidade.school.zoned-elementary
+- us-fl-miamidade.school.zoned-elementary-address
+- us-fl-miamidade.school.zoned-elementary-phone
+- us-fl-miamidade.school.zoned-elementary-grades
+- us-fl-miamidade.school.zoned-middle
+- us-fl-miamidade.school.zoned-high
+- us-fl-miamidade.m-dcps.parent-portal-bus-stop
+- us-fl-miamidade.school.distance-to-zoned
+- us-fl-miamidade.m-dcps.bus-distance
+- us-fl-miamidade.m-dcps.choice-transport
+- us-fl-miamidade.transit.fare.discounted
+topics:
+- schools
+- transit

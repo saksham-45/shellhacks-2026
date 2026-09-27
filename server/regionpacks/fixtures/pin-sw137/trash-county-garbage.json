@@ -1,0 +1,1 @@
+{"displayFieldName":"ALIASID","fieldAliases":{"WEEKDAYS":"WEEKDAYS","ROUTE":"ROUTE"},"fields":[{"name":"WEEKDAYS","type":"esriFieldTypeString","alias":"WEEKDAYS","length":16},{"name":"ROUTE","type":"esriFieldTypeInteger","alias":"ROUTE"}],"features":[{"attributes":{"WEEKDAYS":"Tuesday Friday","ROUTE":5209}}]}

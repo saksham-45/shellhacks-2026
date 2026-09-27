@@ -1,0 +1,27 @@
+{
+ "x-test-only": "TEST-ONLY fixture manifest shape; not Regions' manifest.",
+ "id": "us-fl-miamidade",
+ "parent": "us-fl",
+ "desks": [
+  "us-fl-miamidade.311",
+  "us-fl-miamidade.test-airport-desk"
+ ],
+ "adapters": [
+  {
+   "id": "us-fl-miamidade.fee-check-mia-taxi",
+   "answers": [
+    "fees.mia-taxi"
+   ],
+   "sources": [],
+   "desk": "us-fl-miamidade.test-airport-desk",
+   "facts": [
+    {
+     "id": "us-fl-miamidade.mia.taxi.meter-rule",
+     "topics": [
+      "transit"
+     ]
+    }
+   ]
+  }
+ ]
+}

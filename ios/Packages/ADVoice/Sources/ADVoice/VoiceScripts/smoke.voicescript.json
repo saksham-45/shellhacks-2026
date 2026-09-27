@@ -1,0 +1,16 @@
+{
+  "name": "smoke",
+  "review": {
+    "state": "needs_review",
+    "note": "Example script for Access and Lead. es/en lines are ordinary commands; the Kreyòl lines are unreviewed agent drafts."
+  },
+  "steps": [
+    { "say": "en español", "language": "es", "expect": { "command": "switch_language_es", "confirm": false } },
+    { "say": "Read this", "language": "en", "expect": { "command": "read_this", "reply_language": "en", "speech": "spoken" } },
+    { "say": "¿Y el peaje?", "language": "es", "expect": { "command": null, "reply_language": "es", "speech": "spoken" } },
+    { "say": "Kreyòl", "language": "ht", "expect": { "command": "switch_language_ht", "confirm": true } },
+    { "say": "li sa a", "language": "ht", "expect": { "command": "read_this", "reply_language": "ht", "confirm": true, "speech": "unavailable" } },
+    { "say": "wi", "language": "ht", "expect": { "command": "yes", "confirm": true } },
+    { "say": "the second one", "language": "en", "expect": { "command": "ordinal_second" } }
+  ]
+}

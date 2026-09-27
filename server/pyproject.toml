@@ -1,0 +1,32 @@
+[project]
+name = "myad-server"
+version = "0.0.1"
+description = "myAmericanDream agents backend (FastAPI + Google ADK). Owner: myAD Agents."
+requires-python = ">=3.12"
+# Exact versions live in requirements.lock (ARCHITECTURE.md §13.z "Versions"); regenerate with
+#   uv pip compile pyproject.toml --extra dev --python-version 3.12 -o requirements.lock
+dependencies = [
+  "fastapi>=0.115",
+  "pydantic>=2.8",
+  "uvicorn>=0.30",
+  "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "httpx>=0.27"]
+live = ["google-adk==2.10.0"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/myad_server"]
+
+[tool.pytest.ini_options]
+# Our tests only. server/regionpacks/ has its own pytest.ini and runs only in Regions' hook.
+testpaths = ["tests"]
+pythonpath = ["src"]
+norecursedirs = ["regionpacks", ".venv", "*.egg-info"]
+markers = ["live_llm: requires GEMINI_API_KEY and network"]
+addopts = "-p no:cacheprovider"

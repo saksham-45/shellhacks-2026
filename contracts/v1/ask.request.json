@@ -1,0 +1,14 @@
+{
+  "request_id": "0example0request0id0000000000001",
+  "utterance": {
+    "text": "¿cuándo pasa el example truck?",
+    "language": "es",
+    "context": {
+      "destination": {"type": "household"},
+      "person_id": "person-example-1",
+      "card_id": null
+    }
+  },
+  "stage": 1,
+  "mode": "resident"
+}

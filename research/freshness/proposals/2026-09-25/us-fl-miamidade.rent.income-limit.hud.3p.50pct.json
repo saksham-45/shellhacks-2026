@@ -1,0 +1,23 @@
+{
+  "fact_id": "us-fl-miamidade.rent.income-limit.hud.3p.50pct",
+  "outcome": "value-changed",
+  "action": "The quoted passage now shows different figures. Re-read the source; if the fact changed, update value+quote+retrieved_at by hand and add correction_note.",
+  "result": {
+    "fact_id": "us-fl-miamidade.rent.income-limit.hud.3p.50pct",
+    "source_id": "us-fl-miamidade.mdc-hcd-2026-rfa-booklet",
+    "kind": "static",
+    "status_before": "verified",
+    "outcome": "value-changed",
+    "detail": "the quoted passage is still there but its figures changed: ['$61,300', '3'] -> ['$47,700', '$76,300', '1']",
+    "snippet": "lower HOME rents listed in the chart below. For 2026, Miami-Dade County's area median income is $89,800 with adjustments made for 80% AMI and 50% AMI, by family size, as follows: 80% AMI Family of 1 - $76,300 50% AMI Family of 1 - $47,700 80%",
+    "similarity": 0.97,
+    "observed": null,
+    "recorded": "For 2026, Miami-Dade County’s area median income is $89,800 with adjustments made for 80% AMI and 50% AMI, by family size, as follows: ... 50% AMI Family of 3 - $61,300",
+    "checked_url": "https://www.miamidade.gov/resources/housing/documents/requests/2026-surtax-booklet.pdf",
+    "final_url": "https://www.miamidade.gov/resources/housing/documents/requests/2026-surtax-booklet.pdf",
+    "consecutive_unreachable": 0,
+    "propose_stale": false
+  },
+  "run_started_at": "2026-09-25T17:38:48-04:00",
+  "auto_applied": false
+}

@@ -1,0 +1,110 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: condo-assessment
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > The hard papers
+  item: 'Condo assessment: ask before you wire'
+- plan: mymiami-plan.md
+  section: Every feature > Housing traps and the bad week
+  item: Condo assessment
+- plan: mymiami-public-data.md
+  section: Card by card
+  item: The parcel
+title:
+  es: 'Cuota especial del condominio: pregunta antes de transferir'
+  en: 'Condo assessment: ask before you wire'
+  ht: 'Kotizasyon espesyal kondo: mande anvan ou voye lajan'
+summary:
+  es: 'Edificio viejo o condominio: pide la cuota especial y las reservas antes de cualquier depósito. No inventamos la cantidad.'
+  en: 'Old building or condo: ask for the assessment and the reserves before any deposit. We do not invent the dollar amount.'
+  ht: 'Ansyen bilding oswa kondo: mande pou kotizasyon espesyal la ak rezèv yo anvan nenpòt depo. Nou pa envante kantite lajan an.'
+body:
+  es: |-
+    Parte de los anuncios activos de condominios que declaran una cuota especial: {fact:us-fl-miamidade.condo.listings-with-assessment}.
+
+    Este edificio: construido en {fact:us-fl-miamidade.parcel.year-built}, condominio: {fact:us-fl-miamidade.parcel.condo-flag}.
+
+    Florida exige inspecciones de seguridad y estudios de reservas para edificios de condominios viejos: {fact:us-fl.condo.milestone-inspection-age}. Eso puede traer cuotas grandes.
+
+    Pregunta por escrito: ¿hay una cuota especial aprobada o propuesta? ¿Cuánto hay en reservas? ¿Cuándo fue la última inspección?
+
+    La cantidad no está en el mapa del condado. No la vamos a adivinar.
+  en: |-
+    Share of active condo listings that declare an assessment: {fact:us-fl-miamidade.condo.listings-with-assessment}.
+
+    This building: built in {fact:us-fl-miamidade.parcel.year-built}, condo: {fact:us-fl-miamidade.parcel.condo-flag}.
+
+    Florida requires milestone safety inspections and reserve studies for older condo buildings: {fact:us-fl.condo.milestone-inspection-age}. Those can lead to large assessments.
+
+    Ask in writing: is an assessment approved or proposed? How much is in reserves? When was the last inspection?
+
+    The dollar amount is not in the county map. We will not guess it.
+  ht: |-
+    Pati nan anons kondo ki aktif yo ki deklare yon kotizasyon espesyal: {fact:us-fl-miamidade.condo.listings-with-assessment}.
+
+    Bilding sa a: bati an {fact:us-fl-miamidade.parcel.year-built}, kondo: {fact:us-fl-miamidade.parcel.condo-flag}.
+
+    Florid egzije enspeksyon sekirite ak etid rezèv pou ansyen bilding kondo: {fact:us-fl.condo.milestone-inspection-age}. Sa ka mennen gwo kotizasyon.
+
+    Mande alekri: èske gen yon kotizasyon espesyal ki apwouve oswa ki pwopoze? Konbyen ki nan rezèv? Ki lè dènye enspeksyon an te fèt?
+
+    Kantite lajan an pa nan kat konte a. Nou p ap devine l.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.condo.listings-with-assessment
+- - us-fl-miamidade.parcel.year-built
+  - us-fl-miamidade.parcel.condo-flag
+- - us-fl.condo.reserve-study
+  - us-fl.condo.milestone-inspection-age
+- []
+- []
+desk: us-fl.dbpr-condos
+actions:
+- type: call_desk
+  desk_id: us-fl.dbpr-condos
+utterances:
+  es:
+  - hay cuota especial en el condominio
+  - qué preguntar antes de comprar un condo
+  - cuota especial en mi edificio
+  - reservas del condominio
+  - the condo tiene assessment
+  en:
+  - is there a condo assessment
+  - what questions before buying a condo
+  - special assessment in my building
+  - condo reserves
+  - el condo tiene assessment
+  ht:
+  - èske gen kotizasyon espesyal nan kondo a
+  - ki kesyon pou m poze anvan m achte yon kondo
+  - kotizasyon espesyal nan bilding mwen
+  - rezèv kondo a
+  - kondo a gen assessment
+privacy_scope: household
+stages:
+- 5
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- the-building
+- listing-check
+fact_refs:
+- us-fl-miamidade.condo.listings-with-assessment
+- us-fl-miamidade.parcel.year-built
+- us-fl-miamidade.parcel.condo-flag
+- us-fl.condo.reserve-study
+- us-fl.condo.milestone-inspection-age
+topics:
+- parcel
+- rent

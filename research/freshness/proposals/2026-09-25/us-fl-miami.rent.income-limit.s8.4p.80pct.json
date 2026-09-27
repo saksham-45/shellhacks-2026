@@ -1,0 +1,23 @@
+{
+  "fact_id": "us-fl-miami.rent.income-limit.s8.4p.80pct",
+  "outcome": "value-changed",
+  "action": "The quoted passage now shows different figures. Re-read the source; if the fact changed, update value+quote+retrieved_at by hand and add correction_note.",
+  "result": {
+    "fact_id": "us-fl-miami.rent.income-limit.s8.4p.80pct",
+    "source_id": "us-fl-miami.com-housing-income-limits",
+    "kind": "static",
+    "status_before": "verified",
+    "outcome": "value-changed",
+    "detail": "the quoted passage is still there but its figures changed: ['$109,000', '$40,850', '$68,100', '4'] -> ['$28,600', '$32,700', '$36,800', '$47,700', '$54,500', '$61,300', '$76,300', '$87,200', '1', '2', '3']",
+    "snippet": "These AMIs are used for household eligibility purposes. For Section 8 project-based and Section 8 Housing Choice Voucher (HCV) programs. Effective May 1, 2026. people in household 30% AMI 50% AMI 80% AMI 1 $28,600 $47,700 $76,300 2 $32,700 $54,500 $87,200 3 $36,800 $61,300",
+    "similarity": 0.937,
+    "observed": null,
+    "recorded": "For Section 8 project-based and Section 8 Housing Choice Voucher (HCV) programs. Effective May 1, 2026. people in household 30% AMI 50% AMI 80% AMI 4 $40,850 $68,100 $109,000",
+    "checked_url": "https://www.miami.gov/Housing-Assistance/Home-Ownership/Housing-Income-Limits",
+    "final_url": "https://www.miami.gov/Housing-Assistance/Home-Ownership/Housing-Income-Limits",
+    "consecutive_unreachable": 0,
+    "propose_stale": false
+  },
+  "run_started_at": "2026-09-25T17:38:48-04:00",
+  "auto_applied": false
+}

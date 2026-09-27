@@ -1,0 +1,9 @@
+{
+  "request_url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/1/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter&outFields=NAME%2CADDRESS&returnGeometry=true&outSR=4326&f=json",
+  "method": "GET",
+  "retrieved_at": "2026-09-25T18:06:42-04:00",
+  "http_status": 200,
+  "bytes": 790,
+  "sha256": "254d5f9a3be3ad69de435270bc822e051447315132c46abaa6600eb1e2bcd36f",
+  "capture_path": "scripts/refresh_fixtures.py (LiveTransport, box egress)"
+}

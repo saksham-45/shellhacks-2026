@@ -1,0 +1,2448 @@
+[
+  {
+    "id": "us-fl-miami.flood.lookup",
+    "claim": "What flood zone or evacuation zone is this address in?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.gis-fema2021-floodhazardareas-0",
+    "url": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/FEMA2021_FloodHazardAreas/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:32:41-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'FEMA2021_FloodHazardAreas' matched topic 'flood' (layer name, service name, geometry polygon). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "emergency management",
+    "value_type": "code",
+    "lookup": {
+      "endpoint": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/FEMA2021_FloodHazardAreas/FeatureServer",
+      "layer_id": 0,
+      "fields": [
+        "DFIRM_ID",
+        "VERSION_ID",
+        "FLD_AR_ID",
+        "STUDY_TYP",
+        "FLD_ZONE",
+        "ZONE_SUBTY"
+      ],
+      "method": "arcgis-query point-in-polygon esriSpatialRelIntersects",
+      "question": "What flood zone or evacuation zone is this address in?"
+    },
+    "x-candidate": {
+      "confidence": 0.78,
+      "geometry": "esriGeometryPolygon",
+      "alternatives": [
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/FEMA2021_LiMWA/FeatureServer/0 (FEMA2021_LiMWA)",
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Primary_Evacuation_Route/FeatureServer/0 (Primary_Evacuation_Route)",
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Emergency_Evacuation_Bus_Pick_Up/FeatureServer/0 (Emergency_Evacuation_Bus_Pick_Up)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miami.libraries.lookup",
+    "claim": "Which library branch is nearest to this address?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.gis-library-0",
+    "url": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Library/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:32:47-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'Library' matched topic 'libraries' (layer name, service name, geometry point). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "library system",
+    "value_type": "place",
+    "lookup": {
+      "endpoint": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Library/FeatureServer",
+      "layer_id": 0,
+      "fields": [
+        "ADDRESS",
+        "PHONE",
+        "WKDAY",
+        "WKDAY2",
+        "WKDAY3",
+        "EXCPTDAY"
+      ],
+      "method": "arcgis-query nearest: buffered point search, sort by distance",
+      "question": "Which library branch is nearest to this address?"
+    },
+    "x-candidate": {
+      "confidence": 0.78,
+      "geometry": "esriGeometryPoint",
+      "alternatives": []
+    }
+  },
+  {
+    "id": "us-fl-miami.municipal-boundary.lookup",
+    "claim": "Which municipality (or unincorporated area) is this address in?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.gis-municipal-park-boundary-0",
+    "url": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Municipal_Park_Boundary/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:32:50-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'Municipal_Park_Boundary' matched topic 'municipal-boundary' (layer name, service name, fields, geometry polygon). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "county government / 311",
+    "value_type": "place",
+    "lookup": {
+      "endpoint": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Municipal_Park_Boundary/FeatureServer",
+      "layer_id": 0,
+      "fields": [
+        "NAME",
+        "ADDRESS",
+        "CITY",
+        "PHONE"
+      ],
+      "method": "arcgis-query point-in-polygon esriSpatialRelIntersects",
+      "question": "Which municipality (or unincorporated area) is this address in?"
+    },
+    "x-candidate": {
+      "confidence": 1.0,
+      "geometry": "esriGeometryPolygon",
+      "alternatives": [
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/XYMiami_Active_Police/FeatureServer/7 (MDC_Municipalities)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miami.parcel.lookup",
+    "claim": "What does the property record say about this address (year built, use, condo flag, folio)?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.gis-property-card-0",
+    "url": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Property_Card/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:32:55-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'Property_Card' matched topic 'parcel' (layer name, service name, fields, geometry point). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "property appraiser",
+    "value_type": "text",
+    "lookup": {
+      "endpoint": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Property_Card/FeatureServer",
+      "layer_id": 0,
+      "fields": [
+        "FOLIO",
+        "ADDRESS",
+        "PARCELFOLIO",
+        "RECYDAY",
+        "TRASHDAY",
+        "GARBDAY"
+      ],
+      "method": "arcgis-query buffered point (distance 30 m) then closest feature",
+      "question": "What does the property record say about this address (year built, use, condo flag, folio)?",
+      "params": {
+        "distance": 30,
+        "units": "esriSRUnit_Meter"
+      }
+    },
+    "x-candidate": {
+      "confidence": 0.89,
+      "geometry": "esriGeometryPoint",
+      "alternatives": [
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/DREAM_Parcels_Layer/FeatureServer/0 (DREAM_Parcels_Layer_polygons)",
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/DREAM_Parcels_Layer_view/FeatureServer/0 (DREAM_Parcels_Layer_polygons)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miami.parks.lookup",
+    "claim": "Which parks are nearest to this address?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.gis-city-parks-0",
+    "url": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/City_Parks/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:32:33-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'City_Parks' matched topic 'parks' (layer name, service name, geometry polygon). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "parks department",
+    "value_type": "place",
+    "lookup": {
+      "endpoint": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/City_Parks/FeatureServer",
+      "layer_id": 0,
+      "fields": [
+        "ADDRESS"
+      ],
+      "method": "arcgis-query point-in-polygon esriSpatialRelIntersects",
+      "question": "Which parks are nearest to this address?"
+    },
+    "x-candidate": {
+      "confidence": 0.67,
+      "geometry": "esriGeometryPolygon",
+      "alternatives": [
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/City_Owned_Park/FeatureServer/0 (City_Owned_Park)",
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Undeveloped_Parks/FeatureServer/0 (Undeveloped_Parks)",
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Parks 5 min walk time/FeatureServer/0 (Parks 5 min walk time)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miami.public-safety.lookup",
+    "claim": "Which fire and police stations serve this address?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.gis-business-with-fire-department--0",
+    "url": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Business_with_Fire_Department_Certificate_Occupancy/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:32:32-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'Business_with_Fire_Department_Certificate_Occupancy' matched topic 'public-safety' (layer name, service name, geometry point). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "911 / non-emergency line",
+    "value_type": "place",
+    "lookup": {
+      "endpoint": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Business_with_Fire_Department_Certificate_Occupancy/FeatureServer",
+      "layer_id": 0,
+      "fields": [
+        "BusinessID",
+        "BusinessNa",
+        "BusinessAd",
+        "City",
+        "StateCode",
+        "ZipCode"
+      ],
+      "method": "arcgis-query nearest: buffered point search, sort by distance",
+      "question": "Which fire and police stations serve this address?"
+    },
+    "x-candidate": {
+      "confidence": 0.78,
+      "geometry": "esriGeometryPoint",
+      "alternatives": [
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Police_Zones/FeatureServer/0 (Police_Zones)",
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Fire_901_Zones/FeatureServer/0 (Fire_901_Zones)",
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Police_Districts/FeatureServer/0 (Police_Districts)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miami.recycling.lookup",
+    "claim": "Which day and week is recycling collected at this address?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.gis-recycle-routes-0",
+    "url": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Recycle_Routes/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:32:55-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'Recycle_Routes' matched topic 'recycling' (layer name, service name, fields, geometry polygon). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "311",
+    "value_type": "weekdays",
+    "lookup": {
+      "endpoint": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Recycle_Routes/FeatureServer",
+      "layer_id": 0,
+      "fields": [
+        "RECYDAY",
+        "RECYROUTE"
+      ],
+      "method": "arcgis-query point-in-polygon esriSpatialRelIntersects",
+      "question": "Which day and week is recycling collected at this address?"
+    },
+    "x-candidate": {
+      "confidence": 1.0,
+      "geometry": "esriGeometryPolygon",
+      "alternatives": []
+    }
+  },
+  {
+    "id": "us-fl-miami.representatives.lookup",
+    "claim": "Which districts and representatives cover this address?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.gis-commission-districts-0",
+    "url": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Commission_Districts/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:32:36-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'Commission_Districts' matched topic 'representatives' (layer name, service name, geometry polygon). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "supervisor of elections",
+    "value_type": "text",
+    "lookup": {
+      "endpoint": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Commission_Districts/FeatureServer",
+      "layer_id": 0,
+      "fields": [
+        "ADDRESS",
+        "PHONE"
+      ],
+      "method": "arcgis-query point-in-polygon esriSpatialRelIntersects",
+      "question": "Which districts and representatives cover this address?"
+    },
+    "x-candidate": {
+      "confidence": 0.78,
+      "geometry": "esriGeometryPolygon",
+      "alternatives": [
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Commission_Districts_New/FeatureServer/0 (Commission_Districts_New)",
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Enriched Commission Districts/FeatureServer/0 (Enriched Commission Districts)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miami.school-sites.lookup",
+    "claim": "Which schools are nearest to this address?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.gis-college-0",
+    "url": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/College/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:32:36-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'College' matched topic 'school-sites' (layer name, service name, geometry point). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "school district",
+    "value_type": "place",
+    "lookup": {
+      "endpoint": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/College/FeatureServer",
+      "layer_id": 0,
+      "fields": [
+        "NAME",
+        "ADDRESS",
+        "PHONE"
+      ],
+      "method": "arcgis-query nearest: buffered point search, sort by distance",
+      "question": "Which schools are nearest to this address?"
+    },
+    "x-candidate": {
+      "confidence": 0.78,
+      "geometry": "esriGeometryPoint",
+      "alternatives": [
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Head_Start/FeatureServer/0 (Head_Start)",
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/School_Site/FeatureServer/0 (School_Site)",
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Charter_School/FeatureServer/0 (Charter_School)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miami.transit.lookup",
+    "claim": "Which transit stops and routes are near this address?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.gis-bus-shelter-0",
+    "url": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Bus_Shelter/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:32:31-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'Bus_Shelter' matched topic 'transit' (layer name, service name, geometry point). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "transit agency",
+    "value_type": "place",
+    "lookup": {
+      "endpoint": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Bus_Shelter/FeatureServer",
+      "layer_id": 0,
+      "fields": [
+        "OBJECTID",
+        "SHELTERID",
+        "BUSSTOPID",
+        "MAINST",
+        "CROSSST",
+        "LOCATION"
+      ],
+      "method": "arcgis-query nearest: buffered point search, sort by distance",
+      "question": "Which transit stops and routes are near this address?"
+    },
+    "x-candidate": {
+      "confidence": 0.78,
+      "geometry": "esriGeometryPoint",
+      "alternatives": [
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Metrorail_Stations/FeatureServer/0 (Metrorail_Stations)",
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Emergency_Evacuation_Bus_Pick_Up/FeatureServer/0 (Emergency_Evacuation_Bus_Pick_Up)",
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/BusRoutes/FeatureServer/0 (BusRoutes)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miami.trash.lookup",
+    "claim": "Which days is garbage collected at this address, and by whom?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.gis-trash-routes-0",
+    "url": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Trash_Routes/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:32:57-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'Trash_Routes' matched topic 'trash' (layer name, service name, fields, geometry polygon). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "311",
+    "value_type": "weekdays",
+    "lookup": {
+      "endpoint": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Trash_Routes/FeatureServer",
+      "layer_id": 0,
+      "fields": [
+        "TRASHDAY"
+      ],
+      "method": "arcgis-query point-in-polygon esriSpatialRelIntersects",
+      "question": "Which days is garbage collected at this address, and by whom?"
+    },
+    "x-candidate": {
+      "confidence": 1.0,
+      "geometry": "esriGeometryPolygon",
+      "alternatives": [
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Garbage_Routes/FeatureServer/0 (Garbage_Routes)",
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/StreetsSolidWasteCleanup_view/FeatureServer/0 (StreetsSolidWasteCleanup)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miami.water-sewer.lookup",
+    "claim": "Which utility provides water and sewer at this address?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.gis-xymiami-active-police-4",
+    "url": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/XYMiami_Active_Police/FeatureServer/4",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:32:59-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'Water_bodys' matched topic 'water-sewer' (layer name, fields, geometry polygon). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "water utility",
+    "value_type": "text",
+    "lookup": {
+      "endpoint": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/XYMiami_Active_Police/FeatureServer",
+      "layer_id": 4,
+      "fields": [
+        "WBNAME"
+      ],
+      "method": "arcgis-query point-in-polygon esriSpatialRelIntersects",
+      "question": "Which utility provides water and sewer at this address?"
+    },
+    "x-candidate": {
+      "confidence": 0.78,
+      "geometry": "esriGeometryPolygon",
+      "alternatives": [
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Water_Bodies_(Polygons)/FeatureServer/0 (Water_Bodies_(Polygons))",
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Blue_Lagoon_Waterford_Annexation_Area/FeatureServer/0 (Blue_Lagoon_Waterford_Annexation_Area)",
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/wasd_sanitary_in_3288A/FeatureServer/3 (WASD Sanitary Sewer Later in 3288A WBID)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miami.zoning.lookup",
+    "claim": "What is the zoning at this address?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.gis-m21-zoning-0",
+    "url": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/M21_Zoning/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:32:47-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'M21_Zoning' matched topic 'zoning' (layer name, service name, geometry polygon). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "planning and zoning department",
+    "value_type": "code",
+    "lookup": {
+      "endpoint": "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/M21_Zoning/FeatureServer",
+      "layer_id": 0,
+      "fields": [
+        "M21_ZONE",
+        "Map_Code",
+        "Transect",
+        "Transect_D",
+        "Bldg_Heigh",
+        "Intensity"
+      ],
+      "method": "arcgis-query point-in-polygon esriSpatialRelIntersects",
+      "question": "What is the zoning at this address?"
+    },
+    "x-candidate": {
+      "confidence": 0.78,
+      "geometry": "esriGeometryPolygon",
+      "alternatives": [
+        "https://services1.arcgis.com/CvuPhqcTQpZPT9qY/ArcGIS/rest/services/Future_Land_Use/FeatureServer/0 (Future_Land_Use)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miamidade.broadband.lookup",
+    "claim": "Which providers advertise internet service on this block, at what speeds?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-communityservices-md-recreatio-4",
+    "url": "https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/4",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:15-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'MDBroadbandProvider' matched topic 'broadband' (layer name, fields, geometry polygon). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "FCC broadband map",
+    "value_type": "text",
+    "lookup": {
+      "endpoint": "https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer",
+      "layer_id": 4,
+      "fields": [
+        "TRANSTECH"
+      ],
+      "method": "arcgis-query point-in-polygon esriSpatialRelIntersects",
+      "question": "Which providers advertise internet service on this block, at what speeds?"
+    },
+    "x-candidate": {
+      "confidence": 0.67,
+      "geometry": "esriGeometryPolygon",
+      "alternatives": []
+    }
+  },
+  {
+    "id": "us-fl-miamidade.bulky-waste.lookup",
+    "claim": "How is bulky trash scheduled at this address?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-wcs-bulky-book-0",
+    "url": "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/WCSBulkyBook_gdb/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:34:32-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'WCSBulkyBook' matched topic 'bulky-waste' (layer name, service name, geometry polygon). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "311",
+    "value_type": "text",
+    "lookup": {
+      "endpoint": "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/WCSBulkyBook_gdb/FeatureServer",
+      "layer_id": 0,
+      "fields": [
+        "BOOK",
+        "LABEL",
+        "CREATEDBY",
+        "CREATEDDATE",
+        "MODIFIEDBY",
+        "MODIFIEDDATE"
+      ],
+      "method": "arcgis-query point-in-polygon esriSpatialRelIntersects",
+      "question": "How is bulky trash scheduled at this address?"
+    },
+    "x-candidate": {
+      "confidence": 0.78,
+      "geometry": "esriGeometryPolygon",
+      "alternatives": []
+    }
+  },
+  {
+    "id": "us-fl-miamidade.flood.lookup",
+    "claim": "What flood zone or evacuation zone is this address in?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-energov-md-landmgtviewer-64",
+    "url": "https://gis.miamidade.gov/arcgis/rest/services/EnerGov/MD_LandMgtViewer/MapServer/64",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:38:37-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'FEMA Panels' matched topic 'flood' (layer name, geometry polygon). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "emergency management",
+    "value_type": "code",
+    "lookup": {
+      "endpoint": "https://gis.miamidade.gov/arcgis/rest/services/EnerGov/MD_LandMgtViewer/MapServer",
+      "layer_id": 64,
+      "fields": [
+        "PANELID",
+        "Shape.STArea()",
+        "Shape.STLength()"
+      ],
+      "method": "arcgis-query point-in-polygon esriSpatialRelIntersects",
+      "question": "What flood zone or evacuation zone is this address in?"
+    },
+    "x-candidate": {
+      "confidence": 0.56,
+      "geometry": "esriGeometryPolygon",
+      "alternatives": [
+        "https://gis.miamidade.gov/arcgis/rest/services/MD_SQLPictometry_Connect/MapServer/6 (Flood Zones)",
+        "https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_CommunityServices/MapServer/6 (EvacuationOrder)",
+        "https://gis.miamidade.gov/arcgis/rest/services/EnerGov/MD_LandMgtViewer/MapServer/63 (FEMA Flood Zones)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miamidade.libraries.lookup",
+    "claim": "Which library branch is nearest to this address?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-md-libraries-3",
+    "url": "https://gis.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/3",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:21-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'MDC Libraries' matched topic 'libraries' (layer name, service name, geometry point). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "library system",
+    "value_type": "place",
+    "lookup": {
+      "endpoint": "https://gis.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer",
+      "layer_id": 3,
+      "fields": [
+        "psde2.MDC.Library.ADDRESS",
+        "psde2.MDC.Library.PHONE",
+        "psde2.MDC.Library.WKDAY",
+        "psde2.MDC.Library.WKDAY2",
+        "psde2.MDC.Library.WKDAY3",
+        "psde2.MDC.Library.EXCPTDAY",
+        "MergedLibraries.ADDRESS"
+      ],
+      "method": "arcgis-query nearest: buffered point search, sort by distance",
+      "question": "Which library branch is nearest to this address?"
+    },
+    "x-candidate": {
+      "confidence": 0.78,
+      "geometry": "esriGeometryPoint",
+      "alternatives": [
+        "https://gis.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1 (MergedLibraries)",
+        "https://gis.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/2 (FutureLibraries)",
+        "https://gis.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/0 (SouthBrowardCountyLibraries)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miamidade.municipal-boundary.lookup",
+    "claim": "Which municipality (or unincorporated area) is this address in?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-mapcache-basemap-36",
+    "url": "https://gis.miamidade.gov/arcgis/rest/services/MapCache/BaseMap/MapServer/36",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:38:50-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'Municipal' matched topic 'municipal-boundary' (layer name, fields, geometry polygon). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "county government / 311",
+    "value_type": "place",
+    "lookup": {
+      "endpoint": "https://gis.miamidade.gov/arcgis/rest/services/MapCache/BaseMap/MapServer",
+      "layer_id": 36,
+      "fields": [
+        "NAME",
+        "ADDRESS",
+        "CITY",
+        "PHONE"
+      ],
+      "method": "arcgis-query point-in-polygon esriSpatialRelIntersects",
+      "question": "Which municipality (or unincorporated area) is this address in?"
+    },
+    "x-candidate": {
+      "confidence": 0.78,
+      "geometry": "esriGeometryPolygon",
+      "alternatives": [
+        "https://gis.miamidade.gov/arcgis/rest/services/MapCache/MDCBaseMap_WebMercator/MapServer/36 (Municipal)",
+        "https://gis.miamidade.gov/arcgis/rest/services/MapCache/MDCImagery/MapServer/22 (Municipal)",
+        "https://gis.miamidade.gov/arcgis/rest/services/MapCache/BaseMap/MapServer/29 (Municipality)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miamidade.parcel.lookup",
+    "claim": "What does the property record say about this address (year built, use, condo flag, folio)?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-addresssearchmap-propertieswit-1",
+    "url": "https://gis.miamidade.gov/arcgis/rest/services/AddressSearchMap_PropertiesWithZip/MapServer/1",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:11-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'Property' matched topic 'parcel' (layer name, service name, fields, geometry polygon). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "property appraiser",
+    "value_type": "text",
+    "lookup": {
+      "endpoint": "https://gis.miamidade.gov/arcgis/rest/services/AddressSearchMap_PropertiesWithZip/MapServer",
+      "layer_id": 1,
+      "fields": [
+        "FOLIO",
+        "addressid",
+        "address",
+        "st_name"
+      ],
+      "method": "arcgis-query point-in-polygon esriSpatialRelIntersects",
+      "question": "What does the property record say about this address (year built, use, condo flag, folio)?",
+      "params": {
+        "distance": 30,
+        "units": "esriSRUnit_Meter"
+      }
+    },
+    "x-candidate": {
+      "confidence": 0.89,
+      "geometry": "esriGeometryPolygon",
+      "alternatives": [
+        "https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Parcel/MapServer/1 (PAParcel)",
+        "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/ParcelsView_gdb/FeatureServer/0 (PARCELSVIEW)",
+        "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/Parcelpoly_gdb/FeatureServer/0 (Parcel_poly)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miamidade.parks.lookup",
+    "claim": "Which parks are nearest to this address?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-parkfinder-0",
+    "url": "https://gis.miamidade.gov/arcgis/rest/services/ParkFinder/MapServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:38:54-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'Parks' matched topic 'parks' (layer name, geometry point). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "parks department",
+    "value_type": "place",
+    "lookup": {
+      "endpoint": "https://gis.miamidade.gov/arcgis/rest/services/ParkFinder/MapServer",
+      "layer_id": 0,
+      "fields": [
+        "NAME",
+        "ADDRESS",
+        "PHONE"
+      ],
+      "method": "arcgis-query nearest: buffered point search, sort by distance",
+      "question": "Which parks are nearest to this address?"
+    },
+    "x-candidate": {
+      "confidence": 0.56,
+      "geometry": "esriGeometryPoint",
+      "alternatives": [
+        "https://gis.miamidade.gov/arcgis/rest/services/MD_CommissionDistrict/MapServer/21 (County Park)",
+        "https://gis.miamidade.gov/arcgis/rest/services/LandManagement/MD_ZoningLandManagementViewer/MapServer/21 (Municipal Park)",
+        "https://gis.miamidade.gov/arcgis/rest/services/MD_CommissionDistrict/MapServer/22 (Municipal Park)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miamidade.public-safety.lookup",
+    "claim": "Which fire and police stations serve this address?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-communityservices-md-publicsaf-2",
+    "url": "https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_PublicSafety/MapServer/2",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:15-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'FireStation' matched topic 'public-safety' (layer name, service name, geometry point). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "911 / non-emergency line",
+    "value_type": "place",
+    "lookup": {
+      "endpoint": "https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_PublicSafety/MapServer",
+      "layer_id": 2,
+      "fields": [
+        "NAME",
+        "ADDRESS"
+      ],
+      "method": "arcgis-query nearest: buffered point search, sort by distance",
+      "question": "Which fire and police stations serve this address?"
+    },
+    "x-candidate": {
+      "confidence": 0.78,
+      "geometry": "esriGeometryPoint",
+      "alternatives": [
+        "https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_PublicSafety/MapServer/3 (PoliceStation)",
+        "https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_PublicSafety/MapServer/0 (MunicipalFireStation)",
+        "https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_PublicSafety/MapServer/1 (MunicipalPoliceStation)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miamidade.recycling.lookup",
+    "claim": "Which day and week is recycling collected at this address?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-communityservices-md-garbagere-2",
+    "url": "https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/2",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:14-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'RecyclingRoute' matched topic 'recycling' (layer name, service name, fields, geometry polygon). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "311",
+    "value_type": "weekdays",
+    "lookup": {
+      "endpoint": "https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer",
+      "layer_id": 2,
+      "fields": [
+        "ROUTE",
+        "WEEKDAY",
+        "DAYID",
+        "PICKUPWEEK"
+      ],
+      "method": "arcgis-query point-in-polygon esriSpatialRelIntersects",
+      "question": "Which day and week is recycling collected at this address?"
+    },
+    "x-candidate": {
+      "confidence": 1.0,
+      "geometry": "esriGeometryPolygon",
+      "alternatives": [
+        "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/RecyclingRoute_gdb/FeatureServer/0 (RecyclingRoute)",
+        "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/RecyclingZone_gdb/FeatureServer/0 (RecyclingZone)",
+        "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/Garbage_and_Recycling_Pick_up_WFL1/FeatureServer/1 (No County Recycling Routes)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miamidade.representatives.lookup",
+    "claim": "Which districts and representatives cover this address?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-landmanagement-md-commissiondi-0",
+    "url": "https://gis.miamidade.gov/arcgis/rest/services/LandManagement/MD_CommissionDistrict/MapServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:17-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'CommissionDistrict' matched topic 'representatives' (layer name, service name, geometry polygon). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "supervisor of elections",
+    "value_type": "text",
+    "lookup": {
+      "endpoint": "https://gis.miamidade.gov/arcgis/rest/services/LandManagement/MD_CommissionDistrict/MapServer",
+      "layer_id": 0,
+      "fields": [
+        "ID",
+        "COMMNAME",
+        "GlobalID"
+      ],
+      "method": "arcgis-query point-in-polygon esriSpatialRelIntersects",
+      "question": "Which districts and representatives cover this address?"
+    },
+    "x-candidate": {
+      "confidence": 0.78,
+      "geometry": "esriGeometryPolygon",
+      "alternatives": [
+        "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/SchoolBoardDistrict_gdb/FeatureServer/0 (SchoolBoardDistrict)",
+        "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/SchoolBoardDistrict2000_gdb/FeatureServer/0 (SchoolBoardDistrict2000)",
+        "https://gis.miamidade.gov/arcgis/rest/services/MD_CommissionDistrict/MapServer/1 (Commission District Boundary Line)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miamidade.school-attendance.lookup",
+    "claim": "Which public school is this address zoned for?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-md-mdczoning-3",
+    "url": "https://gis.miamidade.gov/arcgis/rest/services/MD_MDCZoning/MapServer/3",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:22-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'No School Zone' matched topic 'school-attendance' (layer name, geometry polygon). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "school district",
+    "value_type": "place",
+    "lookup": {
+      "endpoint": "https://gis.miamidade.gov/arcgis/rest/services/MD_MDCZoning/MapServer",
+      "layer_id": 3,
+      "fields": [
+        "NAME"
+      ],
+      "method": "arcgis-query point-in-polygon esriSpatialRelIntersects",
+      "question": "Which public school is this address zoned for?"
+    },
+    "x-candidate": {
+      "confidence": 0.56,
+      "geometry": "esriGeometryPolygon",
+      "alternatives": [
+        "https://gis.miamidade.gov/arcgis/rest/services/MD_SOPSearchMap/MapServer/1 (Schools, Daycares and Parks Boundary)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miamidade.school-attendance-elementary.lookup",
+    "claim": "Which public elementary school is this address zoned for?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-elementary-school-attendance-b-0",
+    "url": "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/ElementaryAttendanceBoundary_gdb/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:34:37-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'ElementaryAttendanceBoundary' matched topic 'school-attendance-elementary' (layer name, service name, geometry polygon). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "school district",
+    "value_type": "place",
+    "lookup": {
+      "endpoint": "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/ElementaryAttendanceBoundary_gdb/FeatureServer",
+      "layer_id": 0,
+      "fields": [
+        "NAME",
+        "ADDRESS",
+        "PHONE",
+        "GRADES"
+      ],
+      "method": "arcgis-query point-in-polygon esriSpatialRelIntersects",
+      "question": "Which public elementary school is this address zoned for?"
+    },
+    "x-candidate": {
+      "confidence": 0.78,
+      "geometry": "esriGeometryPolygon",
+      "alternatives": [
+        "https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9 (ElementaryAttendanceBoundary)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miamidade.school-attendance-high.lookup",
+    "claim": "Which public high school is this address zoned for?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-high-school-attendance-boundar-0",
+    "url": "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/HighAttendanceBoundary_gdb/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:34:36-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'HighAttendanceBoundary' matched topic 'school-attendance-high' (layer name, service name, geometry polygon). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "school district",
+    "value_type": "place",
+    "lookup": {
+      "endpoint": "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/HighAttendanceBoundary_gdb/FeatureServer",
+      "layer_id": 0,
+      "fields": [
+        "NAME",
+        "ADDRESS",
+        "PHONE",
+        "GRADES"
+      ],
+      "method": "arcgis-query point-in-polygon esriSpatialRelIntersects",
+      "question": "Which public high school is this address zoned for?"
+    },
+    "x-candidate": {
+      "confidence": 0.78,
+      "geometry": "esriGeometryPolygon",
+      "alternatives": [
+        "https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10 (HighAttendanceBoundary)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miamidade.school-attendance-middle.lookup",
+    "claim": "Which public middle school is this address zoned for?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-middle-school-attendance-bound-0",
+    "url": "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/MiddleAttendanceBoundary_gdb/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:34:35-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'MiddleAttendanceBoundary' matched topic 'school-attendance-middle' (layer name, service name, geometry polygon). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "school district",
+    "value_type": "place",
+    "lookup": {
+      "endpoint": "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/MiddleAttendanceBoundary_gdb/FeatureServer",
+      "layer_id": 0,
+      "fields": [
+        "NAME",
+        "ADDRESS",
+        "PHONE",
+        "GRADES"
+      ],
+      "method": "arcgis-query point-in-polygon esriSpatialRelIntersects",
+      "question": "Which public middle school is this address zoned for?"
+    },
+    "x-candidate": {
+      "confidence": 0.78,
+      "geometry": "esriGeometryPolygon",
+      "alternatives": [
+        "https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11 (MiddleAttendanceBoundary)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miamidade.school-sites.lookup",
+    "claim": "Which schools are nearest to this address?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-communityservices-md-education-1",
+    "url": "https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/1",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:38:32-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'Daycare' matched topic 'school-sites' (layer name, service name, geometry point). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "school district",
+    "value_type": "place",
+    "lookup": {
+      "endpoint": "https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer",
+      "layer_id": 1,
+      "fields": [
+        "NAME",
+        "ADDRESS",
+        "PHONE"
+      ],
+      "method": "arcgis-query nearest: buffered point search, sort by distance",
+      "question": "Which schools are nearest to this address?"
+    },
+    "x-candidate": {
+      "confidence": 0.78,
+      "geometry": "esriGeometryPoint",
+      "alternatives": [
+        "https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/4 (College)",
+        "https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/5 (HeadStart)",
+        "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/HeadStart_gdb/FeatureServer/0 (HeadStart)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miamidade.transit.lookup",
+    "claim": "Which transit stops and routes are near this address?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-busmetro-realtime-busrealtime-0",
+    "url": "https://gis.miamidade.gov/arcgis/rest/services/BusMetro_RealTime/BusRealTime/MapServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:11-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'Bus' matched topic 'transit' (layer name, service name, geometry point). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "transit agency",
+    "value_type": "place",
+    "lookup": {
+      "endpoint": "https://gis.miamidade.gov/arcgis/rest/services/BusMetro_RealTime/BusRealTime/MapServer",
+      "layer_id": 0,
+      "fields": [
+        "Latitude",
+        "Longitude",
+        "PassengerCapacityPercentage",
+        "BusName",
+        "BusTimeStamp",
+        "BusTimeStampUTC"
+      ],
+      "method": "arcgis-query nearest: buffered point search, sort by distance",
+      "question": "Which transit stops and routes are near this address?"
+    },
+    "x-candidate": {
+      "confidence": 0.78,
+      "geometry": "esriGeometryPoint",
+      "alternatives": [
+        "https://gis.miamidade.gov/arcgis/rest/services/BusMetro_RealTime/BusStopActive/MapServer/0 (Bus Stop)",
+        "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/Bus_Stop_Maintenance_View_Layer/FeatureServer/1 (Bus Stop)",
+        "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/Bus_Stops/FeatureServer/0 (Bus_Stops)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miamidade.trash.lookup",
+    "claim": "Which days is garbage collected at this address, and by whom?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-communityservices-md-garbagere-1",
+    "url": "https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/1",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:14-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'GarbagePickupRoute' matched topic 'trash' (layer name, service name, fields, geometry polygon). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "311",
+    "value_type": "weekdays",
+    "lookup": {
+      "endpoint": "https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer",
+      "layer_id": 1,
+      "fields": [
+        "ROUTE",
+        "COLLDAY",
+        "WEEKDAYS"
+      ],
+      "method": "arcgis-query point-in-polygon esriSpatialRelIntersects",
+      "question": "Which days is garbage collected at this address, and by whom?"
+    },
+    "x-candidate": {
+      "confidence": 1.0,
+      "geometry": "esriGeometryPolygon",
+      "alternatives": [
+        "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/GarbagePickupRoute_gdb/FeatureServer/0 (GarbagePickupRoute)",
+        "https://gis.miamidade.gov/arcgis/rest/services/CommunityServices/MD_CommunityServices/MapServer/5 (GarbagePickupRoute)",
+        "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/Trash_Pick_Up_WFL1/FeatureServer/1 (No County Garbage Routes)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miamidade.voting.lookup",
+    "claim": "Where does a voter at this address vote?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-md-knowwheretovote-3",
+    "url": "https://gis.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/3",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:20-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'Precinct' matched topic 'voting' (layer name, service name, geometry polygon). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "supervisor of elections",
+    "value_type": "place",
+    "lookup": {
+      "endpoint": "https://gis.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer",
+      "layer_id": 3,
+      "fields": [
+        "ID",
+        "Shape.STArea()",
+        "Shape.STLength()"
+      ],
+      "method": "arcgis-query point-in-polygon esriSpatialRelIntersects",
+      "question": "Where does a voter at this address vote?"
+    },
+    "x-candidate": {
+      "confidence": 0.67,
+      "geometry": "esriGeometryPolygon",
+      "alternatives": [
+        "https://gis.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/0 (PollingPlace)",
+        "https://gis.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/1 (EarlyVotingSite)",
+        "https://gis.miamidade.gov/arcgis/rest/services/LandManagement/MD_ZoningLandManagementViewer/MapServer/14 (Precincts)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miamidade.water-sewer.lookup",
+    "claim": "Which utility provides water and sewer at this address?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-wasd-imdcutilitycoordination-1-11",
+    "url": "https://gis.miamidade.gov/arcgis/rest/services/Wasd/iMDCUtilityCoordination_1_v1/MapServer/11",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:34:23-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'Sewer' matched topic 'water-sewer' (layer name, service name, fields, geometry polygon). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "water utility",
+    "value_type": "text",
+    "lookup": {
+      "endpoint": "https://gis.miamidade.gov/arcgis/rest/services/Wasd/iMDCUtilityCoordination_1_v1/MapServer",
+      "layer_id": 11,
+      "fields": [
+        "PRJNAME",
+        "AGCYNAME",
+        "CONTNAME"
+      ],
+      "method": "arcgis-query point-in-polygon esriSpatialRelIntersects",
+      "question": "Which utility provides water and sewer at this address?"
+    },
+    "x-candidate": {
+      "confidence": 1.0,
+      "geometry": "esriGeometryPolygon",
+      "alternatives": [
+        "https://gis.miamidade.gov/arcgis/rest/services/Wasd/iMDCUtilityCoordination_1_v1/MapServer/14 (Water)",
+        "https://gis.miamidade.gov/arcgis/rest/services/Wasd/iMDCUtilityCoordination_2_v1/MapServer/11 (Sewer)",
+        "https://gis.miamidade.gov/arcgis/rest/services/Wasd/iMDCUtilityCoordination_2_v1/MapServer/14 (Water)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miamidade.zoning.lookup",
+    "claim": "What is the zoning at this address?",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-landmanagement-md-zoninglandma-0",
+    "url": "https://gis.miamidade.gov/arcgis/rest/services/LandManagement/MD_ZoningLandManagementData/MapServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:18-04:00",
+    "check_every": "P30D",
+    "status": "unsourced",
+    "notes": "Onboarding proposal: layer 'Zoning Hearing' matched topic 'zoning' (layer name, service name, geometry polygon). Verify the layer answers the question at a known address before marking verified.",
+    "kind": "lookup",
+    "desk": "planning and zoning department",
+    "value_type": "code",
+    "lookup": {
+      "endpoint": "https://gis.miamidade.gov/arcgis/rest/services/LandManagement/MD_ZoningLandManagementData/MapServer",
+      "layer_id": 0,
+      "fields": [
+        "OBJECTID",
+        "ENERGOV_ID",
+        "PROC_NUM",
+        "CASE_TYPE",
+        "WORK_TYPE",
+        "FOLIO"
+      ],
+      "method": "arcgis-query point-in-polygon esriSpatialRelIntersects",
+      "question": "What is the zoning at this address?"
+    },
+    "x-candidate": {
+      "confidence": 0.78,
+      "geometry": "esriGeometryPolygon",
+      "alternatives": [
+        "https://gis.miamidade.gov/arcgis/rest/services/LandManagement/MD_ZoningRecords/MapServer/0 (Zoning Hearings)",
+        "https://gis.miamidade.gov/arcgis/rest/services/LandManagement/MD_Zoning/MapServer/2 (Municipal Zoning)",
+        "https://gis.miamidade.gov/arcgis/rest/services/LandManagement/MD_LandUse/MapServer/0 (Existing Land Use)"
+      ]
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.311.311-phone-on-www-miamidade-gov.phone",
+    "claim": "Phone for 311 phone on www.miamidade.gov (311).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.www-miamidade-gov-official-website",
+    "url": "https://www.miamidade.gov/global/home.page",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:37:09-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "311 phone on www.miamidade.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "311",
+      "quote": "lection day and more. View More Services Report a Problem Submit a service request to the 311 Contact Center for a simple and conveni",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.311.311-phone-on-www-miamidade-gov.phone-2",
+    "claim": "Phone for 311 phone on www.miamidade.gov (311).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.www-miamidade-gov-official-website",
+    "url": "https://www.miamidade.gov/global/311/home.page",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:37:09-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "311 phone on www.miamidade.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "305-468-5900",
+      "quote": "e access to the resources they need in the manner they prefer. Call 311 By dialing 311 or 305-468-5900 (outside Miami-Dade County), you can re",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.311.311-phone-on-www-miamidade-gov.phone-3",
+    "claim": "Phone for 311 phone on www.miamidade.gov (311).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.www-miamidade-gov-official-website",
+    "url": "https://www.miamidade.gov/global/navigation/service-index.page?INTERESTCATEGORY=housing-social-services",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:37:10-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "311 phone on www.miamidade.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "311",
+      "quote": "ort Miami-Dade Home Privacy Statement ADA Notice Disclaimer About Miami-Dade Self-Service 311 Contact Center Mobile Applications Open",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.311.311-phone-on-www-miamidade-gov.phone-4",
+    "claim": "Phone for 311 phone on www.miamidade.gov (311).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.www-miamidade-gov-official-website",
+    "url": "https://www.miamidade.gov/global/navigation/service-index.page?INTERESTCATEGORY=travel-transportation",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:37:10-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "311 phone on www.miamidade.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "311",
+      "quote": "ort Miami-Dade Home Privacy Statement ADA Notice Disclaimer About Miami-Dade Self-Service 311 Contact Center Mobile Applications Open",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.311.311-phone-on-www-miamidade-gov.phone-5",
+    "claim": "Phone for 311 phone on www.miamidade.gov (311).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.www-miamidade-gov-official-website",
+    "url": "https://www.miamidade.gov/global/navigation/service-index.page",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:37:11-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "311 phone on www.miamidade.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "311",
+      "quote": "ort Miami-Dade Home Privacy Statement ADA Notice Disclaimer About Miami-Dade Self-Service 311 Contact Center Mobile Applications Open",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.311.311-phone-on-www-miamidade-gov.phone-6",
+    "claim": "Phone for 311 phone on www.miamidade.gov (311).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.www-miamidade-gov-official-website",
+    "url": "https://www.miamidade.gov/global/navigation/online-services.page",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:37:11-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "311 phone on www.miamidade.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "311",
+      "quote": "of visiting County offices in person. Report Problems Report neighborhood problems to the 311 Contact Center. Attach a photo and subm",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.311.311-phone-on-www-miamidade-gov.phone-7",
+    "claim": "Phone for 311 phone on www.miamidade.gov (311).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.www-miamidade-gov-official-website",
+    "url": "https://www.miamidade.gov/global/transportation/transit-pass.page",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:37:12-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "311 phone on www.miamidade.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "311",
+      "quote": "ort Miami-Dade Home Privacy Statement ADA Notice Disclaimer About Miami-Dade Self-Service 311 Contact Center Mobile Applications Open",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.license-and-tag-agent.license-and-tag-agent-phone-on.phone",
+    "claim": "Phone for license-and-tag-agent phone on www.mdctaxcollector.gov (license-and-tag-agent).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.www-mdctaxcollector-gov-official-website",
+    "url": "https://www.mdctaxcollector.gov/",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:31:30-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "license-and-tag-agent phone on www.mdctaxcollector.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "305-375-5448",
+      "quote": " our Terms and Conditions. Email address Subscribe 200 NW 2nd Ave, Miami, FL 33128 Phone: (305) 375-5448 Monday through Friday 8:00AM to 5:00PM ",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.license-and-tag-agent.license-and-tag-agent-phone-on.phone-2",
+    "claim": "Phone for license-and-tag-agent phone on www.mdctaxcollector.gov (license-and-tag-agent).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.www-mdctaxcollector-gov-official-website",
+    "url": "https://www.mdctaxcollector.gov/services",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:31:31-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "license-and-tag-agent phone on www.mdctaxcollector.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "305-375-5448",
+      "quote": " our Terms and Conditions. Email address Subscribe 200 NW 2nd Ave, Miami, FL 33128 Phone: (305) 375-5448 Monday through Friday 8:00AM to 5:00PM ",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.license-and-tag-agent.license-and-tag-agent-phone-on.phone-3",
+    "claim": "Phone for license-and-tag-agent phone on www.mdctaxcollector.gov (license-and-tag-agent).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.www-mdctaxcollector-gov-official-website",
+    "url": "https://www.mdctaxcollector.gov/authorized-driving-schools",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:31:31-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "license-and-tag-agent phone on www.mdctaxcollector.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "305-375-5448",
+      "quote": " our Terms and Conditions. Email address Subscribe 200 NW 2nd Ave, Miami, FL 33128 Phone: (305) 375-5448 Monday through Friday 8:00AM to 5:00PM ",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.license-and-tag-agent.license-and-tag-agent-phone-on.phone-4",
+    "claim": "Phone for license-and-tag-agent phone on www.mdctaxcollector.gov (license-and-tag-agent).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.www-mdctaxcollector-gov-official-website",
+    "url": "https://www.mdctaxcollector.gov/driver-license-and-id-card-services",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:31:32-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "license-and-tag-agent phone on www.mdctaxcollector.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "305-375-5448",
+      "quote": " our Terms and Conditions. Email address Subscribe 200 NW 2nd Ave, Miami, FL 33128 Phone: (305) 375-5448 Monday through Friday 8:00AM to 5:00PM ",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miami.desk.311.311-phone-on-www-miami-gov.phone",
+    "claim": "Phone for 311 phone on www.miami.gov (311).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.www-miami-gov-official-website",
+    "url": "https://www.miami.gov/Home",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:31:34-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "311 phone on www.miami.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "305-468-5900",
+      "quote": ". Social Tweets by CityofMiami Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900 Miami Riverside Center (MRC) 444 SW 2nd",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miami.desk.311.311-phone-on-www-miami-gov.phone-2",
+    "claim": "Phone for 311 phone on www.miami.gov (311).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.www-miami-gov-official-website",
+    "url": "https://www.miami.gov/Home",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:31:34-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "311 phone on www.miami.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "311",
+      "quote": "be page. Social Tweets by CityofMiami Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900 Miami Riverside Center ",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miami.desk.311.311-phone-on-www-miami-gov.phone-3",
+    "claim": "Phone for 311 phone on www.miami.gov (311).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.www-miami-gov-official-website",
+    "url": "https://www.miami.gov/My-Government/City-Officials/Find-My-Commissioner-District-Map",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:31:35-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "311 phone on www.miami.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "305-468-5900",
+      "quote": "ion. Contact Us Location Miami Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900 Miami Riverside Center (MRC) 444 SW 2nd",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miami.desk.311.311-phone-on-www-miami-gov.phone-4",
+    "claim": "Phone for 311 phone on www.miami.gov (311).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.www-miami-gov-official-website",
+    "url": "https://www.miami.gov/My-Government/City-Officials/Find-My-Commissioner-District-Map",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:31:35-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "311 phone on www.miami.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "311",
+      "quote": "ect option. Contact Us Location Miami Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900 Miami Riverside Center ",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miami.desk.solid-waste.solid-waste-phone-on-www-miami.phone",
+    "claim": "Phone for solid-waste phone on www.miami.gov (solid-waste).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.www-miami-gov-official-website",
+    "url": "https://www.miami.gov/My-Government/Departments",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:31:36-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "solid-waste phone on www.miami.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "305-960-2801",
+      "quote": "e City's financial, physical, and human resources more effectively. Solid Waste Telephone 305-960-2801 Email solidwastecustomerservice@miamigo",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miami.desk.311.311-phone-on-www-miami-gov.phone-5",
+    "claim": "Phone for 311 phone on www.miami.gov (311).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.www-miami-gov-official-website",
+    "url": "https://www.miami.gov/My-Government/Departments",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:31:36-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "311 phone on www.miami.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "305-416-1495",
+      "quote": "orce sanitation code enforcement rules and policies. Zoning Telephone 311 Alternate Phone 305-416-1495 Email miamizoning@miamigov.com The Offi",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miami.desk.311.311-phone-on-www-miami-gov.phone-6",
+    "claim": "Phone for 311 phone on www.miami.gov (311).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.www-miami-gov-official-website",
+    "url": "https://www.miami.gov/My-Government/Departments",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:31:36-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "311 phone on www.miami.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "305-468-5900",
+      "quote": "for construction and land use. Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900 Miami Riverside Center (MRC) 444 SW 2nd",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miami.desk.311.311-phone-on-www-miami-gov.phone-7",
+    "claim": "Phone for 311 phone on www.miami.gov (311).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.www-miami-gov-official-website",
+    "url": "https://www.miami.gov/My-Government/Departments/Housing-Community-Development",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:31:36-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "311 phone on www.miami.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "305-468-5900",
+      "quote": "Affordable Housing Master Plan Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900 Miami Riverside Center (MRC) 444 SW 2nd",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miami.desk.311.311-phone-on-www-miami-gov.phone-8",
+    "claim": "Phone for 311 phone on www.miami.gov (311).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.www-miami-gov-official-website",
+    "url": "https://www.miami.gov/My-Government/Departments/Housing-Community-Development",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:31:36-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "311 phone on www.miami.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "311",
+      "quote": " HOPWA Affordable Housing Master Plan Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900 Miami Riverside Center ",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miami.desk.311.311-phone-on-www-miami-gov.phone-9",
+    "claim": "Phone for 311 phone on www.miami.gov (311).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.www-miami-gov-official-website",
+    "url": "https://www.miami.gov/My-Government/Departments/Human-Services",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:31:37-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "311 phone on www.miami.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "305-468-5900",
+      "quote": " Us Instagram Facebook Twitter Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900 Miami Riverside Center (MRC) 444 SW 2nd",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miami.desk.311.311-phone-on-www-miami-gov.phone-10",
+    "claim": "Phone for 311 phone on www.miami.gov (311).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.www-miami-gov-official-website",
+    "url": "https://www.miami.gov/My-Government/Departments/Human-Services",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:31:37-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "311 phone on www.miami.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "311",
+      "quote": " Follow Us Instagram Facebook Twitter Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900 Miami Riverside Center ",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miami.desk.311.311-phone-on-www-miami-gov.phone-11",
+    "claim": "Phone for 311 phone on www.miami.gov (311).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.www-miami-gov-official-website",
+    "url": "https://www.miami.gov/My-Government/Departments/Solid-Waste",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:31:37-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "311 phone on www.miami.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "305-468-5900",
+      "quote": "2 Sign up for your free course Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900 Miami Riverside Center (MRC) 444 SW 2nd",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miami.desk.311.311-phone-on-www-miami-gov.phone-12",
+    "claim": "Phone for 311 phone on www.miami.gov (311).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.www-miami-gov-official-website",
+    "url": "https://www.miami.gov/My-Government/Departments/Solid-Waste",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:31:37-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "311 phone on www.miami.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "311",
+      "quote": "FL 33142 Sign up for your free course Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900 Miami Riverside Center ",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miami.desk.311.311-phone-on-www-miami-gov.phone-13",
+    "claim": "Phone for 311 phone on www.miami.gov (311).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.www-miami-gov-official-website",
+    "url": "https://www.miami.gov/My-Government/Government-Services",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:31:38-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "311 phone on www.miami.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "305-468-5900",
+      "quote": "y Services Government Services Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900 Miami Riverside Center (MRC) 444 SW 2nd",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miami.desk.311.311-phone-on-www-miami-gov.phone-14",
+    "claim": "Phone for 311 phone on www.miami.gov (311).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.www-miami-gov-official-website",
+    "url": "https://www.miami.gov/My-Government/Government-Services",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:31:38-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by official-website; confirm on the office's own page.",
+    "desk": "311 phone on www.miami.gov",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "311",
+      "quote": "ule City Services Government Services Back to top Site Footer Site Footer Contact Us Dial 311 or 305-468-5900 Miami Riverside Center ",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miamidade.transit.gtfs.miami-dade-transit.url",
+    "claim": "Schedule feed (GTFS) for Miami-Dade Transit.",
+    "value": null,
+    "unit": "url",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gtfs-miami-dade-transit",
+    "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:49-04:00",
+    "check_every": "P7D",
+    "status": "unsourced",
+    "notes": "Candidate feed from the Mobility Database catalog.",
+    "value_type": "text",
+    "x-candidate": {
+      "value": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+      "mdb_id": "mdb-331",
+      "probe": {
+        "status": 200,
+        "final_url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+        "error": null,
+        "content_length": "8419295",
+        "content_type": "application/x-zip-compressed"
+      }
+    }
+  },
+  {
+    "id": "us-fl-miamidade.transit.gtfs.city-of-miami-beach.url",
+    "claim": "Schedule feed (GTFS) for City of Miami Beach.",
+    "value": null,
+    "unit": "url",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gtfs-city-of-miami-beach",
+    "url": "https://data.trilliumtransit.com/gtfs/miamibeach-fl-us/miamibeach-fl-us.zip",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:49-04:00",
+    "check_every": "P7D",
+    "status": "unsourced",
+    "notes": "Candidate feed from the Mobility Database catalog.",
+    "value_type": "text",
+    "x-candidate": {
+      "value": "https://data.trilliumtransit.com/gtfs/miamibeach-fl-us/miamibeach-fl-us.zip",
+      "mdb_id": "mdb-2322",
+      "probe": {
+        "status": 200,
+        "final_url": "https://data.trilliumtransit.com/gtfs/miamibeach-fl-us/miamibeach-fl-us.zip",
+        "error": null,
+        "content_length": "288070",
+        "content_type": "application/zip"
+      }
+    }
+  },
+  {
+    "id": "us-fl-miamidade.transit.gtfs.city-of-miami-gardens.url",
+    "claim": "Schedule feed (GTFS) for City of Miami Gardens.",
+    "value": null,
+    "unit": "url",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gtfs-city-of-miami-gardens",
+    "url": "https://data.trilliumtransit.com/gtfs/miamigardens-fl-us/miamigardens-fl-us.zip",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:49-04:00",
+    "check_every": "P7D",
+    "status": "unsourced",
+    "notes": "Candidate feed from the Mobility Database catalog.",
+    "value_type": "text",
+    "x-candidate": {
+      "value": "https://data.trilliumtransit.com/gtfs/miamigardens-fl-us/miamigardens-fl-us.zip",
+      "mdb_id": "mdb-2323",
+      "probe": {
+        "status": 200,
+        "final_url": "https://data.trilliumtransit.com/gtfs/miamigardens-fl-us/miamigardens-fl-us.zip",
+        "error": null,
+        "content_length": "79837",
+        "content_type": "application/zip"
+      }
+    }
+  },
+  {
+    "id": "us-fl-miamidade.transit.gtfs.brightline.url",
+    "claim": "Schedule feed (GTFS) for Brightline.",
+    "value": null,
+    "unit": "url",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gtfs-brightline",
+    "url": "https://data.trilliumtransit.com/gtfs/brightline-fl-us/brightline-fl-us.zip",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:49-04:00",
+    "check_every": "P7D",
+    "status": "unsourced",
+    "notes": "Candidate feed from the Mobility Database catalog.",
+    "value_type": "text",
+    "x-candidate": {
+      "value": "https://data.trilliumtransit.com/gtfs/brightline-fl-us/brightline-fl-us.zip",
+      "mdb_id": "tld-4769",
+      "probe": null
+    }
+  },
+  {
+    "id": "us-fl-miamidade.languages.spanish.share",
+    "claim": "Share of residents 5+ who speak Spanish at home.",
+    "value": null,
+    "unit": "ratio",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.acs-b16001-2024",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b16001.dat",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:50-04:00",
+    "check_every": "P365D",
+    "status": "unsourced",
+    "notes": "Candidate from the ACS summary file row for this geography.",
+    "value_type": "quantity",
+    "x-candidate": {
+      "value": 0.6699,
+      "speakers": 1799905,
+      "quote": "Estimate!!Total:!!Spanish: = 1799905 of 2686930 (population 5 years and over), ACS 2024 acs1"
+    }
+  },
+  {
+    "id": "us-fl-miamidade.languages.english-only.share",
+    "claim": "Share of residents 5+ who speak English only at home.",
+    "value": null,
+    "unit": "ratio",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.acs-b16001-2024",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b16001.dat",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:50-04:00",
+    "check_every": "P365D",
+    "status": "unsourced",
+    "notes": "Candidate from the ACS summary file row for this geography.",
+    "value_type": "quantity",
+    "x-candidate": {
+      "value": 0.2433,
+      "speakers": 653847,
+      "quote": "Estimate!!Total:!!Speak only English = 653847 of 2686930 (population 5 years and over), ACS 2024 acs1"
+    }
+  },
+  {
+    "id": "us-fl-miamidade.languages.haitian.share",
+    "claim": "Share of residents 5+ who speak Haitian at home.",
+    "value": null,
+    "unit": "ratio",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.acs-b16001-2024",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b16001.dat",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:50-04:00",
+    "check_every": "P365D",
+    "status": "unsourced",
+    "notes": "Candidate from the ACS summary file row for this geography.",
+    "value_type": "quantity",
+    "x-candidate": {
+      "value": 0.0372,
+      "speakers": 99855,
+      "quote": "Estimate!!Total:!!Haitian: = 99855 of 2686930 (population 5 years and over), ACS 2024 acs1"
+    }
+  },
+  {
+    "id": "us-fl-miamidade.languages.portuguese.share",
+    "claim": "Share of residents 5+ who speak Portuguese at home.",
+    "value": null,
+    "unit": "ratio",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.acs-b16001-2024",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b16001.dat",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:50-04:00",
+    "check_every": "P365D",
+    "status": "unsourced",
+    "notes": "Candidate from the ACS summary file row for this geography.",
+    "value_type": "quantity",
+    "x-candidate": {
+      "value": 0.0093,
+      "speakers": 25040,
+      "quote": "Estimate!!Total:!!Portuguese: = 25040 of 2686930 (population 5 years and over), ACS 2024 acs1"
+    }
+  },
+  {
+    "id": "us-fl-miamidade.languages.french-incl-cajun.share",
+    "claim": "Share of residents 5+ who speak French (incl. Cajun) at home.",
+    "value": null,
+    "unit": "ratio",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.acs-b16001-2024",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b16001.dat",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:50-04:00",
+    "check_every": "P365D",
+    "status": "unsourced",
+    "notes": "Candidate from the ACS summary file row for this geography.",
+    "value_type": "quantity",
+    "x-candidate": {
+      "value": 0.0067,
+      "speakers": 18134,
+      "quote": "Estimate!!Total:!!French (incl. Cajun): = 18134 of 2686930 (population 5 years and over), ACS 2024 acs1"
+    }
+  },
+  {
+    "id": "us-fl-miamidade.languages.russian.share",
+    "claim": "Share of residents 5+ who speak Russian at home.",
+    "value": null,
+    "unit": "ratio",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.acs-b16001-2024",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b16001.dat",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:50-04:00",
+    "check_every": "P365D",
+    "status": "unsourced",
+    "notes": "Candidate from the ACS summary file row for this geography.",
+    "value_type": "quantity",
+    "x-candidate": {
+      "value": 0.0058,
+      "speakers": 15690,
+      "quote": "Estimate!!Total:!!Russian: = 15690 of 2686930 (population 5 years and over), ACS 2024 acs1"
+    }
+  },
+  {
+    "id": "us-fl-miamidade.languages.chinese-incl-mandarin-cantones.share",
+    "claim": "Share of residents 5+ who speak Chinese (incl. Mandarin, Cantonese) at home.",
+    "value": null,
+    "unit": "ratio",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.acs-b16001-2024",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b16001.dat",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:50-04:00",
+    "check_every": "P365D",
+    "status": "unsourced",
+    "notes": "Candidate from the ACS summary file row for this geography.",
+    "value_type": "quantity",
+    "x-candidate": {
+      "value": 0.0031,
+      "speakers": 8345,
+      "quote": "Estimate!!Total:!!Chinese (incl. Mandarin, Cantonese): = 8345 of 2686930 (population 5 years and over), ACS 2024 acs1"
+    }
+  },
+  {
+    "id": "us-fl-miamidade.languages.hebrew.share",
+    "claim": "Share of residents 5+ who speak Hebrew at home.",
+    "value": null,
+    "unit": "ratio",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.acs-b16001-2024",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b16001.dat",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:50-04:00",
+    "check_every": "P365D",
+    "status": "unsourced",
+    "notes": "Candidate from the ACS summary file row for this geography.",
+    "value_type": "quantity",
+    "x-candidate": {
+      "value": 0.0025,
+      "speakers": 6816,
+      "quote": "Estimate!!Total:!!Hebrew: = 6816 of 2686930 (population 5 years and over), ACS 2024 acs1"
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.housing-authority.housing-authority-of-the-city-.phone",
+    "claim": "Phone for HOUSING AUTHORITY OF THE CITY OF MIAMI BEACH (housing-authority).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.services-arcgis-com-hud",
+    "url": "https://services.arcgis.com/VTyQ9soqVukalItT/arcgis/rest/services/Public_Housing_Authorities/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:51-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by hud; confirm on the office's own page.",
+    "desk": "HOUSING AUTHORITY OF THE CITY OF MIAMI BEACH",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "305-532-6401",
+      "quote": "{'FORMAL_PARTICIPANT_NAME': 'HOUSING AUTHORITY OF THE CITY OF MIAMI BEACH', 'HA_PHN_NUM': '3055326401', 'HA_EMAIL_ADDR_TEXT': 'mdelcampillo@mbha.org', 'STD_ADDR': '200 Alton Rd', 'STD_CITY': 'Miami Beach', 'STD_ZIP5': '33139', 'PARTICIPANT_CODE': 'FL017', 'HA_PROGRAM_TYPE': 'Combined', 'TOTAL_UNITS': 200}",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.housing-authority.housing-authority-of-the-city-.address",
+    "claim": "Office address for HOUSING AUTHORITY OF THE CITY OF MIAMI BEACH.",
+    "value": null,
+    "unit": "text",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.services-arcgis-com-hud",
+    "url": "https://services.arcgis.com/VTyQ9soqVukalItT/arcgis/rest/services/Public_Housing_Authorities/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:51-04:00",
+    "check_every": "P365D",
+    "status": "unsourced",
+    "notes": "Candidate address from hud.",
+    "desk": "HOUSING AUTHORITY OF THE CITY OF MIAMI BEACH",
+    "value_type": "place",
+    "x-candidate": {
+      "value": "200 Alton Rd, Miami Beach 33139"
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.housing-authority.miami-dade-housing-and-communi.phone",
+    "claim": "Phone for MIAMI DADE HOUSING AND COMMUNITY DEV (housing-authority).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.services-arcgis-com-hud",
+    "url": "https://services.arcgis.com/VTyQ9soqVukalItT/arcgis/rest/services/Public_Housing_Authorities/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:51-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by hud; confirm on the office's own page.",
+    "desk": "MIAMI DADE HOUSING AND COMMUNITY DEV",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "786-469-4106",
+      "quote": "{'FORMAL_PARTICIPANT_NAME': 'MIAMI DADE HOUSING AND COMMUNITY DEV', 'HA_PHN_NUM': '7864694106', 'HA_EMAIL_ADDR_TEXT': 'nathan.kogon@miamidade.gov', 'STD_ADDR': '701 NW 1st Ct Fl 16', 'STD_CITY': 'Miami', 'STD_ZIP5': '33136', 'PARTICIPANT_CODE': 'FL005', 'HA_PROGRAM_TYPE': 'Combined', 'TOTAL_UNITS': 5959}",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.housing-authority.miami-dade-housing-and-communi.address",
+    "claim": "Office address for MIAMI DADE HOUSING AND COMMUNITY DEV.",
+    "value": null,
+    "unit": "text",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.services-arcgis-com-hud",
+    "url": "https://services.arcgis.com/VTyQ9soqVukalItT/arcgis/rest/services/Public_Housing_Authorities/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:51-04:00",
+    "check_every": "P365D",
+    "status": "unsourced",
+    "notes": "Candidate address from hud.",
+    "desk": "MIAMI DADE HOUSING AND COMMUNITY DEV",
+    "value_type": "place",
+    "x-candidate": {
+      "value": "701 NW 1st Ct Fl 16, Miami 33136"
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.housing-authority.housing-authority-of-the-city-.phone-2",
+    "claim": "Phone for HOUSING AUTHORITY OF THE CITY OF HOMESTEAD (housing-authority).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.services-arcgis-com-hud",
+    "url": "https://services.arcgis.com/VTyQ9soqVukalItT/arcgis/rest/services/Public_Housing_Authorities/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:51-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by hud; confirm on the office's own page.",
+    "desk": "HOUSING AUTHORITY OF THE CITY OF HOMESTEAD",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "305-247-0639",
+      "quote": "{'FORMAL_PARTICIPANT_NAME': 'HOUSING AUTHORITY OF THE CITY OF HOMESTEAD', 'HA_PHN_NUM': '3052470639', 'HA_EMAIL_ADDR_TEXT': 'swhite@hhahousing.org', 'STD_ADDR': '29355 S Federal Hwy', 'STD_CITY': 'Homestead', 'STD_ZIP5': '33033', 'PARTICIPANT_CODE': 'FL068', 'HA_PROGRAM_TYPE': 'Section 8', 'TOTAL_UNITS': 0}",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.housing-authority.housing-authority-of-the-city-.address-2",
+    "claim": "Office address for HOUSING AUTHORITY OF THE CITY OF HOMESTEAD.",
+    "value": null,
+    "unit": "text",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.services-arcgis-com-hud",
+    "url": "https://services.arcgis.com/VTyQ9soqVukalItT/arcgis/rest/services/Public_Housing_Authorities/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:51-04:00",
+    "check_every": "P365D",
+    "status": "unsourced",
+    "notes": "Candidate address from hud.",
+    "desk": "HOUSING AUTHORITY OF THE CITY OF HOMESTEAD",
+    "value_type": "place",
+    "x-candidate": {
+      "value": "29355 S Federal Hwy, Homestead 33033"
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.housing-authority.miami-hsg-conservation.phone",
+    "claim": "Phone for MIAMI HSG CONSERVATION (housing-authority).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.services-arcgis-com-hud",
+    "url": "https://services.arcgis.com/VTyQ9soqVukalItT/arcgis/rest/services/Public_Housing_Authorities/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:51-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by hud; confirm on the office's own page.",
+    "desk": "MIAMI HSG CONSERVATION",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "305-416-2080",
+      "quote": "{'FORMAL_PARTICIPANT_NAME': 'MIAMI HSG CONSERVATION', 'HA_PHN_NUM': '3054162080', 'HA_EMAIL_ADDR_TEXT': 'rtazoe@miamigov.com', 'STD_ADDR': '444 SW 2nd Ave', 'STD_CITY': 'Miami', 'STD_ZIP5': '33130', 'PARTICIPANT_CODE': 'FL145', 'HA_PROGRAM_TYPE': 'Section 8', 'TOTAL_UNITS': 0}",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.housing-authority.miami-hsg-conservation.address",
+    "claim": "Office address for MIAMI HSG CONSERVATION.",
+    "value": null,
+    "unit": "text",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.services-arcgis-com-hud",
+    "url": "https://services.arcgis.com/VTyQ9soqVukalItT/arcgis/rest/services/Public_Housing_Authorities/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:51-04:00",
+    "check_every": "P365D",
+    "status": "unsourced",
+    "notes": "Candidate address from hud.",
+    "desk": "MIAMI HSG CONSERVATION",
+    "value_type": "place",
+    "x-candidate": {
+      "value": "444 SW 2nd Ave, Miami 33130"
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.housing-authority.carrfour-supportive-housing-in.phone",
+    "claim": "Phone for Carrfour Supportive Housing, Inc. (housing-authority).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.services-arcgis-com-hud",
+    "url": "https://services.arcgis.com/VTyQ9soqVukalItT/arcgis/rest/services/Public_Housing_Authorities/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:51-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by hud; confirm on the office's own page.",
+    "desk": "Carrfour Supportive Housing, Inc.",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "305-371-8300",
+      "quote": "{'FORMAL_PARTICIPANT_NAME': 'Carrfour Supportive Housing, Inc.', 'HA_PHN_NUM': '3053718300', 'HA_EMAIL_ADDR_TEXT': 'sberman@carrfour.org', 'STD_ADDR': '1398 SW 1st St', 'STD_CITY': 'Miami', 'STD_ZIP5': '33135', 'PARTICIPANT_CODE': 'FL881', 'HA_PROGRAM_TYPE': 'Section 8', 'TOTAL_UNITS': 0}",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.housing-authority.carrfour-supportive-housing-in.address",
+    "claim": "Office address for Carrfour Supportive Housing, Inc..",
+    "value": null,
+    "unit": "text",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.services-arcgis-com-hud",
+    "url": "https://services.arcgis.com/VTyQ9soqVukalItT/arcgis/rest/services/Public_Housing_Authorities/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:51-04:00",
+    "check_every": "P365D",
+    "status": "unsourced",
+    "notes": "Candidate address from hud.",
+    "desk": "Carrfour Supportive Housing, Inc.",
+    "value_type": "place",
+    "x-candidate": {
+      "value": "1398 SW 1st St, Miami 33135"
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.housing-authority.hialeah-housing-authority.phone",
+    "claim": "Phone for HIALEAH HOUSING AUTHORITY (housing-authority).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.services-arcgis-com-hud",
+    "url": "https://services.arcgis.com/VTyQ9soqVukalItT/arcgis/rest/services/Public_Housing_Authorities/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:51-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by hud; confirm on the office's own page.",
+    "desk": "HIALEAH HOUSING AUTHORITY",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "305-888-9744",
+      "quote": "{'FORMAL_PARTICIPANT_NAME': 'HIALEAH HOUSING AUTHORITY', 'HA_PHN_NUM': '3058889744', 'HA_EMAIL_ADDR_TEXT': 'jponce@hialeahhousing.org', 'STD_ADDR': '75 E 6th St', 'STD_CITY': 'Hialeah', 'STD_ZIP5': '33010', 'PARTICIPANT_CODE': 'FL066', 'HA_PROGRAM_TYPE': 'Combined', 'TOTAL_UNITS': 857}",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.housing-authority.hialeah-housing-authority.address",
+    "claim": "Office address for HIALEAH HOUSING AUTHORITY.",
+    "value": null,
+    "unit": "text",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.services-arcgis-com-hud",
+    "url": "https://services.arcgis.com/VTyQ9soqVukalItT/arcgis/rest/services/Public_Housing_Authorities/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:51-04:00",
+    "check_every": "P365D",
+    "status": "unsourced",
+    "notes": "Candidate address from hud.",
+    "desk": "HIALEAH HOUSING AUTHORITY",
+    "value_type": "place",
+    "x-candidate": {
+      "value": "75 E 6th St, Hialeah 33010"
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.school-district.miami-dade.phone",
+    "claim": "Phone for MIAMI-DADE (school-district).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.nces-ed-gov-nces-district",
+    "url": "https://nces.ed.gov/ccd/districtsearch/district_detail.asp?ID2=1200390",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:34:03-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by nces-district; confirm on the office's own page.",
+    "desk": "MIAMI-DADE",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "305-995-1000",
+      "quote": "Schools in this District) NCES District ID: 1200390 State District ID: FL-13 Mailing Address: 1450 NE 2nd Ave # 912 Miami FL, 33132 -1308 Physical Address: 1450 NE 2nd Ave # 912 Miami FL, 33132 -1308 Phone: (305)995-1000 Type: Regular local",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.school-district.miami-dade.address",
+    "claim": "Office address for MIAMI-DADE.",
+    "value": null,
+    "unit": "text",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.nces-ed-gov-nces-district",
+    "url": "https://nces.ed.gov/ccd/districtsearch/district_detail.asp?ID2=1200390",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:34:03-04:00",
+    "check_every": "P365D",
+    "status": "unsourced",
+    "notes": "Candidate address from nces-district.",
+    "desk": "MIAMI-DADE",
+    "value_type": "place",
+    "x-candidate": {
+      "value": "1450 NE 2ND AVE # 912, MIAMI 33132"
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.school-district.miccosukee-indian-school.phone",
+    "claim": "Phone for Miccosukee Indian School (school-district).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.nces-ed-gov-nces-district",
+    "url": "https://nces.ed.gov/ccd/districtsearch/district_detail.asp?ID2=5900090",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:34:07-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by nces-district; confirm on the office's own page.",
+    "desk": "Miccosukee Indian School",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "305-894-2364",
+      "quote": "ls in this District) NCES District ID: 5900090 State District ID: BI-D54S02 Mailing Address: Po Box 440021 Tamiami Station Miami FL, 33144 Physical Address: Us Hwy 41 Mile Marker 37.5 Miami FL, 33194 Phone: (305)894-2364 Type: Regular local",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.school-district.miccosukee-indian-school.address",
+    "claim": "Office address for Miccosukee Indian School.",
+    "value": null,
+    "unit": "text",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.nces-ed-gov-nces-district",
+    "url": "https://nces.ed.gov/ccd/districtsearch/district_detail.asp?ID2=5900090",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:34:07-04:00",
+    "check_every": "P365D",
+    "status": "unsourced",
+    "notes": "Candidate address from nces-district.",
+    "desk": "Miccosukee Indian School",
+    "value_type": "place",
+    "x-candidate": {
+      "value": "US HWY 41 Mile Marker 37.5, Miami 33194"
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.school-district.kipp-charter.phone",
+    "claim": "Phone for KIPP CHARTER (school-district).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.nces-ed-gov-nces-district",
+    "url": "https://nces.ed.gov/ccd/districtsearch/district_detail.asp?ID2=1200083",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:59-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by nces-district; confirm on the office's own page.",
+    "desk": "KIPP CHARTER",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "786-309-1047",
+      "quote": "P CHARTER (Schools in this District) NCES District ID: 1200083 State District ID: FL-98Z Mailing Address: 3400 NW 87th St Miami FL, 33147 -3944 Physical Address: 3400 NW 87th St Miami FL, 33147 -3944 Phone: (786)309-1047 Type: Independent c",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.school-district.kipp-charter.address",
+    "claim": "Office address for KIPP CHARTER.",
+    "value": null,
+    "unit": "text",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.nces-ed-gov-nces-district",
+    "url": "https://nces.ed.gov/ccd/districtsearch/district_detail.asp?ID2=1200083",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:33:59-04:00",
+    "check_every": "P365D",
+    "status": "unsourced",
+    "notes": "Candidate address from nces-district.",
+    "desk": "KIPP CHARTER",
+    "value_type": "place",
+    "x-candidate": {
+      "value": "3400 NW 87TH ST, MIAMI 33147"
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.school-district.mater-academy.phone",
+    "claim": "Phone for MATER ACADEMY (school-district).",
+    "value": null,
+    "unit": "phone",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.nces-ed-gov-nces-district",
+    "url": "https://nces.ed.gov/ccd/districtsearch/district_detail.asp?ID2=1202018",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:34:05-04:00",
+    "check_every": "P90D",
+    "status": "unsourced",
+    "notes": "Candidate phone read from a fetched page/record by nces-district; confirm on the office's own page.",
+    "desk": "MATER ACADEMY",
+    "value_type": "phone",
+    "x-candidate": {
+      "value": "786-245-3377",
+      "quote": " in this District) NCES District ID: 1202018 State District ID: FL-815 Mailing Address: 8003 NW 103rd Street Hialeah Gardens FL, 33016 Physical Address: 8003 NW 103rd Street Hialeah Gardens FL, 33016 Phone: (786)245-3377 Type: Independent c",
+      "official_source": true
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.school-district.mater-academy.address",
+    "claim": "Office address for MATER ACADEMY.",
+    "value": null,
+    "unit": "text",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.nces-ed-gov-nces-district",
+    "url": "https://nces.ed.gov/ccd/districtsearch/district_detail.asp?ID2=1202018",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:34:05-04:00",
+    "check_every": "P365D",
+    "status": "unsourced",
+    "notes": "Candidate address from nces-district.",
+    "desk": "MATER ACADEMY",
+    "value_type": "place",
+    "x-candidate": {
+      "value": "8003 NW 103rd Street, HIALEAH GARDENS 33016"
+    }
+  },
+  {
+    "id": "us-fl-miamidade.desk.legal-aid.legal-services-of-greater-miam.address",
+    "claim": "Office address for Legal Services of Greater Miami, Inc. — Legal Services of Greater Miami Inc.",
+    "value": null,
+    "unit": "text",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.services3-arcgis-com-lsc-legal-aid",
+    "url": "https://services3.arcgis.com/n7h3cEoHTyNCwjCf/arcgis/rest/services/LSC_offices_grantees_main_branch_(Public)/FeatureServer/0",
+    "quote": "",
+    "retrieved_at": "2026-09-25T17:34:08-04:00",
+    "check_every": "P365D",
+    "status": "unsourced",
+    "notes": "Candidate address from lsc-legal-aid.",
+    "desk": "Legal Services of Greater Miami, Inc. — Legal Services of Greater Miami Inc",
+    "value_type": "place",
+    "x-candidate": {
+      "value": "4343 West Flagler Street Ste. 100, Miami 33134"
+    }
+  }
+]

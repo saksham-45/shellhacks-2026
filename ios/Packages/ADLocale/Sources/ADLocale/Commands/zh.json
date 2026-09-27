@@ -1,0 +1,94 @@
+{
+  "language": "zh",
+  "version": 1,
+  "review": {
+    "state": "needs_review",
+    "note": "Agent-authored for Florida Census languages; pending native review."
+  },
+  "fillers": [
+    "请"
+  ],
+  "commands": {
+    "back": [
+      "返回",
+      "回去"
+    ],
+    "home": [
+      "主页",
+      "首页"
+    ],
+    "read_this": [
+      "读这个",
+      "朗读"
+    ],
+    "stop": [
+      "停止"
+    ],
+    "repeat": [
+      "重复",
+      "再说一遍"
+    ],
+    "next_step": [
+      "下一步"
+    ],
+    "previous_step": [
+      "上一步"
+    ],
+    "call_desk": [
+      "打电话",
+      "打电话给柜台"
+    ],
+    "open_map": [
+      "地图",
+      "打开地图"
+    ],
+    "switch_language_es": [
+      "西班牙语"
+    ],
+    "switch_language_en": [
+      "英语"
+    ],
+    "switch_language_ht": [
+      "克里奥尔语"
+    ],
+    "switch_language_pt": [
+      "葡萄牙语"
+    ],
+    "switch_language_fr": [
+      "法语"
+    ],
+    "switch_language_ar": [
+      "阿拉伯语"
+    ],
+    "switch_language_zh": [
+      "中文",
+      "换成中文"
+    ],
+    "switch_language_ru": [
+      "俄语"
+    ],
+    "switch_language_tl": [
+      "他加禄语"
+    ],
+    "switch_language_vi": [
+      "越南语"
+    ],
+    "yes": [
+      "是",
+      "好"
+    ],
+    "no": [
+      "不",
+      "否"
+    ],
+    "ordinal_first": [
+      "第一个"
+    ],
+    "ordinal_second": [
+      "第二个"
+    ],
+    "ordinal_third": [
+      "第三个"
+    ]
+  }
+}

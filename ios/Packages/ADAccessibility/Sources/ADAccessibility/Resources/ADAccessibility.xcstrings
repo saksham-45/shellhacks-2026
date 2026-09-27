@@ -1,0 +1,95 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "app.name": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "myMiami"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "myMiami"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "myMiami"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "myMiami"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "myMiami"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "myMiami"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "myMiami"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "myMiami"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "myMiami"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "myMiami"
+          }
+        }
+      }
+    },
+    "a11y.card.playInKreyol.hint": {
+      "comment": "VoiceOver hint on a focused Kreyòl card: Magic Tap plays its Creole audio instead of starting the mic; everywhere else Magic Tap toggles the mic (A11Y-VC-04). The action label itself is ADVoice's kreyol.play (A11Y-LANG-03 part 3).",
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toque dos veces con dos dedos para escuchar en Kreyòl."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Two-finger double-tap to play in Kreyòl."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Tape de fwa ak de dwèt pou jwe an Kreyòl."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

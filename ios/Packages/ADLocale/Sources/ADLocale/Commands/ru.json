@@ -1,0 +1,93 @@
+{
+  "language": "ru",
+  "version": 1,
+  "review": {
+    "state": "needs_review",
+    "note": "Agent-authored for Florida Census languages; pending native review."
+  },
+  "fillers": [
+    "пожалуйста"
+  ],
+  "commands": {
+    "back": [
+      "назад"
+    ],
+    "home": [
+      "домой",
+      "главный экран"
+    ],
+    "read_this": [
+      "прочитай",
+      "читать вслух"
+    ],
+    "stop": [
+      "стоп",
+      "остановись"
+    ],
+    "repeat": [
+      "повтори",
+      "ещё раз"
+    ],
+    "next_step": [
+      "дальше",
+      "следующий шаг"
+    ],
+    "previous_step": [
+      "предыдущий шаг"
+    ],
+    "call_desk": [
+      "позвонить",
+      "позвонить в службу"
+    ],
+    "open_map": [
+      "карта",
+      "открыть карту"
+    ],
+    "switch_language_es": [
+      "испанский"
+    ],
+    "switch_language_en": [
+      "английский"
+    ],
+    "switch_language_ht": [
+      "креольский"
+    ],
+    "switch_language_pt": [
+      "португальский"
+    ],
+    "switch_language_fr": [
+      "французский"
+    ],
+    "switch_language_ar": [
+      "арабский"
+    ],
+    "switch_language_zh": [
+      "китайский"
+    ],
+    "switch_language_ru": [
+      "русский",
+      "на русском"
+    ],
+    "switch_language_tl": [
+      "тагальский"
+    ],
+    "switch_language_vi": [
+      "вьетнамский"
+    ],
+    "yes": [
+      "да"
+    ],
+    "no": [
+      "нет"
+    ],
+    "ordinal_first": [
+      "первый"
+    ],
+    "ordinal_second": [
+      "второй"
+    ],
+    "ordinal_third": [
+      "третий"
+    ]
+  }
+}

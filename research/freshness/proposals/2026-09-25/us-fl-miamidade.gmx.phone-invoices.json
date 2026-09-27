@@ -1,0 +1,23 @@
+{
+  "fact_id": "us-fl-miamidade.gmx.phone-invoices",
+  "outcome": "quote-missing",
+  "action": "The quoted sentence is gone. Find where the fact now lives (or whether it was removed); update quote/url by hand, or mark unsourced.",
+  "result": {
+    "fact_id": "us-fl-miamidade.gmx.phone-invoices",
+    "source_id": "us-fl-miamidade.gmx-toll-inquiries",
+    "kind": "static",
+    "status_before": "verified",
+    "outcome": "quote-missing",
+    "detail": "quote no longer found in the fetched text",
+    "snippet": "Toll Rates Toll Discount Programs Toll Inquires Traffic Advisories Roadside Assistance Partners GMX Warns Drivers about Phishing Scams Toll Inquiries Registration Stop If you have a registration hold please click on the link www.GoRenew.com . Please have your vehicle registration or title in hand as you will need the Vehicle Information Number (VIN) to check your registration. This will provide you with the name and phone number of the",
+    "similarity": 0.39,
+    "observed": null,
+    "recorded": "If you received an invoice with a BLUE banner that has TOLL INVOICE on the top right as seen above, or have a registration hold placed by MDX, contact us via the email or phone number below. Phone (305) 637-3277x5105 Email GoMDX@mdxway.com",
+    "checked_url": "https://gmx-way.com/help/toll-inquiries",
+    "final_url": "https://gmx-way.com/help/toll-inquiries",
+    "consecutive_unreachable": 0,
+    "propose_stale": false
+  },
+  "run_started_at": "2026-09-25T17:38:48-04:00",
+  "auto_applied": false
+}

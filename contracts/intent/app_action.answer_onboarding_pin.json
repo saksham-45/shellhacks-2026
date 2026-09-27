@@ -1,0 +1,15 @@
+{
+  "note": "AppAction answer_onboarding_pin. Example ids only; no real people or facts.",
+  "type": "app_action",
+  "value": {
+    "answer": {
+      "pin": {
+        "address": "111 NW 1st St, Miami, FL 33128",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "type": "pin"
+    },
+    "type": "answer_onboarding"
+  }
+}

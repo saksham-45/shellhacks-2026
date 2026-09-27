@@ -1,0 +1,119 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: driving-rules
+kind: country
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Origin lens
+  item: India, and anyone from a left-driving country
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The country, same everywhere
+  item: Tipping, age 21, the notario warning, driving ethics
+title:
+  es: Las reglas de manejo que aquí se cumplen
+  en: Driving rules that are enforced here
+  ht: Règ kondwi yo aplike isit la
+summary:
+  es: Puedes llegar siendo buen chofer y aun así ser peligroso aquí. Estas son las reglas que más cuestan.
+  en: You can arrive a good driver and still be dangerous here. These are the rules that cost the most.
+  ht: Ou ka rive yon bon chofè epi ou toujou danjere isit la. Men règ ki koute plis yo.
+body:
+  es: |-
+    Aquí se maneja por la derecha.
+
+    Un bus escolar con la señal de pare afuera: para, vengas de donde vengas, en una calle sin separador.
+
+    Derecha en rojo: para por completo primero, luego gira, salvo que una señal lo prohíba.
+
+    En un pare de todas las direcciones, pasa primero el que paró primero. Es una regla, no una negociación.
+
+    Manejar bajo los efectos del alcohol es un delito, no una multa.
+
+    Nunca le pagues a un policía. Ofrecer dinero es soborno, un delito. El seguro es obligatorio.
+  en: |-
+    We drive on the right.
+
+    A school bus with its stop sign out: stop, from either direction, on a road with no median.
+
+    Right on red: stop fully first, then turn, unless a sign says no.
+
+    At an all-way stop, the first car to stop goes first. It is a rule, not a negotiation.
+
+    Driving under the influence is a crime, not a ticket.
+
+    Never pay an officer. Offering money is bribery, a crime. Insurance is required.
+  ht: |-
+    Isit la, nou kondwi sou bò dwat.
+
+    Yon bis lekòl ak siy stop li deyò: kanpe, kèlkeswa bò ou soti, sou yon wout ki pa gen separasyon nan mitan.
+
+    Vire adwat sou limyè wouj: kanpe nèt anvan, epi vire, sòf si yon siy di non.
+
+    Nan yon stop tout direksyon, premye machin ki kanpe a pase anvan. Se yon règ, se pa yon negosyasyon.
+
+    Kondwi sou efè alkòl se yon krim, se pa yon tikè.
+
+    Pa janm peye yon polis. Ofri lajan se koripsyon, se yon krim. Asirans obligatwa.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl.driving.keep-right
+- - us-fl.driving.school-bus-stop
+- - us-fl.driving.right-on-red
+- - us-fl.driving.all-way-stop
+- - us-fl.driving.dui-crime
+- - us-fl.bribery.crime
+  - us-fl.insurance.required
+desk: us-fl.flhsmv
+actions:
+- type: call_desk
+  desk_id: us-fl.flhsmv
+utterances:
+  es:
+  - reglas para manejar aquí
+  - puedo doblar a la derecha en rojo
+  - qué hago con un bus escolar
+  - cómo funciona el pare de cuatro
+  - aprendí a manejar en otro país
+  en:
+  - driving rules here
+  - can I turn right on red
+  - what do I do at a school bus
+  - how does a four way stop work
+  - I learned to drive in India
+  ht:
+  - règ pou kondwi isit la
+  - èske m ka vire adwat sou wouj
+  - kisa pou m fè devan yon bis lekòl
+  - kijan stop kat direksyon an mache
+  - mwen te aprann kondwi lòt kote
+privacy_scope: person
+stages:
+- 8
+modes:
+- resident
+region_pack: us-fl
+is_immigration: false
+origin_lenses:
+- leftDriving
+- questionnaire
+related_cards:
+- this-walk
+- car-insurance-first
+- police-stop-script
+fact_refs:
+- us-fl.driving.keep-right
+- us-fl.driving.school-bus-stop
+- us-fl.driving.right-on-red
+- us-fl.driving.all-way-stop
+- us-fl.driving.dui-crime
+- us-fl.bribery.crime
+- us-fl.insurance.required
+topics:
+- driving
+- license

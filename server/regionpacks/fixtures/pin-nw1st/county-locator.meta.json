@@ -1,0 +1,11 @@
+{
+  "request_url": "https://gisws.miamidade.gov/arcgis/rest/services/MDC_LocatorsPro/MD_Locator/GeocodeServer/findAddressCandidates?SingleLine=111+NW+1st+St%2C+Miami%2C+FL+33128&outFields=Addr_type%2CScore&maxLocations=5&outSR=4326&f=json",
+  "method": "GET",
+  "retrieved_at": "2026-09-25T18:06:57-04:00",
+  "http_status": 200,
+  "bytes": 1219,
+  "sha256": "c4cc426319e5099f06caea1f65c63f8a09b58625a9d982bf2ee6cff2003d70d8",
+  "original_sha256": "7f746333bc990c37e599ea976e78195d506479669322ea041b4c2712c53572a8",
+  "capture_path": "urllib from this box (box egress reaches gisws.miamidade.gov)",
+  "minimized": "kept spatialReference and candidates[].address/location/score/attributes; extent dropped"
+}

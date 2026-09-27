@@ -1,0 +1,11 @@
+{
+  "note": "AppAction read_aloud_card. Example ids only; no real people or facts.",
+  "type": "app_action",
+  "value": {
+    "target": {
+      "card_id": "tolls",
+      "type": "card"
+    },
+    "type": "read_aloud"
+  }
+}

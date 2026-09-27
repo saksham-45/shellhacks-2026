@@ -1,0 +1,7 @@
+{
+  "note": "AppAction next_step. Example ids only; no real people or facts.",
+  "type": "app_action",
+  "value": {
+    "type": "next_step"
+  }
+}

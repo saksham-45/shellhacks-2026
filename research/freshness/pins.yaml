@@ -1,0 +1,9 @@
+# Demo pins used by the freshness check to sample lookup facts.
+# Coordinates are never typed in here: they are geocoded at run time (Census geocoder first,
+# then the fallback providers below), and the answer is cached in state.json with its provider.
+pins:
+  - id: kendall
+    address: "11200 SW 137th Ave, Miami, FL 33186"
+    default: true
+  - id: downtown
+    address: "111 NW 1st St, Miami, FL 33128"

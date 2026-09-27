@@ -1,0 +1,23 @@
+{
+  "fact_id": "us-fl-miamidade.license.tax-collector-transition",
+  "outcome": "quote-missing",
+  "action": "The quoted sentence is gone. Find where the fact now lives (or whether it was removed); update quote/url by hand, or mark unsourced.",
+  "result": {
+    "fact_id": "us-fl-miamidade.license.tax-collector-transition",
+    "source_id": "us-fl-miamidade.mdc-tax-collector-dl",
+    "kind": "static",
+    "status_before": "verified",
+    "outcome": "quote-missing",
+    "detail": "quote no longer found in the fetched text",
+    "snippet": "Services Driver license and identification card services transition As a result of a recent constitutional amendment, the Miami-Dade County Office of the Tax Collector is now mandated to assume responsibility for the administration and issuance of Driver Licenses and Identification Cards for county residents. Accordingly, the County's Driver License Offices will transition from the management of the Florida Department of Highway Safety and Motor Vehicles (FLHSMV) to the Office of the Tax Collector. Purpose of the transition This transition, expected to take several months,",
+    "similarity": 0.836,
+    "observed": null,
+    "recorded": "As a result of a recent constitutional amendment, the Miami-Dade County Office of the Tax Collector is now mandated to assume responsibility for the administration and issuance of Driver Licenses and Identification Cards for county residents. Accordingly, the County’s Driver License Offices will transition from the management of the Florida Department of Highway Safety and Motor Vehicles (FLHSMV) to the Office of the Tax Collector. ... In the meantime, the Florida Department of Highway Safety and Motor Vehicles (FLHSMV) will continue to manage appointments at locations not yet administered by the Tax Collector.",
+    "checked_url": "https://www.mdctaxcollector.gov/driver-license-and-id-card-services",
+    "final_url": "https://www.mdctaxcollector.gov/driver-license-and-id-card-services",
+    "consecutive_unreachable": 0,
+    "propose_stale": false
+  },
+  "run_started_at": "2026-09-25T17:38:48-04:00",
+  "auto_applied": false
+}

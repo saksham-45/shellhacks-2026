@@ -1,0 +1,84 @@
+# Origin lens (myAD Content). The file id is the ADCore OriginLens case.
+# title is the lens name; lens_card plus attaches_to are the cards it surfaces.
+id: latinAmerica
+origin_lens: latinAmerica
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Origin lens
+  item: Anywhere in Latin America, especially Cuba
+title:
+  es: Desde América Latina
+  en: From Latin America
+  ht: Soti Amerik Latin
+summary:
+  es: Donde las palabras suenan igual y significan otra cosa. Un notario aquí solo sella firmas, y confiarle tus papeles puede costarte años.
+  en: Where the words sound the same and mean something else. A notario here only stamps signatures, and trusting one with your papers can cost you years.
+  ht: Kote mo yo sonnen menm jan men yo vle di lòt bagay. Yon notè isit la sèlman mete so sou siyati, e si ou konfye l papye ou sa ka koute w plizyè ane.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+desk: us.accredited-legal-help
+origin_match:
+  countries:
+  - AR
+  - BO
+  - BR
+  - CL
+  - CO
+  - CR
+  - CU
+  - DO
+  - EC
+  - GT
+  - HN
+  - MX
+  - NI
+  - PA
+  - PE
+  - PY
+  - SV
+  - UY
+  - VE
+  self_select: true
+  note: Draft country list; Haiti has its own lens. The person can pick or drop the lens.
+modes:
+- resident
+lens_card: lens-latam-notario
+attaches_to:
+- immigration-papers
+- language-desk
+- license-and-tag
+- status-word
+origin_lines:
+- card: license-and-tag
+  text:
+    es: En tu país, quizás hiciste el examen de manejo en español. Aquí es solo en inglés, sin intérprete. Estudia en inglés antes de sacar la cita.
+    en: At home, you may have taken the driving test in Spanish. Here it is in English only, with no interpreter. Study in English before you book.
+    ht: Lakay, ou te ka pase egzamen kondwi a an panyòl. Isit la se an angle sèlman, san entèprèt. Etidye an angle anvan ou pran randevou.
+  fact_refs:
+  - us-fl.flhsmv.exams-english-only
+- card: immigration-papers
+  text:
+    es: En tu país, un notario podía hacer el trámite. Aquí, solo un abogado o un representante acreditado puede hacerlo, y un trámite mal hecho te persigue.
+    en: At home, a notario could file for you. Here, only a lawyer or an accredited representative can, and a wrong filing follows you.
+    ht: Lakay, yon notè te ka fè demach la pou ou. Isit la, se sèlman yon avoka oswa yon reprezantan akredite ki ka fè l, e yon move demach ap swiv ou.
+  fact_refs: []
+- card: language-desk
+  text:
+    es: En tu país, bastaba un amigo que conocía a alguien. Aquí, un consejo sobre papeles de alguien que no es abogado ni representante acreditado puede costarte el caso.
+    en: At home, a friend who knew someone was enough. Here, advice on papers from anyone but a lawyer or an accredited representative can cost you the case.
+    ht: Lakay, yon zanmi ki konnen yon moun te sifi. Isit la, konsèy sou papye ki pa soti nan yon avoka oswa yon reprezantan akredite ka fè w pèdi ka a.
+  fact_refs: []
+- card: status-word
+  text:
+    es: En tu país, el nombre de un papel decía lo que significaba. Aquí, la palabra en tu papel decide tus opciones; compártela solo con alguien acreditado.
+    en: At home, the name of a paper told you what it meant. Here, the word on your paper decides your options, so share it only with an accredited helper.
+    ht: Lakay, non yon papye te di sa l vle di. Isit la, mo ki sou papye ou deside chwa ou yo; pataje l sèlman ak yon moun ki akredite.
+  fact_refs: []
+fact_refs:
+- us-fl.flhsmv.exams-english-only

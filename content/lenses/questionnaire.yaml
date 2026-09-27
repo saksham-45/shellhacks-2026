@@ -1,0 +1,55 @@
+# Origin lens (myAD Content). The file id is the ADCore OriginLens case.
+# title is the lens name; lens_card plus attaches_to are the cards it surfaces.
+id: questionnaire
+origin_lens: questionnaire
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Origin lens
+  item: Other countries start as a short questionnaire
+title:
+  es: Cuéntanos cómo era en tu país
+  en: Tell us how it worked at home
+  ht: Di nou kijan sa te ye lakay
+summary:
+  es: Para los países que aún no hemos escrito. Comparamos solo lo que nos cuentas sobre policía, manejo, médicos y renta, para que una costumbre de allá no te tome por sorpresa.
+  en: For countries we have not written yet. We compare only what you tell us about police, driving, doctors, and rent, so a habit from home does not catch you by surprise.
+  ht: Pou peyi nou poko ekri yo. Nou konpare sèlman sa ou di nou sou lapolis, kondwi, doktè, ak lwaye, pou yon abitid lakay pa pran w pa sipriz.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+desk: us.211
+origin_match:
+  self_select: true
+  note: Fallback for any origin with no written lens; answers stay on the phone.
+modes:
+- resident
+lens_card: lens-origin-questionnaire
+attaches_to:
+- driving-rules
+- lease-basics
+- police-stop-script
+origin_lines:
+- card: driving-rules
+  text:
+    es: Nos contaste cómo se manejaba en tu país. Aquí, las reglas que la policía hace cumplir pueden ser otras, y una costumbre de allá puede costarte una multa o un choque.
+    en: You told us how driving worked at home. Here, the rules police enforce may differ, and a habit from home can cost you a ticket or a crash.
+    ht: Ou di nou kijan moun te kondwi lakay. Isit la, règ lapolis aplike yo ka diferan, e yon abitid lakay ka koute w yon tikè oswa yon aksidan.
+  fact_refs: []
+- card: lease-basics
+  text:
+    es: Nos contaste cómo se rentaba en tu país. Aquí, lo que cuenta es el contrato escrito, y un trato de palabra te deja sin prueba.
+    en: You told us how renting worked at home. Here, the written lease is what counts, and a handshake deal leaves you with no proof.
+    ht: Ou di nou kijan moun te lwe kay lakay. Isit la, se kontra ekri a ki konte, e yon antant pawòl pa ba w okenn prèv.
+  fact_refs: []
+- card: police-stop-script
+  text:
+    es: Nos contaste cómo eran las paradas de policía en tu país. Aquí, quédate en el carro con las manos a la vista; un movimiento brusco puede volver peligrosa la parada.
+    en: You told us how police stops went at home. Here, stay in the car with your hands where the officer can see them; a sudden move can turn a stop dangerous.
+    ht: Ou di nou kijan lapolis te kanpe moun lakay. Isit la, rete nan machin nan ak men ou kote polisye a ka wè yo; yon mouvman brid sou kou ka fè sa vin danjere.
+  fact_refs: []
+fact_refs: []

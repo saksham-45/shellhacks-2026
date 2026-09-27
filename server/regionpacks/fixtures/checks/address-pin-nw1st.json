@@ -1,0 +1,143 @@
+{
+ "pin_id": "pin-nw1st",
+ "address": "111 NW 1st St, Miami, FL 33128",
+ "kind": "cached-county-response",
+ "note": "Recorded from the county's 311 layers by scripts/refresh_address_fixtures.py; replayed labeled with its date.",
+ "locator": {
+  "url": "https://gisws.miamidade.gov/arcgis/rest/services/MDC_LocatorsPro/MD_Locator/GeocodeServer/findAddressCandidates?SingleLine=111+NW+1st+St%2C+Miami%2C+FL+33128&outFields=Addr_type%2CScore&maxLocations=5&outSR=4326&f=json",
+  "retrieved_at": "2026-09-25T18:56:17-04:00",
+  "matched": "111 NW 1ST ST, MIAMI, 33128",
+  "addr_type": "PointAddress",
+  "score": 99.09,
+  "lat": 25.775604000003124,
+  "lon": -80.19666900000166
+ },
+ "layers": {
+  "municipality": {
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM_Display/MapServer/1/query?geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=NAME&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:56:18-04:00",
+   "features": [
+    {
+     "NAME": "MIAMI"
+    }
+   ]
+  },
+  "county-garbage": {
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM_Display/MapServer/3/query?geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=WEEKDAYS&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:56:18-04:00",
+   "features": []
+  },
+  "county-recycling": {
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM_Display/MapServer/4/query?geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=WEEKDAY%2CPICKUPWEEK&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:56:18-04:00",
+   "features": []
+  },
+  "county-bulky-book": {
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM_Display/MapServer/7/query?geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=LABEL&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:56:18-04:00",
+   "features": []
+  },
+  "water": {
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM_Display/MapServer/14/query?geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=UTILITYNAME&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:56:18-04:00",
+   "features": [
+    {
+     "UTILITYNAME": "MDWS"
+    }
+   ]
+  },
+  "sewer": {
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM_Display/MapServer/15/query?geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=UTILITYNAME&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:56:18-04:00",
+   "features": [
+    {
+     "UTILITYNAME": "MDWS"
+    }
+   ]
+  },
+  "city-garbage": {
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM_Display/MapServer/19/query?geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=GRAPCKDAYS&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:56:18-04:00",
+   "features": [
+    {
+     "GRAPCKDAYS": "MON/THU"
+    }
+   ]
+  },
+  "city-recycling": {
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM_Display/MapServer/20/query?geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=RECYROUTE&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:56:18-04:00",
+   "features": [
+    {
+     "RECYROUTE": "Thursday 1 & 3"
+    }
+   ]
+  },
+  "city-bulky": {
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM_Display/MapServer/21/query?geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=TRASHDAY&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:56:18-04:00",
+   "features": [
+    {
+     "TRASHDAY": "T"
+    }
+   ]
+  },
+  "elementary": {
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM/MapServer/18/query?geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=DISPLAYNAME%2CADDRESS%2CCITY%2CZIPCODE%2CPHONE%2CGRADES&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:56:18-04:00",
+   "features": [
+    {
+     "DISPLAYNAME": "Frederick Douglass ES",
+     "ADDRESS": "314 NW 12 St.",
+     "CITY": "Miami",
+     "ZIPCODE": 33136,
+     "PHONE": "305-371-4687",
+     "GRADES": "K-5"
+    }
+   ]
+  },
+  "police-grid": {
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM/MapServer/38/query?geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=DISTNAME&returnGeometry=false&f=json",
+   "retrieved_at": "2026-09-25T18:56:18-04:00",
+   "features": [
+    {
+     "DISTNAME": "GOVERNMENT SERVICES BUREAU"
+    }
+   ]
+  }
+ },
+ "domains": {
+  "water": {
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM_Display/MapServer/14?f=json",
+   "retrieved_at": "2026-09-25T18:56:18-04:00",
+   "field": "UTILITYNAME",
+   "codes": {
+    "MDWS": "Miami Dade Water and Sewer"
+   }
+  },
+  "sewer": {
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM_Display/MapServer/15?f=json",
+   "retrieved_at": "2026-09-25T18:56:19-04:00",
+   "field": "UTILITYNAME",
+   "codes": {
+    "MDWS": "Miami Dade Water and Sewer"
+   }
+  },
+  "city-bulky": {
+   "url": "https://gis.miami.gov/gis/rest/services/SolidWaste/TrashRoutes/MapServer/0?f=json",
+   "retrieved_at": "2026-09-25T17:24:00-04:00",
+   "field": "TRASHDAY",
+   "codes": {
+    "M": "Mon",
+    "T": "Tue",
+    "W": "Wed",
+    "R": "Thu",
+    "F": "Fri",
+    "MR": "Mon and Thu",
+    "TF": "Tue and Fri",
+    "NTRF": "Sun, Tue, Thu and Fri",
+    "D": "Every Day"
+   }
+  }
+ }
+}

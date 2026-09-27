@@ -1,0 +1,212 @@
+{
+  "_comment": "Source registry excerpt for the region adapters (owner: myAD Regions), copied from the FM-MYAD-REG draft SOURCES.md. PROPOSAL for research/sources.yaml (owner: myAD Research); adapters read publisher and check_every from here until Research ships the registry.",
+  "sources": [
+    {
+      "id": "us.census-geocoder",
+      "publisher": "U.S. Census Bureau",
+      "title": "Census Geocoder — geographies/onelineaddress (Public_AR_Current / Current_Current, layers=all)",
+      "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+      "kind": "api",
+      "jurisdiction": "us",
+      "key_required": false,
+      "check_every": "P30D",
+      "retrieved_at": "2026-09-25T17:17:00-04:00"
+    },
+    {
+      "id": "us-fl-miamidade.gis-address-locator",
+      "publisher": "Miami-Dade County (GIS)",
+      "title": "MDC_LocatorsPro / MD_Locator GeocodeServer — findAddressCandidates (PointAddress candidates only)",
+      "url": "https://gisws.miamidade.gov/arcgis/rest/services/MDC_LocatorsPro/MD_Locator/GeocodeServer",
+      "kind": "api",
+      "jurisdiction": "us-fl-miamidade",
+      "key_required": false,
+      "check_every": "P30D",
+      "retrieved_at": "2026-09-25T18:06:11-04:00"
+    },
+    {
+      "id": "us-fl-miamidade.gis-municipality",
+      "publisher": "Miami-Dade County (GIS)",
+      "title": "MD_MDPDViewer / Municipality_poly",
+      "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_MDPDViewer/MapServer/8",
+      "kind": "gis-layer",
+      "jurisdiction": "us-fl-miamidade",
+      "key_required": false,
+      "check_every": "P30D",
+      "retrieved_at": "2026-09-25T17:18:59-04:00"
+    },
+    {
+      "id": "us-fl-miamidade.gis-garbage-route",
+      "publisher": "Miami-Dade County (GIS; layer labels service area 'DSWM')",
+      "title": "MD_GarbageRecycle / GarbagePickupRoute",
+      "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/1",
+      "kind": "gis-layer",
+      "jurisdiction": "us-fl-miamidade",
+      "key_required": false,
+      "check_every": "P30D",
+      "retrieved_at": "2026-09-25T17:19:00-04:00"
+    },
+    {
+      "id": "us-fl-miamidade.gis-recycling-route",
+      "publisher": "Miami-Dade County (GIS; layer labels service area 'DSWM')",
+      "title": "MD_GarbageRecycle / RecyclingRoute",
+      "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/2",
+      "kind": "gis-layer",
+      "jurisdiction": "us-fl-miamidade",
+      "key_required": false,
+      "check_every": "P30D",
+      "retrieved_at": "2026-09-25T17:19:00-04:00"
+    },
+    {
+      "id": "us-fl-miami.gis-trash-routes",
+      "publisher": "City of Miami (GIS)",
+      "title": "SolidWaste/TrashRoutes",
+      "url": "https://gis.miami.gov/gis/rest/services/SolidWaste/TrashRoutes/MapServer/0",
+      "kind": "gis-layer",
+      "jurisdiction": "us-fl-miami",
+      "key_required": false,
+      "check_every": "P7D",
+      "retrieved_at": "2026-09-25T17:24:00-04:00"
+    },
+    {
+      "id": "us-fl-miamidade.gis-school-elementary",
+      "publisher": "Miami-Dade County (GIS)",
+      "title": "MD_Educational / ElementaryAttendanceBoundary (joined SchoolSite)",
+      "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9",
+      "kind": "gis-layer",
+      "jurisdiction": "us-fl-miamidade",
+      "key_required": false,
+      "check_every": "P30D",
+      "retrieved_at": "2026-09-25T17:19:01-04:00"
+    },
+    {
+      "id": "us-fl-miamidade.gis-school-middle",
+      "publisher": "Miami-Dade County (GIS)",
+      "title": "MD_Educational / MiddleAttendanceBoundary",
+      "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11",
+      "kind": "gis-layer",
+      "jurisdiction": "us-fl-miamidade",
+      "key_required": false,
+      "check_every": "P30D",
+      "retrieved_at": "2026-09-25T17:19:01-04:00"
+    },
+    {
+      "id": "us-fl-miamidade.gis-school-high",
+      "publisher": "Miami-Dade County (GIS)",
+      "title": "MD_Educational / HighAttendanceBoundary",
+      "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10",
+      "kind": "gis-layer",
+      "jurisdiction": "us-fl-miamidade",
+      "key_required": false,
+      "check_every": "P30D",
+      "retrieved_at": "2026-09-25T17:19:01-04:00"
+    },
+    {
+      "id": "us-fl-miamidade.gis-parcels",
+      "publisher": "Miami-Dade County (GIS, PaParcel layer)",
+      "title": "MD_LandInformation / Parcels @ PaParcel",
+      "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26",
+      "kind": "gis-layer",
+      "jurisdiction": "us-fl-miamidade",
+      "key_required": false,
+      "check_every": "P30D",
+      "retrieved_at": "2026-09-25T17:21:43-04:00"
+    },
+    {
+      "id": "us-fl-miamidade.gis-water-service",
+      "publisher": "Miami-Dade County (GIS)",
+      "title": "MD_WaterSewer / WaterServiceArea",
+      "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_WaterSewer/MapServer/1",
+      "kind": "gis-layer",
+      "jurisdiction": "us-fl-miamidade",
+      "key_required": false,
+      "check_every": "P30D",
+      "retrieved_at": "2026-09-25T17:19:02-04:00"
+    },
+    {
+      "id": "us-fl-miamidade.gis-sewer-service",
+      "publisher": "Miami-Dade County (GIS)",
+      "title": "MD_WaterSewer / SewerServiceArea",
+      "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_WaterSewer/MapServer/0",
+      "kind": "gis-layer",
+      "jurisdiction": "us-fl-miamidade",
+      "key_required": false,
+      "check_every": "P30D",
+      "retrieved_at": "2026-09-25T17:19:02-04:00"
+    },
+    {
+      "id": "us-fl-miamidade.gis-parks-county",
+      "publisher": "Miami-Dade County (GIS)",
+      "title": "MD_RecreationCulture / CountyOperatedPark",
+      "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/1",
+      "kind": "gis-layer",
+      "jurisdiction": "us-fl-miamidade",
+      "key_required": false,
+      "check_every": "P30D",
+      "retrieved_at": "2026-09-25T17:19:07-04:00"
+    },
+    {
+      "id": "us-fl-miamidade.gis-parks-municipal",
+      "publisher": "Miami-Dade County (GIS)",
+      "title": "MD_RecreationCulture / MunicipalPark",
+      "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/0",
+      "kind": "gis-layer",
+      "jurisdiction": "us-fl-miamidade",
+      "key_required": false,
+      "check_every": "P30D",
+      "retrieved_at": "2026-09-25T17:19:16-04:00"
+    },
+    {
+      "id": "us-fl-miamidade.gis-libraries",
+      "publisher": "Miami-Dade County (GIS)",
+      "title": "MD_Libraries / MergedLibraries",
+      "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1",
+      "kind": "gis-layer",
+      "jurisdiction": "us-fl-miamidade",
+      "key_required": false,
+      "check_every": "P30D",
+      "retrieved_at": "2026-09-25T17:19:08-04:00"
+    },
+    {
+      "id": "us-fl-miamidade.gis-vote",
+      "publisher": "Miami-Dade County (GIS, KnowWhereToVote service)",
+      "title": "MD_KnowWhereToVote (0 PollingPlace, 3 Precinct, 4 Commission, 5 Congress, 6 Senate, 7 House, 8 School Board)",
+      "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer",
+      "kind": "gis-layer",
+      "jurisdiction": "us-fl-miamidade",
+      "key_required": false,
+      "check_every": "P7D",
+      "retrieved_at": "2026-09-25T17:19:05-04:00"
+    },
+    {
+      "id": "us-fl-miamidade.gtfs",
+      "publisher": "Miami-Dade County DTPW (Miami-Dade Transit)",
+      "title": "GTFS static feed",
+      "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+      "kind": "gtfs",
+      "jurisdiction": "us-fl-miamidade",
+      "key_required": false,
+      "check_every": "P7D",
+      "retrieved_at": "2026-09-25T17:18:45-04:00"
+    },
+    {
+      "id": "us.fema.nfhl",
+      "publisher": "Federal Emergency Management Agency (FEMA)",
+      "title": "National Flood Hazard Layer, Flood Hazard Zones (layer 28)",
+      "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28",
+      "kind": "gis-layer",
+      "jurisdiction": "us",
+      "key_required": false,
+      "check_every": "P30D"
+    },
+    {
+      "id": "us-fl-miamidade.gis-evacuation-zone",
+      "publisher": "Miami-Dade County GIS (Information Technology Department)",
+      "title": "Hurricane evacuation (storm surge planning) zones (layer 7)",
+      "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_CommunityServices/MapServer/7",
+      "kind": "gis-layer",
+      "jurisdiction": "us-fl-miamidade",
+      "key_required": false,
+      "check_every": "P90D"
+    }
+  ]
+}

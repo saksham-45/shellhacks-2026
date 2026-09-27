@@ -1,0 +1,74 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: stage-08-movement
+kind: stage
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Stages
+  item: 8. Movement
+title:
+  es: Moverse
+  en: Movement
+  ht: Deplase
+summary:
+  es: Puedo llegar de forma legal y con seguro.
+  en: I can get there legal and insured.
+  ht: Mwen ka rive kote m prale legalman epi ak asirans.
+body:
+  es: |-
+    Lo principal es el transporte, la licencia, los peajes y el seguro.
+
+    Lo principal es la primera tarjeta de esa lista que aún no terminas. Cada familiar puede estar en una etapa distinta en la misma casa.
+  en: |-
+    The hero is transit, the license, tolls, and insurance.
+
+    The hero is the first card on that list you have not finished. Family members can be on different stages in the same house.
+  ht: |-
+    Premye bagay la se transpò piblik, lisans, peyaj, ak asirans.
+
+    Premye bagay la se premye kat nan lis sa a ou poko fini. Chak moun nan fanmi an ka nan yon etap diferan nan menm kay la.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- []
+desk: us-fl.flhsmv
+utterances:
+  es:
+  - etapa de moverme
+  - próximo paso para manejar
+  - etapa de movimiento
+  - cómo me muevo legal
+  en:
+  - getting around stage
+  - next step for driving
+  - movement stage
+  - how do I get around legally
+  ht:
+  - etap deplase
+  - pwochen etap pou kondwi
+  - etap mouvman
+  - kijan pou m deplase legalman
+privacy_scope: person
+stages:
+- 8
+modes:
+- resident
+region_pack: us-fl
+is_immigration: false
+hero_cards:
+- fl-id-license-checklist
+- driving-rules
+- car-insurance-first
+- tolls
+- commute
+fact_refs: []
+topics:
+- transit
+- license
+- tolls

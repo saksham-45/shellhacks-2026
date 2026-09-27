@@ -1,0 +1,9 @@
+{
+  "request_url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/5/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ID%2CREPNAME&returnGeometry=false&f=json",
+  "method": "GET",
+  "retrieved_at": "2026-09-25T18:06:44-04:00",
+  "http_status": 200,
+  "bytes": 295,
+  "sha256": "d1eed59119dd2c671c7eb39796063e2a72cbeff67f890e201cb244dd36e57c7c",
+  "capture_path": "scripts/refresh_fixtures.py (LiveTransport, box egress)"
+}

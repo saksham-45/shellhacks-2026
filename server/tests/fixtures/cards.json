@@ -1,0 +1,352 @@
+{
+ "version": 1,
+ "cards": [
+  {
+   "id": "test-trash-day",
+   "title": {
+    "es": "TEST trash day",
+    "en": "TEST trash day",
+    "ht": "TEST trash day"
+   },
+   "desk": "us-fl-miamidade.test-desk",
+   "scope": "household",
+   "stages": [
+    1
+   ],
+   "modes": [
+    "resident",
+    "tourist"
+   ],
+   "fact_refs": [
+    "us-fl-miamidade.test.trash-days"
+   ],
+   "topics": [
+    "trash"
+   ],
+   "utterances": {
+    "es": [
+     "cuándo pasa la basura",
+     "qué día recogen la basura"
+    ],
+    "en": [
+     "when is trash day",
+     "when do they pick up the garbage"
+    ],
+    "ht": [
+     "ki jou yo ranmase fatra",
+     "kilè kamyon fatra a pase"
+    ]
+   },
+   "actions": [
+    "call_desk"
+   ],
+   "needs_review": {
+    "es": false,
+    "en": false,
+    "ht": true
+   },
+   "region_pack": "us-fl-miamidade",
+   "immigration": false
+  },
+  {
+   "id": "test-bulky-pickup",
+   "title": {
+    "es": "TEST bulky pickup",
+    "en": "TEST bulky pickup",
+    "ht": "TEST bulky pickup"
+   },
+   "desk": "us-fl-miamidade.test-desk",
+   "scope": "household",
+   "stages": [
+    1
+   ],
+   "modes": [
+    "resident",
+    "tourist"
+   ],
+   "fact_refs": [
+    "us-fl-miamidade.test-desk.phone"
+   ],
+   "topics": [
+    "trash"
+   ],
+   "utterances": {
+    "es": [
+     "recoger muebles viejos",
+     "recogida de basura grande"
+    ],
+    "en": [
+     "pick up old furniture",
+     "bulky trash pickup"
+    ],
+    "ht": [
+     "ranmase gwo fatra",
+     "vye mèb"
+    ]
+   },
+   "actions": [],
+   "needs_review": {
+    "es": false,
+    "en": false,
+    "ht": true
+   },
+   "region_pack": "us-fl-miamidade",
+   "immigration": false
+  },
+  {
+   "id": "test-electric-bill",
+   "title": {
+    "es": "TEST electric bill",
+    "en": "TEST electric bill",
+    "ht": "TEST electric bill"
+   },
+   "desk": "us-fl-miamidade.test-desk",
+   "scope": "household",
+   "stages": [
+    1
+   ],
+   "modes": [
+    "resident",
+    "tourist"
+   ],
+   "fact_refs": [
+    "us.test.fee"
+   ],
+   "topics": [
+    "municipality"
+   ],
+   "utterances": {
+    "es": [
+     "pagar la luz",
+     "pagar la factura de electricidad"
+    ],
+    "en": [
+     "pay my electric bill",
+     "pay the light bill"
+    ],
+    "ht": [
+     "peye limyè",
+     "peye bil kouran"
+    ]
+   },
+   "actions": [],
+   "needs_review": {
+    "es": false,
+    "en": false,
+    "ht": true
+   },
+   "region_pack": "us-fl-miamidade",
+   "immigration": false
+  },
+  {
+   "id": "test-work-permit",
+   "title": {
+    "es": "TEST work permit",
+    "en": "TEST work permit",
+    "ht": "TEST work permit"
+   },
+   "desk": "us.test-desk",
+   "scope": "person-papers",
+   "stages": [
+    1
+   ],
+   "modes": [
+    "resident",
+    "tourist"
+   ],
+   "fact_refs": [
+    "us.test.fee"
+   ],
+   "topics": [
+    "immigration"
+   ],
+   "utterances": {
+    "es": [
+     "renovar mi permiso de trabajo"
+    ],
+    "en": [
+     "renew my work permit"
+    ],
+    "ht": [
+     "renouvle pèmi travay mwen"
+    ]
+   },
+   "actions": [],
+   "needs_review": {
+    "es": false,
+    "en": false,
+    "ht": true
+   },
+   "immigration": true,
+   "region_pack": "us-fl-miamidade"
+  },
+  {
+   "id": "test-tolls",
+   "title": {
+    "es": "TEST tolls",
+    "en": "TEST tolls",
+    "ht": "TEST tolls"
+   },
+   "desk": "us-fl-miamidade.test-desk",
+   "scope": "household",
+   "stages": [
+    8
+   ],
+   "modes": [
+    "resident",
+    "tourist"
+   ],
+   "fact_refs": [
+    "us.test.fee"
+   ],
+   "topics": [
+    "tolls"
+   ],
+   "utterances": {
+    "es": [
+     "cuánto cuesta el peaje"
+    ],
+    "en": [
+     "how much are the tolls"
+    ],
+    "ht": [
+     "konbyen peyaj la koute"
+    ]
+   },
+   "actions": [],
+   "needs_review": {
+    "es": false,
+    "en": false,
+    "ht": true
+   },
+   "region_pack": "us-fl-miamidade",
+   "immigration": false
+  },
+  {
+   "id": "test-recycling-bin",
+   "title": {
+    "es": "TEST recycling bin",
+    "en": "TEST recycling bin",
+    "ht": "TEST recycling bin"
+   },
+   "desk": "us-fl-miamidade.test-desk",
+   "scope": "household",
+   "stages": [
+    1
+   ],
+   "modes": [
+    "resident",
+    "tourist"
+   ],
+   "fact_refs": [
+    "us.test.unsourced-thing",
+    "us.test.marked-stale"
+   ],
+   "topics": [
+    "trash"
+   ],
+   "utterances": {
+    "es": [
+     "contenedor azul de reciclaje"
+    ],
+    "en": [
+     "blue recycling bin"
+    ],
+    "ht": [
+     "bwat resiklaj ble"
+    ]
+   },
+   "actions": [],
+   "needs_review": {
+    "es": false,
+    "en": false,
+    "ht": true
+   },
+   "region_pack": "us-fl-miamidade",
+   "immigration": false
+  },
+  {
+   "id": "test-school",
+   "title": {
+    "es": "TEST school",
+    "en": "TEST school",
+    "ht": "TEST school"
+   },
+   "desk": "us-fl-miamidade.test-school-desk",
+   "scope": "person",
+   "stages": [
+    7
+   ],
+   "modes": [
+    "resident"
+   ],
+   "fact_refs": [
+    "us-fl-miamidade.test.school"
+   ],
+   "topics": [
+    "school"
+   ],
+   "utterances": {
+    "es": [
+     "qué escuela le toca a mi hijo"
+    ],
+    "en": [
+     "which school is my child assigned to"
+    ],
+    "ht": [
+     "ki lekòl pitit mwen ap ale"
+    ]
+   },
+   "actions": [],
+   "needs_review": {
+    "es": false,
+    "en": false,
+    "ht": true
+   },
+   "region_pack": "us-fl-miamidade",
+   "immigration": false
+  },
+  {
+   "id": "test-clinic",
+   "title": {
+    "es": "TEST clinic",
+    "en": "TEST clinic",
+    "ht": "TEST clinic"
+   },
+   "desk": "us.test-clinic-desk",
+   "scope": "household",
+   "stages": [
+    6
+   ],
+   "modes": [
+    "resident",
+    "tourist"
+   ],
+   "fact_refs": [
+    "us.test.fee"
+   ],
+   "topics": [
+    "health"
+   ],
+   "utterances": {
+    "es": [
+     "clínica cerca de mi casa"
+    ],
+    "en": [
+     "clinic near my home"
+    ],
+    "ht": [
+     "klinik toupre lakay mwen"
+    ]
+   },
+   "actions": [],
+   "needs_review": {
+    "es": false,
+    "en": false,
+    "ht": true
+   },
+   "region_pack": "us-fl-miamidade",
+   "immigration": false
+  }
+ ]
+}

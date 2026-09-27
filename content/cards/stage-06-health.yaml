@@ -1,0 +1,69 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: stage-06-health
+kind: stage
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Stages
+  item: 6. Health
+title:
+  es: Salud
+  en: Health
+  ht: Sante
+summary:
+  es: Tengo una clínica, no la sala de emergencias, para una fiebre.
+  en: I have a clinic, not the ER, for a fever.
+  ht: Mwen gen yon klinik, pa sal ijans, pou yon lafyèv.
+body:
+  es: |-
+    Lo principal es la ventanilla de la clínica.
+
+    Lo principal es la primera tarjeta de esa lista que aún no terminas. Cada familiar puede estar en una etapa distinta en la misma casa.
+  en: |-
+    The hero is the clinic desk.
+
+    The hero is the first card on that list you have not finished. Family members can be on different stages in the same house.
+  ht: |-
+    Premye bagay la se biwo klinik la.
+
+    Premye bagay la se premye kat nan lis sa a ou poko fini. Chak moun nan fanmi an ka nan yon etap diferan nan menm kay la.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- []
+desk: us.community-health-center
+utterances:
+  es:
+  - etapa de salud
+  - próximo paso para mi salud
+  - resolver lo del médico
+  - health próximo paso
+  en:
+  - health stage
+  - next step for my health
+  - sort out a doctor
+  - salud next step
+  ht:
+  - etap sante
+  - pwochen etap pou sante m
+  - jwenn yon doktè
+  - sante next step
+privacy_scope: person
+stages:
+- 6
+modes:
+- resident
+region_pack: us
+is_immigration: false
+hero_cards:
+- clinic-not-er
+- medical-bill
+fact_refs: []
+topics:
+- health

@@ -1,0 +1,23 @@
+{
+  "fact_id": "us-fl.license.document-buckets",
+  "outcome": "quote-missing",
+  "action": "The quoted sentence is gone. Find where the fact now lives (or whether it was removed); update quote/url by hand, or mark unsourced.",
+  "result": {
+    "fact_id": "us-fl.license.document-buckets",
+    "source_id": "us-fl.flhsmv-what-to-bring-nonimmigrant",
+    "kind": "static",
+    "status_before": "verified",
+    "outcome": "quote-missing",
+    "detail": "quote no longer found in the fetched text",
+    "snippet": "not verified, a denial of issuance letter will be mailed to the customer. 2. Proof of Social Security An original of one of the following documents with complete name",
+    "similarity": 0.54,
+    "observed": null,
+    "recorded": "1. Primary Identification ... 2. Proof of Social Security ... 3. Proofs of Residential Address",
+    "checked_url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/non-immigrant/",
+    "final_url": "https://www.flhsmv.gov/driver-licenses-id-cards/what-to-bring/non-immigrant/",
+    "consecutive_unreachable": 0,
+    "propose_stale": false
+  },
+  "run_started_at": "2026-09-25T17:38:48-04:00",
+  "auto_applied": false
+}

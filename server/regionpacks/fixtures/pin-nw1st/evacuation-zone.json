@@ -1,0 +1,1 @@
+{"displayFieldName":"ZONEID","fieldAliases":{"ZONEID":"ZONEID","CATEGORY":"CATEGORY"},"fields":[{"name":"ZONEID","type":"esriFieldTypeString","alias":"ZONEID","length":1},{"name":"CATEGORY","type":"esriFieldTypeSmallInteger","alias":"CATEGORY"}],"features":[{"attributes":{"ZONEID":"B","CATEGORY":2}}]}

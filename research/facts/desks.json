@@ -1,0 +1,4114 @@
+[
+ {
+  "id": "us-fl-miamidade.311.name",
+  "claim": "Name of desk us-fl-miamidade.311.",
+  "value": "Miami-Dade County 311 Contact Center",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-311-home",
+  "url": "https://www.miamidade.gov/global/311/home.page",
+  "quote": "Miami-Dade County's 311 Contact Center serves as a primary channel for accessing non-",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.311",
+  "topics": [
+   "desk",
+   "311"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.311.url",
+  "claim": "Url of desk us-fl-miamidade.311.",
+  "value": "https://www.miamidade.gov/global/311/home.page",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-311-home",
+  "url": "https://www.miamidade.gov/global/311/home.page",
+  "quote": "311 Contact Center",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.311",
+  "topics": [
+   "desk",
+   "311"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.311.address",
+  "claim": "Address of desk us-fl-miamidade.311 (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.311",
+  "notes": "311 is a phone and online service; the county page lists no walk-in address for it.",
+  "topics": [
+   "desk",
+   "311"
+  ]
+ },
+ {
+  "id": "us-fl-miami.311.name",
+  "claim": "Name of desk us-fl-miami.311.",
+  "value": "Miami-Dade 311 (City of Miami site footer: 'Dial 311 or 305-468-5900')",
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.com-solid-waste",
+  "url": "https://www.miami.gov/My-Government/Departments/Solid-Waste",
+  "quote": "Dial 311 or 305-468-5900",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miami.311",
+  "notes": "The City of Miami does not run a separate 311; its site footer points to the county 311 numbers. Desk handoff should use us-fl-miamidade.311 facts.",
+  "topics": [
+   "desk",
+   "311"
+  ]
+ },
+ {
+  "id": "us-fl-miami.311.url",
+  "claim": "Url of desk us-fl-miami.311 (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl-miami.311",
+  "notes": "The City of Miami routes 311 to Miami-Dade 311; use us-fl-miamidade.311.* for hours, languages and URL.",
+  "topics": [
+   "desk",
+   "311"
+  ]
+ },
+ {
+  "id": "us-fl-miami.311.address",
+  "claim": "Address of desk us-fl-miami.311 (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl-miami.311",
+  "notes": "The City of Miami routes 311 to Miami-Dade 311; use us-fl-miamidade.311.* for hours, languages and URL.",
+  "topics": [
+   "desk",
+   "311"
+  ]
+ },
+ {
+  "id": "us-fl-miami.311.hours",
+  "claim": "Hours of desk us-fl-miami.311 (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl-miami.311",
+  "notes": "The City of Miami routes 311 to Miami-Dade 311; use us-fl-miamidade.311.* for hours, languages and URL.",
+  "topics": [
+   "desk",
+   "311"
+  ]
+ },
+ {
+  "id": "us-fl-miami.311.languages",
+  "claim": "Languages of desk us-fl-miami.311 (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl-miami.311",
+  "notes": "The City of Miami routes 311 to Miami-Dade 311; use us-fl-miamidade.311.* for hours, languages and URL.",
+  "topics": [
+   "desk",
+   "311",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.dswm.name",
+  "claim": "Name of desk us-fl-miamidade.dswm.",
+  "value": "Miami-Dade County Department of Solid Waste Management (DSWM)",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-dswm-home",
+  "url": "https://www.miamidade.gov/global/solidwaste/home.page",
+  "quote": "Department of Solid Waste Management",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.dswm",
+  "notes": "Placeholder desk id kept (us-fl-miamidade.dswm); the county's own name is 'Department of Solid Waste Management'.",
+  "topics": [
+   "desk",
+   "trash"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.dswm.phone",
+  "claim": "Phone of desk us-fl-miamidade.dswm.",
+  "value": "311",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-dswm-home",
+  "url": "https://www.miamidade.gov/global/solidwaste/home.page",
+  "quote": "311 representatives are available to assist you with all County-related questions.",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us-fl-miamidade.dswm",
+  "notes": "DSWM sends residents to 311 for service requests. The office line 305-514-6666 is ledgered as .phone-office; billing is .phone-billing.",
+  "topics": [
+   "desk",
+   "trash"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.dswm.phone-office",
+  "claim": "Phone-office of desk us-fl-miamidade.dswm.",
+  "value": "305-514-6666",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-dswm-home",
+  "url": "https://www.miamidade.gov/global/solidwaste/home.page",
+  "quote": "2525 NW 62nd Street, 5th Floor Miami, FL 33147 305-514-6666",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us-fl-miamidade.dswm",
+  "topics": [
+   "desk",
+   "trash"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.dswm.address",
+  "claim": "Address of desk us-fl-miamidade.dswm.",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Miami-Dade County Department of Solid Waste Management (DSWM)",
+    "coordinate": {
+     "latitude": 25.831665,
+     "longitude": -80.239766
+    },
+    "address": "2525 NW 62nd Street, 5th Floor, Miami, FL 33147",
+    "language": "en"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-dswm-home",
+  "url": "https://www.miamidade.gov/global/solidwaste/home.page",
+  "quote": "Dr. Martin Luther King Office Plaza 2525 NW 62nd Street, 5th Floor Miami, FL 33147",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.dswm",
+  "topics": [
+   "desk",
+   "trash"
+  ],
+  "x-address-text": "2525 NW 62nd Street, 5th Floor, Miami, FL 33147",
+  "coordinate_source": "Miami-Dade County address locator (MD_Locator findAddressCandidates) PointAddress, score 100, matched '2525 NW 62ND ST, MIAMI, 33147', queried '2525 NW 62nd Street 33147' on 2026-09-25"
+ },
+ {
+  "id": "us-fl-miamidade.dswm.url",
+  "claim": "Url of desk us-fl-miamidade.dswm.",
+  "value": "https://www.miamidade.gov/global/solidwaste/home.page",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-dswm-home",
+  "url": "https://www.miamidade.gov/global/solidwaste/home.page",
+  "quote": "Department of Solid Waste Management",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.dswm",
+  "topics": [
+   "desk",
+   "trash"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.dswm.phone-billing",
+  "claim": "Phone-billing of desk us-fl-miamidade.dswm.",
+  "value": "305-594-1630",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-dswm-garbage-service",
+  "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464792744722367",
+  "quote": "Billing Unit at 305-594-1630.",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us-fl-miamidade.dswm",
+  "topics": [
+   "desk",
+   "trash"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.dswm.hours",
+  "claim": "Hours of desk us-fl-miamidade.dswm (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.dswm",
+  "notes": "DSWM's page gives no office hours or language list; 311 (us-fl-miamidade.311.hours/.languages) answers for DSWM.",
+  "topics": [
+   "desk",
+   "trash"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.dswm.languages",
+  "claim": "Languages of desk us-fl-miamidade.dswm (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl-miamidade.dswm",
+  "notes": "DSWM's page gives no office hours or language list; 311 (us-fl-miamidade.311.hours/.languages) answers for DSWM.",
+  "topics": [
+   "desk",
+   "trash",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.wasd.name",
+  "claim": "Name of desk us-fl-miamidade.wasd.",
+  "value": "Miami-Dade Water and Sewer Department (WASD)",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-wasd-home",
+  "url": "https://www.miamidade.gov/global/water/home.page",
+  "quote": "The Miami-Dade Water and Sewer Department (WASD) recognizes staff who demonstrate a strong commitment to ser",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.wasd",
+  "notes": "The county GIS water/sewer layers label the utility 'MDWS' with UTILITYURL http://www.miamidade.gov/water/, which redirects to this WASD home page. The county's own pages never spell out 'MDWS'; they use 'Water and Sewer Department (WASD)'. See us-fl-miamidade.utility.mdws-meaning.",
+  "topics": [
+   "desk",
+   "water"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.wasd.address",
+  "claim": "Address of desk us-fl-miamidade.wasd.",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Miami-Dade Water and Sewer Department (WASD)",
+    "coordinate": {
+     "latitude": 25.733223,
+     "longitude": -80.255349
+    },
+    "address": "3071 SW 38th Ave, Miami, FL 33146",
+    "language": "en"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-wasd-home",
+  "url": "https://www.miamidade.gov/global/water/home.page",
+  "quote": "Water and Sewer Douglas Office 3071 SW 38th Ave, Miami, FL 33146 305-665-7477",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.wasd",
+  "topics": [
+   "desk",
+   "water"
+  ],
+  "x-address-text": "3071 SW 38th Ave, Miami, FL 33146",
+  "coordinate_source": "Miami-Dade County address locator (MD_Locator findAddressCandidates) PointAddress, score 100, matched '3071 SW 38TH AVE, MIAMI, 33146', queried '3071 SW 38th Ave 33146' on 2026-09-25"
+ },
+ {
+  "id": "us-fl-miamidade.wasd.url",
+  "claim": "Url of desk us-fl-miamidade.wasd.",
+  "value": "https://www.miamidade.gov/global/water/home.page",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-wasd-home",
+  "url": "https://www.miamidade.gov/global/water/home.page",
+  "quote": "Water and Sewer Department",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.wasd",
+  "topics": [
+   "desk",
+   "water"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.wasd.hours",
+  "claim": "Hours of desk us-fl-miamidade.wasd (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.wasd",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "water"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.wasd.languages",
+  "claim": "Languages of desk us-fl-miamidade.wasd (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl-miamidade.wasd",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "water",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl-miami.solid-waste.name",
+  "claim": "Name of desk us-fl-miami.solid-waste.",
+  "value": "City of Miami Department of Solid Waste",
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.com-solid-waste",
+  "url": "https://www.miami.gov/My-Government/Departments/Solid-Waste",
+  "quote": "The City of Miami Department of Solid Waste provides garbage, bulky trash and recycling services.",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miami.solid-waste",
+  "notes": "Placeholder desk id kept (us-fl-miami.solid-waste).",
+  "topics": [
+   "desk",
+   "trash"
+  ]
+ },
+ {
+  "id": "us-fl-miami.solid-waste.phone",
+  "claim": "Phone of desk us-fl-miami.solid-waste.",
+  "value": "305-960-2801",
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.com-solid-waste",
+  "url": "https://www.miami.gov/My-Government/Departments/Solid-Waste",
+  "quote": "### Phone 305-960-2801",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us-fl-miami.solid-waste",
+  "topics": [
+   "desk",
+   "trash"
+  ]
+ },
+ {
+  "id": "us-fl-miami.solid-waste.address",
+  "claim": "Address of desk us-fl-miami.solid-waste.",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "City of Miami Department of Solid Waste",
+    "coordinate": {
+     "latitude": 25.794792,
+     "longitude": -80.216375
+    },
+    "address": "1290 NW 20th Street, Miami, FL 33142",
+    "language": "en"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.com-solid-waste",
+  "url": "https://www.miami.gov/My-Government/Departments/Solid-Waste",
+  "quote": "Department of Solid Waste 1290 N.W. 20th Street Miami 33142",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "place",
+  "desk": "us-fl-miami.solid-waste",
+  "topics": [
+   "desk",
+   "trash"
+  ],
+  "x-address-text": "1290 NW 20th Street, Miami, FL 33142",
+  "coordinate_source": "Miami-Dade County address locator (MD_Locator findAddressCandidates) PointAddress, score 100, matched '1290 NW 20TH ST, MIAMI, 33142', queried '1290 NW 20th Street 33142' on 2026-09-25"
+ },
+ {
+  "id": "us-fl-miami.solid-waste.hours",
+  "claim": "Hours of desk us-fl-miami.solid-waste.",
+  "value": "open every day of the year except Christmas Day and Martin Luther King, Jr. Day",
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.com-solid-waste",
+  "url": "https://www.miami.gov/My-Government/Departments/Solid-Waste",
+  "quote": "The department is open every day of the year other than Christmas Day and Martin Luther King, Jr. Day.",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "text",
+  "desk": "us-fl-miami.solid-waste",
+  "notes": "This is the service calendar, not phone-line hours.",
+  "topics": [
+   "desk",
+   "trash"
+  ],
+  "value_language": "en"
+ },
+ {
+  "id": "us-fl-miami.solid-waste.url",
+  "claim": "Url of desk us-fl-miami.solid-waste.",
+  "value": "https://www.miami.gov/My-Government/Departments/Solid-Waste",
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.com-solid-waste",
+  "url": "https://www.miami.gov/My-Government/Departments/Solid-Waste",
+  "quote": "# Solid Waste",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miami.solid-waste",
+  "topics": [
+   "desk",
+   "trash"
+  ]
+ },
+ {
+  "id": "us-fl-miami.solid-waste.languages",
+  "claim": "Languages of desk us-fl-miami.solid-waste (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl-miami.solid-waste",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "trash",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.m-dcps.name",
+  "claim": "Name of desk us-fl-miamidade.m-dcps.",
+  "value": "Miami-Dade County Public Schools (M-DCPS)",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.nces-ccd-mdcps",
+  "url": "https://nces.ed.gov/ccd/districtsearch/district_detail.asp?ID2=1200390&Search=2",
+  "quote": "District Name: MIAMI-DADE (Schools in this District) NCES Distric",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.m-dcps",
+  "notes": "Placeholder desk id kept (us-fl-miamidade.m-dcps).",
+  "topics": [
+   "desk",
+   "schools"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.m-dcps.phone",
+  "claim": "Phone of desk us-fl-miamidade.m-dcps.",
+  "value": "305-995-1000",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.nces-ccd-mdcps",
+  "url": "https://nces.ed.gov/ccd/districtsearch/district_detail.asp?ID2=1200390&Search=2",
+  "quote": "Phone: (305)995-1000",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us-fl-miamidade.m-dcps",
+  "topics": [
+   "desk",
+   "schools"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.m-dcps.address",
+  "claim": "Address of desk us-fl-miamidade.m-dcps.",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Miami-Dade County Public Schools (M-DCPS)",
+    "coordinate": {
+     "latitude": 25.78905,
+     "longitude": -80.191026
+    },
+    "address": "1450 NE 2nd Ave #912, Miami, FL 33132",
+    "language": "en"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.nces-ccd-mdcps",
+  "url": "https://nces.ed.gov/ccd/districtsearch/district_detail.asp?ID2=1200390&Search=2",
+  "quote": "Physical Address: 1450 NE 2nd Ave # 912 Miami FL, 33132",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.m-dcps",
+  "topics": [
+   "desk",
+   "schools"
+  ],
+  "x-address-text": "1450 NE 2nd Ave #912, Miami, FL 33132",
+  "coordinate_source": "Miami-Dade County address locator (MD_Locator findAddressCandidates) PointAddress, score 100, matched '1450 NE 2ND AVE, MIAMI, 33132', queried '1450 NE 2nd Ave 33132' on 2026-09-25"
+ },
+ {
+  "id": "us-fl-miamidade.m-dcps.url",
+  "claim": "Url of desk us-fl-miamidade.m-dcps.",
+  "value": "https://www.dadeschools.net/",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.nces-ccd-mdcps",
+  "url": "https://nces.ed.gov/ccd/districtsearch/district_detail.asp?ID2=1200390&Search=2",
+  "quote": "District Name: MIAMI-DADE",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.m-dcps",
+  "notes": "URL is the district's domain (fetched 200 but JavaScript-only). Quote is from the NCES record naming the district.",
+  "topics": [
+   "desk",
+   "schools"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.m-dcps.phone-registration",
+  "claim": "Phone-registration of desk us-fl-miamidade.m-dcps.",
+  "value": "305-883-5323",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdcps-initial-entry-handbook-2024",
+  "url": "https://api.dadeschools.net/WMSFiles/59/Registration/Handbooks/2024-2025%20Initial%20Entry%20Registration%20Procedures%20Handbook-11012024.pdf",
+  "quote": "For assistance with implementing the registration procedures, please visit the Federal and State Compliance Office website at attendanceservices.dadeschools.net or call (305) 883-5323",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us-fl-miamidade.m-dcps",
+  "notes": "Federal and State Compliance Office (FASCO), the registration office.",
+  "topics": [
+   "desk",
+   "schools"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.m-dcps.hours",
+  "claim": "Hours of desk us-fl-miamidade.m-dcps (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.m-dcps",
+  "notes": "Not on the NCES record; dadeschools.net is JavaScript-only from the box.",
+  "topics": [
+   "desk",
+   "schools"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.m-dcps.languages",
+  "claim": "Languages of desk us-fl-miamidade.m-dcps (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl-miamidade.m-dcps",
+  "notes": "Not on the NCES record; dadeschools.net is JavaScript-only from the box.",
+  "topics": [
+   "desk",
+   "schools",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.property-appraiser.name",
+  "claim": "Name of desk us-fl-miamidade.property-appraiser.",
+  "value": "Property Appraiser of Miami-Dade County",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-pa-home",
+  "url": "https://www.miamidadepa.gov/pa/home.page",
+  "quote": "Property Appraiser of Miami-Dade County Home Page",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.property-appraiser",
+  "notes": "Placeholder desk id kept.",
+  "topics": [
+   "desk",
+   "parcel"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.property-appraiser.phone",
+  "claim": "Phone of desk us-fl-miamidade.property-appraiser.",
+  "value": "305-375-4712",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-pa-home",
+  "url": "https://www.miamidadepa.gov/pa/home.page",
+  "quote": "Public Service: 305-375-4712 (TTY: 711)",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us-fl-miamidade.property-appraiser",
+  "topics": [
+   "desk",
+   "parcel"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.property-appraiser.address",
+  "claim": "Address of desk us-fl-miamidade.property-appraiser.",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Property Appraiser of Miami-Dade County",
+    "coordinate": {
+     "latitude": 25.775604,
+     "longitude": -80.196669
+    },
+    "address": "Stephen P. Clark Center, 111 NW 1st Street, Suite 710, Miami, FL 33128",
+    "language": "en"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-pa-home",
+  "url": "https://www.miamidadepa.gov/pa/home.page",
+  "quote": "Stephen P. Clark Center 📍 111 NW 1st Street, Suite 710, Miami, FL 33128",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.property-appraiser",
+  "topics": [
+   "desk",
+   "parcel"
+  ],
+  "x-address-text": "Stephen P. Clark Center, 111 NW 1st Street, Suite 710, Miami, FL 33128",
+  "coordinate_source": "Miami-Dade County address locator (MD_Locator findAddressCandidates) PointAddress, score 100, matched '111 NW 1ST ST, MIAMI, 33128', queried '111 NW 1st Street 33128' on 2026-09-25"
+ },
+ {
+  "id": "us-fl-miamidade.property-appraiser.hours",
+  "claim": "Hours of desk us-fl-miamidade.property-appraiser.",
+  "value": "Monday–Friday 8:00 AM–5:00 PM",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-pa-home",
+  "url": "https://www.miamidadepa.gov/pa/home.page",
+  "quote": "Monday – Friday, 8:00 AM – 5:00 PM",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.property-appraiser",
+  "topics": [
+   "desk",
+   "parcel"
+  ],
+  "value_language": "en"
+ },
+ {
+  "id": "us-fl-miamidade.property-appraiser.url",
+  "claim": "Url of desk us-fl-miamidade.property-appraiser.",
+  "value": "https://www.miamidadepa.gov/pa/home.page",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-pa-home",
+  "url": "https://www.miamidadepa.gov/pa/home.page",
+  "quote": "Property Appraiser of Miami-Dade County Home Page",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.property-appraiser",
+  "topics": [
+   "desk",
+   "parcel"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.property-appraiser.languages",
+  "claim": "Languages of desk us-fl-miamidade.property-appraiser (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl-miamidade.property-appraiser",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "parcel",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.elections.name",
+  "claim": "Name of desk us-fl-miamidade.elections.",
+  "value": "Office of the Supervisor of Elections of Miami-Dade County",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-elections-home",
+  "url": "https://www.votemiamidade.gov/elections/home.page",
+  "quote": "Office of the Supervisor of Elections of Miami-Dade County",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.elections",
+  "topics": [
+   "desk",
+   "voting"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.elections.phone",
+  "claim": "Phone of desk us-fl-miamidade.elections.",
+  "value": "305-499-8683",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-elections-home",
+  "url": "https://www.votemiamidade.gov/elections/home.page",
+  "quote": "Phone: 305-499-VOTE (8683)",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us-fl-miamidade.elections",
+  "topics": [
+   "desk",
+   "voting"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.elections.address",
+  "claim": "Address of desk us-fl-miamidade.elections.",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Office of the Supervisor of Elections of Miami-Dade County",
+    "coordinate": {
+     "latitude": 25.800255,
+     "longitude": -80.338703
+    },
+    "address": "2700 NW 87th Avenue, Miami, FL 33172",
+    "language": "en"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-elections-home",
+  "url": "https://www.votemiamidade.gov/elections/home.page",
+  "quote": "Office of the Supervisor of Elections 2700 NW 87th Avenue Miami, Florida 33172",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.elections",
+  "topics": [
+   "desk",
+   "voting"
+  ],
+  "x-address-text": "2700 NW 87th Avenue, Miami, FL 33172",
+  "coordinate_source": "Miami-Dade County address locator (MD_Locator findAddressCandidates) PointAddress, score 100, matched '2700 NW 87TH AVE, DORAL, 33172', queried '2700 NW 87th Avenue 33172' on 2026-09-25"
+ },
+ {
+  "id": "us-fl-miamidade.elections.url",
+  "claim": "Url of desk us-fl-miamidade.elections.",
+  "value": "https://www.votemiamidade.gov/elections/home.page",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-elections-home",
+  "url": "https://www.votemiamidade.gov/elections/home.page",
+  "quote": "Office of the Supervisor of Elections of Miami-Dade County",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.elections",
+  "topics": [
+   "desk",
+   "voting"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.elections.hours",
+  "claim": "Hours of desk us-fl-miamidade.elections (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.elections",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "voting"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.elections.languages",
+  "claim": "Languages of desk us-fl-miamidade.elections (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl-miamidade.elections",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "voting",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.parks.name",
+  "claim": "Name of desk us-fl-miamidade.parks.",
+  "value": "Miami-Dade County Parks, Recreation and Open Spaces",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-parks-home",
+  "url": "https://www.miamidade.gov/global/recreation/home.page",
+  "quote": "Parks, Recreation and Open Spaces",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.parks",
+  "topics": [
+   "desk",
+   "parks"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.parks.phone",
+  "claim": "Phone of desk us-fl-miamidade.parks.",
+  "value": "305-755-7800",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-parks-home",
+  "url": "https://www.miamidade.gov/global/recreation/home.page",
+  "quote": "Hickman Building 275 NW 2nd Street, Miami, FL 33128 305-755-7800",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us-fl-miamidade.parks",
+  "topics": [
+   "desk",
+   "parks"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.parks.address",
+  "claim": "Address of desk us-fl-miamidade.parks.",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Miami-Dade County Parks, Recreation and Open Spaces",
+    "coordinate": {
+     "latitude": 25.77645,
+     "longitude": -80.199036
+    },
+    "address": "Hickman Building, 275 NW 2nd Street, Miami, FL 33128",
+    "language": "en"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-parks-home",
+  "url": "https://www.miamidade.gov/global/recreation/home.page",
+  "quote": "Hickman Building 275 NW 2nd Street, Miami, FL 33128",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.parks",
+  "topics": [
+   "desk",
+   "parks"
+  ],
+  "x-address-text": "Hickman Building, 275 NW 2nd Street, Miami, FL 33128",
+  "coordinate_source": "Miami-Dade County address locator (MD_Locator findAddressCandidates) PointAddress, score 100, matched '275 NW 2ND ST, MIAMI, 33128', queried '275 NW 2nd Street 33128' on 2026-09-25"
+ },
+ {
+  "id": "us-fl-miamidade.parks.url",
+  "claim": "Url of desk us-fl-miamidade.parks.",
+  "value": "https://www.miamidade.gov/global/recreation/home.page",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-parks-home",
+  "url": "https://www.miamidade.gov/global/recreation/home.page",
+  "quote": "Parks, Recreation and Open Spaces",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.parks",
+  "topics": [
+   "desk",
+   "parks"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.parks.hours",
+  "claim": "Hours of desk us-fl-miamidade.parks (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.parks",
+  "notes": "Park-level phones come from the parks lookup (PHONE field); the department page lists no hours or languages.",
+  "topics": [
+   "desk",
+   "parks"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.parks.languages",
+  "claim": "Languages of desk us-fl-miamidade.parks (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl-miamidade.parks",
+  "notes": "Park-level phones come from the parks lookup (PHONE field); the department page lists no hours or languages.",
+  "topics": [
+   "desk",
+   "parks",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.library.name",
+  "claim": "Name of desk us-fl-miamidade.library.",
+  "value": "Miami-Dade Public Library System",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdpls-contact",
+  "url": "https://www.mdpls.org/contact-us",
+  "quote": "Contact Us - Miami-Dade Public Library System",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.library",
+  "topics": [
+   "desk",
+   "libraries"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.library.phone",
+  "claim": "Phone of desk us-fl-miamidade.library.",
+  "value": "305-375-2665",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdpls-contact",
+  "url": "https://www.mdpls.org/contact-us",
+  "quote": "org Call Us If you need further assistance using the Miami-Dade Public Library, please call us directly at 305-375-2665",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us-fl-miamidade.library",
+  "topics": [
+   "desk",
+   "libraries"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.library.url",
+  "claim": "Url of desk us-fl-miamidade.library.",
+  "value": "https://www.mdpls.org/",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdpls-contact",
+  "url": "https://www.mdpls.org/contact-us",
+  "quote": "Contact Us - Miami-Dade Public Library System",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.library",
+  "topics": [
+   "desk",
+   "libraries"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.library.address",
+  "claim": "Address of desk us-fl-miamidade.library (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.library",
+  "notes": "Branch addresses and hours come from the library lookup; the contact page lists none system-wide.",
+  "topics": [
+   "desk",
+   "libraries"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.library.hours",
+  "claim": "Hours of desk us-fl-miamidade.library (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.library",
+  "notes": "Branch addresses and hours come from the library lookup; the contact page lists none system-wide.",
+  "topics": [
+   "desk",
+   "libraries"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.library.languages",
+  "claim": "Languages of desk us-fl-miamidade.library (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl-miamidade.library",
+  "notes": "Branch addresses and hours come from the library lookup; the contact page lists none system-wide.",
+  "topics": [
+   "desk",
+   "libraries",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.transit.name",
+  "claim": "Name of desk us-fl-miamidade.transit.",
+  "value": "Miami-Dade Department of Transportation and Public Works (DTPW)",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-dtpw-home",
+  "url": "https://www.miamidade.gov/global/transportation/home.page",
+  "quote": "The Department of Transportation and Public Works (DTPW)",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.transit",
+  "topics": [
+   "desk",
+   "transit"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.transit.phone",
+  "claim": "Phone of desk us-fl-miamidade.transit.",
+  "value": "786-469-5675",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-dtpw-home",
+  "url": "https://www.miamidade.gov/global/transportation/home.page",
+  "quote": "701 NW 1st Court, Suite 1700 Miami, FL 33136 786-469-5675",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us-fl-miamidade.transit",
+  "notes": "Department office line from the page footer. Rider questions also go to 311.",
+  "topics": [
+   "desk",
+   "transit"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.transit.address",
+  "claim": "Address of desk us-fl-miamidade.transit.",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Miami-Dade Department of Transportation and Public Works (DTPW)",
+    "coordinate": {
+     "latitude": 25.78131,
+     "longitude": -80.196642
+    },
+    "address": "Overtown Transit Village North, 701 NW 1st Court, Suite 1700, Miami, FL 33136",
+    "language": "en"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-dtpw-home",
+  "url": "https://www.miamidade.gov/global/transportation/home.page",
+  "quote": "Overtown Transit Village North 701 NW 1st Court, Suite 1700 Miami, FL 33136",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.transit",
+  "topics": [
+   "desk",
+   "transit"
+  ],
+  "x-address-text": "Overtown Transit Village North, 701 NW 1st Court, Suite 1700, Miami, FL 33136",
+  "coordinate_source": "Miami-Dade County address locator (MD_Locator findAddressCandidates) PointAddress, score 100, matched '701 NW 1ST CT, MIAMI, 33136', queried '701 NW 1st Court 33136' on 2026-09-25"
+ },
+ {
+  "id": "us-fl-miamidade.transit.url",
+  "claim": "Url of desk us-fl-miamidade.transit.",
+  "value": "https://www.miamidade.gov/global/transportation/home.page",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-dtpw-home",
+  "url": "https://www.miamidade.gov/global/transportation/home.page",
+  "quote": "Transportation & Public Works",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.transit",
+  "topics": [
+   "desk",
+   "transit"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.transit.hours",
+  "claim": "Hours of desk us-fl-miamidade.transit (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.transit",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "transit"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.transit.languages",
+  "claim": "Languages of desk us-fl-miamidade.transit (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl-miamidade.transit",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "transit",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.housing.name",
+  "claim": "Name of desk us-fl-miamidade.housing.",
+  "value": "Miami-Dade County Department of Housing and Community Development (HCD)",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-hcd-home",
+  "url": "https://www.miamidade.gov/global/housing/home.page",
+  "quote": "Housing and Community Development",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.housing",
+  "topics": [
+   "desk",
+   "rent"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.housing.phone",
+  "claim": "Phone of desk us-fl-miamidade.housing.",
+  "value": "786-469-4100",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-hcd-home",
+  "url": "https://www.miamidade.gov/global/housing/home.page",
+  "quote": "701 NW 1st Court, 16th Floor Miami, FL 33136 786-469-4100",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us-fl-miamidade.housing",
+  "topics": [
+   "desk",
+   "rent"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.housing.address",
+  "claim": "Address of desk us-fl-miamidade.housing.",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Miami-Dade County Department of Housing and Community Development (HCD)",
+    "coordinate": {
+     "latitude": 25.78131,
+     "longitude": -80.196642
+    },
+    "address": "701 NW 1st Court, 16th Floor, Miami, FL 33136",
+    "language": "en"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-hcd-home",
+  "url": "https://www.miamidade.gov/global/housing/home.page",
+  "quote": "Overtown Transit Village North 701 NW 1st Court, 16th Floor Miami, FL 33136",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.housing",
+  "topics": [
+   "desk",
+   "rent"
+  ],
+  "x-address-text": "701 NW 1st Court, 16th Floor, Miami, FL 33136",
+  "coordinate_source": "Miami-Dade County address locator (MD_Locator findAddressCandidates) PointAddress, score 100, matched '701 NW 1ST CT, MIAMI, 33136', queried '701 NW 1st Court 33136' on 2026-09-25"
+ },
+ {
+  "id": "us-fl-miamidade.housing.url",
+  "claim": "Url of desk us-fl-miamidade.housing.",
+  "value": "https://www.miamidade.gov/global/housing/home.page",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-hcd-home",
+  "url": "https://www.miamidade.gov/global/housing/home.page",
+  "quote": "Housing and Community Development",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.housing",
+  "topics": [
+   "desk",
+   "rent"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.housing.hours",
+  "claim": "Hours of desk us-fl-miamidade.housing (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.housing",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "rent"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.housing.languages",
+  "claim": "Languages of desk us-fl-miamidade.housing (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl-miamidade.housing",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "rent",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl-miami.housing.name",
+  "claim": "Name of desk us-fl-miami.housing.",
+  "value": "City of Miami Department of Housing & Community Development",
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.com-hcd",
+  "url": "https://www.miami.gov/My-Government/Departments/Housing-Community-Development",
+  "quote": "The Department of Housing & Community Development coordinates programs",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miami.housing",
+  "topics": [
+   "desk",
+   "rent"
+  ]
+ },
+ {
+  "id": "us-fl-miami.housing.phone",
+  "claim": "Phone of desk us-fl-miami.housing.",
+  "value": "305-416-2080",
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.com-hcd",
+  "url": "https://www.miami.gov/My-Government/Departments/Housing-Community-Development",
+  "quote": "### Phone 305 416 2080",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us-fl-miami.housing",
+  "topics": [
+   "desk",
+   "rent"
+  ]
+ },
+ {
+  "id": "us-fl-miami.housing.address",
+  "claim": "Address of desk us-fl-miami.housing.",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "City of Miami Department of Housing & Community Development",
+    "coordinate": {
+     "latitude": 25.770366,
+     "longitude": -80.198384
+    },
+    "address": "City of Miami MRC Building, 444 SW 2nd Avenue, Miami, FL 33130",
+    "language": "en"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.com-hcd",
+  "url": "https://www.miami.gov/My-Government/Departments/Housing-Community-Development",
+  "quote": "City of Miami MRC Building 444 SW 2 Avenue Miami 33130",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "place",
+  "desk": "us-fl-miami.housing",
+  "topics": [
+   "desk",
+   "rent"
+  ],
+  "x-address-text": "City of Miami MRC Building, 444 SW 2nd Avenue, Miami, FL 33130",
+  "coordinate_source": "Miami-Dade County address locator (MD_Locator findAddressCandidates) PointAddress, score 100, matched '444 SW 2ND AVE, MIAMI, 33130', queried '444 SW 2nd Avenue 33130' on 2026-09-25"
+ },
+ {
+  "id": "us-fl-miami.housing.hours",
+  "claim": "Hours of desk us-fl-miami.housing.",
+  "value": "Monday–Friday 8:00 AM–5:00 PM; closed Saturday and Sunday",
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.com-hcd",
+  "url": "https://www.miami.gov/My-Government/Departments/Housing-Community-Development",
+  "quote": "### Hours * Sunday Closed * Monday 08:00 AM–05:00 PM * Tuesday 08:00 AM–05:00 PM * Wednesday 08:00 AM–05:00 PM * Thursday 08:00 AM–05:00 PM * Friday 08:00 AM–05:00 PM * Saturday Closed",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "text",
+  "desk": "us-fl-miami.housing",
+  "topics": [
+   "desk",
+   "rent"
+  ],
+  "value_language": "en"
+ },
+ {
+  "id": "us-fl-miami.housing.url",
+  "claim": "Url of desk us-fl-miami.housing.",
+  "value": "https://www.miami.gov/My-Government/Departments/Housing-Community-Development",
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.com-hcd",
+  "url": "https://www.miami.gov/My-Government/Departments/Housing-Community-Development",
+  "quote": "# Housing & Community Development",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miami.housing",
+  "topics": [
+   "desk",
+   "rent"
+  ]
+ },
+ {
+  "id": "us-fl-miami.housing.languages",
+  "claim": "Languages of desk us-fl-miami.housing (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl-miami.housing",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "rent",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.tax-collector.name",
+  "claim": "Name of desk us-fl-miamidade.tax-collector.",
+  "value": "Miami-Dade County Office of the Tax Collector",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-tax-collector-locations",
+  "url": "https://www.mdctaxcollector.gov/locations",
+  "quote": "Miami-Dade County Office of The Tax Collector",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.tax-collector",
+  "topics": [
+   "desk",
+   "license"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.tax-collector.address",
+  "claim": "Address of desk us-fl-miamidade.tax-collector.",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Miami-Dade County Office of the Tax Collector",
+    "coordinate": {
+     "latitude": 25.776594,
+     "longitude": -80.198069
+    },
+    "address": "200 NW 2nd Ave, Miami, FL 33128",
+    "language": "en"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-tax-collector-locations",
+  "url": "https://www.mdctaxcollector.gov/locations",
+  "quote": "200 NW 2nd Ave, Miami, FL 33128",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.tax-collector",
+  "notes": "Downtown office. Driver-license services only at transitioned offices; see us-fl-miamidade.license.*.",
+  "topics": [
+   "desk",
+   "license"
+  ],
+  "x-address-text": "200 NW 2nd Ave, Miami, FL 33128",
+  "coordinate_source": "Miami-Dade County address locator (MD_Locator findAddressCandidates) PointAddress, score 100, matched '200 NW 2ND AVE, MIAMI, 33128', queried '200 NW 2nd Ave 33128' on 2026-09-25"
+ },
+ {
+  "id": "us-fl-miamidade.tax-collector.url",
+  "claim": "Url of desk us-fl-miamidade.tax-collector.",
+  "value": "https://www.mdctaxcollector.gov/",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-tax-collector-locations",
+  "url": "https://www.mdctaxcollector.gov/locations",
+  "quote": "Miami-Dade County Office of The Tax Collector",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.tax-collector",
+  "topics": [
+   "desk",
+   "license"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.tax-collector.languages",
+  "claim": "Languages of desk us-fl-miamidade.tax-collector (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl-miamidade.tax-collector",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "license",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl.flhsmv.name",
+  "claim": "Name of desk us-fl.flhsmv.",
+  "value": "Florida Department of Highway Safety and Motor Vehicles (FLHSMV)",
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.flhsmv-contact",
+  "url": "https://www.flhsmv.gov/contact-us/",
+  "quote": "Contact Us - Florida Department of Highway Safety and Motor Vehicles",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl.flhsmv",
+  "topics": [
+   "desk",
+   "license"
+  ]
+ },
+ {
+  "id": "us-fl.flhsmv.hours",
+  "claim": "Hours of desk us-fl.flhsmv.",
+  "value": "Monday–Friday 8:00 a.m.–5:00 p.m. ET (Customer Service Center)",
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.flhsmv-contact",
+  "url": "https://www.flhsmv.gov/contact-us/",
+  "quote": "Customer Service Center representatives are available Monday – Friday, 8:00 a.m. – 5:00 p.m., (EST) at 850-617-2000",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "text",
+  "desk": "us-fl.flhsmv",
+  "topics": [
+   "desk",
+   "license"
+  ],
+  "value_language": "en"
+ },
+ {
+  "id": "us-fl.flhsmv.url",
+  "claim": "Url of desk us-fl.flhsmv.",
+  "value": "https://www.flhsmv.gov/",
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.flhsmv-contact",
+  "url": "https://www.flhsmv.gov/contact-us/",
+  "quote": "Contact Us - Florida Department of Highway Safety and Motor Vehicles",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl.flhsmv",
+  "topics": [
+   "desk",
+   "license"
+  ]
+ },
+ {
+  "id": "us-fl.flhsmv.address",
+  "claim": "Address of desk us-fl.flhsmv (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl.flhsmv",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "license"
+  ]
+ },
+ {
+  "id": "us-fl.flhsmv.languages",
+  "claim": "Languages of desk us-fl.flhsmv (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl.flhsmv",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "license",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.gmx.name",
+  "claim": "Name of desk us-fl-miamidade.gmx.",
+  "value": "Greater Miami Expressway Agency (GMX)",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gmx-toll-rate-schedule-pdf",
+  "url": "https://gmx-way.com/pdf/Toll_Rate_Schedule.pdf",
+  "quote": "GREATER MIAMI EXPRESSWAY AGENCY",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.gmx",
+  "notes": "Name as printed on the GMX toll rate schedule header.",
+  "topics": [
+   "desk",
+   "tolls"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.gmx.hours",
+  "claim": "GMX customer service hours.",
+  "value": "Monday–Friday 8:00am–5:00pm; closed Saturday and Sunday",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gmx-toll-inquiries",
+  "url": "https://gmx-way.com/help/toll-inquiries",
+  "quote": "305.637.3277 info@gmx-way.com Mon - Fri 8:00am - 5:00pm, Saturday & Sunday - Closed",
+  "retrieved_at": "2026-09-25T17:24:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.gmx",
+  "topics": [
+   "desk",
+   "tolls"
+  ],
+  "value_language": "en"
+ },
+ {
+  "id": "us-fl-miamidade.gmx.url",
+  "claim": "GMX toll inquiries page.",
+  "value": "https://gmx-way.com/help/toll-inquiries",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gmx-toll-inquiries",
+  "url": "https://gmx-way.com/help/toll-inquiries",
+  "quote": "305.637.3277 info@gmx-way.com Mon - Fri 8:00am - 5:00pm, Saturday & Sunday - Closed",
+  "retrieved_at": "2026-09-25T17:24:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.gmx",
+  "topics": [
+   "desk",
+   "tolls"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.gmx.address",
+  "claim": "Address of desk us-fl-miamidade.gmx (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.gmx",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "tolls"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.gmx.languages",
+  "claim": "Languages of desk us-fl-miamidade.gmx (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl-miamidade.gmx",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "tolls",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.211.name",
+  "claim": "Name of desk us-fl-miamidade.211.",
+  "value": "211 Miami",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.211-miami",
+  "url": "https://211miami.org/",
+  "quote": "211 Miami | Confidential Helpline",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.211",
+  "topics": [
+   "desk",
+   "211"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.211.url",
+  "claim": "Url of desk us-fl-miamidade.211.",
+  "value": "https://211miami.org/",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.211-miami",
+  "url": "https://211miami.org/",
+  "quote": "211 Miami | Confidential Helpline",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.211",
+  "topics": [
+   "desk",
+   "211"
+  ]
+ },
+ {
+  "id": "us.988.name",
+  "claim": "Name of desk us.988.",
+  "value": "988 Suicide & Crisis Lifeline",
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "us.988-lifeline",
+  "url": "https://988lifeline.org/",
+  "quote": "988 Lifeline - If you need emotional support",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us.988",
+  "topics": [
+   "desk",
+   "911"
+  ]
+ },
+ {
+  "id": "us.988.url",
+  "claim": "Url of desk us.988.",
+  "value": "https://988lifeline.org/",
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "us.988-lifeline",
+  "url": "https://988lifeline.org/",
+  "quote": "988 Lifeline - If you need emotional support",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us.988",
+  "topics": [
+   "desk",
+   "911"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.legal-aid.name",
+  "claim": "Name of desk us-fl-miamidade.lsgmi.",
+  "value": "Legal Services of Greater Miami",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.lsgmi-home",
+  "url": "https://www.legalservicesmiami.org/",
+  "quote": "Legal Services of Greater Miami",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.legal-aid",
+  "topics": [
+   "desk",
+   "legal-aid"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.legal-aid.url",
+  "claim": "Url of desk us-fl-miamidade.lsgmi.",
+  "value": "https://www.legalservicesmiami.org/",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.lsgmi-home",
+  "url": "https://www.legalservicesmiami.org/",
+  "quote": "Legal Services of Greater Miami",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.legal-aid",
+  "topics": [
+   "desk",
+   "legal-aid"
+  ]
+ },
+ {
+  "id": "us-fl.florida-bar-lrs.name",
+  "claim": "Name of desk us-fl.florida-bar-lrs.",
+  "value": "The Florida Bar Lawyer Referral Service",
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.florida-bar-lrs",
+  "url": "https://www.floridabar.org/public/lrs/",
+  "quote": "The Florida Bar Lawyer Referral Service",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl.florida-bar-lrs",
+  "topics": [
+   "desk",
+   "legal-aid"
+  ]
+ },
+ {
+  "id": "us-fl.florida-bar-lrs.url",
+  "claim": "Url of desk us-fl.florida-bar-lrs.",
+  "value": "https://www.floridabar.org/public/lrs/",
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.florida-bar-lrs",
+  "url": "https://www.floridabar.org/public/lrs/",
+  "quote": "The Florida Bar Lawyer Referral Service",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl.florida-bar-lrs",
+  "topics": [
+   "desk",
+   "legal-aid"
+  ]
+ },
+ {
+  "id": "us.uscis.name",
+  "claim": "Name of desk us.uscis.",
+  "value": "USCIS Contact Center",
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "us.uscis-contact-center",
+  "url": "https://www.uscis.gov/contactcenter",
+  "quote": "USCIS Contact Center | USCIS",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us.uscis",
+  "topics": [
+   "desk",
+   "immigration"
+  ]
+ },
+ {
+  "id": "us.uscis.url",
+  "claim": "Url of desk us.uscis.",
+  "value": "https://www.uscis.gov/contactcenter",
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "us.uscis-contact-center",
+  "url": "https://www.uscis.gov/contactcenter",
+  "quote": "USCIS Contact Center | USCIS",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us.uscis",
+  "topics": [
+   "desk",
+   "immigration"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.homeless-trust.name",
+  "claim": "Name of desk us-fl-miamidade.homeless-trust.",
+  "value": "Miami-Dade County Homeless Trust",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-homeless-trust",
+  "url": "https://www.homelesstrust.org/homeless-trust/home.page",
+  "quote": "Miami-Dade County Homeless Trust",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.homeless-trust",
+  "topics": [
+   "desk",
+   "shelter"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.homeless-trust.url",
+  "claim": "Url of desk us-fl-miamidade.homeless-trust.",
+  "value": "https://www.homelesstrust.org/homeless-trust/home.page",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-homeless-trust",
+  "url": "https://www.homelesstrust.org/homeless-trust/home.page",
+  "quote": "Miami-Dade County Homeless Trust",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.homeless-trust",
+  "topics": [
+   "desk",
+   "shelter"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.jackson.name",
+  "claim": "Name of desk us-fl-miamidade.jackson.",
+  "value": "Jackson Health System",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.jackson-health",
+  "url": "https://jacksonhealth.org/",
+  "quote": "Jackson Health System | World-Class Care",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.jackson",
+  "topics": [
+   "desk",
+   "health"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.jackson.url",
+  "claim": "Url of desk us-fl-miamidade.jackson.",
+  "value": "https://jacksonhealth.org/",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.jackson-health",
+  "url": "https://jacksonhealth.org/",
+  "quote": "Jackson Health System | World-Class Care",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.jackson",
+  "topics": [
+   "desk",
+   "health"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.sheriff.name",
+  "claim": "Name of desk us-fl-miamidade.sheriff.",
+  "value": "Miami-Dade Sheriff's Office",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdso-home",
+  "url": "https://www.mdso.com/",
+  "quote": "Miami-Dade Sheriff's Office",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.sheriff",
+  "topics": [
+   "desk",
+   "police"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.sheriff.url",
+  "claim": "Url of desk us-fl-miamidade.sheriff.",
+  "value": "https://www.mdso.com/",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdso-home",
+  "url": "https://www.mdso.com/",
+  "quote": "Miami-Dade Sheriff's Office",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miamidade.sheriff",
+  "topics": [
+   "desk",
+   "police"
+  ]
+ },
+ {
+  "id": "us-fl-miami.police.name",
+  "claim": "Name of desk us-fl-miami.police.",
+  "value": "City of Miami Police Department",
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.miami-police-contact",
+  "url": "https://www.miami-police.org/contact.html",
+  "quote": "City of Miami Police Department",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miami.police",
+  "topics": [
+   "desk",
+   "police"
+  ]
+ },
+ {
+  "id": "us-fl-miami.police.url",
+  "claim": "Url of desk us-fl-miami.police.",
+  "value": "https://www.miami-police.org/contact.html",
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.miami-police-contact",
+  "url": "https://www.miami-police.org/contact.html",
+  "quote": "City of Miami Police Department",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl-miami.police",
+  "topics": [
+   "desk",
+   "police"
+  ]
+ },
+ {
+  "id": "us.poison-control.name",
+  "claim": "Name of desk us.poison-control.",
+  "value": "Poison Control (National Capital Poison Center)",
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "us.poison-control",
+  "url": "https://www.poison.org/",
+  "quote": "Poison Control | Your trusted resource",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us.poison-control",
+  "topics": [
+   "desk",
+   "911"
+  ]
+ },
+ {
+  "id": "us.poison-control.url",
+  "claim": "Url of desk us.poison-control.",
+  "value": "https://www.poison.org/",
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "us.poison-control",
+  "url": "https://www.poison.org/",
+  "quote": "Poison Control | Your trusted resource",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us.poison-control",
+  "topics": [
+   "desk",
+   "911"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.legal-aid.address",
+  "claim": "Address of desk us-fl-miamidade.lsgmi.",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Legal Services of Greater Miami",
+    "coordinate": {
+     "latitude": 25.771905,
+     "longitude": -80.266622
+    },
+    "address": "4343 West Flagler Street, Suite 100, Miami, FL 33134",
+    "language": "en"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.lsgmi-home",
+  "url": "https://www.legalservicesmiami.org/",
+  "quote": "4343 West Flagler Street, Suite 100, Miami, Florida 33134",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.legal-aid",
+  "topics": [
+   "desk",
+   "legal-aid"
+  ],
+  "x-address-text": "4343 West Flagler Street, Suite 100, Miami, FL 33134",
+  "coordinate_source": "Miami-Dade County address locator (MD_Locator findAddressCandidates) PointAddress, score 100, matched '4343 W FLAGLER ST, MIAMI, 33134', queried '4343 West Flagler Street 33134' on 2026-09-25"
+ },
+ {
+  "id": "us-fl-miamidade.immigration-legal-aid.address",
+  "claim": "Address of desk us-fl-miamidade.catholic-legal-services.",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Catholic Legal Services, Archdiocese of Miami",
+    "coordinate": {
+     "latitude": 25.786998,
+     "longitude": -80.220272
+    },
+    "address": "1469 NW 13th Terrace, Suite 100, Miami, FL 33125 (downtown office)",
+    "language": "en"
+   }
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.cls-miami",
+  "url": "https://www.cclsmiami.org/",
+  "quote": "1469 NW 13th Terr, Suite 100 Miami, FL 33125",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.immigration-legal-aid",
+  "topics": [
+   "desk",
+   "legal-aid"
+  ],
+  "x-address-text": "1469 NW 13th Terrace, Suite 100, Miami, FL 33125 (downtown office)",
+  "coordinate_source": "Miami-Dade County address locator (MD_Locator findAddressCandidates) PointAddress, score 100, matched '1469 NW 13TH TER, MIAMI, 33125', queried '1469 NW 13th Terrace 33125' on 2026-09-25"
+ },
+ {
+  "id": "us-fl.florida-bar-lrs.hours",
+  "claim": "Hours of desk us-fl.florida-bar-lrs.",
+  "value": "Monday–Friday 8:00 a.m.–5:30 p.m.",
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.florida-bar-lrs",
+  "url": "https://www.floridabar.org/public/lrs/",
+  "quote": "Give us a Call Call 800-342-8011, Monday-Friday, 8:00 a.m.-5:30 p.m.",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "text",
+  "desk": "us-fl.florida-bar-lrs",
+  "topics": [
+   "desk",
+   "legal-aid"
+  ],
+  "value_language": "en"
+ },
+ {
+  "id": "us.uscis.hours",
+  "claim": "Hours of desk us.uscis.",
+  "value": "Monday–Friday 8am–8pm Eastern (live calls and chats)",
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "us.uscis-contact-center",
+  "url": "https://www.uscis.gov/contactcenter",
+  "quote": "we answer live calls and chats Monday to Friday, 8am to 8pm Eastern",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "text",
+  "desk": "us.uscis",
+  "topics": [
+   "desk",
+   "immigration"
+  ],
+  "value_language": "en"
+ },
+ {
+  "id": "us-fl-miamidade.211.hours",
+  "claim": "Hours of desk us-fl-miamidade.211.",
+  "value": "24/7",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.211-miami",
+  "url": "https://211miami.org/",
+  "quote": "24/7 Helpline connecting people in need",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.211",
+  "topics": [
+   "desk",
+   "211"
+  ],
+  "value_language": "en"
+ },
+ {
+  "id": "us-fl-miamidade.211.address",
+  "claim": "Address of desk us-fl-miamidade.211 (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.211",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "211"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.211.languages",
+  "claim": "Languages of desk us-fl-miamidade.211 (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl-miamidade.211",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "211",
+   "language"
+  ]
+ },
+ {
+  "id": "us.988.address",
+  "claim": "Address of desk us.988 (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us.988",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "911"
+  ]
+ },
+ {
+  "id": "us.988.hours",
+  "claim": "Hours of desk us.988 (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us.988",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "911"
+  ]
+ },
+ {
+  "id": "us.988.languages",
+  "claim": "Languages of desk us.988: English and Spanish counselors; interpreters for 240+ more languages by voice call.",
+  "value": [
+   "en",
+   "es"
+  ],
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "us.988-faq-languages",
+  "url": "https://988lifeline.org/faq/calling-the-988-lifeline/faq-is-the-988-lifeline-available-in-other-languages-for-non-english-speakers/",
+  "quote": "For people who speak other languages, call 988 and you will be provided translation in more than 240 additional languages through Language Line Solutions",
+  "retrieved_at": "2026-09-25T19:30:00-04:00",
+  "check_every": "P180D",
+  "status": "verified",
+  "value_type": "codes",
+  "desk": "us.988",
+  "notes": "Spanish counselors by pressing 2 (us.988.spanish-option). Interpretation in 240+ other languages is voice-only, 24/7; you can say the name of the language you need.",
+  "topics": [
+   "desk",
+   "911",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.legal-aid.hours",
+  "claim": "Hours of desk us-fl-miamidade.lsgmi (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.legal-aid",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "legal-aid"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.legal-aid.languages",
+  "claim": "Languages of desk us-fl-miamidade.lsgmi (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl-miamidade.legal-aid",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "legal-aid",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.immigration-legal-aid.hours",
+  "claim": "Hours of desk us-fl-miamidade.catholic-legal-services (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.immigration-legal-aid",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "legal-aid"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.immigration-legal-aid.languages",
+  "claim": "Languages of desk us-fl-miamidade.catholic-legal-services (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl-miamidade.immigration-legal-aid",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "legal-aid",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl.florida-bar-lrs.address",
+  "claim": "Address of desk us-fl.florida-bar-lrs (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl.florida-bar-lrs",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "legal-aid"
+  ]
+ },
+ {
+  "id": "us-fl.florida-bar-lrs.languages",
+  "claim": "Languages of desk us-fl.florida-bar-lrs (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl.florida-bar-lrs",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "legal-aid",
+   "language"
+  ]
+ },
+ {
+  "id": "us.uscis.address",
+  "claim": "Address of desk us.uscis (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us.uscis",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "immigration"
+  ]
+ },
+ {
+  "id": "us.uscis.languages",
+  "claim": "Languages of desk us.uscis (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us.uscis",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "immigration",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.homeless-trust.address",
+  "claim": "Address of desk us-fl-miamidade.homeless-trust (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.homeless-trust",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "shelter"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.homeless-trust.hours",
+  "claim": "Hours of desk us-fl-miamidade.homeless-trust (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.homeless-trust",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "shelter"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.homeless-trust.languages",
+  "claim": "Languages of desk us-fl-miamidade.homeless-trust (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl-miamidade.homeless-trust",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "shelter",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.jackson.address",
+  "claim": "Address of desk us-fl-miamidade.jackson (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.jackson",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "health"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.jackson.hours",
+  "claim": "Hours of desk us-fl-miamidade.jackson (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.jackson",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "health"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.jackson.languages",
+  "claim": "Languages of desk us-fl-miamidade.jackson (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl-miamidade.jackson",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "health",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.sheriff.address",
+  "claim": "Address of desk us-fl-miamidade.sheriff (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.sheriff",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "police"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.sheriff.hours",
+  "claim": "Hours of desk us-fl-miamidade.sheriff (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.sheriff",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "police"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.sheriff.languages",
+  "claim": "Languages of desk us-fl-miamidade.sheriff (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl-miamidade.sheriff",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "police",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl-miami.police.address",
+  "claim": "Address of desk us-fl-miami.police.",
+  "value": "400 NW 2nd Avenue, Miami",
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.miami-gov-police",
+  "url": "https://www.miami.gov/My-Government/Departments/Police-Department",
+  "quote": "400 NW 2nd Avenue",
+  "retrieved_at": "2026-09-25T20:30:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "text",
+  "desk": "us-fl-miami.police",
+  "notes": "City page lists Location: 400 NW 2nd Avenue, Miami (no ZIP shown).",
+  "topics": [
+   "desk",
+   "police"
+  ],
+  "value_language": "en"
+ },
+ {
+  "id": "us-fl-miami.police.hours",
+  "claim": "Hours of desk us-fl-miami.police (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl-miami.police",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "police"
+  ]
+ },
+ {
+  "id": "us-fl-miami.police.languages",
+  "claim": "Languages of desk us-fl-miami.police (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl-miami.police",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "police",
+   "language"
+  ]
+ },
+ {
+  "id": "us.poison-control.address",
+  "claim": "Address of desk us.poison-control (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us.poison-control",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "911"
+  ]
+ },
+ {
+  "id": "us.poison-control.hours",
+  "claim": "Hours of desk us.poison-control (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us.poison-control",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "911"
+  ]
+ },
+ {
+  "id": "us.poison-control.languages",
+  "claim": "Languages of desk us.poison-control (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us.poison-control",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "911",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl.sunpass.name",
+  "claim": "Name of desk us-fl.sunpass (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "code",
+  "desk": "us-fl.sunpass",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "tolls"
+  ]
+ },
+ {
+  "id": "us-fl.sunpass.url",
+  "claim": "Url of desk us-fl.sunpass (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "code",
+  "desk": "us-fl.sunpass",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "tolls"
+  ]
+ },
+ {
+  "id": "us-fl.sunpass.address",
+  "claim": "Address of desk us-fl.sunpass (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl.sunpass",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "tolls"
+  ]
+ },
+ {
+  "id": "us-fl.sunpass.hours",
+  "claim": "Hours of desk us-fl.sunpass (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl.sunpass",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "tolls"
+  ]
+ },
+ {
+  "id": "us-fl.sunpass.languages",
+  "claim": "Languages of desk us-fl.sunpass (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl.sunpass",
+  "notes": "Not stated on the desk's own official page fetched 2026-09-25.",
+  "topics": [
+   "desk",
+   "tolls",
+   "language"
+  ]
+ },
+ {
+  "id": "us.911.name",
+  "claim": "Name of desk us.911.",
+  "value": "911 (emergency police, fire, ambulance)",
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "us.us-911-gov-faq",
+  "url": "https://www.911.gov/calling-911/frequently-asked-questions/",
+  "quote": "it is always best to call 911 if you can, and text if you can’t",
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us.911",
+  "topics": [
+   "desk",
+   "911"
+  ]
+ },
+ {
+  "id": "us.911.url",
+  "claim": "Url of desk us.911 (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us.911",
+  "notes": "911 is a number, not an office; no address, hours or language list applies.",
+  "topics": [
+   "desk",
+   "911"
+  ]
+ },
+ {
+  "id": "us.911.address",
+  "claim": "Address of desk us.911 (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us.911",
+  "notes": "911 is a number, not an office; no address, hours or language list applies.",
+  "topics": [
+   "desk",
+   "911"
+  ]
+ },
+ {
+  "id": "us.911.hours",
+  "claim": "Hours of desk us.911 (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us.911",
+  "notes": "911 is a number, not an office; no address, hours or language list applies.",
+  "topics": [
+   "desk",
+   "911"
+  ]
+ },
+ {
+  "id": "us.911.languages",
+  "claim": "Languages of desk us.911 (not found on an official page).",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "retrieved_at": "2026-09-25T17:32:00-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us.911",
+  "notes": "911 is a number, not an office; no address, hours or language list applies.",
+  "topics": [
+   "desk",
+   "911",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.immigration-legal-aid.name",
+  "claim": "Accredited free/low-cost immigration legal aid serving Miami-Dade: Catholic Legal Services, Archdiocese of Miami (Downtown office, 1469 NW 13th Terr, Suite 100, Miami, FL 33125; Mon–Fri 9:00am–5:00pm).",
+  "value": "Catholic Legal Services, Archdiocese of Miami",
+  "unit": null,
+  "value_type": "code",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.provider.cclsmiami",
+  "url": "https://www.cclsmiami.org/",
+  "quote": "Catholic Legal Services provides professional legal services to those who come from foreign lands who lack sufficient means to obtain representation without regard to faith or national origin.",
+  "retrieved_at": "2026-09-25T17:40:24-04:00",
+  "check_every": "P7D",
+  "status": "verified",
+  "plan_value": null,
+  "correction_note": "Accreditation is taken from the provider's own About page (heading \"DOJ-Accredited Representatives\"). The DOJ EOIR roster could not be cross-checked: justice.gov returned 401 to the box, and the src/ roster files are error pages. Florida Bar referral not added (no time).",
+  "topics": [
+   "desk",
+   "legal-aid",
+   "immigration"
+  ],
+  "x-accreditation_quote": "DOJ-Accredited Representatives",
+  "x-accreditation_url": "https://www.cclsmiami.org/aboutus.aspx",
+  "x-verdict": "verified",
+  "x-source_id_original": "provider.cclsmiami",
+  "desk": "us-fl-miamidade.immigration-legal-aid"
+ },
+ {
+  "id": "us-fl-miamidade.immigration-legal-aid.phone",
+  "claim": "Accredited free/low-cost immigration legal aid serving Miami-Dade: Catholic Legal Services, Archdiocese of Miami (Downtown office, 1469 NW 13th Terr, Suite 100, Miami, FL 33125; Mon–Fri 9:00am–5:00pm).",
+  "value": "305-373-1073",
+  "unit": null,
+  "value_type": "phone",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.provider.cclsmiami",
+  "url": "https://www.cclsmiami.org/",
+  "quote": "Tel. 305-373-1073",
+  "retrieved_at": "2026-09-25T17:40:24-04:00",
+  "check_every": "P7D",
+  "status": "verified",
+  "plan_value": null,
+  "correction_note": "Accreditation is taken from the provider's own About page (heading \"DOJ-Accredited Representatives\"). The DOJ EOIR roster could not be cross-checked: justice.gov returned 401 to the box, and the src/ roster files are error pages. Florida Bar referral not added (no time).",
+  "topics": [
+   "desk",
+   "legal-aid",
+   "immigration"
+  ],
+  "x-accreditation_quote": "DOJ-Accredited Representatives",
+  "x-accreditation_url": "https://www.cclsmiami.org/aboutus.aspx",
+  "x-verdict": "verified",
+  "x-source_id_original": "provider.cclsmiami",
+  "desk": "us-fl-miamidade.immigration-legal-aid"
+ },
+ {
+  "id": "us-fl-miamidade.immigration-legal-aid.url",
+  "claim": "Accredited free/low-cost immigration legal aid serving Miami-Dade: Catholic Legal Services, Archdiocese of Miami (Downtown office, 1469 NW 13th Terr, Suite 100, Miami, FL 33125; Mon–Fri 9:00am–5:00pm).",
+  "value": "https://www.cclsmiami.org/",
+  "unit": null,
+  "value_type": "code",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.provider.cclsmiami",
+  "url": "https://www.cclsmiami.org/programs.aspx",
+  "quote": "The Fee For Service program provides low cost and free legal services for clients who do not qualify under one of the agency's many grants.",
+  "retrieved_at": "2026-09-25T17:40:24-04:00",
+  "check_every": "P7D",
+  "status": "verified",
+  "plan_value": null,
+  "correction_note": "Accreditation is taken from the provider's own About page (heading \"DOJ-Accredited Representatives\"). The DOJ EOIR roster could not be cross-checked: justice.gov returned 401 to the box, and the src/ roster files are error pages. Florida Bar referral not added (no time).",
+  "topics": [
+   "desk",
+   "legal-aid",
+   "immigration"
+  ],
+  "x-accreditation_quote": "DOJ-Accredited Representatives",
+  "x-accreditation_url": "https://www.cclsmiami.org/aboutus.aspx",
+  "x-verdict": "verified",
+  "x-source_id_original": "provider.cclsmiami",
+  "desk": "us-fl-miamidade.immigration-legal-aid"
+ },
+ {
+  "id": "us.accredited-legal-help.name",
+  "claim": "Name of desk us.accredited-legal-help.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "code",
+  "desk": "us.accredited-legal-help",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us.accredited-legal-help.phone",
+  "claim": "Phone of desk us.accredited-legal-help.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "phone",
+  "desk": "us.accredited-legal-help",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us.accredited-legal-help.url",
+  "claim": "Url of desk us.accredited-legal-help.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us.accredited-legal-help",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us.accredited-legal-help.address",
+  "claim": "Address of desk us.accredited-legal-help.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "place",
+  "desk": "us.accredited-legal-help",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us.accredited-legal-help.hours",
+  "claim": "Hours of desk us.accredited-legal-help.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us.accredited-legal-help",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us.accredited-legal-help.languages",
+  "claim": "Languages of desk us.accredited-legal-help.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us.accredited-legal-help",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us-fl.kidcare.name",
+  "claim": "Name of desk us-fl.kidcare.",
+  "value": "Florida KidCare",
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.kidcare",
+  "url": "https://www.floridakidcare.org/",
+  "quote": "Home - Florida KidCare",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl.kidcare",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us-fl.kidcare.phone",
+  "claim": "Phone of desk us-fl.kidcare.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "phone",
+  "desk": "us-fl.kidcare",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us-fl.kidcare.url",
+  "claim": "Url of desk us-fl.kidcare.",
+  "value": "https://www.floridakidcare.org/",
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.kidcare",
+  "url": "https://www.floridakidcare.org/",
+  "quote": "Home - Florida KidCare",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl.kidcare",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us-fl.kidcare.address",
+  "claim": "Address of desk us-fl.kidcare.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl.kidcare",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us-fl.kidcare.hours",
+  "claim": "Hours of desk us-fl.kidcare.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl.kidcare",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us-fl.kidcare.languages",
+  "claim": "Languages of desk us-fl.kidcare.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl.kidcare",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us-fl.dcf-access.name",
+  "claim": "Name of desk us-fl.dcf-access.",
+  "value": "Florida DCF",
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.dcf-access",
+  "url": "https://www.myflfamilies.com/services/public-assistance",
+  "quote": "Public Benefits and Services | Florida DCF",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl.dcf-access",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us-fl.dcf-access.phone",
+  "claim": "Phone of desk us-fl.dcf-access.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "phone",
+  "desk": "us-fl.dcf-access",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us-fl.dcf-access.url",
+  "claim": "Url of desk us-fl.dcf-access.",
+  "value": "https://www.myflfamilies.com/services/public-assistance",
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.dcf-access",
+  "url": "https://www.myflfamilies.com/services/public-assistance",
+  "quote": "Public Benefits and Services | Florida DCF",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us-fl.dcf-access",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us-fl.dcf-access.address",
+  "claim": "Address of desk us-fl.dcf-access.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl.dcf-access",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us-fl.dcf-access.hours",
+  "claim": "Hours of desk us-fl.dcf-access.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us-fl.dcf-access",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us-fl.dcf-access.languages",
+  "claim": "Languages of desk us-fl.dcf-access.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us-fl.dcf-access",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us.ssa.name",
+  "claim": "Name of desk us.ssa.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "code",
+  "desk": "us.ssa",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us.ssa.phone",
+  "claim": "Phone of desk us.ssa.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "phone",
+  "desk": "us.ssa",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us.ssa.url",
+  "claim": "Url of desk us.ssa.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "code",
+  "desk": "us.ssa",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us.ssa.address",
+  "claim": "Address of desk us.ssa.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us.ssa",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us.ssa.hours",
+  "claim": "Hours of desk us.ssa.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us.ssa",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us.ssa.languages",
+  "claim": "Languages of desk us.ssa.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us.ssa",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us.fema-nfip.name",
+  "claim": "Name of desk us.fema-nfip.",
+  "value": "FEMA National Flood Insurance Program",
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "us.fema.nfip",
+  "url": "https://www.floodsmart.gov/",
+  "quote": "Floodsmart | The National Flood Insurance Program",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us.fema-nfip",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us.fema-nfip.phone",
+  "claim": "Phone of desk us.fema-nfip.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "phone",
+  "desk": "us.fema-nfip",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us.fema-nfip.url",
+  "claim": "Url of desk us.fema-nfip.",
+  "value": "https://www.floodsmart.gov/",
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "us.fema.nfip",
+  "url": "https://www.floodsmart.gov/",
+  "quote": "Floodsmart | The National Flood Insurance Program",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "code",
+  "desk": "us.fema-nfip",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us.fema-nfip.address",
+  "claim": "Address of desk us.fema-nfip.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us.fema-nfip",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us.fema-nfip.hours",
+  "claim": "Hours of desk us.fema-nfip.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "text",
+  "desk": "us.fema-nfip",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us.fema-nfip.languages",
+  "claim": "Languages of desk us.fema-nfip.",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "",
+  "url": null,
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:02:50-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "value_type": "codes",
+  "desk": "us.fema-nfip",
+  "notes": "No exact official quote was recorded for this required desk field.",
+  "topics": [
+   "desk"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.community-services.name",
+  "claim": "Name of the Miami-Dade department that runs light bill help (formerly CAHSD)",
+  "value": "Community Services Department (CSD)",
+  "unit": null,
+  "value_type": "code",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.light-bill-assistance",
+  "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1504204216164378",
+  "quote": "The Community Services Department (CSD) provides comprehensive social services that address children, family and community needs throughout Miami-Dade County.",
+  "retrieved_at": "2026-09-25T18:20:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "topics": [
+   "power",
+   "desk"
+  ],
+  "desk": "us-fl-miamidade.community-services"
+ },
+ {
+  "id": "us-fl-miamidade.community-services.phone",
+  "claim": "Main phone of Miami-Dade Community Services Department",
+  "value": "786-469-4600",
+  "unit": null,
+  "value_type": "phone",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.light-bill-assistance",
+  "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1504204216164378",
+  "quote": "Stephen P. Clark Center 111 NW 1st Street, Miami, FL 33128 786-469-4600",
+  "retrieved_at": "2026-09-25T18:20:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "topics": [
+   "power",
+   "desk"
+  ],
+  "desk": "us-fl-miamidade.community-services"
+ },
+ {
+  "id": "us-fl-miamidade.community-services.address",
+  "claim": "Address of Miami-Dade Community Services Department",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Community Services Department (CSD)",
+    "coordinate": {
+     "latitude": 25.775604,
+     "longitude": -80.196669
+    },
+    "address": "Stephen P. Clark Center, 111 NW 1st Street, Miami, FL 33128",
+    "language": "en"
+   }
+  },
+  "unit": null,
+  "value_type": "place",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.light-bill-assistance",
+  "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1504204216164378",
+  "quote": "Stephen P. Clark Center 111 NW 1st Street, Miami, FL 33128 786-469-4600",
+  "retrieved_at": "2026-09-25T18:20:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "topics": [
+   "power",
+   "desk"
+  ],
+  "desk": "us-fl-miamidade.community-services",
+  "x-address-text": "Stephen P. Clark Center, 111 NW 1st Street, Miami, FL 33128",
+  "coordinate_source": "Miami-Dade County address locator (MD_Locator findAddressCandidates) PointAddress, score 100, matched '111 NW 1ST ST, MIAMI, 33128', queried '111 NW 1st Street 33128' on 2026-09-25"
+ },
+ {
+  "id": "us-fl-miamidade.community-services.url",
+  "claim": "Web page of Miami-Dade Community Services Department",
+  "value": "https://www.miamidade.gov/global/community-services/home.page",
+  "unit": null,
+  "value_type": "code",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.light-bill-assistance",
+  "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1504204216164378",
+  "quote": "/global/community-services/home.page",
+  "retrieved_at": "2026-09-25T18:20:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "topics": [
+   "power",
+   "desk"
+  ],
+  "desk": "us-fl-miamidade.community-services"
+ },
+ {
+  "id": "us-fl.dfs-insurance.name",
+  "claim": "Name of Florida's state insurance consumer helpline desk",
+  "value": "Florida Department of Financial Services, Division of Consumer Services (Insurance Consumer Helpline)",
+  "unit": null,
+  "value_type": "code",
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.dfs-consumer-services-contact",
+  "url": "https://myfloridacfo.com/division/consumers/contactus",
+  "quote": "Florida Department of Financial Services Division of Consumer Services 200 East Gaines Street Tallahassee, FL 32399-0322",
+  "retrieved_at": "2026-09-25T18:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "desk": "us-fl.dfs-insurance",
+  "topics": [
+   "desk",
+   "driving"
+  ]
+ },
+ {
+  "id": "us-fl.dfs-insurance.phone",
+  "claim": "Florida DFS insurance consumer helpline (toll-free, statewide)",
+  "value": "1-877-693-5236",
+  "unit": null,
+  "value_type": "phone",
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.dfs-consumer-services-contact",
+  "url": "https://myfloridacfo.com/division/consumers/contactus",
+  "quote": "Call our statewide toll-free helpline at 1-877-MY-FL-CFO (1-877-693-5236) Out of State Callers: (850) 413-3089 Insurance Assistance is available 8:00 AM - 5:00 PM ET, Monday through Friday.",
+  "retrieved_at": "2026-09-25T18:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "desk": "us-fl.dfs-insurance",
+  "topics": [
+   "desk",
+   "driving"
+  ],
+  "notes": "Spelled 1-877-MY-FL-CFO. Out-of-state callers: (850) 413-3089. Florida Relay: 711."
+ },
+ {
+  "id": "us-fl.dfs-insurance.url",
+  "claim": "Florida DFS page for getting insurance help (online concern filing)",
+  "value": "https://www.myfloridacfo.com/Division/Consumers/NeedOurHelp",
+  "unit": null,
+  "value_type": "code",
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.dfs-consumer-services-contact",
+  "url": "https://www.myfloridacfo.com/Division/Consumers/NeedOurHelp",
+  "quote": "Submit a concern related to insurance products, including bonds, warranties and annuities, online by visiting our Consumer Assistance Portal.",
+  "retrieved_at": "2026-09-25T18:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "desk": "us-fl.dfs-insurance",
+  "topics": [
+   "desk",
+   "driving"
+  ],
+  "notes": "Quote from the NeedOurHelp page (search extract of the official page)."
+ },
+ {
+  "id": "us-fl.dfs-insurance.address",
+  "claim": "Mailing address of Florida DFS Division of Consumer Services",
+  "value": "200 East Gaines Street, Tallahassee, FL 32399-0322",
+  "unit": null,
+  "value_type": "text",
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.dfs-consumer-services-contact",
+  "url": "https://myfloridacfo.com/division/consumers/contactus",
+  "quote": "Our address is: Florida Department of Financial Services Division of Consumer Services 200 East Gaines Street Tallahassee, FL 32399-0322",
+  "retrieved_at": "2026-09-25T18:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "desk": "us-fl.dfs-insurance",
+  "topics": [
+   "desk",
+   "driving"
+  ],
+  "value_language": "en"
+ },
+ {
+  "id": "us-fl.dfs-insurance.hours",
+  "claim": "Hours of the Florida DFS insurance helpline",
+  "value": "Mon-Fri 8:00 AM-5:00 PM ET",
+  "unit": null,
+  "value_type": "text",
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.dfs-consumer-services-contact",
+  "url": "https://myfloridacfo.com/division/consumers/contactus",
+  "quote": "Call our statewide toll-free helpline at 1-877-MY-FL-CFO (1-877-693-5236) Out of State Callers: (850) 413-3089 Insurance Assistance is available 8:00 AM - 5:00 PM ET, Monday through Friday.",
+  "retrieved_at": "2026-09-25T18:32:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "desk": "us-fl.dfs-insurance",
+  "topics": [
+   "desk",
+   "driving"
+  ],
+  "value_language": "en"
+ },
+ {
+  "id": "us-fl.dfs-insurance.languages",
+  "claim": "Languages offered on the Florida DFS insurance helpline",
+  "value": null,
+  "unit": null,
+  "value_type": "text",
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.dfs-consumer-services-contact",
+  "url": "https://myfloridacfo.com/division/consumers/contactus",
+  "quote": "",
+  "retrieved_at": "2026-09-25T18:32:00-04:00",
+  "check_every": "P90D",
+  "status": "unsourced",
+  "desk": "us-fl.dfs-insurance",
+  "topics": [
+   "desk",
+   "driving"
+  ],
+  "notes": "Contact page checked 2026-09-25; it states no languages."
+ },
+ {
+  "id": "us.ftc.name",
+  "claim": "Official name of the Federal Trade Commission, the federal desk for fraud and scam reports.",
+  "value": "Federal Trade Commission",
+  "unit": null,
+  "value_type": "code",
+  "jurisdiction": "us",
+  "source_id": "us.ftc-contact",
+  "url": "https://www.ftc.gov/contact",
+  "quote": "Contact the Federal Trade Commission",
+  "retrieved_at": "2026-09-25T19:00:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "desk",
+   "scams"
+  ],
+  "notes": "Verified on the FTC contact page (ftc.gov/contact) on 2026-09-25.",
+  "x-requested-by": "content/facts-requested.yaml",
+  "desk": "us.ftc"
+ },
+ {
+  "id": "us.ftc.phone",
+  "claim": "FTC Consumer Response Center phone: 1-877-FTC-HELP (1-877-382-4357).",
+  "value": "1-877-382-4357",
+  "unit": null,
+  "value_type": "phone",
+  "jurisdiction": "us",
+  "source_id": "us.ftc-contact",
+  "url": "https://www.ftc.gov/contact",
+  "quote": "Contact the Consumer Response Center by calling 1-877-FTC-HELP (382-4357)",
+  "retrieved_at": "2026-09-25T19:00:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "desk",
+   "scams"
+  ],
+  "notes": "Verified on the FTC contact page (ftc.gov/contact) on 2026-09-25.",
+  "x-requested-by": "content/facts-requested.yaml",
+  "desk": "us.ftc"
+ },
+ {
+  "id": "us.ftc.url",
+  "claim": "Report fraud, scams and bad business practices to the FTC at ReportFraud.ftc.gov.",
+  "value": "https://reportfraud.ftc.gov",
+  "unit": null,
+  "value_type": "code",
+  "jurisdiction": "us",
+  "source_id": "us.ftc-contact",
+  "url": "https://www.ftc.gov/contact",
+  "quote": "For Consumers Report fraud, scams, and bad business practices at ReportFraud.ftc.gov",
+  "retrieved_at": "2026-09-25T19:00:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "desk",
+   "scams"
+  ],
+  "notes": "Verified on the FTC contact page (ftc.gov/contact) on 2026-09-25. ReportFraud.ftc.gov itself renders only with JavaScript.",
+  "x-requested-by": "content/facts-requested.yaml",
+  "desk": "us.ftc"
+ }
+]

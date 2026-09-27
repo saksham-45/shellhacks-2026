@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "counter_label_key": "beat.counter.label",
+  "beats": [
+    {
+      "id": "cold_open",
+      "order": 1,
+      "slot": "table",
+      "title": {
+        "key": "beat.cold_open.title",
+        "es": "Apertura",
+        "en": "Cold open",
+        "ht": "Ouvèti"
+      },
+      "counts_toward_counter": false,
+      "live_timeout_seconds": null,
+      "owner": "myAD Lead"
+    },
+    {
+      "id": "fee_check",
+      "order": 2,
+      "slot": "table",
+      "title": {
+        "key": "beat.fee_check.title",
+        "es": "Revisar el cobro",
+        "en": "Fee Check",
+        "ht": "Verifye frè a"
+      },
+      "counts_toward_counter": true,
+      "live_timeout_seconds": 4,
+      "owner": "myAD Regions"
+    },
+    {
+      "id": "desk_copilot",
+      "order": 3,
+      "slot": "table",
+      "title": {
+        "key": "beat.desk_copilot.title",
+        "es": "Ayuda en la ventanilla",
+        "en": "Desk Copilot",
+        "ht": "Èd nan biwo a"
+      },
+      "counts_toward_counter": true,
+      "live_timeout_seconds": 3,
+      "owner": "myAD Agents"
+    },
+    {
+      "id": "warm_handoff",
+      "order": 4,
+      "slot": "table",
+      "title": {
+        "key": "beat.warm_handoff.title",
+        "es": "Hoja para la ventanilla",
+        "en": "Warm Handoff Sheet",
+        "ht": "Fèy pou biwo a"
+      },
+      "counts_toward_counter": true,
+      "live_timeout_seconds": 5,
+      "owner": "myAD Content"
+    },
+    {
+      "id": "family_voice_note",
+      "order": 5,
+      "slot": "table",
+      "title": {
+        "key": "beat.family_voice_note.title",
+        "es": "Nota de voz para la familia",
+        "en": "Family Voice Note",
+        "ht": "Nòt vwa pou fanmi an"
+      },
+      "counts_toward_counter": true,
+      "live_timeout_seconds": null,
+      "owner": "myAD Content"
+    },
+    {
+      "id": "abuela_mode",
+      "order": 6,
+      "slot": "table",
+      "title": {
+        "key": "beat.abuela_mode.title",
+        "es": "Modo Abuela",
+        "en": "Abuela Mode",
+        "ht": "Mòd Grann"
+      },
+      "counts_toward_counter": false,
+      "live_timeout_seconds": null,
+      "owner": "myAD Access"
+    },
+    {
+      "id": "listing_check",
+      "order": null,
+      "slot": "swap_in:fee_check",
+      "title": {
+        "key": "beat.listing_check.title",
+        "es": "Revisar el anuncio",
+        "en": "Listing Check",
+        "ht": "Verifye anons lan"
+      },
+      "counts_toward_counter": true,
+      "live_timeout_seconds": null,
+      "owner": "myAD Regions"
+    },
+    {
+      "id": "family_council",
+      "order": null,
+      "slot": "qa",
+      "title": {
+        "key": "beat.family_council.title",
+        "es": "Consejo familiar",
+        "en": "Family Council",
+        "ht": "Konsèy fanmi"
+      },
+      "counts_toward_counter": false,
+      "live_timeout_seconds": null,
+      "owner": "myAD Household"
+    }
+  ]
+}

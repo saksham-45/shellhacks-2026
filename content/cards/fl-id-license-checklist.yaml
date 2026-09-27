@@ -1,0 +1,138 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: fl-id-license-checklist
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Put the shoes on > The first month, once they are sleeping
+  item: 9. An ID this state will accept
+- plan: myamericandream-plan.md
+  section: The demo
+  item: 1. The hero is the missing paper
+- plan: myamericandream-plan.md
+  section: Origin lens
+  item: India, and anyone from a left-driving country
+title:
+  es: Reglas para una identificación local en Florida
+  en: Florida rules for a local ID
+  ht: Règ Florid pou yon ID lokal
+summary:
+  es: Florida restringe ciertos documentos de identificación locales cuando falta prueba de presencia legal. Lleva el documento original y saca la cita con el Tax Collector del condado.
+  en: Florida restricts some local identification documents when proof of lawful presence is missing. Bring the document itself, and book with the county Tax Collector.
+  ht: Florid mete restriksyon sou kèk dokiman idantifikasyon lokal lè pa gen prèv prezans legal. Pote dokiman orijinal la, epi pran randevou ak Tax Collector konte a.
+body:
+  es: |-
+    Florida le pide a cada solicitante prueba de identidad y de presencia legal. También hay restricciones estatales sobre ciertos documentos locales: {fact:us-fl.local-id.restriction}.
+
+    Si no eres ciudadano, lleva el documento de inmigración original. Los estudiantes F-1 o M-1 llevan también el I-20. Los J-1 llevan el DS-2019.
+
+    Lleva {fact:us-fl.flhsmv.address-proofs-count} pruebas de tu dirección en Florida, y tu número de Seguro Social si lo tienes.
+
+    La primera licencia de un no ciudadano se verifica y luego se envía por correo. Dura lo que dure tu documento de USCIS, y nunca más de {fact:us-fl.flhsmv.noncitizen-max-validity}.
+
+    En Miami-Dade, saca la cita con el Tax Collector del condado, no en el calendario del estado. Florida Licensing on Wheels, la camioneta en la biblioteca, puede ser más rápida.
+
+    ¿No sabes si tu estatus califica? Pregúntale a un abogado o representante acreditado, no a la persona de la fila.
+  en: |-
+    Florida asks every applicant for proof of identity and lawful presence. State law also places restrictions on some local identification documents: {fact:us-fl.local-id.restriction}.
+
+    If you are not a citizen, bring the immigration document itself. F-1 or M-1 students also bring the I-20. J-1 brings the DS-2019.
+
+    Bring {fact:us-fl.flhsmv.address-proofs-count} proofs of your Florida address, and your Social Security number if you have one.
+
+    A first license for a non-citizen is checked, then mailed. It lasts as long as your USCIS document, and never longer than {fact:us-fl.flhsmv.noncitizen-max-validity}.
+
+    In Miami-Dade, book the visit with the county Tax Collector, not the state calendar. Florida Licensing on Wheels, the van at the library, can be faster.
+
+    Not sure your status qualifies? Ask a lawyer or accredited representative, not the person in line.
+  ht: |-
+    Florid mande chak moun prèv idantite ak prèv prezans legal. Lalwa leta mete restriksyon tou sou kèk dokiman idantifikasyon lokal: {fact:us-fl.local-id.restriction}.
+
+    Si ou pa sitwayen, pote dokiman imigrasyon orijinal la. Etidyan F-1 oswa M-1 pote I-20 a tou. J-1 pote DS-2019 la.
+
+    Pote {fact:us-fl.flhsmv.address-proofs-count} prèv adrès ou nan Florid, ak nimewo Sekirite Sosyal ou si ou genyen l.
+
+    Premye lisans yon moun ki pa sitwayen, yo verifye l epi yo voye l pa lapòs. Li dire menm tan ak dokiman USCIS ou, men pa janm plis pase {fact:us-fl.flhsmv.noncitizen-max-validity}.
+
+    Nan Miami-Dade, pran randevou a ak Tax Collector konte a, pa sou kalandriye leta a. Florida Licensing on Wheels, kamyonèt ki vin nan bibliyotèk la, ka pi rapid.
+
+    Ou pa sèten si estati ou kalifye? Mande yon avoka oswa yon reprezantan akredite, pa moun ki nan liy lan.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl.flhsmv.lawful-presence
+  - us-fl.flhsmv.document-list
+  - us-fl.local-id.restriction
+- - us-fl.flhsmv.noncitizen-original-document
+  - us-fl.flhsmv.student-documents
+- - us-fl.flhsmv.ssn-if-issued
+  - us-fl.flhsmv.address-proofs-count
+- - us-fl.flhsmv.noncitizen-mailed
+  - us-fl.flhsmv.noncitizen-max-validity
+- - us-fl-miamidade.tax-collector.license-appointments
+  - us-fl-miamidade.tax-collector.flow
+- []
+desk: us-fl-miamidade.tax-collector
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.tax-collector
+- type: call_desk
+  desk_id: us-fl-miamidade.immigration-legal-aid
+- type: open_map
+  target:
+    type: desk
+    desk_id: us-fl-miamidade.tax-collector
+utterances:
+  es:
+  - qué necesito para la licencia de Florida
+  - qué papeles para mi ID
+  - lista para la licencia
+  - necesito el I-20 para la licencia
+  - cuántas pruebas de dirección
+  en:
+  - what do I need for a Florida license
+  - what papers for my ID
+  - license checklist
+  - do I need my I-20 for the license
+  - how many proofs of address
+  ht:
+  - kisa m bezwen pou lisans Florid
+  - ki papye pou ID mwen
+  - lis pou lisans lan
+  - èske m bezwen I-20 a pou lisans lan
+  - konbyen prèv adrès
+privacy_scope: person-papers
+stages:
+- 3
+- 8
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: true
+origin_lenses:
+- leftDriving
+- internationalStudent
+related_cards:
+- status-word
+- license-and-tag
+fact_refs:
+- us-fl.flhsmv.lawful-presence
+- us-fl.flhsmv.document-list
+- us-fl.local-id.restriction
+- us-fl.flhsmv.noncitizen-original-document
+- us-fl.flhsmv.student-documents
+- us-fl.flhsmv.ssn-if-issued
+- us-fl.flhsmv.address-proofs-count
+- us-fl.flhsmv.noncitizen-mailed
+- us-fl.flhsmv.noncitizen-max-validity
+- us-fl-miamidade.tax-collector.license-appointments
+- us-fl-miamidade.tax-collector.flow
+topics:
+- license
+- immigration
+editor_notes: Checklist half is state law (FLHSMV); booking half is Miami-Dade. Split when a second county pack exists.

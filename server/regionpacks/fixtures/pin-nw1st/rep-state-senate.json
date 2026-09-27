@@ -1,0 +1,1 @@
+{"displayFieldName":"ID","fieldAliases":{"ID":"ID","SENNAME":"SENNAME"},"fields":[{"name":"ID","type":"esriFieldTypeSmallInteger","alias":"ID"},{"name":"SENNAME","type":"esriFieldTypeString","alias":"SENNAME","length":30}],"features":[{"attributes":{"ID":36,"SENNAME":"Ileana Garcia"}}]}

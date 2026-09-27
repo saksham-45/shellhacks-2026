@@ -1,0 +1,462 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "myAmericanDream card (content/cards/<id>.yaml)",
+  "description": "Mirrors ADCore Card. title, summary, and body are one string per language and compile to the \"Cards\" string table as card.<id>.title|summary|body. Copy never holds a number inline: every value is a {fact:<id>} placeholder resolved from the research ledger (static facts) or by the region adapter for the pin (lookup facts).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "kind",
+    "status",
+    "plan_refs",
+    "title",
+    "summary",
+    "body",
+    "translation_status",
+    "paragraph_facts",
+    "desk",
+    "utterances",
+    "privacy_scope",
+    "stages",
+    "modes",
+    "region_pack",
+    "is_immigration",
+    "fact_refs",
+    "topics",
+    "needs_review"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "#/$defs/kebabId"
+    },
+    "kind": {
+      "enum": [
+        "card",
+        "stage",
+        "lens",
+        "country",
+        "etiquette",
+        "script"
+      ]
+    },
+    "status": {
+      "const": "draft"
+    },
+    "plan_refs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/planRef"
+      }
+    },
+    "title": {
+      "$ref": "#/$defs/localized"
+    },
+    "summary": {
+      "$ref": "#/$defs/localized"
+    },
+    "body": {
+      "$ref": "#/$defs/localized",
+      "description": "Paragraphs separated by a blank line. Every language has the same number of paragraphs."
+    },
+    "translation_status": {
+      "$ref": "#/$defs/translationStatus"
+    },
+    "paragraph_facts": {
+      "description": "Editorial trace, one list per body paragraph (same order): the fact ids that paragraph's claims rest on. Not shown in the app.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "array",
+        "uniqueItems": true,
+        "items": {
+          "$ref": "#/$defs/factId"
+        }
+      }
+    },
+    "paragraph_when": {
+      "description": "Optional municipality condition, one item per body paragraph. Null means no municipality restriction.",
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "municipality"
+            ],
+            "properties": {
+              "municipality": {
+                "enum": [
+                  "us-fl-miami",
+                  "unincorporated"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "desk": {
+      "$ref": "#/$defs/deskId"
+    },
+    "utterances": {
+      "description": "Natural ways a person asks for this card, per language, including casual phrasing and code-switching. The on-device CommandMatcher matches these (ARCHITECTURE.md 13.2). No numbers, phones, prices, or placeholders.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "es",
+        "en",
+        "ht"
+      ],
+      "properties": {
+        "es": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 8,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "en": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 8,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "ht": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 8,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "actions": {
+      "description": "Optional AppActions offered on this card, in the contracts/intent/app_action.*.json wire shape. Only call_desk ({type, desk_id}) and open_map ({type, target}); target is {type: desk, desk_id} or {type: place, fact: FactRef} (the fact's value must be a place). Both leave the app and are confirmed first.",
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "type",
+              "desk_id"
+            ],
+            "properties": {
+              "type": {
+                "const": "call_desk"
+              },
+              "desk_id": {
+                "$ref": "#/$defs/deskId"
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "type",
+              "target"
+            ],
+            "properties": {
+              "type": {
+                "const": "open_map"
+              },
+              "target": {
+                "anyOf": [
+                  {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "type",
+                      "desk_id"
+                    ],
+                    "properties": {
+                      "type": {
+                        "const": "desk"
+                      },
+                      "desk_id": {
+                        "$ref": "#/$defs/deskId"
+                      }
+                    }
+                  },
+                  {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "type",
+                      "fact"
+                    ],
+                    "properties": {
+                      "type": {
+                        "const": "place"
+                      },
+                      "fact": {
+                        "$ref": "#/$defs/factRefWire"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "privacy_scope": {
+      "enum": [
+        "household",
+        "person",
+        "person-papers"
+      ]
+    },
+    "stages": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 10
+      }
+    },
+    "modes": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "resident",
+          "tourist"
+        ]
+      }
+    },
+    "region_pack": {
+      "$ref": "#/$defs/regionPack"
+    },
+    "is_immigration": {
+      "type": "boolean",
+      "description": "ADCore Card.isImmigration. Tourist mode hides every immigration card."
+    },
+    "origin_lenses": {
+      "description": "ADCore OriginLens cases (camelCase, exactly as ADCore and the server encode them). Each must be a lens in content/lenses/ that attaches to this card.",
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/lensId"
+      }
+    },
+    "hero_cards": {
+      "description": "Stage cards only: the card ids the hero is chosen from, in order.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/kebabId"
+      }
+    },
+    "related_cards": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/kebabId"
+      }
+    },
+    "fact_refs": {
+      "description": "Every fact id the card uses: placeholders in title, summary, body, plus facts a paragraph rests on.",
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/factId"
+      }
+    },
+    "topics": {
+      "description": "Tags from Research's vocabulary (research/topics.yaml); extras are requested in content/topics-requested.yaml.",
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/topic"
+      },
+      "minItems": 1
+    },
+    "editor_notes": {
+      "type": "string",
+      "description": "English, internal, never shown in the app."
+    },
+    "verified_only_refs": {
+      "description": "Status dates held until Research verifies them (Firstmate hold). The app shows each fact, with source and date, only when its ledger status is verified, and shows nothing otherwise. Never a placeholder in copy and never in fact_refs: the copy reads correctly without it.",
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/factId"
+      }
+    },
+    "immigration": {
+      "type": "boolean",
+      "description": "Bundle override only. tools/build_content_bundle.py reads `immigration` and defaults it to privacy_scope == person-papers. Set it (equal to is_immigration) only when is_immigration differs from that default; otherwise omit it (is_immigration is the source of truth)."
+    },
+    "needs_review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "es",
+        "en",
+        "ht"
+      ],
+      "properties": {
+        "es": {
+          "type": "boolean"
+        },
+        "en": {
+          "type": "boolean"
+        },
+        "ht": {
+          "type": "boolean"
+        }
+      },
+      "description": "Read by tools/build_content_bundle.py. true for every language whose translation_status is not reviewed; en is false."
+    }
+  },
+  "$defs": {
+    "kebabId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "regionPack": {
+      "enum": [
+        "us",
+        "us-fl",
+        "us-fl-miamidade",
+        "us-fl-miami"
+      ]
+    },
+    "factId": {
+      "type": "string",
+      "pattern": "^(us|us-fl|us-fl-miamidade|us-fl-miami)(\\.[a-z0-9][a-z0-9-]*)+$"
+    },
+    "deskId": {
+      "type": "string",
+      "pattern": "^(us|us-fl|us-fl-miamidade|us-fl-miami)(\\.[a-z0-9][a-z0-9-]*)+$"
+    },
+    "planRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "plan",
+        "section"
+      ],
+      "properties": {
+        "plan": {
+          "enum": [
+            "myamericandream-plan.md",
+                  "myamericandream-plan-additions.md",
+            "mymiami-plan.md",
+            "mymiami-public-data.md"
+          ]
+        },
+        "section": {
+          "type": "string",
+          "minLength": 1
+        },
+        "item": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "localized": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "es",
+        "en",
+        "ht"
+      ],
+      "properties": {
+        "es": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ht": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "translationStatus": {
+      "description": "Review state of the non-English copy in this file (all strings).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "es",
+        "ht"
+      ],
+      "properties": {
+        "es": {
+          "enum": [
+            "draft",
+            "reviewed"
+          ]
+        },
+        "ht": {
+          "enum": [
+            "draft",
+            "reviewed"
+          ]
+        }
+      }
+    },
+    "topic": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "lensId": {
+      "description": "ADCore OriginLens case, verbatim (Sources/ADCore/Household/Origin.swift; server OriginLensName). Also the lens file id: content/lenses/<lensId>.yaml.",
+      "enum": [
+        "latinAmerica",
+        "haiti",
+        "leftDriving",
+        "internationalStudent",
+        "tourist",
+        "questionnaire"
+      ]
+    },
+    "factRefWire": {
+      "description": "FactRef wire JSON (ARCHITECTURE.md 13.z).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pack_id",
+        "fact_id"
+      ],
+      "properties": {
+        "pack_id": {
+          "$ref": "#/$defs/regionPack"
+        },
+        "fact_id": {
+          "$ref": "#/$defs/factId"
+        }
+      }
+    }
+  }
+}

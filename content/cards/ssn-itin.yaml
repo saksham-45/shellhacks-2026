@@ -1,0 +1,104 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: ssn-itin
+kind: country
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Put the shoes on > The first year, the path to standing alone
+  item: '14. A number: Social Security or ITIN'
+- plan: myamericandream-plan.md
+  section: Build order
+  item: '7. Country cards: SSN / ITIN as words and desks'
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The country, same everywhere
+  item: Social Security, ITIN, taxes
+title:
+  es: 'Un número: Seguro Social o ITIN'
+  en: 'A number: SSN or ITIN'
+  ht: 'Yon nimewo: SSN oswa ITIN'
+summary:
+  es: Un número de Seguro Social si calificas. Un ITIN si tienes que declarar impuestos y no puedes obtenerlo.
+  en: A Social Security number if you are eligible. An ITIN if you must file taxes and cannot get one.
+  ht: Yon nimewo Sekirite Sosyal si ou kalifye. Yon ITIN si ou dwe fè deklarasyon taks epi ou pa ka jwenn li.
+body:
+  es: |-
+    La Administración del Seguro Social da el número a quienes califican, normalmente porque pueden trabajar aquí.
+
+    El ITIN es un número de impuestos del IRS para quienes deben declarar y no pueden sacar Seguro Social. No da permiso para trabajar ni sirve como identificación fuera del sistema federal de impuestos: {fact:us.irs.itin.not-id}.
+
+    Los impuestos pueden tocar incluso en tu primer año aquí.
+
+    Lo que cuesta: usar el número de otra persona es un delito federal. Nunca lo compres ni lo pidas prestado.
+  en: |-
+    The Social Security Administration gives a Social Security number to people who are eligible, usually because they may work here.
+
+    An ITIN is a tax number from the IRS for people who must file taxes and cannot get a Social Security number. It does not give permission to work or serve as identification outside the federal tax system: {fact:us.irs.itin.not-id}.
+
+    Taxes can be due even in your first year here.
+
+    What it costs: using someone else's number is a federal crime. Never buy or borrow one.
+  ht: |-
+    Administrasyon Sekirite Sosyal bay nimewo a moun ki kalifye, anjeneral paske yo gen dwa travay isit la.
+
+    ITIN se yon nimewo taks IRS bay moun ki dwe fè deklarasyon taks epi ki pa ka jwenn nimewo Sekirite Sosyal. Li pa ba w dwa travay ni li pa sèvi kòm idantifikasyon deyò sistèm taks federal la: {fact:us.irs.itin.not-id}.
+
+    Ou ka dwe taks menm nan premye ane ou isit la.
+
+    Sa sa koute: sèvi ak nimewo yon lòt moun se yon krim federal. Pa janm achte l ni prete l.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us.ssa.ssn-eligibility
+- - us.irs.itin
+  - us.irs.itin-not-work-permit
+  - us.irs.itin.not-id
+- - us.irs.who-must-file
+- - us.ssa.ssn-misuse
+desk: us.accredited-legal-help
+actions:
+- type: call_desk
+  desk_id: us.ssa
+- type: call_desk
+  desk_id: us.accredited-legal-help
+utterances:
+  es:
+  - cómo saco el seguro social
+  - qué es un ITIN
+  - puedo sacar el social
+  - necesito un número de impuestos
+  - social o ITIN
+  en:
+  - how do I get a social security number
+  - what is an ITIN
+  - can I get a social
+  - I need a tax number
+  - SSN or ITIN
+  ht:
+  - kijan pou m jwenn yon nimewo social security
+  - kisa yon ITIN ye
+  - èske m ka jwenn yon social
+  - mwen bezwen yon nimewo taks
+  - SSN oswa ITIN
+privacy_scope: person-papers
+stages:
+- 9
+modes:
+- resident
+region_pack: us
+is_immigration: true
+related_cards:
+- taxes-irs
+fact_refs:
+- us.ssa.ssn-eligibility
+- us.irs.itin
+- us.irs.itin-not-work-permit
+- us.irs.itin.not-id
+- us.irs.who-must-file
+- us.ssa.ssn-misuse
+topics:
+- taxes

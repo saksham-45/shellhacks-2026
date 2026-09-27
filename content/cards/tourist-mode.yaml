@@ -1,0 +1,75 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: tourist-mode
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Stages
+  item: Tourist mode skips 2 through 9
+title:
+  es: De visita en Miami
+  en: Visiting Miami
+  ht: Vizit Miami
+summary:
+  es: 'Para una estadía corta: el aeropuerto, estafas, propinas, sol, peajes del carro de alquiler, emergencias y cómo volver a MIA. Nada más, a menos que digas que te mudaste aquí.'
+  en: 'For a short stay: the airport, scams, tipping, sun, rental-car tolls, emergencies, and the way back to MIA. Nothing else unless you say you moved here.'
+  ht: 'Pou yon ti sejou: ayewopò a, eskwokri, poubwa, solèy, peyaj machin lwaye, ijans, ak kijan pou retounen MIA. Anyen lòt, sòf si ou di nou ou demenaje isit.'
+body:
+  es: |-
+    Este modo muestra solo lo que necesita un visitante.
+
+    ¿Te mudaste? Di “soy residente” y se abre el camino completo.
+  en: |-
+    This mode shows only what a visitor needs.
+
+    Moved here? Say “I am a resident” and the full path opens.
+  ht: |-
+    Mòd sa a montre sèlman sa yon vizitè bezwen.
+
+    Ou demenaje isit? Di “mwen se rezidan” epi tout chemen an ap louvri.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- []
+desk: us-fl-miamidade.mia-information
+utterances:
+  es:
+  - solo estoy de visita
+  - modo turista
+  - estoy de vacaciones en Miami
+  - cosas para turistas
+  en:
+  - I am just visiting
+  - tourist mode
+  - I am on vacation in Miami
+  - visitor stuff
+  ht:
+  - mwen annvizit sèlman
+  - mòd touris
+  - mwen an vakans Miami
+  - bagay pou vizitè
+privacy_scope: person
+stages:
+- 1
+- 10
+modes:
+- tourist
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- airport-exit
+- scam-check
+- tipping
+- sun-heat
+- rental-car-tolls
+- emergency-911
+- back-to-mia
+fact_refs: []
+topics:
+- visitors

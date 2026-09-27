@@ -1,0 +1,71 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: stage-05-roof
+kind: stage
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Stages
+  item: 5. Roof
+title:
+  es: Techo
+  en: Roof
+  ht: Kay
+summary:
+  es: Tengo un contrato de alquiler que puedo explicar.
+  en: I have a lease I can explain back.
+  ht: Mwen gen yon kontra lwaye mwen ka esplike.
+body:
+  es: |-
+    Lo principal es la línea de renta, revisar el anuncio y en qué ciudad estás.
+
+    Lo principal es la primera tarjeta de esa lista que aún no terminas. Cada familiar puede estar en una etapa distinta en la misma casa.
+  en: |-
+    The hero is the rent line, the listing check, and which city you are in.
+
+    The hero is the first card on that list you have not finished. Family members can be on different stages in the same house.
+  ht: |-
+    Premye bagay la se liy lwaye a, verifye anons lan, ak nan ki vil ou ye.
+
+    Premye bagay la se premye kat nan lis sa a ou poko fini. Chak moun nan fanmi an ka nan yon etap diferan nan menm kay la.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- []
+desk: us.legal-aid
+utterances:
+  es:
+  - etapa de vivienda
+  - próximo paso para un lugar donde vivir
+  - etapa del techo
+  - ayúdame con el alquiler
+  en:
+  - housing stage
+  - next step for a place to live
+  - roof stage
+  - help me with renting
+  ht:
+  - etap kay
+  - pwochen etap pou yon kote pou m viv
+  - etap twati
+  - ede m ak zafè lwaye
+privacy_scope: person
+stages:
+- 5
+modes:
+- resident
+region_pack: us
+is_immigration: false
+hero_cards:
+- rent-line
+- listing-check
+- which-government
+- lease-basics
+fact_refs: []
+topics:
+- rent

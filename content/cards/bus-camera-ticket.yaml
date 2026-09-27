@@ -1,0 +1,98 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: bus-camera-ticket
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > Movement and morning
+  item: School-bus camera tickets
+- plan: mymiami-plan.md
+  section: Every feature > Getting around and the school morning
+  item: Bus-camera ticket
+- plan: mymiami-public-data.md
+  section: Card by card
+  item: School-bus camera ticket
+title:
+  es: Multa por cámara del bus escolar
+  en: School-bus camera ticket
+  ht: Tikè kamera bis lekòl
+summary:
+  es: Cómo leer un aviso de la cámara del bus escolar. Algunos se suspendieron después de multas equivocadas.
+  en: How to read a school-bus camera notice. Some of these were suspended after bad tickets.
+  ht: Kijan pou li yon avi kamera bis lekòl. Yo te sispann kèk ladan yo apre move tikè.
+body:
+  es: |-
+    Florida permite a los distritos escolares usar cámaras en los buses para multar a quien pasa un bus detenido.
+
+    Miami-Dade suspendió algunas de estas multas después de encontrar errores.
+
+    Lee el aviso: quién lo manda, el lugar, el enlace de la foto o video, y cómo impugnarlo. Respeta la fecha límite que trae.
+
+    No podemos buscar tu multa.
+  en: |-
+    Florida lets school districts use cameras on buses to ticket drivers who pass a stopped bus.
+
+    Miami-Dade suspended some of these tickets after errors were found.
+
+    Read the notice: who sent it, the place, the photo or video link, and how to contest it. Keep to the deadline printed on it.
+
+    We cannot look up your citation.
+  ht: |-
+    Florid pèmèt distri lekòl yo mete kamera sou bis pou bay chofè ki pase yon bis ki kanpe tikè.
+
+    Miami-Dade te sispann kèk nan tikè sa yo apre yo te jwenn erè.
+
+    Li avi a: kiyès ki voye l, kote a, lyen foto oswa videyo a, ak kijan pou konteste l. Respekte dat limit ki ekri sou li a.
+
+    Nou pa ka chèche tikè ou.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl.school-bus-camera.law
+- - us-fl-miamidade.school-bus-camera.suspensions
+- - us-fl-miamidade.school-bus-camera.contest-process
+- []
+desk: us-fl-miamidade.school-bus-camera
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.school-bus-camera
+utterances:
+  es:
+  - me llegó una multa de la cámara del bus escolar
+  - cómo peleo la multa del bus
+  - esta multa del bus es real
+  - aviso de violación del bus escolar
+  - I got una multa del bus
+  en:
+  - I got a school bus camera ticket
+  - how do I fight a bus camera ticket
+  - is this bus ticket real
+  - school bus violation notice
+  - una multa del school bus
+  ht:
+  - mwen resevwa yon tikè kamera bis lekòl
+  - kijan pou m konteste tikè bis la
+  - èske tikè bis sa a vre
+  - avi vyolasyon bis lekòl
+  - mwen resevwa yon school bus ticket
+privacy_scope: household
+stages:
+- 8
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- driving-rules
+fact_refs:
+- us-fl.school-bus-camera.law
+- us-fl-miamidade.school-bus-camera.suspensions
+- us-fl-miamidade.school-bus-camera.contest-process
+topics:
+- schools
+- driving

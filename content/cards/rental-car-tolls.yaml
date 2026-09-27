@@ -1,0 +1,102 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: rental-car-tolls
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Stages
+  item: 'Tourist mode: rental-car tolls'
+- plan: myamericandream-plan.md
+  section: Origin lens
+  item: Tourists
+title:
+  es: Peajes con carro de alquiler
+  en: Rental car tolls
+  ht: Peyaj ak machin lwaye
+summary:
+  es: Muchas vías aquí no tienen casetas de efectivo. La factura de peajes del carro de alquiler llega después del viaje, muchas veces con la comisión de la compañía.
+  en: Many roads here have no cash booths. The toll bill for a rental car arrives after the trip, often with the company's fee on top.
+  ht: Anpil wout isit la pa gen kote pou peye kach. Bòdwo peyaj machin lwaye a rive apre vwayaj la, souvan ak frè konpayi an sou li.
+body:
+  es: |-
+    Los peajes aquí se pagan con transpondedor o con una foto de la placa.
+
+    Pagar por placa cuesta más que con el sticker, en todos los pórticos de la tabla de autopistas del condado.
+
+    Las compañías de alquiler te cobran los peajes después del viaje y pueden sumar una comisión por día o por peaje.
+
+    Pregunta en el mostrador: cómo cobran los peajes y cuál es la comisión.
+  en: |-
+    Tolls here are paid by transponder or by a photo of the plate.
+
+    Paying by plate costs more than the sticker rate, on every gantry in the county expressway table.
+
+    Rental companies charge you the tolls after the trip and may add a fee per day or per toll.
+
+    Ask at the counter: how are tolls billed, and what is the fee?
+  ht: |-
+    Isit la, yo peye peyaj ak yon transponde oswa ak yon foto plak la.
+
+    Peye pa plak koute plis pase ak sticker, sou tout pòtik ki nan tablo otowout konte a.
+
+    Konpayi lwaye yo fè w peye peyaj yo apre vwayaj la epi yo ka mete yon frè pa jou oswa pa peyaj.
+
+    Mande nan kontwa a: kijan yo fè w peye peyaj yo, epi konbyen frè a ye?
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl.toll.cashless
+- - us-fl-miamidade.gmx.plate-vs-sunpass
+- - us-fl.toll.rental-car-programs
+- []
+desk: us-fl-miamidade.mia-rental-car-center
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.mia-rental-car-center
+- type: open_map
+  target:
+    type: desk
+    desk_id: us-fl-miamidade.mia-rental-car-center
+utterances:
+  es:
+  - peajes con carro de alquiler
+  - necesito pase de peaje para el carro rentado
+  - por qué la rentadora me cobró peajes
+  - peaje por placa en carro rentado
+  - tolls en el carro alquilado
+  en:
+  - tolls with a rental car
+  - do I need a toll pass for my rental
+  - why did the rental company charge me tolls
+  - toll by plate rental
+  - peajes en el rental car
+  ht:
+  - peyaj ak machin lwaye
+  - èske m bezwen yon pas peyaj pou machin lwaye a
+  - poukisa konpayi lwaye a fè m peye peyaj
+  - peyaj pa plak machin lwaye
+  - tolls ak rental car la
+privacy_scope: person
+stages:
+- 1
+- 10
+modes:
+- resident
+- tourist
+region_pack: us-fl-miamidade
+is_immigration: false
+origin_lenses:
+- tourist
+related_cards: []
+fact_refs:
+- us-fl.toll.cashless
+- us-fl-miamidade.gmx.plate-vs-sunpass
+- us-fl.toll.rental-car-programs
+topics:
+- tolls
+- visitors

@@ -1,0 +1,137 @@
+{
+  "language": "ht",
+  "version": 1,
+  "review": {
+    "state": "needs_review",
+    "note": "Everyday Kreyòl phrasing drafted by the myAD Language agent. Not reviewed by a native speaker (decision D9)."
+  },
+  "fillers": [
+    "tanpri",
+    "souple"
+  ],
+  "spelling_variants": {
+    "mwen": "m",
+    "ou": "w",
+    "li": "l",
+    "nou": "n",
+    "yo": "y"
+  },
+  "commands": {
+    "back": [
+      "tounen",
+      "retounen",
+      "tounen dèyè"
+    ],
+    "home": [
+      "akèy",
+      "paj akèy"
+    ],
+    "read_this": [
+      "li sa a",
+      "li l",
+      "li l pou mwen"
+    ],
+    "stop": [
+      "sispann",
+      "kanpe",
+      "ase"
+    ],
+    "repeat": [
+      "repete",
+      "repete sa",
+      "di l ankò",
+      "ankò"
+    ],
+    "next_step": [
+      "pwochen",
+      "pwochen etap",
+      "etap swivan"
+    ],
+    "previous_step": [
+      "etap anvan",
+      "etap anvan an"
+    ],
+    "call_desk": [
+      "rele",
+      "rele yo",
+      "rele biwo a"
+    ],
+    "open_map": [
+      "louvri kat la",
+      "montre m kat la"
+    ],
+    "switch_language_es": [
+      "panyòl",
+      "an panyòl",
+      "español"
+    ],
+    "switch_language_en": [
+      "anglè",
+      "an anglè",
+      "english"
+    ],
+    "switch_language_ht": [
+      "kreyòl",
+      "an kreyòl",
+      "kreyòl ayisyen",
+      "creole"
+    ],
+    "yes": [
+      "wi",
+      "dakò",
+      "wi dakò",
+      "oke"
+    ],
+    "no": [
+      "non",
+      "non mèsi",
+      "pa kounye a"
+    ],
+    "ordinal_first": [
+      "premye a",
+      "nimewo en"
+    ],
+    "ordinal_second": [
+      "dezyèm nan",
+      "nimewo de"
+    ],
+    "ordinal_third": [
+      "twazyèm nan",
+      "nimewo twa"
+    ],
+    "switch_language_pt": [
+      "pòtigè",
+      "an pòtigè",
+      "portuguese"
+    ],
+    "switch_language_fr": [
+      "franse",
+      "an franse",
+      "french"
+    ],
+    "switch_language_ar": [
+      "arab",
+      "an arab",
+      "arabic"
+    ],
+    "switch_language_zh": [
+      "chinwa",
+      "an chinwa",
+      "chinese"
+    ],
+    "switch_language_ru": [
+      "ris",
+      "an ris",
+      "russian"
+    ],
+    "switch_language_tl": [
+      "tagalog",
+      "an tagalog"
+    ],
+    "switch_language_vi": [
+      "vyetnamyen",
+      "an vyetnamyen",
+      "vietnamese"
+    ]
+  }
+}

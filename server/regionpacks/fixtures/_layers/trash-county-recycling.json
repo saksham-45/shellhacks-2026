@@ -1,0 +1,67 @@
+{
+ "name": "RecyclingRoute",
+ "fields": [
+  {
+   "name": "WEEKDAY",
+   "type": "esriFieldTypeString",
+   "alias": "WEEKDAY",
+   "length": 9,
+   "domain": {
+    "type": "codedValue",
+    "name": "RecyclingPRWeekday",
+    "description": "Recycling Pickup Route Weekday",
+    "codedValues": [
+     {
+      "name": "MONDAY",
+      "code": "MONDAY"
+     },
+     {
+      "name": "TUESDAY",
+      "code": "TUESDAY"
+     },
+     {
+      "name": "WEDNESDAY",
+      "code": "WEDNESDAY"
+     },
+     {
+      "name": "THURSDAY",
+      "code": "THURSDAY"
+     },
+     {
+      "name": "FRIDAY",
+      "code": "FRIDAY"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "PICKUPWEEK",
+   "type": "esriFieldTypeString",
+   "alias": "PICKUPWEEK",
+   "length": 1,
+   "domain": {
+    "type": "codedValue",
+    "name": "RecyclingPRWeek",
+    "description": "Recycling Pickup Route Week",
+    "codedValues": [
+     {
+      "name": "A",
+      "code": "A"
+     },
+     {
+      "name": "B",
+      "code": "B"
+     },
+     {
+      "name": "C",
+      "code": "C"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  }
+ ]
+}

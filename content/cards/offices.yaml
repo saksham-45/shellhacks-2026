@@ -1,0 +1,116 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: offices
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Origin lens
+  item: Anyone, the offices
+title:
+  es: Qué oficina se encarga de qué
+  en: Which office owns what
+  ht: Ki biwo ki okipe kisa
+summary:
+  es: Emergencias, la oficina del condado, la licencia, los papeles federales. La ciudad y el condado son gobiernos distintos, y tu dirección sabe cuál.
+  en: Emergency, the county desk, the license, federal papers. The city and the county are different governments, and your pin knows which one.
+  ht: Ijans, biwo konte a, lisans, papye federal. Vil la ak konte a se de gouvènman diferan, epi adrès ou konnen kiyès.
+body:
+  es: |-
+    {fact:us.911.phone} es policía, bomberos y ambulancia, para una emergencia ahora.
+
+    {fact:us-fl-miamidade.311.phone} es la línea del condado para lo que no es emergencia: basura que no pasó, un bache, una pregunta.
+
+    El Tax Collector se encarga de la licencia de manejar y de la placa del carro.
+
+    USCIS es la oficina federal de los papeles de inmigración.
+
+    Vives en {fact:us-fl-miamidade.gov.municipality}. La ciudad y el condado son gobiernos separados.
+  en: |-
+    {fact:us.911.phone} is police, fire, and ambulance, for an emergency now.
+
+    {fact:us-fl-miamidade.311.phone} is the county's non-emergency desk: a missed pickup, a pothole, a question.
+
+    The Tax Collector handles the driver license and the car tag.
+
+    USCIS is the federal office for immigration papers.
+
+    You live in {fact:us-fl-miamidade.gov.municipality}. The city and the county are separate governments.
+  ht: |-
+    {fact:us.911.phone} se lapolis, ponpye, ak anbilans, pou yon ijans kounye a.
+
+    {fact:us-fl-miamidade.311.phone} se liy konte a pou sa ki pa ijans: fatra yo pa ranmase, yon twou nan wout, yon kesyon.
+
+    Tax Collector la okipe lisans kondwi ak plak machin.
+
+    USCIS se biwo federal pou papye imigrasyon.
+
+    Ou rete nan {fact:us-fl-miamidade.gov.municipality}. Vil la ak konte a se gouvènman separe.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us.911.phone
+- - us-fl-miamidade.311.phone
+- - us-fl-miamidade.tax-collector.license-appointments
+- - us.uscis.role
+- - us-fl-miamidade.gov.unincorporated
+  - us-fl-miamidade.gov.municipality
+paragraph_when:
+- null
+- null
+- null
+- null
+- municipality: unincorporated
+desk: us-fl-miamidade.311
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.311
+- type: call_desk
+  desk_id: us.911
+- type: call_desk
+  desk_id: us-fl-miamidade.immigration-legal-aid
+utterances:
+  es:
+  - a qué oficina llamo
+  - quién se encarga de qué
+  - cuál es la diferencia entre la ciudad y el condado
+  - qué número para qué
+  - which oficina llamo
+  en:
+  - which office do I call
+  - who handles what
+  - what is the difference between the city and the county
+  - which number for what
+  - a qué office llamo
+  ht:
+  - ki biwo pou m rele
+  - kiyès ki okipe kisa
+  - ki diferans ant vil la ak konte a
+  - ki nimewo pou kisa
+  - ki office pou m rele
+privacy_scope: person-papers
+stages:
+- 10
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: true
+related_cards:
+- emergency-911
+- miami-dade-311
+- which-government
+fact_refs:
+- us.911.phone
+- us-fl-miamidade.311.phone
+- us-fl-miamidade.tax-collector.license-appointments
+- us.uscis.role
+- us-fl-miamidade.gov.unincorporated
+- us-fl-miamidade.gov.municipality
+topics:
+- desk
+- municipality
+editor_notes: is_immigration because it names USCIS; tourists get emergency-911 and the tourist lens instead.

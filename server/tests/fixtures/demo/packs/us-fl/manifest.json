@@ -1,0 +1,67 @@
+{
+ "x-test-only": "TEST-ONLY fixture manifest shape; not Regions' manifest.",
+ "id": "us-fl",
+ "parent": "us",
+ "desks": [
+  "us-fl.test-licensing-desk",
+  "us-fl.test-housing-desk"
+ ],
+ "adapters": [
+  {
+   "id": "us-fl.fee-check-flhsmv",
+   "answers": [
+    "fees.license"
+   ],
+   "sources": [],
+   "desk": "us-fl.test-licensing-desk",
+   "facts": [
+    {
+     "id": "us-fl.flhsmv.fee.class-e-original",
+     "topics": [
+      "license"
+     ]
+    },
+    {
+     "id": "us-fl.flhsmv.fee.class-e-renewal",
+     "topics": [
+      "license"
+     ]
+    },
+    {
+     "id": "us-fl.flhsmv.fee.id-card-original",
+     "topics": [
+      "license"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "us-fl.fee-check-deposit",
+   "answers": [
+    "rent.deposit"
+   ],
+   "sources": [],
+   "desk": "us-fl.test-housing-desk",
+   "facts": [
+    {
+     "id": "us-fl.landlord.deposit.return-days-no-claim",
+     "topics": [
+      "rent"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "us-fl.not-a-fee-adapter",
+   "answers": [
+    "other"
+   ],
+   "desk": "us-fl.test-licensing-desk",
+   "facts": [
+    {
+     "id": "us-fl.test.other"
+    }
+   ]
+  }
+ ]
+}

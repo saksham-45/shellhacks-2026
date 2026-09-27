@@ -1,0 +1,23 @@
+{
+  "fact_id": "us-fl-miamidade.license.flow-event-example",
+  "outcome": "value-changed",
+  "action": "The quoted passage now shows different figures. Re-read the source; if the fact changed, update value+quote+retrieved_at by hand and add correction_note.",
+  "result": {
+    "fact_id": "us-fl-miamidade.license.flow-event-example",
+    "source_id": "us-fl-miamidade.mdpls-flow-event",
+    "kind": "static",
+    "status_before": "verified",
+    "outcome": "value-changed",
+    "detail": "the quoted passage is still there but its figures changed: [] -> ['19']",
+    "snippet": "ruizo@mdpls.org. Ages 19 yrs.+ Hialeah Gardens Branch - Monday, October 26 10:00am - 2:00pm Add to Calendar Hialeah Gardens Branch Visit FLOW at",
+    "similarity": 0.784,
+    "observed": null,
+    "recorded": "Monday, October 26 10:00am - 2:00pm Hialeah Gardens Branch",
+    "checked_url": "https://mdpls.org/event/15529974",
+    "final_url": "https://mdpls.org/event/15529974",
+    "consecutive_unreachable": 0,
+    "propose_stale": false
+  },
+  "run_started_at": "2026-09-25T17:38:48-04:00",
+  "auto_applied": false
+}

@@ -1,0 +1,54 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "NSMicrophoneUsageDescription": {
+      "comment": "Permission prompt text. App name stays as-is.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "myMiami listens when you tap the mic so you can use the app by voice."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "myMiami escucha cuando toca el micrófono para que pueda usar la app con la voz."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "myMiami koute lè ou tape mikwo a pou ou ka sèvi ak aplikasyon an ak vwa ou."
+          }
+        }
+      }
+    },
+    "NSSpeechRecognitionUsageDescription": {
+      "comment": "Permission prompt text.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Speech recognition turns what you say into actions in the app."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "El reconocimiento de voz convierte lo que dice en acciones dentro de la app."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Rekonesans vwa chanje sa ou di an aksyon nan aplikasyon an."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

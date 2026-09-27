@@ -1,0 +1,137 @@
+# Controlled vocabulary for the optional `topics` tags on ledger facts. Owner: myAD Research.
+# Shared by Content, Regions, Agents and the Lead's bundle builder. validate.py fails on any
+# fact topic that is not listed here. Ids are stable once written: add new ids, never rename
+# or reuse one. Keep the list small; tag by user intent, not by agency.
+topics:
+  - id: trash
+    slug: trash
+    description: Garbage, recycling and bulky-trash pickup days and rules for a pin.
+  - id: municipality
+    slug: municipality
+    description: Whether a pin is in an incorporated city or unincorporated county, which decides who handles trash, permits and police.
+  - id: schools
+    slug: schools
+    description: Zoned public schools, enrollment papers and school contacts.
+  - id: parcel
+    slug: parcel
+    description: Property Appraiser parcel data for a pin (folio, year built, use, condo flag).
+  - id: water
+    slug: water
+    description: Water and sewer provider for a pin and its contacts.
+  - id: parks
+    slug: parks
+    description: Nearest county and city parks.
+  - id: libraries
+    slug: libraries
+    description: Nearest library branches, library cards and library services.
+  - id: voting
+    slug: voting
+    description: Precinct, polling place, and who may register and vote.
+  - id: representatives
+    slug: representatives
+    description: Elected officials and districts (commission, Congress, state, school board).
+  - id: transit
+    slug: transit
+    description: Bus and rail stops, routes and transit feeds.
+  - id: tolls
+    slug: tolls
+    description: Toll rates, SunPass versus toll-by-plate, and toll invoices.
+  - id: rent
+    slug: rent
+    description: Rent limits, housing programs and renter rights.
+  - id: income-limits
+    slug: income-limits
+    description: Income limits by household size and AMI percent for housing programs.
+  - id: power
+    slug: power
+    description: Electricity bills and the power utility.
+  - id: "311"
+    slug: "311"
+    description: Miami-Dade 311 non-emergency government line.
+  - id: "211"
+    slug: "211"
+    description: 211 community help line for food, shelter and services.
+  - id: "911"
+    slug: "911"
+    description: Emergency calls (911) and poison, crisis and other urgent lines.
+  - id: legal-aid
+    slug: legal-aid
+    description: Free or low-cost lawyers, accredited representatives and lawyer referral.
+  - id: immigration
+    slug: immigration
+    description: USCIS rules, work permits, address changes and immigration scams.
+  - id: tps
+    slug: tps
+    description: Temporary Protected Status designations and dates.
+  - id: refugee-benefits
+    slug: refugee-benefits
+    description: ORR-funded cash, medical and job services for refugees and Cuban/Haitian entrants, and public charge.
+  - id: license
+    slug: license
+    description: Florida driver license and ID, documents and offices.
+  - id: driving
+    slug: driving
+    description: Florida traffic rules, insurance minimums and DUI.
+  - id: parking
+    slug: parking
+    description: Parking, towing and tow charges.
+  - id: pedestrian
+    slug: pedestrian
+    description: Pedestrian safety and crash figures.
+  - id: condo
+    slug: condo
+    description: Condo buildings, assessments and building safety.
+  - id: minimum-wage
+    slug: minimum-wage
+    description: Florida and federal minimum wage, and getting paid for hours worked.
+  - id: tipping
+    slug: tipping
+    description: Tipping customs and tipped-worker wages.
+  - id: desk
+    slug: desk
+    description: Contact facts for a desk (name, phone, URL, address, hours, languages).
+  - id: storm
+    slug: storm
+    description: Hurricane evacuation zones, shelters and flood disclosure.
+  - id: scams
+    slug: scams
+    description: How to tell real government or toll messages from scams.
+  - id: health
+    slug: health
+    description: Hospitals, clinics, vaccines and the right to a medical interpreter.
+  - id: work
+    slug: work
+    description: Wage theft claims, professional licensing and work-related desks.
+  - id: language
+    slug: language
+    description: Interpreters, English classes and which languages a desk answers in.
+  - id: mail
+    slug: mail
+    description: Change of address and getting official mail.
+  - id: police
+    slug: police
+    description: Police non-emergency lines and which agency polices a pin.
+  - id: shelter
+    slug: shelter
+    description: Homeless help lines and emergency shelter intake.
+  - id: flood
+    slug: flood
+    description: FEMA flood zones for a pin, flood insurance (NFIP) and its waiting period.
+  - id: etiquette
+    slug: etiquette
+    description: Everyday social norms that may differ from home, such as lines, volume, punctuality and names on forms.
+  - id: food
+    slug: food
+    description: Groceries and food help, including food assistance referrals.
+  - id: money
+    slug: money
+    description: Bank accounts, credit, sending money home and everyday costs.
+  - id: taxes
+    slug: taxes
+    description: Federal tax filing, taxpayer numbers (ITIN or SSN), keeping records, and the local business tax receipt.
+  - id: utilities
+    slug: utilities
+    description: Setting up internet and phone service. Electricity stays under power.
+  - id: visitors
+    slug: visitors
+    description: Short-stay visitors and tourists, such as the airport, rental cars, heat and tipping.

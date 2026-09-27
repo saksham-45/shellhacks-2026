@@ -1,0 +1,94 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: the-building
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > The week and the map
+  item: 'The building: year, condo, folio'
+- plan: mymiami-plan.md
+  section: Every feature > The week, and where you are
+  item: The building
+title:
+  es: Tu edificio
+  en: Your building
+  ht: Bilding ou
+summary:
+  es: Año de construcción, si es condominio, folio y uso, del registro de propiedad del condado.
+  en: Year built, condo or not, folio, and use, from the county property record.
+  ht: Ane yo te bati l, si se kondo oswa non, folio, ak itilizasyon, dapre dosye pwopriyete konte a.
+body:
+  es: |-
+    Construido en {fact:us-fl-miamidade.parcel.year-built}. Condominio: {fact:us-fl-miamidade.parcel.condo-flag}. Uso: {fact:us-fl-miamidade.parcel.use}.
+
+    Folio: {fact:us-fl-miamidade.parcel.folio}. Lo vas a necesitar para preguntas sobre la propiedad.
+
+    Un edificio de condominios viejo recibe la tarjeta de la cuota especial, no una adivinanza.
+  en: |-
+    Built in {fact:us-fl-miamidade.parcel.year-built}. Condo: {fact:us-fl-miamidade.parcel.condo-flag}. Use: {fact:us-fl-miamidade.parcel.use}.
+
+    Folio: {fact:us-fl-miamidade.parcel.folio}. You will need it for property questions.
+
+    An older condo building gets the assessment card, not a guess.
+  ht: |-
+    Bati an {fact:us-fl-miamidade.parcel.year-built}. Kondo: {fact:us-fl-miamidade.parcel.condo-flag}. Itilizasyon: {fact:us-fl-miamidade.parcel.use}.
+
+    Folio: {fact:us-fl-miamidade.parcel.folio}. W ap bezwen l pou kesyon sou pwopriyete a.
+
+    Yon ansyen bilding kondo jwenn kat kotizasyon espesyal la, pa yon devinèt.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.parcel.year-built
+  - us-fl-miamidade.parcel.condo-flag
+  - us-fl-miamidade.parcel.use
+- - us-fl-miamidade.parcel.folio
+- []
+desk: us-fl-miamidade.property-appraiser
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.property-appraiser
+- type: open_map
+  target:
+    type: desk
+    desk_id: us-fl-miamidade.property-appraiser
+utterances:
+  es:
+  - cuándo construyeron mi edificio
+  - esto es un condominio
+  - cuál es mi número de folio
+  - háblame de este edificio
+  - qué tan viejo es the building
+  en:
+  - when was my building built
+  - is this a condo
+  - what is my folio number
+  - tell me about this building
+  - how old is el building
+  ht:
+  - ki lè yo te bati bilding mwen an
+  - èske se yon kondo
+  - ki nimewo folio mwen
+  - pale m de bilding sa a
+  - ki laj building lan
+privacy_scope: household
+stages:
+- 5
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- condo-assessment
+fact_refs:
+- us-fl-miamidade.parcel.year-built
+- us-fl-miamidade.parcel.condo-flag
+- us-fl-miamidade.parcel.use
+- us-fl-miamidade.parcel.folio
+topics:
+- parcel

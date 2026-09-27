@@ -1,0 +1,9 @@
+{
+  "request_url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query?geometry=%7B%22x%22%3A-80.41646700000167%2C%22y%22%3A25.663194000003116%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=80&units=esriSRUnit_Meter&outFields=FOLIO%2CTRUE_SITE_ADDR%2CCONDO_FLAG%2CYEAR_BUILT%2CDOR_DESC&returnGeometry=true&outSR=4326&f=json",
+  "method": "GET",
+  "retrieved_at": "2026-09-25T18:06:32-04:00",
+  "http_status": 200,
+  "bytes": 15730,
+  "sha256": "e627f58bca38e31d06e1c02508d2875a72d37252d596f9d32f1564f1cd12306c",
+  "capture_path": "scripts/refresh_fixtures.py (LiveTransport, box egress)"
+}

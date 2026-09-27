@@ -1,0 +1,3056 @@
+[
+  {
+    "id": "us.census.incorporated-place",
+    "claim": "Incorporated place containing the address, or none",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us",
+    "source_id": "us.census-geocoder",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?address=111+NW+1st+St,+Miami,+FL+33128&benchmark=Public_AR_Current&vintage=Current_Current&layers=all&format=json",
+    "quote": "Incorporated Places: NAME Miami city (GEOID 1245000)",
+    "retrieved_at": "2026-09-25T17:17:00-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.311",
+    "lookup": {
+      "endpoint": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+      "layer_id": null,
+      "fields": [
+        "Incorporated Places.NAME",
+        "Incorporated Places.GEOID"
+      ],
+      "method": "census_geocoder(benchmark=Public_AR_Current, vintage=Current_Current, layers=all)",
+      "question": "government.which"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "municipality"
+    ]
+  },
+  {
+    "id": "us.census.county-subdivision",
+    "claim": "Census county subdivision (CCD) containing the address",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us",
+    "source_id": "us.census-geocoder",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?address=11200+SW+137th+Ave,+Miami,+FL+33186&benchmark=Public_AR_Current&vintage=Current_Current&layers=all&format=json",
+    "quote": "County Subdivisions: NAME Kendale Lakes-Tamiami CCD",
+    "retrieved_at": "2026-09-25T17:17:00-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.311",
+    "lookup": {
+      "endpoint": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+      "layer_id": null,
+      "fields": [
+        "County Subdivisions.NAME"
+      ],
+      "method": "census_geocoder(benchmark=Public_AR_Current, vintage=Current_Current, layers=all)",
+      "question": "government.which"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "municipality"
+    ]
+  },
+  {
+    "id": "us.census.tract",
+    "claim": "Census tract containing the address",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us",
+    "source_id": "us.census-geocoder",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?address=11200+SW+137th+Ave,+Miami,+FL+33186&benchmark=Public_AR_Current&vintage=Current_Current&layers=all&format=json",
+    "quote": "Census Tracts: Census Tract 188.01 (GEOID 12086018801)",
+    "retrieved_at": "2026-09-25T17:17:00-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.311",
+    "lookup": {
+      "endpoint": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+      "layer_id": null,
+      "fields": [
+        "Census Tracts.GEOID",
+        "Census Tracts.NAME"
+      ],
+      "method": "census_geocoder(benchmark=Public_AR_Current, vintage=Current_Current, layers=all)",
+      "question": "geo.tract"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research."
+  },
+  {
+    "id": "us.census.congressional-district",
+    "claim": "US House district (120th Congress) containing the address",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us",
+    "source_id": "us.census-geocoder",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?address=11200+SW+137th+Ave,+Miami,+FL+33186&benchmark=Public_AR_Current&vintage=Current_Current&layers=all&format=json",
+    "quote": "120th Congressional Districts: Congressional District 28",
+    "retrieved_at": "2026-09-25T17:17:00-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.elections",
+    "lookup": {
+      "endpoint": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+      "layer_id": null,
+      "fields": [
+        "120th Congressional Districts.CD120"
+      ],
+      "method": "census_geocoder(benchmark=Public_AR_Current, vintage=Current_Current, layers=all)",
+      "question": "representatives.congress"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "representatives"
+    ]
+  },
+  {
+    "id": "us-fl.census.state-senate-district",
+    "claim": "Florida Senate district (2026) containing the address",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl",
+    "source_id": "us.census-geocoder",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?address=11200+SW+137th+Ave,+Miami,+FL+33186&benchmark=Public_AR_Current&vintage=Current_Current&layers=all&format=json",
+    "quote": "2026 State Legislative Districts - Upper: State Senate District 40",
+    "retrieved_at": "2026-09-25T17:17:00-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.elections",
+    "lookup": {
+      "endpoint": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+      "layer_id": null,
+      "fields": [
+        "2026 State Legislative Districts - Upper.SLDU"
+      ],
+      "method": "census_geocoder(benchmark=Public_AR_Current, vintage=Current_Current, layers=all)",
+      "question": "representatives.state-senate"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "representatives"
+    ]
+  },
+  {
+    "id": "us-fl.census.state-house-district",
+    "claim": "Florida House district (2026) containing the address",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl",
+    "source_id": "us.census-geocoder",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?address=11200+SW+137th+Ave,+Miami,+FL+33186&benchmark=Public_AR_Current&vintage=Current_Current&layers=all&format=json",
+    "quote": "2026 State Legislative Districts - Lower: State House District 119",
+    "retrieved_at": "2026-09-25T17:17:00-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.elections",
+    "lookup": {
+      "endpoint": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+      "layer_id": null,
+      "fields": [
+        "2026 State Legislative Districts - Lower.SLDL"
+      ],
+      "method": "census_geocoder(benchmark=Public_AR_Current, vintage=Current_Current, layers=all)",
+      "question": "representatives.state-house"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "representatives"
+    ]
+  },
+  {
+    "id": "us-fl-miamidade.government.municipality",
+    "claim": "Municipality (or UNINCORPORATED MIAMI-DADE) containing the pin",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-municipality",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_MDPDViewer/MapServer/8/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "NAME: UNINCORPORATED MIAMI-DADE, MUNICID: 30",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.311",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_MDPDViewer/MapServer/8/query",
+      "layer_id": 8,
+      "fields": [
+        "NAME",
+        "MUNICID"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "government.which"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "municipality"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.trash.garbage-days",
+    "claim": "County garbage collection days for the pin (county service area only)",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-garbage-route",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/1/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "WEEKDAYS: Tuesday Friday; ROUTE: 5209",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "weekdays",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.dswm",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/1/query",
+      "layer_id": 1,
+      "fields": [
+        "WEEKDAYS",
+        "ROUTE"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "trash.schedule"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "trash"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.trash.recycling-day",
+    "claim": "County recycling collection weekday for the pin",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-recycling-route",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/2/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "WEEKDAY: FRIDAY; PICKUPWEEK: A; DESCRIPTION: DSWM SERVICE AREA; ISMUNIC: N; UPDATED: 11/22/10",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "weekdays",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.dswm",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/2/query",
+      "layer_id": 2,
+      "fields": [
+        "WEEKDAY",
+        "PICKUPWEEK",
+        "ISMUNIC",
+        "INSERVAREA",
+        "DESCRIPTION"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "trash.schedule"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "trash"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.trash.recycling-week",
+    "claim": "County recycling pickup week letter (A/B/C) for the pin",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-recycling-route",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/2/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "PICKUPWEEK: A; PICKUPCODE: 5 FRI A",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.dswm",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/2/query",
+      "layer_id": 2,
+      "fields": [
+        "PICKUPWEEK"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "trash.schedule"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "trash"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miami.trash.day",
+    "claim": "City of Miami trash day for the address from TrashRoutes TRASHDAY (per the City's own service names this is most likely the weekly bulky-trash day, not household garbage)",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.gis-trash-routes",
+    "url": "https://gis.miami.gov/gis/rest/services/SolidWaste/TrashRoutes/MapServer/0/query",
+    "quote": "features: [{\"attributes\": {\"OBJECTID\": 5, \"TRASHDAY\": \"T\"}}]; domain SW_Service_Days: {\"name\": \"Tue\", \"code\": \"T\"}",
+    "retrieved_at": "2026-09-25T17:30:00-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "weekdays",
+    "kind": "lookup",
+    "desk": "us-fl-miami.solid-waste",
+    "lookup": {
+      "endpoint": "https://gis.miami.gov/gis/rest/services/SolidWaste/TrashRoutes/MapServer/0/query",
+      "layer_id": 0,
+      "fields": [
+        "TRASHDAY"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326); day codes decoded only via the layer's own codedValues",
+      "question": "trash.schedule"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "correction_note": "Adopted id kept for Regions' adapters, but the City runs separate GarbageRoutes (GARBDAY 'Garbage Pickup Days') and TrashRoutes (TRASHDAY 'Trash Pickup Day') layers, and its Solid Waste page describes 'garbage, bulky trash and recycling services' with garbage twice a week and bulky trash once a week. Downtown returns GARBDAY MR (Mon and Thu) but TRASHDAY T (Tue only). A card saying 'basura' must use us-fl-miami.trash.garbage-days; TRASHDAY should be labeled bulky trash. Inference from the City's labels; confirm with City Solid Waste 305-960-2801.",
+    "topics": [
+      "trash"
+    ]
+  },
+  {
+    "id": "us-fl-miamidade.school.elementary",
+    "claim": "Zoned elementary school (name, address, phone, grades)",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-elementary",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ElementaryAttendanceBoundary.NAME: Pepper, Claude Elementary; SchoolSite.NAME: Claude Pepper Elementary; SchoolSite.ADDRESS: 14550 SW 96th St; LAT 25.67654; LON -80.42995",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.m-dcps",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query",
+      "layer_id": 9,
+      "fields": [
+        "psde2.MDC.SchoolSite.NAME",
+        "psde2.MDC.SchoolSite.ADDRESS",
+        "psde2.MDC.ElementaryAttendanceBoundary.PHONE",
+        "psde2.MDC.ElementaryAttendanceBoundary.GRADES",
+        "psde2.MDC.SchoolSite.LAT",
+        "psde2.MDC.SchoolSite.LON",
+        "psde2.MDC.ElementaryAttendanceBoundary.MODIFIEDDATE"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "school.zoned"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.middle",
+    "claim": "Zoned middle school (name, address, phone, grades)",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-middle",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "MiddleAttendanceBoundary.NAME: Arvida Middle; SchoolSite.NAME: Arvida Middle; SchoolSite.ADDRESS: 10900 SW 127th Ave; LAT 25.66654; LON -80.40116",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.m-dcps",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query",
+      "layer_id": 11,
+      "fields": [
+        "psde2.MDC.SchoolSite.NAME",
+        "psde2.MDC.SchoolSite.ADDRESS",
+        "psde2.MDC.MiddleAttendanceBoundary.PHONE",
+        "psde2.MDC.MiddleAttendanceBoundary.GRADES",
+        "psde2.MDC.SchoolSite.LAT",
+        "psde2.MDC.SchoolSite.LON"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "school.zoned"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.high",
+    "claim": "Zoned high school (name, address, phone, grades)",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-high",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "HighAttendanceBoundary.NAME: Miami Sunset Senior High; SchoolSite.NAME: Miami Sunset Senior High; SchoolSite.ADDRESS: 13125 SW 72nd St; LAT 25.70156; LON -80.40421",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.m-dcps",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query",
+      "layer_id": 10,
+      "fields": [
+        "psde2.MDC.SchoolSite.NAME",
+        "psde2.MDC.SchoolSite.ADDRESS",
+        "psde2.MDC.HighAttendanceBoundary.PHONE",
+        "psde2.MDC.HighAttendanceBoundary.GRADES",
+        "psde2.MDC.SchoolSite.LAT",
+        "psde2.MDC.SchoolSite.LON"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "school.zoned"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.parcel.folio",
+    "claim": "Folio of the parcel at the pin",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-parcels",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "FOLIO: 3059100230010; TRUE_SITE_ADDR: 11200 SW 137 AVE; YEAR_BUILT: 1990; CONDO_FLAG: N; DOR_DESC: RESTAURANT OR CAFETERIA : RETAIL OUTLET; FLOOR_COUNT: 1",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.property-appraiser",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query",
+      "layer_id": 26,
+      "fields": [
+        "FOLIO",
+        "TRUE_SITE_ADDR"
+      ],
+      "method": "buffer 80 m (esriSRUnit_Meter) then site-address match, else nearest polygon",
+      "question": "building.parcel"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "parcel"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.parcel.year-built",
+    "claim": "Year built of the parcel at the pin (0 = none recorded)",
+    "value": null,
+    "unit": "year",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-parcels",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "FOLIO: 3059100230010; TRUE_SITE_ADDR: 11200 SW 137 AVE; YEAR_BUILT: 1990; CONDO_FLAG: N; DOR_DESC: RESTAURANT OR CAFETERIA : RETAIL OUTLET; FLOOR_COUNT: 1",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "quantity",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.property-appraiser",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query",
+      "layer_id": 26,
+      "fields": [
+        "YEAR_BUILT"
+      ],
+      "method": "same as parcel.folio",
+      "question": "building.parcel"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "parcel"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.parcel.condo",
+    "claim": "Condo flag of the parcel at the pin",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-parcels",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "FOLIO: 3059100230010; TRUE_SITE_ADDR: 11200 SW 137 AVE; YEAR_BUILT: 1990; CONDO_FLAG: N; DOR_DESC: RESTAURANT OR CAFETERIA : RETAIL OUTLET; FLOOR_COUNT: 1",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "flag",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.property-appraiser",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query",
+      "layer_id": 26,
+      "fields": [
+        "CONDO_FLAG",
+        "PARENT_FOLIO"
+      ],
+      "method": "same as parcel.folio",
+      "question": "building.parcel"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "parcel",
+      "condo"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.parcel.use",
+    "claim": "Property use description of the parcel at the pin",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-parcels",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "FOLIO: 3059100230010; TRUE_SITE_ADDR: 11200 SW 137 AVE; YEAR_BUILT: 1990; CONDO_FLAG: N; DOR_DESC: RESTAURANT OR CAFETERIA : RETAIL OUTLET; FLOOR_COUNT: 1",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "text",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.property-appraiser",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query",
+      "layer_id": 26,
+      "fields": [
+        "DOR_DESC",
+        "FLOOR_COUNT",
+        "UNIT_COUNT"
+      ],
+      "method": "same as parcel.folio",
+      "question": "building.parcel"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "parcel"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.utility.water",
+    "claim": "Water utility serving the pin",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-water-service",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_WaterSewer/MapServer/1/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "UTILITYNAME: MDWS; UTILITYURL: http://www.miamidade.gov/water/; MODDATE: 1776115939000",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.wasd",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_WaterSewer/MapServer/1/query",
+      "layer_id": 1,
+      "fields": [
+        "UTILITYNAME",
+        "UTILITYURL",
+        "MODDATE"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "utility.water"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research. 'MDWS' = Miami-Dade Water and Sewer Department (county page name: 'Miami-Dade Water and Sewer Department (WASD)'); see us-fl-miamidade.utility.mdws-meaning.",
+    "topics": [
+      "water"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.utility.sewer",
+    "claim": "Sewer utility serving the pin",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-sewer-service",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_WaterSewer/MapServer/0/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "UTILITYNAME: MDWS; UTILITYURL: http://www.miamidade.gov/water/; MODDATE: 1778541178000",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.wasd",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_WaterSewer/MapServer/0/query",
+      "layer_id": 0,
+      "fields": [
+        "UTILITYNAME",
+        "UTILITYURL",
+        "MODDATE"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "utility.sewer"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research. 'MDWS' = Miami-Dade Water and Sewer Department (county page name: 'Miami-Dade Water and Sewer Department (WASD)'); see us-fl-miamidade.utility.mdws-meaning.",
+    "topics": [
+      "water"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.parks.nearest-county",
+    "claim": "Nearest county-operated parks",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-parks-county",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/1/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter",
+    "quote": "NAME: FIRST STREET METROMOVER STATION DOG SPOT; ADDRESS: 245 NE 1ST AVE; LAT 25.77569; LON -80.18983 (685 m from pin)",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "place",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.parks",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/1/query",
+      "layer_id": 1,
+      "fields": [
+        "NAME",
+        "ADDRESS",
+        "PHONE",
+        "CLASS"
+      ],
+      "method": "buffer 3000 m, haversine sort, top 3 as rank suffix .1-.3",
+      "question": "places.parks"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "parks"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.parks.nearest-municipal",
+    "claim": "Nearest municipal parks (county-published layer)",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-parks-municipal",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/0/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter",
+    "quote": "NAME: Paul S Walker Park; ADDRESS: 46 W Flagler St; LAT 25.77386; LON -80.19454 (288 m from pin)",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "place",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.parks",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/0/query",
+      "layer_id": 0,
+      "fields": [
+        "NAME",
+        "ADDRESS",
+        "PHONE",
+        "CLASS",
+        "MNGTAGCY"
+      ],
+      "method": "buffer 3000 m, haversine sort, top 3 as rank suffix .1-.3",
+      "question": "places.parks"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "parks"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.library.nearest",
+    "claim": "Nearest library branches",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-libraries",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=5000&units=esriSRUnit_Meter",
+    "quote": "NAME: Main Library; ADDRESS: 101 W Flagler St; LAT 25.774359999999998; LON -80.19718 (147 m from pin)",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "place",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.library",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1/query",
+      "layer_id": 1,
+      "fields": [
+        "BRANCH",
+        "ADDRESS",
+        "CITY"
+      ],
+      "method": "buffer 5000 m, haversine sort, top 3 as rank suffix .1-.3",
+      "question": "places.libraries"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "libraries"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.vote.precinct",
+    "claim": "Voting precinct containing the pin",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/3/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 792",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.elections",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/3/query",
+      "layer_id": 3,
+      "fields": [
+        "ID"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "vote.where"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "voting"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.vote.polling-place",
+    "claim": "Election-day polling place for the pin's precinct",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/0/query?f=json&returnGeometry=false&outFields=%2A&where=PRECINCT%3D792",
+    "quote": "NAME: Our Lady of Lourdes Catholic Church; ADDRESS: 11291 SW 142 Ave; PRECINCT: 792; PHONE: 305-385-7112",
+    "retrieved_at": "2026-09-25T17:36:58-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "place",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.elections",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/0/query",
+      "layer_id": 0,
+      "fields": [
+        "NAME",
+        "ADDRESS",
+        "CITY",
+        "ZIPCODE",
+        "PHONE",
+        "PRECINCT",
+        "LAT",
+        "LON"
+      ],
+      "method": "precinct PIP (layer 3) then where PRECINCT=<id> on layer 0",
+      "question": "vote.where"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "voting"
+    ]
+  },
+  {
+    "id": "us-fl-miamidade.rep.county-commission.district",
+    "claim": "County commission district and commissioner - district id",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/4/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 11; COMMNAME: Roberto J. Gonzalez",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.elections",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/4/query",
+      "layer_id": 4,
+      "fields": [
+        "ID"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "representatives.county"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.county-commission.member",
+    "claim": "County commission district and commissioner - member name as published",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/4/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 11; COMMNAME: Roberto J. Gonzalez",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.elections",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/4/query",
+      "layer_id": 4,
+      "fields": [
+        "COMMNAME"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "representatives.county"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.congress.district",
+    "claim": "US House district and representative (county layer) - district id",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/5/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 28; REPNAME: Carlos A. Giménez",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.elections",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/5/query",
+      "layer_id": 5,
+      "fields": [
+        "ID"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "representatives.congress"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.congress.member",
+    "claim": "US House district and representative (county layer) - member name as published",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/5/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 28; REPNAME: Carlos A. Giménez",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.elections",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/5/query",
+      "layer_id": 5,
+      "fields": [
+        "REPNAME"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "representatives.congress"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.state-senate.district",
+    "claim": "Florida Senate district and senator (county layer) - district id",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/6/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 40; SENNAME: Ana Maria Rodriguez",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.elections",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/6/query",
+      "layer_id": 6,
+      "fields": [
+        "ID"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "representatives.state-senate"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.state-senate.member",
+    "claim": "Florida Senate district and senator (county layer) - member name as published",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/6/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 40; SENNAME: Ana Maria Rodriguez",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.elections",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/6/query",
+      "layer_id": 6,
+      "fields": [
+        "SENNAME"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "representatives.state-senate"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.state-house.district",
+    "claim": "Florida House district and representative (county layer) - district id",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/7/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 119; REPNAME: Juan Carlos Porras",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.elections",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/7/query",
+      "layer_id": 7,
+      "fields": [
+        "ID"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "representatives.state-house"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.state-house.member",
+    "claim": "Florida House district and representative (county layer) - member name as published",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/7/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 119; REPNAME: Juan Carlos Porras",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.elections",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/7/query",
+      "layer_id": 7,
+      "fields": [
+        "REPNAME"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "representatives.state-house"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.school-board.district",
+    "claim": "School board district and member - district id",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/8/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 7; BRDMBR: Dr. Lubby Navarro",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.elections",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/8/query",
+      "layer_id": 8,
+      "fields": [
+        "ID"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "representatives.school-board"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.school-board.member",
+    "claim": "School board district and member - member name as published",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/8/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 7; BRDMBR: Dr. Lubby Navarro",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.elections",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/8/query",
+      "layer_id": 8,
+      "fields": [
+        "BRDMBR"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "representatives.school-board"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.elementary.phone",
+    "claim": "Zoned elementary school phone",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-elementary",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "PHONE: 305-386-5244",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "phone",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.m-dcps",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query",
+      "layer_id": 9,
+      "fields": [
+        "psde2.MDC.ElementaryAttendanceBoundary.PHONE"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "school.zoned"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "desk",
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.elementary.grades",
+    "claim": "Zoned elementary school grades",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-elementary",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "GRADES: PK-5",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.m-dcps",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query",
+      "layer_id": 9,
+      "fields": [
+        "psde2.MDC.ElementaryAttendanceBoundary.GRADES"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "school.zoned"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.middle.phone",
+    "claim": "Zoned middle school phone",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-middle",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "PHONE: 305-385-7144",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "phone",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.m-dcps",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query",
+      "layer_id": 11,
+      "fields": [
+        "psde2.MDC.MiddleAttendanceBoundary.PHONE"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "school.zoned"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "desk",
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.middle.grades",
+    "claim": "Zoned middle school grades",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-middle",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "GRADES: 6-8",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.m-dcps",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query",
+      "layer_id": 11,
+      "fields": [
+        "psde2.MDC.MiddleAttendanceBoundary.GRADES"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "school.zoned"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.high.phone",
+    "claim": "Zoned high school phone",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-high",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "PHONE: 305-385-4255",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "phone",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.m-dcps",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query",
+      "layer_id": 10,
+      "fields": [
+        "psde2.MDC.HighAttendanceBoundary.PHONE"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "school.zoned"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "desk",
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.high.grades",
+    "claim": "Zoned high school grades",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-high",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "GRADES: 9-12",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.m-dcps",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query",
+      "layer_id": 10,
+      "fields": [
+        "psde2.MDC.HighAttendanceBoundary.GRADES"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "school.zoned"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.transit.nearest-stop",
+    "claim": "Nearest Miami-Dade Transit stops and the routes serving them",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gtfs",
+    "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+    "quote": "stops.txt stop_id 3312: SW 137 AV & SW 112 ST (25.663373, -80.415947), 16 m; routes via stop_times/trips: 137",
+    "retrieved_at": "2026-09-25T17:38:00-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "place",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.transit",
+    "lookup": {
+      "endpoint": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+      "layer_id": null,
+      "fields": [
+        "stops.stop_id",
+        "stops.stop_name",
+        "routes.route_short_name",
+        "routes.route_long_name"
+      ],
+      "method": "offline: haversine over stops.txt; rank suffix .1-.3 plus .N.routes, routes via stop_times->trips->routes; feed refreshed on check_every",
+      "question": "transit.nearby"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "transit"
+    ]
+  },
+  {
+    "id": "us-fl-miami.trash.garbage-days",
+    "claim": "City of Miami household garbage pickup days for the address (GarbageRoutes GARBDAY)",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.gis-garbage-routes",
+    "url": "https://gis.miami.gov/gis/rest/services/SolidWaste/GarbageRoutes/MapServer/0/query",
+    "quote": "features: [{\"attributes\": {\"OBJECTID\": 43, \"GARBROUTE\": 114, \"GARBDAY\": \"MR\"}}]; domain SW_Service_Days: {\"name\": \"Mon and Thu\", \"code\": \"MR\"}",
+    "retrieved_at": "2026-09-25T17:30:00-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "value_type": "weekdays",
+    "kind": "lookup",
+    "desk": "us-fl-miami.solid-waste",
+    "lookup": {
+      "endpoint": "https://gis.miami.gov/gis/rest/services/SolidWaste/GarbageRoutes/MapServer/0/query",
+      "layer_id": 0,
+      "fields": [
+        "GARBDAY",
+        "GARBROUTE"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326); decode GARBDAY with the layer's SW_Service_Days codedValues",
+      "question": "trash.when"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "trash"
+    ]
+  },
+  {
+    "id": "us-fl-miamidade.storm.evacuation-zone",
+    "claim": "Miami-Dade storm surge planning (hurricane evacuation) zone for the address, A-E, or none",
+    "value": null,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-evacuation-zone",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_CommunityServices/MapServer/7/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ZONEID: D; CATEGORY: 4",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "value_type": "code",
+    "kind": "lookup",
+    "desk": "us-fl-miamidade.311",
+    "lookup": {
+      "endpoint": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_CommunityServices/MapServer/7/query",
+      "layer_id": 7,
+      "fields": [
+        "ZONEID",
+        "CATEGORY"
+      ],
+      "method": "point_in_polygon(esriGeometryPoint, esriSpatialRelIntersects, inSR=4326)",
+      "question": "storm.zone"
+    },
+    "notes": "Adopted from myAD Regions' draft lookups.json; live sample query re-run by Research.",
+    "topics": [
+      "storm"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us.census.incorporated-place.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Incorporated place containing the address, or none",
+    "value": "Miami city",
+    "unit": null,
+    "jurisdiction": "us",
+    "source_id": "us.census-geocoder",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?address=111+NW+1st+St,+Miami,+FL+33128&benchmark=Public_AR_Current&vintage=Current_Current&layers=all&format=json",
+    "quote": "Incorporated Places: NAME Miami city (GEOID 1245000)",
+    "retrieved_at": "2026-09-25T17:17:00-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.311",
+    "notes": "Live query by Research at 2026-09-25T17:17:00-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "municipality"
+    ]
+  },
+  {
+    "id": "us.census.county-subdivision.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Census county subdivision (CCD) containing the address",
+    "value": "Miami CCD",
+    "unit": null,
+    "jurisdiction": "us",
+    "source_id": "us.census-geocoder",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?address=111+NW+1st+St,+Miami,+FL+33128&benchmark=Public_AR_Current&vintage=Current_Current&layers=all&format=json",
+    "quote": "County Subdivisions: NAME Miami CCD",
+    "retrieved_at": "2026-09-25T17:17:00-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.311",
+    "notes": "Live query by Research at 2026-09-25T17:17:00-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "municipality"
+    ]
+  },
+  {
+    "id": "us.census.county-subdivision.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Census county subdivision (CCD) containing the address",
+    "value": "Kendale Lakes-Tamiami CCD",
+    "unit": null,
+    "jurisdiction": "us",
+    "source_id": "us.census-geocoder",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?address=11200+SW+137th+Ave,+Miami,+FL+33186&benchmark=Public_AR_Current&vintage=Current_Current&layers=all&format=json",
+    "quote": "County Subdivisions: NAME Kendale Lakes-Tamiami CCD",
+    "retrieved_at": "2026-09-25T17:17:00-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.311",
+    "notes": "Live query by Research at 2026-09-25T17:17:00-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "municipality"
+    ]
+  },
+  {
+    "id": "us.census.tract.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Census tract containing the address",
+    "value": "12086003606",
+    "unit": null,
+    "jurisdiction": "us",
+    "source_id": "us.census-geocoder",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?address=111+NW+1st+St,+Miami,+FL+33128&benchmark=Public_AR_Current&vintage=Current_Current&layers=all&format=json",
+    "quote": "Census Tracts: Census Tract 36.06 (GEOID 12086003606)",
+    "retrieved_at": "2026-09-25T17:17:00-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.311",
+    "notes": "Live query by Research at 2026-09-25T17:17:00-04:00. Matches myAD Regions' draft value."
+  },
+  {
+    "id": "us.census.tract.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Census tract containing the address",
+    "value": "12086018801",
+    "unit": null,
+    "jurisdiction": "us",
+    "source_id": "us.census-geocoder",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?address=11200+SW+137th+Ave,+Miami,+FL+33186&benchmark=Public_AR_Current&vintage=Current_Current&layers=all&format=json",
+    "quote": "Census Tracts: Census Tract 188.01 (GEOID 12086018801)",
+    "retrieved_at": "2026-09-25T17:17:00-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.311",
+    "notes": "Live query by Research at 2026-09-25T17:17:00-04:00. Matches myAD Regions' draft value."
+  },
+  {
+    "id": "us.census.congressional-district.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: US House district (120th Congress) containing the address",
+    "value": "27",
+    "unit": null,
+    "jurisdiction": "us",
+    "source_id": "us.census-geocoder",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?address=111+NW+1st+St,+Miami,+FL+33128&benchmark=Public_AR_Current&vintage=Current_Current&layers=all&format=json",
+    "quote": "120th Congressional Districts: Congressional District 27",
+    "retrieved_at": "2026-09-25T17:17:00-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:17:00-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ]
+  },
+  {
+    "id": "us.census.congressional-district.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: US House district (120th Congress) containing the address",
+    "value": "28",
+    "unit": null,
+    "jurisdiction": "us",
+    "source_id": "us.census-geocoder",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?address=11200+SW+137th+Ave,+Miami,+FL+33186&benchmark=Public_AR_Current&vintage=Current_Current&layers=all&format=json",
+    "quote": "120th Congressional Districts: Congressional District 28",
+    "retrieved_at": "2026-09-25T17:17:00-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:17:00-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ]
+  },
+  {
+    "id": "us-fl.census.state-senate-district.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Florida Senate district (2026) containing the address",
+    "value": "36",
+    "unit": null,
+    "jurisdiction": "us-fl",
+    "source_id": "us.census-geocoder",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?address=111+NW+1st+St,+Miami,+FL+33128&benchmark=Public_AR_Current&vintage=Current_Current&layers=all&format=json",
+    "quote": "2026 State Legislative Districts - Upper: State Senate District 36",
+    "retrieved_at": "2026-09-25T17:17:00-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:17:00-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ]
+  },
+  {
+    "id": "us-fl.census.state-senate-district.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Florida Senate district (2026) containing the address",
+    "value": "40",
+    "unit": null,
+    "jurisdiction": "us-fl",
+    "source_id": "us.census-geocoder",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?address=11200+SW+137th+Ave,+Miami,+FL+33186&benchmark=Public_AR_Current&vintage=Current_Current&layers=all&format=json",
+    "quote": "2026 State Legislative Districts - Upper: State Senate District 40",
+    "retrieved_at": "2026-09-25T17:17:00-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:17:00-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ]
+  },
+  {
+    "id": "us-fl.census.state-house-district.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Florida House district (2026) containing the address",
+    "value": "109",
+    "unit": null,
+    "jurisdiction": "us-fl",
+    "source_id": "us.census-geocoder",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?address=111+NW+1st+St,+Miami,+FL+33128&benchmark=Public_AR_Current&vintage=Current_Current&layers=all&format=json",
+    "quote": "2026 State Legislative Districts - Lower: State House District 109",
+    "retrieved_at": "2026-09-25T17:17:00-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:17:00-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ]
+  },
+  {
+    "id": "us-fl.census.state-house-district.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Florida House district (2026) containing the address",
+    "value": "119",
+    "unit": null,
+    "jurisdiction": "us-fl",
+    "source_id": "us.census-geocoder",
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?address=11200+SW+137th+Ave,+Miami,+FL+33186&benchmark=Public_AR_Current&vintage=Current_Current&layers=all&format=json",
+    "quote": "2026 State Legislative Districts - Lower: State House District 119",
+    "retrieved_at": "2026-09-25T17:17:00-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:17:00-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ]
+  },
+  {
+    "id": "us-fl-miamidade.government.municipality.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Municipality (or UNINCORPORATED MIAMI-DADE) containing the pin",
+    "value": "MIAMI",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-municipality",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_MDPDViewer/MapServer/8/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "NAME: MIAMI, MUNICID: 01",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.311",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "municipality"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.government.municipality.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Municipality (or UNINCORPORATED MIAMI-DADE) containing the pin",
+    "value": "UNINCORPORATED MIAMI-DADE",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-municipality",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_MDPDViewer/MapServer/8/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "NAME: UNINCORPORATED MIAMI-DADE, MUNICID: 30",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.311",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "municipality"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.trash.garbage-days.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: County garbage collection days for the pin (county service area only)",
+    "value": "tuesday,friday",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-garbage-route",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/1/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "WEEKDAYS: Tuesday Friday; ROUTE: 5209",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "weekdays",
+    "desk": "us-fl-miamidade.dswm",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "trash"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.trash.recycling-day.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: County recycling collection weekday for the pin",
+    "value": "friday",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-recycling-route",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/2/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "WEEKDAY: FRIDAY; PICKUPWEEK: A; DESCRIPTION: DSWM SERVICE AREA; ISMUNIC: N; UPDATED: 11/22/10",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "weekdays",
+    "desk": "us-fl-miamidade.dswm",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "trash"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.trash.recycling-week.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: County recycling pickup week letter (A/B/C) for the pin",
+    "value": "A",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-recycling-route",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/2/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "PICKUPWEEK: A; PICKUPCODE: 5 FRI A",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.dswm",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "trash"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miami.trash.day.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: City of Miami trash day for the address from TrashRoutes TRASHDAY (per the City's own service names this is most likely the weekly bulky-trash day, not household garbage)",
+    "value": "tuesday",
+    "unit": null,
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.gis-trash-routes",
+    "url": "https://gis.miami.gov/gis/rest/services/SolidWaste/TrashRoutes/MapServer/0/query",
+    "quote": "features: [{\"attributes\": {\"OBJECTID\": 5, \"TRASHDAY\": \"T\"}}]; domain SW_Service_Days: {\"name\": \"Tue\", \"code\": \"T\"}",
+    "retrieved_at": "2026-09-25T17:30:00-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "weekdays",
+    "desk": "us-fl-miami.solid-waste",
+    "notes": "Live query by Research at 2026-09-25T17:30:00-04:00. Matches myAD Regions' draft value.",
+    "correction_note": "Adopted id kept for Regions' adapters, but the City runs separate GarbageRoutes (GARBDAY 'Garbage Pickup Days') and TrashRoutes (TRASHDAY 'Trash Pickup Day') layers, and its Solid Waste page describes 'garbage, bulky trash and recycling services' with garbage twice a week and bulky trash once a week. Downtown returns GARBDAY MR (Mon and Thu) but TRASHDAY T (Tue only). A card saying 'basura' must use us-fl-miami.trash.garbage-days; TRASHDAY should be labeled bulky trash. Inference from the City's labels; confirm with City Solid Waste 305-960-2801.",
+    "topics": [
+      "trash"
+    ]
+  },
+  {
+    "id": "us-fl-miamidade.school.elementary.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Zoned elementary school (name, address, phone, grades)",
+    "value": "{\"name\": \"Frederick Douglass Elementary\", \"latitude\": 25.78532, \"longitude\": -80.20082, \"address\": \"314 NW 12th St\"}",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-elementary",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ElementaryAttendanceBoundary.NAME: Douglass, Frederick Elementary; SchoolSite.NAME: Frederick Douglass Elementary; SchoolSite.ADDRESS: 314 NW 12th St; LAT 25.78532; LON -80.20082",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.m-dcps",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.elementary.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Zoned elementary school (name, address, phone, grades)",
+    "value": "{\"name\": \"Claude Pepper Elementary\", \"latitude\": 25.67654, \"longitude\": -80.42995, \"address\": \"14550 SW 96th St\"}",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-elementary",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ElementaryAttendanceBoundary.NAME: Pepper, Claude Elementary; SchoolSite.NAME: Claude Pepper Elementary; SchoolSite.ADDRESS: 14550 SW 96th St; LAT 25.67654; LON -80.42995",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.m-dcps",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.middle.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Zoned middle school (name, address, phone, grades)",
+    "value": "{\"name\": \"Jose De Diego Middle\", \"latitude\": 25.80591, \"longitude\": -80.20369, \"address\": \"3100 NW 5th Ave\"}",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-middle",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "MiddleAttendanceBoundary.NAME: de Diego, Jose Middle; SchoolSite.NAME: Jose De Diego Middle; SchoolSite.ADDRESS: 3100 NW 5th Ave; LAT 25.80591; LON -80.20369",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.m-dcps",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.middle.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Zoned middle school (name, address, phone, grades)",
+    "value": "{\"name\": \"Arvida Middle\", \"latitude\": 25.66654, \"longitude\": -80.40116, \"address\": \"10900 SW 127th Ave\"}",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-middle",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "MiddleAttendanceBoundary.NAME: Arvida Middle; SchoolSite.NAME: Arvida Middle; SchoolSite.ADDRESS: 10900 SW 127th Ave; LAT 25.66654; LON -80.40116",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.m-dcps",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.high.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Zoned high school (name, address, phone, grades)",
+    "value": "{\"name\": \"Booker T. Washington Senior High\", \"latitude\": 25.7865, \"longitude\": -80.20511, \"address\": \"1200 NW 6th Ave\"}",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-high",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "HighAttendanceBoundary.NAME: Washington, Booker T. Senior High; SchoolSite.NAME: Booker T. Washington Senior High; SchoolSite.ADDRESS: 1200 NW 6th Ave; LAT 25.7865; LON -80.20511",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.m-dcps",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.high.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Zoned high school (name, address, phone, grades)",
+    "value": "{\"name\": \"Miami Sunset Senior High\", \"latitude\": 25.70156, \"longitude\": -80.40421, \"address\": \"13125 SW 72nd St\"}",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-high",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "HighAttendanceBoundary.NAME: Miami Sunset Senior High; SchoolSite.NAME: Miami Sunset Senior High; SchoolSite.ADDRESS: 13125 SW 72nd St; LAT 25.70156; LON -80.40421",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.m-dcps",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.utility.water.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Water utility serving the pin",
+    "value": "MDWS",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-water-service",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_WaterSewer/MapServer/1/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "UTILITYNAME: MDWS; UTILITYURL: http://www.miamidade.gov/water/; MODDATE: 1776115939000",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.wasd",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "water"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.utility.water.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Water utility serving the pin",
+    "value": "MDWS",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-water-service",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_WaterSewer/MapServer/1/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "UTILITYNAME: MDWS; UTILITYURL: http://www.miamidade.gov/water/; MODDATE: 1776115939000",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.wasd",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "water"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.utility.sewer.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Sewer utility serving the pin",
+    "value": "MDWS",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-sewer-service",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_WaterSewer/MapServer/0/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "UTILITYNAME: MDWS; UTILITYURL: http://www.miamidade.gov/water/; MODDATE: 1778541178000",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.wasd",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "water"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.utility.sewer.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Sewer utility serving the pin",
+    "value": "MDWS",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-sewer-service",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_WaterSewer/MapServer/0/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "UTILITYNAME: MDWS; UTILITYURL: http://www.miamidade.gov/water/; MODDATE: 1778541178000",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.wasd",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "water"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.vote.precinct.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Voting precinct containing the pin",
+    "value": "542",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/3/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 542",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "voting"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.vote.precinct.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Voting precinct containing the pin",
+    "value": "792",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/3/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 792",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "voting"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.vote.polling-place.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Election-day polling place for the pin's precinct",
+    "value": {
+      "type": "place",
+      "place": {
+        "name": "Alfred I. DuPont Building",
+        "coordinate": {
+          "latitude": 25.77438,
+          "longitude": -80.19053
+        },
+        "address": "169 E Flagler St, Miami 33131"
+      }
+    },
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/0/query?f=json&returnGeometry=true&outSR=4326&outFields=%2A&where=PRECINCT%3D542",
+    "quote": "NAME: Alfred I. DuPont Building; ADDRESS: 169 E Flagler St; PRECINCT: 542; PHONE: 305-374-4395",
+    "retrieved_at": "2026-09-25T18:40:00-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "place",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "voting"
+    ],
+    "coordinate_source": "MD_KnowWhereToVote layer 0 point geometry (outSR 4326), re-queried 2026-09-25 18:40 ET; rounded to 5 decimals"
+  },
+  {
+    "id": "us-fl-miamidade.vote.polling-place.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Election-day polling place for the pin's precinct",
+    "value": {
+      "type": "place",
+      "place": {
+        "name": "Our Lady of Lourdes Catholic Church",
+        "coordinate": {
+          "latitude": 25.66231,
+          "longitude": -80.42335
+        },
+        "address": "11291 SW 142 Ave, Miami 33186"
+      }
+    },
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/0/query?f=json&returnGeometry=true&outSR=4326&outFields=%2A&where=PRECINCT%3D792",
+    "quote": "NAME: Our Lady of Lourdes Catholic Church; ADDRESS: 11291 SW 142 Ave; PRECINCT: 792; PHONE: 305-385-7112",
+    "retrieved_at": "2026-09-25T18:40:00-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "place",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "voting"
+    ],
+    "coordinate_source": "MD_KnowWhereToVote layer 0 point geometry (outSR 4326), re-queried 2026-09-25 18:40 ET; rounded to 5 decimals"
+  },
+  {
+    "id": "us-fl-miamidade.rep.county-commission.district.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: County commission district and commissioner - district id",
+    "value": "5",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/4/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 5; COMMNAME: Vicki L. Lopez",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.county-commission.district.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: County commission district and commissioner - district id",
+    "value": "11",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/4/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 11; COMMNAME: Roberto J. Gonzalez",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.county-commission.member.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: County commission district and commissioner - member name as published",
+    "value": "Vicki L. Lopez",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/4/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 5; COMMNAME: Vicki L. Lopez",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.county-commission.member.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: County commission district and commissioner - member name as published",
+    "value": "Roberto J. Gonzalez",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/4/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 11; COMMNAME: Roberto J. Gonzalez",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.congress.district.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: US House district and representative (county layer) - district id",
+    "value": "27",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/5/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 27; REPNAME: María Elvira Salazar",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.congress.district.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: US House district and representative (county layer) - district id",
+    "value": "28",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/5/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 28; REPNAME: Carlos A. Giménez",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.congress.member.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: US House district and representative (county layer) - member name as published",
+    "value": "María Elvira Salazar",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/5/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 27; REPNAME: María Elvira Salazar",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.congress.member.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: US House district and representative (county layer) - member name as published",
+    "value": "Carlos A. Giménez",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/5/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 28; REPNAME: Carlos A. Giménez",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.state-senate.district.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Florida Senate district and senator (county layer) - district id",
+    "value": "36",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/6/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 36; SENNAME: Ileana Garcia",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.state-senate.district.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Florida Senate district and senator (county layer) - district id",
+    "value": "40",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/6/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 40; SENNAME: Ana Maria Rodriguez",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.state-senate.member.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Florida Senate district and senator (county layer) - member name as published",
+    "value": "Ileana Garcia",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/6/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 36; SENNAME: Ileana Garcia",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.state-senate.member.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Florida Senate district and senator (county layer) - member name as published",
+    "value": "Ana Maria Rodriguez",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/6/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 40; SENNAME: Ana Maria Rodriguez",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.state-house.district.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Florida House district and representative (county layer) - district id",
+    "value": "109",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/7/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 109; REPNAME: Ashley Gantt",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.state-house.district.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Florida House district and representative (county layer) - district id",
+    "value": "119",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/7/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 119; REPNAME: Juan Carlos Porras",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.state-house.member.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Florida House district and representative (county layer) - member name as published",
+    "value": "Ashley Gantt",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/7/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 109; REPNAME: Ashley Gantt",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.state-house.member.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Florida House district and representative (county layer) - member name as published",
+    "value": "Juan Carlos Porras",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/7/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 119; REPNAME: Juan Carlos Porras",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.school-board.district.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: School board district and member - district id",
+    "value": "2",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/8/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 2; BRDMBR: Dr. Dorothy Bendross-Mindingall",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.school-board.district.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: School board district and member - district id",
+    "value": "7",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/8/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 7; BRDMBR: Dr. Lubby Navarro",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.school-board.member.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: School board district and member - member name as published",
+    "value": "Dr. Dorothy Bendross-Mindingall",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/8/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 2; BRDMBR: Dr. Dorothy Bendross-Mindingall",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.rep.school-board.member.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: School board district and member - member name as published",
+    "value": "Dr. Lubby Navarro",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-vote",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/8/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ID: 7; BRDMBR: Dr. Lubby Navarro",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.elections",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "representatives"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.elementary.phone.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Zoned elementary school phone",
+    "value": "305-371-4687",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-elementary",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "PHONE: 305-371-4687",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "phone",
+    "desk": "us-fl-miamidade.m-dcps",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.elementary.phone.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Zoned elementary school phone",
+    "value": "305-386-5244",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-elementary",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "PHONE: 305-386-5244",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "phone",
+    "desk": "us-fl-miamidade.m-dcps",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.elementary.grades.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Zoned elementary school grades",
+    "value": "K-5",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-elementary",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "GRADES: K-5",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.m-dcps",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.elementary.grades.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Zoned elementary school grades",
+    "value": "PK-5",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-elementary",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "GRADES: PK-5",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.m-dcps",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.middle.phone.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Zoned middle school phone",
+    "value": "305-573-7229",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-middle",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "PHONE: 305-573-7229",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "phone",
+    "desk": "us-fl-miamidade.m-dcps",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.middle.phone.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Zoned middle school phone",
+    "value": "305-385-7144",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-middle",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "PHONE: 305-385-7144",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "phone",
+    "desk": "us-fl-miamidade.m-dcps",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.middle.grades.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Zoned middle school grades",
+    "value": "6-8",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-middle",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "GRADES: 6-8",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.m-dcps",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.middle.grades.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Zoned middle school grades",
+    "value": "6-8",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-middle",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "GRADES: 6-8",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.m-dcps",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.high.phone.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Zoned high school phone",
+    "value": "305-324-8900",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-high",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "PHONE: 305-324-8900",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "phone",
+    "desk": "us-fl-miamidade.m-dcps",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.high.phone.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Zoned high school phone",
+    "value": "305-385-4255",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-high",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "PHONE: 305-385-4255",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "phone",
+    "desk": "us-fl-miamidade.m-dcps",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.high.grades.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Zoned high school grades",
+    "value": "9-12",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-high",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "GRADES: 9-12",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.m-dcps",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.school.high.grades.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Zoned high school grades",
+    "value": "9-12",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-school-high",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "GRADES: 9-12",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.m-dcps",
+    "notes": "Live query by Research at 2026-09-25T17:36:58-04:00. Matches myAD Regions' draft value.",
+    "topics": [
+      "schools"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miami.trash.garbage-days.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: City of Miami household garbage pickup days for the address (GarbageRoutes GARBDAY)",
+    "value": "monday,thursday",
+    "unit": null,
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.gis-garbage-routes",
+    "url": "https://gis.miami.gov/gis/rest/services/SolidWaste/GarbageRoutes/MapServer/0/query",
+    "quote": "features: [{\"attributes\": {\"OBJECTID\": 43, \"GARBROUTE\": 114, \"GARBDAY\": \"MR\"}}]; domain SW_Service_Days: {\"name\": \"Mon and Thu\", \"code\": \"MR\"}",
+    "retrieved_at": "2026-09-25T17:30:00-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "weekdays",
+    "desk": "us-fl-miami.solid-waste",
+    "notes": "Live query by Research at 2026-09-25T17:30:00-04:00. Not in Regions' draft (added by Research).",
+    "topics": [
+      "trash"
+    ]
+  },
+  {
+    "id": "us-fl-miamidade.storm.evacuation-zone.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: Miami-Dade storm surge planning (hurricane evacuation) zone for the address, A-E, or none",
+    "value": "B",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-evacuation-zone",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_CommunityServices/MapServer/7/query?f=json&returnGeometry=false&outFields=ZONEID,CATEGORY&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ZONEID: B; CATEGORY: 2",
+    "retrieved_at": "2026-09-25T18:14:00-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.311",
+    "notes": "Re-queried by Research at 2026-09-25T18:14 at the Miami-Dade county locator PointAddress point (inside the parcel); same zone as at the Census point.",
+    "topics": [
+      "storm"
+    ]
+  },
+  {
+    "id": "us-fl-miamidade.storm.evacuation-zone.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: Miami-Dade storm surge planning (hurricane evacuation) zone for the address, A-E, or none",
+    "value": "D",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-evacuation-zone",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_CommunityServices/MapServer/7/query?f=json&returnGeometry=false&outFields=ZONEID,CATEGORY&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "ZONEID: D; CATEGORY: 4",
+    "retrieved_at": "2026-09-25T18:14:00-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.311",
+    "notes": "Re-queried by Research at 2026-09-25T18:14 at the Miami-Dade county locator PointAddress point (inside the parcel); same zone as at the Census point.",
+    "topics": [
+      "storm"
+    ]
+  },
+  {
+    "id": "us-fl-miamidade.parcel.folio.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: folio from the Property Appraiser parcel layer",
+    "value": "0141370230020",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-parcels",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "FOLIO: 0141370230020; TRUE_SITE_ADDR: 111 NW 1 ST; YEAR_BUILT: 1984; CONDO_FLAG: N; DOR_DESC: COUNTY : OFFICE BUILDING; FLOOR_COUNT: 31",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.property-appraiser",
+    "topics": [
+      "parcel"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.parcel.year-built.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: year-built from the Property Appraiser parcel layer",
+    "value": "1984",
+    "unit": "year",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-parcels",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "FOLIO: 0141370230020; TRUE_SITE_ADDR: 111 NW 1 ST; YEAR_BUILT: 1984; CONDO_FLAG: N; DOR_DESC: COUNTY : OFFICE BUILDING; FLOOR_COUNT: 31",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "quantity",
+    "desk": "us-fl-miamidade.property-appraiser",
+    "plan_value": "1925",
+    "plan_ref": "myamericandream-plan.md / mymiami-plan.md ('a 1925 building' at 111 NW 1st St)",
+    "correction_note": "Plan says 'a 1925 building'; the county parcel record (folio 0141370230020) says YEAR_BUILT 1984. Ledger value is 1984. See us-fl-miamidade.parcel.0141370230020.year-built.",
+    "topics": [
+      "parcel"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.parcel.condo.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: condo from the Property Appraiser parcel layer",
+    "value": false,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-parcels",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "FOLIO: 0141370230020; TRUE_SITE_ADDR: 111 NW 1 ST; YEAR_BUILT: 1984; CONDO_FLAG: N; DOR_DESC: COUNTY : OFFICE BUILDING; FLOOR_COUNT: 31",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "flag",
+    "desk": "us-fl-miamidade.property-appraiser",
+    "topics": [
+      "parcel",
+      "condo"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.parcel.use.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: use from the Property Appraiser parcel layer",
+    "value": "COUNTY : OFFICE BUILDING",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-parcels",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "FOLIO: 0141370230020; TRUE_SITE_ADDR: 111 NW 1 ST; YEAR_BUILT: 1984; CONDO_FLAG: N; DOR_DESC: COUNTY : OFFICE BUILDING; FLOOR_COUNT: 31",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "text",
+    "desk": "us-fl-miamidade.property-appraiser",
+    "notes": "The downtown demo pin is the Stephen P. Clark Government Center (county office tower, 31 floors), not a residence.",
+    "topics": [
+      "parcel"
+    ],
+    "value_language": "en",
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.parcel.folio.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: folio from the Property Appraiser parcel layer",
+    "value": "3059100230010",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-parcels",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "FOLIO: 3059100230010; TRUE_SITE_ADDR: 11200 SW 137 AVE; YEAR_BUILT: 1990; CONDO_FLAG: N; DOR_DESC: RESTAURANT OR CAFETERIA : RETAIL OUTLET; FLOOR_COUNT: 1",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "code",
+    "desk": "us-fl-miamidade.property-appraiser",
+    "topics": [
+      "parcel"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.parcel.year-built.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: year-built from the Property Appraiser parcel layer",
+    "value": "1990",
+    "unit": "year",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-parcels",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "FOLIO: 3059100230010; TRUE_SITE_ADDR: 11200 SW 137 AVE; YEAR_BUILT: 1990; CONDO_FLAG: N; DOR_DESC: RESTAURANT OR CAFETERIA : RETAIL OUTLET; FLOOR_COUNT: 1",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "quantity",
+    "desk": "us-fl-miamidade.property-appraiser",
+    "topics": [
+      "parcel"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.parcel.condo.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: condo from the Property Appraiser parcel layer",
+    "value": false,
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-parcels",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "FOLIO: 3059100230010; TRUE_SITE_ADDR: 11200 SW 137 AVE; YEAR_BUILT: 1990; CONDO_FLAG: N; DOR_DESC: RESTAURANT OR CAFETERIA : RETAIL OUTLET; FLOOR_COUNT: 1",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "flag",
+    "desk": "us-fl-miamidade.property-appraiser",
+    "topics": [
+      "parcel",
+      "condo"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.parcel.use.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: use from the Property Appraiser parcel layer",
+    "value": "RESTAURANT OR CAFETERIA : RETAIL OUTLET",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-parcels",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.41646700000167%2C25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "FOLIO: 3059100230010; TRUE_SITE_ADDR: 11200 SW 137 AVE; YEAR_BUILT: 1990; CONDO_FLAG: N; DOR_DESC: RESTAURANT OR CAFETERIA : RETAIL OUTLET; FLOOR_COUNT: 1",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "value_type": "text",
+    "desk": "us-fl-miamidade.property-appraiser",
+    "correction_note": "Risk: the 'household' demo address 11200 SW 137th Ave is a commercial parcel (restaurant/retail, built 1990), not a home. Parcel-based cards (condo, year built) will read oddly for a household.",
+    "topics": [
+      "parcel"
+    ],
+    "value_language": "en",
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.parcel.0141370230020.year-built",
+    "claim": "The county parcel record for 111 NW 1st St (folio 0141370230020) gives year built 1984.",
+    "value": "1984",
+    "unit": "year",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.gis-parcels",
+    "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query?f=json&returnGeometry=false&outFields=%2A&geometry=-80.19666900000166%2C25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects",
+    "quote": "FOLIO: 0141370230020; TRUE_SITE_ADDR: 111 NW 1 ST; YEAR_BUILT: 1984; CONDO_FLAG: N; DOR_DESC: COUNTY : OFFICE BUILDING; FLOOR_COUNT: 31",
+    "retrieved_at": "2026-09-25T18:27:36-04:00",
+    "check_every": "P1Y",
+    "status": "verified",
+    "value_type": "quantity",
+    "desk": "us-fl-miamidade.property-appraiser",
+    "plan_value": "1925",
+    "plan_ref": "myamericandream-plan.md / mymiami-plan.md ('a 1925 building')",
+    "correction_note": "Plan value 1925 is wrong for this parcel. The parcel is the Stephen P. Clark Government Center (DOR 'COUNTY : OFFICE BUILDING', 31 floors). Parcels within 250 m built in 1925 (140 N Miami Ave, 19 W Flagler St, 102 W Flagler St) are the likely origin of the plan's figure.",
+    "topics": [
+      "parcel"
+    ],
+    "x-query-point": "Miami-Dade county locator PointAddress candidate (MD_Locator, SingleLine with ZIP, outSR 4326)"
+  },
+  {
+    "id": "us-fl-miamidade.utility.mdws-meaning",
+    "claim": "In the county water/sewer GIS layers, UTILITYNAME 'MDWS' is the Miami-Dade Water and Sewer Department; its UTILITYURL resolves to the county page titled 'Water and Sewer Department'.",
+    "value": "Miami-Dade Water and Sewer Department (WASD)",
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.mdc-wasd-home",
+    "url": "https://www.miamidade.gov/global/water/home.page",
+    "quote": "The Miami-Dade Water and Sewer Department (WASD) recognizes staff who demonstrate",
+    "retrieved_at": "2026-09-25T17:32:00-04:00",
+    "check_every": "P180D",
+    "status": "verified",
+    "value_type": "text",
+    "desk": "us-fl-miamidade.wasd",
+    "notes": "The county's own pages use 'WASD', never 'MDWS'. The link is the layer's UTILITYURL http://www.miamidade.gov/water/ (HTTP redirect to /global/water/home.page, fetched 200). 'MDWS' read as 'Miami-Dade Water and Sewer' is therefore an inference from that URL, not a spelled-out expansion.",
+    "topics": [
+      "water"
+    ],
+    "value_language": "en"
+  },
+  {
+    "id": "us-fl-miami.trash.city-service-lines",
+    "claim": "The City of Miami Department of Solid Waste provides garbage, bulky trash and recycling as separate services; the City says recycling is serviced twice a month, 'not every other week', and containers go out no earlier than the evening before and no later than 6:00 AM.",
+    "value": "garbage, bulky trash, recycling",
+    "unit": null,
+    "jurisdiction": "us-fl-miami",
+    "source_id": "us-fl-miami.com-solid-waste",
+    "url": "https://www.miami.gov/My-Government/Departments/Solid-Waste",
+    "quote": "The City of Miami Department of Solid Waste provides garbage, bulky trash and recycling services. ... Gabage/Recycling containers may only be placed out ... Recycling is serviced twice a month, not every other week",
+    "retrieved_at": "2026-09-25T17:30:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "value_type": "text",
+    "desk": "us-fl-miami.solid-waste",
+    "topics": [
+      "trash"
+    ],
+    "value_language": "en"
+  },
+  {
+    "id": "us-fl-miamidade.trash.dswm-covered-municipalities",
+    "claim": "County DSWM collects household garbage in unincorporated Miami-Dade and these municipalities: Aventura, Cutler Bay, Doral, Miami Gardens, Miami Lakes, Opa-locka, Palmetto Bay, Pinecrest, Sunny Isles Beach and Sweetwater. Other cities (including the City of Miami) run their own.",
+    "value": [
+      "unincorporated",
+      "aventura",
+      "cutler-bay",
+      "doral",
+      "miami-gardens",
+      "miami-lakes",
+      "opa-locka",
+      "palmetto-bay",
+      "pinecrest",
+      "sunny-isles-beach",
+      "sweetwater"
+    ],
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.mdc-dswm-garbage-service",
+    "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464792744722367",
+    "quote": "Unincorporated Miami-Dade Aventura Cutler Bay Doral Miami Gardens Miami Lakes Opa-locka Palmetto Bay Pinecrest Sunny Isles Beach Sweetwater",
+    "retrieved_at": "2026-09-25T17:20:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "value_type": "codes",
+    "desk": "us-fl-miamidade.dswm",
+    "topics": [
+      "trash",
+      "municipality"
+    ]
+  },
+  {
+    "id": "us-fl-miamidade.trash.dswm-frequency",
+    "claim": "Most residential properties in the county DSWM service area get automated garbage pickup two days each week; the cart must be at the curb by 7 a.m. The fee is billed on the annual property tax bill.",
+    "value": "2",
+    "unit": "count",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.mdc-dswm-garbage-service",
+    "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464792744722367",
+    "quote": "Most residential properties receive automated pickup of the green waste carts two days each week. The cost of the service is billed on your annual tax bill. ... Place your green waste cart at the curb by 7 a.m. on your pickup day.",
+    "retrieved_at": "2026-09-25T17:20:00-04:00",
+    "check_every": "P90D",
+    "status": "verified",
+    "value_type": "quantity",
+    "desk": "us-fl-miamidade.dswm",
+    "notes": "unit 'count' = pickups per week.",
+    "topics": [
+      "trash"
+    ]
+  },
+  {
+    "id": "us-fl-miamidade.trash.dswm-no-service-holidays",
+    "claim": "County DSWM collects garbage on all county holidays except Martin Luther King, Jr. Day, Independence Day and Christmas Day; service resumes on the next scheduled pickup day.",
+    "value": [
+      "martin-luther-king-jr-day",
+      "independence-day",
+      "christmas-day"
+    ],
+    "unit": null,
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.mdc-dswm-garbage-service",
+    "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1464792744722367",
+    "quote": "Waste collection service is provided, rain or shine on all holidays ( as observed by Miami-Dade County ) except: Martin Luther King, Jr. Day Independence Day Christmas Day Service will resume on the following scheduled pickup day.",
+    "retrieved_at": "2026-09-25T17:20:00-04:00",
+    "check_every": "P180D",
+    "status": "verified",
+    "value_type": "codes",
+    "desk": "us-fl-miamidade.dswm",
+    "topics": [
+      "trash"
+    ]
+  },
+  {
+    "id": "us.fema.flood-zone",
+    "claim": "What FEMA flood zone is this address in?",
+    "value": null,
+    "unit": null,
+    "value_type": "code",
+    "jurisdiction": "us",
+    "source_id": "us.fema.nfhl",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query",
+    "quote": "features: [{\"attributes\":{\"FLD_ZONE\":\"X\",\"ZONE_SUBTY\":\"AREA OF MINIMAL FLOOD HAZARD\",\"STATIC_BFE\":-9999.0,\"DFIRM_ID\":\"12086C\",\"SFHA_TF\":\"F\"}}]",
+    "retrieved_at": "2026-09-25T17:58:57-04:00",
+    "check_every": "P30D",
+    "status": "verified",
+    "desk": "us.fema-nfip",
+    "lookup": {
+      "endpoint": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query",
+      "layer_id": 28,
+      "fields": [
+        "FLD_ZONE",
+        "ZONE_SUBTY",
+        "STATIC_BFE"
+      ],
+      "method": "point-in-polygon esriSpatialRelIntersects",
+      "question": "What FEMA flood zone is this address in?"
+    },
+    "topics": [
+      "flood"
+    ],
+    "kind": "lookup",
+    "notes": "Geocoder: Miami-Dade county locator PointAddress (include ZIP or city; '111 NW 1st St' alone also matches Homestead)"
+  },
+  {
+    "id": "us.fema.flood-zone.demo.pin-sw137",
+    "claim": "Demo pin 11200 SW 137th Ave, Miami, FL 33186: FEMA flood zone",
+    "value": "X",
+    "unit": null,
+    "value_type": "code",
+    "jurisdiction": "us",
+    "source_id": "us.fema.nfhl",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-80.41646700000167,25.663194000003116&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,STATIC_BFE,DFIRM_ID,SFHA_TF&returnGeometry=false&f=json",
+    "quote": "{'FLD_ZONE': 'X', 'ZONE_SUBTY': 'AREA OF MINIMAL FLOOD HAZARD', 'STATIC_BFE': -9999.0, 'DFIRM_ID': '12086C', 'SFHA_TF': 'F'}",
+    "retrieved_at": "2026-09-25T18:10:00-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "desk": "us.fema-nfip",
+    "notes": "Point = Miami-Dade county locator (MDC_LocatorsPro/MD_Locator) PointAddress candidate for '11200 SW 137th Ave, Miami, FL 33186', score >99, x=-80.41646700000167, y=25.663194000003116 (WGS84). The point falls inside parcel folio 3059100230010 (MD_LandInformation layer 26). The Census geocoder point (street interpolation) is NOT used for pin facts.",
+    "plan_value": "AH",
+    "plan_ref": "Discovery",
+    "correction_note": "Discovery Batch 3 had AH from a hand-picked point. FEMA returns X at both the county address point and the Census point.",
+    "topics": [
+      "flood"
+    ]
+  },
+  {
+    "id": "us.fema.flood-zone.demo.pin-nw1st",
+    "claim": "Demo pin 111 NW 1st St, Miami, FL 33128: FEMA flood zone",
+    "value": "X",
+    "unit": null,
+    "value_type": "code",
+    "jurisdiction": "us",
+    "source_id": "us.fema.nfhl",
+    "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=-80.19666900000166,25.775604000003124&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE,ZONE_SUBTY,STATIC_BFE,DFIRM_ID,SFHA_TF&returnGeometry=false&f=json",
+    "quote": "{'FLD_ZONE': 'X', 'ZONE_SUBTY': 'AREA OF MINIMAL FLOOD HAZARD', 'STATIC_BFE': -9999.0, 'DFIRM_ID': '12086C', 'SFHA_TF': 'F'}",
+    "retrieved_at": "2026-09-25T18:10:00-04:00",
+    "check_every": "P30D",
+    "status": "demo",
+    "desk": "us.fema-nfip",
+    "notes": "Point = Miami-Dade county locator (MDC_LocatorsPro/MD_Locator) PointAddress candidate for '111 NW 1st St, Miami, FL 33128', score >99, x=-80.19666900000166, y=25.775604000003124 (WGS84). The point falls inside parcel folio 0141370230020 (MD_LandInformation layer 26). The Census geocoder point (street interpolation) is NOT used for pin facts.",
+    "plan_value": "AE",
+    "plan_ref": "Discovery",
+    "topics": [
+      "flood"
+    ],
+    "correction_note": "Earlier value AE came from the Census street-interpolated point (-80.196332054722, 25.775080963346), which lies off the parcel; Discovery Batch 3 also had AE from a hand-picked point. At the county address point inside the parcel FEMA returns X. Discovery Batch 4 agrees (X)."
+  }
+]

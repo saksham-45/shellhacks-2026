@@ -1,0 +1,86 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: buildings-that-fit
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > Money
+  item: Buildings that fit that line
+- plan: mymiami-plan.md
+  section: Every feature > Money
+  item: Buildings that fit
+title:
+  es: Edificios que encajan con tu línea
+  en: Buildings that fit your line
+  ht: Bilding ki matche ak liy ou
+summary:
+  es: 'Una lista corta de edificios con límite de ingresos para lo que ganas, cada uno con teléfono. Llámalos: esto es la coincidencia de ingresos, no un apartamento libre.'
+  en: 'A short list of income-restricted buildings for this income, each with a phone. Call them: this is the income match, not an open unit.'
+  ht: 'Yon ti lis bilding ki gen limit revni pou sa w touche, chak ak yon telefòn. Rele yo: sa se matche revni, se pa yon apatman ki lib.'
+body:
+  es: |-
+    Edificios para tus ingresos: {fact:us-fl-miamidade.housing.matching-buildings}.
+
+    La lista sale del buscador de vivienda asequible de Florida. Para la casa de demostración es una lista revisada a mano, marcada como demo.
+
+    No vemos apartamentos libres. Llama y pregunta si la lista de espera está abierta.
+  en: |-
+    Buildings for your income: {fact:us-fl-miamidade.housing.matching-buildings}.
+
+    The list comes from Florida's affordable-housing search. For the demo household it is a hand-checked set, labeled demo.
+
+    We do not see vacancies. Call and ask whether the waitlist is open.
+  ht: |-
+    Bilding pou revni ou: {fact:us-fl-miamidade.housing.matching-buildings}.
+
+    Lis la soti nan motè rechèch lojman abòdab Florid la. Pou kay demonstrasyon an, se yon lis yo verifye alamen, ki make demo.
+
+    Nou pa wè apatman ki lib. Rele epi mande si lis datant lan louvri.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.housing.matching-buildings
+- - us-fl.housing.floridahousingsearch
+- []
+desk: us-fl-miamidade.housing
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.housing
+utterances:
+  es:
+  - edificios para los que califico
+  - apartamentos asequibles cerca
+  - está abierta la lista de espera
+  - apartamentos baratos para lo que gano
+  - apartments que puedo pagar
+  en:
+  - buildings I qualify for
+  - affordable apartments near me
+  - is the waitlist open
+  - cheap apartments for my income
+  - apartamentos que I can afford
+  ht:
+  - bilding mwen kalifye pou yo
+  - apatman abòdab toupre m
+  - èske lis datant lan louvri
+  - apatman bon mache pou sa m touche
+  - apartments mwen ka peye
+privacy_scope: household
+stages:
+- 5
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- rent-line
+fact_refs:
+- us-fl-miamidade.housing.matching-buildings
+- us-fl.housing.floridahousingsearch
+topics:
+- rent

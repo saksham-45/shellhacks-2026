@@ -1,0 +1,75 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: etiquette-names-forms
+kind: etiquette
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Origin lens > Etiquette cards
+  item: Shoes, eye contact, and first names differ by house.
+title:
+  es: Nombres, mirada y formularios
+  en: Names, eyes, and forms
+  ht: Non, je, ak fòm
+summary:
+  es: El nombre en el formulario, el apellido exactamente como en el pasaporte, y la mirada arriba cuando el empleado pregunta.
+  en: First name on the form, last name exactly as on the passport, eyes up when the clerk asks a question.
+  ht: Prenon sou fòm lan, non fanmi egzakteman jan li ye sou paspò a, je leve lè anplwaye a poze w yon kesyon.
+body:
+  es: |-
+    En tu país, puedes llevar más de un apellido, o bajar la mirada por respeto.
+
+    Aquí, los formularios quieren tus nombres siempre en el mismo orden, igual que en el pasaporte. Los empleados ven la mirada directa como honestidad.
+
+    Quitarse los zapatos es regla de la casa, no de la oficina.
+  en: |-
+    At home, you may carry more than one last name, or lower your eyes out of respect.
+
+    Here, forms want your names in the same order every time, matching the passport. Clerks read eye contact as honesty.
+
+    Shoes off is a house rule, not an office rule.
+  ht: |-
+    Lakay, ou ka gen plis pase yon non fanmi, oswa ou ka bese je pa respè.
+
+    Isit la, fòm yo vle non ou nan menm lòd chak fwa, menm jan ak paspò a. Anplwaye yo wè je nan je kòm onètete.
+
+    Retire soulye se règ lakay, pa règ biwo.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- []
+- []
+desk: us.211
+utterances:
+  es:
+  - qué nombre pongo en el formulario
+  - tengo dos apellidos
+  - debo mirar al empleado a los ojos
+  - primero el nombre o el apellido
+  en:
+  - which name goes on the form
+  - I have two last names
+  - should I look the clerk in the eye
+  - first name or last name first
+  ht:
+  - ki non pou m mete sou fòm lan
+  - mwen gen de non fanmi
+  - èske pou m gade anplwaye a nan je
+  - prenon oswa non fanmi an premye
+privacy_scope: person
+stages:
+- 1
+- 10
+modes:
+- resident
+- tourist
+region_pack: us
+is_immigration: false
+fact_refs: []
+topics:
+- etiquette

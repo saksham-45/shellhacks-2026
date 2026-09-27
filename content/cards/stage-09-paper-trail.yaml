@@ -1,0 +1,72 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: stage-09-paper-trail
+kind: stage
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Stages
+  item: 9. Paper trail
+title:
+  es: Rastro de papeles
+  en: Paper trail
+  ht: Tras papye
+summary:
+  es: Los impuestos, el crédito y el correo no me toman por sorpresa.
+  en: Taxes, credit, and mail are not a surprise.
+  ht: Taks, kredi, ak lapòs pa sipriz pou mwen.
+body:
+  es: |-
+    Lo principal es el IRS, el crédito y tus fechas límite.
+
+    Lo principal es la primera tarjeta de esa lista que aún no terminas. Cada familiar puede estar en una etapa distinta en la misma casa.
+  en: |-
+    The hero is the IRS, credit, and your deadlines.
+
+    The hero is the first card on that list you have not finished. Family members can be on different stages in the same house.
+  ht: |-
+    Premye bagay la se IRS, kredi, ak dat limit ou yo.
+
+    Premye bagay la se premye kat nan lis sa a ou poko fini. Chak moun nan fanmi an ka nan yon etap diferan nan menm kay la.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- []
+desk: us.irs
+utterances:
+  es:
+  - etapa de papeleo
+  - qué fechas límite tengo
+  - próximo paso con impuestos y crédito
+  - se me pasa alguna fecha
+  en:
+  - paper trail stage
+  - what deadlines do I have
+  - taxes and credit next step
+  - am I missing a deadline
+  ht:
+  - etap tras papye
+  - ki dat limit mwen genyen
+  - pwochen etap pou taks ak kredi
+  - èske m ap rate yon dat limit
+privacy_scope: person
+stages:
+- 9
+modes:
+- resident
+region_pack: us
+is_immigration: false
+hero_cards:
+- taxes-irs
+- credit-start
+- ssn-itin
+- mail-address
+fact_refs: []
+topics:
+- taxes
+- money

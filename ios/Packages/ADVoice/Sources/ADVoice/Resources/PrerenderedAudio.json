@@ -1,0 +1,4 @@
+{
+  "note": "Bundled Creole card audio. Empty on purpose: clips are generated through our server and added only after a native Haitian Creole speaker reviews both the text and the audio (Creole report 7.1, 7.7). Each entry: table, key, language, sha256 (hex of the exact UTF-8 text), file, reviewed (true only after a native Haitian Creole speaker approved both text and audio; missing means false, and unreviewed entries are never played).",
+  "clips": []
+}

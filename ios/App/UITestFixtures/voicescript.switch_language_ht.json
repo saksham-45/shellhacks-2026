@@ -1,0 +1,15 @@
+{
+  "lines": [
+    {
+      "expect": "a11y.voice.unavailableNotice",
+      "language": "es",
+      "text": "Kreyòl"
+    },
+    {
+      "expect": "a11y.household.list",
+      "language": "es",
+      "text": "en español"
+    }
+  ],
+  "name": "switch_language_ht"
+}

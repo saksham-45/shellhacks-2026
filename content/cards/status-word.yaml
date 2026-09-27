@@ -1,0 +1,137 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: status-word
+kind: country
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Put the shoes on > The first month, once they are sleeping
+  item: 8. The word for their status
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The country, same everywhere
+  item: Status words
+title:
+  es: La palabra para tus papeles
+  en: The word for your papers
+  ht: Mo pou papye ou
+summary:
+  es: Conoce el nombre de tu estatus en palabras sencillas, y quién puede aconsejarte. Definimos la palabra. No escogemos una estrategia.
+  en: Know the name of your status in plain words, and who may advise you on it. We define the word. We do not pick a strategy.
+  ht: Konnen non estati ou an mo senp, ak kiyès ki gen dwa konseye w sou li. Nou esplike mo a. Nou pa chwazi yon estrateji pou ou.
+body:
+  es: |-
+    La visa es el sello que te permitió pedir la entrada. Tu estatus es lo que se te permite ser mientras estás aquí. Pueden vencer en fechas distintas.
+
+    Green card quiere decir residente permanente legal: puedes vivir y trabajar aquí de forma permanente, con reglas para mantenerla.
+
+    TPS, el Estatus de Protección Temporal, protege a personas de ciertos países mientras dura. Su situación depende del país y de los papeles de cada persona: consulta con alguien de confianza en una oficina de ayuda legal acreditada.
+
+    El parole permite entrar o quedarse por un tiempo. Es un permiso para estar aquí, no una green card.
+
+    Un solicitante de asilo pidió protección y espera una decisión. Pedirlo no es lo mismo que recibirlo.
+
+    Un permiso de trabajo, la tarjeta EAD, tiene fechas y una categoría. Solo se puede trabajar dentro de ellas.
+
+    Solo un abogado con licencia o un representante acreditado por el Departamento de Justicia puede decirte qué camino te sirve. Un notario no puede.
+
+    Nunca te diremos qué formulario llenar ni qué estatus buscar.
+  en: |-
+    A visa is the stamp that let you ask to enter. Your status is what you are allowed to be while you are here. They can end on different dates.
+
+    Green card means lawful permanent resident: you may live and work here permanently, with rules to keep it.
+
+    TPS, Temporary Protected Status, protects people from certain countries while it lasts. Its situation depends on the country and each person’s papers: check with a trusted helper at an accredited legal-aid office.
+
+    Parole lets a person enter or stay for a period. It is permission to be here, not a green card.
+
+    An asylum applicant has asked for protection and is waiting for a decision. Applying is not the same as being granted.
+
+    A work permit, the EAD card, has dates and a category. Work is allowed only inside them.
+
+    Only a licensed lawyer or a DOJ-accredited representative may tell you which path fits. A notary cannot.
+
+    We will never tell you which form to file or which status to seek.
+  ht: |-
+    Viza se so ki te pèmèt ou mande antre. Estati ou se sa yo pèmèt ou ye pandan ou isit la. Yo ka fini nan dat diferan.
+
+    Green card vle di rezidan pèmanan legal: ou ka viv epi travay isit la pou tout tan, avèk règ pou kenbe l.
+
+    TPS, Estati Pwoteksyon Tanporè, pwoteje moun ki soti nan kèk peyi pandan li la. Sitiyasyon li depann de peyi a ak papye chak moun: tcheke ak yon moun ou fè konfyans nan yon biwo èd legal akredite.
+
+    Parole pèmèt yon moun antre oswa rete pou yon tan. Se yon pèmisyon pou w la, se pa yon green card.
+
+    Yon moun ki mande azil te mande pwoteksyon epi l ap tann yon desizyon. Mande pa menm bagay ak resevwa.
+
+    Yon pèmi travay, kat EAD la, gen dat ak yon kategori. Ou ka travay sèlman anndan yo.
+
+    Se sèlman yon avoka ki gen lisans oswa yon reprezantan Depatman Jistis akredite ki ka di w ki chemen ki bon pou ou. Yon notè pa kapab.
+
+    Nou p ap janm di w ki fòm pou ranpli ni ki estati pou chèche.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us.status.visa-vs-status
+- - us.status.green-card
+- - us.status.tps
+- - us.status.parole
+- - us.status.asylum-applicant
+- - us.status.ead
+- - us.immigration.who-may-advise
+  - us.uscis.notario-scam
+- []
+desk: us.accredited-legal-help
+actions:
+- type: call_desk
+  desk_id: us.accredited-legal-help
+utterances:
+  es:
+  - qué significa TPS
+  - qué es el parole
+  - diferencia entre visa y estatus
+  - qué es la green card
+  - cómo se llaman mis papeles
+  - qué es el EAD
+  en:
+  - what does TPS mean
+  - what is parole
+  - difference between visa and status
+  - what is a green card
+  - what are my papers called
+  - what is an EAD
+  ht:
+  - kisa TPS vle di
+  - kisa parole ye
+  - diferans ant viza ak estati
+  - kisa green card la ye
+  - kijan yo rele papye m yo
+  - kisa EAD la ye
+privacy_scope: person-papers
+stages:
+- 2
+modes:
+- resident
+region_pack: us
+is_immigration: true
+origin_lenses:
+- latinAmerica
+- haiti
+- internationalStudent
+fact_refs:
+- us.status.visa-vs-status
+- us.status.green-card
+- us.status.tps
+- us.status.parole
+- us.status.asylum-applicant
+- us.status.ead
+- us.immigration.who-may-advise
+- us.uscis.notario-scam
+verified_only_refs:
+- us.immigration.tps.haiti.end-date
+- us.immigration.tps.venezuela.doc-validity
+topics:
+- immigration
+- tps

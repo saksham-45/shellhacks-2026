@@ -1,0 +1,68 @@
+{
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "candidates": [
+  {
+   "address": "111 NW 1ST ST, MIAMI, 33128",
+   "location": {
+    "x": -80.19666900000166,
+    "y": 25.775604000003124
+   },
+   "score": 99.09,
+   "attributes": {
+    "Addr_type": "PointAddress",
+    "Score": 99.09
+   }
+  },
+  {
+   "address": "111 NW 1ST ST, MIAMI, 33128",
+   "location": {
+    "x": -80.1957857554569,
+    "y": 25.775106154505742
+   },
+   "score": 99.09,
+   "attributes": {
+    "Addr_type": "StreetAddress",
+    "Score": 99.09
+   }
+  },
+  {
+   "address": "111 NW 1ST AVE, MIAMI, 33128",
+   "location": {
+    "x": -80.19554592215883,
+    "y": 25.775184145250357
+   },
+   "score": 93.9,
+   "attributes": {
+    "Addr_type": "StreetAddress",
+    "Score": 93.9
+   }
+  },
+  {
+   "address": "NW 1ST ST, MIAMI, 33128",
+   "location": {
+    "x": -80.20693125000167,
+    "y": 25.774735500003136
+   },
+   "score": 92.05,
+   "attributes": {
+    "Addr_type": "StreetName",
+    "Score": 92.05
+   }
+  },
+  {
+   "address": "NW 1ST ST, MIAMI, 33135",
+   "location": {
+    "x": -80.21583900000167,
+    "y": 25.77446550000312
+   },
+   "score": 90.31,
+   "attributes": {
+    "Addr_type": "StreetName",
+    "Score": 90.31
+   }
+  }
+ ]
+}

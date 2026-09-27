@@ -1,0 +1,118 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: car-insurance-first
+kind: country
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Put the shoes on > The first year, the path to standing alone
+  item: 16. A car only after insurance
+- plan: myamericandream-plan.md
+  section: Stages
+  item: 8. Movement
+title:
+  es: Seguro antes que el carro
+  en: Insurance before the car
+  ht: Asirans anvan machin
+summary:
+  es: En Florida, el carro necesita seguro y el chofer una licencia válida. Sin eso, el problema es tuyo, no una propina para el policía.
+  en: In Florida, a car needs insurance and the driver needs a valid license. Without them, the problem is yours, not a tip to an officer.
+  ht: Nan Florid, machin nan bezwen asirans epi chofè a bezwen yon lisans ki valab. San yo, pwoblèm nan se pou ou, se pa yon ti kòb pou polis la.
+body:
+  es: |-
+    En tu país, un pago pequeño a un policía podía terminar una parada de tránsito.
+
+    Aquí, ofrecerle dinero a un policía es soborno, un delito.
+
+    Florida exige seguro para un carro registrado. La cobertura mínima combina PIP (protección contra lesiones personales) de {fact:us-fl.driving.pip-minimum} y PDL (responsabilidad por daños a la propiedad) de {fact:us-fl.driving.pdl-minimum}.
+
+    Si eres residente nuevo, registra el carro dentro de {fact:us-fl.driving.newcomer-registration-days} días después de empezar un trabajo o matricular a tus hijos en una escuela pública.
+
+    Manejar sin licencia válida es un delito en Florida.
+
+    Lo que cuesta: sin seguro, Florida puede suspenderte la licencia y el registro del carro.
+  en: |-
+    At home, a small payment to an officer might have ended a traffic stop.
+
+    Here, offering money to an officer is bribery, a crime.
+
+    Florida requires insurance on a registered car. The minimum coverage combines PIP (personal injury protection) of {fact:us-fl.driving.pip-minimum} and PDL (property damage liability) of {fact:us-fl.driving.pdl-minimum}.
+
+    If you are a new resident, register the car within {fact:us-fl.driving.newcomer-registration-days} days after starting a job or enrolling your children in public school.
+
+    Driving without a valid license is a crime in Florida.
+
+    What it costs: without insurance, Florida can suspend your license and your registration.
+  ht: |-
+    Lakay, yon ti kòb bay yon polis te ka fini yon kontwòl wout.
+
+    Isit la, ofri yon polis lajan se koripsyon, se yon krim.
+
+    Florid egzije asirans pou yon machin ki anrejistre. Kouvèti minimòm lan gen PIP (pwoteksyon kont blesi pèsonèl) ki se {fact:us-fl.driving.pip-minimum} ak PDL (responsablite pou domaj pwopriyete) ki se {fact:us-fl.driving.pdl-minimum}.
+
+    Si ou se yon nouvo rezidan, anrejistre machin nan nan {fact:us-fl.driving.newcomer-registration-days} jou apre ou kòmanse yon travay oswa ou enskri pitit ou nan yon lekòl piblik.
+
+    Kondwi san yon lisans ki valab se yon krim nan Florid.
+
+    Sa sa koute: san asirans, Florid ka sispann lisans ou ak anrejistreman machin nan.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- - us-fl.bribery.crime
+- - us-fl.insurance.required
+  - us-fl.driving.pip-minimum
+  - us-fl.driving.pdl-minimum
+- - us-fl.driving.newcomer-registration-days
+- - us-fl.driving.no-license-offense
+- - us-fl.insurance.suspension
+desk: us-fl.dfs-insurance
+actions:
+- type: call_desk
+  desk_id: us-fl.dfs-insurance
+utterances:
+  es:
+  - necesito seguro para el carro
+  - puedo manejar sin seguro
+  - quiero comprar un carro
+  - qué seguro pide Florida
+  - car insurance es obligatorio
+  en:
+  - do I need car insurance
+  - can I drive without insurance
+  - I want to buy a car
+  - what insurance does Florida require
+  - el seguro del carro is required
+  ht:
+  - èske m bezwen asirans machin
+  - èske m ka kondwi san asirans
+  - mwen vle achte yon machin
+  - ki asirans Florid mande
+  - car insurance obligatwa
+privacy_scope: household
+stages:
+- 8
+modes:
+- resident
+region_pack: us-fl
+is_immigration: false
+origin_lenses:
+- leftDriving
+related_cards:
+- driving-rules
+- license-and-tag
+fact_refs:
+- us-fl.bribery.crime
+- us-fl.insurance.required
+- us-fl.driving.pip-minimum
+- us-fl.driving.pdl-minimum
+- us-fl.driving.newcomer-registration-days
+- us-fl.driving.no-license-offense
+- us-fl.insurance.suspension
+topics:
+- driving
+- license

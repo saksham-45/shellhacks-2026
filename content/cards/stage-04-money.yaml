@@ -1,0 +1,70 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: stage-04-money
+kind: stage
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Stages
+  item: 4. Money
+title:
+  es: Dinero
+  en: Money
+  ht: Lajan
+summary:
+  es: Tengo una cuenta de banco a mi nombre.
+  en: I have a bank account in my name.
+  ht: Mwen gen yon kont labank sou non pa m.
+body:
+  es: |-
+    Lo principal es el banco, las remesas y no usar el cambio de cheques.
+
+    Lo principal es la primera tarjeta de esa lista que aún no terminas. Cada familiar puede estar en una etapa distinta en la misma casa.
+  en: |-
+    The hero is the bank, sending money home, and no check-casher.
+
+    The hero is the first card on that list you have not finished. Family members can be on different stages in the same house.
+  ht: |-
+    Premye bagay la se bank lan, voye lajan lakay, epi pa sèvi ak moun ki chanje chèk.
+
+    Premye bagay la se premye kat nan lis sa a ou poko fini. Chak moun nan fanmi an ka nan yon etap diferan nan menm kay la.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- []
+desk: us.bank-branch
+utterances:
+  es:
+  - etapa del dinero
+  - próximo paso con mi dinero
+  - organizar mi dinero
+  - y mi dinero qué
+  en:
+  - money stage
+  - next step with my money
+  - sort out my money
+  - what about my money
+  ht:
+  - etap lajan
+  - pwochen etap ak lajan m
+  - ranje zafè lajan m
+  - e lajan m nan
+privacy_scope: person
+stages:
+- 4
+modes:
+- resident
+region_pack: us
+is_immigration: false
+hero_cards:
+- bank-account
+- remittance
+- tonight-food-pay
+fact_refs: []
+topics:
+- money

@@ -1,0 +1,92 @@
+{
+  "language": "ar",
+  "version": 1,
+  "review": {
+    "state": "needs_review",
+    "note": "Agent-authored for Florida Census languages; pending native review."
+  },
+  "fillers": [
+    "من فضلك"
+  ],
+  "commands": {
+    "back": [
+      "رجوع",
+      "العودة"
+    ],
+    "home": [
+      "الرئيسية"
+    ],
+    "read_this": [
+      "اقرأ هذا",
+      "اقرأ بصوت عال"
+    ],
+    "stop": [
+      "توقف"
+    ],
+    "repeat": [
+      "كرر",
+      "مرة أخرى"
+    ],
+    "next_step": [
+      "التالي",
+      "الخطوة التالية"
+    ],
+    "previous_step": [
+      "الخطوة السابقة"
+    ],
+    "call_desk": [
+      "اتصل",
+      "اتصل بالمكتب"
+    ],
+    "open_map": [
+      "الخريطة",
+      "افتح الخريطة"
+    ],
+    "switch_language_es": [
+      "الإسبانية"
+    ],
+    "switch_language_en": [
+      "الإنجليزية"
+    ],
+    "switch_language_ht": [
+      "الكريول"
+    ],
+    "switch_language_pt": [
+      "البرتغالية"
+    ],
+    "switch_language_fr": [
+      "الفرنسية"
+    ],
+    "switch_language_ar": [
+      "العربية",
+      "بالعربية"
+    ],
+    "switch_language_zh": [
+      "الصينية"
+    ],
+    "switch_language_ru": [
+      "الروسية"
+    ],
+    "switch_language_tl": [
+      "التاغالوغ"
+    ],
+    "switch_language_vi": [
+      "الفيتنامية"
+    ],
+    "yes": [
+      "نعم"
+    ],
+    "no": [
+      "لا"
+    ],
+    "ordinal_first": [
+      "الأول"
+    ],
+    "ordinal_second": [
+      "الثاني"
+    ],
+    "ordinal_third": [
+      "الثالث"
+    ]
+  }
+}

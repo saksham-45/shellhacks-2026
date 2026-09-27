@@ -1,0 +1,23 @@
+{
+  "fact_id": "us-fl-miamidade.rent.fhfc-limit.3br.120pct",
+  "outcome": "value-changed",
+  "action": "The quoted passage now shows different figures. Re-read the source; if the fact changed, update value+quote+retrieved_at by hand and add correction_note.",
+  "result": {
+    "fact_id": "us-fl-miamidade.rent.fhfc-limit.3br.120pct",
+    "source_id": "us-fl.fhfc-2026-income-rent-limits-pdf",
+    "kind": "static",
+    "status_before": "verified",
+    "outcome": "value-changed",
+    "detail": "the quoted passage is still there but its figures changed: [] -> ['133,560', '140%', '152,600', '171,640', '190,680', '2,623', '2,810', '205,940', '209,748', '221,200', '221,734', '236,460', '3,371', '3,895', '4,345', '4,794']",
+    "snippet": "209,748 221,734 2,623 2,810 3,371 3,895 4,345 4,794 120% 114,480 130,800 147,120 163,440 176,520 189,600 202,680 215,760 228,816 241,891 2,862 3,066 3,678 4,249 4,740 5,230 140% 133,560 152,600 171,640 190,680 205,940 221,200 236,460",
+    "similarity": 0.83,
+    "observed": null,
+    "recorded": "Miami-Dade County (Miami-Miami Beach-Kendall HMFA) 120% 114,480 130,800 147,120 163,440 176,520 189,600 202,680 215,760 228,816 241,891 2,862 3,066 3,678 4,249 4,740 5,230",
+    "checked_url": "https://www.floridahousing.org/docs/default-source/developers-and-property-managers/compliance/limits/florida-housing-rental-programs---2026-income-and-rent-limits-(eff-5-1-2026).pdf?sfvrsn=21bc8923_1",
+    "final_url": "https://www.floridahousing.org/docs/default-source/developers-and-property-managers/compliance/limits/florida-housing-rental-programs---2026-income-and-rent-limits-(eff-5-1-2026).pdf?sfvrsn=21bc8923_1",
+    "consecutive_unreachable": 0,
+    "propose_stale": false
+  },
+  "run_started_at": "2026-09-25T17:38:48-04:00",
+  "auto_applied": false
+}

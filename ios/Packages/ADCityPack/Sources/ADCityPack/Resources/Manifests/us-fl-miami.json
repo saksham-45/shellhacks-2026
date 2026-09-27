@@ -1,0 +1,42 @@
+{
+  "id": "us-fl-miami",
+  "parent": "us-fl-miamidade",
+  "level": "city",
+  "boundary": {
+    "method": "fact_equals",
+    "fact": "us-fl-miamidade.government.municipality-id",
+    "value": "01"
+  },
+  "adapters": [
+    {
+      "id": "us-fl-miami.trash-city",
+      "answers": [
+        "trash.schedule"
+      ],
+      "sources": [
+        "us-fl-miami.gis-trash-routes"
+      ],
+      "desk": "us-fl-miami.solid-waste",
+      "facts": [
+        {
+          "id": "us-fl-miami.trash.day",
+          "topics": [
+            "trash"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "us-fl-miami.gis-trash-routes"
+  ],
+  "desks": [
+    "us-fl-miami.solid-waste"
+  ],
+  "desks_placeholder": true,
+  "languages": [
+    "es",
+    "en",
+    "ht"
+  ]
+}

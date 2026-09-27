@@ -1,0 +1,23 @@
+{
+  "fact_id": "us-fl-miami.trash.city-service-lines",
+  "outcome": "quote-missing",
+  "action": "The quoted sentence is gone. Find where the fact now lives (or whether it was removed); update quote/url by hand, or mark unsourced.",
+  "result": {
+    "fact_id": "us-fl-miami.trash.city-service-lines",
+    "source_id": "us-fl-miami.com-solid-waste",
+    "kind": "static",
+    "status_before": "verified",
+    "outcome": "quote-missing",
+    "detail": "quote no longer found in the fetched text",
+    "snippet": "of Unwanted Items Garbage, Bulky Trash and Recycling The City of Miami Department of Solid Waste provides garbage, bulky trash and recycling services. The department is open every day of the year other than Christmas Day and Martin Luther King,",
+    "similarity": 0.691,
+    "observed": null,
+    "recorded": "The City of Miami Department of Solid Waste provides garbage, bulky trash and recycling services. ... Gabage/Recycling containers may only be placed out ... Recycling is serviced twice a month, not every other week",
+    "checked_url": "https://www.miami.gov/My-Government/Departments/Solid-Waste",
+    "final_url": "https://www.miami.gov/My-Government/Departments/Solid-Waste",
+    "consecutive_unreachable": 0,
+    "propose_stale": false
+  },
+  "run_started_at": "2026-09-25T17:38:48-04:00",
+  "auto_applied": false
+}

@@ -1,0 +1,10 @@
+{
+  "request_url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/1?f=json",
+  "method": "GET",
+  "retrieved_at": "2026-09-25T18:06:29-04:00",
+  "http_status": 200,
+  "bytes": 565,
+  "sha256": "fc7084125de31d9203d01d02f9538532bd53e635d864b6cc84997a7b30e4cdcc",
+  "capture_path": "scripts/refresh_fixtures.py (LiveTransport, box egress)",
+  "minimized": "fields[] reduced to the coded-value fields decoded: WEEKDAYS"
+}

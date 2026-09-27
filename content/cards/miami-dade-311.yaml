@@ -1,0 +1,121 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: miami-dade-311
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > Errands
+  item: 311, in the right city, in the right language
+- plan: mymiami-plan.md
+  section: Every feature > The errand that eats a day
+  item: '311'
+title:
+  es: La línea para lo que no es emergencia, en la ciudad correcta
+  en: The non-emergency desk, in the right city
+  ht: Liy pou sa ki pa ijans, nan bon vil la
+summary:
+  es: Basura grande, mosquitos, recogida perdida, un bache, un bote roto. La solicitud correcta, en tu idioma, al gobierno correcto.
+  en: Bulky trash, mosquitoes, a missed pickup, a pothole, a broken cart. The right request, in your language, to the right government.
+  ht: Gwo fatra, moustik, ranmasaj yo rate, yon twou nan wout, yon bokit kase. Bon demann lan, nan lang ou, bay bon gouvènman an.
+body:
+  es: |-
+    La línea del condado para lo que no es emergencia: {fact:us-fl-miamidade.311.phone}. Idiomas: {fact:us-fl-miamidade.311.languages}.
+
+    Tu gobierno para esta dirección: {fact:us-fl-miamidade.gov.municipality}. Lo que es solo de la ciudad va a esa ciudad.
+
+    En la Ciudad de Miami, los servicios de la ciudad tienen su propia línea: {fact:us-fl-miami.311.phone}.
+
+    Haz la solicitud en la app o el sitio del condado. Nosotros no la hacemos por ti.
+
+    Solicitudes pasadas cerca de tu dirección: {fact:us-fl-miamidade.311.history-near-pin}. El condado marca estos datos como beta, y casi todo el trabajo solo de la ciudad no aparece.
+  en: |-
+    Miami-Dade's non-emergency line: {fact:us-fl-miamidade.311.phone}. Languages: {fact:us-fl-miamidade.311.languages}.
+
+    Your government for this pin: {fact:us-fl-miamidade.gov.municipality}. City-only requests go to that city.
+
+    In the City of Miami, city services have their own request line: {fact:us-fl-miami.311.phone}.
+
+    File the request in the county's own app or website. We do not file for you.
+
+    Past requests near your pin: {fact:us-fl-miamidade.311.history-near-pin}. The county marks this data as beta, and most city-only work is missing.
+  ht: |-
+    Liy Miami-Dade pou sa ki pa ijans: {fact:us-fl-miamidade.311.phone}. Lang: {fact:us-fl-miamidade.311.languages}.
+
+    Gouvènman ou pou adrès sa a: {fact:us-fl-miamidade.gov.municipality}. Demann ki pou vil la sèlman ale bay vil sa a.
+
+    Nan Vil Miami, sèvis vil la gen pwòp liy demann yo: {fact:us-fl-miami.311.phone}.
+
+    Fè demann lan nan aplikasyon oswa sit konte a. Nou pa fè l pou ou.
+
+    Ansyen demann toupre adrès ou: {fact:us-fl-miamidade.311.history-near-pin}. Konte a make done sa yo beta, epi pifò travay ki pou vil sèlman pa ladan yo.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.311.phone
+  - us-fl-miamidade.311.languages
+- - us-fl-miamidade.gov.municipality
+- - us-fl-miami.311.phone
+- - us-fl-miamidade.311.filing-channels
+- - us-fl-miamidade.311.history-beta
+  - us-fl-miamidade.311.history-near-pin
+paragraph_when:
+- null
+- municipality: unincorporated
+- municipality: us-fl-miami
+- null
+- null
+desk: us-fl-miamidade.311
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.311
+utterances:
+  es:
+  - reportar un bache
+  - no pasaron a recoger la basura
+  - recogida de basura grande
+  - hay mosquitos en mi patio
+  - línea que no es de emergencia
+  - se me rompió el bote de basura
+  en:
+  - report a pothole
+  - they missed my trash pickup
+  - bulky trash pickup
+  - mosquitoes in my yard
+  - non emergency line
+  - my trash cart is broken
+  ht:
+  - rapòte yon twou nan wout
+  - yo pa t pase ranmase fatra m
+  - ranmasaj gwo fatra
+  - gen moustik nan lakou m
+  - liy ki pa pou ijans
+  - bokit fatra m kase
+privacy_scope: household
+stages:
+- 10
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+origin_lenses:
+- haiti
+related_cards:
+- trash-and-recycling
+- offices
+fact_refs:
+- us-fl-miamidade.311.phone
+- us-fl-miamidade.311.languages
+- us-fl-miamidade.gov.municipality
+- us-fl-miami.311.phone
+- us-fl-miamidade.311.filing-channels
+- us-fl-miamidade.311.history-beta
+- us-fl-miamidade.311.history-near-pin
+topics:
+- desk
+- trash
+- municipality

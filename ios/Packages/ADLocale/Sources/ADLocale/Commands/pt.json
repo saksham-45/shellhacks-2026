@@ -1,0 +1,108 @@
+{
+  "language": "pt",
+  "version": 1,
+  "review": {
+    "state": "needs_review",
+    "note": "Agent-authored for Florida Census languages; pending native review."
+  },
+  "fillers": [
+    "por favor",
+    "oi"
+  ],
+  "commands": {
+    "back": [
+      "voltar",
+      "volta"
+    ],
+    "home": [
+      "início",
+      "tela inicial"
+    ],
+    "read_this": [
+      "leia isso",
+      "ler em voz alta"
+    ],
+    "stop": [
+      "parar",
+      "chega"
+    ],
+    "repeat": [
+      "repetir",
+      "de novo"
+    ],
+    "next_step": [
+      "próximo",
+      "próximo passo"
+    ],
+    "previous_step": [
+      "passo anterior",
+      "anterior"
+    ],
+    "call_desk": [
+      "ligar",
+      "ligar para o balcão"
+    ],
+    "open_map": [
+      "mapa",
+      "abrir o mapa"
+    ],
+    "switch_language_es": [
+      "espanhol",
+      "em espanhol"
+    ],
+    "switch_language_en": [
+      "inglês",
+      "em inglês"
+    ],
+    "switch_language_ht": [
+      "crioulo",
+      "kreyòl"
+    ],
+    "switch_language_pt": [
+      "português",
+      "em português"
+    ],
+    "switch_language_fr": [
+      "francês",
+      "em francês"
+    ],
+    "switch_language_ar": [
+      "árabe",
+      "em árabe"
+    ],
+    "switch_language_zh": [
+      "chinês",
+      "em chinês"
+    ],
+    "switch_language_ru": [
+      "russo",
+      "em russo"
+    ],
+    "switch_language_tl": [
+      "tagalo"
+    ],
+    "switch_language_vi": [
+      "vietnamita"
+    ],
+    "yes": [
+      "sim",
+      "claro"
+    ],
+    "no": [
+      "não",
+      "agora não"
+    ],
+    "ordinal_first": [
+      "o primeiro",
+      "a primeira"
+    ],
+    "ordinal_second": [
+      "o segundo",
+      "a segunda"
+    ],
+    "ordinal_third": [
+      "o terceiro",
+      "a terceira"
+    ]
+  }
+}

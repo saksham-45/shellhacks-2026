@@ -1,0 +1,116 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: airport-exit
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Put the shoes on > Tonight and the next three days
+  item: 4. The airport exit
+- plan: myamericandream-plan.md
+  section: Stages
+  item: Tourist mode
+title:
+  es: Salir de MIA
+  en: Leaving MIA
+  ht: Soti nan ayewopò MIA
+summary:
+  es: Toma un taxi oficial o ve al punto de recogida de las apps. La persona que se acerca ofreciendo una oferta es la primera estafa.
+  en: Take an official taxi or go to the rideshare pickup. The person who walks up offering a deal is the first scam.
+  ht: Pran yon taksi ofisyèl oswa ale kote aplikasyon woulib yo ranmase moun. Moun ki vin jwenn ou ak yon 'bon pri' se premye eskwokri a.
+body:
+  es: |-
+    MIA tiene paradas oficiales de taxi y zonas marcadas para recoger pasajeros de apps.
+
+    Un chofer que se te acerca dentro de la terminal no es la fila oficial.
+
+    Pregunta la tarifa, o mira el precio en la app, antes de que el carro arranque.
+
+    Lo que cuesta: los taxis de MIA cobran por taxímetro en todos los viajes, más un cargo del aeropuerto, con una tarifa mínima desde MIA; ya no hay tarifas fijas.
+    Un chofer no oficial puede cobrar lo que quiera, y no hay a quién reclamarle.
+
+    ¿Perdido o con dudas? Ve a un mostrador de información del aeropuerto.
+  en: |-
+    MIA has official taxi stands and marked rideshare pickup zones.
+
+    A driver who walks up to you inside the terminal is not the official line.
+
+    Ask the fare, or check the price in the app, before the car moves.
+
+    What it costs: taxis from MIA run the meter on every trip, plus an airport fee, with a minimum fare from MIA; there are no flat fares anymore.
+    An unofficial driver can charge what they want, and there is no one to complain to.
+
+    Lost or unsure? Go to an airport information counter.
+  ht: |-
+    MIA gen kote ofisyèl pou taksi ak zòn ki make pou aplikasyon woulib yo ranmase moun.
+
+    Yon chofè ki vin jwenn ou anndan tèminal la pa liy ofisyèl la.
+
+    Mande pri a, oswa gade pri a nan aplikasyon an, anvan machin nan demare.
+
+    Sa sa koute: taksi ki soti MIA yo mache ak kontè pou tout vwayaj, plis yon frè ayewopò, ak yon pri minimòm depi MIA; pa gen pri fiks ankò.
+    Yon chofè ki pa ofisyèl ka mande sa l vle, epi pa gen moun pou w plenyen bay.
+
+    Ou pèdi oswa ou pa sèten? Ale nan yon kontwa enfòmasyon ayewopò a.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.mia.ground-transport
+- - us-fl-miamidade.mia.solicitation
+- []
+- - us-fl-miamidade.mia.solicitation
+  - us-fl-miamidade.mia.taxi.meter-rule
+  - us-fl-miamidade.mia.taxi.flat-rate-rule
+- []
+desk: us-fl-miamidade.mia-information
+actions:
+- type: open_map
+  target:
+    type: desk
+    desk_id: us-fl-miamidade.mia-information
+utterances:
+  es:
+  - cómo salgo del aeropuerto
+  - dónde están los taxis en MIA
+  - dónde recoge el Uber
+  - un señor me ofreció llevarme, está bien
+  - acabo de llegar a Miami
+  en:
+  - how do I get out of the airport
+  - where are the taxis at MIA
+  - where is the Uber pickup
+  - a guy offered me a ride is that ok
+  - I just landed in Miami
+  ht:
+  - kijan pou m soti nan ayewopò a
+  - kote taksi yo ye nan MIA
+  - kote Uber ranmase moun
+  - yon nèg ofri m woulib, èske se bon
+  - mwen fèk ateri Miami
+privacy_scope: person
+stages:
+- 1
+- 10
+modes:
+- resident
+- tourist
+region_pack: us-fl-miamidade
+is_immigration: false
+origin_lenses:
+- tourist
+related_cards:
+- scam-check
+- back-to-mia
+fact_refs:
+- us-fl-miamidade.mia.ground-transport
+- us-fl-miamidade.mia.solicitation
+- us-fl-miamidade.mia.taxi.meter-rule
+- us-fl-miamidade.mia.taxi.flat-rate-rule
+topics:
+- transit
+- scams
+- visitors

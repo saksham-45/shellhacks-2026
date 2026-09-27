@@ -1,0 +1,174 @@
+[
+ {
+  "unit": null,
+  "retrieved_at": "2026-09-25T18:45:00-04:00",
+  "status": "verified",
+  "kind": "static",
+  "id": "us.ed-doj.2015-el-parents-fact-sheet.status",
+  "claim": "The January 2015 ED/DOJ joint guidance fact sheet on English learner students and limited-English-proficient parents has been formally rescinded by the U.S. Department of Education; do not cite it as current guidance.",
+  "value": "rescinded",
+  "value_type": "code",
+  "jurisdiction": "us",
+  "source_id": "us.ed-el-2015-fact-sheet",
+  "url": "https://www.ed.gov/media/document/ocr-and-doj-civil-rights-division-ensuring-english-learner-students-can-participate-meaningfully-and-equally-educational-programs-january-2015-rescinded-21469",
+  "quote": "This document has been formally rescinded by the Department and remains available on the web for historical purposes only.",
+  "check_every": "P180D",
+  "topics": [
+   "schools",
+   "language"
+  ],
+  "notes": "Direct fetch of ed.gov returns an automated-access block; the quote is the rescission banner on the official ed.gov document as indexed by search on 2026-09-25, and the official URL slug itself reads \"rescinded\". Rescission date is reported only by secondary news (K-12 Dive, 2025-08-20); no official dated notice was found. Underlying Title VI and EEOA obligations are not affected by the rescission."
+ },
+ {
+  "unit": null,
+  "retrieved_at": "2026-09-25T18:45:00-04:00",
+  "status": "verified",
+  "kind": "static",
+  "id": "us-fl.fac.6a-6.0908.parent-communication",
+  "claim": "Florida rule 6A-6.0908(2): all written and oral communication between school district staff and parents of current or former English Language Learners must be in the parents’ primary language or other mode of communication they commonly use, unless clearly not feasible.",
+  "value": "All written and oral communication between a school district's personnel and parents of current or former English Language Learners shall be in the parents' primary language or other mode of communication commonly used by the parents unless clearly not feasible.",
+  "value_type": "text",
+  "value_language": "en",
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.flrules-6a-6.0908",
+  "url": "https://www.flrules.org/gateway/readFile.asp?sid=0&tid=7064042&type=1&file=6A-6.0908.doc",
+  "quote": "(2) School-to-Home Communication. All written and oral communication between a school district's personnel and parents of current or former English Language Learners shall be in the parents' primary language or other mode of communication commonly used by the parents unless clearly not feasible.",
+  "check_every": "P1Y",
+  "topics": [
+   "schools",
+   "language"
+  ],
+  "desk": "us-fl-miamidade.m-dcps",
+  "x-effective-date": "2009-05-05",
+  "notes": "Rule page https://www.flrules.org/gateway/ruleNo.asp?id=6A-6.0908 lists Effective Date 5/5/2009."
+ },
+ {
+  "unit": null,
+  "retrieved_at": "2026-09-25T18:45:00-04:00",
+  "status": "verified",
+  "kind": "static",
+  "id": "us-fl-miamidade.m-dcps.policy-2111",
+  "claim": "M-DCPS School Board Policy 2111 says reasonable efforts will be made to communicate with parents in their primary language.",
+  "value": "Reasonable efforts will be made to communicate with parents in their primary language. The mode of communication should also be adjusted when necessary to promote comprehension, acceptance, and trust.",
+  "value_type": "text",
+  "value_language": "en",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdcps-policy-2111",
+  "url": "https://go.boarddocs.com/fl/sbmd/Board.nsf/goto?id=CXRRRT6F4800&open=",
+  "quote": "Reasonable efforts will be made to communicate with parents in their primary language. The mode of communication should also be adjusted when necessary to promote comprehension, acceptance, and trust.",
+  "check_every": "P180D",
+  "topics": [
+   "schools",
+   "language"
+  ],
+  "desk": "us-fl-miamidade.m-dcps",
+  "notes": "Policy section 3.7 Communication; policy effective 07.01.2011, last revised 11.15.2023. The policy also requires Parent Outreach Liaisons to inform families of services in their primary language."
+ },
+ {
+  "unit": null,
+  "retrieved_at": "2026-09-25T18:45:00-04:00",
+  "status": "unsourced",
+  "kind": "static",
+  "id": "us-fl-miamidade.m-dcps.conferences-home-language",
+  "claim": "M-DCPS annual parental notifications: parents may request parent-teacher conferences in their home language.",
+  "value": null,
+  "value_type": "text",
+  "value_language": "en",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "check_every": "P90D",
+  "topics": [
+   "schools",
+   "language"
+  ],
+  "desk": "us-fl-miamidade.m-dcps",
+  "notes": "The sentence appears only in a non-official school-hosted copy of the 2025-26 parental notifications; the official dadeschools.net document could not be located on 2026-09-25, so it is not cited. Policy 2111 (us-fl-miamidade.m-dcps.policy-2111) is the verified primary-language commitment."
+ },
+ {
+  "unit": null,
+  "retrieved_at": "2026-09-25T18:45:00-04:00",
+  "status": "verified",
+  "kind": "static",
+  "id": "us.ecfr.34-300.322e.iep-interpreter",
+  "claim": "Under 34 CFR 300.322(e), the school must take whatever action is necessary so the parent understands the IEP meeting, including arranging an interpreter for parents whose native language is not English.",
+  "value": "The public agency must take whatever action is necessary to ensure that the parent understands the proceedings of the IEP Team meeting, including arranging for an interpreter for parents with deafness or whose native language is other than English.",
+  "value_type": "text",
+  "value_language": "en",
+  "jurisdiction": "us",
+  "source_id": "us.ecfr-34-300-322",
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-09-24/title-34.xml?part=300&section=300.322",
+  "quote": "The public agency must take whatever action is necessary to ensure that the parent understands the proceedings of the IEP Team meeting, including arranging for an interpreter for parents with deafness or whose native language is other than English.",
+  "check_every": "P1Y",
+  "topics": [
+   "schools",
+   "language"
+  ],
+  "desk": "us-fl-miamidade.m-dcps",
+  "notes": "eCFR issue 2026-09-24 (up to date as of that date)."
+ },
+ {
+  "unit": null,
+  "retrieved_at": "2026-09-25T18:45:00-04:00",
+  "status": "verified",
+  "kind": "static",
+  "id": "us-fl-miamidade.m-dcps.bilingual-education.phone",
+  "claim": "Phone number for the M-DCPS Department of Bilingual Education and World Languages (general office line for ESOL/EFL program questions).",
+  "value": "305-995-2428",
+  "value_type": "phone",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdcps-toolkit-1516",
+  "url": "https://news.dadeschools.net/toolkit1516/toolkit1516.htm",
+  "quote": "Additional information on the EFL program may be obtained by calling the Department of Bilingual Education and World Languages at, 305-995-2428, or by visiting the website at http://bilingual.dadeschools.net.",
+  "check_every": "P90D",
+  "topics": [
+   "schools",
+   "language",
+   "desk"
+  ],
+  "desk": "us-fl-miamidade.m-dcps",
+  "notes": "The dadeschools.net toolkit is from 2015-16; the same office number appears in the M-DCPS Guide and Resources for Student Support 2023-2024 (\"call their office at 305-995-2428\"). 305-995-3122 on the District ELL Plan 2025-2028 cover is the Administrative Director’s contact line, not the public office line."
+ },
+ {
+  "unit": null,
+  "retrieved_at": "2026-09-25T18:45:00-04:00",
+  "status": "verified",
+  "kind": "static",
+  "id": "us.hhs.45-cfr-92.201.status",
+  "claim": "45 CFR 92.201 (Section 1557 rule: covered health programs must take reasonable steps to give meaningful access to people with limited English proficiency) is in the current eCFR text.",
+  "value": "in force",
+  "value_type": "code",
+  "jurisdiction": "us",
+  "source_id": "us.ecfr-45-92-201",
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-09-24/title-45.xml?part=92&section=92.201",
+  "quote": "A covered entity must take reasonable steps to provide meaningful access to each individual with limited English proficiency (including companions with limited English proficiency) eligible to be served or likely to be directly affected by its health programs and activities.",
+  "check_every": "P90D",
+  "topics": [
+   "health",
+   "language"
+  ],
+  "notes": "eCFR issue 2026-09-24. A Federal Register search through 2026-09-25 found 2026 documents rescinding Title VI LEP guidance, but no stay, vacatur, or amendment of 92.201 itself. Recheck on schedule."
+ },
+ {
+  "unit": null,
+  "retrieved_at": "2026-09-25T18:55:00-04:00",
+  "status": "verified",
+  "kind": "static",
+  "id": "us.hhs.45-cfr-92.201.requirement",
+  "claim": "Under the Section 1557 rule (45 CFR 92.201), health programs that get federal funding must take reasonable steps to give meaningful access to people with limited English proficiency, including companions.",
+  "value": "A covered entity must take reasonable steps to provide meaningful access to each individual with limited English proficiency (including companions with limited English proficiency) eligible to be served or likely to be directly affected by its health programs and activities.",
+  "value_type": "text",
+  "value_language": "en",
+  "jurisdiction": "us",
+  "source_id": "us.ecfr-45-92-201",
+  "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-09-24/title-45.xml?part=92&section=92.201",
+  "quote": "A covered entity must take reasonable steps to provide meaningful access to each individual with limited English proficiency (including companions with limited English proficiency) eligible to be served or likely to be directly affected by its health programs and activities.",
+  "check_every": "P90D",
+  "topics": [
+   "health",
+   "language"
+  ],
+  "notes": "eCFR issue 2026-09-24. Status tracked in us.hhs.45-cfr-92.201.status."
+ }
+]

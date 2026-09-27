@@ -1,0 +1,23 @@
+{
+  "fact_id": "us-fl-miamidade.gmx.name",
+  "outcome": "quote-missing",
+  "action": "The quoted sentence is gone. Find where the fact now lives (or whether it was removed); update quote/url by hand, or mark unsourced.",
+  "result": {
+    "fact_id": "us-fl-miamidade.gmx.name",
+    "source_id": "us-fl-miamidade.gmx-toll-rate-schedule-pdf",
+    "kind": "static",
+    "status_before": "verified",
+    "outcome": "quote-missing",
+    "detail": "quote no longer found in the fetched text",
+    "snippet": "RATES SR SR 874 874 DON DONSHULA SHULA EXPRESSWAY AND EXPRESSWAY AND www.GMX-WAY.com www.MDXWAY.com SR 878 SR 878 SNAPPER SNAPPER",
+    "similarity": 0.633,
+    "observed": null,
+    "recorded": "GREATER MIAMI EXPRESSWAY AGENCY",
+    "checked_url": "https://gmx-way.com/pdf/Toll_Rate_Schedule.pdf",
+    "final_url": "https://gmx-way.com/pdf/Toll_Rate_Schedule.pdf",
+    "consecutive_unreachable": 0,
+    "propose_stale": false
+  },
+  "run_started_at": "2026-09-25T17:38:48-04:00",
+  "auto_applied": false
+}

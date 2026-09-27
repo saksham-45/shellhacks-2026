@@ -1,0 +1,56 @@
+{
+ "name": "Trash Routes",
+ "fields": [
+  {
+   "name": "TRASHDAY",
+   "type": "esriFieldTypeString",
+   "alias": "Trash Pickup Day",
+   "length": 15,
+   "domain": {
+    "type": "codedValue",
+    "name": "SW_Service_Days",
+    "description": "SW Service Days",
+    "codedValues": [
+     {
+      "name": "Mon",
+      "code": "M"
+     },
+     {
+      "name": "Tue",
+      "code": "T"
+     },
+     {
+      "name": "Wed",
+      "code": "W"
+     },
+     {
+      "name": "Thu",
+      "code": "R"
+     },
+     {
+      "name": "Fri",
+      "code": "F"
+     },
+     {
+      "name": "Mon and Thu",
+      "code": "MR"
+     },
+     {
+      "name": "Tue and Fri",
+      "code": "TF"
+     },
+     {
+      "name": "Sun, Tue, Thu and Fri",
+      "code": "NTRF"
+     },
+     {
+      "name": "Every Day",
+      "code": "D"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  }
+ ]
+}

@@ -1,0 +1,620 @@
+[
+ {
+  "id": "us.911.phone",
+  "claim": "Call 911 in an emergency (police, fire, ambulance).",
+  "value": "911",
+  "unit": "phone",
+  "jurisdiction": "us",
+  "source_id": "us.us-911-gov-faq",
+  "url": "https://www.911.gov/calling-911/frequently-asked-questions/",
+  "quote": "While you may know that you should call 911 in an emergency, you may not be sure of when you should not call 911.",
+  "retrieved_at": "2026-09-25T17:38:00-04:00",
+  "check_every": "P1Y",
+  "status": "verified",
+  "value_type": "phone",
+  "plan_value": "911 is police, fire, ambulance.",
+  "plan_ref": "myamericandream-plan.md > Origin lens (Anyone, the offices)",
+  "desk": "us.911",
+  "notes": "911.gov (NHTSA National 911 Program) is blocked for curl from the box; read via WebFetch. Its FAQ does not list 'police, fire, ambulance' word for word; the City of Miami PD contact page lists 'Emergency Call: 911'.",
+  "topics": [
+   "desk",
+   "911"
+  ]
+ },
+ {
+  "id": "us.911.text-guidance",
+  "claim": "A voice call is the best way to reach 911; text-to-911 exists in some places, so call if you can and text if you can't.",
+  "value": "call if you can, text if you can't",
+  "unit": "text",
+  "jurisdiction": "us",
+  "source_id": "us.us-911-gov-faq",
+  "url": "https://www.911.gov/calling-911/frequently-asked-questions/",
+  "quote": "If you need emergency assistance, it is always best to call 911 if you can, and text if you can’t.",
+  "retrieved_at": "2026-09-25T17:38:00-04:00",
+  "check_every": "P1Y",
+  "status": "verified",
+  "value_type": "text",
+  "desk": "us.911",
+  "topics": [
+   "911"
+  ],
+  "value_language": "en"
+ },
+ {
+  "id": "us-fl-miamidade.311.phone",
+  "claim": "Miami-Dade 311 is reached by dialing 311 inside the county.",
+  "value": "311",
+  "unit": "phone",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-311-home",
+  "url": "https://www.miamidade.gov/global/311/home.page",
+  "quote": "By dialing 311 or 305-468-5900 (outside Miami-Dade County), you can receive personalized customer service in English, Spanish or Haitian Creole.",
+  "retrieved_at": "2026-09-25T17:28:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "plan_value": "311 is the county's non-emergency desk.",
+  "plan_ref": "myamericandream-plan.md > Origin lens (Anyone, the offices); mymiami-plan.md > The errand that eats a day (311)",
+  "desk": "us-fl-miamidade.311",
+  "topics": [
+   "desk",
+   "311"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.311.phone-outside-county",
+  "claim": "From outside Miami-Dade County, 311 is reached at 305-468-5900.",
+  "value": "305-468-5900",
+  "unit": "phone",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-311-home",
+  "url": "https://www.miamidade.gov/global/311/home.page",
+  "quote": "By dialing 311 or 305-468-5900 (outside Miami-Dade County), you can receive personalized customer service in English, Spanish or Haitian Creole.",
+  "retrieved_at": "2026-09-25T17:28:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us-fl-miamidade.311",
+  "topics": [
+   "desk",
+   "311"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.311.languages",
+  "claim": "Miami-Dade 311 answers in English, Spanish and Haitian Creole.",
+  "value": [
+   "en",
+   "es",
+   "ht"
+  ],
+  "unit": "languages",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-311-home",
+  "url": "https://www.miamidade.gov/global/311/home.page",
+  "quote": "Miami-Dade County's 311 Contact Center serves as a primary channel for accessing non-emergency government services and information in English, Spanish and Haitian Creole.",
+  "retrieved_at": "2026-09-25T17:28:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "codes",
+  "plan_value": "311 already answers in Creole. / 311 also answers in Haitian Creole.",
+  "plan_ref": "myamericandream-plan.md > Origin lens (Haiti); mymiami-plan.md > Both languages, on every surface",
+  "desk": "us-fl-miamidade.311",
+  "topics": [
+   "desk",
+   "311",
+   "language"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.311.hours",
+  "claim": "Miami-Dade 311 is open Monday to Friday 7 a.m. to 7 p.m. and Saturday 8 a.m. to 5 p.m., and closed Sundays and holidays.",
+  "value": "mon_fri: 07:00-19:00; sat: 08:00-17:00; sun: closed",
+  "unit": "hours",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-311-home",
+  "url": "https://www.miamidade.gov/global/311/home.page",
+  "quote": "The 311 Contact Center is open Monday through Friday from 7 a.m. to 7 p.m. and Saturday from 8 a.m. to 5 p.m., while closed on Sundays and holidays.",
+  "retrieved_at": "2026-09-25T17:28:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.311",
+  "topics": [
+   "desk",
+   "311"
+  ],
+  "value_language": "en"
+ },
+ {
+  "id": "us-fl-miamidade.311.relay-711",
+  "claim": "People with hearing or speech disabilities reach 311 through Florida Relay by dialing 711.",
+  "value": "711",
+  "unit": "phone",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-311-home",
+  "url": "https://www.miamidade.gov/global/311/home.page",
+  "quote": "Individuals with hearing or speech disabilities can connect through Florida Relay by dialing 711.",
+  "retrieved_at": "2026-09-25T17:28:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us-fl-miamidade.311",
+  "topics": [
+   "desk",
+   "311"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.311.covers-city-of-miami",
+  "claim": "Miami-Dade 311 handles both Miami-Dade County and City of Miami services.",
+  "value": true,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-311-home",
+  "url": "https://www.miamidade.gov/global/311/home.page",
+  "quote": "The Miami-Dade County 311 Contact Center offers convenient access to essential County and City of Miami services.",
+  "retrieved_at": "2026-09-25T17:28:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "flag",
+  "plan_value": "311, in the right city, in the right language",
+  "plan_ref": "myamericandream-plan.md > Errands; mymiami-plan.md > 311",
+  "desk": "us-fl-miamidade.311",
+  "notes": "Both demo pins (unincorporated Kendall and City of Miami downtown) use the same 311. Other municipalities (e.g. Miami Beach, Coral Gables, Hialeah) run their own service lines.",
+  "topics": [
+   "311"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.311.direct-app",
+  "claim": "New 311 requests are filed via 311, the 311 Direct app, or online at 311 Direct.",
+  "value": "311 Direct",
+  "unit": "text",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-311-home",
+  "url": "https://www.miamidade.gov/global/311/home.page",
+  "quote": "Download the 311 Direct mobile app to report issues, request services and ask questions on-the-go from your mobile device.",
+  "retrieved_at": "2026-09-25T17:28:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "text",
+  "plan_value": "Creating a ticket is the county's portal and the 311 Direct app.",
+  "plan_ref": "mymiami-public-data.md > Public to a person, closed to the app",
+  "desk": "us-fl-miamidade.311",
+  "topics": [
+   "311"
+  ],
+  "value_language": "en"
+ },
+ {
+  "id": "us-fl-miami.311.phone",
+  "claim": "The City of Miami website lists 'Dial 311 or 305-468-5900' as its contact line, the same numbers as Miami-Dade 311.",
+  "value": "311",
+  "unit": "phone",
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.com-housing-income-limits",
+  "url": "https://www.miami.gov/Housing-Assistance/Home-Ownership/Housing-Income-Limits",
+  "quote": "Dial 311 or 305-468-5900",
+  "retrieved_at": "2026-09-25T17:18:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us-fl-miamidade.311",
+  "topics": [
+   "desk",
+   "311"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.211.phone",
+  "claim": "211 Miami is a 24/7 helpline that connects people to community resources; dial 211.",
+  "value": "211",
+  "unit": "phone",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.211-miami",
+  "url": "https://211miami.org/",
+  "quote": "24/7 Helpline connecting people in need to community resources and providing emotional support/crisis intervention. Dial 211 Alternative Phone: (305) 631-4211 Text your zip code to 898211",
+  "retrieved_at": "2026-09-25T17:28:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "plan_value": "211",
+  "plan_ref": "myamericandream-plan.md > Tonight and the next three days (item 5); mymiami-plan.md > Help this week",
+  "desk": "us-fl-miamidade.211",
+  "secondary": true,
+  "notes": "211 Miami is a nonprofit (funded by The Children's Trust), not a government agency, so the source is official:false. It is the designated 211 provider for Miami-Dade.",
+  "topics": [
+   "desk",
+   "211"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.211.phone-alt",
+  "claim": "211 Miami's alternative phone number is (305) 631-4211.",
+  "value": "305-631-4211",
+  "unit": "phone",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.211-miami",
+  "url": "https://211miami.org/",
+  "quote": "Dial 211 Alternative Phone: (305) 631-4211",
+  "retrieved_at": "2026-09-25T17:28:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us-fl-miamidade.211",
+  "secondary": true,
+  "topics": [
+   "desk",
+   "211"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.211.text-number",
+  "claim": "Text your ZIP code to 898211 to reach 211 Miami.",
+  "value": "898211",
+  "unit": "verbatim",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.211-miami",
+  "url": "https://211miami.org/",
+  "quote": "Text your zip code to 898211",
+  "retrieved_at": "2026-09-25T17:28:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "text",
+  "desk": "us-fl-miamidade.211",
+  "secondary": true,
+  "topics": [
+   "desk",
+   "211"
+  ],
+  "value_language": "en"
+ },
+ {
+  "id": "us.988.phone",
+  "claim": "Dial 988 for the 988 Suicide & Crisis Lifeline; text and chat are available in Spanish.",
+  "value": "988",
+  "unit": "phone",
+  "jurisdiction": "us",
+  "source_id": "us.988-lifeline",
+  "url": "https://988lifeline.org/",
+  "quote": "988 Lifeline - If you need emotional support, reach out to the national mental health hotline: 988.",
+  "retrieved_at": "2026-09-25T17:38:00-04:00",
+  "check_every": "P180D",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us.988",
+  "notes": "Not in the plans. Added because the 211 Miami page puts 'Dial 988 for the 988 Suicide & Crisis Lifeline' right next to 211.",
+  "topics": [
+   "desk",
+   "911"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.legal-aid.phone",
+  "claim": "Legal Services of Greater Miami's Miami-Dade number is (305) 576-0080.",
+  "value": "305-576-0080",
+  "unit": "phone",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.lsgmi-home",
+  "url": "https://www.legalservicesmiami.org/",
+  "quote": "Legal Services of Greater Miami 4343 West Flagler Street, Suite 100, Miami, Florida 33134 Miami-Dade: (305) 576-0080",
+  "retrieved_at": "2026-09-25T17:28:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "secondary": true,
+  "plan_value": "the legal-aid number (no number given)",
+  "plan_ref": "mymiami-plan.md > Housing traps and the bad week (Help this week; Immigration papers)",
+  "desk": "us-fl-miamidade.legal-aid",
+  "notes": "The plans never name a legal-aid organization or number. This is the main civil legal aid provider (LSC grantee, nonprofit, official:false). Product must choose which desk each card names.",
+  "topics": [
+   "desk",
+   "legal-aid"
+  ]
+ },
+ {
+  "id": "us-fl.florida-bar-lrs.phone",
+  "claim": "The Florida Bar Lawyer Referral Service is 800-342-8011, Monday to Friday 8:00 a.m. to 5:30 p.m. It does not provide pro bono lawyers.",
+  "value": "800-342-8011",
+  "unit": "phone",
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.florida-bar-lrs",
+  "url": "https://www.floridabar.org/public/lrs/",
+  "quote": "Please note we do not have pro bono lawyers. Find a Florida Legal Aid program in your area. Give us a Call Call 800-342-8011, Monday-Friday, 8:00 a.m.-5:30 p.m.",
+  "retrieved_at": "2026-09-25T17:38:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us-fl.florida-bar-lrs",
+  "topics": [
+   "desk",
+   "legal-aid"
+  ]
+ },
+ {
+  "id": "us.immigration.notario-not-authorized",
+  "claim": "USCIS says a notario público is not authorized to give immigration legal advice; only an attorney or an accredited representative of a DOJ-recognized organization can advise and represent you.",
+  "value": "attorney or DOJ-accredited representative only",
+  "unit": "text",
+  "jurisdiction": "us",
+  "source_id": "us.uscis-common-scams",
+  "url": "https://www.uscis.gov/scams-fraud-and-misconduct/avoid-scams/common-scams",
+  "quote": "Only an attorney or an accredited representative working for a Department of Justice recognized organization can give you legal advice and represent you in your immigration case. In many Spanish-speaking nations, “notarios” are attorneys with special legal credentials. In the United States, however, notary publics are not authorized to provide legal services;",
+  "retrieved_at": "2026-09-25T17:38:00-04:00",
+  "check_every": "P180D",
+  "status": "verified",
+  "value_type": "text",
+  "plan_value": "A notary public here stamps a signature and is not allowed to give immigration advice ... accredited representative or a lawyer",
+  "plan_ref": "myamericandream-plan.md > Origin lens (Anywhere in Latin America, especially Cuba)",
+  "desk": "us.uscis",
+  "topics": [
+   "legal-aid",
+   "immigration"
+  ],
+  "value_language": "en"
+ },
+ {
+  "id": "us.uscis.phone",
+  "claim": "The USCIS Contact Center is 800-375-5283 (TTY 800-767-1833), with live help Monday to Friday 8am to 8pm Eastern.",
+  "value": "800-375-5283",
+  "unit": "phone",
+  "jurisdiction": "us",
+  "source_id": "us.uscis-contact-center",
+  "url": "https://www.uscis.gov/contactcenter",
+  "quote": "Our toll-free number is 800-375-5283 (TTY 800-767-1833) and we answer live calls and chats Monday to Friday, 8am to 8pm Eastern.",
+  "retrieved_at": "2026-09-25T17:28:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us.uscis",
+  "plan_value": "USCIS is federal papers.",
+  "plan_ref": "myamericandream-plan.md > Origin lens (Anyone, the offices)",
+  "topics": [
+   "desk",
+   "immigration"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.homeless-trust.phone",
+  "claim": "The Miami-Dade County Homeless Trust Homeless Helpline is 1-877-994-4357.",
+  "value": "1-877-994-4357",
+  "unit": "phone",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-homeless-trust",
+  "url": "https://www.homelesstrust.org/homeless-trust/home.page",
+  "quote": "Homeless or about to be? Call our Homeless Helpline for assistance. Call 1-877-994-4357",
+  "retrieved_at": "2026-09-25T17:28:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "plan_value": "a shelter that does intake",
+  "plan_ref": "myamericandream-plan.md > The hard papers (Help this week: shelter intake); mymiami-plan.md > Help this week",
+  "desk": "us-fl-miamidade.homeless-trust",
+  "topics": [
+   "desk",
+   "shelter"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.jackson.phone",
+  "claim": "Jackson Health System's phone number is 305-585-1111.",
+  "value": "305-585-1111",
+  "unit": "phone",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.jackson-health",
+  "url": "https://jacksonhealth.org/",
+  "quote": "Contact by Phone 305-585-1111",
+  "retrieved_at": "2026-09-25T17:28:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "plan_value": "Jackson and the federally qualified clinics are the desks.",
+  "plan_ref": "myamericandream-plan.md > The first month (item 11)",
+  "desk": "us-fl-miamidade.jackson",
+  "notes": "Jackson is the county public hospital system (Public Health Trust). FQHC list is not sourced yet (HRSA findahealthcenter.hrsa.gov is the primary locator).",
+  "topics": [
+   "desk",
+   "health"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.wasd.phone",
+  "claim": "Miami-Dade Water and Sewer's phone number is 305-665-7477.",
+  "value": "305-665-7477",
+  "unit": "phone",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdc-wasd-home",
+  "url": "https://www.miamidade.gov/global/water/home.page",
+  "quote": "Water and Sewer Douglas Office 3071 SW 38th Ave, Miami, FL 33146 305-665-7477",
+  "retrieved_at": "2026-09-25T17:28:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us-fl-miamidade.wasd",
+  "topics": [
+   "desk",
+   "water"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.sheriff.phone",
+  "claim": "The Miami-Dade Sheriff's Office (formerly Miami-Dade Police) non-emergency line is 305-Sheriff (743-7433); use 911 for emergencies.",
+  "value": "305-743-7433",
+  "unit": "phone",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.mdso-home",
+  "url": "https://www.mdso.com/",
+  "quote": "Emergencies: 911 · Non-Emergency: 305-Sheriff (743-7433)",
+  "retrieved_at": "2026-09-25T17:38:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us-fl-miamidade.sheriff",
+  "notes": "miamidade.gov/global/police now redirects to mdso.com. The county police department is now the Sheriff's Office, so cards should not say 'Miami-Dade Police'.",
+  "topics": [
+   "desk",
+   "police"
+  ]
+ },
+ {
+  "id": "us-fl-miami.police.phone",
+  "claim": "The City of Miami Police non-emergency number is (305) 579-6111.",
+  "value": "305-579-6111",
+  "unit": "phone",
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.miami-police-contact",
+  "url": "https://www.miami-police.org/contact.html",
+  "quote": "Emergency Call: 911 Non Emergency Call: (305) 579-6111",
+  "retrieved_at": "2026-09-25T17:38:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us-fl-miami.police",
+  "notes": "Read via WebSearch extraction of miami-police.org/contact.html. The same number is on miami.gov's Police Department page.",
+  "topics": [
+   "desk",
+   "police"
+  ]
+ },
+ {
+  "id": "us.poison-control.phone",
+  "claim": "Poison Control is 1-800-222-1222.",
+  "value": "1-800-222-1222",
+  "unit": "phone",
+  "jurisdiction": "us",
+  "source_id": "us.poison-control",
+  "url": "https://www.poison.org/",
+  "quote": "1-800-222-1222",
+  "retrieved_at": "2026-09-25T17:38:00-04:00",
+  "check_every": "P1Y",
+  "status": "verified",
+  "value_type": "phone",
+  "desk": "us.poison-control",
+  "secondary": true,
+  "notes": "poison.org is run by National Capital Poison Center (nonprofit). Not in the plans; added as a standard help-card desk.",
+  "topics": [
+   "desk",
+   "911"
+  ]
+ },
+ {
+  "id": "us-fl-miamidade.jackson.financial-assistance.sliding-scale-max-fpl",
+  "claim": "Jackson Health System financial assistance uses a sliding scale based on income, up to 300 percent of the Federal Poverty Guidelines.",
+  "value": "300",
+  "unit": "percent of FPG",
+  "value_type": "quantity",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.jackson-financial-assistance",
+  "url": "https://jacksonhealth.org/patient-tools/financial-assistance",
+  "quote": "based on income and current Federal Poverty Guidelines up to 300 percent.",
+  "check_every": "P90D",
+  "desk": "us-fl-miamidade.jackson",
+  "topics": [
+   "health"
+  ],
+  "retrieved_at": "2026-09-25T19:15:00-04:00",
+  "status": "verified"
+ },
+ {
+  "id": "us-fl-miamidade.jackson.healthcare-advisors.phone",
+  "claim": "Jackson Health System Healthcare Advisors phone.",
+  "value": "305-585-2222",
+  "unit": "phone",
+  "value_type": "phone",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.jackson-financial-assistance",
+  "url": "https://jacksonhealth.org/patient-tools/financial-assistance",
+  "quote": "Please contact one of our Healthcare Advisors at 305-585-2222",
+  "check_every": "P90D",
+  "desk": "us-fl-miamidade.jackson",
+  "topics": [
+   "health"
+  ],
+  "notes": "Listed in the page’s Affordable Care Act section beside stale 2018 penalty text; the page does not call it the financial-assistance line.",
+  "retrieved_at": "2026-09-25T19:15:00-04:00",
+  "status": "verified"
+ },
+ {
+  "id": "us-fl-miamidade.jackson.prime-renewal-online-only",
+  "claim": "Jackson Prime renewals are online only; Jackson no longer does in-person or phone renewal interviews. The renewal needs the Jackson Prime medical record number, proof of residency, and any changes to income, family size, or citizenship/immigration status.",
+  "value": true,
+  "unit": null,
+  "value_type": "flag",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.jackson-financial-assistance",
+  "url": "https://jacksonhealth.org/patient-tools/financial-assistance",
+  "quote": "Please be advised that Jackson will no longer conduct in-person or telephone interviews to renew your Jackson Prime benefits. The link below is the only option available to renew your benefits. To renew your Jackson Prime Card, please complete your application, include your Jackson Prime medical record number, upload proof of residency, and include any changes to your income, family size, or citizenship/immigration status.",
+  "check_every": "P90D",
+  "desk": "us-fl-miamidade.jackson",
+  "topics": [
+   "health"
+  ],
+  "retrieved_at": "2026-09-25T19:15:00-04:00",
+  "status": "verified"
+ },
+ {
+  "id": "us.988.spanish-option",
+  "claim": "When calling 988, press 2 to reach a trained Spanish-speaking crisis counselor.",
+  "value": "press 2",
+  "unit": null,
+  "value_type": "text",
+  "jurisdiction": "us",
+  "source_id": "us.988-faq-languages",
+  "url": "https://988lifeline.org/faq/calling-the-988-lifeline/faq-is-the-988-lifeline-available-in-other-languages-for-non-english-speakers/",
+  "quote": "When calling 988, press 2 to connect to a trained Spanish-speaking crisis counselor.",
+  "retrieved_at": "2026-09-25T19:30:00-04:00",
+  "check_every": "P180D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "911",
+   "language"
+  ],
+  "value_language": "en",
+  "desk": "us.988",
+  "notes": "Spanish page: \"Para acceder al apoyo en español, marque 988 y presione 2.\" (see us.988.spanish-option.es)."
+ },
+ {
+  "id": "us.988.spanish-option.es",
+  "claim": "Línea 988 en español: marque 988 y presione 2.",
+  "value": "marque 988 y presione 2",
+  "unit": null,
+  "value_type": "text",
+  "jurisdiction": "us",
+  "source_id": "us.988-servicios-en-espanol",
+  "url": "https://988lifeline.org/es/servicios-de-traduccion/servicios-en-espanol/",
+  "quote": "Para acceder al apoyo en español, marque 988 y presione 2.",
+  "retrieved_at": "2026-09-25T19:30:00-04:00",
+  "check_every": "P180D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "911",
+   "language"
+  ],
+  "value_language": "es",
+  "desk": "us.988"
+ },
+ {
+  "id": "us.988.spanish-text",
+  "claim": "To text 988 in Spanish, send the word AYUDA to 988.",
+  "value": "AYUDA",
+  "unit": null,
+  "value_type": "code",
+  "jurisdiction": "us",
+  "source_id": "us.988-servicios-en-espanol",
+  "url": "https://988lifeline.org/es/servicios-de-traduccion/servicios-en-espanol/",
+  "quote": "Para iniciar una conversación de mensaje de texto en español con el 988 Lifeline, envía la palabra AYUDA a 988.",
+  "retrieved_at": "2026-09-25T19:30:00-04:00",
+  "check_every": "P180D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "911",
+   "language"
+  ],
+  "desk": "us.988",
+  "notes": "English FAQ: \"When texting 988 in Spanish, you will be asked to type “Ayuda” to connect with a Spanish-speaking counselor.\""
+ }
+]

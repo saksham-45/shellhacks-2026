@@ -1,0 +1,75 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: etiquette-queue
+kind: etiquette
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Origin lens > Etiquette cards
+  item: A queue is a line. Cutting it is the insult.
+title:
+  es: Una fila es una fila
+  en: A line is a line
+  ht: Yon liy se yon liy
+summary:
+  es: Aquí, colarse es la ofensa, más que ser lento o hablar alto.
+  en: Here, cutting the line is the insult, more than being slow or loud.
+  ht: Isit la, kase liy se ensilt la, plis pase lè w lan oswa lè w pale fò.
+body:
+  es: |-
+    En tu país, el mostrador puede ser de quien llegue primero.
+
+    Aquí, la gente espera su turno, aunque nadie esté vigilando la fila.
+
+    Lo que cuesta: si te colas, el empleado te puede mandar al final.
+  en: |-
+    At home, the counter may go to whoever reaches it first.
+
+    Here, people wait in order, even when no one is watching the line.
+
+    What it costs: cut in, and the clerk may send you to the back.
+  ht: |-
+    Lakay, kontwa a ka pou moun ki rive la an premye.
+
+    Isit la, moun tann tou pa yo, menm lè pèsonn pa ap veye liy lan.
+
+    Sa sa koute: si ou kase liy, anplwaye a ka voye w dèyè.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- []
+- []
+desk: us.211
+utterances:
+  es:
+  - tengo que hacer la fila
+  - alguien se coló
+  - cómo funcionan las filas aquí
+  - es de mala educación colarse
+  en:
+  - do I have to wait in line
+  - someone cut the line
+  - how do lines work here
+  - is it rude to cut
+  ht:
+  - èske m oblije fè liy
+  - yon moun kase liy lan
+  - kijan liy mache isit la
+  - èske se malelve pou kase liy
+privacy_scope: person
+stages:
+- 1
+- 10
+modes:
+- resident
+- tourist
+region_pack: us
+is_immigration: false
+fact_refs: []
+topics:
+- etiquette

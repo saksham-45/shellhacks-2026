@@ -1,0 +1,1176 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "kreyol.couldNotPlay": {
+      "comment": "Notice when a reviewed Kreyòl recording exists but failed to play (KreyolPlayback.failed). | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9). | ht casing: 'kreyòl' vs 'Kreyòl' (and 'kre yòl' variants) is inconsistent across strings; the native reviewer should pick one. Not changed by the agent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't play the Kreyòl recording. The text is on the screen."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se pudo reproducir la grabación en Kreyòl. El texto está en la pantalla."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nou pa t ka jwe anrejistreman an Kreyòl la. Tèks la sou ekran an."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Não foi possível tocar o áudio em kreyòl. O texto está na tela."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Impossible de lire l’enregistrement kreyòl. Le texte est à l’écran."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "تعذر تشغيل تسجيل الكريول. النص على الشاشة."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "无法播放克里奥尔语录音。文字在屏幕上。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Не удалось воспроизвести креольскую запись. Текст на экране."
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Hindi na-play ang recording sa Kreyòl. Nasa screen ang teksto."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Không phát được bản ghi Kreyòl. Chữ ở trên màn hình."
+          }
+        }
+      }
+    },
+    "kreyol.noRecording": {
+      "comment": "Notice when a card has no native-reviewed Creole recording (Play in Kreyòl); no other voice is used instead. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9). | ht casing: 'kreyòl' vs 'Kreyòl' (and 'kre yòl' variants) is inconsistent across strings; the native reviewer should pick one. Not changed by the agent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Kreyòl recording yet for this card."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todavía no hay grabación en Kreyòl para esta tarjeta."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Poko gen anrejistreman an Kreyòl pou kat sa a."
+          }
+        }
+      }
+    },
+    "kreyol.play": {
+      "comment": "Card action that plays the native-reviewed Creole recording of the card. 'Kreyòl' is the language autonym; keep it. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9). | ht casing: 'kreyòl' vs 'Kreyòl' (and 'kre yòl' variants) is inconsistent across strings; the native reviewer should pick one. Not changed by the agent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Play in Kreyòl"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escuchar en Kreyòl"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Jwe an Kreyòl"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Reproduzir em kreyòl"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Lire en kreyòl"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "التشغيل بالكريول"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "用克里奥尔语播放"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Воспроизвести на креольском"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "I-play sa Kreyòl"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Phát bằng Kreyòl"
+          }
+        }
+      }
+    },
+    "kreyol.restOnScreen": {
+      "comment": "Played in place of card parts that have no reviewed Creole recording (live values, unreviewed strings), at most once in a row. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The rest is on the screen."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El resto está en la pantalla."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Rès la sou ekran an."
+          }
+        }
+      }
+    },
+    "mic.hint": {
+      "comment": "Accessibility hint of the mic button: states the result, never a gesture (Voice Control, Switch Control and keyboard users do not double-tap). | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Listens for what you need."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escucha lo que necesita."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Koute sa ou bezwen."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ouve o que você precisa."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Écoute ce dont vous avez besoin."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "يستمع إلى ما تحتاجه."
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "听你需要的内容。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Слушает, что вам нужно."
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nakikinig sa kailangan mo."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nghe điều bạn cần."
+          }
+        }
+      }
+    },
+    "mic.inputLabel.microphone": {
+      "comment": "Voice Control input label for the mic button (one phrase per key). | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "microphone"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "micrófono"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "mikwofòn"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "microfone"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "micro"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "ميكروفون"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "麦克风"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "микрофон"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "mikropono"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "micro"
+          }
+        }
+      }
+    },
+    "mic.inputLabel.talk": {
+      "comment": "Voice Control input label for the mic button (one phrase per key). Lowercase word people would say; matches the visible label. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "talk"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "hablar"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "pale"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "falar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "parler"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "تحدّث"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "说话"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "говорить"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "magsalita"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "nói"
+          }
+        }
+      }
+    },
+    "mic.label": {
+      "comment": "Accessibility label of the mic button (it toggles listening on and off; not push-to-talk). | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Talk"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hablar"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pale"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Falar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Parler"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "تحدّث"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "说话"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Говорить"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Magsalita"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nói"
+          }
+        }
+      }
+    },
+    "mic.stopInputLabel.stopListening": {
+      "comment": "Voice Control input label for the mic button while listening; matches the visible stop label. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "stop listening"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "dejar de escuchar"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "sispann koute"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "parar de ouvir"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "arrêter d’écouter"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "إيقاف الاستماع"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "停止收听"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "перестать слушать"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "tumigil sa pakikinig"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "ngừng nghe"
+          }
+        }
+      }
+    },
+    "mic.stopLabel": {
+      "comment": "Accessibility label of the mic button while it is listening. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stop listening"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dejar de escuchar"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Sispann koute"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Parar de ouvir"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Arrêter d’écouter"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "إيقاف الاستماع"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "停止收听"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Перестать слушать"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Tumigil sa pakikinig"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ngừng nghe"
+          }
+        }
+      }
+    },
+    "voice.answer_in": {
+      "comment": "One-tap correction when the language call was close; %@ is a language autonym (Español/English/Kreyòl). | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Answer in %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contestar en %@"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Reponn an %@"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Responder em %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Répondre en %@"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "الرد بـ %@"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "用%@回答"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ответить на %@"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Sumagot sa %@"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Trả lời bằng %@"
+          }
+        }
+      }
+    },
+    "voice.confirm_transcript": {
+      "comment": "Shown above a transcript that must be confirmed before acting (always for Creole). | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Did you say this?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Dijo esto?"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Se sa ou di?"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Foi isso que você disse?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Est-ce bien ce que vous avez dit ?"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "هل قلت هذا؟"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "你是这么说的吗？"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Вы это сказали?"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ito ba ang sinabi mo?"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Bạn vừa nói thế này?"
+          }
+        }
+      }
+    },
+    "voice.consent.cloud": {
+      "comment": "One-time consent before the first cloud Creole use. 'We don't keep it' is a server requirement (Creole report 7.2) that must be true of the deployed proxy before shipping. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. UNCERTAIN: the no-retention promise must match the deployed server; wording fine, content pending. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9). Based on the Creole report's unreviewed draft ('Pou m tande Kreyòl, vwa ou ap pase sou yon sèvè; nou pa kenbe l'). | ht casing: 'kreyòl' vs 'Kreyòl' (and 'kre yòl' variants) is inconsistent across strings; the native reviewer should pick one. Not changed by the agent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To understand Kreyòl, your voice goes through our server. We don't keep it. Is that OK?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Para entender Kreyòl, su voz pasa por nuestro servidor. No la guardamos. ¿Está de acuerdo?"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pou nou tande kreyòl, vwa ou ap pase sou sèvè nou an. Nou pa kenbe l. Ou dakò?"
+          }
+        }
+      }
+    },
+    "voice.consent.never": {
+      "comment": "Permanent switch: neither the voice (listening) nor card text (server read-aloud) leaves the phone; Kreyòl falls back to tapping and on-screen text. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Never send my voice or card text to our server"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No enviar nunca mi voz ni el texto de las tarjetas a nuestro servidor"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pa janm voye vwa mwen ni tèks kat yo bay sèvè nou an"
+          }
+        }
+      }
+    },
+    "voice.consent.readAloud": {
+      "comment": "One-time consent before the first server read-aloud of a Kreyòl card (speech OUT; separate from voice.consent.cloud, which is about the person's voice). Asked only when a server Kreyòl voice exists. Do NOT add a retention sentence ('We don't keep the words') until the deployed server's retention is confirmed. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9). | ht casing: 'kreyòl' vs 'Kreyòl' (and 'kre yòl' variants) is inconsistent across strings; the native reviewer should pick one. Not changed by the agent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To read this aloud in Kreyòl, the app sends the card's words to our server. Your voice is not sent. Is that OK?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Para leer esto en voz alta en Kreyòl, la app envía las palabras de la tarjeta a nuestro servidor. Su voz no se envía. ¿Está de acuerdo?"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pou li sa a awotvwa an Kreyòl, aplikasyon an voye mo kat la bay sèvè nou an. Li pa voye vwa ou. Ou dakò?"
+          }
+        }
+      }
+    },
+    "voice.creole.commandsOnly": {
+      "comment": "ht surface, no Kreyòl listening, but on-device Spanish/English commands work. %1$@ = \"en español\" (Spanish-tagged), %2$@ = \"in English\" (English-tagged), %3$@ = the back phrase (\"atrás\" Spanish-tagged on es/ht; \"back\" on en). Filled by VoiceKey.creoleCommandsOnlyNotice from the bundled command lexicon; keep the quotes around each placeholder. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9). | ht casing: 'kreyòl' vs 'Kreyòl' (and 'kre yòl' variants) is inconsistent across strings; the native reviewer should pick one. Not changed by the agent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I can't understand Kreyòl here yet. You can say \"%1$@\", \"%2$@\" or \"%3$@\", or use the buttons."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todavía no entiendo Kreyòl aquí. Puede decir \"%1$@\", \"%2$@\" o \"%3$@\", o usar los botones."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Mwen poko ka konprann Kreyòl isit la. Ou ka di \"%1$@\", \"%2$@\" oswa \"%3$@\", oswa sèvi ak bouton yo."
+          }
+        }
+      }
+    },
+    "voice.creole.voiceOverLimit": {
+      "comment": "Part of the Creole notice (A11Y-LANG-03 part 2): shown and announced with voice.unavailable.creole and kreyol.noRecording. States that the person's own VoiceOver may use another language's voice for Kreyòl, while the app's own read-aloud never does. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9). | ht casing: 'kreyòl' vs 'Kreyòl' (and 'kre yòl' variants) is inconsistent across strings; the native reviewer should pick one. Not changed by the agent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver may read Kreyòl with another language's voice. This app's voice never does that."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver puede leer el Kreyòl con la voz de otro idioma. La voz de esta app nunca lo hace."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "VoiceOver ka li Kreyòl ak vwa yon lòt lang. Vwa aplikasyon sa a pa janm fè sa."
+          }
+        }
+      }
+    },
+    "voice.error.no_speech_in": {
+      "comment": "No engine may listen in this language (none exists, or the person chose never to send their voice). | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I can't listen in this language here yet. Use the buttons."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todavía no puedo escuchar en este idioma aquí. Use los botones."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "M poko ka tande lang sa a isit la. Sèvi ak bouton yo."
+          }
+        }
+      }
+    },
+    "voice.error.not_heard": {
+      "comment": "Nothing usable was heard. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I didn't catch that. Try again."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No le entendí bien. Inténtelo otra vez."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "M pa t tande byen. Eseye ankò."
+          }
+        }
+      }
+    },
+    "voice.listen_in.en": {
+      "comment": "Labeled button: hear the same card in English instead. Offered, never automatic. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Listen in English"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escuchar en inglés"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Koute an anglè"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ouvir em inglês"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Écouter en anglais"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "الاستماع بالإنجليزية"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "用英语收听"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Слушать по-английски"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Makinig sa Ingles"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nghe tiếng Anh"
+          }
+        }
+      }
+    },
+    "voice.listen_in.es": {
+      "comment": "Labeled button: hear the same card in Spanish instead. Offered, never automatic. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Listen in Spanish"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escuchar en español"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Koute an panyòl"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ouvir em espanhol"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Écouter en espagnol"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "الاستماع بالإسبانية"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "用西班牙语收听"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Слушать по-испански"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Makinig sa Espanyol"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nghe tiếng Tây Ban Nha"
+          }
+        }
+      }
+    },
+    "voice.listening": {
+      "comment": "Shown while the mic is listening (the mic toggles on and off; it is not hold-to-talk). | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Listening…"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escuchando…"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "M ap koute…"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Ouvindo…"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Écoute…"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "جارٍ الاستماع…"
+          }
+        },
+        "zh": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "正在听…"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Слушаю…"
+          }
+        },
+        "tl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Nakikinig…"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Đang nghe…"
+          }
+        }
+      }
+    },
+    "voice.unavailable": {
+      "comment": "Shown (never spoken with another language's voice) when no voice exists for the text's language. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No voice is available to read this right now. The text is on the screen."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ahora mismo no hay una voz para leer esto. El texto está en la pantalla."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pa gen vwa pou li sa a kounye a. Tèks la sou ekran an."
+          }
+        }
+      }
+    },
+    "voice.unavailable.creole": {
+      "comment": "Creole notice: no Creole voice right now; Creole is never read with a Spanish, English or French voice. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9). | ht casing: 'kreyòl' vs 'Kreyòl' (and 'kre yòl' variants) is inconsistent across strings; the native reviewer should pick one. Not changed by the agent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Kreyòl voice is available right now. The Kreyòl text is on the screen."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay voz en Kreyòl disponible ahora. El texto en Kreyòl está en la pantalla."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pa gen vwa an kreyòl kounye a. Tèks kreyòl la sou ekran an."
+          }
+        }
+      }
+    },
+    "voice.unavailable.missing_text": {
+      "comment": "Notice when the text read aloud contains a missing string; that part is skipped (the screen shows only a marker there). Announced mid-card: keep it short. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Part of this text is missing, so it was skipped."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Falta una parte de este texto, así que no se leyó."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Yon pati nan tèks sa a manke, kidonk nou pa li l."
+          }
+        }
+      }
+    },
+    "voice.unavailable.offline_creole": {
+      "comment": "Creole notice when offline: Creole speech-in and dynamic speech-out go through our server. | es: Miami Spanish (US Spanish, usted where addressed), agent-authored; no human review record yet. | ht: Haitian Creole drafted by the myAD Language agent from general knowledge of standard Kreyòl orthography (Akademi Kreyòl Ayisyen spelling). Not reviewed by a native speaker; must stay needs_review until a human native-speaker pass (decision D9). | ht casing: 'kreyòl' vs 'Kreyòl' (and 'kre yòl' variants) is inconsistent across strings; the native reviewer should pick one. Not changed by the agent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Kreyòl voice needs an internet connection."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La voz en Kreyòl necesita internet."
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Vwa kreyòl la bezwen entènèt."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

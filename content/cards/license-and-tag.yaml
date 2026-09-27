@@ -1,0 +1,154 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: license-and-tag
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > Errands
+  item: License and tag, Tax Collector, FLOW at the library, the document buckets above
+- plan: mymiami-plan.md
+  section: Every feature > The errand that eats a day
+  item: License and tag
+- plan: mymiami-public-data.md
+  section: Card by card
+  item: Driver license and tag appointments
+title:
+  es: Licencia y placa
+  en: License and tag
+  ht: Lisans ak plak
+summary:
+  es: Saca la cita con el Tax Collector de Miami-Dade, no en el sitio del estado que muestra meses vacíos. La camioneta de la biblioteca puede ser más rápida.
+  en: Book with the Miami-Dade Tax Collector, not the state site that shows empty months. The library van can be faster.
+  ht: Pran randevou ak Tax Collector Miami-Dade, pa sou sit leta a ki montre mwa vid. Kamyonèt bibliyotèk la ka pi rapid.
+body:
+  es: |-
+    En Miami-Dade, las citas de licencia y placa se sacan con el Tax Collector del condado.
+
+    Florida Licensing on Wheels visita bibliotecas y puede ser un camino más rápido.
+
+    Lleva todos los grupos de documentos de la tarjeta de identificación de Florida: identidad, presencia legal (prueba de que la ley te permite estar aquí) si no eres ciudadano, Seguro Social si lo tienes y pruebas de dirección.
+
+    Los exámenes de la licencia son solo en inglés, sin intérprete ni traducción. Si en tu país hiciste el examen en tu idioma, aquí estudia en inglés antes de sacar la cita. El manual oficial del conductor en inglés: {fact:us-fl.flhsmv.driver-handbook.url}.
+
+    La placa necesita primero prueba de seguro de Florida (PIP y PDL).
+
+    Si eres residente nuevo, registra el carro dentro de {fact:us-fl.driving.newcomer-registration-days} días después de empezar un trabajo o matricular a tus hijos en una escuela pública.
+
+    Lo que cuesta: la licencia Clase E original cuesta {fact:us-fl.flhsmv.fee.class-e-original}; la tarjeta de identificación de Florida cuesta {fact:us-fl.flhsmv.fee.id-card-original}; en una oficina del Tax Collector se puede cobrar además un cargo de servicio de {fact:us-fl.flhsmv.fee.tax-collector-service-fee}.
+
+    No podemos sacar citas ni ver horarios libres. El calendario del condado es el único real.
+  en: |-
+    In Miami-Dade, driver license and tag visits are booked with the county Tax Collector.
+
+    Florida Licensing on Wheels visits libraries and can be a faster way in.
+
+    Bring every document group on the Florida ID card: identity, lawful presence (proof that the law allows you to be here) if you are not a citizen, Social Security if you have one, and address proofs.
+
+    License tests are in English only, with no interpreter or translation. If you took the test in your own language at home, study in English here before you book. The official driver handbook in English: {fact:us-fl.flhsmv.driver-handbook.url}.
+
+    A tag needs proof of Florida insurance (PIP and PDL) first.
+
+    If you are a new resident, register the car within {fact:us-fl.driving.newcomer-registration-days} days after starting a job or enrolling your children in public school.
+
+    What it costs: an original Class E license costs {fact:us-fl.flhsmv.fee.class-e-original}; a Florida ID card costs {fact:us-fl.flhsmv.fee.id-card-original}; a Tax Collector office may add a {fact:us-fl.flhsmv.fee.tax-collector-service-fee} service fee.
+
+    We cannot book or see open slots. The county calendar is the only real one.
+  ht: |-
+    Nan Miami-Dade, randevou lisans ak plak fèt ak Tax Collector konte a.
+
+    Florida Licensing on Wheels vizite bibliyotèk yo epi li ka yon chemen pi rapid.
+
+    Pote tout gwoup dokiman ki sou kat ID Florid la: idantite, prezans legal (prèv lalwa pèmèt ou la) si ou pa sitwayen, Sekirite Sosyal si ou genyen l, ak prèv adrès.
+
+    Egzamen lisans yo se an angle sèlman, san entèprèt ni tradiksyon. Si lakay ou te pase egzamen an nan lang ou, isit la etidye an angle anvan ou pran randevou. Manyèl ofisyèl chofè a an angle: {fact:us-fl.flhsmv.driver-handbook.url}.
+
+    Plak la bezwen prèv asirans Florid (PIP ak PDL) anvan.
+
+    Si ou se yon nouvo rezidan, anrejistre machin nan nan {fact:us-fl.driving.newcomer-registration-days} jou apre ou kòmanse yon travay oswa ou enskri pitit ou nan yon lekòl piblik.
+
+    Sa sa koute: yon lisans Klas E orijinal koute {fact:us-fl.flhsmv.fee.class-e-original}; yon kat ID Florid koute {fact:us-fl.flhsmv.fee.id-card-original}; nan yon biwo Tax Collector yo ka ajoute yon frè sèvis {fact:us-fl.flhsmv.fee.tax-collector-service-fee}.
+
+    Nou pa ka pran randevou ni wè plas ki lib. Kalandriye konte a se sèl vre a.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.tax-collector.license-appointments
+- - us-fl-miamidade.tax-collector.flow
+- - us-fl.flhsmv.document-list
+- - us-fl.flhsmv.exams-english-only
+  - us-fl.flhsmv.class-e-exam-languages
+  - us-fl.flhsmv.no-interpreter
+  - us-fl.flhsmv.driver-handbook.url
+- - us-fl.driving.insurance-before-registration
+- - us-fl.driving.newcomer-registration-days
+- - us-fl.flhsmv.fee.class-e-original
+  - us-fl.flhsmv.fee.id-card-original
+  - us-fl.flhsmv.fee.tax-collector-service-fee
+- []
+desk: us-fl-miamidade.tax-collector
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.tax-collector
+- type: open_map
+  target:
+    type: desk
+    desk_id: us-fl-miamidade.tax-collector
+utterances:
+  es:
+  - dónde saco la licencia
+  - sacar cita para la licencia
+  - necesito placa para el carro
+  - la camioneta de licencias en la biblioteca
+  - appointment para la licencia
+  - puedo hacer el examen de manejo en español
+  en:
+  - where do I get my license
+  - book a license appointment
+  - I need a tag for my car
+  - license van at the library
+  - cita pa la licencia
+  - can I take the license test in Spanish
+  ht:
+  - ki kote pou m pran lisans mwen
+  - pran randevou pou lisans
+  - mwen bezwen yon plak pou machin mwen
+  - kamyonèt lisans nan bibliyotèk la
+  - appointment pou lisans lan
+  - èske m ka pase egzamen lisans lan an kreyòl
+privacy_scope: person
+stages:
+- 3
+- 8
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+origin_lenses:
+- latinAmerica
+- haiti
+- leftDriving
+- internationalStudent
+related_cards:
+- status-word
+- fl-id-license-checklist
+- car-insurance-first
+fact_refs:
+- us-fl-miamidade.tax-collector.license-appointments
+- us-fl.flhsmv.fee.tax-collector-service-fee
+- us-fl-miamidade.tax-collector.flow
+- us-fl.flhsmv.document-list
+- us-fl.flhsmv.exams-english-only
+- us-fl.flhsmv.class-e-exam-languages
+- us-fl.flhsmv.no-interpreter
+- us-fl.flhsmv.driver-handbook.url
+- us-fl.driving.insurance-before-registration
+- us-fl.driving.newcomer-registration-days
+- us-fl.flhsmv.fee.class-e-original
+- us-fl.flhsmv.fee.id-card-original
+topics:
+- license

@@ -1,0 +1,214 @@
+{
+ "_comment": "Claims and census lookup entries carried from the FM-MYAD-REG draft ledger (lookups.json). scripts/export_fixtures.py builds ledger-draft/lookups.json from this plus the manifests. Census desks are filled from each pack's manifest (desks live only in manifests).",
+ "claims": {
+  "us.census.incorporated-place": "Incorporated place containing the address, or none",
+  "us.census.county-subdivision": "Census county subdivision (CCD) containing the address",
+  "us.census.tract": "Census tract containing the address",
+  "us.census.congressional-district": "US House district (120th Congress) containing the address",
+  "us-fl.census.state-senate-district": "Florida Senate district (2026) containing the address",
+  "us-fl.census.state-house-district": "Florida House district (2026) containing the address",
+  "us-fl-miamidade.government.municipality": "Municipality (or UNINCORPORATED MIAMI-DADE) containing the pin",
+  "us-fl-miamidade.trash.garbage-days": "County garbage collection days for the pin (county service area only)",
+  "us-fl-miamidade.trash.recycling-day": "County recycling collection weekday for the pin",
+  "us-fl-miamidade.trash.recycling-week": "County recycling pickup week letter (A/B/C) for the pin",
+  "us-fl-miami.trash.day": "City of Miami trash day for the pin",
+  "us-fl-miamidade.school.elementary": "Zoned elementary school (name, address, point)",
+  "us-fl-miamidade.school.middle": "Zoned middle school (name, address, point)",
+  "us-fl-miamidade.school.high": "Zoned high school (name, address, point)",
+  "us-fl-miamidade.parcel.folio": "Folio of the parcel at the pin",
+  "us-fl-miamidade.parcel.year-built": "Year built of the parcel at the pin (when the county records none, the answer is not_applicable, never 0)",
+  "us-fl-miamidade.parcel.condo": "Condo flag of the parcel at the pin",
+  "us-fl-miamidade.parcel.use": "Property use description of the parcel at the pin",
+  "us-fl-miamidade.utility.water": "Water utility serving the pin",
+  "us-fl-miamidade.utility.sewer": "Sewer utility serving the pin",
+  "us-fl-miamidade.parks.nearest-county": "Nearest county-operated parks",
+  "us-fl-miamidade.parks.nearest-municipal": "Nearest municipal parks (county-published layer)",
+  "us-fl-miamidade.library.nearest": "Nearest library branches",
+  "us-fl-miamidade.vote.precinct": "Voting precinct containing the pin",
+  "us-fl-miamidade.vote.polling-place": "Election-day polling place for the pin's precinct",
+  "us-fl-miamidade.rep.county-commission.district": "County commission district and commissioner - district id",
+  "us-fl-miamidade.rep.county-commission.member": "County commission district and commissioner - member name as published",
+  "us-fl-miamidade.rep.congress.district": "US House district and representative (county layer) - district id",
+  "us-fl-miamidade.rep.congress.member": "US House district and representative (county layer) - member name as published",
+  "us-fl-miamidade.rep.state-senate.district": "Florida Senate district and senator (county layer) - district id",
+  "us-fl-miamidade.rep.state-senate.member": "Florida Senate district and senator (county layer) - member name as published",
+  "us-fl-miamidade.rep.state-house.district": "Florida House district and representative (county layer) - district id",
+  "us-fl-miamidade.rep.state-house.member": "Florida House district and representative (county layer) - member name as published",
+  "us-fl-miamidade.rep.school-board.district": "School board district and member - district id",
+  "us-fl-miamidade.rep.school-board.member": "School board district and member - member name as published",
+  "us-fl-miamidade.school.elementary.phone": "Zoned elementary school phone",
+  "us-fl-miamidade.school.elementary.grades": "Zoned elementary school grades",
+  "us-fl-miamidade.school.middle.phone": "Zoned middle school phone",
+  "us-fl-miamidade.school.middle.grades": "Zoned middle school grades",
+  "us-fl-miamidade.school.high.phone": "Zoned high school phone",
+  "us-fl-miamidade.school.high.grades": "Zoned high school grades",
+  "us-fl-miamidade.transit.nearest-stop": "Nearest Miami-Dade Transit stop (rank suffix), straight-line distance",
+  "us-fl-miamidade.government.municipality-id": "County MUNICID of the municipality (or unincorporated area) containing the pin",
+  "us-fl-miamidade.transit.nearest-stop.routes": "Route short names serving that stop",
+  "us-fl-miamidade.rent.line": "Rent line for the pin from Miami-Dade County's own table (not yet sourced: unsourced with the county housing desk)"
+ },
+ "census_lookups": [
+  {
+   "id": "us.census.incorporated-place",
+   "kind": "lookup",
+   "claim": "Incorporated place containing the address, or none",
+   "value": null,
+   "unit": null,
+   "jurisdiction": "us",
+   "desk": null,
+   "source_id": "us.census-geocoder",
+   "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+   "quote": null,
+   "retrieved_at": null,
+   "check_every": "P30D",
+   "status": "verified",
+   "lookup": {
+    "endpoint": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+    "layer_id": null,
+    "fields": [
+     "Incorporated Places.NAME",
+     "Incorporated Places.GEOID"
+    ],
+    "method": "census_geocoder(benchmark=Public_AR_Current, vintage=Current_Current, layers=all)",
+    "question": "government.which"
+   },
+   "topics": [
+    "municipality"
+   ]
+  },
+  {
+   "id": "us.census.county-subdivision",
+   "kind": "lookup",
+   "claim": "Census county subdivision (CCD) containing the address",
+   "value": null,
+   "unit": null,
+   "jurisdiction": "us",
+   "desk": null,
+   "source_id": "us.census-geocoder",
+   "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+   "quote": null,
+   "retrieved_at": null,
+   "check_every": "P30D",
+   "status": "verified",
+   "lookup": {
+    "endpoint": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+    "layer_id": null,
+    "fields": [
+     "County Subdivisions.NAME"
+    ],
+    "method": "census_geocoder(benchmark=Public_AR_Current, vintage=Current_Current, layers=all)",
+    "question": "government.which"
+   },
+   "topics": [
+    "municipality"
+   ]
+  },
+  {
+   "id": "us.census.tract",
+   "kind": "lookup",
+   "claim": "Census tract containing the address",
+   "value": null,
+   "unit": null,
+   "jurisdiction": "us",
+   "desk": null,
+   "source_id": "us.census-geocoder",
+   "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+   "quote": null,
+   "retrieved_at": null,
+   "check_every": "P30D",
+   "status": "verified",
+   "lookup": {
+    "endpoint": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+    "layer_id": null,
+    "fields": [
+     "Census Tracts.GEOID",
+     "Census Tracts.NAME"
+    ],
+    "method": "census_geocoder(benchmark=Public_AR_Current, vintage=Current_Current, layers=all)",
+    "question": "geo.tract"
+   },
+   "topics": []
+  },
+  {
+   "id": "us.census.congressional-district",
+   "kind": "lookup",
+   "claim": "US House district (120th Congress) containing the address",
+   "value": null,
+   "unit": null,
+   "jurisdiction": "us",
+   "desk": null,
+   "source_id": "us.census-geocoder",
+   "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+   "quote": null,
+   "retrieved_at": null,
+   "check_every": "P30D",
+   "status": "verified",
+   "lookup": {
+    "endpoint": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+    "layer_id": null,
+    "fields": [
+     "120th Congressional Districts.CD120"
+    ],
+    "method": "census_geocoder(benchmark=Public_AR_Current, vintage=Current_Current, layers=all)",
+    "question": "representatives.congress"
+   },
+   "topics": [
+    "representatives"
+   ]
+  },
+  {
+   "id": "us-fl.census.state-senate-district",
+   "kind": "lookup",
+   "claim": "Florida Senate district (2026) containing the address",
+   "value": null,
+   "unit": null,
+   "jurisdiction": "us-fl",
+   "desk": null,
+   "source_id": "us.census-geocoder",
+   "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+   "quote": null,
+   "retrieved_at": null,
+   "check_every": "P30D",
+   "status": "verified",
+   "lookup": {
+    "endpoint": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+    "layer_id": null,
+    "fields": [
+     "2026 State Legislative Districts - Upper.SLDU"
+    ],
+    "method": "census_geocoder(benchmark=Public_AR_Current, vintage=Current_Current, layers=all)",
+    "question": "representatives.state-senate"
+   },
+   "topics": [
+    "representatives"
+   ]
+  },
+  {
+   "id": "us-fl.census.state-house-district",
+   "kind": "lookup",
+   "claim": "Florida House district (2026) containing the address",
+   "value": null,
+   "unit": null,
+   "jurisdiction": "us-fl",
+   "desk": null,
+   "source_id": "us.census-geocoder",
+   "url": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+   "quote": null,
+   "retrieved_at": null,
+   "check_every": "P30D",
+   "status": "verified",
+   "lookup": {
+    "endpoint": "https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress",
+    "layer_id": null,
+    "fields": [
+     "2026 State Legislative Districts - Lower.SLDL"
+    ],
+    "method": "census_geocoder(benchmark=Public_AR_Current, vintage=Current_Current, layers=all)",
+    "question": "representatives.state-house"
+   },
+   "topics": [
+    "representatives"
+   ]
+  }
+ ]
+}

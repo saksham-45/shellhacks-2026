@@ -1,0 +1,28 @@
+{
+ "name": "GarbagePickupRoute",
+ "fields": [
+  {
+   "name": "WEEKDAYS",
+   "type": "esriFieldTypeString",
+   "alias": "WEEKDAYS",
+   "length": 16,
+   "domain": {
+    "type": "codedValue",
+    "name": "GarbagePickupRouteWeekdays",
+    "description": "Garbage Pickup Route Weekdays",
+    "codedValues": [
+     {
+      "name": "Monday Thursday",
+      "code": "Monday Thursday"
+     },
+     {
+      "name": "Tuesday Friday",
+      "code": "Tuesday Friday"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  }
+ ]
+}

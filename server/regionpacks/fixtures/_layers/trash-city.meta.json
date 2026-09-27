@@ -1,0 +1,11 @@
+{
+  "request_url": "https://gis.miami.gov/gis/rest/services/SolidWaste/TrashRoutes/MapServer/0?f=json",
+  "method": "GET",
+  "retrieved_at": "2026-09-25T17:24:00-04:00",
+  "http_status": 200,
+  "bytes": 915,
+  "sha256": "4925c0e395eb31f14643136ae43329f1082b9d9cbbbfb87e2fdaf9777aad3662",
+  "original_sha256": "f0ba97f4b1647b9bd906ac8c7c61225276b80de47701b961a6f66a74efae8a1f",
+  "capture_path": "WebFetch (box egress cannot complete TLS to gis.miami.gov: curl rc=35). Service returned 503 at 17:19 ET, recovered by 17:24 ET.",
+  "minimized": "fields[] reduced to the coded-value field decoded: TRASHDAY"
+}

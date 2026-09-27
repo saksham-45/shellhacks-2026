@@ -1,0 +1,1 @@
+{"displayFieldName":"ID","fieldAliases":{"ID":"ID","REPNAME":"REPNAME"},"fields":[{"name":"ID","type":"esriFieldTypeSmallInteger","alias":"ID"},{"name":"REPNAME","type":"esriFieldTypeString","alias":"REPNAME","length":30}],"features":[{"attributes":{"ID":27,"REPNAME":"María Elvira Salazar"}}]}

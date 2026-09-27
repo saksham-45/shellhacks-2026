@@ -1,0 +1,92 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: tonight-food-pay
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Put the shoes on > Tonight and the next three days
+  item: 3. Food today, and a way to pay that is not a check-cashing window
+title:
+  es: Comida hoy y una forma de pagar
+  en: Food today, and a way to pay
+  ht: Manje jodi a, ak yon fason pou peye
+summary:
+  es: Come hoy. Paga en efectivo, con tarjeta prepagada o con tu propia tarjeta del banco, no en una ventanilla de cambio de cheques.
+  en: Eat today. Pay with cash, a prepaid card, or your own bank card, not a check-cashing window.
+  ht: Manje jodi a. Peye kach, ak yon kat peye davans, oswa ak kat bank pa w, pa nan yon gichè ki chanje chèk.
+body:
+  es: |-
+    ¿No hay dinero para comida hoy? La línea de ayuda comunitaria te puede decir dónde hay una despensa de comida cerca.
+
+    En tu país, cambiar un cheque en la esquina puede ser normal.
+
+    Aquí, las tiendas que cambian cheques cobran una comisión por cada cheque.
+
+    Lo que cuesta: un pedazo de cada pago, mientras los uses. Una cuenta de banco a tu nombre es la salida.
+  en: |-
+    No money for food today? The community help line can point you to a food pantry near you.
+
+    At home, cashing a check at the corner may be normal.
+
+    Here, check-cashing stores charge a fee on every check.
+
+    What it costs: a slice of every paycheck, for as long as you use them. A bank account in your name is the way out.
+  ht: |-
+    Pa gen lajan pou manje jodi a? Liy èd kominotè a ka di w ki kote ki gen yon depo manje toupre w.
+
+    Lakay, chanje yon chèk nan kwen lari a ka nòmal.
+
+    Isit la, magazen ki chanje chèk yo pran yon frè sou chak chèk.
+
+    Sa sa koute: yon moso nan chak chèk, pandan tout tan ou sèvi ak yo. Yon kont labank sou non pa w se pòt sòti a.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us.211.food-referrals
+- []
+- - us.check-cashing.fees
+- - us.check-cashing.fees
+desk: us.211
+actions:
+- type: call_desk
+  desk_id: us.211
+utterances:
+  es:
+  - necesito comida hoy
+  - dónde dan comida gratis
+  - despensa de comida cerca
+  - dónde cambio mi cheque sin banco
+  - no tengo dinero para comer
+  en:
+  - I need food today
+  - where can I get free food
+  - food pantry near me
+  - can I cash my check without a bank
+  - I have no money for food
+  ht:
+  - mwen bezwen manje jodi a
+  - ki kote yo bay manje gratis
+  - food pantry toupre m
+  - kote m ka chanje chèk mwen san bank
+  - mwen pa gen lajan pou m manje
+privacy_scope: household
+stages:
+- 1
+- 4
+modes:
+- resident
+region_pack: us
+is_immigration: false
+related_cards:
+- bank-account
+fact_refs:
+- us.211.food-referrals
+- us.check-cashing.fees
+topics:
+- food
+- money

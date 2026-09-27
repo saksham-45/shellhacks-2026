@@ -1,0 +1,17 @@
+{
+  "note": "IntentResolution: confident navigate.",
+  "type": "intent_resolution",
+  "value": {
+    "action": {
+      "destination": {
+        "desk_id": "us-fl-miamidade.311",
+        "type": "desk"
+      },
+      "type": "navigate"
+    },
+    "clarification": null,
+    "confidence": 0.92,
+    "grounding": null,
+    "reply_language": "es"
+  }
+}

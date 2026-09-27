@@ -1,0 +1,186 @@
+{
+  "en": {
+    "back": [
+      "go back",
+      "back"
+    ],
+    "call_desk": [
+      "call the desk",
+      "call them"
+    ],
+    "home": [
+      "home",
+      "go home"
+    ],
+    "next_step": [
+      "next step"
+    ],
+    "no": [
+      "no"
+    ],
+    "open_map": [
+      "open the map"
+    ],
+    "ordinal_first": [
+      "the first one",
+      "first"
+    ],
+    "ordinal_second": [
+      "the second one",
+      "second"
+    ],
+    "ordinal_third": [
+      "the third one",
+      "third"
+    ],
+    "previous_step": [
+      "previous step"
+    ],
+    "read_this": [
+      "read this",
+      "read it"
+    ],
+    "repeat": [
+      "repeat",
+      "say it again"
+    ],
+    "stop": [
+      "stop"
+    ],
+    "switch_language_en": [
+      "switch to english",
+      "in english"
+    ],
+    "switch_language_es": [
+      "switch to spanish",
+      "in spanish"
+    ],
+    "switch_language_ht": [
+      "switch to creole",
+      "in creole"
+    ],
+    "yes": [
+      "yes"
+    ]
+  },
+  "es": {
+    "back": [
+      "atrás",
+      "regresar"
+    ],
+    "call_desk": [
+      "llama a la oficina",
+      "llámalos"
+    ],
+    "home": [
+      "inicio"
+    ],
+    "next_step": [
+      "siguiente paso"
+    ],
+    "no": [
+      "no"
+    ],
+    "open_map": [
+      "abre el mapa"
+    ],
+    "ordinal_first": [
+      "la primera",
+      "el primero"
+    ],
+    "ordinal_second": [
+      "la segunda",
+      "el segundo"
+    ],
+    "ordinal_third": [
+      "la tercera",
+      "el tercero"
+    ],
+    "previous_step": [
+      "paso anterior"
+    ],
+    "read_this": [
+      "léelo",
+      "lee esto"
+    ],
+    "repeat": [
+      "repite"
+    ],
+    "stop": [
+      "para",
+      "detente"
+    ],
+    "switch_language_en": [
+      "cambia a inglés",
+      "en inglés"
+    ],
+    "switch_language_es": [
+      "cambia a español",
+      "en español"
+    ],
+    "switch_language_ht": [
+      "cambia a criollo",
+      "kreyòl",
+      "en criollo"
+    ],
+    "yes": [
+      "sí"
+    ]
+  },
+  "ht": {
+    "back": [
+      "tounen"
+    ],
+    "call_desk": [
+      "rele biwo a"
+    ],
+    "home": [
+      "akèy"
+    ],
+    "next_step": [
+      "pwochen etap"
+    ],
+    "no": [
+      "non"
+    ],
+    "open_map": [
+      "louvri kat la"
+    ],
+    "ordinal_first": [
+      "premye a"
+    ],
+    "ordinal_second": [
+      "dezyèm lan"
+    ],
+    "ordinal_third": [
+      "twazyèm lan"
+    ],
+    "previous_step": [
+      "etap anvan"
+    ],
+    "read_this": [
+      "li sa a"
+    ],
+    "repeat": [
+      "repete"
+    ],
+    "stop": [
+      "kanpe"
+    ],
+    "switch_language_en": [
+      "pase an angle",
+      "an angle"
+    ],
+    "switch_language_es": [
+      "pase an panyòl",
+      "an panyòl"
+    ],
+    "switch_language_ht": [
+      "pase an kreyòl",
+      "kreyòl"
+    ],
+    "yes": [
+      "wi"
+    ]
+  }
+}

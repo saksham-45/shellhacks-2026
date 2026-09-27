@@ -1,0 +1,13 @@
+[
+  {"kind": "flag", "value": false},
+  {"kind": "flag", "value": true},
+  {"kind": "weekdays", "days": ["friday", "tuesday"]},
+  {"kind": "text", "text": "placeholder", "language": "ht"},
+  {"kind": "phone", "digits": "0000000000"},
+  {"kind": "money", "amount": 0.01, "currency": "USD"},
+  {"kind": "quantity", "amount": 2, "unit": "mi"},
+  {"kind": "place", "place": {"name": "Test Place", "coordinate": {"latitude": 0, "longitude": 0}}},
+  {"kind": "code", "code": "00-0000-000-0000"},
+  {"kind": "codes", "codes": ["Test Route B", "Test Route A"]},
+  {"kind": "quantity", "amount": 1984, "unit": "year"}
+]

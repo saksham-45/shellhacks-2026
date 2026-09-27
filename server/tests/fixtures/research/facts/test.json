@@ -1,0 +1,332 @@
+[
+ {
+  "id": "us-fl-miamidade.test.trash-days",
+  "claim": "TEST trash days",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "status": "verified",
+  "kind": "lookup",
+  "value_type": "weekdays",
+  "desk": "us-fl-miamidade.test-desk",
+  "lookup": {
+   "endpoint": "https://example.invalid/query",
+   "layer_id": 0,
+   "fields": [
+    "TESTFIELD"
+   ],
+   "method": "point_in_polygon",
+   "question": "TEST: which value applies at the pin?"
+  },
+  "source_id": "us-fl-miamidade.test-source",
+  "url": "https://example.invalid/us-fl-miamidade.test.trash-days",
+  "quote": "TEST FIXTURE - not a real quote.",
+  "retrieved_at": "2026-09-20T12:00:00-04:00",
+  "check_every": "P3650D"
+ },
+ {
+  "id": "us-fl-miamidade.test.trash-days.demo.pin-test1",
+  "claim": "TEST demo trash days",
+  "status": "demo",
+  "value": {
+   "type": "weekdays",
+   "days": [
+    "tuesday",
+    "friday"
+   ]
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.test-source",
+  "url": "https://example.invalid/demo-trash",
+  "quote": "TEST FIXTURE - not a real quote.",
+  "retrieved_at": "2026-09-20T12:00:00-04:00",
+  "check_every": "P3650D"
+ },
+ {
+  "id": "us-fl-miamidade.test.school",
+  "claim": "TEST school",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "status": "verified",
+  "kind": "lookup",
+  "value_type": "place",
+  "desk": "us-fl-miamidade.test-school-desk",
+  "lookup": {
+   "endpoint": "https://example.invalid/query",
+   "layer_id": 0,
+   "fields": [
+    "TESTFIELD"
+   ],
+   "method": "point_in_polygon",
+   "question": "TEST: which value applies at the pin?"
+  },
+  "source_id": "us-fl-miamidade.test-source",
+  "url": "https://example.invalid/us-fl-miamidade.test.school",
+  "quote": "TEST FIXTURE - not a real quote.",
+  "retrieved_at": "2026-09-20T12:00:00-04:00",
+  "check_every": "P3650D"
+ },
+ {
+  "id": "us-fl-miamidade.test.year-built",
+  "claim": "TEST year built",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "status": "verified",
+  "kind": "lookup",
+  "value_type": "quantity",
+  "desk": "us-fl-miamidade.test-desk",
+  "lookup": {
+   "endpoint": "https://example.invalid/query",
+   "layer_id": 0,
+   "fields": [
+    "TESTFIELD"
+   ],
+   "method": "point_in_polygon",
+   "question": "TEST: which value applies at the pin?"
+  },
+  "source_id": "us-fl-miamidade.test-source",
+  "url": "https://example.invalid/us-fl-miamidade.test.year-built",
+  "quote": "TEST FIXTURE - not a real quote.",
+  "retrieved_at": "2026-09-20T12:00:00-04:00",
+  "check_every": "P3650D"
+ },
+ {
+  "id": "us-fl-miamidade.test-desk.name",
+  "claim": "TEST desk name",
+  "status": "verified",
+  "value": {
+   "type": "text",
+   "text": "Test Desk (fictional)",
+   "language": "en"
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.test-source",
+  "url": "https://example.invalid/desk",
+  "quote": "TEST FIXTURE - not a real quote.",
+  "retrieved_at": "2026-09-20T12:00:00-04:00",
+  "check_every": "P3650D"
+ },
+ {
+  "id": "us-fl-miamidade.test-desk.phone",
+  "claim": "TEST desk phone",
+  "status": "verified",
+  "value": "555-0100",
+  "value_type": "phone",
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.test-source",
+  "url": "https://example.invalid/desk",
+  "quote": "TEST FIXTURE - not a real quote.",
+  "retrieved_at": "2026-09-20T12:00:00-04:00",
+  "check_every": "P3650D"
+ },
+ {
+  "id": "us-fl-miamidade.test-desk.hours",
+  "claim": "TEST desk hours (unsourced)",
+  "status": "unsourced",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": null,
+  "url": null,
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": null
+ },
+ {
+  "id": "us-fl-miamidade.test.grocery-price",
+  "claim": "TEST demo price",
+  "status": "demo",
+  "value": {
+   "type": "money",
+   "amount": 1.23,
+   "currency": "USD"
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.test-source",
+  "url": "https://example.invalid/test-demo",
+  "quote": "TEST-ONLY fictional demo price.",
+  "retrieved_at": "2026-09-25T12:00:00-04:00",
+  "check_every": "P7D"
+ },
+ {
+  "id": "us-fl-miami.test.rent-line",
+  "claim": "TEST city rent line",
+  "status": "verified",
+  "value": 1000,
+  "value_type": "money",
+  "unit": "USD",
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.test-source",
+  "url": "https://example.invalid/rent",
+  "quote": "TEST FIXTURE - not a real quote.",
+  "retrieved_at": "2026-09-20T12:00:00-04:00",
+  "check_every": "P3650D"
+ },
+ {
+  "id": "us.test.fee",
+  "claim": "TEST fee",
+  "status": "verified",
+  "value": 50,
+  "value_type": "money",
+  "unit": "USD",
+  "jurisdiction": "us",
+  "source_id": "us.test-source",
+  "url": "https://example.invalid/fee",
+  "quote": "TEST FIXTURE - not a real quote.",
+  "retrieved_at": "2026-09-20T12:00:00-04:00",
+  "check_every": "P3650D"
+ },
+ {
+  "id": "us.test.old-fee",
+  "claim": "TEST fee past its check_every",
+  "status": "verified",
+  "value": 40,
+  "value_type": "money",
+  "unit": "USD",
+  "jurisdiction": "us",
+  "source_id": "us.test-source",
+  "url": "https://example.invalid/old-fee",
+  "quote": "TEST FIXTURE - not a real quote.",
+  "retrieved_at": "2026-09-20T12:00:00-04:00",
+  "check_every": "P1D"
+ },
+ {
+  "id": "us.test.marked-stale",
+  "claim": "TEST stale",
+  "status": "stale",
+  "value": 7,
+  "value_type": "quantity",
+  "unit": "day",
+  "jurisdiction": "us",
+  "source_id": "us.test-source",
+  "url": "https://example.invalid/stale",
+  "quote": "TEST FIXTURE - not a real quote.",
+  "retrieved_at": "2026-09-20T12:00:00-04:00",
+  "check_every": "P3650D"
+ },
+ {
+  "id": "us.test.unsourced-thing",
+  "claim": "TEST unsourced",
+  "status": "unsourced",
+  "value": null,
+  "unit": null,
+  "jurisdiction": "us",
+  "desk": "us.test-desk",
+  "source_id": null,
+  "url": null,
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": null
+ },
+ {
+  "id": "us.test-desk.phone",
+  "claim": "TEST federal desk phone",
+  "status": "verified",
+  "value": "5550199",
+  "value_type": "phone",
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "us.test-source",
+  "url": "https://example.invalid/us-desk",
+  "quote": "TEST FIXTURE - not a real quote.",
+  "retrieved_at": "2026-09-20T12:00:00-04:00",
+  "check_every": "P3650D"
+ },
+ {
+  "id": "us-fl-miami.test.trash-days",
+  "claim": "TEST-ONLY fictional adapter lookup; not a real fact",
+  "value": null,
+  "jurisdiction": "us-fl-miami",
+  "status": "verified",
+  "kind": "lookup",
+  "value_type": "weekdays",
+  "desk": "us-fl-miami.test-desk",
+  "lookup": {
+   "endpoint": "https://example.invalid/test-only",
+   "layer_id": "TEST",
+   "fields": [
+    "TEST_ONLY_FIELD"
+   ],
+   "method": "test_only",
+   "question": "TEST-ONLY question"
+  },
+  "source_id": "us-fl-miami.test-source",
+  "url": "https://example.invalid/test-only",
+  "quote": "TEST FIXTURE ONLY; fictional value.",
+  "retrieved_at": "2026-09-20T12:00:00-04:00",
+  "check_every": "P3650D"
+ },
+ {
+  "id": "us-fl-miami.test.trash-days.demo.pin-sw137",
+  "claim": "TEST-ONLY fictional demo value; not a real figure",
+  "status": "demo",
+  "value": {
+   "type": "weekdays",
+   "days": [
+    "monday"
+   ]
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.test-source",
+  "url": "https://example.invalid/test-only-demo",
+  "quote": "TEST FIXTURE ONLY; fictional demo value.",
+  "retrieved_at": "2026-09-20T12:00:00-04:00",
+  "check_every": "P3650D"
+ },
+ {
+  "id": "us-fl-miami.test.trash-days.demo.pin-nw1st",
+  "claim": "TEST-ONLY fictional demo value; not a real figure",
+  "status": "demo",
+  "value": {
+   "type": "weekdays",
+   "days": [
+    "thursday"
+   ]
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.test-source",
+  "url": "https://example.invalid/test-only-demo",
+  "quote": "TEST FIXTURE ONLY; fictional demo value.",
+  "retrieved_at": "2026-09-20T12:00:00-04:00",
+  "check_every": "P3650D"
+ },
+ {
+  "id": "us-fl-miami.test-desk.name",
+  "claim": "TEST-ONLY fictional desk name",
+  "status": "verified",
+  "value": {
+   "type": "text",
+   "text": "Test City Desk (fictional)",
+   "language": "en"
+  },
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.test-source",
+  "url": "https://example.invalid/test-only-desk",
+  "quote": "TEST FIXTURE ONLY.",
+  "retrieved_at": "2026-09-20T12:00:00-04:00",
+  "check_every": "P3650D"
+ },
+ {
+  "id": "us-fl-miami.test-desk.phone",
+  "claim": "TEST-ONLY fictional desk phone",
+  "status": "verified",
+  "value": "555-0111",
+  "value_type": "phone",
+  "unit": null,
+  "jurisdiction": "us-fl-miami",
+  "source_id": "us-fl-miami.test-source",
+  "url": "https://example.invalid/test-only-desk",
+  "quote": "TEST FIXTURE ONLY; fictional phone.",
+  "retrieved_at": "2026-09-20T12:00:00-04:00",
+  "check_every": "P3650D"
+ }
+]

@@ -1,0 +1,167 @@
+{
+  "language": "es",
+  "version": 1,
+  "review": {
+    "state": "translated",
+    "note": "Miami Spanish, agent-authored (tú and usted imperatives both included). Entries marked needs_review are uncertain."
+  },
+  "fillers": [
+    "por favor",
+    "oye",
+    "a ver"
+  ],
+  "commands": {
+    "back": [
+      "atrás",
+      "volver",
+      "regresar",
+      "vuelve",
+      "regresa",
+      "regrese"
+    ],
+    "home": [
+      "inicio",
+      "ir al inicio",
+      "pantalla principal"
+    ],
+    "read_this": [
+      "lee esto",
+      "léelo",
+      "léemelo",
+      "lea esto",
+      "léalo",
+      "leer en voz alta"
+    ],
+    "stop": [
+      "para ya",
+      "pare",
+      "detente",
+      "basta",
+      "deja de hablar"
+    ],
+    "repeat": [
+      "repite",
+      "repítelo",
+      "repita",
+      "otra vez",
+      "dilo de nuevo",
+      "¿qué dijiste?"
+    ],
+    "next_step": [
+      "siguiente",
+      "siguiente paso",
+      "próximo paso",
+      "¿qué sigue?"
+    ],
+    "previous_step": [
+      "paso anterior",
+      "anterior",
+      "el paso anterior"
+    ],
+    "call_desk": [
+      "llamar",
+      "llama",
+      "llame",
+      "llámalos",
+      "llamar a la oficina"
+    ],
+    "open_map": [
+      "abre el mapa",
+      "abrir el mapa",
+      "muéstrame el mapa",
+      "¿cómo llego?"
+    ],
+    "switch_language_es": [
+      "español",
+      "en español",
+      "cambia a español",
+      "cambiar a español",
+      "spanish"
+    ],
+    "switch_language_en": [
+      "inglés",
+      "en inglés",
+      "cambia a inglés",
+      "cambiar a inglés",
+      "english"
+    ],
+    "switch_language_ht": [
+      "creole",
+      "en creole",
+      {
+        "phrase": "criollo",
+        "state": "needs_review",
+        "note": "Some Miami speakers say 'criollo' for Haitian Creole, others hear it as 'Creole food/people'; confirm it is worth keeping."
+      },
+      "en criollo",
+      "kreyòl"
+    ],
+    "yes": [
+      "sí",
+      "claro",
+      "dale",
+      "está bien",
+      "correcto",
+      {
+        "phrase": "okey",
+        "state": "needs_review",
+        "note": "Spoken-English loan common in Miami speech; keep only if transcripts show it."
+      }
+    ],
+    "no": [
+      "no",
+      "no gracias",
+      "ahora no"
+    ],
+    "ordinal_first": [
+      "el primero",
+      "la primera",
+      "número uno"
+    ],
+    "ordinal_second": [
+      "el segundo",
+      "la segunda",
+      "número dos"
+    ],
+    "ordinal_third": [
+      "el tercero",
+      "la tercera",
+      "número tres"
+    ],
+    "switch_language_pt": [
+      "portugués",
+      "en portugués",
+      "cambia a portugués"
+    ],
+    "switch_language_fr": [
+      "francés",
+      "en francés",
+      "cambia a francés"
+    ],
+    "switch_language_ar": [
+      "árabe",
+      "en árabe",
+      "cambia a árabe"
+    ],
+    "switch_language_zh": [
+      "chino",
+      "en chino",
+      "cambia a chino"
+    ],
+    "switch_language_ru": [
+      "ruso",
+      "en ruso",
+      "cambia a ruso"
+    ],
+    "switch_language_tl": [
+      "tagalo",
+      "en tagalo",
+      "cambia a tagalo"
+    ],
+    "switch_language_vi": [
+      "vietnamita",
+      "en vietnamita",
+      "cambia a vietnamita"
+    ]
+  }
+}

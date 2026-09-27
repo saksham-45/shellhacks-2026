@@ -1,0 +1,144 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: tolls
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > Money
+  item: Tolls from the GMX table
+- plan: mymiami-plan.md
+  section: Every feature > Money
+  item: Tolls
+- plan: mymiami-public-data.md
+  section: Tolls, as a file the app can trust
+- plan: myamericandream-plan.md
+  section: The demo
+  item: 3. Say ¿y el peaje?
+title:
+  es: Los peajes de tu ruta
+  en: Tolls on your drive
+  ht: Peyaj sou wout ou
+summary:
+  es: Sticker contra placa, en los pórticos de tu ruta, por los días que manejas.
+  en: Sticker versus plate, for the gantries on your drive, times the days you drive.
+  ht: Sticker kont plak, pou pòtik ki sou wout ou, fwa jou ou kondwi yo.
+body:
+  es: |-
+    Tu ruta: {fact:us-fl-miamidade.gmx.tolls-on-route}.
+
+    {fact:us-fl-miamidade.gmx.sr836-97th.name}: {fact:us-fl-miamidade.gmx.sr836-97th.sunpass} con sticker, {fact:us-fl-miamidade.gmx.sr836-97th.plate} por placa.
+
+    {fact:us-fl-miamidade.gmx.sr924-57th.name}: {fact:us-fl-miamidade.gmx.sr924-57th.sunpass} con sticker, {fact:us-fl-miamidade.gmx.sr924-57th.plate} por placa.
+
+    {fact:us-fl-miamidade.gmx.sr112-32nd.name}: {fact:us-fl-miamidade.gmx.sr112-32nd.sunpass} con sticker, {fact:us-fl-miamidade.gmx.sr112-32nd.plate} por placa.
+
+    {fact:us-fl-miamidade.gmx.sr836-137th.name}: {fact:us-fl-miamidade.gmx.sr836-137th.sunpass} con sticker, {fact:us-fl-miamidade.gmx.sr836-137th.plate} por placa.
+
+    En todos los pórticos de la tabla de autopistas del condado, pagar por placa cuesta más que con SunPass.
+
+    Los carriles express de la I-95 cambian de precio durante el día y necesitan transpondedor.
+  en: |-
+    Your drive: {fact:us-fl-miamidade.gmx.tolls-on-route}.
+
+    {fact:us-fl-miamidade.gmx.sr836-97th.name}: {fact:us-fl-miamidade.gmx.sr836-97th.sunpass} with a sticker, {fact:us-fl-miamidade.gmx.sr836-97th.plate} by plate.
+
+    {fact:us-fl-miamidade.gmx.sr924-57th.name}: {fact:us-fl-miamidade.gmx.sr924-57th.sunpass} with a sticker, {fact:us-fl-miamidade.gmx.sr924-57th.plate} by plate.
+
+    {fact:us-fl-miamidade.gmx.sr112-32nd.name}: {fact:us-fl-miamidade.gmx.sr112-32nd.sunpass} with a sticker, {fact:us-fl-miamidade.gmx.sr112-32nd.plate} by plate.
+
+    {fact:us-fl-miamidade.gmx.sr836-137th.name}: {fact:us-fl-miamidade.gmx.sr836-137th.sunpass} with a sticker, {fact:us-fl-miamidade.gmx.sr836-137th.plate} by plate.
+
+    On every gantry in the county expressway table, paying by plate costs more than paying with SunPass.
+
+    I-95 express lanes change price through the day and need a transponder.
+  ht: |-
+    Wout ou: {fact:us-fl-miamidade.gmx.tolls-on-route}.
+
+    {fact:us-fl-miamidade.gmx.sr836-97th.name}: {fact:us-fl-miamidade.gmx.sr836-97th.sunpass} ak sticker, {fact:us-fl-miamidade.gmx.sr836-97th.plate} pa plak.
+
+    {fact:us-fl-miamidade.gmx.sr924-57th.name}: {fact:us-fl-miamidade.gmx.sr924-57th.sunpass} ak sticker, {fact:us-fl-miamidade.gmx.sr924-57th.plate} pa plak.
+
+    {fact:us-fl-miamidade.gmx.sr112-32nd.name}: {fact:us-fl-miamidade.gmx.sr112-32nd.sunpass} ak sticker, {fact:us-fl-miamidade.gmx.sr112-32nd.plate} pa plak.
+
+    {fact:us-fl-miamidade.gmx.sr836-137th.name}: {fact:us-fl-miamidade.gmx.sr836-137th.sunpass} ak sticker, {fact:us-fl-miamidade.gmx.sr836-137th.plate} pa plak.
+
+    Sou tout pòtik ki nan tablo otowout konte a, peye pa plak koute plis pase peye ak SunPass.
+
+    Liy express I-95 yo chanje pri pandan jounen an epi yo bezwen yon transponde.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.gmx.tolls-on-route
+- - us-fl-miamidade.gmx.sr836-97th.name
+  - us-fl-miamidade.gmx.sr836-97th.sunpass
+  - us-fl-miamidade.gmx.sr836-97th.plate
+- - us-fl-miamidade.gmx.sr924-57th.name
+  - us-fl-miamidade.gmx.sr924-57th.sunpass
+  - us-fl-miamidade.gmx.sr924-57th.plate
+- - us-fl-miamidade.gmx.sr112-32nd.name
+  - us-fl-miamidade.gmx.sr112-32nd.sunpass
+  - us-fl-miamidade.gmx.sr112-32nd.plate
+- - us-fl-miamidade.gmx.sr836-137th.name
+  - us-fl-miamidade.gmx.sr836-137th.sunpass
+  - us-fl-miamidade.gmx.sr836-137th.plate
+- - us-fl-miamidade.gmx.plate-vs-sunpass
+- - us-fl.toll.express-lanes
+desk: us-fl-miamidade.gmx
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.gmx
+utterances:
+  es:
+  - y el peaje
+  - cuánto son los peajes
+  - sticker o placa
+  - peaje en la Dolphin
+  - how much es el peaje
+  en:
+  - how much are the tolls
+  - sticker or plate
+  - toll on the Dolphin
+  - how much do I pay in tolls a week
+  - cuánto es el toll
+  ht:
+  - konbyen peyaj yo ye
+  - sticker oswa plak
+  - peyaj sou Dolphin nan
+  - konbyen m peye peyaj pa semèn
+  - e peyaj la
+privacy_scope: household
+stages:
+- 8
+- 10
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- toll-bill
+- commute
+- rental-car-tolls
+fact_refs:
+- us-fl-miamidade.gmx.tolls-on-route
+- us-fl-miamidade.gmx.sr836-97th.name
+- us-fl-miamidade.gmx.sr836-97th.sunpass
+- us-fl-miamidade.gmx.sr836-97th.plate
+- us-fl-miamidade.gmx.sr924-57th.name
+- us-fl-miamidade.gmx.sr924-57th.sunpass
+- us-fl-miamidade.gmx.sr924-57th.plate
+- us-fl-miamidade.gmx.sr112-32nd.name
+- us-fl-miamidade.gmx.sr112-32nd.sunpass
+- us-fl-miamidade.gmx.sr112-32nd.plate
+- us-fl-miamidade.gmx.sr836-137th.name
+- us-fl-miamidade.gmx.sr836-137th.sunpass
+- us-fl-miamidade.gmx.sr836-137th.plate
+- us-fl-miamidade.gmx.plate-vs-sunpass
+- us-fl.toll.express-lanes
+topics:
+- tolls
+editor_notes: Gantry labels are ledger facts (code) so no avenue number is inlined.

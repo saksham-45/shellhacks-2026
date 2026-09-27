@@ -1,0 +1,23 @@
+{
+  "fact_id": "us-fl.towing.storage-10-miles",
+  "outcome": "value-changed",
+  "action": "The quoted passage now shows different figures. Re-read the source; if the fact changed, update value+quote+retrieved_at by hand and add correction_note.",
+  "result": {
+    "fact_id": "us-fl.towing.storage-10-miles",
+    "source_id": "us-fl.fl-statute-715-07",
+    "kind": "static",
+    "status_before": "verified",
+    "outcome": "value-changed",
+    "detail": "the quoted passage is still there but its figures changed: ['10', '500,000'] -> ['9']",
+    "snippet": "firm shall be liable for any damage occasioned to the vehicle or vessel if such entry is not in accordance with the standard of reasonable care. 9. When a vehicle or vessel has been towed or removed pursuant to this section, it must be released to its owner or person in control or custody within 1 hour after requested. Any vehicle or vessel owner or person in",
+    "similarity": 0.75,
+    "observed": null,
+    "recorded": "Any towed or removed vehicle or vessel must be stored at a site within a 10-mile radius of the point of removal in any county of 500,000 population or more ... When a vehicle or vessel has been towed or removed pursuant to this section, it must be released to its owner or person in control or custody within 1 hour after requested.",
+    "checked_url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0715/Sections/0715.07.html",
+    "final_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0715/Sections/0715.07.html",
+    "consecutive_unreachable": 0,
+    "propose_stale": false
+  },
+  "run_started_at": "2026-09-25T17:38:48-04:00",
+  "auto_applied": false
+}

@@ -1,0 +1,89 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: credit-start
+kind: country
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Put the shoes on > The first year, the path to standing alone
+  item: 17. Credit
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The country, same everywhere
+  item: Banks, credit, remittance
+title:
+  es: El crédito empieza vacío
+  en: Credit starts empty
+  ht: Kredi kòmanse vid
+summary:
+  es: No tener historial de crédito aquí se ve como riesgo. Empieza poco a poco con una tarjeta asegurada. Nunca seas fiador de un desconocido.
+  en: No US credit file reads as risk. Start small with a secured card. Never co-sign for a stranger.
+  ht: Pa gen dosye kredi isit la vle di risk. Kòmanse piti ak yon kat kredi garanti. Pa janm siyen kòm garan pou yon moun ou pa konnen.
+body:
+  es: |-
+    El crédito de otro país normalmente no pasa aquí. Empiezas sin historial, y los prestamistas lo ven como riesgo.
+
+    Una tarjeta asegurada usa tu propio depósito como límite. Pagarla a tiempo construye historial.
+
+    Lo que cuesta: el fiador debe toda la deuda si la otra persona no paga. Nunca por un desconocido. Nunca por un familiar que no te enseña la cuenta.
+  en: |-
+    Credit from another country usually does not carry over. You start with no file, and lenders treat that as risk.
+
+    A secured card uses your own deposit as the limit. Paying it on time builds a record.
+
+    What it costs: a co-signer owes the whole debt if the other person does not pay. Never for a stranger. Never for a relative who will not show you the bill.
+  ht: |-
+    Kredi lòt peyi anjeneral pa transfere. Ou kòmanse san dosye, epi moun k ap prete lajan wè sa kòm yon risk.
+
+    Yon kat garanti sèvi ak pwòp depo ou kòm limit. Peye l alè bati yon dosye.
+
+    Sa sa koute: garan an dwe tout dèt la si lòt moun nan pa peye. Pa janm pou yon moun ou pa konnen. Pa janm pou yon fanmi ki pa vle montre w bòdwo a.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us.credit.no-file
+- - us.credit.secured-card
+- - us.credit.cosigner-liability
+desk: us.cfpb
+actions:
+- type: call_desk
+  desk_id: us.cfpb
+utterances:
+  es:
+  - cómo hago crédito
+  - no tengo crédito
+  - qué es una tarjeta asegurada
+  - debo ser fiador de mi primo
+  - cómo empiezo mi credit
+  en:
+  - how do I build credit
+  - I have no credit
+  - what is a secured card
+  - should I cosign for my cousin
+  - credit score from zero
+  ht:
+  - kijan pou m fè kredi
+  - mwen pa gen kredi
+  - kisa yon kat garanti ye
+  - èske m ta dwe siyen pou kouzen m
+  - kijan pou m kòmanse credit mwen
+privacy_scope: person
+stages:
+- 9
+modes:
+- resident
+region_pack: us
+is_immigration: false
+origin_lenses:
+- internationalStudent
+related_cards:
+- bank-account
+fact_refs:
+- us.credit.no-file
+- us.credit.secured-card
+- us.credit.cosigner-liability
+topics:
+- money

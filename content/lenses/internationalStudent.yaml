@@ -1,0 +1,85 @@
+# Origin lens (myAD Content). The file id is the ADCore OriginLens case.
+# title is the lens name; lens_card plus attaches_to are the cards it surfaces.
+id: internationalStudent
+origin_lens: internationalStudent
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Origin lens
+  item: International students
+title:
+  es: Aquí para estudiar
+  en: Here to study
+  ht: Isit la pou etidye
+summary:
+  es: La oficina internacional de tu escuela es tu oficina de ayuda. El trabajo, los cambios de dirección y tu licencia pasan por ella, y saltártela puede poner en riesgo tu estatus de estudiante.
+  en: Your school's international office is your desk. Work, address changes, and your license run through it, and skipping it can put your student status at risk.
+  ht: Biwo entènasyonal lekòl ou a se biwo pa w. Travay, chanjman adrès, ak lisans ou pase pa li, e si ou sote l sa ka mete estati etidyan ou an danje.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+desk: us.school-dso
+origin_match:
+  goals:
+  - study
+  self_select: true
+  note: Any origin; set by the study goal or picked by the person.
+modes:
+- resident
+lens_card: lens-student-desk
+attaches_to:
+- credit-start
+- fl-id-license-checklist
+- lease-basics
+- license-and-tag
+- mail-address
+- work-allowed
+- status-word
+origin_lines:
+- card: credit-start
+  text:
+    es: En tu país, tu banco conocía a tu familia. Aquí empiezas sin crédito, y un pago de tarjeta atrasado te sigue a cada contrato y préstamo.
+    en: At home, your bank knew your family. Here, you start with no credit, and a missed card payment follows you to every lease and loan.
+    ht: Lakay, bank ou te konnen fanmi ou. Isit la, ou kòmanse san kredi, e yon peman kat ou rate ap swiv ou nan chak kontra lwaye ak chak prè.
+  fact_refs: []
+- card: fl-id-license-checklist
+  text:
+    es: En tu país, el carné de estudiante abría puertas. Aquí, la oficina de licencias pide tus documentos migratorios, y la oficina internacional de tu escuela sabe cuáles.
+    en: At home, a student card opened doors. Here, the license office asks for your immigration documents, and your school's international office knows which ones.
+    ht: Lakay, kat etidyan an te louvri pòt. Isit la, biwo lisans lan mande dokiman imigrasyon ou, e biwo entènasyonal lekòl ou a konnen kiyès.
+  fact_refs: []
+- card: lease-basics
+  text:
+    es: En tu país, la universidad o tu familia quizá se encargaba de la vivienda. Aquí firmas el contrato tú, y romperlo antes puede costarte el depósito y más.
+    en: At home, the university or your family may have handled housing. Here, you sign the lease yourself, and breaking it early can cost you the deposit and more.
+    ht: Lakay, inivèsite a oswa fanmi ou te ka okipe lojman. Isit la, se ou ki siyen kontra a, e si ou kase l bonè ou ka pèdi depo a ak plis toujou.
+  fact_refs: []
+- card: license-and-tag
+  text:
+    es: En tu país, quizá no necesitabas carro. Aquí, si manejas, el carro necesita su placa de Florida y su seguro, y una parada sin ellos sale cara.
+    en: At home, you may not have needed a car. Here, if you drive, the car needs its own Florida tag and insurance, and a stop without them gets expensive.
+    ht: Lakay, petèt ou pa t bezwen machin. Isit la, si ou kondwi, machin nan bezwen plak Florid ak asirans li, e si lapolis kanpe w san yo sa ap koute w chè.
+  fact_refs: []
+- card: mail-address
+  text:
+    es: En tu país, la escuela quizá guardaba tu dirección. Aquí, una mudanza que no reportas a la oficina internacional de tu escuela puede poner en riesgo tu registro de estudiante.
+    en: At home, the school may have kept your address on file. Here, a move you do not report to your school's international office can put your student record at risk.
+    ht: Lakay, lekòl la te ka kenbe adrès ou. Isit la, si ou demenaje san ou pa di biwo entènasyonal lekòl ou a, dosye etidyan ou ka an danje.
+  fact_refs: []
+- card: work-allowed
+  text:
+    es: En tu país, un estudiante quizá tomaba cualquier trabajo. Aquí, trabajar fuera del campus sin la aprobación de tu escuela puede terminar tu estatus de estudiante.
+    en: At home, a student may have taken any side job. Here, working off campus without your school's approval can end your student status.
+    ht: Lakay, yon etidyan te ka pran nenpòt ti travay. Isit la, travay deyò kanpis san lekòl ou pa apwouve sa ka fini estati etidyan ou.
+  fact_refs: []
+- card: status-word
+  text:
+    es: En tu país, el estatus de estudiante podía parecer sencillo. Aquí, el estatus de estudiante es la autorización que rige tus estudios y tu trabajo; pregunta a la oficina internacional de tu escuela.
+    en: At home, student status may have seemed simple. Here, student status is the authorization that governs your study and work; ask your school’s international office.
+    ht: Lakay, estati etidyan te ka sanble senp. Isit la, estati etidyan se otorizasyon ki gouvène etid ou ak travay ou; mande biwo entènasyonal lekòl ou a.
+  fact_refs: []
+fact_refs: []

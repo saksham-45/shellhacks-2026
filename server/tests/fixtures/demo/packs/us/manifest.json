@@ -1,0 +1,49 @@
+{
+ "x-test-only": "TEST-ONLY fixture manifest shape; not Regions' manifest.",
+ "id": "us",
+ "parent": null,
+ "desks": [
+  "us.test-uscis-desk",
+  "us.test-ftc-desk"
+ ],
+ "adapters": [
+  {
+   "id": "us.fee-check-uscis",
+   "answers": [
+    "fees.uscis"
+   ],
+   "sources": [],
+   "desk": "us.test-uscis-desk",
+   "facts": [
+    {
+     "id": "us.uscis.forms-free",
+     "topics": [
+      "immigration"
+     ]
+    },
+    {
+     "id": "us.uscis.fee-payment-methods",
+     "topics": [
+      "immigration"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "us.fee-check-ftc",
+   "answers": [
+    "scams.gift-card"
+   ],
+   "sources": [],
+   "desk": "us.test-ftc-desk",
+   "facts": [
+    {
+     "id": "us.ftc.gift-card-payment-scam",
+     "topics": [
+      "scams"
+     ]
+    }
+   ]
+  }
+ ]
+}

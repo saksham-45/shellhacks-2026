@@ -1,0 +1,273 @@
+[
+ {
+  "id": "us-fl-miamidade.eeap.program",
+  "claim": "Miami-Dade's Emergency & Evacuation Assistance Program (EEAP) gives free evacuation help to eligible residents who need specialized transportation or sheltering, including people with life-saving medical equipment that runs on electricity.",
+  "value": "Emergency & Evacuation Assistance Program (EEAP)",
+  "unit": null,
+  "value_type": "code",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.eeap-service-page",
+  "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1470238193996672",
+  "quote": "provides free evacuation assistance to eligible residents living in Miami-Dade County who need specialized transportation and/or sheltering",
+  "retrieved_at": "2026-09-25T19:30:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "storm",
+   "health"
+  ],
+  "desk": "us-fl-miamidade.eeap",
+  "notes": "Same page: \"Prior to an emergency, residents who may require medical monitoring, assistance with daily living or have life-saving medical equipment dependent on electricity should register for the EEAP\" and \"Pre-registered residents will receive priority during an emergency.\" Readiness guide 2025 (EN/ES/HT) also describes the program."
+ },
+ {
+  "id": "us-fl-miamidade.eeap.name",
+  "claim": "Name of desk us-fl-miamidade.eeap.",
+  "value": "Emergency & Evacuation Assistance Program (EEAP)",
+  "unit": null,
+  "value_type": "code",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.eeap-service-page",
+  "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1470238193996672",
+  "quote": "Emergency & Evacuation Assistance Program (EEAP)",
+  "retrieved_at": "2026-09-25T19:30:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "desk",
+   "storm"
+  ],
+  "desk": "us-fl-miamidade.eeap",
+  "notes": "Page title. Run by the Miami-Dade Department of Emergency Management, 9300 NW 41st Street, Doral FL 33178."
+ },
+ {
+  "id": "us-fl-miamidade.eeap.phone",
+  "claim": "EEAP hotline for registrants.",
+  "value": "305-513-7700",
+  "unit": null,
+  "value_type": "phone",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.eeap-service-page",
+  "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1470238193996672",
+  "quote": "Hotline for Registrants 305-513-7700",
+  "retrieved_at": "2026-09-25T19:30:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "desk",
+   "storm"
+  ],
+  "desk": "us-fl-miamidade.eeap"
+ },
+ {
+  "id": "us-fl-miamidade.eeap.tty",
+  "claim": "EEAP TTY/TDD line.",
+  "value": "305-468-5402",
+  "unit": null,
+  "value_type": "phone",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.eeap-service-page",
+  "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1470238193996672",
+  "quote": "TTY/TDD Line 305-468-5402",
+  "retrieved_at": "2026-09-25T19:30:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "desk",
+   "storm"
+  ],
+  "desk": "us-fl-miamidade.eeap"
+ },
+ {
+  "id": "us-fl-miamidade.eeap.url",
+  "claim": "Register for the EEAP online.",
+  "value": "https://www.miamidade.gov/apps/gis/eeap_publicregistration/",
+  "unit": null,
+  "value_type": "code",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.eeap-service-page",
+  "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1470238193996672",
+  "quote": "Register Online https://www.miamidade.gov/apps/gis/eeap_publicregistration/",
+  "retrieved_at": "2026-09-25T19:30:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "desk",
+   "storm"
+  ],
+  "desk": "us-fl-miamidade.eeap",
+  "notes": "Quote is the link label and target as they appear in the page data."
+ },
+ {
+  "id": "us-fl-miamidade.eeap.how-to-register",
+  "claim": "How to register for the EEAP: online, or mail a paper application; call 311 to have one sent (English, Spanish, Haitian Creole, Braille or large print). Register before an evacuation order; registration closes then.",
+  "value": "Register online or download an application below, completely fill it out and mail it. You can also call 311 to have an application sent to you in English, Spanish, and Haitian Creole or in an alternate format such as Braille or large print.",
+  "unit": null,
+  "value_type": "text",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.eeap-faq-register",
+  "url": "https://www.miamidade.gov/global/faq.page?Mduid_faq=faq1598023863344518",
+  "quote": "Register online or download an application below, completely fill it out and mail it. You can also call 311 to have an application sent to you in English, Spanish, and Haitian Creole or in an alternate format such as Braille or large print.",
+  "retrieved_at": "2026-09-25T19:30:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "storm",
+   "health"
+  ],
+  "value_language": "en",
+  "desk": "us-fl-miamidade.eeap",
+  "notes": "Same FAQ: \"Registration (online and paper application) for the EEAP closes before an evacuation order is pronounced.\" and \"Residents only need to apply once to be a life-long member of the program.\" Service page: people not enrolled who need help should call 311, which does not guarantee assistance."
+ },
+ {
+  "id": "us-fl-miamidade.storm.pet-friendly-centers.rules",
+  "claim": "Rules for Miami-Dade pet-friendly evacuation centers.",
+  "value": "No pre-registration. Centers are announced as needed. A vet checks each pet on arrival and a pet judged a risk is turned away. Bring proof you live in an evacuation zone, each pet's medical and vaccination records (annual rabies shots for dogs and cats, visible Miami-Dade dog license), and supplies for yourself and the pet. Limit four pets per household. At least one family member must stay at the center with the pet.",
+  "unit": null,
+  "value_type": "text",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.asd-pet-hurricane",
+  "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1598287646006415",
+  "quote": "Pre-registration is not required to use the evacuation center.",
+  "retrieved_at": "2026-09-25T19:30:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "storm"
+  ],
+  "value_language": "en",
+  "desk": "us-fl-miamidade.311",
+  "notes": "Each rule is a sentence on the Animal Services page: \"Evacuation centers will be announced as needed.\"; \"Upon arrival at the center, pets will be examined by a licensed veterinarian to determine if the pet presents a safety risk.\"; \"Annual rabies vaccinations and a visible Miami-Dade County dog license are required.\"; \"Limit four pets per household.\"; \"At least one family member must remain in the evacuation center with the pet.\"; \"Maintain their pets in a crate, on a leash or otherwise controlled\". The 2025 guide adds that glass tanks are not permitted and pets must be in a crate or carrier."
+ },
+ {
+  "id": "us-fl-miamidade.storm.pet-friendly-centers.rules.guide-en",
+  "claim": "Readiness guide (county, English): who pet-friendly evacuation centers are for and the stay-with-your-pet rule.",
+  "value": "Pet-Friendly Evacuation Centers (PFEC) are available for residents living in high-risk, flood-prone areas, including barrier islands, coastal communities, mobile homes, or anyone living in a Storm Surge Planning Zone that has been ordered to evacuate. A family member must stay with the pet at the PFEC at all times, and the pet must be contained in a crate or pet carrier.",
+  "unit": null,
+  "value_type": "text",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.hurricane-readiness-guide-2025",
+  "url": "https://www.miamidade.gov/hurricane/library/guide-to-hurricane-readiness.pdf",
+  "quote": "A family member must stay with the pet at the PFEC at all times, and the pet must be contained in a crate or pet carrier.",
+  "retrieved_at": "2026-09-25T19:30:00-04:00",
+  "check_every": "P180D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "storm"
+  ],
+  "value_language": "en",
+  "desk": "us-fl-miamidade.311"
+ },
+ {
+  "id": "us-fl-miamidade.storm.pet-friendly-centers.rules.es",
+  "claim": "Guía oficial del condado (español): centros de evacuación que aceptan mascotas.",
+  "value": "Los centros de evacuación que aceptan mascotas (PFEC, por sus siglas en inglés) están disponibles para los residentes que viven en áreas de alto riesgo, propensas a inundaciones, incluidas las islas de barrera, las comunidades costeras, las casas móviles o cualquier persona que viva en una Zona de Planificación para Marejadas de Tormenta y haya recibido la orden de evacuación. Es preciso que un miembro de la familia se quede con la mascota en el PFEC en todo momento, y la mascota debe permanecer dentro de una jaula o portamascotas.",
+  "unit": null,
+  "value_type": "text",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.hurricane-readiness-guide-2025",
+  "url": "https://www.miamidade.gov/hurricane/library/guide-to-hurricane-readiness.pdf",
+  "quote": "Es preciso que un miembro de la familia se quede con la mascota en el PFEC en todo momento, y la mascota debe permanecer dentro de una jaula o portamascotas.",
+  "retrieved_at": "2026-09-25T19:30:00-04:00",
+  "check_every": "P180D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "storm",
+   "language"
+  ],
+  "value_language": "es",
+  "desk": "us-fl-miamidade.311",
+  "notes": "County's own Spanish text (official translation) from the 2025 trilingual guide, section EVACUACIÓN CON SUS MASCOTAS. It does not include the four-pet limit or the no-pre-registration line, which exist only in English on the Animal Services page."
+ },
+ {
+  "id": "us-fl-miamidade.storm.pet-friendly-centers.rules.ht",
+  "claim": "Gid ofisyèl konte a (kreyòl ayisyen): sant evakyasyon ki aksepte bèt kay.",
+  "value": "Yon manm fanmi an dwe rete avèk bèt kay la nan PFEC a epi bèt kay la dwe andedan yon kaj.",
+  "unit": null,
+  "value_type": "text",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.hurricane-readiness-guide-2025",
+  "url": "https://www.miamidade.gov/hurricane/library/guide-to-hurricane-readiness.pdf",
+  "quote": "Yon manm fanmi an dwe rete avèk bèt kay la nan PFEC a epi bèt kay la dwe andedan yon kaj.",
+  "retrieved_at": "2026-09-25T19:30:00-04:00",
+  "check_every": "P180D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "storm",
+   "language"
+  ],
+  "value_language": "ht",
+  "desk": "us-fl-miamidade.311",
+  "notes": "County's own Haitian Creole text from the 2025 guide, section SEKIRITE BÈT KAY."
+ },
+ {
+  "id": "us-fl-miamidade.storm.evacuation-centers.announcement",
+  "claim": "Miami-Dade does not assign evacuation centers in advance; the list of open centers and bus pickup sites is announced once an evacuation order is given (miamidade.gov/emergency or 311).",
+  "value": "Once an evacuation order is given, a list of open evacuation centers will be announced, along with emergency bus pickup sites that will provide transportation to and from the centers.",
+  "unit": null,
+  "value_type": "text",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.hurricane-readiness-guide-2025",
+  "url": "https://www.miamidade.gov/hurricane/library/guide-to-hurricane-readiness.pdf",
+  "quote": "Once an evacuation order is given, a list of open evacuation centers will be announced, along with emergency bus pickup sites that will provide transportation to and from the centers.",
+  "retrieved_at": "2026-09-25T19:30:00-04:00",
+  "check_every": "P180D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "storm",
+   "shelter"
+  ],
+  "value_language": "en",
+  "desk": "us-fl-miamidade.311",
+  "notes": "Spanish in the same guide: \"Una vez dada la orden de evacuación, se publicará una lista de los centros de evacuación disponibles\". The guide also calls centers \"a shelter of last resort\"."
+ },
+ {
+  "id": "us-fl-miamidade.storm.evacuation-centers",
+  "claim": "Open evacuation centers near a pin (name, address, pet-friendly, special-needs), from the county's live evacuation-center layer.",
+  "value": null,
+  "unit": null,
+  "value_type": "place",
+  "jurisdiction": "us-fl-miamidade",
+  "source_id": "us-fl-miamidade.gis-evacuation-centers",
+  "url": "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/EvacuationCenter_gdb/FeatureServer/0/query?where=1%3D1&returnCountOnly=true&f=json",
+  "quote": "{\"count\":0}",
+  "retrieved_at": "2026-09-25T19:30:00-04:00",
+  "check_every": "P1D",
+  "status": "verified",
+  "kind": "lookup",
+  "topics": [
+   "storm",
+   "shelter"
+  ],
+  "desk": "us-fl-miamidade.311",
+  "notes": "Verified 2026-09-25 19:30 EDT that the layer is live and public; it returned 0 records because no centers are open. The county adds rows only when centers open, so an empty result means \"none open now; watch miamidade.gov/emergency or call 311\", never a guess.",
+  "lookup": {
+   "endpoint": "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/EvacuationCenter_gdb/FeatureServer",
+   "layer_id": 0,
+   "fields": [
+    "ShlName",
+    "Address",
+    "City",
+    "Zipcode",
+    "ShlStatus",
+    "ShlType",
+    "PetFrndly",
+    "SpeclNeed",
+    "LAT",
+    "LON"
+   ],
+   "method": "arcgis query where=1=1 (all open centers), sort by distance from the county PointAddress point; empty result means none open",
+   "question": "Which evacuation centers are open near this pin right now?"
+  }
+ }
+]

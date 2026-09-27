@@ -1,0 +1,21 @@
+{
+  "note": "AppAction save_person_update. Example ids only; no real people or facts.",
+  "type": "app_action",
+  "value": {
+    "person": {
+      "age": 21,
+      "display_name": "Example Student",
+      "goal": "study",
+      "mode": "resident",
+      "origin": {
+        "country_code": "IN"
+      },
+      "person_id": "00000000-0000-4000-8000-000000000001",
+      "stage": 7,
+      "status_word": "example-status",
+      "surface_language": "en",
+      "think_in": "hi"
+    },
+    "type": "save_person"
+  }
+}

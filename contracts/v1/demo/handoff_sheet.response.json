@@ -1,0 +1,28 @@
+{
+  "request_id": "0123456789abcdef0123456789abcdef",
+  "person_id": "person-example",
+  "desk_id": "us-fl-example.example-housing-desk",
+  "language": "en",
+  "read_back_language": "es",
+  "summarizer": "gemini",
+  "sentences": [
+    {
+      "text": "My landlord changed the locks yesterday.",
+      "source_utterance_index": 0,
+      "needs_translation": false
+    }
+  ],
+  "read_back": [
+    {
+      "text": "Mi casero cambió las cerraduras ayer.",
+      "source_utterance_index": 0
+    }
+  ],
+  "approved": false,
+  "dropped": [
+    {
+      "reason": "unsupported",
+      "source_utterance_index": 1
+    }
+  ]
+}

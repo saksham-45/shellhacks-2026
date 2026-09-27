@@ -1,0 +1,162 @@
+[
+ {
+  "unit": "percent",
+  "retrieved_at": "2026-09-25T18:45:00-04:00",
+  "status": "verified",
+  "kind": "static",
+  "id": "us-fl.sfrta.fare-increase.percent",
+  "claim": "SFRTA’s 2026 Tri-Rail fare-change notice raises all one-way and round-trip tickets by 10%.",
+  "value": 10,
+  "value_type": "quantity",
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.sfrta-fare-notice-2026",
+  "url": "https://media.tri-rail.com/Files/About/SFRTA/Meetings/Public%20Hearings/2026/Public%20Hearing%20Notice%20-%20Fare%20Increase%202026%20-%20STATION%20POSTING%20B.pdf",
+  "quote": "A 10% increase to all one-way and round-trip tickets",
+  "check_every": "P30D",
+  "topics": [
+   "transit"
+  ],
+  "notes": "From the notice for the June 26, 2026 public hearing, which says: \"Unless amended, this notice will serve as the final fare changes for Tri-Rail passengers.\" Effective date is not stated in the notice (see us-fl.sfrta.fare-increase.effective-date)."
+ },
+ {
+  "unit": "USD",
+  "retrieved_at": "2026-09-25T18:45:00-04:00",
+  "status": "verified",
+  "kind": "static",
+  "id": "us-fl.sfrta.monthly-pass",
+  "claim": "Under SFRTA’s 2026 fare-change notice, the Tri-Rail regional monthly pass goes to $165 (from $155).",
+  "value": "165",
+  "unit_detail": "per month, regional monthly pass (was $155)",
+  "value_type": "money",
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.sfrta-fare-notice-2026",
+  "url": "https://media.tri-rail.com/Files/About/SFRTA/Meetings/Public%20Hearings/2026/Public%20Hearing%20Notice%20-%20Fare%20Increase%202026%20-%20STATION%20POSTING%20B.pdf",
+  "quote": "An increase to the regional monthly pass to $165",
+  "check_every": "P30D",
+  "topics": [
+   "transit"
+  ],
+  "notes": "Fare table in the same notice lists the monthly regional ticket at $155.00 current and $165.00 proposed; discount monthly $77.50 to $83.00."
+ },
+ {
+  "unit": "USD",
+  "retrieved_at": "2026-09-25T18:45:00-04:00",
+  "status": "verified",
+  "kind": "static",
+  "id": "us-fl.sfrta.weekend-fare",
+  "claim": "SFRTA’s 2026 fare-change notice keeps the Tri-Rail $5 weekend flat fare unchanged.",
+  "value": "5",
+  "unit_detail": "weekend flat fare",
+  "value_type": "money",
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.sfrta-fare-notice-2026",
+  "url": "https://media.tri-rail.com/Files/About/SFRTA/Meetings/Public%20Hearings/2026/Public%20Hearing%20Notice%20-%20Fare%20Increase%202026%20-%20STATION%20POSTING%20B.pdf",
+  "quote": "No change to the existing $5 weekend flat fare",
+  "check_every": "P30D",
+  "topics": [
+   "transit"
+  ]
+ },
+ {
+  "unit": null,
+  "retrieved_at": "2026-09-25T18:45:00-04:00",
+  "status": "unsourced",
+  "kind": "static",
+  "id": "us-fl.sfrta.fare-increase.effective-date",
+  "claim": "Date the 2026 Tri-Rail fare changes take effect.",
+  "value": null,
+  "value_type": "date",
+  "jurisdiction": "us-fl",
+  "source_id": "",
+  "url": null,
+  "quote": null,
+  "check_every": "P14D",
+  "topics": [
+   "transit"
+  ],
+  "notes": "The official SFRTA hearing notice gives no effective date. October 1, 2026 appears only in secondary reporting; not verified against an SFRTA source as of 2026-09-25."
+ },
+ {
+  "unit": "USD",
+  "retrieved_at": "2026-09-25T18:55:00-04:00",
+  "status": "verified",
+  "kind": "static",
+  "id": "us-fl.sfrta.monthly-pass.pre-increase",
+  "claim": "Tri-Rail regional monthly pass price before the 2026 fare change: $155 (listed as the current fare in SFRTA’s June 2026 hearing notice).",
+  "value": "155",
+  "unit_detail": "per month, regional monthly pass, fare listed as current in the June 26, 2026 hearing notice",
+  "value_type": "money",
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.sfrta-fare-notice-2026",
+  "url": "https://media.tri-rail.com/Files/About/SFRTA/Meetings/Public%20Hearings/2026/Public%20Hearing%20Notice%20-%20Fare%20Increase%202026%20-%20STATION%20POSTING%20B.pdf",
+  "quote": "Current Monthly Regional ... $ 155.00",
+  "check_every": "P30D",
+  "topics": [
+   "transit"
+  ],
+  "notes": "Table layout in the PDF: the \"Current Monthly Regional\" column header sits above \"$ 155.00\" (proposed $165.00). Whether $165 has taken effect is unknown because the notice gives no effective date and tri-rail.com fares page renders only with JavaScript; see us-fl.sfrta.fare-increase.effective-date."
+ },
+ {
+  "id": "us-fl.sfrta.name",
+  "claim": "Name of desk us-fl.sfrta.",
+  "value": "South Florida Regional Transportation Authority (Tri-Rail)",
+  "unit": null,
+  "value_type": "code",
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.sfrta-fares-page",
+  "url": "https://www.tri-rail.com/pages/view/fares",
+  "quote": "Tri Rail | South Florida Regional Transportation Authority",
+  "retrieved_at": "2026-09-25T20:30:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "desk",
+   "transit"
+  ],
+  "desk": "us-fl.sfrta",
+  "notes": "Quote is the page title."
+ },
+ {
+  "id": "us-fl.sfrta.phone",
+  "claim": "Tri-Rail customer phone (1-800-TRI-RAIL); TTY users dial 711.",
+  "value": "1-800-874-7245",
+  "unit": null,
+  "value_type": "phone",
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.sfrta-fares-page",
+  "url": "https://www.tri-rail.com/pages/view/fares",
+  "quote": "CONTACT US 1-800-TRI-RAIL(874-7245) | TTY 711 (1-800-955-8771)",
+  "retrieved_at": "2026-09-25T20:30:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "desk",
+   "transit"
+  ],
+  "desk": "us-fl.sfrta",
+  "notes": "Site-wide header on tri-rail.com; the 2026 fare notice also gives 1-800-TRI-RAIL (874-7245)."
+ },
+ {
+  "id": "us-fl.sfrta.url",
+  "claim": "Tri-Rail fares page.",
+  "value": "https://www.tri-rail.com/pages/view/fares",
+  "unit": null,
+  "value_type": "code",
+  "jurisdiction": "us-fl",
+  "source_id": "us-fl.sfrta-fares-page",
+  "url": "https://www.tri-rail.com/pages/view/fares",
+  "quote": "Tri Rail | South Florida Regional Transportation Authority",
+  "retrieved_at": "2026-09-25T20:30:00-04:00",
+  "check_every": "P90D",
+  "status": "verified",
+  "kind": "static",
+  "topics": [
+   "desk",
+   "transit"
+  ],
+  "desk": "us-fl.sfrta",
+  "notes": "The fare table itself renders only with JavaScript; fare amounts in this ledger come from the 2026 fare notice."
+ }
+]

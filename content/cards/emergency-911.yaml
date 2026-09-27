@@ -1,0 +1,98 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: emergency-911
+kind: country
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Stages
+  item: 'Tourist mode: 911'
+- plan: myamericandream-plan.md
+  section: Origin lens
+  item: Anyone, the offices
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The country, same everywhere
+  item: 911 and the police-stop script
+title:
+  es: 'Emergencia: {fact:us.911.phone}'
+  en: 'Emergency: {fact:us.911.phone}'
+  ht: 'Ijans: {fact:us.911.phone}'
+summary:
+  es: Para policía, bomberos o ambulancia, ahora mismo. Funciona desde cualquier teléfono.
+  en: For police, fire, or an ambulance, right now. It works from any phone.
+  ht: Pou lapolis, ponpye, oswa yon anbilans, kounye a menm. Li mache sou nenpòt telefòn.
+body:
+  es: |-
+    {fact:us.911.phone} es para un peligro ahora: un incendio, un choque, un delito, alguien que no puede respirar.
+
+    Di primero dónde estás. Luego di qué pasó.
+
+    Pide un intérprete si lo necesitas. Di el nombre de tu idioma en inglés.
+  en: |-
+    {fact:us.911.phone} is for danger now: a fire, a crash, a crime, someone who cannot breathe.
+
+    Say where you are first. Then say what happened.
+
+    Ask for an interpreter if you need one. Say the name of your language in English.
+  ht: |-
+    {fact:us.911.phone} se pou yon danje kounye a: yon dife, yon aksidan, yon krim, yon moun ki pa ka respire.
+
+    Di ki kote ou ye an premye. Apre sa, di sa k pase.
+
+    Mande yon entèprèt si ou bezwen. Di non lang ou an anglè.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us.911.any-phone
+  - us.911.phone
+- []
+- - us.911.languages
+desk: us.911
+actions:
+- type: call_desk
+  desk_id: us.911
+- type: call_desk
+  desk_id: us.988
+utterances:
+  es:
+  - emergencia
+  - llama una ambulancia
+  - necesito la policía ya
+  - hay un incendio
+  - alguien está herido
+  en:
+  - emergency
+  - call an ambulance
+  - I need the police now
+  - there is a fire
+  - someone is hurt
+  ht:
+  - ijans
+  - rele yon anbilans
+  - mwen bezwen lapolis kounye a
+  - gen yon dife
+  - gen yon moun ki blese
+privacy_scope: person
+stages:
+- 1
+- 10
+modes:
+- resident
+- tourist
+region_pack: us
+is_immigration: false
+origin_lenses:
+- tourist
+related_cards:
+- police-stop-script
+fact_refs:
+- us.911.phone
+- us.911.any-phone
+- us.911.languages
+topics:
+- '911'
+- desk

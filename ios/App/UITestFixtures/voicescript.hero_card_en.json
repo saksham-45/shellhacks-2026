@@ -1,0 +1,30 @@
+{
+  "lines": [
+    {
+      "expect": "a11y.personDetail.list",
+      "language": "en",
+      "text": "Demo Student"
+    },
+    {
+      "expect": "a11y.card.list",
+      "language": "en",
+      "text": "next step"
+    },
+    {
+      "expect": "a11y.card.stopReading",
+      "language": "en",
+      "text": "read this"
+    },
+    {
+      "expect": "a11y.card.readAloud",
+      "language": "en",
+      "text": "stop"
+    },
+    {
+      "expect": "a11y.personDetail.hero",
+      "language": "en",
+      "text": "go back"
+    }
+  ],
+  "name": "hero_card_en"
+}

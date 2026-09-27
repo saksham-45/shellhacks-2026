@@ -1,0 +1,11 @@
+{
+  "note": "AppAction open_map_desk. Example ids only; no real people or facts.",
+  "type": "app_action",
+  "value": {
+    "target": {
+      "desk_id": "us-fl-miamidade.311",
+      "type": "desk"
+    },
+    "type": "open_map"
+  }
+}

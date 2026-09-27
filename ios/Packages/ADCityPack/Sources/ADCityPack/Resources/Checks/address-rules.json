@@ -1,0 +1,152 @@
+{
+ "layers": [
+  {
+   "key": "municipality",
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM_Display/MapServer/1",
+   "fields": [
+    "NAME"
+   ],
+   "source_id": "us-fl-miamidade.gis-311crm-display"
+  },
+  {
+   "key": "county-garbage",
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM_Display/MapServer/3",
+   "fields": [
+    "WEEKDAYS"
+   ],
+   "source_id": "us-fl-miamidade.gis-311crm-display"
+  },
+  {
+   "key": "county-recycling",
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM_Display/MapServer/4",
+   "fields": [
+    "WEEKDAY",
+    "PICKUPWEEK"
+   ],
+   "source_id": "us-fl-miamidade.gis-311crm-display"
+  },
+  {
+   "key": "county-bulky-book",
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM_Display/MapServer/7",
+   "fields": [
+    "LABEL"
+   ],
+   "source_id": "us-fl-miamidade.gis-311crm-display"
+  },
+  {
+   "key": "water",
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM_Display/MapServer/14",
+   "fields": [
+    "UTILITYNAME"
+   ],
+   "source_id": "us-fl-miamidade.gis-311crm-display",
+   "domain_field": "UTILITYNAME"
+  },
+  {
+   "key": "sewer",
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM_Display/MapServer/15",
+   "fields": [
+    "UTILITYNAME"
+   ],
+   "source_id": "us-fl-miamidade.gis-311crm-display",
+   "domain_field": "UTILITYNAME"
+  },
+  {
+   "key": "city-garbage",
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM_Display/MapServer/19",
+   "fields": [
+    "GRAPCKDAYS"
+   ],
+   "source_id": "us-fl-miamidade.gis-311crm-display"
+  },
+  {
+   "key": "city-recycling",
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM_Display/MapServer/20",
+   "fields": [
+    "RECYROUTE"
+   ],
+   "source_id": "us-fl-miamidade.gis-311crm-display"
+  },
+  {
+   "key": "city-bulky",
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM_Display/MapServer/21",
+   "fields": [
+    "TRASHDAY"
+   ],
+   "source_id": "us-fl-miamidade.gis-311crm-display"
+  },
+  {
+   "key": "elementary",
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM/MapServer/18",
+   "fields": [
+    "DISPLAYNAME",
+    "ADDRESS",
+    "CITY",
+    "ZIPCODE",
+    "PHONE",
+    "GRADES"
+   ],
+   "source_id": "us-fl-miamidade.gis-311crm"
+  },
+  {
+   "key": "police-grid",
+   "url": "https://giswspro.miamidade.gov/ArcGIS/rest/services/311/311CRM/MapServer/38",
+   "fields": [
+    "DISTNAME"
+   ],
+   "source_id": "us-fl-miamidade.gis-311crm"
+  }
+ ],
+ "city_trash_domain": {
+  "url": "https://gis.miami.gov/gis/rest/services/SolidWaste/TrashRoutes/MapServer/0",
+  "field": "TRASHDAY",
+  "source_id": "us-fl-miami.gis-trash-routes"
+ },
+ "rules": [
+  {
+   "id": "online-report",
+   "fact": "us-fl-miamidade.sheriff.online-report-area",
+   "status": "verified",
+   "desk": "us-fl-miamidade.sheriff",
+   "municipalities": [
+    "UNINCORPORATED MIAMI-DADE",
+    "CUTLER BAY",
+    "PALMETTO BAY",
+    "MIAMI LAKES"
+   ],
+   "unconfirmed": []
+  },
+  {
+   "id": "police.sheriff",
+   "fact": "us-fl-miamidade.sheriff.service-area",
+   "also_facts": [
+    "us-fl-miamidade.sheriff.contract-towns"
+   ],
+   "status": "verified",
+   "desk": "us-fl-miamidade.sheriff",
+   "municipalities": [
+    "UNINCORPORATED MIAMI-DADE",
+    "CUTLER BAY"
+   ],
+   "unconfirmed": [
+    "PALMETTO BAY",
+    "MIAMI LAKES"
+   ],
+   "why_partial": "quote does not name PALMETTO BAY, MIAMI LAKES"
+  },
+  {
+   "id": "police.city-of-miami",
+   "fact": "us-fl-miami.police.service-area",
+   "status": "verified",
+   "desk": "us-fl-miami.police",
+   "municipalities": [
+    "MIAMI"
+   ],
+   "unconfirmed": []
+  }
+ ],
+ "online_report_url_fact": "us-fl-miamidade.sheriff.online-report-url",
+ "water_meaning_fact": "us-fl-miamidade.utility.mdws-meaning",
+ "fallback_desk": "us-fl-miamidade.311",
+ "school_desk": "us-fl-miamidade.m-dcps"
+}

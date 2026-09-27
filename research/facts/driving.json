@@ -1,0 +1,432 @@
+[
+  {
+    "id": "us-fl.driving.school-bus-stop-both-directions",
+    "claim": "In Florida, every driver approaching a school bus that shows its stop signal must stop fully and stay stopped until the signal is withdrawn.",
+    "value": true,
+    "unit": null,
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.fl-statute-316-172",
+    "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0316/Sections/0316.172.html",
+    "quote": "Any person using, operating, or driving a vehicle on or over the roads or highways of this state shall, upon approaching any school bus which displays a stop signal, bring such vehicle to a full stop while the bus is stopped, and the vehicle shall not pass the school bus until the signal has been withdrawn.",
+    "retrieved_at": "2026-09-25T17:33:00-04:00",
+    "check_every": "P1Y",
+    "status": "verified",
+    "value_type": "flag",
+    "plan_value": "A school bus with the stop sign out means stop, from either direction, on an undivided road.",
+    "plan_ref": "myamericandream-plan.md > Origin lens (India, and anyone from a left-driving country)",
+    "desk": "us-fl.flhsmv",
+    "topics": [
+      "driving"
+    ]
+  },
+  {
+    "id": "us-fl.driving.school-bus-divided-highway-exception",
+    "claim": "On a divided highway with an unpaved space of at least 5 feet, a raised median, or a physical barrier, drivers going the opposite direction do not have to stop for a stopped school bus.",
+    "value": "5",
+    "unit": "feet (minimum unpaved median)",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.fl-statute-316-172",
+    "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0316/Sections/0316.172.html",
+    "quote": "The driver of a vehicle upon a divided highway with an unpaved space of at least 5 feet, a raised median, or a physical barrier is not required to stop when traveling in the opposite direction of a school bus which is stopped in accordance with the provisions of this section.",
+    "retrieved_at": "2026-09-25T17:33:00-04:00",
+    "check_every": "P1Y",
+    "status": "verified",
+    "value_type": "quantity",
+    "plan_value": "from either direction, on an undivided road",
+    "plan_ref": "myamericandream-plan.md > Origin lens (India, and anyone from a left-driving country)",
+    "desk": "us-fl.flhsmv",
+    "topics": [
+      "driving"
+    ]
+  },
+  {
+    "id": "us-fl.driving.right-on-red-after-stop",
+    "claim": "In Florida, a driver stopped at a steady red may turn right after stopping, yielding to pedestrians and traffic, unless a posted sign prohibits it.",
+    "value": true,
+    "unit": null,
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.fl-statute-316-075",
+    "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0316/Sections/0316.075.html",
+    "quote": "in obedience to a steady red signal may make a right turn, but shall yield the right-of-way to pedestrians and other traffic proceeding as directed by the signal at the intersection, except that municipal and county authorities may prohibit any such right turn against a steady red signal at any intersection, which prohibition shall be effective when a sign giving notice",
+    "retrieved_at": "2026-09-25T17:33:00-04:00",
+    "check_every": "P1Y",
+    "status": "verified",
+    "value_type": "flag",
+    "plan_value": "Right on red is a stop, then a turn, where the sign does not forbid it.",
+    "plan_ref": "myamericandream-plan.md > Origin lens (India, and anyone from a left-driving country)",
+    "desk": "us-fl.flhsmv",
+    "topics": [
+      "driving"
+    ]
+  },
+  {
+    "id": "us-fl.driving.dui-bac-limit",
+    "claim": "In Florida, driving with a blood or breath alcohol level of 0.08 or more is DUI.",
+    "value": "0.08",
+    "unit": "g/100 mL blood (or g/210 L breath)",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.fl-statute-316-193",
+    "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0316/Sections/0316.193.html",
+    "quote": "The person has a blood-alcohol level of 0.08 or more grams of alcohol per 100 milliliters of blood; or",
+    "retrieved_at": "2026-09-25T17:33:00-04:00",
+    "check_every": "P1Y",
+    "status": "verified",
+    "value_type": "quantity",
+    "plan_value": "DUI is criminal.",
+    "plan_ref": "myamericandream-plan.md > Origin lens (India, and anyone from a left-driving country)",
+    "desk": "us-fl.flhsmv",
+    "topics": [
+      "driving"
+    ]
+  },
+  {
+    "id": "us-fl.driving.dui-is-criminal",
+    "claim": "A first DUI conviction in Florida is punished by a fine of $500 to $1,000 and up to 6 months in jail. It is a criminal offense, not a ticket.",
+    "value": "fine_min: 500; fine_max: 1000; jail_max_months: 6",
+    "unit": "USD / months (first conviction)",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.fl-statute-316-193",
+    "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0316/Sections/0316.193.html",
+    "quote": "By a fine of: a. Not less than $500 or more than $1,000 for a first conviction. b. Not less than $1,000 or more than $2,000 for a second conviction; and 2. By imprisonment for: a. Not more than 6 months for a first conviction.",
+    "retrieved_at": "2026-09-25T17:33:00-04:00",
+    "check_every": "P1Y",
+    "status": "verified",
+    "value_type": "text",
+    "plan_value": "DUI is criminal.",
+    "plan_ref": "myamericandream-plan.md > Origin lens (India, and anyone from a left-driving country)",
+    "desk": "us-fl.florida-bar-lrs",
+    "topics": [
+      "driving"
+    ],
+    "value_language": "en"
+  },
+  {
+    "id": "us-fl.driving.insurance-pip-pdl-minimum",
+    "claim": "Any vehicle with a current Florida registration must carry at least $10,000 in Personal Injury Protection (PIP) and $10,000 in Property Damage Liability (PDL).",
+    "value": "pip: 10000; pdl: 10000",
+    "unit": "USD (minimum coverage)",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-insurance",
+    "url": "https://www.flhsmv.gov/insurance/",
+    "quote": "Any vehicle with a current Florida registration must: be insured with PIP and PDL insurance at the time of vehicle registration. have a minimum of $10,000 in PIP AND a minimum of $10,000 in PDL.",
+    "retrieved_at": "2026-09-25T17:33:00-04:00",
+    "check_every": "P1Y",
+    "status": "verified",
+    "value_type": "text",
+    "plan_value": "Insurance is not optional. / A car only after insurance.",
+    "plan_ref": "myamericandream-plan.md > Origin lens (India, and anyone from a left-driving country); myamericandream-plan.md > The first year (item 16)",
+    "desk": "us-fl.flhsmv",
+    "topics": [
+      "driving"
+    ],
+    "value_language": "en"
+  },
+  {
+    "id": "us-fl.driving.insurance-continuous",
+    "claim": "Florida-registered vehicles must have continuous coverage even when not driven or inoperable, or the plate must be surrendered.",
+    "value": true,
+    "unit": null,
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-insurance",
+    "url": "https://www.flhsmv.gov/insurance/",
+    "quote": "have continuous coverage even if the vehicle is not being driven or is inoperable. Surrender the license plate/tag",
+    "retrieved_at": "2026-09-25T17:33:00-04:00",
+    "check_every": "P1Y",
+    "status": "verified",
+    "value_type": "flag",
+    "desk": "us-fl.flhsmv",
+    "topics": [
+      "driving"
+    ]
+  },
+  {
+    "id": "us-fl.driving.pip-statute-10000",
+    "claim": "Florida's statute sets PIP at $10,000 in medical and disability benefits and $5,000 in death benefits.",
+    "value": "medical_disability: 10000; death: 5000",
+    "unit": "USD",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.fl-statute-627-736",
+    "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0600-0699/0627/Sections/0627.736.html",
+    "quote": "to a limit of $10,000 in medical and disability benefits and $5,000 in death benefits resulting from bodily injury, sickness, disease, or death",
+    "retrieved_at": "2026-09-25T17:33:00-04:00",
+    "check_every": "P1Y",
+    "status": "verified",
+    "value_type": "text",
+    "desk": "us-fl.flhsmv",
+    "topics": [
+      "driving"
+    ],
+    "value_language": "en"
+  },
+  {
+    "id": "us-fl.age.alcohol-21",
+    "claim": "In Florida it is unlawful for anyone under 21 to possess alcoholic beverages, with narrow employment and school-curriculum exceptions.",
+    "value": "21",
+    "unit": "years",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.fl-statute-562-111",
+    "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0562/Sections/0562.111.html",
+    "quote": "It is unlawful for any person under the age of 21 years, except a person employed under the provisions of s.",
+    "retrieved_at": "2026-09-25T17:33:00-04:00",
+    "check_every": "P1Y",
+    "status": "verified",
+    "value_type": "quantity",
+    "plan_value": "Alcohol is 21.",
+    "plan_ref": "myamericandream-plan.md > Origin lens, Etiquette cards",
+    "notes": "Federal National Minimum Drinking Age Act (23 U.S.C. 158) ties highway funds to age 21; this Florida statute is the enforceable rule."
+  },
+  {
+    "id": "us-fl.towing.private-tow-sign-required",
+    "claim": "Before towing from private property (other than a single-family home), the owner must post a sign at each driveway with 'tow-away zone' in letters at least 4 inches high and the tow company's name and current phone number.",
+    "value": "posted tow-away zone sign with tower name and phone",
+    "unit": "text",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.fl-statute-715-07",
+    "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0715/Sections/0715.07.html",
+    "quote": "The notice must clearly indicate, in not fewer than 2-inch high, light-reflective letters on a contrasting background, that unauthorized vehicles will be towed away at the owner’s expense. The words “tow-away zone” must be included on the sign in not fewer than 4-inch high letters. The notice must also provide the name and current telephone number of the person or firm towing or removing the vehicles or vessels.",
+    "retrieved_at": "2026-09-25T17:33:00-04:00",
+    "check_every": "P1Y",
+    "status": "verified",
+    "value_type": "text",
+    "plan_value": "read the rate on the sign and the statute before paying",
+    "plan_ref": "mymiami-public-data.md > Rules, no feed required (Tow letter); mymiami-plan.md > Parking and tows",
+    "desk": "us-fl-miamidade.311",
+    "topics": [
+      "parking"
+    ],
+    "value_language": "en"
+  },
+  {
+    "id": "us-fl.towing.storage-10-miles",
+    "claim": "In a county of 500,000 or more people (Miami-Dade), a car towed from private property must be stored within 10 miles of where it was taken, and released within 1 hour of a request.",
+    "value": "storage_radius_miles: 10; release_within_hours: 1",
+    "unit": "miles / hours",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.fl-statute-715-07",
+    "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0715/Sections/0715.07.html",
+    "quote": "Any towed or removed vehicle or vessel must be stored at a site within a 10-mile radius of the point of removal in any county of 500,000 population or more ... When a vehicle or vessel has been towed or removed pursuant to this section, it must be released to its owner or person in control or custody within 1 hour after requested.",
+    "retrieved_at": "2026-09-25T17:33:00-04:00",
+    "check_every": "P1Y",
+    "status": "verified",
+    "value_type": "text",
+    "desk": "us-fl-miamidade.311",
+    "topics": [
+      "parking"
+    ],
+    "value_language": "en"
+  },
+  {
+    "id": "us-fl.towing.drop-fee-half-rate",
+    "claim": "If the owner comes back while the car is being hooked up, the tower must stop and release it for a fee of no more than half the posted towing rate.",
+    "value": "0.50",
+    "unit": "fraction of posted tow rate (max)",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.fl-statute-715-07",
+    "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0715/Sections/0715.07.html",
+    "quote": "The vehicle or vessel must be returned upon the payment of a reasonable service fee of not more than one-half of the posted rate for the towing or removal service as provided in subparagraph 6.",
+    "retrieved_at": "2026-09-25T17:33:00-04:00",
+    "check_every": "P1Y",
+    "status": "verified",
+    "value_type": "quantity",
+    "desk": "us-fl-miamidade.311",
+    "topics": [
+      "parking"
+    ]
+  },
+  {
+    "id": "us-fl.towing.rates-filed-and-posted",
+    "claim": "A tow company that charges before release must file its current rates with local law enforcement and post the same rate schedule at the storage site.",
+    "value": true,
+    "unit": null,
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.fl-statute-715-07",
+    "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0715/Sections/0715.07.html",
+    "quote": "must file and keep on record with the local law enforcement agency a complete copy of the current rates to be charged for such services and post at the storage site an identical rate schedule",
+    "retrieved_at": "2026-09-25T17:33:00-04:00",
+    "check_every": "P1Y",
+    "status": "verified",
+    "value_type": "flag",
+    "desk": "us-fl-miamidade.311",
+    "topics": [
+      "parking"
+    ]
+  },
+  {
+    "id": "us-fl.driving.pip-minimum",
+    "claim": "Minimum Personal Injury Protection (PIP) a Florida-registered vehicle must carry.",
+    "value": "10000",
+    "unit": "USD",
+    "value_type": "money",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-insurance",
+    "url": "https://www.flhsmv.gov/insurance/",
+    "quote": "have a minimum of $10,000 in PIP AND a minimum of $10,000 in PDL.",
+    "check_every": "P1Y",
+    "desk": "us-fl.flhsmv",
+    "topics": [
+      "driving"
+    ],
+    "retrieved_at": "2026-09-25T19:15:00-04:00",
+    "status": "verified"
+  },
+  {
+    "id": "us-fl.driving.pdl-minimum",
+    "claim": "Minimum Property Damage Liability (PDL) a Florida-registered vehicle must carry.",
+    "value": "10000",
+    "unit": "USD",
+    "value_type": "money",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-insurance",
+    "url": "https://www.flhsmv.gov/insurance/",
+    "quote": "have a minimum of $10,000 in PIP AND a minimum of $10,000 in PDL.",
+    "check_every": "P1Y",
+    "desk": "us-fl.flhsmv",
+    "topics": [
+      "driving"
+    ],
+    "retrieved_at": "2026-09-25T19:15:00-04:00",
+    "status": "verified"
+  },
+  {
+    "id": "us-fl.driving.insurance-before-registration",
+    "claim": "A vehicle with at least four wheels needs proof of PIP and PDL insurance before it can be registered in Florida.",
+    "value": "A vehicle with at least four wheels needs proof of PIP and PDL insurance before it can be registered in Florida.",
+    "unit": null,
+    "value_type": "text",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-insurance",
+    "url": "https://www.flhsmv.gov/insurance/",
+    "quote": "Before you register a vehicle with at least four wheels in Florida, you must show proof of Personal Injury Protection (PIP) and Property Damage Liability (PDL) automobile insurance.",
+    "check_every": "P1Y",
+    "desk": "us-fl.flhsmv",
+    "topics": [
+      "driving"
+    ],
+    "retrieved_at": "2026-09-25T19:15:00-04:00",
+    "status": "verified",
+    "x-flag-value": true,
+    "value_language": "en"
+  },
+  {
+    "id": "us-fl.driving.newcomer-registration-days",
+    "claim": "A non-resident who takes a job in Florida or enrolls children in a Florida public school must get a Florida registration certificate and plate, insured with a Florida policy, within 10 days of starting the job or enrollment.",
+    "value": "10",
+    "unit": "days",
+    "value_type": "quantity",
+    "jurisdiction": "us-fl",
+    "source_id": "us-fl.flhsmv-insurance",
+    "url": "https://www.flhsmv.gov/insurance/",
+    "quote": "be insured with a Florida policy when a non-resident: accepts employment or engages in a trade, profession or occupation in Florida; or enrolls children to be educated in a Florida public school. You must obtain the registration certificate and license plate within 10 days after beginning employment or enrollment.",
+    "check_every": "P1Y",
+    "desk": "us-fl.flhsmv",
+    "topics": [
+      "driving"
+    ],
+    "retrieved_at": "2026-09-25T19:15:00-04:00",
+    "status": "verified"
+  },
+  {
+    "id": "us-fl-miamidade.transit.fare.metrobus",
+    "claim": "Metrobus full fare.",
+    "value": "2.25",
+    "unit": "USD",
+    "value_type": "money",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.transit-fares",
+    "url": "https://www.miamidade.gov/global/transportation/transit-fares.page",
+    "quote": "Metrobus Full Fare: $2.25 *Discounted Fare: $1.10",
+    "check_every": "P30D",
+    "topics": [
+      "transit"
+    ],
+    "retrieved_at": "2026-09-25T19:15:00-04:00",
+    "status": "verified"
+  },
+  {
+    "id": "us-fl-miamidade.transit.fare.metrorail",
+    "claim": "Metrorail full fare.",
+    "value": "2.25",
+    "unit": "USD",
+    "value_type": "money",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.transit-fares",
+    "url": "https://www.miamidade.gov/global/transportation/transit-fares.page",
+    "quote": "Metrorail Full Fare: $2.25 *Discounted Fare: $1.10",
+    "check_every": "P30D",
+    "topics": [
+      "transit"
+    ],
+    "retrieved_at": "2026-09-25T19:15:00-04:00",
+    "status": "verified"
+  },
+  {
+    "id": "us-fl-miamidade.transit.fare.discounted",
+    "claim": "Metrobus and Metrorail discounted fare (Medicare recipients, most people with disabilities, local K-12 students, using the discount-fare EASY Card).",
+    "value": "1.10",
+    "unit": "USD",
+    "value_type": "money",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.transit-fares",
+    "url": "https://www.miamidade.gov/global/transportation/transit-fares.page",
+    "quote": "*Discounted fares are available for Medicare recipients, most people with disabilities, and local students in grades K-12 when using the EASY Card for discount-fare riders.",
+    "check_every": "P30D",
+    "topics": [
+      "transit"
+    ],
+    "retrieved_at": "2026-09-25T19:15:00-04:00",
+    "status": "verified"
+  },
+  {
+    "id": "us-fl-miamidade.transit.transfer.free-with-easy-only",
+    "claim": "Bus-to-bus, bus-to-rail and rail-to-bus transfers are free only with an EASY Card or EASY Ticket; riders paying cash pay the full fare every time they board a bus.",
+    "value": "Bus-to-bus, bus-to-rail and rail-to-bus transfers are free only with an EASY Card or EASY Ticket; riders paying cash pay the full fare every time they board a bus.",
+    "unit": null,
+    "value_type": "text",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.transit-fares",
+    "url": "https://www.miamidade.gov/global/transportation/transit-fares.page",
+    "quote": "Above-listed transfer fees are for passengers using an EASY Card or EASY Ticket only. Passengers paying with cash must pay the full fare each time they board a bus.",
+    "check_every": "P30D",
+    "topics": [
+      "transit"
+    ],
+    "retrieved_at": "2026-09-25T19:15:00-04:00",
+    "status": "verified",
+    "x-flag-value": true,
+    "value_language": "en"
+  },
+  {
+    "id": "us-fl-miamidade.transit.pass.college-monthly",
+    "claim": "College/Adult Education Center monthly transit pass price.",
+    "value": "56.25",
+    "unit": "USD",
+    "value_type": "money",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.transit-fares",
+    "url": "https://www.miamidade.gov/global/transportation/transit-fares.page",
+    "quote": "College/Adult Education Center Monthly Pass $56.25",
+    "check_every": "P30D",
+    "topics": [
+      "transit"
+    ],
+    "retrieved_at": "2026-09-25T19:15:00-04:00",
+    "status": "verified"
+  },
+  {
+    "id": "us-fl-miamidade.transit.pass.monthly",
+    "claim": "Full-fare 1-month transit pass price (discounted $56.25).",
+    "value": "112.50",
+    "unit": "USD",
+    "value_type": "money",
+    "jurisdiction": "us-fl-miamidade",
+    "source_id": "us-fl-miamidade.transit-fares",
+    "url": "https://www.miamidade.gov/global/transportation/transit-fares.page",
+    "quote": "Full Fare: $112.50 *Discounted Fare: $56.25",
+    "check_every": "P30D",
+    "topics": [
+      "transit"
+    ],
+    "retrieved_at": "2026-09-25T19:15:00-04:00",
+    "status": "verified"
+  }
+]

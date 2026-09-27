@@ -1,0 +1,106 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: clinic-not-er
+kind: country
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Put the shoes on > The first month, once they are sleeping
+  item: 11. A clinic, not an emergency room
+- plan: myamericandream-plan.md
+  section: Build order
+  item: '7. Country cards: clinic versus ER'
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The country, same everywhere
+  item: 'Health: ER versus clinic'
+title:
+  es: Una clínica, no la sala de emergencias, para una fiebre
+  en: A clinic, not the ER, for a fever
+  ht: Yon klinik, pa sal ijans, pou yon lafyèv
+summary:
+  es: La sala de emergencias tiene que atenderte. La cuenta llega después. Para enfermedades comunes, empieza en una clínica.
+  en: The emergency room must see you. The bill comes later. For ordinary sickness, start at a clinic.
+  ht: Sal ijans lan oblije wè w. Bòdwo a vini apre. Pou maladi òdinè, kòmanse nan yon klinik.
+body:
+  es: |-
+    Las salas de emergencias deben evaluar y estabilizar a cualquiera con una emergencia, pueda pagar o no.
+
+    Lo que cuesta: la cuenta de emergencias llega después y casi siempre es mucho más alta que una visita a la clínica.
+
+    Los centros de salud con calificación federal cobran según tus ingresos. Los proveedores de salud que reciben dinero federal deben tomar medidas razonables para darte acceso real en tu idioma.
+
+    Dolor de pecho, dificultad para respirar, sangrado fuerte: llama al {fact:us.911.phone}. Para eso es la sala de emergencias.
+  en: |-
+    Emergency rooms must screen and stabilize anyone with an emergency, whether or not they can pay.
+
+    What it costs: the ER bill arrives later and is usually far higher than a clinic visit.
+
+    Federally qualified health centers charge on a sliding scale by income. Health providers that take federal money must take reasonable steps to give you meaningful access in your language.
+
+    Chest pain, trouble breathing, heavy bleeding: call {fact:us.911.phone}. That is what the ER is for.
+  ht: |-
+    Sal ijans yo oblije egzamine epi estabilize nenpòt moun ki nan yon ijans, kit li ka peye kit li pa kapab.
+
+    Sa sa koute: bòdwo sal ijans lan vini apre epi anjeneral li pi chè anpil pase yon vizit nan klinik.
+
+    Sant sante federal kalifye yo fè w peye dapre sa w touche. Founisè swen sante ki resevwa lajan federal dwe pran mezi rezonab pou ba ou aksè toutbon nan lang ou.
+
+    Doulè nan pwatrin, pwoblèm pou respire, anpil san k ap koule: rele {fact:us.911.phone}. Se pou sa sal ijans lan la.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us.health.emtala
+- - us.health.er-vs-clinic-cost
+- - us.health.fqhc-sliding-scale
+  - us.hhs.45-cfr-92.201.requirement
+- - us.health.when-to-call-911
+  - us.911.phone
+desk: us.community-health-center
+actions:
+- type: call_desk
+  desk_id: us.community-health-center
+- type: open_map
+  target:
+    type: desk
+    desk_id: us.community-health-center
+utterances:
+  es:
+  - tengo fiebre, a dónde voy
+  - necesito un médico
+  - clínica cerca de mí
+  - debo ir a emergencias
+  - doctor que cobre según lo que gano
+  en:
+  - I have a fever where do I go
+  - I need a doctor
+  - clinic near me
+  - should I go to the emergency room
+  - doctor that charges by income
+  ht:
+  - mwen gen lafyèv, ki kote pou m ale
+  - mwen bezwen yon doktè
+  - klinik toupre m
+  - èske pou m al nan sal ijans
+  - doktè ki fè w peye dapre sa w touche
+privacy_scope: person
+stages:
+- 6
+modes:
+- resident
+region_pack: us
+is_immigration: false
+related_cards:
+- medical-bill
+fact_refs:
+- us.health.emtala
+- us.hhs.45-cfr-92.201.requirement
+- us.health.er-vs-clinic-cost
+- us.health.fqhc-sliding-scale
+- us.health.when-to-call-911
+- us.911.phone
+topics:
+- health

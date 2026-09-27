@@ -1,0 +1,91 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: groceries
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > Money
+  item: Groceries at Sedano's, Publix, Presidente, Walmart
+- plan: mymiami-plan.md
+  section: Every feature > Money
+  item: Groceries
+title:
+  es: El mercado cerca de ti
+  en: Groceries near you
+  ht: Makèt toupre w
+summary:
+  es: 'Un carrito semanal en las tiendas cerca de tu dirección: Sedano''s, Publix, Presidente, Walmart. Un precio aparece solo si tiene fuente o si está marcado claramente como demo.'
+  en: 'A weekly cart at the stores near your pin: Sedano''s, Publix, Presidente, Walmart. A price shows only when it is a sourced fact or clearly labeled demo.'
+  ht: 'Yon panye chak semèn nan magazen toupre adrès ou: Sedano''s, Publix, Presidente, Walmart. Yon pri parèt sèlman si li gen sous oswa si li make klèman demo.'
+body:
+  es: |-
+    Tiendas cerca de tu dirección: {fact:us-fl-miamidade.places.grocery-stores}.
+
+    Canasta de demostración, marcada como demo: {fact:us-fl-miamidade.groceries.demo-basket}.
+
+    Los precios reales de los estantes no tienen fuente: ninguna tienda los publica de forma que podamos leerlos. Pregunta en el servicio al cliente de la tienda.
+  en: |-
+    Stores near your pin: {fact:us-fl-miamidade.places.grocery-stores}.
+
+    Demo basket, labeled demo: {fact:us-fl-miamidade.groceries.demo-basket}.
+
+    Live shelf prices are unsourced: no store publishes them in a way we can read. Ask the store's service desk.
+  ht: |-
+    Magazen toupre adrès ou: {fact:us-fl-miamidade.places.grocery-stores}.
+
+    Panye demonstrasyon, ki make demo: {fact:us-fl-miamidade.groceries.demo-basket}.
+
+    Pri reyèl sou etajè yo pa gen sous: okenn magazen pa pibliye yo yon fason nou ka li yo. Mande biwo sèvis kliyan magazen an.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.places.grocery-stores
+- - us-fl-miamidade.groceries.demo-basket
+- []
+desk: us-fl-miamidade.grocery-store
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.grocery-store
+- type: open_map
+  target:
+    type: desk
+    desk_id: us-fl-miamidade.grocery-store
+utterances:
+  es:
+  - dónde hago el mercado
+  - el supermercado más barato cerca
+  - Publix o Sedano's
+  - cuánto cuesta la comida de la semana
+  - where do I buy la comida
+  en:
+  - where do I buy groceries
+  - cheapest supermarket near me
+  - Publix or Sedano's
+  - how much is food for the week
+  - dónde hago groceries
+  ht:
+  - ki kote pou m fè makèt
+  - makèt ki pi bon mache toupre m
+  - Publix oswa Sedano's
+  - konbyen manje semèn nan koute
+  - kote pou m achte groceries
+privacy_scope: household
+stages:
+- 4
+- 10
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+fact_refs:
+- us-fl-miamidade.places.grocery-stores
+- us-fl-miamidade.groceries.demo-basket
+topics:
+- food
+- money
+editor_notes: 'ARCHITECTURE.md 11.4: prices only as demo-status facts or unsourced plus desk.'

@@ -1,0 +1,9 @@
+# research/ local-only artifacts (never copied into the project repo)
+.venv/
+.pytest_cache/
+.cache/
+__pycache__/
+*.pyc
+# freshness state + page cache, onboarding raw HTTP caches
+freshness/.cache/
+onboarding/runs/*/.cache/

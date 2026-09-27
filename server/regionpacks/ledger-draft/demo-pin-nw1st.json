@@ -1,0 +1,1008 @@
+[
+ {
+  "id": "us.fema.flood-zone.demo.pin-nw1st",
+  "lookup_id": "us.fema.flood-zone",
+  "value": {
+   "type": "code",
+   "code": "X"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us",
+  "desk": "us.fema-nfip",
+  "source_id": "us.fema.nfhl",
+  "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=FLD_ZONE%2CZONE_SUBTY%2CSFHA_TF&returnGeometry=false&f=json",
+  "quote": "FLD_ZONE: X; ZONE_SUBTY: AREA OF MINIMAL FLOOD HAZARD; SFHA_TF: F",
+  "retrieved_at": "2026-09-25T18:11:08-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.government.municipality.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.government.municipality",
+  "value": {
+   "type": "code",
+   "code": "MIAMI"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.311",
+  "source_id": "us-fl-miamidade.gis-municipality",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_MDPDViewer/MapServer/8/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=NAME%2CMUNICID&returnGeometry=false&f=json",
+  "quote": "NAME: MIAMI; MUNICID: 01",
+  "retrieved_at": "2026-09-25T18:06:37-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.government.municipality-id.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.government.municipality-id",
+  "value": {
+   "type": "code",
+   "code": "01"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.311",
+  "source_id": "us-fl-miamidade.gis-municipality",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_MDPDViewer/MapServer/8/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=NAME%2CMUNICID&returnGeometry=false&f=json",
+  "quote": "NAME: MIAMI; MUNICID: 01",
+  "retrieved_at": "2026-09-25T18:06:37-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.trash.garbage-days.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.trash.garbage-days",
+  "value": null,
+  "outcome": "not_applicable",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.dswm",
+  "source_id": "us-fl-miamidade.gis-garbage-route",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/1/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=WEEKDAYS%2CROUTE&returnGeometry=false&f=json",
+  "quote": null,
+  "retrieved_at": "2026-09-25T18:06:38-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "not_applicable": {
+   "reason": "regions.na.county-trash-not-serviced",
+   "defer_to": {
+    "pack_id": "us-fl-miami",
+    "fact_id": "us-fl-miami.trash.day"
+   }
+  }
+ },
+ {
+  "id": "us-fl-miamidade.trash.recycling-day.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.trash.recycling-day",
+  "value": null,
+  "outcome": "not_applicable",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.dswm",
+  "source_id": "us-fl-miamidade.gis-recycling-route",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/2/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=WEEKDAY%2CPICKUPWEEK%2CDESCRIPTION&returnGeometry=false&f=json",
+  "quote": null,
+  "retrieved_at": "2026-09-25T18:06:38-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "not_applicable": {
+   "reason": "regions.na.county-trash-not-serviced",
+   "defer_to": {
+    "pack_id": "us-fl-miami",
+    "fact_id": "us-fl-miami.trash.day"
+   }
+  }
+ },
+ {
+  "id": "us-fl-miamidade.trash.recycling-week.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.trash.recycling-week",
+  "value": null,
+  "outcome": "not_applicable",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.dswm",
+  "source_id": "us-fl-miamidade.gis-recycling-route",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_GarbageRecycle/MapServer/2/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=WEEKDAY%2CPICKUPWEEK%2CDESCRIPTION&returnGeometry=false&f=json",
+  "quote": null,
+  "retrieved_at": "2026-09-25T18:06:38-04:00",
+  "check_every": "P30D",
+  "status": "unsourced",
+  "not_applicable": {
+   "reason": "regions.na.county-trash-not-serviced",
+   "defer_to": {
+    "pack_id": "us-fl-miami",
+    "fact_id": "us-fl-miami.trash.day"
+   }
+  }
+ },
+ {
+  "id": "us-fl-miamidade.school.elementary.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.school.elementary",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Frederick Douglass Elementary",
+    "coordinate": {
+     "latitude": 25.78532,
+     "longitude": -80.20082
+    },
+    "address": "314 NW 12th St"
+   }
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.m-dcps-transportation",
+  "source_id": "us-fl-miamidade.gis-school-elementary",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=psde2.MDC.SchoolSite.NAME%2Cpsde2.MDC.SchoolSite.ADDRESS%2Cpsde2.MDC.SchoolSite.LAT%2Cpsde2.MDC.SchoolSite.LON%2Cpsde2.MDC.ElementaryAttendanceBoundary.PHONE%2Cpsde2.MDC.ElementaryAttendanceBoundary.GRADES&returnGeometry=false&f=json",
+  "quote": "psde2.MDC.SchoolSite.NAME: Frederick Douglass Elementary; ADDRESS: 314 NW 12th St",
+  "retrieved_at": "2026-09-25T18:06:39-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.school.elementary.phone.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.school.elementary.phone",
+  "value": {
+   "type": "phone",
+   "digits": "3053714687"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.m-dcps-transportation",
+  "source_id": "us-fl-miamidade.gis-school-elementary",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=psde2.MDC.SchoolSite.NAME%2Cpsde2.MDC.SchoolSite.ADDRESS%2Cpsde2.MDC.SchoolSite.LAT%2Cpsde2.MDC.SchoolSite.LON%2Cpsde2.MDC.ElementaryAttendanceBoundary.PHONE%2Cpsde2.MDC.ElementaryAttendanceBoundary.GRADES&returnGeometry=false&f=json",
+  "quote": "PHONE: 305-371-4687",
+  "retrieved_at": "2026-09-25T18:06:39-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.school.elementary.grades.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.school.elementary.grades",
+  "value": {
+   "type": "code",
+   "code": "K-5"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.m-dcps-transportation",
+  "source_id": "us-fl-miamidade.gis-school-elementary",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/9/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=psde2.MDC.SchoolSite.NAME%2Cpsde2.MDC.SchoolSite.ADDRESS%2Cpsde2.MDC.SchoolSite.LAT%2Cpsde2.MDC.SchoolSite.LON%2Cpsde2.MDC.ElementaryAttendanceBoundary.PHONE%2Cpsde2.MDC.ElementaryAttendanceBoundary.GRADES&returnGeometry=false&f=json",
+  "quote": "GRADES: K-5",
+  "retrieved_at": "2026-09-25T18:06:39-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.school.middle.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.school.middle",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Jose De Diego Middle",
+    "coordinate": {
+     "latitude": 25.80591,
+     "longitude": -80.20369
+    },
+    "address": "3100 NW 5th Ave"
+   }
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.m-dcps-transportation",
+  "source_id": "us-fl-miamidade.gis-school-middle",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=psde2.MDC.SchoolSite.NAME%2Cpsde2.MDC.SchoolSite.ADDRESS%2Cpsde2.MDC.SchoolSite.LAT%2Cpsde2.MDC.SchoolSite.LON%2Cpsde2.MDC.MiddleAttendanceBoundary.PHONE%2Cpsde2.MDC.MiddleAttendanceBoundary.GRADES&returnGeometry=false&f=json",
+  "quote": "psde2.MDC.SchoolSite.NAME: Jose De Diego Middle; ADDRESS: 3100 NW 5th Ave",
+  "retrieved_at": "2026-09-25T18:06:40-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.school.middle.phone.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.school.middle.phone",
+  "value": {
+   "type": "phone",
+   "digits": "3055737229"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.m-dcps-transportation",
+  "source_id": "us-fl-miamidade.gis-school-middle",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=psde2.MDC.SchoolSite.NAME%2Cpsde2.MDC.SchoolSite.ADDRESS%2Cpsde2.MDC.SchoolSite.LAT%2Cpsde2.MDC.SchoolSite.LON%2Cpsde2.MDC.MiddleAttendanceBoundary.PHONE%2Cpsde2.MDC.MiddleAttendanceBoundary.GRADES&returnGeometry=false&f=json",
+  "quote": "PHONE: 305-573-7229",
+  "retrieved_at": "2026-09-25T18:06:40-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.school.middle.grades.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.school.middle.grades",
+  "value": {
+   "type": "code",
+   "code": "6-8"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.m-dcps-transportation",
+  "source_id": "us-fl-miamidade.gis-school-middle",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/11/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=psde2.MDC.SchoolSite.NAME%2Cpsde2.MDC.SchoolSite.ADDRESS%2Cpsde2.MDC.SchoolSite.LAT%2Cpsde2.MDC.SchoolSite.LON%2Cpsde2.MDC.MiddleAttendanceBoundary.PHONE%2Cpsde2.MDC.MiddleAttendanceBoundary.GRADES&returnGeometry=false&f=json",
+  "quote": "GRADES: 6-8",
+  "retrieved_at": "2026-09-25T18:06:40-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.school.high.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.school.high",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Booker T. Washington Senior High",
+    "coordinate": {
+     "latitude": 25.7865,
+     "longitude": -80.20511
+    },
+    "address": "1200 NW 6th Ave"
+   }
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.m-dcps-transportation",
+  "source_id": "us-fl-miamidade.gis-school-high",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=psde2.MDC.SchoolSite.NAME%2Cpsde2.MDC.SchoolSite.ADDRESS%2Cpsde2.MDC.SchoolSite.LAT%2Cpsde2.MDC.SchoolSite.LON%2Cpsde2.MDC.HighAttendanceBoundary.PHONE%2Cpsde2.MDC.HighAttendanceBoundary.GRADES&returnGeometry=false&f=json",
+  "quote": "psde2.MDC.SchoolSite.NAME: Booker T. Washington Senior High; ADDRESS: 1200 NW 6th Ave",
+  "retrieved_at": "2026-09-25T18:06:40-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.school.high.phone.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.school.high.phone",
+  "value": {
+   "type": "phone",
+   "digits": "3053248900"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.m-dcps-transportation",
+  "source_id": "us-fl-miamidade.gis-school-high",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=psde2.MDC.SchoolSite.NAME%2Cpsde2.MDC.SchoolSite.ADDRESS%2Cpsde2.MDC.SchoolSite.LAT%2Cpsde2.MDC.SchoolSite.LON%2Cpsde2.MDC.HighAttendanceBoundary.PHONE%2Cpsde2.MDC.HighAttendanceBoundary.GRADES&returnGeometry=false&f=json",
+  "quote": "PHONE: 305-324-8900",
+  "retrieved_at": "2026-09-25T18:06:40-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.school.high.grades.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.school.high.grades",
+  "value": {
+   "type": "code",
+   "code": "9-12"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.m-dcps-transportation",
+  "source_id": "us-fl-miamidade.gis-school-high",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_Educational/MapServer/10/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=psde2.MDC.SchoolSite.NAME%2Cpsde2.MDC.SchoolSite.ADDRESS%2Cpsde2.MDC.SchoolSite.LAT%2Cpsde2.MDC.SchoolSite.LON%2Cpsde2.MDC.HighAttendanceBoundary.PHONE%2Cpsde2.MDC.HighAttendanceBoundary.GRADES&returnGeometry=false&f=json",
+  "quote": "GRADES: 9-12",
+  "retrieved_at": "2026-09-25T18:06:40-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.parcel.folio.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.parcel.folio",
+  "value": {
+   "type": "code",
+   "code": "0141370230020"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.property-appraiser",
+  "source_id": "us-fl-miamidade.gis-parcels",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=80&units=esriSRUnit_Meter&outFields=FOLIO%2CTRUE_SITE_ADDR%2CCONDO_FLAG%2CYEAR_BUILT%2CDOR_DESC&returnGeometry=true&outSR=4326&f=json",
+  "quote": "FOLIO: 0141370230020; TRUE_SITE_ADDR: 111 NW 1 ST",
+  "retrieved_at": "2026-09-25T18:06:40-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.parcel.year-built.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.parcel.year-built",
+  "value": {
+   "type": "quantity",
+   "amount": 1984,
+   "unit": "year"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.property-appraiser",
+  "source_id": "us-fl-miamidade.gis-parcels",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=80&units=esriSRUnit_Meter&outFields=FOLIO%2CTRUE_SITE_ADDR%2CCONDO_FLAG%2CYEAR_BUILT%2CDOR_DESC&returnGeometry=true&outSR=4326&f=json",
+  "quote": "FOLIO: 0141370230020; TRUE_SITE_ADDR: 111 NW 1 ST; YEAR_BUILT: 1984",
+  "retrieved_at": "2026-09-25T18:06:40-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.parcel.condo.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.parcel.condo",
+  "value": {
+   "type": "flag",
+   "value": false
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.property-appraiser",
+  "source_id": "us-fl-miamidade.gis-parcels",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=80&units=esriSRUnit_Meter&outFields=FOLIO%2CTRUE_SITE_ADDR%2CCONDO_FLAG%2CYEAR_BUILT%2CDOR_DESC&returnGeometry=true&outSR=4326&f=json",
+  "quote": "FOLIO: 0141370230020; TRUE_SITE_ADDR: 111 NW 1 ST; CONDO_FLAG: N",
+  "retrieved_at": "2026-09-25T18:06:40-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.parcel.use.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.parcel.use",
+  "value": {
+   "type": "text",
+   "text": "COUNTY : OFFICE BUILDING",
+   "language": "en"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.property-appraiser",
+  "source_id": "us-fl-miamidade.gis-parcels",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=80&units=esriSRUnit_Meter&outFields=FOLIO%2CTRUE_SITE_ADDR%2CCONDO_FLAG%2CYEAR_BUILT%2CDOR_DESC&returnGeometry=true&outSR=4326&f=json",
+  "quote": "FOLIO: 0141370230020; TRUE_SITE_ADDR: 111 NW 1 ST; DOR_DESC: COUNTY : OFFICE BUILDING",
+  "retrieved_at": "2026-09-25T18:06:40-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.utility.water.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.utility.water",
+  "value": {
+   "type": "code",
+   "code": "MDWS"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.wasd",
+  "source_id": "us-fl-miamidade.gis-water-service",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_WaterSewer/MapServer/1/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=UTILITYNAME&returnGeometry=false&f=json",
+  "quote": "UTILITYNAME: MDWS",
+  "retrieved_at": "2026-09-25T18:06:41-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.utility.sewer.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.utility.sewer",
+  "value": {
+   "type": "code",
+   "code": "MDWS"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.wasd",
+  "source_id": "us-fl-miamidade.gis-sewer-service",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_WaterSewer/MapServer/0/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=UTILITYNAME&returnGeometry=false&f=json",
+  "quote": "UTILITYNAME: MDWS",
+  "retrieved_at": "2026-09-25T18:06:41-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.parks.nearest-county.1.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.parks.nearest-county.1",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "FIRST STREET METROMOVER STATION DOG SPOT",
+    "coordinate": {
+     "latitude": 25.775699,
+     "longitude": -80.189835
+    },
+    "address": "245 NE 1ST AVE"
+   }
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.parks",
+  "source_id": "us-fl-miamidade.gis-parks-county",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/1/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter&outFields=NAME%2CADDRESS&returnGeometry=true&outSR=4326&f=json",
+  "quote": "NAME: FIRST STREET METROMOVER STATION DOG SPOT; ADDRESS: 245 NE 1ST AVE",
+  "retrieved_at": "2026-09-25T18:06:42-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.parks.nearest-county.2.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.parks.nearest-county.2",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "FIFTH STREET METROMOVER STATION PLAYGROUND",
+    "coordinate": {
+     "latitude": 25.769385,
+     "longitude": -80.192237
+    },
+    "address": "30 SE 5TH ST"
+   }
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.parks",
+  "source_id": "us-fl-miamidade.gis-parks-county",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/1/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter&outFields=NAME%2CADDRESS&returnGeometry=true&outSR=4326&f=json",
+  "quote": "NAME: FIFTH STREET METROMOVER STATION PLAYGROUND; ADDRESS: 30 SE 5TH ST",
+  "retrieved_at": "2026-09-25T18:06:42-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.parks.nearest-county.3.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.parks.nearest-county.3",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "PASEO DE LAS AMERICAS",
+    "coordinate": {
+     "latitude": 25.7511,
+     "longitude": -80.204151
+    },
+    "address": "23 SE 26TH RD"
+   }
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.parks",
+  "source_id": "us-fl-miamidade.gis-parks-county",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/1/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter&outFields=NAME%2CADDRESS&returnGeometry=true&outSR=4326&f=json",
+  "quote": "NAME: PASEO DE LAS AMERICAS; ADDRESS: 23 SE 26TH RD",
+  "retrieved_at": "2026-09-25T18:06:42-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.parks.nearest-municipal.1.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.parks.nearest-municipal.1",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Paul S Walker Park",
+    "coordinate": {
+     "latitude": 25.77386,
+     "longitude": -80.194541
+    },
+    "address": "46 W Flagler St"
+   }
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.parks",
+  "source_id": "us-fl-miamidade.gis-parks-municipal",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/0/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter&outFields=NAME%2CADDRESS&returnGeometry=true&outSR=4326&f=json",
+  "quote": "NAME: Paul S Walker Park; ADDRESS: 46 W Flagler St",
+  "retrieved_at": "2026-09-25T18:06:42-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.parks.nearest-municipal.2.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.parks.nearest-municipal.2",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Lummus Park - City of Miami",
+    "coordinate": {
+     "latitude": 25.776214,
+     "longitude": -80.20146
+    },
+    "address": "360 NW 3rd St"
+   }
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.parks",
+  "source_id": "us-fl-miamidade.gis-parks-municipal",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/0/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter&outFields=NAME%2CADDRESS&returnGeometry=true&outSR=4326&f=json",
+  "quote": "NAME: Lummus Park - City of Miami; ADDRESS: 360 NW 3rd St",
+  "retrieved_at": "2026-09-25T18:06:42-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.parks.nearest-municipal.3.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.parks.nearest-municipal.3",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Jose Marti Park - Pool",
+    "coordinate": {
+     "latitude": 25.770961,
+     "longitude": -80.200475
+    },
+    "address": "380 SW 3rd St"
+   }
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.parks",
+  "source_id": "us-fl-miamidade.gis-parks-municipal",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_RecreationCulture/MapServer/0/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=3000&units=esriSRUnit_Meter&outFields=NAME%2CADDRESS&returnGeometry=true&outSR=4326&f=json",
+  "quote": "NAME: Jose Marti Park - Pool; ADDRESS: 380 SW 3rd St",
+  "retrieved_at": "2026-09-25T18:06:42-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.library.nearest.1.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.library.nearest.1",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Main Library",
+    "coordinate": {
+     "latitude": 25.774362,
+     "longitude": -80.19718
+    },
+    "address": "101 W Flagler St"
+   }
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.library",
+  "source_id": "us-fl-miamidade.gis-libraries",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=5000&units=esriSRUnit_Meter&outFields=BRANCH%2CADDRESS&returnGeometry=true&outSR=4326&f=json",
+  "quote": "BRANCH: Main Library; ADDRESS: 101 W Flagler St",
+  "retrieved_at": "2026-09-25T18:06:42-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.library.nearest.2.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.library.nearest.2",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Culmer/Overtown Branch",
+    "coordinate": {
+     "latitude": 25.785805,
+     "longitude": -80.201077
+    },
+    "address": "350 NW 13TH ST"
+   }
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.library",
+  "source_id": "us-fl-miamidade.gis-libraries",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=5000&units=esriSRUnit_Meter&outFields=BRANCH%2CADDRESS&returnGeometry=true&outSR=4326&f=json",
+  "quote": "BRANCH: Culmer/Overtown Branch; ADDRESS: 350 NW 13TH ST",
+  "retrieved_at": "2026-09-25T18:06:42-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.library.nearest.3.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.library.nearest.3",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Hispanic Branch",
+    "coordinate": {
+     "latitude": 25.772135,
+     "longitude": -80.21761
+    },
+    "address": "1398 SW 1ST ST"
+   }
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.library",
+  "source_id": "us-fl-miamidade.gis-libraries",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_Libraries/MapServer/1/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&distance=5000&units=esriSRUnit_Meter&outFields=BRANCH%2CADDRESS&returnGeometry=true&outSR=4326&f=json",
+  "quote": "BRANCH: Hispanic Branch; ADDRESS: 1398 SW 1ST ST",
+  "retrieved_at": "2026-09-25T18:06:42-04:00",
+  "check_every": "P30D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.vote.precinct.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.vote.precinct",
+  "value": {
+   "type": "code",
+   "code": "542"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/3/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ID&returnGeometry=false&f=json",
+  "quote": "Precinct ID: 542",
+  "retrieved_at": "2026-09-25T18:06:43-04:00",
+  "check_every": "P7D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.vote.polling-place.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.vote.polling-place",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "Alfred I. DuPont Building",
+    "coordinate": {
+     "latitude": 25.77438,
+     "longitude": -80.19053
+    },
+    "address": "169 E Flagler St"
+   }
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/0/query?where=PRECINCT%3D542&outFields=NAME%2CADDRESS%2CLAT%2CLON%2CPRECINCT&returnGeometry=false&f=json",
+  "quote": "PRECINCT: 542; NAME: Alfred I. DuPont Building; ADDRESS: 169 E Flagler St",
+  "retrieved_at": "2026-09-25T18:06:43-04:00",
+  "check_every": "P7D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.rep.county-commission.district.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.rep.county-commission.district",
+  "value": {
+   "type": "code",
+   "code": "5"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/4/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ID%2CCOMMNAME&returnGeometry=false&f=json",
+  "quote": "ID: 5; COMMNAME: Vicki L. Lopez",
+  "retrieved_at": "2026-09-25T18:06:44-04:00",
+  "check_every": "P7D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.rep.county-commission.member.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.rep.county-commission.member",
+  "value": {
+   "type": "code",
+   "code": "Vicki L. Lopez"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/4/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ID%2CCOMMNAME&returnGeometry=false&f=json",
+  "quote": "ID: 5; COMMNAME: Vicki L. Lopez",
+  "retrieved_at": "2026-09-25T18:06:44-04:00",
+  "check_every": "P7D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.rep.congress.district.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.rep.congress.district",
+  "value": {
+   "type": "code",
+   "code": "27"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/5/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ID%2CREPNAME&returnGeometry=false&f=json",
+  "quote": "ID: 27; REPNAME: María Elvira Salazar",
+  "retrieved_at": "2026-09-25T18:06:44-04:00",
+  "check_every": "P7D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.rep.congress.member.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.rep.congress.member",
+  "value": {
+   "type": "code",
+   "code": "María Elvira Salazar"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/5/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ID%2CREPNAME&returnGeometry=false&f=json",
+  "quote": "ID: 27; REPNAME: María Elvira Salazar",
+  "retrieved_at": "2026-09-25T18:06:44-04:00",
+  "check_every": "P7D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.rep.state-senate.district.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.rep.state-senate.district",
+  "value": {
+   "type": "code",
+   "code": "36"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/6/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ID%2CSENNAME&returnGeometry=false&f=json",
+  "quote": "ID: 36; SENNAME: Ileana Garcia",
+  "retrieved_at": "2026-09-25T18:06:44-04:00",
+  "check_every": "P7D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.rep.state-senate.member.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.rep.state-senate.member",
+  "value": {
+   "type": "code",
+   "code": "Ileana Garcia"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/6/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ID%2CSENNAME&returnGeometry=false&f=json",
+  "quote": "ID: 36; SENNAME: Ileana Garcia",
+  "retrieved_at": "2026-09-25T18:06:44-04:00",
+  "check_every": "P7D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.rep.state-house.district.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.rep.state-house.district",
+  "value": {
+   "type": "code",
+   "code": "109"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/7/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ID%2CREPNAME&returnGeometry=false&f=json",
+  "quote": "ID: 109; REPNAME: Ashley Gantt",
+  "retrieved_at": "2026-09-25T18:06:45-04:00",
+  "check_every": "P7D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.rep.state-house.member.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.rep.state-house.member",
+  "value": {
+   "type": "code",
+   "code": "Ashley Gantt"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/7/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ID%2CREPNAME&returnGeometry=false&f=json",
+  "quote": "ID: 109; REPNAME: Ashley Gantt",
+  "retrieved_at": "2026-09-25T18:06:45-04:00",
+  "check_every": "P7D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.rep.school-board.district.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.rep.school-board.district",
+  "value": {
+   "type": "code",
+   "code": "2"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/8/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ID%2CBRDMBR&returnGeometry=false&f=json",
+  "quote": "ID: 2; BRDMBR: Dr. Dorothy Bendross-Mindingall",
+  "retrieved_at": "2026-09-25T18:06:45-04:00",
+  "check_every": "P7D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.rep.school-board.member.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.rep.school-board.member",
+  "value": {
+   "type": "code",
+   "code": "Dr. Dorothy Bendross-Mindingall"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.elections",
+  "source_id": "us-fl-miamidade.gis-vote",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_KnowWhereToVote/MapServer/8/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ID%2CBRDMBR&returnGeometry=false&f=json",
+  "quote": "ID: 2; BRDMBR: Dr. Dorothy Bendross-Mindingall",
+  "retrieved_at": "2026-09-25T18:06:45-04:00",
+  "check_every": "P7D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.1.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.transit.nearest-stop.1",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "NW 1 ST @ NW 1 AV",
+    "coordinate": {
+     "latitude": 25.77511,
+     "longitude": -80.19679
+    },
+    "address": null
+   }
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.transit",
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": "stops.txt stop_id 104: NW 1 ST @ NW 1 AV; routes.txt route_short_name: 100, 101, 11, 207, 208, 211, 400, 77",
+  "retrieved_at": "2026-09-25T18:07:12-04:00",
+  "check_every": "P7D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.1.routes.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.transit.nearest-stop.1.routes",
+  "value": {
+   "type": "codes",
+   "codes": [
+    "100",
+    "101",
+    "11",
+    "207",
+    "208",
+    "211",
+    "400",
+    "77"
+   ]
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.transit",
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": "stops.txt stop_id 104: NW 1 ST @ NW 1 AV; routes.txt route_short_name: 100, 101, 11, 207, 208, 211, 400, 77",
+  "retrieved_at": "2026-09-25T18:07:12-04:00",
+  "check_every": "P7D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.2.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.transit.nearest-stop.2",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "GOVERNMENT CENTER METROMOVER STATION",
+    "coordinate": {
+     "latitude": 25.775864,
+     "longitude": -80.196093
+    },
+    "address": null
+   }
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.transit",
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": "stops.txt stop_id 813: GOVERNMENT CENTER METROMOVER STATION; routes.txt route_short_name: MMI, MMO",
+  "retrieved_at": "2026-09-25T18:07:12-04:00",
+  "check_every": "P7D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.2.routes.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.transit.nearest-stop.2.routes",
+  "value": {
+   "type": "codes",
+   "codes": [
+    "MMI",
+    "MMO"
+   ]
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.transit",
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": "stops.txt stop_id 813: GOVERNMENT CENTER METROMOVER STATION; routes.txt route_short_name: MMI, MMO",
+  "retrieved_at": "2026-09-25T18:07:12-04:00",
+  "check_every": "P7D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.3.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.transit.nearest-stop.3",
+  "value": {
+   "type": "place",
+   "place": {
+    "name": "GOVERNMENT CTR.STAT.RAIL SOUTHBOUND",
+    "coordinate": {
+     "latitude": 25.776047,
+     "longitude": -80.196157
+    },
+    "address": null
+   }
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.transit",
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": "stops.txt stop_id 9512: GOVERNMENT CTR.STAT.RAIL SOUTHBOUND; routes.txt route_short_name: 2600",
+  "retrieved_at": "2026-09-25T18:07:12-04:00",
+  "check_every": "P7D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.transit.nearest-stop.3.routes.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.transit.nearest-stop.3.routes",
+  "value": {
+   "type": "codes",
+   "codes": [
+    "2600"
+   ]
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.transit",
+  "source_id": "us-fl-miamidade.gtfs",
+  "url": "http://www.miamidade.gov/transit/googletransit/current/google_transit.zip",
+  "quote": "stops.txt stop_id 9512: GOVERNMENT CTR.STAT.RAIL SOUTHBOUND; routes.txt route_short_name: 2600",
+  "retrieved_at": "2026-09-25T18:07:12-04:00",
+  "check_every": "P7D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miamidade.rent.line.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.rent.line",
+  "value": null,
+  "outcome": "unsourced",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.housing",
+  "source_id": null,
+  "url": null,
+  "quote": null,
+  "retrieved_at": null,
+  "check_every": null,
+  "status": "unsourced"
+ },
+ {
+  "id": "us-fl-miamidade.storm.evacuation-zone.demo.pin-nw1st",
+  "lookup_id": "us-fl-miamidade.storm.evacuation-zone",
+  "value": {
+   "type": "code",
+   "code": "B"
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miamidade",
+  "desk": "us-fl-miamidade.311",
+  "source_id": "us-fl-miamidade.gis-evacuation-zone",
+  "url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_CommunityServices/MapServer/7/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=ZONEID%2CCATEGORY&returnGeometry=false&f=json",
+  "quote": "ZONEID: B; CATEGORY: 2",
+  "retrieved_at": "2026-09-25T18:11:08-04:00",
+  "check_every": "P90D",
+  "status": "demo"
+ },
+ {
+  "id": "us-fl-miami.trash.day.demo.pin-nw1st",
+  "lookup_id": "us-fl-miami.trash.day",
+  "value": {
+   "type": "weekdays",
+   "days": [
+    "tuesday"
+   ]
+  },
+  "outcome": "ok",
+  "jurisdiction": "us-fl-miami",
+  "desk": "us-fl-miami.solid-waste",
+  "source_id": "us-fl-miami.gis-trash-routes",
+  "url": "https://gis.miami.gov/gis/rest/services/SolidWaste/TrashRoutes/MapServer/0/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CTRASHDAY&returnGeometry=false&f=json",
+  "quote": "TRASHDAY: T (layer domain: \"Tue\")",
+  "retrieved_at": "2026-09-25T18:06:00-04:00",
+  "check_every": "P7D",
+  "status": "demo"
+ }
+]

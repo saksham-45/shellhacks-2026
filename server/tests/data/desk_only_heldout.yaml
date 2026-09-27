@@ -1,0 +1,136 @@
+# HELD-OUT eval set for the /v1/ask desk-only classifier (owner: myAD Agents). TEST-ONLY wording.
+#
+# Written BEFORE the lexicons in src/myad_server/data/ask_policy.yaml were tuned (review r3, finding B1).
+# Every `desk_only` entry is a question only a desk can answer (visa outcome, clinic or medical price,
+# jobs, appointment slots, school-bus eligibility) and must be desk-routed 100% of the time. `source:
+# review-r3` marks the 15 phrasings that leaked a card at confidence 1.0 in REVIEW.md B1; the rest are new
+# paraphrases in en, es, ht and code-switched text (`lang: mix`).
+#
+# Every `allowed` entry is an ordinary question that must NOT be desk-routed; `card` names the TEST-ONLY card
+# it must still reach in tests/test_ask_desk_only_heldout.py (null = only the classifier is checked).
+#
+# The Creole and Spanish wording is a first pass by Agents; Language/Content should review it.
+desk_only:
+  # ---- visa / immigration outcome -------------------------------------------------------------------
+  - {text: "¿Me aprueban la visa?", lang: es, kind: visa_outcome, source: review-r3}
+  - {text: "¿Me van a negar el asilo?", lang: es, kind: visa_outcome, source: review-r3}
+  - {text: "Will they accept my green card?", lang: en, kind: visa_outcome, source: review-r3}
+  - {text: "Will I get my papers?", lang: en, kind: visa_outcome, source: review-r3}
+  - {text: "Ki chans mwen genyen pou azil la pase?", lang: ht, kind: visa_outcome, source: review-r3}
+  - {text: "Is my TPS going to be renewed?", lang: en, kind: visa_outcome, source: review-r3}
+  - {text: "What are my chances of getting asylum?", lang: en, kind: visa_outcome}
+  - {text: "Am I going to get deported?", lang: en, kind: visa_outcome}
+  - {text: "Will USCIS approve my application?", lang: en, kind: visa_outcome}
+  - {text: "Do you think my visa will be denied?", lang: en, kind: visa_outcome}
+  - {text: "When will my green card be approved?", lang: en, kind: visa_outcome}
+  - {text: "Can I get citizenship this year?", lang: en, kind: visa_outcome}
+  - {text: "Will my work permit be renewed?", lang: en, kind: visa_outcome}
+  - {text: "¿Me van a dar la residencia?", lang: es, kind: visa_outcome}
+  - {text: "¿Cuándo sale mi residencia?", lang: es, kind: visa_outcome}
+  - {text: "¿Qué posibilidades tengo de ganar mi caso de asilo?", lang: es, kind: visa_outcome}
+  - {text: "¿Me renuevan el TPS?", lang: es, kind: visa_outcome}
+  - {text: "¿Me pueden deportar?", lang: es, kind: visa_outcome}
+  - {text: "¿Van a aprobar mi solicitud de ciudadanía?", lang: es, kind: visa_outcome}
+  - {text: "Èske y ap ban m papye?", lang: ht, kind: visa_outcome}
+  - {text: "Èske yo ap renouvle TPS mwen?", lang: ht, kind: visa_outcome}
+  - {text: "Èske mwen pral jwenn rezidans?", lang: ht, kind: visa_outcome}
+  - {text: "Èske yo ka depòte m?", lang: ht, kind: visa_outcome}
+  - {text: "Èske aplikasyon viza mwen ap apwouve?", lang: ht, kind: visa_outcome}
+  - {text: "¿Me van a approve la green card?", lang: mix, kind: visa_outcome}
+  - {text: "Will they give me los papeles?", lang: mix, kind: visa_outcome}
+  - {text: "Èske USCIS ap approve case mwen?", lang: mix, kind: visa_outcome}
+  - {text: "¿Cuándo me dan el work permit?", lang: mix, kind: visa_outcome}
+  # ---- jobs -----------------------------------------------------------------------------------------
+  - {text: "¿Dónde puedo trabajar?", lang: es, kind: job, source: review-r3}
+  - {text: "¿Están contratando en Publix?", lang: es, kind: job, source: review-r3}
+  - {text: "Where can I find work?", lang: en, kind: job}
+  - {text: "Is anyone hiring near me?", lang: en, kind: job}
+  - {text: "Can you help me get a job?", lang: en, kind: job}
+  - {text: "Who is hiring in Hialeah?", lang: en, kind: job}
+  - {text: "Busco chamba", lang: es, kind: job}
+  - {text: "¿Hay empleos para mí?", lang: es, kind: job}
+  - {text: "Kote m ka jwenn travay?", lang: ht, kind: job}
+  - {text: "Èske gen djòb pou mwen?", lang: ht, kind: job}
+  - {text: "M ap chèche yon anplwa", lang: ht, kind: job}
+  - {text: "¿Dónde hay un job cerca?", lang: mix, kind: job}
+  - {text: "Mwen bezwen yon job", lang: mix, kind: job}
+  - {text: "Is Walmart contratando?", lang: mix, kind: job}
+  # ---- clinic / medical / dental price --------------------------------------------------------------
+  - {text: "How much does the health center charge?", lang: en, kind: clinic_price, source: review-r3}
+  - {text: "¿Cuánto cobra el dentista?", lang: es, kind: clinic_price, source: review-r3}
+  - {text: "Konbyen sant sante a koute?", lang: ht, kind: clinic_price, source: review-r3}
+  - {text: "What does a doctor visit cost?", lang: en, kind: clinic_price}
+  - {text: "Is the dentist free?", lang: en, kind: clinic_price}
+  - {text: "How much is a checkup at the clinic?", lang: en, kind: clinic_price}
+  - {text: "What's the price of a dental cleaning?", lang: en, kind: clinic_price}
+  - {text: "¿Cuánto cuesta ver al médico?", lang: es, kind: clinic_price}
+  - {text: "¿La consulta es gratis?", lang: es, kind: clinic_price}
+  - {text: "¿Cuánto me cobran en el hospital?", lang: es, kind: clinic_price}
+  - {text: "Konbyen dokte a ap fè m peye?", lang: ht, kind: clinic_price}
+  - {text: "Èske klinik la gratis?", lang: ht, kind: clinic_price}
+  - {text: "Ki pri dantis la?", lang: ht, kind: clinic_price}
+  - {text: "¿Cuánto cuesta el checkup?", lang: mix, kind: clinic_price}
+  - {text: "Konbyen the doctor charge?", lang: mix, kind: clinic_price}
+  # ---- appointment slots ----------------------------------------------------------------------------
+  - {text: "Mwen bezwen yon rande-vou", lang: ht, kind: appointment_slot, source: review-r3}
+  - {text: "Book me a slot at the DMV", lang: en, kind: appointment_slot, source: review-r3}
+  - {text: "Can I get an appointment tomorrow?", lang: en, kind: appointment_slot}
+  - {text: "Is there a time slot open on Monday?", lang: en, kind: appointment_slot}
+  - {text: "Reserve a visit with the doctor for me", lang: en, kind: appointment_slot}
+  - {text: "Necesito sacar una cita", lang: es, kind: appointment_slot}
+  - {text: "¿Me puedes agendar un turno?", lang: es, kind: appointment_slot}
+  - {text: "¿Hay citas disponibles el lunes?", lang: es, kind: appointment_slot}
+  - {text: "Fè yon randevou pou mwen", lang: ht, kind: appointment_slot}
+  - {text: "Kilè m ka pran randevou?", lang: ht, kind: appointment_slot}
+  - {text: "Necesito un appointment para el lunes", lang: mix, kind: appointment_slot}
+  - {text: "Mwen bezwen yon cita", lang: mix, kind: appointment_slot}
+  # ---- school-bus eligibility -----------------------------------------------------------------------
+  - {text: "Do school buses stop near us?", lang: en, kind: school_bus_eligibility, source: review-r3}
+  - {text: "¿Mi hijo puede usar el bus de la escuela?", lang: es, kind: school_bus_eligibility, source: review-r3}
+  - {text: "Can my son ride the school bus?", lang: en, kind: school_bus_eligibility}
+  - {text: "Where is the school bus stop?", lang: en, kind: school_bus_eligibility}
+  - {text: "Does my daughter qualify for school transportation?", lang: en, kind: school_bus_eligibility}
+  - {text: "¿El autobús escolar pasa por mi casa?", lang: es, kind: school_bus_eligibility}
+  - {text: "¿A qué hora pasa la guagua de la escuela?", lang: es, kind: school_bus_eligibility}
+  - {text: "Èske bis lekòl la pase bò lakay mwen?", lang: ht, kind: school_bus_eligibility}
+  - {text: "Pitit mwen ka pran bis lekòl la?", lang: ht, kind: school_bus_eligibility}
+  - {text: "¿Pasa el school bus por aquí?", lang: mix, kind: school_bus_eligibility}
+  - {text: "Kilè school bus la pase?", lang: mix, kind: school_bus_eligibility}
+
+allowed:
+  # trash day (fixture card test-trash-day)
+  - {text: "when is trash day", lang: en, card: test-trash-day}
+  - {text: "cuándo pasa la basura", lang: es, card: test-trash-day}
+  - {text: "kilè kamyon fatra a pase", lang: ht, card: test-trash-day}
+  - {text: "cuándo es el trash day", lang: mix, card: test-trash-day}
+  # city bus routes, not the school bus (TEST-ONLY card test-bus-route)
+  - {text: "bus route", lang: en, card: test-bus-route}
+  - {text: "ruta de bus", lang: es, card: test-bus-route}
+  - {text: "wout bis", lang: ht, card: test-bus-route}
+  - {text: "bus", lang: en, card: null}
+  - {text: "Which bus route goes downtown?", lang: en, card: test-bus-route}
+  - {text: "¿Dónde está la parada del autobús?", lang: es, card: null}
+  # library card fee (TEST-ONLY card test-library-fee)
+  - {text: "How much is a library card?", lang: en, card: test-library-fee}
+  - {text: "¿Cuánto cuesta la tarjeta de la biblioteca?", lang: es, card: test-library-fee}
+  - {text: "Konbyen kat bibliyotèk la koute?", lang: ht, card: test-library-fee}
+  - {text: "Is the library open on Saturday?", lang: en, card: null}
+  # state ID card fee (TEST-ONLY card test-id-card-fee)
+  - {text: "How much does an ID card cost?", lang: en, card: test-id-card-fee}
+  - {text: "¿Cuánto cuesta la tarjeta de identificación?", lang: es, card: test-id-card-fee}
+  - {text: "Konbyen kat idantite a koute?", lang: ht, card: test-id-card-fee}
+  # other fixture cards
+  - {text: "how much are the tolls", lang: en, card: test-tolls}
+  - {text: "cuánto cuesta el peaje", lang: es, card: test-tolls}
+  - {text: "pay my electric bill", lang: en, card: test-electric-bill}
+  - {text: "renew my work permit", lang: en, card: test-work-permit}
+  - {text: "renovar mi permiso de trabajo", lang: es, card: test-work-permit}
+  - {text: "renouvle pèmi travay mwen", lang: ht, card: test-work-permit}
+  - {text: "which school is my child assigned to", lang: en, card: test-school}
+  - {text: "qué escuela le toca a mi hijo", lang: es, card: test-school}
+  - {text: "clinic near my home", lang: en, card: test-clinic}
+  - {text: "clínica cerca de mi casa", lang: es, card: test-clinic}
+  - {text: "klinik toupre lakay mwen", lang: ht, card: test-clinic}
+  - {text: "pick up old furniture", lang: en, card: test-bulky-pickup}
+  # test-recycling-bin only cites unsourced/stale facts, so it never grounds (router.no_answer, not desk-only)
+  - {text: "blue recycling bin", lang: en, card: null}

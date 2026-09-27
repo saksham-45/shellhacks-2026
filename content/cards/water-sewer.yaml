@@ -1,0 +1,92 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: water-sewer
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > Errands
+  item: Water and sewer utility
+- plan: mymiami-plan.md
+  section: Every feature > The errand that eats a day
+  item: Water and sewer
+title:
+  es: Agua y alcantarillado
+  en: Water and sewer
+  ht: Dlo ak egou
+summary:
+  es: Qué compañía te da el servicio en tu dirección, según el mapa del condado.
+  en: Which utility serves your pin, from the county map.
+  ht: Ki sèvis ki bay adrès ou dlo ak egou, dapre kat konte a.
+body:
+  es: |-
+    Agua: {fact:us-fl-miamidade.utility.water-provider}. Alcantarillado: {fact:us-fl-miamidade.utility.sewer-provider}.
+
+    La capa del mapa se actualizó por última vez: {fact:us-fl-miamidade.utility.layer-updated}.
+
+    ¿Alquilas? El contrato dice quién paga el agua. Pregunta antes de firmar.
+  en: |-
+    Water: {fact:us-fl-miamidade.utility.water-provider}. Sewer: {fact:us-fl-miamidade.utility.sewer-provider}.
+
+    The map layer was last updated: {fact:us-fl-miamidade.utility.layer-updated}.
+
+    Renting? The lease says who pays water. Ask before you sign.
+  ht: |-
+    Dlo: {fact:us-fl-miamidade.utility.water-provider}. Egou: {fact:us-fl-miamidade.utility.sewer-provider}.
+
+    Dènye fwa yo te mete kat la ajou: {fact:us-fl-miamidade.utility.layer-updated}.
+
+    W ap lwe? Kontra a di kiyès ki peye dlo. Mande anvan ou siyen.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.utility.water-provider
+  - us-fl-miamidade.utility.sewer-provider
+- - us-fl-miamidade.utility.layer-updated
+- []
+desk: us-fl-miamidade.water-sewer
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.water-sewer
+- type: open_map
+  target:
+    type: desk
+    desk_id: us-fl-miamidade.water-sewer
+utterances:
+  es:
+  - quién me da el agua
+  - agua y alcantarillado de mi casa
+  - a quién le pago el agua
+  - mi cuenta del agua
+  - water company de mi casa
+  en:
+  - who is my water company
+  - water and sewer for my house
+  - who do I pay for water
+  - my water bill
+  - el agua de mi casa who is it
+  ht:
+  - kiyès ki konpayi dlo m
+  - dlo ak egou pou kay mwen
+  - kiyès pou m peye pou dlo
+  - bòdwo dlo m
+  - water company kay mwen
+privacy_scope: household
+stages:
+- 5
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- lease-basics
+fact_refs:
+- us-fl-miamidade.utility.water-provider
+- us-fl-miamidade.utility.sewer-provider
+- us-fl-miamidade.utility.layer-updated
+topics:
+- water

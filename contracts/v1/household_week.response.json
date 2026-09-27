@@ -1,0 +1,103 @@
+{
+  "request_id": "0example0request0id0000000000002",
+  "language": "es",
+  "facts": {
+    "us-fl-miamidade.example.trash-days": {
+      "type": "fact",
+      "fact": {
+        "fact_id": "us-fl-miamidade.example.trash-days",
+        "pack_id": "us-fl-miamidade",
+        "value": {"type": "weekdays", "days": ["tuesday", "friday"]},
+        "status": "demo",
+        "is_demo": true,
+        "source_id": "us-fl-miamidade.example-source",
+        "source_name": "Example Publisher (fictional)",
+        "url": "https://example.invalid/trash",
+        "quote": "EXAMPLE ONLY - not a real quote.",
+        "retrieved_at": "2026-09-25T12:00:00-04:00",
+        "jurisdiction": "us-fl-miamidade",
+        "basis": {"method": "device_coords"}
+      }
+    },
+    "us-fl-miamidade.example.year-built": {
+      "type": "fact",
+      "fact": {
+        "fact_id": "us-fl-miamidade.example.year-built",
+        "pack_id": "us-fl-miamidade",
+        "value": {"type": "quantity", "amount": 1900, "unit": "year"},
+        "status": "demo",
+        "is_demo": true,
+        "source_id": "us-fl-miamidade.example-source",
+        "source_name": "Example Publisher (fictional)",
+        "url": "https://example.invalid/parcel",
+        "quote": "EXAMPLE ONLY - not a real quote.",
+        "retrieved_at": "2026-09-25T12:00:00-04:00",
+        "jurisdiction": "us-fl-miamidade",
+        "basis": null
+      }
+    },
+    "us-fl-miamidade.example-desk.phone": {
+      "type": "fact",
+      "fact": {
+        "fact_id": "us-fl-miamidade.example-desk.phone",
+        "pack_id": "us-fl-miamidade",
+        "value": {"type": "phone", "digits": "5550100"},
+        "status": "demo",
+        "is_demo": true,
+        "source_id": "us-fl-miamidade.example-source",
+        "source_name": "Example Publisher (fictional)",
+        "url": "https://example.invalid/desk",
+        "quote": "EXAMPLE ONLY - not a real quote.",
+        "retrieved_at": "2026-09-25T12:00:00-04:00",
+        "jurisdiction": "us-fl-miamidade",
+        "basis": null
+      }
+    },
+    "us-fl-miamidade.example.bulky-pickup": {
+      "type": "deferred",
+      "fact_id": "us-fl-miamidade.example.bulky-pickup",
+      "reason": {"key": "example.not_applicable.city_hauls_own", "table": "ADCityPack"},
+      "defer_to": {"pack_id": "us-fl-miami", "fact_id": "us-fl-miami.example.bulky-pickup"},
+      "desk_id": "us-fl-miami.example-desk"
+    },
+    "us-fl-miamidade.example.bus-route": {
+      "type": "unavailable",
+      "fact_id": "us-fl-miamidade.example.bus-route",
+      "desk_id": "us-fl-miamidade.example-desk"
+    },
+    "us-fl-miamidade.example.rent-line": {
+      "type": "unsourced",
+      "fact_id": "us-fl-miamidade.example.rent-line",
+      "desk_id": "us-fl-miamidade.example-housing-desk"
+    },
+    "us-fl-miamidade.example.flood-zone": {
+      "type": "not_applicable",
+      "fact_id": "us-fl-miamidade.example.flood-zone",
+      "reason": {"key": "example.not_applicable.outside_layer", "table": "ADCityPack"},
+      "desk_id": "us-fl-miamidade.example-desk"
+    }
+  },
+  "handoffs": [
+    {
+      "desk_id": "us-fl-miamidade.example-desk",
+      "reason": {"key": "handoff.reason.unavailable", "table": "ADAgentsClient"},
+      "contact": [{"pack_id": "us-fl-miamidade", "fact_id": "us-fl-miamidade.example-desk.phone"}]
+    }
+  ],
+  "has_demo": true,
+  "dropped_claims": 2,
+  "pack_ids": ["us", "us-fl", "us-fl-miamidade"],
+  "items": [
+    {
+      "card_id": "example-trash-day",
+      "date": "2026-09-29",
+      "claims": [
+        {
+          "copy_key": {"key": "card.example-trash-day.summary", "table": "Cards"},
+          "fact_refs": [{"pack_id": "us-fl-miamidade", "fact_id": "us-fl-miamidade.example.trash-days"}],
+          "desk_id": "us-fl-miamidade.example-desk"
+        }
+      ]
+    }
+  ]
+}

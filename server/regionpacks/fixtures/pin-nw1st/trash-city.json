@@ -1,0 +1,1 @@
+{"displayFieldName":"TRASHDAY","fieldAliases":{"OBJECTID":"OBJECTID","TRASHDAY":"Trash Pickup Day"},"fields":[{"name":"OBJECTID","type":"esriFieldTypeOID","alias":"OBJECTID"},{"name":"TRASHDAY","type":"esriFieldTypeString","alias":"Trash Pickup Day","length":15}],"features":[{"attributes":{"OBJECTID":5,"TRASHDAY":"T"}}]}

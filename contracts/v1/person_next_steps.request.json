@@ -1,0 +1,15 @@
+{
+  "request_id": "0example0request0id0000000000003",
+  "person": {
+    "person_id": "person-example-1",
+    "age": 30,
+    "origin_lenses": ["haiti"],
+    "stage": 3,
+    "mode": "resident",
+    "goal": "work",
+    "status_word": null
+  },
+  "pin": null,
+  "surface_language": "ht",
+  "think_in": "ht"
+}

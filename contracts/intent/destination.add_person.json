@@ -1,0 +1,7 @@
+{
+  "note": "Destination.add_person. Example ids only.",
+  "type": "destination",
+  "value": {
+    "type": "add_person"
+  }
+}

@@ -1,0 +1,92 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: language-desk
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Put the shoes on > Tonight and the next three days
+  item: 5. One human who speaks their language
+title:
+  es: Alguien que hable tu idioma
+  en: Someone who speaks your language
+  ht: Yon moun ki pale lang ou
+summary:
+  es: Una persona de confianza y una oficina que conteste en tu idioma. Para papeles, solo un abogado o un representante acreditado.
+  en: One person you trust, and a desk that answers in your language. For papers, only a lawyer or an accredited representative.
+  ht: Yon moun ou fè konfyans, ak yon biwo ki reponn nan lang ou. Pou papye, se sèlman yon avoka oswa yon reprezantan akredite.
+body:
+  es: |-
+    La línea de ayuda comunitaria te conecta con ayuda local y puede usar un intérprete.
+
+    Para papeles de inmigración, solo un abogado con licencia o un representante acreditado por el Departamento de Justicia puede aconsejarte.
+
+    El amigo de un familiar en un estacionamiento no es esa oficina, aunque sea amable.
+  en: |-
+    The community help line connects you to local help, and can bring in an interpreter.
+
+    For immigration papers, only a licensed lawyer or a DOJ-accredited representative may advise you.
+
+    A relative's friend in a parking lot is not that desk, even if they are kind.
+  ht: |-
+    Liy èd kominotè a konekte w ak èd lokal, epi li ka mete yon entèprèt sou liy lan.
+
+    Pou papye imigrasyon, se sèlman yon avoka ki gen lisans oswa yon reprezantan Depatman Jistis akredite ki ka konseye w.
+
+    Zanmi yon fanmi nan yon pakin pa biwo sa a, menm si li janti.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us.211.phone
+  - us.211.languages
+- - us.immigration.who-may-advise
+- []
+desk: us.accredited-legal-help
+actions:
+- type: call_desk
+  desk_id: us.accredited-legal-help
+utterances:
+  es:
+  - necesito alguien que hable español
+  - quién me ayuda en creole
+  - necesito un intérprete
+  - en quién confío para mis papeles
+  - hay ayuda en mi idioma
+  en:
+  - I need someone who speaks Spanish
+  - who can help me in Creole
+  - I need an interpreter
+  - who can I trust with my papers
+  - is there help in my language
+  ht:
+  - mwen bezwen yon moun ki pale kreyòl
+  - kiyès ki ka ede m an panyòl
+  - mwen bezwen yon entèprèt
+  - ak kiyès m ka fè konfyans pou papye m
+  - èske gen èd nan lang mwen
+privacy_scope: person-papers
+stages:
+- 1
+- 2
+modes:
+- resident
+region_pack: us
+is_immigration: true
+origin_lenses:
+- latinAmerica
+- haiti
+related_cards:
+- lens-latam-notario
+- immigration-papers
+fact_refs:
+- us.211.phone
+- us.211.languages
+- us.immigration.who-may-advise
+topics:
+- legal-aid
+- immigration
+- desk

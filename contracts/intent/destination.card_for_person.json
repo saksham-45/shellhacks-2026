@@ -1,0 +1,9 @@
+{
+  "note": "Destination.card_for_person. Example ids only.",
+  "type": "destination",
+  "value": {
+    "card_id": "license-checklist",
+    "person_id": "00000000-0000-4000-8000-000000000001",
+    "type": "card"
+  }
+}

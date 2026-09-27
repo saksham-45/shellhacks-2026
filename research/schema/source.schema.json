@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:myad:research:schema:source",
+  "title": "Source registry entry",
+  "description": "One entry of the top-level `sources:` list in research/sources.yaml.",
+  "type": "object",
+  "required": [
+    "id",
+    "publisher",
+    "title",
+    "url",
+    "kind",
+    "jurisdiction",
+    "key_required",
+    "check_every"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(us|us-fl|us-fl-miamidade|us-fl-miami)(\\.[a-z0-9][a-z0-9_-]*)+$",
+      "description": "<pack-id>.<slug>, dotted, lowercase."
+    },
+    "publisher": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "url": {
+      "type": "string",
+      "pattern": "^https?://"
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "api",
+        "gis-layer",
+        "gtfs",
+        "pdf",
+        "html",
+        "dataset"
+      ]
+    },
+    "jurisdiction": {
+      "type": "string",
+      "enum": [
+        "us",
+        "us-fl",
+        "us-fl-miamidade",
+        "us-fl-miami"
+      ]
+    },
+    "key_required": {
+      "type": "boolean"
+    },
+    "check_every": {
+      "type": "string",
+      "pattern": "^P(?!$)([0-9]+Y)?([0-9]+M)?([0-9]+W)?([0-9]+D)?$"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "official": {
+      "type": "boolean",
+      "description": "true for government/agency primary sources; false for secondary (nonprofits, universities, news, forums)."
+    },
+    "extraction": {
+      "type": "string",
+      "enum": [
+        "html-quote",
+        "pdf-quote",
+        "arcgis-query",
+        "api-json",
+        "manual"
+      ]
+    },
+    "reachable": {
+      "type": "boolean"
+    },
+    "http_status": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "last_checked": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "layer": {
+      "type": "string"
+    },
+    "fields": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "patternProperties": {
+    "^x-": {}
+  },
+  "additionalProperties": false
+}

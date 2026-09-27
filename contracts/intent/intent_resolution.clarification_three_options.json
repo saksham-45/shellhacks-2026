@@ -1,0 +1,63 @@
+{
+  "note": "IntentResolution: clarification three options.",
+  "type": "intent_resolution",
+  "value": {
+    "action": null,
+    "clarification": {
+      "options": [
+        {
+          "action": {
+            "destination": {
+              "card_id": "school-zone",
+              "person_id": null,
+              "type": "card"
+            },
+            "type": "navigate"
+          },
+          "id": "card.school-zone",
+          "label": {
+            "key": "card.school-zone.title",
+            "table": "Cards"
+          }
+        },
+        {
+          "action": {
+            "destination": {
+              "card_id": "school-bus",
+              "person_id": null,
+              "type": "card"
+            },
+            "type": "navigate"
+          },
+          "id": "card.school-bus",
+          "label": {
+            "key": "card.school-bus.title",
+            "table": "Cards"
+          }
+        },
+        {
+          "action": {
+            "destination": {
+              "card_id": "shots",
+              "person_id": null,
+              "type": "card"
+            },
+            "type": "navigate"
+          },
+          "id": "card.shots",
+          "label": {
+            "key": "card.shots.title",
+            "table": "Cards"
+          }
+        }
+      ],
+      "question": {
+        "key": "router.clarify.which_card",
+        "table": "ADRouter"
+      }
+    },
+    "confidence": 0.55,
+    "grounding": null,
+    "reply_language": "en"
+  }
+}

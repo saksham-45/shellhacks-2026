@@ -1,0 +1,40 @@
+{
+  "lines": [
+    {
+      "expect": "a11y.personDetail.list",
+      "language": "es",
+      "text": "la primera"
+    },
+    {
+      "expect": "a11y.card.call",
+      "language": "es",
+      "text": "siguiente paso"
+    },
+    {
+      "expect": "a11y.router.confirm",
+      "language": "es",
+      "text": "llama a la oficina"
+    },
+    {
+      "expect": "a11y.card.list",
+      "language": "es",
+      "text": "no"
+    },
+    {
+      "expect": "a11y.router.confirm",
+      "language": "es",
+      "text": "llama a la oficina"
+    },
+    {
+      "expect": "a11y.router.handoff",
+      "language": "es",
+      "text": "sí"
+    },
+    {
+      "expect": "a11y.router.confirm",
+      "language": "es",
+      "text": "llama a la oficina"
+    }
+  ],
+  "name": "desk_handoff_es"
+}

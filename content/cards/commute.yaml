@@ -1,0 +1,123 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: commute
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > Movement and morning
+  item: Commute from the county schedule
+- plan: mymiami-plan.md
+  section: Every feature > Getting around and the school morning
+  item: Commute
+title:
+  es: Tu trayecto
+  en: Your commute
+  ht: Wout travay ou
+summary:
+  es: Tiempo y viaje en transporte público según el horario del condado, más los peajes si manejas.
+  en: Time and the transit ride from the county schedule, plus the toll dollars if you drive.
+  ht: Tan ak woulib transpò piblik dapre orè konte a, plis peyaj si ou kondwi.
+body:
+  es: |-
+    En transporte público: {fact:us-fl-miamidade.transit.route-for-commute}. La tarifa adulta es Metrobus {fact:us-fl-miamidade.transit.fare.metrobus} y Metrorail {fact:us-fl-miamidade.transit.fare.metrorail}.
+
+    Con la tarjeta EASY de descuento, Medicare, la mayoría de las discapacidades y estudiantes de escuela pagan {fact:us-fl-miamidade.transit.fare.discounted}. Los transbordos de bus a bus, o entre bus y tren, son gratis solo con la tarjeta EASY o el EASY Ticket; si pagas en efectivo, pagas la tarifa completa cada vez que subes a un bus.
+
+    Para el commute, el pase mensual es {fact:us-fl-miamidade.transit.pass.monthly}; el pase mensual universitario es {fact:us-fl-miamidade.transit.pass.college-monthly}. SFRTA, que opera Tri-Rail, publicó el pase mensual a {fact:us-fl.sfrta.monthly-pass.pre-increase} y propuso subirlo a {fact:us-fl.sfrta.monthly-pass}. Confirma el precio actual con Tri-Rail al {fact:us-fl.sfrta.phone} o en {fact:us-fl.sfrta.url} antes de comprar.
+
+    En carro, peajes: {fact:us-fl-miamidade.gmx.tolls-on-route}.
+
+    Si la ubicación en vivo de los buses no está disponible, es que el sistema en vivo del condado existe pero no respondió cuando lo revisamos. El horario sí funciona.
+  en: |-
+    By transit: {fact:us-fl-miamidade.transit.route-for-commute}. The adult fare is Metrobus {fact:us-fl-miamidade.transit.fare.metrobus} and Metrorail {fact:us-fl-miamidade.transit.fare.metrorail}.
+
+    With the discounted EASY Card, Medicare riders, most people with disabilities, and school students pay {fact:us-fl-miamidade.transit.fare.discounted}. Transfers from bus to bus, or between bus and rail, are free only with an EASY Card or EASY Ticket; if you pay cash, you pay the full fare each time you board a bus.
+
+    For a commute card, the monthly pass is {fact:us-fl-miamidade.transit.pass.monthly}; the college monthly pass is {fact:us-fl-miamidade.transit.pass.college-monthly}. SFRTA, which runs Tri-Rail, listed the monthly pass at {fact:us-fl.sfrta.monthly-pass.pre-increase} and proposed raising it to {fact:us-fl.sfrta.monthly-pass}. Check the current price with Tri-Rail at {fact:us-fl.sfrta.phone} or {fact:us-fl.sfrta.url} before you buy.
+
+    By car, tolls: {fact:us-fl-miamidade.gmx.tolls-on-route}.
+
+    If live bus positions are unavailable, the county's live feed exists but did not answer when checked. The schedule still works.
+  ht: |-
+    An transpò piblik: {fact:us-fl-miamidade.transit.route-for-commute}. Pri tikè granmoun an se Metrobus {fact:us-fl-miamidade.transit.fare.metrobus} ak Metrorail {fact:us-fl-miamidade.transit.fare.metrorail}.
+
+    Avèk kat EASY rabè a, moun ki gen Medicare, pifò moun ki gen andikap, ak elèv lekòl peye {fact:us-fl-miamidade.transit.fare.discounted}. Transfè soti nan yon bis pou al nan yon lòt bis, oswa ant bis ak tren, gratis sèlman avèk kat EASY oswa EASY Ticket; si ou peye kach, ou peye pri konplè chak fwa ou monte yon bis.
+
+    Pou wout travay la, pas chak mwa a se {fact:us-fl-miamidade.transit.pass.monthly}; pas chak mwa pou etidyan kolèj se {fact:us-fl-miamidade.transit.pass.college-monthly}. SFRTA, ki jere Tri-Rail, te mete pas chak mwa a {fact:us-fl.sfrta.monthly-pass.pre-increase} epi li pwopoze monte l rive {fact:us-fl.sfrta.monthly-pass}. Verifye pri a kounye a ak Tri-Rail nan {fact:us-fl.sfrta.phone} oswa sou {fact:us-fl.sfrta.url} anvan ou achte.
+
+    An machin, peyaj: {fact:us-fl-miamidade.gmx.tolls-on-route}.
+
+    Si pozisyon bis yo an dirèk pa disponib, se paske sistèm dirèk konte a egziste men li pa t reponn lè nou tcheke. Orè a toujou mache.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.transit.route-for-commute
+  - us-fl-miamidade.transit.fare.metrobus
+  - us-fl-miamidade.transit.fare.metrorail
+- - us-fl-miamidade.transit.fare.discounted
+  - us-fl-miamidade.transit.transfer.free-with-easy-only
+- - us-fl-miamidade.transit.pass.monthly
+  - us-fl-miamidade.transit.pass.college-monthly
+  - us-fl.sfrta.monthly-pass.pre-increase
+  - us-fl.sfrta.monthly-pass
+  - us-fl.sfrta.phone
+  - us-fl.sfrta.url
+- - us-fl-miamidade.gmx.tolls-on-route
+- - us-fl-miamidade.transit.realtime
+desk: us-fl-miamidade.transit
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.transit
+- type: call_desk
+  desk_id: us-fl.sfrta
+utterances:
+  es:
+  - cómo llego al trabajo
+  - qué bus tomo para el trabajo
+  - cuánto me demoro al trabajo
+  - qué guagua cojo
+  - how do I get al trabajo
+  en:
+  - how do I get to work
+  - bus to my job
+  - how long is my commute
+  - which bus do I take
+  - cómo llego al trabajo en bus
+  ht:
+  - kijan pou m rive nan travay
+  - ki bis pou m pran pou travay
+  - konbyen tan wout travay la pran
+  - ki bis pou m pran
+  - kijan pou m al work
+privacy_scope: person
+stages:
+- 8
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- tolls
+- this-walk
+fact_refs:
+- us-fl-miamidade.transit.route-for-commute
+- us-fl.sfrta.monthly-pass.pre-increase
+- us-fl.sfrta.monthly-pass
+- us-fl.sfrta.phone
+- us-fl.sfrta.url
+- us-fl-miamidade.transit.fare.metrobus
+- us-fl-miamidade.transit.fare.metrorail
+- us-fl-miamidade.transit.fare.discounted
+- us-fl-miamidade.transit.transfer.free-with-easy-only
+- us-fl-miamidade.transit.pass.monthly
+- us-fl-miamidade.transit.pass.college-monthly
+- us-fl-miamidade.gmx.tolls-on-route
+- us-fl-miamidade.transit.realtime
+topics:
+- transit
+- tolls

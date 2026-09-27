@@ -1,0 +1,61 @@
+{
+  "request_id": "0123456789abcdef0123456789abcdef",
+  "language": "en",
+  "facts": {
+    "us-fl-example.example-311.name": {
+      "type": "fact",
+      "fact": {
+        "fact_id": "us-fl-example.example-311.name",
+        "pack_id": "us-fl-example",
+        "value": {
+          "type": "code",
+          "code": "Example County 311 (fictional)"
+        },
+        "status": "verified",
+        "is_demo": false,
+        "source_id": "us-fl-example.example-source",
+        "source_name": "Example State Agency (fictional)",
+        "url": "https://example.invalid/fees",
+        "quote": "EXAMPLE quote (fictional).",
+        "retrieved_at": "2026-09-25T12:00:00-04:00",
+        "jurisdiction": "us-fl-example"
+      }
+    }
+  },
+  "handoffs": [
+    {
+      "desk_id": "us-fl-example.example-311",
+      "reason": {
+        "key": "handoff.reason.fee_check.private_no_verdict",
+        "table": "ADAgentsClient"
+      },
+      "contact": [
+        {
+          "pack_id": "us-fl-example",
+          "fact_id": "us-fl-example.example-311.name"
+        }
+      ]
+    }
+  ],
+  "has_demo": false,
+  "dropped_claims": 0,
+  "region": "us-fl-example",
+  "mode": "resident",
+  "extractor": "gemini",
+  "ask": {
+    "payee_type": "private",
+    "purpose_key": "unknown",
+    "amount_cents": 40000,
+    "method": "cash"
+  },
+  "outcome": "private_no_verdict",
+  "lines": [
+    {
+      "text": "I don't have a price for private services; ask Example County 311 (fictional).",
+      "fact_ids": [
+        "us-fl-example.example-311.name"
+      ]
+    }
+  ],
+  "desk_id": "us-fl-example.example-311"
+}

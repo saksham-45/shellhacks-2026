@@ -1,0 +1,99 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: this-walk
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > Movement and morning
+  item: This walk, with the county's pedestrian numbers
+- plan: mymiami-plan.md
+  section: Every feature > Getting around and the school morning
+  item: This walk
+title:
+  es: Esta caminata
+  en: This walk
+  ht: Mache sa a
+summary:
+  es: La parada del bus y la calle rápida entre tu casa y ella. Los números del propio condado, para que la advertencia no sea una impresión.
+  en: The bus stop, and the fast road between home and it. The county's own numbers, so the warning is not a feeling.
+  ht: Arè bis la, ak gwo wout rapid ant lakay ou ak li. Chif pwòp konte a, pou avètisman an pa yon santiman.
+body:
+  es: |-
+    Parada más cercana: {fact:us-fl-miamidade.transit.nearest-stop}.
+
+    En Miami-Dade, en el último año completo publicado, {fact:us-fl-miamidade.pedestrian.hit-latest-year} peatones fueron atropellados y {fact:us-fl-miamidade.pedestrian.killed-latest-year} murieron.
+
+    No podemos mostrar choques en esta esquina.
+
+    Cruza en el semáforo. De noche, ponte algo claro. No des por hecho que el chofer que dobla te ve.
+  en: |-
+    Nearest stop: {fact:us-fl-miamidade.transit.nearest-stop}.
+
+    In Miami-Dade, in the latest full year published, {fact:us-fl-miamidade.pedestrian.hit-latest-year} pedestrians were hit and {fact:us-fl-miamidade.pedestrian.killed-latest-year} were killed.
+
+    We cannot show crashes at this corner.
+
+    Cross at a signal. At night, wear something light. Do not assume a turning driver sees you.
+  ht: |-
+    Arè ki pi pre a: {fact:us-fl-miamidade.transit.nearest-stop}.
+
+    Nan Miami-Dade, nan dènye ane konplè ki pibliye a, machin frape {fact:us-fl-miamidade.pedestrian.hit-latest-year} moun a pye epi {fact:us-fl-miamidade.pedestrian.killed-latest-year} mouri.
+
+    Nou pa ka montre aksidan nan kwen sa a.
+
+    Travèse nan limyè a. Lannwit, mete yon rad klè. Pa kwè chofè k ap vire a wè w.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.transit.nearest-stop
+- - us-fl-miamidade.pedestrian.state-rank
+  - us-fl-miamidade.pedestrian.hit-latest-year
+  - us-fl-miamidade.pedestrian.killed-latest-year
+- []
+- []
+desk: us-fl-miamidade.311
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.311
+utterances:
+  es:
+  - es seguro caminar a la parada
+  - la parada más cercana
+  - qué tan peligrosa es esta calle
+  - caminar a la parada del bus
+  - nearest bus stop de mi casa
+  en:
+  - is it safe to walk to the bus
+  - nearest bus stop
+  - how dangerous is this road
+  - walking to the bus stop
+  - la parada más cerca de my house
+  ht:
+  - èske li an sekirite pou m mache al bis la
+  - arè bis ki pi pre a
+  - konbyen wout sa a danjere
+  - mache al arè bis la
+  - bus stop ki pi pre kay mwen
+privacy_scope: person
+stages:
+- 8
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- commute
+- driving-rules
+fact_refs:
+- us-fl-miamidade.transit.nearest-stop
+- us-fl-miamidade.pedestrian.state-rank
+- us-fl-miamidade.pedestrian.hit-latest-year
+- us-fl-miamidade.pedestrian.killed-latest-year
+topics:
+- transit
+- driving

@@ -1,0 +1,105 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: taxes-irs
+kind: country
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Put the shoes on > The first year, the path to standing alone
+  item: 14. Taxes happen even when someone just arrived
+- plan: myamericandream-plan.md
+  section: Stages
+  item: 9. Paper trail
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The country, same everywhere
+  item: Social Security, ITIN, taxes
+title:
+  es: Impuestos, incluso el primer año
+  en: Taxes, even in year one
+  ht: Taks, menm premye ane a
+summary:
+  es: Puedes deber impuestos desde el primer año aquí. La fecha del IRS no espera a un primo.
+  en: Taxes can be due the first year you are here. The IRS deadline does not wait for a cousin.
+  ht: Ou ka dwe taks depi premye ane ou isit la. Dat limit IRS la p ap tann yon kouzen.
+body:
+  es: |-
+    La fecha límite anual para declarar impuestos federales es {fact:us.irs.filing-deadline}.
+
+    Quién debe declarar depende de los ingresos y de las reglas de residencia. Lo decide el IRS, no el preparador.
+
+    Hay ayuda gratis con los impuestos en programas de voluntarios del IRS.
+
+    Lo que cuesta: declarar tarde puede traer multas e intereses.
+
+    No preparamos declaraciones ni escogemos tu forma de declarar.
+  en: |-
+    The yearly federal filing deadline is {fact:us.irs.filing-deadline}.
+
+    Who must file depends on income and residency rules. The IRS decides, not the preparer.
+
+    Free tax help exists through IRS volunteer programs.
+
+    What it costs: filing late can bring penalties and interest.
+
+    We do not prepare returns or pick a filing status.
+  ht: |-
+    Dat limit chak ane pou fè deklarasyon taks federal se {fact:us.irs.filing-deadline}.
+
+    Kiyès ki dwe fè deklarasyon depann de revni ak règ rezidans. Se IRS ki deside, pa moun k ap prepare taks la.
+
+    Gen èd gratis pou taks nan pwogram volontè IRS yo.
+
+    Sa sa koute: si ou fè deklarasyon an an reta, ou ka peye penalite ak enterè.
+
+    Nou pa prepare deklarasyon ni chwazi estati deklarasyon ou.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us.irs.filing-deadline
+- - us.irs.who-must-file
+- - us.irs.vita
+- - us.irs.late-penalties
+- []
+desk: us.irs
+actions:
+- type: call_desk
+  desk_id: us.irs
+utterances:
+  es:
+  - tengo que declarar impuestos
+  - cuándo se vencen los impuestos
+  - ayuda gratis con los impuestos
+  - acabo de llegar, pago impuestos
+  - how do I do mis taxes
+  en:
+  - do I have to file taxes
+  - when are taxes due
+  - free help with taxes
+  - I just arrived do I pay taxes
+  - cómo hago mis taxes
+  ht:
+  - èske m dwe fè deklarasyon taks
+  - ki lè taks yo dwe
+  - èd gratis pou taks
+  - mwen fèk rive, èske m peye taks
+  - kijan pou m fè taxes mwen
+privacy_scope: person
+stages:
+- 9
+modes:
+- resident
+region_pack: us
+is_immigration: false
+related_cards:
+- ssn-itin
+fact_refs:
+- us.irs.filing-deadline
+- us.irs.who-must-file
+- us.irs.vita
+- us.irs.late-penalties
+topics:
+- taxes

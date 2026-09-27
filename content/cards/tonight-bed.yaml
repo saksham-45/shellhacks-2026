@@ -1,0 +1,92 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: tonight-bed
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Put the shoes on > Tonight and the next three days
+  item: 1. A bed that is real
+title:
+  es: Una cama de verdad esta noche
+  en: A real bed tonight
+  ht: Yon kabann tout bon aswè a
+summary:
+  es: Duerme donde ya entraste. Nunca mandes dinero por un lugar que no has visto.
+  en: Sleep where you have stood inside. Never send money for a place you have not seen.
+  ht: Dòmi kote ou te deja antre. Pa janm voye lajan pou yon kote ou poko wè.
+body:
+  es: |-
+    En tu país, la palabra de un primo sobre un cuarto muchas veces bastaba.
+
+    Aquí, una estafa común pide una transferencia, una tarjeta de regalo o criptomonedas antes de que veas el lugar.
+
+    Lo que cuesta: el dinero casi siempre se pierde, y sigues sin cama.
+
+    ¿No tienes un lugar seguro esta noche? Llama a la línea de ayuda comunitaria y pide un refugio que reciba gente hoy.
+  en: |-
+    At home, a cousin's word about a room was often enough.
+
+    Here, a common scam asks for a wire, a gift card, or crypto before you see the place.
+
+    What it costs: the money is usually gone, and you still have no bed.
+
+    No safe place tonight? Call the community help line and ask for a shelter that does intake.
+  ht: |-
+    Lakay, pawòl yon kouzen sou yon chanm te konn sifi.
+
+    Isit la, yon eskwokri ki komen mande w voye lajan, yon kat kado, oswa kripto anvan ou wè kote a.
+
+    Sa sa koute: lajan an prèske toujou pèdi, epi ou toujou pa gen kabann.
+
+    Ou pa gen yon kote ki an sekirite aswè a? Rele liy èd kominotè a epi mande yon abri k ap resevwa moun.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- - us.ftc.rental-scam-signs
+- - us.ftc.rental-scam-signs
+- - us.211.phone
+desk: us.211
+actions:
+- type: call_desk
+  desk_id: us.211
+utterances:
+  es:
+  - dónde puedo dormir esta noche
+  - necesito una cama
+  - no tengo dónde quedarme
+  - este cuarto es una estafa
+  - un shelter para hoy
+  en:
+  - where can I sleep tonight
+  - I need a bed
+  - I have nowhere to stay
+  - is this room a scam
+  - shelter tonight
+  ht:
+  - ki kote m ka dòmi aswè a
+  - mwen bezwen yon kabann
+  - mwen pa gen kote pou m rete
+  - èske chanm sa a se eskwokri
+  - yon shelter pou aswè a
+privacy_scope: household
+stages:
+- 1
+modes:
+- resident
+region_pack: us
+is_immigration: false
+related_cards:
+- listing-check
+- help-this-week
+fact_refs:
+- us.ftc.rental-scam-signs
+- us.211.phone
+topics:
+- rent
+- desk

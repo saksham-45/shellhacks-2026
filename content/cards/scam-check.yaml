@@ -1,0 +1,102 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: scam-check
+kind: country
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Stages
+  item: '1. Safe this week: Bed, food, airport, scam'
+- plan: myamericandream-plan.md
+  section: Stages
+  item: 'Tourist mode: scam'
+title:
+  es: ¿Esto es una estafa?
+  en: Is this a scam?
+  ht: Èske se yon eskwokri?
+summary:
+  es: Dinero antes de ver algo, una transferencia, una tarjeta de regalo, criptomonedas o un desconocido con una oferta. Para y revisa.
+  en: Money before you see it, a wire, a gift card, crypto, or a stranger with a deal. Stop and check.
+  ht: Lajan anvan ou wè anyen, voye lajan, yon kat kado, kripto, oswa yon moun ou pa konnen ak yon 'bon afè'. Kanpe epi verifye.
+body:
+  es: |-
+    Los dueños, empleadores y oficinas de verdad no piden pagos con tarjetas de regalo ni criptomonedas.
+    Si alguien dice que pagues con una tarjeta de regalo, es una estafa. Ninguna empresa real ni agencia del gobierno te va a pedir que pagues así.
+
+    Las oficinas del gobierno no llaman para exigir pagos con tarjeta de regalo o transferencia.
+
+    Cuelga, y llama a la oficina al número de su propia página web.
+
+    Denúncialo a la Comisión Federal de Comercio.
+  en: |-
+    Real landlords, employers, and offices do not ask for payment in gift cards or crypto.
+    If someone says to pay with a gift card, it is a scam. No real business or government agency will ask you to pay that way.
+
+    Government offices do not call to demand payment by gift card or wire.
+
+    Hang up, and call the office back on the number from its own website.
+
+    Report it to the Federal Trade Commission.
+  ht: |-
+    Vre mèt kay, patwon, ak biwo pa mande w peye ak kat kado ni kripto.
+    Si yon moun di w peye ak yon kat kado, se yon eskwokri. Okenn vrè biznis ni ajans gouvènman p ap mande w peye konsa.
+
+    Biwo gouvènman pa rele pou mande w peye ak kat kado oswa transfè lajan.
+
+    Rakwoche, epi rele biwo a sou nimewo ki sou pwòp sit entènèt li.
+
+    Rapòte l bay Komisyon Federal Komès la.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us.ftc.payment-red-flags
+  - us.ftc.gift-card-payment-scam
+- - us.ftc.government-impostor
+- []
+- - us.ftc.phone
+desk: us.ftc
+actions:
+- type: call_desk
+  desk_id: us.ftc
+utterances:
+  es:
+  - esto es una estafa
+  - me piden una tarjeta de regalo
+  - quieren que pague con bitcoin
+  - me llamaron diciendo que son del gobierno
+  - I think it's a scam, qué hago
+  en:
+  - is this a scam
+  - someone wants a gift card
+  - they want me to pay in bitcoin
+  - a guy called saying he is from the government
+  - me quieren estafar
+  ht:
+  - èske se yon eskwokri
+  - yon moun vle yon gift card
+  - yo vle m peye ak bitcoin
+  - yon nèg rele m di li soti nan gouvènman
+  - mwen panse se scam
+privacy_scope: person
+stages:
+- 1
+modes:
+- resident
+- tourist
+region_pack: us
+is_immigration: false
+origin_lenses:
+- tourist
+related_cards:
+- airport-exit
+fact_refs:
+- us.ftc.payment-red-flags
+- us.ftc.gift-card-payment-scam
+- us.ftc.government-impostor
+- us.ftc.phone
+topics:
+- scams

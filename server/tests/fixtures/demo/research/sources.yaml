@@ -1,0 +1,11 @@
+# TEST-ONLY sources (fictional).
+sources:
+  - id: us.test-only-source
+    publisher: TEST-ONLY Federal Publisher
+    url: https://example.invalid/us
+  - id: us-fl.test-only-source
+    publisher: TEST-ONLY State Publisher
+    url: https://example.invalid/us-fl
+  - id: us-fl-miamidade.test-only-source
+    publisher: TEST-ONLY County Publisher
+    url: https://example.invalid/county

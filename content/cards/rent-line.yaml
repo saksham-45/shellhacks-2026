@@ -1,0 +1,121 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: rent-line
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > Money
+  item: Rent line against the May 2026 figures
+- plan: mymiami-plan.md
+  section: Every feature > Money
+  item: Rent line
+- plan: mymiami-public-data.md
+  section: National spine — every city gets this for free
+title:
+  es: Tu línea de renta
+  en: Your rent line
+  ht: Liy lwaye ou
+summary:
+  es: El tamaño y los ingresos de tu casa frente a los límites oficiales del lugar donde de verdad está tu dirección. Por debajo o por encima de la línea, con la fuente abajo.
+  en: Your household size and income against the official limits for where your pin actually is. Under the line or over it, with the source underneath.
+  ht: Kantite moun ak revni kay ou konpare ak limit ofisyèl kote adrès ou ye vre. Anba liy lan oswa anwo l, ak sous la anba.
+body:
+  es: |-
+    Tu dirección está en {fact:us-fl-miamidade.gov.municipality}. Una línea solo cuenta dentro del gobierno que la publicó.
+
+    La línea del Condado Miami-Dade para tu casa: {fact:us-fl-miamidade.housing.household-vs-limit}. Límite de renta de programas del condado para dos cuartos: {fact:us-fl-miamidade.housing.rent-limit-2br-60}.
+
+    En la Ciudad de Miami, también se aplica la tabla de la ciudad: {fact:us-fl-miami.housing.household-vs-limit}. Ejemplos de esa tabla de la ciudad: {fact:us-fl-miami.housing.income-limit-1p-50}; {fact:us-fl-miami.housing.income-limit-4p-50}.
+
+    Estas líneas son para programas con límite de ingresos, no la renta de un anuncio. Estar por debajo no quiere decir que un edificio acepte tu solicitud.
+
+    Si una tabla no tiene fuente, lo decimos y te damos la oficina de vivienda del condado.
+  en: |-
+    Your pin is in {fact:us-fl-miamidade.gov.municipality}. A line only counts inside the government that published it.
+
+    Miami-Dade County's line for your household: {fact:us-fl-miamidade.housing.household-vs-limit}. County program rent limit for a two-bedroom: {fact:us-fl-miamidade.housing.rent-limit-2br-60}.
+
+    In the City of Miami, the city's own table also applies: {fact:us-fl-miami.housing.household-vs-limit}. Examples from that city table: {fact:us-fl-miami.housing.income-limit-1p-50}; {fact:us-fl-miami.housing.income-limit-4p-50}.
+
+    These lines are for income-restricted programs, not the rent on a listing. Being under the line does not mean a building will take your application.
+
+    If a table is unsourced, we say so and name the county housing desk.
+  ht: |-
+    Adrès ou nan {fact:us-fl-miamidade.gov.municipality}. Yon liy konte sèlman anndan gouvènman ki pibliye l la.
+
+    Liy Konte Miami-Dade pou kay ou: {fact:us-fl-miamidade.housing.household-vs-limit}. Limit lwaye pwogram konte a pou de chanm: {fact:us-fl-miamidade.housing.rent-limit-2br-60}.
+
+    Nan Vil Miami, tablo vil la aplike tou: {fact:us-fl-miami.housing.household-vs-limit}. Egzanp nan tablo vil sa a: {fact:us-fl-miami.housing.income-limit-1p-50}; {fact:us-fl-miami.housing.income-limit-4p-50}.
+
+    Liy sa yo se pou pwogram ki gen limit revni, se pa lwaye ki sou yon anons. Lè w anba liy lan, sa pa vle di yon bilding ap aksepte aplikasyon ou.
+
+    Si yon tablo pa gen sous, nou di l epi nou ba w biwo lojman konte a.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.gov.municipality
+- - us-fl-miamidade.housing.income-limits
+  - us-fl-miamidade.housing.household-vs-limit
+  - us-fl-miamidade.housing.rent-limit-2br-60
+- - us-fl-miami.housing.household-vs-limit
+  - us-fl-miami.housing.income-limit-1p-50
+  - us-fl-miami.housing.income-limit-4p-50
+- - us.hud.income-limits-purpose
+- []
+paragraph_when:
+- municipality: unincorporated
+- municipality: unincorporated
+- municipality: us-fl-miami
+- null
+- null
+desk: us-fl-miamidade.housing
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.housing
+utterances:
+  es:
+  - estoy por debajo de la línea de renta
+  - cuál es el límite de ingresos
+  - califico para vivienda asequible
+  - límite de renta para dos cuartos
+  - income limit para mi familia
+  en:
+  - am I under the rent line
+  - what is the income limit
+  - do I qualify for affordable housing
+  - rent limit for two bedrooms
+  - cuánto puedo ganar pa affordable housing
+  ht:
+  - èske m anba liy lwaye a
+  - ki limit revni a
+  - èske m kalifye pou lojman abòdab
+  - limit lwaye pou de chanm
+  - income limit pou fanmi m
+privacy_scope: household
+stages:
+- 5
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- buildings-that-fit
+- jobs-rent
+fact_refs:
+- us-fl-miamidade.gov.municipality
+- us-fl-miamidade.housing.income-limits
+- us-fl-miamidade.housing.household-vs-limit
+- us-fl-miamidade.housing.rent-limit-2br-60
+- us-fl-miami.housing.household-vs-limit
+- us-fl-miami.housing.income-limit-1p-50
+- us-fl-miami.housing.income-limit-4p-50
+- us.hud.income-limits-purpose
+topics:
+- rent
+- municipality
+editor_notes: 'Jurisdiction beats plan text (ARCHITECTURE.md 13.z): the plan''s figures are the City of Miami table; the county table is a separate fact.'

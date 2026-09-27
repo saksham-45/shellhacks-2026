@@ -1,0 +1,8 @@
+{
+  "note": "AppAction choose. Example ids only; no real people or facts.",
+  "type": "app_action",
+  "value": {
+    "option_id": "card.tolls",
+    "type": "choose"
+  }
+}

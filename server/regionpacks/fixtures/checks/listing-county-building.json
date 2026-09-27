@@ -1,0 +1,12 @@
+{
+ "folio": "0141370230020",
+ "site_address": "111 NW 1 ST",
+ "site_zip": "33128",
+ "condo": false,
+ "land_use": "COUNTY : OFFICE BUILDING",
+ "owner_kind": "government",
+ "source_id": "us-fl-miamidade.gis-parcels",
+ "url": "https://gisweb.miamidade.gov/arcgis/rest/services/MD_LandInformation/MapServer/26/query?where=FOLIO%3D%270141370230020%27&outFields=FOLIO%2CTRUE_SITE_ADDR%2CCONDO_FLAG%2CDOR_DESC&returnGeometry=false&f=json",
+ "record_url": "https://apps.miamidadepa.gov/propertysearch/",
+ "retrieved_at": "2026-09-25T18:43:48-04:00"
+}

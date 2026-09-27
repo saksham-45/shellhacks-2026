@@ -1,0 +1,9 @@
+{
+  "request_url": "https://gisweb.miamidade.gov/arcgis/rest/services/CommunityServices/MD_WaterSewer/MapServer/1/query?geometry=%7B%22x%22%3A-80.19666900000166%2C%22y%22%3A25.775604000003124%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=UTILITYNAME&returnGeometry=false&f=json",
+  "method": "GET",
+  "retrieved_at": "2026-09-25T18:06:41-04:00",
+  "http_status": 200,
+  "bytes": 227,
+  "sha256": "1e49b12cc4455c5253d82b54f1d0453baaa0c13a43507cbef02a239c84d1a3c7",
+  "capture_path": "scripts/refresh_fixtures.py (LiveTransport, box egress)"
+}

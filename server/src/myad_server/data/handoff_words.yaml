@@ -1,0 +1,38 @@
+# Warm Handoff Sheet word lists (owner: myAD Agents; first pass, Language/Content review pending).
+# Patterns match NORMALIZED text (lowercase, accents stripped, punctuation -> spaces), each wrapped in \b...\b.
+# A concept is one idea in every language: saying "asilo" counts as saying "asylum".
+#
+# status: immigration-status words. A sentence may carry one only if the person said it (any language) in the
+#         cited utterance AND ticked it on the phone ("include").
+# legal:  legal-framing words. A sentence may carry one only if the person said it in the cited utterance.
+status:
+  asylum: ['asylum', 'asylee', 'asilo', 'asilad[oa]', 'azil']
+  parole: ['parole', 'humanitarian parole', 'parol', 'permiso humanitario']
+  tps: ['tps', 'temporary protected status', 'estatus de proteccion temporal', 'estado de proteccion temporal']
+  visa: ['visas?', 'visados?', 'viza']
+  green_card: ['green cards?', 'permanent residen\w*', 'residencia permanente', 'residente permanente', 'tarjeta verde', 'kat vet', 'rezidan pemanan']
+  undocumented: ['undocumented', 'indocumentad[oa]s?', 'sin papeles', 'san papye', 'illegal aliens?']
+  overstay: ['overstay\w*', 'visa vencida', 'se quedo despues', 'depase dat']
+  refugee: ['refugees?', 'refugiad[oa]s?', 'refijye']
+  daca: ['daca', 'dreamers?']
+  work_permit: ['work permits?', 'employment authorization', 'permiso de trabajo', 'pemi travay']
+  citizenship: ['citizen\w*', 'ciudadan\w*', 'sitwayen\w*']
+legal:
+  deportation: ['deport\w*', 'depotasyon', 'depote']
+  removal: ['removal', 'remocion', 'expulsion', 'ranvwaye']
+  illegal: ['illegal\w*', 'ilegal\w*']
+  violation: ['violat\w*', 'viol[oe]', 'violacion', 'vyole', 'vyolasyon']
+  lawsuit: ['lawsuits?', 'sue', 'sued', 'suing', 'demanda\w*', 'pwose']
+  discrimination: ['discriminat\w*', 'discriminacion', 'diskriminasyon']
+  eviction: ['evict\w*', 'desalojo', 'desalojar', 'degepi']
+  fraud: ['fraud\w*', 'fraude', 'fwod']
+  eligibility: ['qualif\w*', 'eligib\w*', 'califica\w*', 'elegible', 'kalifye']
+  rights: ['rights', 'derechos', 'dwa']
+  court: ['court', 'corte', 'tribunal', 'tribinal']
+  lawyer_advice: ['you should sue', 'liable', 'negligen\w*', 'responsable legal\w*']
+
+# Words ignored by the token-overlap check (they carry no content).
+stopwords:
+  en: [the, and, for, that, this, with, have, has, had, was, were, are, but, not, you, your, they, them, their, she, her, his, him, our, from, what, when, who, will, would, can, could, did, does, just, about, into, there, then, than, all, any, been, being, its, it's, also, very, because, i'm, me, my, mine, want, need]
+  es: [que, los, las, una, uno, por, para, con, del, sus, pero, como, mas, muy, esta, este, eso, esto, ese, esa, tengo, tiene, fue, era, son, soy, estoy, hay, les, nos, mis, mio, porque, cuando, donde, quiero, necesito]
+  ht: [mwen, nou, yo, li, ou, ki, pou, nan, sou, avek, men, epi, gen, pa, se, te, ap, yon, sa, la, lan, kounye, paske, kote, konsa, vle, bezwen]

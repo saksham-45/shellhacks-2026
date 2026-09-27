@@ -1,0 +1,16 @@
+[
+ {
+  "id": "us.example-id-desk.url",
+  "claim": "EXAMPLE ONLY: fictional ID desk web address",
+  "status": "verified",
+  "value": "example.invalid/id",
+  "value_type": "code",
+  "unit": null,
+  "jurisdiction": "us",
+  "source_id": "us.example-source",
+  "url": "https://example.invalid/id",
+  "quote": "EXAMPLE ONLY - not a real quote.",
+  "retrieved_at": "2026-09-25T12:00:00-04:00",
+  "check_every": "P3650D"
+ }
+]

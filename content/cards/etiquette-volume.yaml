@@ -1,0 +1,75 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: etiquette-volume
+kind: etiquette
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Origin lens > Etiquette cards
+  item: Volume that is normal at a family table reads as a fight in a clinic lobby.
+title:
+  es: El volumen de la voz en las oficinas
+  en: Voice volume in offices
+  ht: Vwa ou nan biwo yo
+summary:
+  es: Una voz normal en la mesa familiar puede sonar como una pelea en la sala de espera de una clínica.
+  en: A voice that is normal at a family table can sound like a fight in a clinic lobby.
+  ht: Yon vwa ki nòmal sou tab fanmi an ka sonnen tankou yon kont nan sal datant yon klinik.
+body:
+  es: |-
+    En tu país, hablar alto y con calor puede ser solo señal de cariño.
+
+    Aquí, en oficinas y clínicas, el personal lo puede entender como enojo.
+
+    Lo que cuesta: una voz tranquila hace que te atiendan más rápido y que no llamen a seguridad.
+  en: |-
+    At home, a loud, warm voice may just mean you care.
+
+    Here, in offices and clinics, staff may read it as anger.
+
+    What it costs: a calm voice gets you helped faster, and security is not called.
+  ht: |-
+    Lakay, pale fò ak chalè ka vle di ou pran swen sèlman.
+
+    Isit la, nan biwo ak klinik, anplwaye yo ka konprann se fache ou fache.
+
+    Sa sa koute: yon vwa kalm fè yo ede w pi vit, epi yo pa rele sekirite.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- []
+- []
+desk: us.211
+utterances:
+  es:
+  - estoy hablando muy alto
+  - por qué pensaron que estaba enojado
+  - qué tan alto puedo hablar en la oficina
+  - me dijeron que me calmara
+  en:
+  - am I talking too loud
+  - why did they think I was angry
+  - how loud can I talk in the office
+  - they told me to calm down
+  ht:
+  - èske m ap pale twò fò
+  - poukisa yo panse m te fache
+  - konbyen fò m ka pale nan biwo a
+  - yo di m kalme m
+privacy_scope: person
+stages:
+- 1
+- 10
+modes:
+- resident
+- tourist
+region_pack: us
+is_immigration: false
+fact_refs: []
+topics:
+- etiquette

@@ -1,0 +1,733 @@
+{
+ "facts": [
+  {
+   "id": "us-fl.flhsmv.fee.class-e-original",
+   "status": "verified",
+   "value": {
+    "kind": "money",
+    "amount": 48.0,
+    "currency": "USD"
+   },
+   "source": {
+    "id": "us-fl.flhsmv-fees",
+    "url": "https://www.flhsmv.gov/fees/",
+    "publisher": "Florida Department of Highway Safety and Motor Vehicles (FLHSMV)"
+   },
+   "quote": "Original Class E (includes Learner’s license)* $48.00 ... An additional $6.25 service fee may apply to any credential issued in a tax collector office.",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T18:29:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl.flhsmv.fee.class-e-renewal",
+   "status": "verified",
+   "value": {
+    "kind": "money",
+    "amount": 48.0,
+    "currency": "USD"
+   },
+   "source": {
+    "id": "us-fl.flhsmv-fees",
+    "url": "https://www.flhsmv.gov/fees/",
+    "publisher": "Florida Department of Highway Safety and Motor Vehicles (FLHSMV)"
+   },
+   "quote": "Renewal Class E* $48.00 ... An additional $6.25 service fee may apply to any credential issued in a tax collector office.",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T18:29:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl.flhsmv.fee.id-card-original",
+   "status": "verified",
+   "value": {
+    "kind": "money",
+    "amount": 25.0,
+    "currency": "USD"
+   },
+   "source": {
+    "id": "us-fl.flhsmv-fees",
+    "url": "https://www.flhsmv.gov/fees/",
+    "publisher": "Florida Department of Highway Safety and Motor Vehicles (FLHSMV)"
+   },
+   "quote": "Identification Cards (Original, Renewal & Replacement)* $25.00 ... An additional $6.25 service fee may apply to any credential issued in a tax collector office.",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T18:29:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl.flhsmv.fee.tax-collector-service-fee",
+   "status": "verified",
+   "value": {
+    "kind": "money",
+    "amount": 6.25,
+    "currency": "USD"
+   },
+   "source": {
+    "id": "us-fl.flhsmv-fees",
+    "url": "https://www.flhsmv.gov/fees/",
+    "publisher": "Florida Department of Highway Safety and Motor Vehicles (FLHSMV)"
+   },
+   "quote": "An additional $6.25 service fee may apply to any credential issued in a tax collector office.",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T18:55:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us.ftc.rental-scam-signs",
+   "status": "verified",
+   "value": {
+    "kind": "text",
+    "text": "But when you ask to see the rental, the fake owner will usually claim to be out of the country or give another excuse for not showing the property — then rush you into making a quick decision. The fake owner might tell you can only secure the property with a wire transfer through Western Union or MoneyGram, gift cards, or cryptocurrency to pay for an application fee, deposit, or first month’s rent.",
+    "language": "en"
+   },
+   "source": {
+    "id": "us.ftc-rental-listing-scams",
+    "url": "https://consumer.ftc.gov/articles/rental-listing-scams",
+    "publisher": "Federal Trade Commission"
+   },
+   "quote": "But when you ask to see the rental, the fake owner will usually claim to be out of the country or give another excuse for not showing the property — then rush you into making a quick decision. The fake owner might tell you can only secure the property with a wire transfer through Western Union or MoneyGram, gift cards, or cryptocurrency to pay for an application fee, deposit, or first month’s rent.",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T18:55:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us.ftc.rental-scam-signs.es",
+   "status": "verified",
+   "value": {
+    "kind": "text",
+    "text": "Pero cuando pide ver la propiedad en alquiler, el supuesto propietario normalmente alegará estar fuera del país o dará otra excusa para no mostrarla, y luego lo presionará para que tome una decisión rápida. El falso propietario podría decirle que solo puede reservar la propiedad con una transferencia a través de Western Union o MoneyGram, con tarjetas de regalo, o con una criptomonedas para pagar el cargo de solicitud, un depósito, o el primer mes de alquiler.",
+    "language": "es"
+   },
+   "source": {
+    "id": "us.ftc-rental-listing-scams-es",
+    "url": "https://consumidor.ftc.gov/articulos/estafas-de-listados-de-propiedades-en-alquiler",
+    "publisher": "Federal Trade Commission"
+   },
+   "quote": "Pero cuando pide ver la propiedad en alquiler, el supuesto propietario normalmente alegará estar fuera del país o dará otra excusa para no mostrarla, y luego lo presionará para que tome una decisión rápida. El falso propietario podría decirle que solo puede reservar la propiedad con una transferencia a través de Western Union o MoneyGram, con tarjetas de regalo, o con una criptomonedas para pagar el cargo de solicitud, un depósito, o el primer mes de alquiler.",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T18:55:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl-miamidade.sheriff.online-report-url",
+   "status": "verified",
+   "value": {
+    "kind": "code",
+    "code": "https://www.miamidade.gov/apps/mdso/non-emergencypolicereport/"
+   },
+   "source": {
+    "id": "us-fl-miamidade.mdso-online-report",
+    "url": "https://www.miamidade.gov/apps/mdso/non-emergencypolicereport/",
+    "publisher": "Miami-Dade Sheriff's Office"
+   },
+   "quote": "All cases filed within this system will be reviewed, but for a number of reasons most will not be investigated.",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T20:30:00-04:00",
+   "check_every_days": 30
+  },
+  {
+   "id": "us-fl-miamidade.utility.mdws-meaning",
+   "status": "verified",
+   "value": {
+    "kind": "text",
+    "text": "Miami-Dade Water and Sewer Department (WASD)",
+    "language": "en"
+   },
+   "source": {
+    "id": "us-fl-miamidade.mdc-wasd-home",
+    "url": "https://www.miamidade.gov/global/water/home.page",
+    "publisher": "Miami-Dade Water and Sewer Department"
+   },
+   "quote": "The Miami-Dade Water and Sewer Department (WASD) recognizes staff who demonstrate",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T17:32:00-04:00",
+   "check_every_days": 180
+  },
+  {
+   "id": "us-fl-miamidade.sheriff.online-report-area",
+   "status": "verified",
+   "value": {
+    "kind": "text",
+    "text": "Unincorporated Miami-Dade County, Town of Cutler Bay, Village of Palmetto Bay, Town of Miami Lakes",
+    "language": "en"
+   },
+   "source": {
+    "id": "us-fl-miamidade.mdso-online-report",
+    "url": "https://www.miamidade.gov/apps/mdso/non-emergencypolicereport/",
+    "publisher": "Miami-Dade Sheriff's Office"
+   },
+   "quote": "verify that the incident occurred within the unincorporated area of Miami-Dade County or within the Town of Cutler Bay, Village of Palmetto Bay, or Town of Miami Lakes.",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T20:30:00-04:00",
+   "check_every_days": 30
+  },
+  {
+   "id": "us-fl-miamidade.sheriff.service-area",
+   "status": "verified",
+   "value": {
+    "kind": "code",
+    "code": "Miami-Dade Sheriff's Office"
+   },
+   "source": {
+    "id": "us-fl-miamidade.budget-fy2526-mdso",
+    "url": "https://www.miamidade.gov/resources/budget/adopted/fy2025-26/sheriffs-office.pdf",
+    "publisher": "Miami-Dade County Office of Management and Budget"
+   },
+   "quote": "MDSO serves the community with three distinct, yet interrelated, functions: providing basic police services to the Unincorporated Municipal Service Area (UMSA) of Miami-Dade County and contracted municipalities",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T20:30:00-04:00",
+   "check_every_days": 365
+  },
+  {
+   "id": "us-fl-miamidade.sheriff.contract-towns",
+   "status": "verified",
+   "value": {
+    "kind": "text",
+    "text": "Town of Miami Lakes, Village of Palmetto Bay, Town of Cutler Bay",
+    "language": "en"
+   },
+   "source": {
+    "id": "us-fl-miamidade.mdso-interlocal-memo-2025",
+    "url": "https://www.miamidade.gov/resources/management/documents/memos/2025-01-07-MDSO-interlocal-agreement.pdf",
+    "publisher": "Miami-Dade County Mayor's Office"
+   },
+   "quote": "Interlocal Agreement between Miami-Dade County and Town of Cutler Bay for Local Police Services",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T20:30:00-04:00",
+   "check_every_days": 365
+  },
+  {
+   "id": "us-fl-miami.police.service-area",
+   "status": "verified",
+   "value": {
+    "kind": "code",
+    "code": "City of Miami Police Department"
+   },
+   "source": {
+    "id": "us-fl-miami.miami-gov-police",
+    "url": "https://www.miami.gov/My-Government/Departments/Police-Department",
+    "publisher": "City of Miami"
+   },
+   "quote": "The over 1,100 sworn members of our police force are relentlessly committed to ensuring that the citizens of Miami are not deprived of their fundamental right to feel safe in their neighborhoods.",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T20:30:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl.flhsmv.name",
+   "status": "verified",
+   "value": {
+    "kind": "code",
+    "code": "Florida Department of Highway Safety and Motor Vehicles (FLHSMV)"
+   },
+   "source": {
+    "id": "us-fl.flhsmv-contact",
+    "url": "https://www.flhsmv.gov/contact-us/",
+    "publisher": "Florida Department of Highway Safety and Motor Vehicles (FLHSMV)"
+   },
+   "quote": "Contact Us - Florida Department of Highway Safety and Motor Vehicles",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T17:32:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl.flhsmv.phone",
+   "status": "verified",
+   "value": {
+    "kind": "phone",
+    "digits": "8506172000"
+   },
+   "source": {
+    "id": "us-fl-miamidade.gmx-toll-inquiries",
+    "url": "https://gmx-way.com/help/toll-inquiries",
+    "publisher": "Greater Miami Expressway Agency (GMX)"
+   },
+   "quote": "For additional assistance, please contact the Florida Department of Highway Safety and Motor Vehicles (DHSMV) at 850-617-2000.",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T17:24:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl.flhsmv.url",
+   "status": "verified",
+   "value": {
+    "kind": "code",
+    "code": "https://www.flhsmv.gov/"
+   },
+   "source": {
+    "id": "us-fl.flhsmv-contact",
+    "url": "https://www.flhsmv.gov/contact-us/",
+    "publisher": "Florida Department of Highway Safety and Motor Vehicles (FLHSMV)"
+   },
+   "quote": "Contact Us - Florida Department of Highway Safety and Motor Vehicles",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T17:32:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl-miamidade.tax-collector.name",
+   "status": "verified",
+   "value": {
+    "kind": "code",
+    "code": "Miami-Dade County Office of the Tax Collector"
+   },
+   "source": {
+    "id": "us-fl-miamidade.mdc-tax-collector-locations",
+    "url": "https://www.mdctaxcollector.gov/locations",
+    "publisher": "Miami-Dade County Office of the Tax Collector"
+   },
+   "quote": "Miami-Dade County Office of The Tax Collector",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T17:32:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl-miamidade.tax-collector.phone",
+   "status": "verified",
+   "value": {
+    "kind": "phone",
+    "digits": "3053755448"
+   },
+   "source": {
+    "id": "us-fl-miamidade.mdc-tax-collector-locations",
+    "url": "https://www.mdctaxcollector.gov/locations",
+    "publisher": "Miami-Dade County Office of the Tax Collector"
+   },
+   "quote": "Downtown Miami 200 NW 2nd Ave, Miami, FL 33128 (305) 375-5448",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T17:31:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl-miamidade.tax-collector.url",
+   "status": "verified",
+   "value": {
+    "kind": "code",
+    "code": "https://www.mdctaxcollector.gov/"
+   },
+   "source": {
+    "id": "us-fl-miamidade.mdc-tax-collector-locations",
+    "url": "https://www.mdctaxcollector.gov/locations",
+    "publisher": "Miami-Dade County Office of the Tax Collector"
+   },
+   "quote": "Miami-Dade County Office of The Tax Collector",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T17:32:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us.ftc.name",
+   "status": "verified",
+   "value": {
+    "kind": "code",
+    "code": "Federal Trade Commission"
+   },
+   "source": {
+    "id": "us.ftc-contact",
+    "url": "https://www.ftc.gov/contact",
+    "publisher": "Federal Trade Commission"
+   },
+   "quote": "Contact the Federal Trade Commission",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T19:00:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us.ftc.phone",
+   "status": "verified",
+   "value": {
+    "kind": "phone",
+    "digits": "18773824357"
+   },
+   "source": {
+    "id": "us.ftc-contact",
+    "url": "https://www.ftc.gov/contact",
+    "publisher": "Federal Trade Commission"
+   },
+   "quote": "Contact the Consumer Response Center by calling 1-877-FTC-HELP (382-4357)",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T19:00:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us.ftc.url",
+   "status": "verified",
+   "value": {
+    "kind": "code",
+    "code": "https://reportfraud.ftc.gov"
+   },
+   "source": {
+    "id": "us.ftc-contact",
+    "url": "https://www.ftc.gov/contact",
+    "publisher": "Federal Trade Commission"
+   },
+   "quote": "For Consumers Report fraud, scams, and bad business practices at ReportFraud.ftc.gov",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T19:00:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl-miamidade.311.name",
+   "status": "verified",
+   "value": {
+    "kind": "code",
+    "code": "Miami-Dade County 311 Contact Center"
+   },
+   "source": {
+    "id": "us-fl-miamidade.mdc-311-home",
+    "url": "https://www.miamidade.gov/global/311/home.page",
+    "publisher": "Miami-Dade County 311 Contact Center"
+   },
+   "quote": "Miami-Dade County's 311 Contact Center serves as a primary channel for accessing non-",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T17:32:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl-miamidade.311.phone",
+   "status": "verified",
+   "value": {
+    "kind": "phone",
+    "digits": "311"
+   },
+   "source": {
+    "id": "us-fl-miamidade.mdc-311-home",
+    "url": "https://www.miamidade.gov/global/311/home.page",
+    "publisher": "Miami-Dade County 311 Contact Center"
+   },
+   "quote": "By dialing 311 or 305-468-5900 (outside Miami-Dade County), you can receive personalized customer service in English, Spanish or Haitian Creole.",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T17:28:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl-miamidade.311.url",
+   "status": "verified",
+   "value": {
+    "kind": "code",
+    "code": "https://www.miamidade.gov/global/311/home.page"
+   },
+   "source": {
+    "id": "us-fl-miamidade.mdc-311-home",
+    "url": "https://www.miamidade.gov/global/311/home.page",
+    "publisher": "Miami-Dade County 311 Contact Center"
+   },
+   "quote": "311 Contact Center",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T17:32:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl-miamidade.sheriff.name",
+   "status": "verified",
+   "value": {
+    "kind": "code",
+    "code": "Miami-Dade Sheriff's Office"
+   },
+   "source": {
+    "id": "us-fl-miamidade.mdso-home",
+    "url": "https://www.mdso.com/",
+    "publisher": "Miami-Dade Sheriff's Office"
+   },
+   "quote": "Miami-Dade Sheriff's Office",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T17:32:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl-miamidade.sheriff.phone",
+   "status": "verified",
+   "value": {
+    "kind": "phone",
+    "digits": "3057437433"
+   },
+   "source": {
+    "id": "us-fl-miamidade.mdso-home",
+    "url": "https://www.mdso.com/",
+    "publisher": "Miami-Dade Sheriff's Office"
+   },
+   "quote": "Emergencies: 911 · Non-Emergency: 305-Sheriff (743-7433)",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T17:38:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl-miamidade.sheriff.url",
+   "status": "verified",
+   "value": {
+    "kind": "code",
+    "code": "https://www.mdso.com/"
+   },
+   "source": {
+    "id": "us-fl-miamidade.mdso-home",
+    "url": "https://www.mdso.com/",
+    "publisher": "Miami-Dade Sheriff's Office"
+   },
+   "quote": "Miami-Dade Sheriff's Office",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T17:32:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl-miami.police.name",
+   "status": "verified",
+   "value": {
+    "kind": "code",
+    "code": "City of Miami Police Department"
+   },
+   "source": {
+    "id": "us-fl-miami.miami-police-contact",
+    "url": "https://www.miami-police.org/contact.html",
+    "publisher": "City of Miami Police Department"
+   },
+   "quote": "City of Miami Police Department",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T17:32:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl-miami.police.phone",
+   "status": "verified",
+   "value": {
+    "kind": "phone",
+    "digits": "3055796111"
+   },
+   "source": {
+    "id": "us-fl-miami.miami-police-contact",
+    "url": "https://www.miami-police.org/contact.html",
+    "publisher": "City of Miami Police Department"
+   },
+   "quote": "Emergency Call: 911 Non Emergency Call: (305) 579-6111",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T17:38:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl-miami.police.url",
+   "status": "verified",
+   "value": {
+    "kind": "code",
+    "code": "https://www.miami-police.org/contact.html"
+   },
+   "source": {
+    "id": "us-fl-miami.miami-police-contact",
+    "url": "https://www.miami-police.org/contact.html",
+    "publisher": "City of Miami Police Department"
+   },
+   "quote": "City of Miami Police Department",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T17:32:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl-miamidade.wasd.name",
+   "status": "verified",
+   "value": {
+    "kind": "code",
+    "code": "Miami-Dade Water and Sewer Department (WASD)"
+   },
+   "source": {
+    "id": "us-fl-miamidade.mdc-wasd-home",
+    "url": "https://www.miamidade.gov/global/water/home.page",
+    "publisher": "Miami-Dade Water and Sewer Department"
+   },
+   "quote": "The Miami-Dade Water and Sewer Department (WASD) recognizes staff who demonstrate a strong commitment to ser",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T17:32:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl-miamidade.wasd.phone",
+   "status": "verified",
+   "value": {
+    "kind": "phone",
+    "digits": "3056657477"
+   },
+   "source": {
+    "id": "us-fl-miamidade.mdc-wasd-home",
+    "url": "https://www.miamidade.gov/global/water/home.page",
+    "publisher": "Miami-Dade Water and Sewer Department"
+   },
+   "quote": "Water and Sewer Douglas Office 3071 SW 38th Ave, Miami, FL 33146 305-665-7477",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T17:28:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl-miamidade.wasd.url",
+   "status": "verified",
+   "value": {
+    "kind": "code",
+    "code": "https://www.miamidade.gov/global/water/home.page"
+   },
+   "source": {
+    "id": "us-fl-miamidade.mdc-wasd-home",
+    "url": "https://www.miamidade.gov/global/water/home.page",
+    "publisher": "Miami-Dade Water and Sewer Department"
+   },
+   "quote": "Water and Sewer Department",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T17:32:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl-miamidade.m-dcps.name",
+   "status": "verified",
+   "value": {
+    "kind": "code",
+    "code": "Miami-Dade County Public Schools (M-DCPS)"
+   },
+   "source": {
+    "id": "us-fl-miamidade.nces-ccd-mdcps",
+    "url": "https://nces.ed.gov/ccd/districtsearch/district_detail.asp?ID2=1200390&Search=2",
+    "publisher": "U.S. Department of Education, National Center for Education Statistics (Common Core of Data)"
+   },
+   "quote": "District Name: MIAMI-DADE (Schools in this District) NCES Distric",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T17:32:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl-miamidade.m-dcps.phone",
+   "status": "verified",
+   "value": {
+    "kind": "phone",
+    "digits": "3059951000"
+   },
+   "source": {
+    "id": "us-fl-miamidade.nces-ccd-mdcps",
+    "url": "https://nces.ed.gov/ccd/districtsearch/district_detail.asp?ID2=1200390&Search=2",
+    "publisher": "U.S. Department of Education, National Center for Education Statistics (Common Core of Data)"
+   },
+   "quote": "Phone: (305)995-1000",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T17:32:00-04:00",
+   "check_every_days": 90
+  },
+  {
+   "id": "us-fl-miamidade.m-dcps.url",
+   "status": "verified",
+   "value": {
+    "kind": "code",
+    "code": "https://www.dadeschools.net/"
+   },
+   "source": {
+    "id": "us-fl-miamidade.nces-ccd-mdcps",
+    "url": "https://nces.ed.gov/ccd/districtsearch/district_detail.asp?ID2=1200390&Search=2",
+    "publisher": "U.S. Department of Education, National Center for Education Statistics (Common Core of Data)"
+   },
+   "quote": "District Name: MIAMI-DADE",
+   "quote_language": "en",
+   "retrieved_at": "2026-09-25T17:32:00-04:00",
+   "check_every_days": 90
+  }
+ ],
+ "desks": [
+  {
+   "id": "us-fl.flhsmv",
+   "pack": "us-fl",
+   "names": {
+    "es": "Departamento de Seguridad Vial y Vehículos de Florida (FLHSMV)",
+    "en": "Florida Highway Safety and Motor Vehicles (FLHSMV)",
+    "ht": "Depatman Sekirite Wout ak Machin Florid (FLHSMV)"
+   },
+   "desk_facts": [
+    "us-fl.flhsmv.name",
+    "us-fl.flhsmv.phone",
+    "us-fl.flhsmv.url"
+   ]
+  },
+  {
+   "id": "us-fl-miamidade.tax-collector",
+   "pack": "us-fl-miamidade",
+   "names": {
+    "es": "Tax Collector de Miami-Dade (licencia y placa)",
+    "en": "Miami-Dade Tax Collector (license and tag)",
+    "ht": "Tax Collector Miami-Dade (lisans ak plak)"
+   },
+   "desk_facts": [
+    "us-fl-miamidade.tax-collector.name",
+    "us-fl-miamidade.tax-collector.phone",
+    "us-fl-miamidade.tax-collector.url"
+   ]
+  },
+  {
+   "id": "us.ftc",
+   "pack": "us",
+   "names": {
+    "es": "Comisión Federal de Comercio (denuncias de fraude)",
+    "en": "Federal Trade Commission (fraud reports)",
+    "ht": "Komisyon Federal Komès (rapò fwod)"
+   },
+   "desk_facts": [
+    "us.ftc.name",
+    "us.ftc.phone",
+    "us.ftc.url"
+   ]
+  },
+  {
+   "id": "us-fl-miamidade.311",
+   "pack": "us-fl-miamidade",
+   "names": {
+    "es": "Línea de Miami-Dade para lo que no es emergencia",
+    "en": "Miami-Dade non-emergency line",
+    "ht": "Liy Miami-Dade pou sa ki pa ijans"
+   },
+   "desk_facts": [
+    "us-fl-miamidade.311.name",
+    "us-fl-miamidade.311.phone",
+    "us-fl-miamidade.311.url"
+   ]
+  },
+  {
+   "id": "us-fl-miamidade.sheriff",
+   "pack": "us-fl-miamidade",
+   "names": {
+    "en": "Miami-Dade Sheriff's Office"
+   },
+   "desk_facts": [
+    "us-fl-miamidade.sheriff.name",
+    "us-fl-miamidade.sheriff.phone",
+    "us-fl-miamidade.sheriff.url"
+   ]
+  },
+  {
+   "id": "us-fl-miami.police",
+   "pack": "us-fl-miami",
+   "names": {
+    "en": "City of Miami Police Department"
+   },
+   "desk_facts": [
+    "us-fl-miami.police.name",
+    "us-fl-miami.police.phone",
+    "us-fl-miami.police.url"
+   ]
+  },
+  {
+   "id": "us-fl-miamidade.wasd",
+   "pack": "us-fl-miamidade",
+   "names": {
+    "en": "Miami-Dade Water and Sewer Department (WASD)"
+   },
+   "desk_facts": [
+    "us-fl-miamidade.wasd.name",
+    "us-fl-miamidade.wasd.phone",
+    "us-fl-miamidade.wasd.url"
+   ]
+  },
+  {
+   "id": "us-fl-miamidade.m-dcps",
+   "pack": "us-fl-miamidade",
+   "names": {
+    "es": "Escuelas Públicas del Condado Miami-Dade",
+    "en": "Miami-Dade County Public Schools",
+    "ht": "Lekòl Piblik Konte Miami-Dade"
+   },
+   "desk_facts": [
+    "us-fl-miamidade.m-dcps.name",
+    "us-fl-miamidade.m-dcps.phone",
+    "us-fl-miamidade.m-dcps.url"
+   ]
+  }
+ ]
+}

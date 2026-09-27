@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "household": {
+    "id": "7A1C1E2E-0000-4000-8000-000000000001",
+    "name": "Test household",
+    "pin": {
+      "latitude": 0,
+      "longitude": 0,
+      "address": "test address"
+    },
+    "homeLanguage": "es-419",
+    "shared": {
+      "hasCar": true
+    },
+    "people": [
+      {
+        "id": "7A1C1E2E-0000-4000-8000-000000000002",
+        "displayName": "Test parent",
+        "age": 40,
+        "origin": {
+          "countryCode": "HT"
+        },
+        "thinkIn": "ht",
+        "goal": "reunite",
+        "mode": "resident",
+        "stage": 2,
+        "statusWordSharedWithHousehold": false,
+        "papers": [
+          {
+            "id": "7A1C1E2E-0000-4000-8000-000000000003",
+            "kind": "test-paper",
+            "isImmigrationDocument": true,
+            "attachmentRefs": [],
+            "sharedWithHousehold": false
+          }
+        ],
+        "completedCards": []
+      },
+      {
+        "id": "7A1C1E2E-0000-4000-8000-000000000004",
+        "displayName": "Test visitor",
+        "thinkIn": "hi",
+        "goal": "visit",
+        "mode": "tourist",
+        "stage": 10
+      }
+    ]
+  }
+}

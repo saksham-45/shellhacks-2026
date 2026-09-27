@@ -1,0 +1,126 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: eviction-clock
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > The hard papers
+  item: Eviction clock
+- plan: mymiami-plan.md
+  section: Every feature > Housing traps and the bad week
+  item: Eviction clock
+title:
+  es: El reloj del desalojo
+  en: Eviction clock
+  ht: Revèy degèpisman
+summary:
+  es: Qué es el aviso, el plazo que trae y a quién llamar esta semana.
+  en: What the notice is, the deadline on it, and who to call this week.
+  ht: Kisa avi a ye, delè ki sou li, ak kiyès pou rele semèn sa a.
+body:
+  es: |-
+    Un aviso de tu dueño no es un desalojo. Solo un tribunal puede ordenar que te vayas.
+
+    Por renta sin pagar, el aviso escrito del dueño te da {fact:us-fl.eviction.rent-demand-days} días para pagar, sin contar fines de semana ni feriados judiciales.
+
+    La ley de Florida dice cómo se deben entregar los avisos para terminar el alquiler, y el contrato de alquiler no puede renunciar a esas reglas.
+
+    Si te entregan papeles del tribunal, tienes {fact:us-fl.eviction.answer-period} para responder, o puedes perder automáticamente.
+
+    Si te demandan, debes pagar la renta reclamada en el registro del tribunal dentro de {fact:us-fl.eviction.court-registry-days} días, sin contar fines de semana ni feriados legales, o pierdes toda defensa salvo que ya hayas pagado.
+
+    El dueño no puede cambiar las cerraduras ni cortar los servicios para sacarte.
+
+    Llama esta semana a la asistencia legal de Miami-Dade.
+  en: |-
+    A notice from your landlord is not an eviction. Only a court can order you out.
+
+    For unpaid rent, the landlord's written notice gives you {fact:us-fl.eviction.rent-demand-days} days to pay, not counting weekends or court holidays.
+
+    Florida law sets how lease-ending notices must be delivered, and the lease cannot waive those rules.
+
+    If you are served court papers, you have {fact:us-fl.eviction.answer-period} to respond, or you can lose automatically.
+
+    If you are sued, you must pay the rent claimed into the court registry within {fact:us-fl.eviction.court-registry-days} days, not counting weekends or legal holidays, or you lose every defense except that you already paid.
+
+    A landlord may not change the locks or shut off utilities to force you out.
+
+    Call Miami-Dade legal aid this week.
+  ht: |-
+    Yon avi mèt kay ou pa yon degèpisman. Se sèlman yon tribinal ki ka bay lòd pou w sòti.
+
+    Pou lwaye ki pa peye, avi ekri mèt kay la ba w {fact:us-fl.eviction.rent-demand-days} jou pou peye, san konte wikenn ni jou ferye tribinal.
+
+    Lalwa Florid di kijan pou yo remèt avi pou fini kontra lwaye a, epi kontra a pa ka anile règ sa yo.
+
+    Si yo ba w papye tribinal, ou gen {fact:us-fl.eviction.answer-period} pou reponn, sinon ou ka pèdi otomatikman.
+
+    Si yo rele w nan tribinal, ou dwe peye lwaye yo mande a nan rejis tribinal la nan {fact:us-fl.eviction.court-registry-days} jou, san konte wikenn ni jou ferye legal, sinon ou pèdi tout defans sof si ou te deja peye.
+
+    Mèt kay la pa gen dwa chanje kadna yo ni koupe dlo ak kouran pou fòse w sòti.
+
+    Rele èd legal Miami-Dade semèn sa a.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl.eviction.court-only
+- - us-fl.eviction.rent-demand-days
+- - us-fl.eviction.notice-delivery-not-waivable
+- - us-fl.eviction.default
+  - us-fl.eviction.answer-period
+- - us-fl.eviction.court-registry-days
+- - us-fl.eviction.no-self-help
+- []
+desk: us-fl-miamidade.legal-aid
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.legal-aid
+- type: open_map
+  target:
+    type: desk
+    desk_id: us-fl-miamidade.legal-aid
+utterances:
+  es:
+  - el dueño me quiere desalojar
+  - me llegó un aviso de desalojo
+  - me cambiaron la cerradura
+  - cuánto tiempo tengo para mudarme
+  - the landlord me quiere botar
+  en:
+  - my landlord wants to evict me
+  - I got an eviction notice
+  - they changed my locks
+  - how long do I have to move
+  - me quieren sacar del apartamento
+  ht:
+  - mèt kay la vle mete m deyò
+  - mwen resevwa yon avi degèpisman
+  - yo chanje kadna m
+  - konbyen tan m genyen pou m demenaje
+  - landlord la vle mete m deyò
+privacy_scope: household
+stages:
+- 5
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- lease-basics
+- help-this-week
+fact_refs:
+- us-fl.eviction.court-only
+- us-fl.eviction.rent-demand-days
+- us-fl.eviction.notice-delivery-not-waivable
+- us-fl.eviction.default
+- us-fl.eviction.answer-period
+- us-fl.eviction.court-registry-days
+- us-fl.eviction.no-self-help
+topics:
+- rent
+- legal-aid

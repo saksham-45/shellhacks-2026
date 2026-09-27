@@ -1,0 +1,93 @@
+{
+  "language": "vi",
+  "version": 1,
+  "review": {
+    "state": "needs_review",
+    "note": "Agent-authored for Florida Census languages; pending native review."
+  },
+  "fillers": [
+    "làm ơn"
+  ],
+  "commands": {
+    "back": [
+      "quay lại",
+      "trở về"
+    ],
+    "home": [
+      "trang chủ"
+    ],
+    "read_this": [
+      "đọc cái này",
+      "đọc to"
+    ],
+    "stop": [
+      "dừng"
+    ],
+    "repeat": [
+      "lặp lại",
+      "nói lại"
+    ],
+    "next_step": [
+      "tiếp",
+      "bước tiếp"
+    ],
+    "previous_step": [
+      "bước trước"
+    ],
+    "call_desk": [
+      "gọi",
+      "gọi quầy"
+    ],
+    "open_map": [
+      "bản đồ",
+      "mở bản đồ"
+    ],
+    "switch_language_es": [
+      "tiếng tây ban nha"
+    ],
+    "switch_language_en": [
+      "tiếng anh"
+    ],
+    "switch_language_ht": [
+      "kreyòl"
+    ],
+    "switch_language_pt": [
+      "tiếng bồ đào nha"
+    ],
+    "switch_language_fr": [
+      "tiếng pháp"
+    ],
+    "switch_language_ar": [
+      "tiếng ả rập"
+    ],
+    "switch_language_zh": [
+      "tiếng trung"
+    ],
+    "switch_language_ru": [
+      "tiếng nga"
+    ],
+    "switch_language_tl": [
+      "tagalog"
+    ],
+    "switch_language_vi": [
+      "tiếng việt",
+      "bằng tiếng việt"
+    ],
+    "yes": [
+      "có",
+      "vâng"
+    ],
+    "no": [
+      "không"
+    ],
+    "ordinal_first": [
+      "cái thứ nhất"
+    ],
+    "ordinal_second": [
+      "cái thứ hai"
+    ],
+    "ordinal_third": [
+      "cái thứ ba"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "action": {"type": "navigate", "destination": {"type": "card", "card_id": "example-trash-day", "person_id": null}},
+  "grounding": {
+    "type": "card",
+    "card_id": "example-trash-day",
+    "facts": [{"pack_id": "us-fl-miamidade", "fact_id": "us-fl-miamidade.example.trash-days"}]
+  },
+  "confidence": 0.6,
+  "clarification": {
+    "question": {"key": "ask.clarify.which_card", "table": "ADAgentsClient"},
+    "options": [
+      {"id": "opt-1", "label": {"key": "card.example-trash-day.title", "table": "Cards"},
+       "action": {"type": "navigate", "destination": {"type": "card", "card_id": "example-trash-day", "person_id": null}}},
+      {"id": "opt-2", "label": {"key": "card.example-bulky-pickup.title", "table": "Cards"},
+       "action": {"type": "navigate", "destination": {"type": "card", "card_id": "example-bulky-pickup", "person_id": null}}},
+      {"id": "opt-3", "label": {"key": "ask.clarify.option.desk", "table": "ADAgentsClient"},
+       "action": {"type": "call_desk", "desk_id": "us-fl-miamidade.example-desk"}}
+    ]
+  },
+  "reply_language": "es"
+}

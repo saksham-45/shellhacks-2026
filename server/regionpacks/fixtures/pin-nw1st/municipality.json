@@ -1,0 +1,1 @@
+{"displayFieldName":"NAME","fieldAliases":{"NAME":"NAME","MUNICID":"MUNICID"},"fields":[{"name":"NAME","type":"esriFieldTypeString","alias":"NAME","length":25},{"name":"MUNICID","type":"esriFieldTypeString","alias":"MUNICID","length":2}],"features":[{"attributes":{"NAME":"MIAMI","MUNICID":"01"}}]}

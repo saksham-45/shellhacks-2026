@@ -1,0 +1,98 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: tipping
+kind: etiquette
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Origin lens
+  item: Tourists
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The country, same everywhere
+  item: Tipping, age 21, the notario warning, driving ethics
+- plan: myamericandream-plan.md
+  section: Stages
+  item: 'Tourist mode: tipping'
+title:
+  es: La propina
+  en: Tipping
+  ht: Poubwa
+summary:
+  es: En un restaurante con servicio a la mesa, la propina es parte del precio, porque el sueldo cuenta con ella.
+  en: At a sit-down meal the tip is part of the price, because the wage assumes it.
+  ht: Nan yon restoran kote yo sèvi w sou tab, poubwa a fè pati pri a, paske salè a konte sou li.
+body:
+  es: |-
+    En tu país, el precio del menú puede ser el precio completo.
+
+    Aquí, en un restaurante con servicio a la mesa, se suele dejar {fact:us.tipping.sit-down-range} de la cuenta.
+
+    Revisa la cuenta primero. Algunos lugares ya incluyen un cargo por servicio.
+
+    Lo que cuesta: no dejar propina se entiende como que el servicio fue malo.
+  en: |-
+    At home, the price on the menu may be the whole price.
+
+    Here, people usually tip {fact:us.tipping.sit-down-range} of the bill at a sit-down restaurant.
+
+    Check the bill first. Some places already add a service charge.
+
+    What it costs: skipping the tip reads as saying the service was bad.
+  ht: |-
+    Lakay, pri ki sou meni an ka tout pri a.
+
+    Isit la, nan yon restoran ak sèvis sou tab, moun konn bay {fact:us.tipping.sit-down-range} nan bòdwo a.
+
+    Tcheke bòdwo a an premye. Gen kote ki deja mete yon frè sèvis.
+
+    Sa sa koute: si ou pa bay poubwa, yo konprann ou di sèvis la te move.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- - us.labor.tipped-wage
+  - us.tipping.sit-down-range
+- - us.tipping.service-charge
+- []
+desk: us.211
+utterances:
+  es:
+  - cuánto dejo de propina
+  - tengo que dejar propina
+  - la propina está incluida
+  - propina en el restaurante
+  - how much tip dejo
+  en:
+  - how much do I tip
+  - do I have to tip
+  - is the tip included
+  - tip at a restaurant
+  - cuánto dejo de tip
+  ht:
+  - konbyen poubwa pou m bay
+  - èske m oblije bay poubwa
+  - èske poubwa a enkli
+  - poubwa nan restoran
+  - konbyen tip pou m kite
+privacy_scope: person
+stages:
+- 1
+- 10
+modes:
+- resident
+- tourist
+region_pack: us
+is_immigration: false
+origin_lenses:
+- tourist
+fact_refs:
+- us.labor.tipped-wage
+- us.tipping.sit-down-range
+- us.tipping.service-charge
+topics:
+- etiquette
+- visitors

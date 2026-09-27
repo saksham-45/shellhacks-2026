@@ -1,0 +1,23 @@
+{
+  "fact_id": "us-fl-miamidade.license.tax-collector-kendall-office",
+  "outcome": "value-changed",
+  "action": "The quoted passage now shows different figures. Re-read the source; if the fact changed, update value+quote+retrieved_at by hand and add correction_note.",
+  "result": {
+    "fact_id": "us-fl-miamidade.license.tax-collector-kendall-office",
+    "source_id": "us-fl-miamidade.mdc-tax-collector-locations",
+    "kind": "static",
+    "status_before": "verified",
+    "outcome": "value-changed",
+    "detail": "the quoted passage is still there but its figures changed: ['122', '14653', '33186'] -> ['1', '100', '11093', '138', '16', '33018', '9,']",
+    "snippet": "Gardens 11093 NW 138th St, Suite 1-9, Hialeah Gardens, FL 33018 (305) 375-5448 Location Detail → Kendall (Suite 23) 11735 SW 147th Ave, Suite 23, Miami, FL 33196 (305) 375-5448 Location Detail → Miami Beach 100 16th Street",
+    "similarity": 0.795,
+    "observed": null,
+    "recorded": "Coral Reef 14653 SW 122 Ave, Miami, FL 33186 (305) 375-5448 ... Kendall (Suite 23) 11735 SW 147th Ave, Suite 23, Miami, FL 33196 (305) 375-5448",
+    "checked_url": "https://www.mdctaxcollector.gov/locations",
+    "final_url": "https://www.mdctaxcollector.gov/locations",
+    "consecutive_unreachable": 0,
+    "propose_stale": false
+  },
+  "run_started_at": "2026-09-25T17:38:48-04:00",
+  "auto_applied": false
+}

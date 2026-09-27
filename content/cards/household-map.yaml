@@ -1,0 +1,96 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: household-map
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > The week and the map
+  item: Miami-Dade outline as the object of the app, pin travel when the address changes
+- plan: myamericandream-plan.md
+  section: How it opens
+title:
+  es: Tu mapa
+  en: Your map
+  ht: Kat ou
+summary:
+  es: La silueta del condado con tu dirección. Cambia la dirección y el punto se mueve; la ciudad se levanta si cruzas su límite.
+  en: The county outline with your pin. Change the address and the pin travels; the city piece lifts if you cross a city line.
+  ht: Fòm konte a ak adrès ou. Chanje adrès la epi pwen an deplase; moso vil la leve si ou travèse limit yon vil.
+body:
+  es: |-
+    Estás en {fact:us-fl-miamidade.gov.municipality}, dentro de {fact:us.census.county-subdivision}.
+
+    Este mapa es un dibujo plano del condado, no una foto de satélite.
+
+    La casa comparte este mapa. Cada persona tiene su propia tarjeta y sus papeles.
+  en: |-
+    You are in {fact:us-fl-miamidade.gov.municipality}, inside {fact:us.census.county-subdivision}.
+
+    This map is a flat drawing of the county, not a satellite photo.
+
+    The household shares this map. Each person keeps their own card and papers.
+  ht: |-
+    Ou nan {fact:us-fl-miamidade.gov.municipality}, anndan {fact:us.census.county-subdivision}.
+
+    Kat sa a se yon desen plat konte a, se pa yon foto satelit.
+
+    Tout kay la pataje kat sa a. Chak moun kenbe pwòp kat li ak papye li.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us-fl-miamidade.gov.municipality
+  - us.census.county-subdivision
+- []
+- []
+paragraph_when:
+- municipality: unincorporated
+- null
+- null
+desk: us-fl-miamidade.311
+utterances:
+  es:
+  - muéstrame el mapa
+  - dónde está mi punto
+  - cambia mi dirección
+  - mueve el punto
+  - the map por favor
+  en:
+  - show me the map
+  - where is my pin
+  - change the address on the map
+  - move the pin
+  - el map por favor
+  ht:
+  - montre m kat la
+  - kote pwen mwen ye
+  - chanje adrès la sou kat la
+  - deplase pwen an
+  - map la souple
+privacy_scope: household
+stages:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- which-government
+fact_refs:
+- us-fl-miamidade.gov.municipality
+- us.census.county-subdivision
+topics:
+- municipality

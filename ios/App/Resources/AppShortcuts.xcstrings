@@ -1,0 +1,150 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Call the desk with ${applicationName}": {
+      "comment": "Siri phrase. ${applicationName} is replaced by the app name. Siri has no Haitian Creole; the ht value exists for catalog parity only.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Call the desk with ${applicationName}"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Llamar a la oficina con ${applicationName}"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Rele biwo a ak ${applicationName}"
+          }
+        }
+      }
+    },
+    "Open a card in ${applicationName}": {
+      "comment": "Siri phrase. ${applicationName} is replaced by the app name. Siri has no Haitian Creole; the ht value exists for catalog parity only.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open a card in ${applicationName}"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Abrir una tarjeta en ${applicationName}"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Louvri yon kat nan ${applicationName}"
+          }
+        }
+      }
+    },
+    "Open this week in ${applicationName}": {
+      "comment": "Siri phrase. ${applicationName} is replaced by the app name. Siri has no Haitian Creole; the ht value exists for catalog parity only.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open this week in ${applicationName}"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Abrir esta semana en ${applicationName}"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Louvri semèn sa a nan ${applicationName}"
+          }
+        }
+      }
+    },
+    "Read my next step in ${applicationName}": {
+      "comment": "Siri phrase. ${applicationName} is replaced by the app name. Siri has no Haitian Creole; the ht value exists for catalog parity only.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Read my next step in ${applicationName}"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Leer mi próximo paso en ${applicationName}"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Li pwochen etap mwen nan ${applicationName}"
+          }
+        }
+      }
+    },
+    "Switch ${applicationName} language": {
+      "comment": "Siri phrase. ${applicationName} is replaced by the app name. Siri has no Haitian Creole; the ht value exists for catalog parity only.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Switch ${applicationName} language"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Cambiar el idioma de ${applicationName}"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Chanje lang ${applicationName}"
+          }
+        }
+      }
+    },
+    "What's this week in ${applicationName}": {
+      "comment": "Siri phrase. ${applicationName} is replaced by the app name. Siri has no Haitian Creole; the ht value exists for catalog parity only.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What's this week in ${applicationName}"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Qué hay esta semana en ${applicationName}"
+          }
+        },
+        "ht": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Kisa ki genyen semèn sa a nan ${applicationName}"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

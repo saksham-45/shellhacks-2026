@@ -1,0 +1,23 @@
+{
+  "fact_id": "us-fl-miamidade.tolls.gmx.rates-in-effect-since",
+  "outcome": "quote-missing",
+  "action": "The quoted sentence is gone. Find where the fact now lives (or whether it was removed); update quote/url by hand, or mark unsourced.",
+  "result": {
+    "fact_id": "us-fl-miamidade.tolls.gmx.rates-in-effect-since",
+    "source_id": "us-fl-miamidade.gmx-acfr-2024",
+    "kind": "static",
+    "status_before": "verified",
+    "outcome": "quote-missing",
+    "detail": "quote no longer found in the fetched text",
+    "snippet": "board would be specifically the BCC. This means that the Florida appointed. On May 29, 2018, the Authority's Constitution prohibits the Florida legislature Board voted to reduce toll rates across the entire from passing laws with effect only in Miami- System, not only for SunPass® customers, by Dade County, and bestows that right solely and approximately 6 percent effective July 1, 2018. exclusively upon the BCC. In an unbroken line",
+    "similarity": 0.641,
+    "observed": null,
+    "recorded": "(5) Rates lowered on July 1, 2018, please see next table for current rates. ... On May 29, 2018, the Authority’s Board voted to reduce toll rates across the entire System, not only for SunPass® customers, by approximately 6 percent effective July 1, 2018.",
+    "checked_url": "https://gmx-way.com/pdf/annual_reports/2024%20ACFR.pdf",
+    "final_url": "https://gmx-way.com/pdf/annual_reports/2024%20ACFR.pdf",
+    "consecutive_unreachable": 0,
+    "propose_stale": false
+  },
+  "run_started_at": "2026-09-25T17:38:48-04:00",
+  "auto_applied": false
+}

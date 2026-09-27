@@ -1,0 +1,32 @@
+{
+  "request_id": "0123456789abcdef0123456789abcdef",
+  "person_id": "person-example",
+  "desk_id": "us-fl-example.example-housing-desk",
+  "language": "en",
+  "read_back_language": "es",
+  "summarizer": "extractive",
+  "sentences": [
+    {
+      "text": "Mi casero cambió las cerraduras ayer.",
+      "source_utterance_index": 0,
+      "needs_translation": true
+    },
+    {
+      "text": "Tengo el contrato de alquiler.",
+      "source_utterance_index": 1,
+      "needs_translation": true
+    }
+  ],
+  "read_back": [
+    {
+      "text": "Mi casero cambió las cerraduras ayer.",
+      "source_utterance_index": 0
+    },
+    {
+      "text": "Tengo el contrato de alquiler.",
+      "source_utterance_index": 1
+    }
+  ],
+  "approved": false,
+  "dropped": []
+}

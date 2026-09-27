@@ -1,0 +1,7 @@
+{
+  "note": "Destination.language. Example ids only.",
+  "type": "destination",
+  "value": {
+    "type": "language"
+  }
+}

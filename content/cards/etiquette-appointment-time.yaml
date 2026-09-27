@@ -1,0 +1,75 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: etiquette-appointment-time
+kind: etiquette
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Origin lens > Etiquette cards
+  item: 'Time: the appointment is the time, not the hour after.'
+title:
+  es: La cita es a la hora
+  en: The appointment is the time
+  ht: Randevou a se lè a
+summary:
+  es: Llega antes de la hora de la carta. Llegar tarde puede costarte el turno y empezar de nuevo.
+  en: Arrive before the time on the letter. Late can mean you lose the slot and start over.
+  ht: Rive anvan lè ki sou lèt la. An reta ka fè w pèdi plas ou epi rekòmanse.
+body:
+  es: |-
+    En tu país, la hora de una cita puede ser aproximada.
+
+    Aquí, las oficinas toman la hora en serio. La fila de seguridad y el estacionamiento toman tiempo extra.
+
+    Lo que cuesta: perder el turno puede significar esperar una nueva cita.
+  en: |-
+    At home, the time on an appointment may be a rough guide.
+
+    Here, offices treat the time as the time. Security lines and parking take extra.
+
+    What it costs: a missed slot can mean waiting for a new appointment.
+  ht: |-
+    Lakay, lè ki sou yon randevou ka sèvi kòm yon gid ki pa egzak.
+
+    Isit la, biwo yo pran lè a oserye. Liy sekirite ak pakin pran tan anplis.
+
+    Sa sa koute: si ou rate plas ou, ou ka oblije tann yon nouvo randevou.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- []
+- []
+desk: us.211
+utterances:
+  es:
+  - qué pasa si llego tarde a la cita
+  - con cuánto tiempo llego
+  - llegar tarde es un problema aquí
+  - I'm running late para la cita
+  en:
+  - what if I am late to my appointment
+  - how early should I arrive
+  - is being late a problem here
+  - llego tarde a la cita
+  ht:
+  - sa k pase si m rive an reta nan randevou a
+  - konbyen tan davans pou m rive
+  - èske reta se yon pwoblèm isit la
+  - mwen an reta pou randevou a
+privacy_scope: person
+stages:
+- 1
+- 10
+modes:
+- resident
+- tourist
+region_pack: us
+is_immigration: false
+fact_refs: []
+topics:
+- etiquette

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "households": {
+    "format": "future",
+    "rows": [
+      [
+        1,
+        2,
+        3
+      ]
+    ]
+  }
+}

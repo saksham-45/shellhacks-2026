@@ -1,0 +1,23 @@
+{
+  "fact_id": "us-fl-miamidade.rent.home-limit.2br.low",
+  "outcome": "value-changed",
+  "action": "The quoted passage now shows different figures. Re-read the source; if the fact changed, update value+quote+retrieved_at by hand and add correction_note.",
+  "result": {
+    "fact_id": "us-fl-miamidade.rent.home-limit.2br.low",
+    "source_id": "us-fl-miamidade.mdc-hcd-2026-rfa-booklet",
+    "kind": "static",
+    "status_before": "verified",
+    "outcome": "value-changed",
+    "detail": "the quoted passage is still there but its figures changed: ['1,', '2026'] -> ['$1,530', '$1,641', '$1,971', '$2,269', '13', '8']",
+    "snippet": "Section 8 Income Limits. 13. HOME Rent Limits: For 2026, the U.S. HUD HOME Rents Limits for Miami-Dade County are as follows: 0 BDR 1 BDR 2 BDR 3 BDR 4 BDR 5 BDR Low HOME Rent Limit $1,192 $1,277 $1,532 $1,770 $1,975 $2,179 HIGH HOME Rent Limit $1,530 $1,641 $1,971 $2,269",
+    "similarity": 0.924,
+    "observed": null,
+    "recorded": "For 2026, the U.S. HUD HOME Rents Limits for Miami-Dade County are as follows: 0 BDR 1 BDR 2 BDR 3 BDR 4 BDR 5 BDR Low HOME Rent Limit $1,192 $1,277 $1,532 $1,770 $1,975 $2,179 * Effective date: June 1, 2026",
+    "checked_url": "https://www.miamidade.gov/resources/housing/documents/requests/2026-surtax-booklet.pdf",
+    "final_url": "https://www.miamidade.gov/resources/housing/documents/requests/2026-surtax-booklet.pdf",
+    "consecutive_unreachable": 0,
+    "propose_stale": false
+  },
+  "run_started_at": "2026-09-25T17:38:48-04:00",
+  "auto_applied": false
+}

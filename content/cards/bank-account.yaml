@@ -1,0 +1,106 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: bank-account
+kind: country
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: Put the shoes on > The first month, once they are sleeping
+  item: 10. A bank account
+- plan: myamericandream-plan.md
+  section: Build order
+  item: '7. Country cards: bank'
+- plan: myamericandream-plan.md
+  section: Stages
+  item: 4. Money
+title:
+  es: Una cuenta de banco a tu nombre
+  en: A bank account in your name
+  ht: Yon kont labank sou non pa w
+summary:
+  es: Algunos bancos abren cuentas con pasaporte y una dirección en el extranjero. Nunca abras una a nombre de otra persona.
+  en: Some banks open an account with a passport and a foreign address. Never open one in someone else's name.
+  ht: Gen bank ki louvri kont ak yon paspò ak yon adrès lòt peyi. Pa janm louvri youn sou non yon lòt moun.
+body:
+  es: |-
+    En tu país, un familiar puede tener la cuenta de toda la familia.
+
+    Aquí, algunos bancos abren una cuenta con pasaporte y una dirección en el extranjero.
+
+    Lo que cuesta: el dinero en la cuenta de un primo es legalmente del primo. Si se va o debe algo, tu sueldo se puede ir con él.
+
+    Pregunta en la sucursal: qué identificación aceptan, si hay cargo mensual y cómo evitarlo.
+
+    No hacemos ranking de bancos. La sucursal es la ventanilla.
+  en: |-
+    At home, one relative may hold the account for the whole family.
+
+    Here, some banks open an account with a passport and a foreign address.
+
+    What it costs: money in a cousin's account is legally the cousin's. If they leave or owe a debt, your pay can go with it.
+
+    Ask the branch: which ID do you accept, is there a monthly fee, and how do I avoid it?
+
+    We do not rank banks. The branch is the desk.
+  ht: |-
+    Lakay, yon sèl fanmi ka kenbe kont lan pou tout fanmi an.
+
+    Isit la, gen bank ki louvri yon kont ak yon paspò ak yon adrès lòt peyi.
+
+    Sa sa koute: lajan nan kont yon kouzen se pou kouzen an devan lalwa. Si l ale oswa si l dwe, lajan ou ka ale avè l.
+
+    Mande nan branch lan: ki ID yo aksepte, èske gen frè chak mwa, epi kijan pou m evite l?
+
+    Nou pa klase bank yo. Branch lan se biwo a.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- - us.bank.passport-foreign-address
+- - us.bank.account-owner
+- []
+- []
+desk: us.bank-branch
+actions:
+- type: open_map
+  target:
+    type: desk
+    desk_id: us.bank-branch
+utterances:
+  es:
+  - cómo abro una cuenta de banco
+  - puedo abrir una cuenta con mi pasaporte
+  - necesito un banco
+  - mi primo quiere poner mi dinero en su cuenta
+  - banco sin seguro social
+  en:
+  - how do I open a bank account
+  - can I open an account with my passport
+  - I need a bank
+  - my cousin wants to put my money in his account
+  - bank without social security
+  ht:
+  - kijan pou m louvri yon kont labank
+  - èske m ka louvri yon kont ak paspò m
+  - mwen bezwen yon bank
+  - kouzen m vle mete lajan m nan kont li
+  - bank san social security
+privacy_scope: person
+stages:
+- 4
+modes:
+- resident
+region_pack: us
+is_immigration: false
+related_cards:
+- remittance
+- credit-start
+fact_refs:
+- us.bank.passport-foreign-address
+- us.bank.account-owner
+topics:
+- money

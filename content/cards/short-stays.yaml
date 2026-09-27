@@ -1,0 +1,89 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: short-stays
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan.md
+  section: What is the same in every city, and what is Miami > The city pack, Miami first > The hard papers
+  item: Short stays eating long-term rentals
+- plan: mymiami-plan.md
+  section: Every feature > Housing traps and the bad week
+  item: Short stays
+title:
+  es: Alquileres cortos en tu cuadra
+  en: Short stays on your block
+  ht: Lokasyon kout tèm sou blòk ou
+summary:
+  es: Los alquileres vacacionales pueden comerse los alquileres largos. Qué preguntar antes de firmar.
+  en: Vacation rentals can eat long-term rentals. What to ask before signing.
+  ht: Lokasyon vakans ka manje lokasyon long tèm yo. Kisa pou mande anvan ou siyen.
+body:
+  es: |-
+    La cantidad de alquileres vacacionales en esta cuadra no tiene fuente: todavía no tenemos una fuente oficial.
+
+    Pregunta: ¿es un contrato largo con fecha de fin por escrito? ¿La unidad está registrada como alquiler vacacional?
+
+    Pregunta: ¿alquilan otras unidades del edificio por noche?
+
+    Reporta un posible alquiler vacacional ilegal a la línea del condado para lo que no es emergencia.
+  en: |-
+    A count of vacation rentals on this block is unsourced: we have no official source for it yet.
+
+    Ask: is this a long-term lease with a written end date? Is the unit registered as a vacation rental?
+
+    Ask: are other units in the building rented by the night?
+
+    Report a suspected illegal vacation rental to the county non-emergency desk.
+  ht: |-
+    Kantite lokasyon vakans sou blòk sa a pa gen sous: nou poko gen yon sous ofisyèl pou sa.
+
+    Mande: èske se yon kontra long tèm ak yon dat fen alekri? Èske inite a anrejistre kòm lokasyon vakans?
+
+    Mande: èske gen lòt inite nan bilding lan yo lwe pa nwit?
+
+    Rapòte yon lokasyon vakans ou sispèk ki ilegal bay liy konte a pou sa ki pa ijans.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- []
+- - us-fl-miamidade.short-term-rentals.rules
+- []
+- []
+desk: us-fl-miamidade.311
+actions:
+- type: call_desk
+  desk_id: us-fl-miamidade.311
+utterances:
+  es:
+  - demasiados Airbnb en mi calle
+  - mi edificio es alquiler vacacional
+  - alquileres cortos cerca
+  - mi dueño lo puede volver Airbnb
+  en:
+  - too many Airbnbs on my street
+  - is my building a vacation rental
+  - short term rentals near me
+  - can my landlord turn it into an Airbnb
+  ht:
+  - twòp Airbnb nan lari m
+  - èske bilding mwen se lokasyon vakans
+  - lokasyon kout tèm toupre m
+  - èske mèt kay la ka fè l tounen Airbnb
+privacy_scope: household
+stages:
+- 5
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- lease-basics
+fact_refs:
+- us-fl-miamidade.short-term-rentals.rules
+topics:
+- rent

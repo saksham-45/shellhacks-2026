@@ -1,0 +1,11 @@
+# TEST FIXTURE copy of the topic vocabulary shape (not research/topics.yaml).
+topics:
+  - trash
+  - housing
+  - immigration
+  - health
+  - work
+  - school
+  - transport
+  - municipality
+  - tolls

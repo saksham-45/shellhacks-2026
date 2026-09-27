@@ -1,0 +1,24 @@
+{
+  "note": "Utterance with a route context (ids only, no pack ids).",
+  "type": "utterance",
+  "value": {
+    "context": {
+      "awaiting_confirmation": false,
+      "card_id": null,
+      "choice_ids": [
+        "card.license-checklist",
+        "card.tolls"
+      ],
+      "desk_id": null,
+      "destination": {
+        "person_id": "00000000-0000-4000-8000-000000000001",
+        "type": "person"
+      },
+      "mode": "resident",
+      "person_id": "00000000-0000-4000-8000-000000000001",
+      "stage": 8
+    },
+    "language": "es",
+    "text": "¿y el peaje?"
+  }
+}

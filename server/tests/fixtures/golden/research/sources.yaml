@@ -1,0 +1,10 @@
+# TEST FIXTURE source (fictional) for the /v1 golden responses.
+sources:
+  - id: us.example-source
+    publisher: Example Agency (fictional)
+    title: Example source
+    url: https://example.invalid/id
+    kind: html
+    jurisdiction: us
+    key_required: false
+    check_every: P3650D

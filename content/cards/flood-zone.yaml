@@ -1,0 +1,76 @@
+# Draft card (myAD Content). Copy never inlines a value: see {fact:<id>} and fact_refs.
+id: flood-zone
+kind: card
+status: draft
+plan_refs:
+- plan: myamericandream-plan-additions.md
+  section: Batch 3b
+  item: FEMA flood zone lookup
+title:
+  es: La zona de inundación de tu dirección
+  en: "Your address's flood zone"
+  ht: Zòn inondasyon adrès ou
+summary:
+  es: 'Consulta la zona de tu pin: una zona de peligro mínimo no significa riesgo cero, y el seguro contra inundaciones va aparte.'
+  en: 'Check the zone for your pin: minimal hazard does not mean zero risk, and flood insurance is separate.'
+  ht: 'Tcheke zòn pin ou a: danje minim pa vle di pa gen risk, epi asirans inondasyon separe.'
+body:
+  es: |-
+    Para el pin de tu dirección, la zona que aparece es {fact:us.fema.flood-zone}. Esa clasificación indica peligro mínimo, no riesgo cero.
+
+    El seguro contra inundaciones es separado del seguro de la vivienda. Pregunta al escritorio del NFIP qué cobertura corresponde a tu dirección.
+  en: |-
+    For your address pin, the zone shown is {fact:us.fema.flood-zone}. That classification means minimal hazard, not zero risk.
+
+    Flood insurance is separate from home insurance. Ask the NFIP desk what coverage applies to your address.
+  ht: |-
+    Pou pin adrès ou a, zòn ki parèt la se {fact:us.fema.flood-zone}. Klasifikasyon sa a vle di danje minim, pa zewo risk.
+
+    Asirans inondasyon separe ak asirans kay. Mande biwo NFIP la ki pwoteksyon ki mache pou adrès ou.
+translation_status:
+  es: draft
+  ht: draft
+needs_review:
+  es: true
+  en: false
+  ht: true
+paragraph_facts:
+- - us.fema.flood-zone
+- []
+desk: us.fema-nfip
+actions:
+- type: call_desk
+  desk_id: us.fema-nfip
+utterances:
+  es:
+  - cuál es la zona de inundación de mi casa
+  - mi dirección está en zona de inundación
+  - necesito seguro contra inundaciones
+  - cómo consulto mi zona FEMA
+  - qué significa la zona de mi pin
+  en:
+  - what is my home's flood zone
+  - is my address in a flood zone
+  - I need flood insurance
+  - how do I check my FEMA zone
+  - what does my pin's zone mean
+  ht:
+  - ki zòn inondasyon kay mwen ye
+  - èske adrès mwen nan yon zòn inondasyon
+  - mwen bezwen asirans inondasyon
+  - kijan pou m tcheke zòn FEMA mwen
+  - kisa zòn pin mwen an vle di
+privacy_scope: household
+stages:
+- 5
+modes:
+- resident
+region_pack: us-fl-miamidade
+is_immigration: false
+related_cards:
+- the-building
+- condo-assessment
+fact_refs:
+- us.fema.flood-zone
+topics:
+- flood
